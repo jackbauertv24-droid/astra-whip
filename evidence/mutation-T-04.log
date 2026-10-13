@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+T-01: PASS
+T-02: PASS
+T-03 reachable standing samples: 229
+T-03: PASS
+T-04 measured rise=44.54150390625 apex=0.23333333333333 travel=114.034118652344
+FAIL T-04: rise 128 +/-6%
+FAIL T-04: apex 0.4 +/-6%
+FAIL T-04: travel 192 +/-6%
+T-04: FAIL
+T-05: PASS
+T-06: PASS
+T-07: PASS
+T-08: PASS
+T-09: PASS
+RESULT 1213 assertions, 3 failures; mutation=T-04

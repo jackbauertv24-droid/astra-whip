@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+T-01: PASS
+T-02: PASS
+T-03 reachable standing samples: 229
+T-03: PASS
+T-04 measured rise=125.398559570312 apex=0.39166666666667 travel=192.024963378906
+T-04: PASS
+FAIL T-05: active 200ms
+FAIL T-05: one hit per target per attack
+T-05: FAIL
+T-06: PASS
+T-07: PASS
+T-08: PASS
+T-09: PASS
+RESULT 1213 assertions, 2 failures; mutation=T-05

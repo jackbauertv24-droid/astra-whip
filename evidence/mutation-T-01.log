@@ -1,0 +1,17 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL T-01: press entry must immediately install 40x60 body
+FAIL T-01: held-crouch landing body
+FAIL T-01: air attack landing body
+T-01: FAIL
+T-02: PASS
+T-03 reachable standing samples: 229
+T-03: PASS
+T-04 measured rise=125.398559570312 apex=0.39166666666667 travel=192.024963378906
+T-04: PASS
+T-05: PASS
+T-06: PASS
+T-07: PASS
+T-08: PASS
+T-09: PASS
+RESULT 1213 assertions, 3 failures; mutation=T-01

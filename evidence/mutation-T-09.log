@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+T-01: PASS
+T-02: PASS
+T-03 reachable standing samples: 229
+T-03: PASS
+T-04 measured rise=125.398559570312 apex=0.39166666666667 travel=192.024963378906
+T-04: PASS
+T-05: PASS
+T-06: PASS
+T-07: PASS
+T-08: PASS
+FAIL T-09: mapped clip exists hero_crouch_enter
+FAIL T-09: state selects clip hero_crouch_enter
+T-09: FAIL
+RESULT 1206 assertions, 2 failures; mutation=T-09
