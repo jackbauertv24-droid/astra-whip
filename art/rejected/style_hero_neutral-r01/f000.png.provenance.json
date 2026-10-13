@@ -1,0 +1,14 @@
+{
+  "source": "art/candidates/style_hero_neutral-r01.png",
+  "source_canvas": [
+    1254,
+    1254
+  ],
+  "export_canvas": [
+    512,
+    512
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

@@ -1,0 +1,15 @@
+{
+  "source": "art/candidates/style_enemy_pursuer-delivery.png",
+  "corrective_normalization": 0.8959537572254336,
+  "source_pivot": [
+    128.5,
+    232
+  ],
+  "delivery_pivot": [
+    128,
+    224
+  ],
+  "target_height": 155,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

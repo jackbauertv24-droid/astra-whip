@@ -1,0 +1,65 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/frames",
+ "defects": 4,
+ "flags": 0,
+ "clips_audited": 1,
+ "references": {
+  "hero": {
+   "size": 137.6844217767573,
+   "height": 275,
+   "head": 55
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "style_hero_neutral",
+   "frame": null,
+   "msg": "reference height 275.0 outside 217.3–230.7: every size check for hero is anchored on this clip"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "style_hero_neutral",
+   "frame": null,
+   "msg": "reference head width 55.0 px = 0.246 × design height, outside 0.14–0.2"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "style_hero_neutral",
+   "frame": 0,
+   "msg": "height 275 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "style_hero_neutral",
+   "frame": 0,
+   "msg": "ink 41 px below the pivot line"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     198,
+     215,
+     317,
+     489
+    ],
+    "height": 275,
+    "width": 120,
+    "area": 18957,
+    "size": 137.684,
+    "top": 215,
+    "foot": 489,
+    "headWidth": 55,
+    "bootRatio": 0.53,
+    "legDip": 0.34
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "source": "art/candidates/style_hero_attack_key-delivery.png",
+  "corrective_normalization": 0.9739130434782609,
+  "source_pivot": [
+    243.5,
+    451
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 224,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

@@ -1,0 +1,31 @@
+import {readPNG,writePNG} from './lib/png.mjs';
+import {canvas,paste,rect,cross,hline} from './lib/draw.mjs';
+import {mkdirSync,copyFileSync,writeFileSync} from 'node:fs';
+const out='art/review-style';mkdirSync(out,{recursive:true});
+const hero=readPNG('art/frames/style_hero_neutral/f000.png');
+const attack=readPNG('art/candidates/style_hero_attack_key.png');
+const enemy=readPNG('art/candidates/style_enemy_pursuer.png');
+const terrain=readPNG('art/candidates/style_terrain_patch_3x3.png');
+copyFileSync('art/candidates/style_hero_attack_key.png',out+'/style_hero_attack_key.png');
+copyFileSync('art/candidates/style_enemy_pursuer.png',out+'/style_enemy_pursuer.png');
+copyFileSync('art/candidates/style_terrain_patch_3x3.png',out+'/style_terrain_patch_3x3.png');
+const lineup=canvas(1344,512);paste(lineup,hero,0,0);paste(lineup,attack,512,0);paste(lineup,enemy,1024,224);
+hline(lineup,0,1343,448,[235,64,52,255]);hline(lineup,0,1023,224,[64,200,235,255]);
+writePNG(out+'/calibration_lineup.png',lineup);
+const repeat=canvas(1152,384);for(let i=0;i<3;i++)paste(repeat,terrain,384*i,0);writePNG(out+'/terrain_repeat.png',repeat);
+const scene=readPNG('art/candidates/environment-background.png');
+for(let x=0;x<2560;x+=384)paste(scene,terrain,x,1120);
+paste(scene,hero,800-256,1120-448);
+// Schematic interactable accent for calibration only; not a production prop.
+for(let y=1024;y<1120;y++)for(let x=1832;x<1864;x++)scene.data.set([76,88,102,255],(y*2560+x)*4);
+for(let y=1004;y<1038;y++)for(let x=1834;x<1862;x++)if(Math.abs(x-1848)+Math.abs(y-1021)<16)scene.data.set([227,163,74,255],(y*2560+x)*4);
+writePNG(out+'/style_env_mockup.png',scene);
+copyFileSync('art/candidates/environment-background.png',out+'/layer_background.png');
+copyFileSync('art/candidates/style_terrain_patch_3x3.png',out+'/layer_terrain.png');
+copyFileSync('art/frames/style_hero_neutral/f000.png',out+'/layer_hero.png');
+const overlay=canvas(768,512);paste(overlay,attack,0,0);
+// Socket measured from the delivered fist, schematic weapon for style gate.
+const socket=[389,280];cross(overlay,...socket,6,[0,255,255,255]);
+hline(overlay,socket[0],592,socket[1],[160,133,96,255]);
+rect(overlay,336,284,592,356,[255,230,0,255]);writePNG(out+'/attack_socket_overlay.png',overlay);
+writeFileSync(out+'/style-scope.md',`# Style calibration scope\n\nReview only the five ART_BIBLE section 8 calibration pieces at this gate.\nHero neutral: strip_style_hero_neutral.png / layer_hero.png.\nAttack key: style_hero_attack_key.png and schematic attack_socket_overlay.png.\nPursuer alert: style_enemy_pursuer.png.\nTerrain: style_terrain_patch_3x3.png and terrain_repeat.png.\nEnvironment: style_env_mockup.png, phone.png, grayscale.png.\n\nBackground, terrain and hero sources are retained separately. The checkpoint-like amber accent is schematic calibration geometry, not final production art.\nNo production animation clips have been delivered at this gate.\n`);

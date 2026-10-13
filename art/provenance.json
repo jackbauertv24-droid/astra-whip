@@ -1,0 +1,33 @@
+{
+  "status": "candidate; independent review pending",
+  "creator": "OpenAI image_gen built-in tool",
+  "model": null,
+  "seed": null,
+  "input_sources": "Original textual briefs and generated guide images; generated candidate images used as references. No franchise assets.",
+  "usage_basis": "Generated for this user-requested implementation; no third-party game files used. No assertion of exclusive copyright.",
+  "prompts": "art/prompts/style.json",
+  "normalization": "Per-frame .normalization.json and .provenance.json sidecars. Export resolution converted uniformly with transparent letterboxing as needed; corrective factors bounded by G-03.",
+  "rejected": "art/rejected and art/candidates preserve all earlier candidates",
+  "files": [
+    {
+      "path": "art/frames/style_hero_neutral/f000.png",
+      "sha256": "dd9853bc80d91ee588f44ac1a76d7ebc5be8860e3c5352b6e51f05525fce90dd"
+    },
+    {
+      "path": "art/candidates/style_hero_attack_key.png",
+      "sha256": "f190bb433a182f170a9a16ab17781c56383cf2120468958303bbc8f2524cab32"
+    },
+    {
+      "path": "art/candidates/style_enemy_pursuer.png",
+      "sha256": "eea465f084ddb3c6436b7b1483f62aa02a426a5b884d15b0d8f2b140cafd813d"
+    },
+    {
+      "path": "art/candidates/style_terrain_patch_3x3.png",
+      "sha256": "38598d833da96cffb57e32b89042dbb83125bf09e7634fa1c633b731550bb4be"
+    },
+    {
+      "path": "art/review-style/style_env_mockup.png",
+      "sha256": "2c4ed72df97097b3658ab1db4cbf627deff1755217744af422822dc2b02b64f9"
+    }
+  ]
+}
