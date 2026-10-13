@@ -1,0 +1,15 @@
+{
+  "source": "art/candidates/style_hero_neutral-r04-delivery.png",
+  "corrective_normalization": 1.0228310502283104,
+  "source_pivot": [
+    264,
+    449
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 224,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

@@ -1,0 +1,14 @@
+{
+  "source": "art/review-style-v2/style_env_mockup.png",
+  "source_canvas": [
+    2560,
+    1440
+  ],
+  "export_canvas": [
+    844,
+    475
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

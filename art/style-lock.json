@@ -1,0 +1,38 @@
+{
+  "id": "style_lock_r01",
+  "approved_at": "2026-10-13",
+  "reviewer": "/root/style_review_v3",
+  "verdict": "REVIEW: PASS",
+  "evidence": "art/review-style-v3/review_verdict.md",
+  "generation": {
+    "tool": "built-in image_gen",
+    "model": null,
+    "seed": null,
+    "prompt_records": [
+      "art/prompts/style.json",
+      "art/prompts/style-corrections.json"
+    ]
+  },
+  "references": [
+    {
+      "path": "art/frames/style_hero_neutral/f000.png",
+      "sha256": "216fe02fa37d7373613c9fe742ed7075777d214e74c19f39b284b7d483bd05ff"
+    },
+    {
+      "path": "art/candidates/style_hero_attack_key.png",
+      "sha256": "4dbf98b5c96d7b2576d9d3845d81dcc42826da2fbe423e09cb392985a2eb4be7"
+    },
+    {
+      "path": "art/candidates/style_enemy_pursuer.png",
+      "sha256": "eea465f084ddb3c6436b7b1483f62aa02a426a5b884d15b0d8f2b140cafd813d"
+    },
+    {
+      "path": "art/candidates/style_terrain_patch_3x3.png",
+      "sha256": "38598d833da96cffb57e32b89042dbb83125bf09e7634fa1c633b731550bb4be"
+    },
+    {
+      "path": "art/review-style-v3/style_env_mockup.png",
+      "sha256": "0ffe75fbd7e5f088684d90c713706d0300317c62adad3ae62a10ccb8da88de16"
+    }
+  ]
+}

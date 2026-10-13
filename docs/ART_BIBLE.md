@@ -195,3 +195,7 @@ On pack approval, register here (empty until then): style-lock revision ID; the 
 - The pack itself: no candidate art exists; V1 (art calibration) is PENDING and gates all production art.
 - Final enemy/boss sizes, canvases, and frame counts are P3's; background panel dimensions are settled in P3's budget reconciliation ([TEXTURE_BUDGET.md](TEXTURE_BUDGET.md)).
 - Everything visual here is PROPOSED except the confirmed constraints named in the header; user confirmation of the *designs* happens at pack review, not before.
+
+## Implementation style lock — 2026-10-13
+
+Astra Whip `style_lock_r01` is registered in [art/style-lock.json](../art/style-lock.json), including all five reference paths and hashes, prompt records, and reviewer identity. Independent [review v3](../art/review-style-v3/review_verdict.md): **REVIEW: PASS** for the five calibration pieces. This supersedes the empty register above only for this implementation. Production animation remains unapproved. Earlier rejected evidence remains in the v1/v2 review packs.

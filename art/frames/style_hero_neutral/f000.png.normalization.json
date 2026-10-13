@@ -1,9 +1,9 @@
 {
-  "source": "art/candidates/style_hero_neutral-r04-delivery.png",
-  "corrective_normalization": 1.0228310502283104,
+  "source": "art/candidates/style_hero_neutral-r05-delivery.png",
+  "corrective_normalization": 1,
   "source_pivot": [
-    264,
-    449
+    256,
+    448
   ],
   "delivery_pivot": [
     256,
