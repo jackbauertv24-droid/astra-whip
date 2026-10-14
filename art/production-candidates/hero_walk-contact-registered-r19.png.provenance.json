@@ -1,0 +1,11 @@
+{
+  "kind": "scripted_fallback",
+  "source": "art/production-candidates/hero_walk-contact-key-r17.png",
+  "script": "tools/prepare-walk-contact.mjs",
+  "lower_boot_translation": [
+    -17,
+    0
+  ],
+  "preserved_lower_boot_pixels": 1197,
+  "method": "Knee/cloth transition sampled on heroGrid; lower boot atx>=275,y>=410 translates without pixel alteration. No whole-body scale change."
+}

@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_walk-contact-delivery-r17.png",
+  "corrective_normalization": 0.956140350877193,
+  "source_pivot": [
+    256,
+    454
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 218,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

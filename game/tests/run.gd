@@ -240,7 +240,8 @@ func run() -> void:
    check(v.sprite_frames.get_animation_loop(id)==spec.loop,"loop "+id)
    var ms=0.0
    for index in spec.ms.size():
-    v.follow(id.substr(v.actor.length()+1),(ms+0.01)/1000.0)
+    var expected_rate = 2.0 if id == "hero_walk" else 1.0 # ANIMATION_SPEC permits travel-speed tuning.
+    v.follow(id.substr(v.actor.length()+1),(ms+0.01)/(1000.0*expected_rate))
     check(v.frame==index,"frame-step "+id+"/"+str(index))
     ms+=float(spec.ms[index])
  report(group,start)

@@ -1,0 +1,53 @@
+{
+  "method": "Approximate flat-sole toe ink(alpha>=40, rows443..448), stance windows0..3 and4..7; not a physical-device measurement.",
+  "landmarks": [
+    {
+      "frame": 0,
+      "root_x": 678,
+      "toe_source_x": 320,
+      "toe_world_x": 710
+    },
+    {
+      "frame": 1,
+      "root_x": 688,
+      "toe_source_x": 300,
+      "toe_world_x": 710
+    },
+    {
+      "frame": 2,
+      "root_x": 698,
+      "toe_source_x": 280,
+      "toe_world_x": 710
+    },
+    {
+      "frame": 3,
+      "root_x": 708,
+      "toe_source_x": 261,
+      "toe_world_x": 710.5
+    },
+    {
+      "frame": 4,
+      "root_x": 718,
+      "toe_source_x": 307,
+      "toe_world_x": 743.5
+    },
+    {
+      "frame": 5,
+      "root_x": 728,
+      "toe_source_x": 287,
+      "toe_world_x": 743.5
+    },
+    {
+      "frame": 6,
+      "root_x": 736,
+      "toe_source_x": 270,
+      "toe_world_x": 743
+    },
+    {
+      "frame": 7,
+      "root_x": 746,
+      "toe_source_x": 252,
+      "toe_world_x": 744
+    }
+  ]
+}

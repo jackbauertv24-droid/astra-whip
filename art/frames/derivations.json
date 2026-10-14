@@ -78,38 +78,32 @@
       "art/production-candidates/hero_passing-key-v2-edge-clean.png",
       "art/review-hero-keys-r06/key_3.png",
       "art/production-candidates/hero_passing-b-key-edge-clean.png",
-      "art/frames/style_hero_neutral/f000.png"
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_walk-f3-coat-key-r12.png",
+      "art/production-candidates/hero_walk-contact-key-r17.png"
     ],
-    "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved. Named middle-frame replacements F3/F4/F6 are direct normalized AI-painted in-betweens, with no scripted body deformation. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours. Revision r06: F3/F4/F6 are direct AI-painted repairs using neighbouring poses, approved identity and guide, individually normalized once; no geometry editing after normalization.",
-    "reason": "Generated sheets failed scale; first rig and held-pose gait failed visual continuity. This full alternating candidate requires independent motion acceptance.",
+    "method": "Approved contactA/passingA/contactB/passingB keys supply articulated F0/F1/F2/F5/F6/F7/F8/F9 with neutral portrait reuse. F1 uses contactA-to-passingA at0.9 and contactA upperbody. F2 uses passingA-to-contactB at0.4; unweighted near-leg joint path moves forward30px/up15px. F3 uses normalized direct painted coat/leg-depth body with neutral portrait reuse. F4 uses directly painted contact normalized once at0.95614, then supporting boot translated17px left below y405 with knee/skirt transition from y365; no boot resizing or whole-body scaling. F5/F6 use contactB-to-passingB at0.6/0.8 with passingB upperbody. F8 uses passingB-to-contactA at0.5. F9 uses the distinct0.8 late-swing target. Frame cleanup removes onlyalpha<=4.",
+    "reason": "Painted support-registration attempts did not realize requested contact coordinates; the labeled articulated fallback uses approved body keys. Fresh independent full-loop motion review required.",
     "scripted_frames": [
       0,
       1,
       2,
+      3,
+      4,
       5,
+      6,
       7,
       8,
       9
     ],
     "painted_frames": [
       3,
-      4,
-      6
+      4
     ],
-    "painted_frame_sources": {
-      "3": {
-        "source": "art/production-candidates/hero_walk-repair-f3-key-r06.png",
-        "near_transparent_pixels_removed": 531
-      },
-      "4": {
-        "source": "art/production-candidates/hero_walk-f4-hair-key-r07.png",
-        "near_transparent_pixels_removed": 706
-      },
-      "6": {
-        "source": "art/production-candidates/hero_walk-repair-f6-key-r06.png",
-        "near_transparent_pixels_removed": 789
-      }
-    }
+    "painted_frame_sources": [
+      "art/production-candidates/hero_walk-f3-coat-key-r12.png",
+      "art/production-candidates/hero_walk-contact-key-r17.png"
+    ]
   },
   "hero_start_move": {
     "kind": "reused",

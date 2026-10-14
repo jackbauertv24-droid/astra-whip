@@ -1,0 +1,2 @@
+PASS: only walk derivation changed; F0/F7/F8 retained exactly; all ten runtime frames match and decoded frames are distinct.
+PASS: 1197 lower contact-boot pixels translate exactly17px left, RGBA unchanged; no foot resizing.

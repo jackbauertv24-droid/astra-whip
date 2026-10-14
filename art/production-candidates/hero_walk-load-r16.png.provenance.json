@@ -1,0 +1,11 @@
+{
+  "kind": "scripted_fallback",
+  "sources": [
+    "art/review-hero-keys-r06/key_3.png",
+    "art/production-candidates/hero_passing-b-key-edge-clean.png",
+    "art/frames/style_hero_neutral/f000.png"
+  ],
+  "interpolation": 0.6,
+  "reason": "Painted support-registration attempts failed intended coordinates and independent r14 rejected world-space foot slip/torso jump. ART_CONTRACT section11 fallback uses only independently approved body keys. Fresh full-loop review required.",
+  "method": "Independently articulated approved near/far limb masks and passing upperbody with approved portrait; no whole-body corrective rescaling."
+}

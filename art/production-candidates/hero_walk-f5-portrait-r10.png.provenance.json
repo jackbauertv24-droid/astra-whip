@@ -1,0 +1,12 @@
+{
+  "kind": "reused",
+  "portrait": "art/frames/style_hero_neutral/f000.png",
+  "body": "art/production-candidates/hero_walk-f5-key-r10.png",
+  "portrait_translation": [
+    0,
+    6
+  ],
+  "neck_join": "8px alpha feather",
+  "script": "tools/prepare-walk-portraits.mjs",
+  "reason": "Generated head widths failed A08; reuse approved portrait without resizing body or limbs. Fresh independent motion acceptance required."
+}

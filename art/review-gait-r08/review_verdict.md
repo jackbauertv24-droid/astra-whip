@@ -1,0 +1,30 @@
+# Independent scoped review r08
+
+## Blind observations recorded before reading requirements or audit
+
+Lineup: left figure stands upright with two grounded boots and a long split brown coat; right figure has a wider stride with one boot forward and one back. Hair, face, shoulder silhouette and brown clothing look closely matched. The striding figure reads a little shorter through the head/shoulders, with a lower trailing coat tip.
+
+Neutral strip tile F0: complete standing figure, brown long hair, pale sleeve bands, silver forearm pieces, dark trousers and brown boots. Both feet rest on the baseline. A looped cord hangs by the near hand. Legs read separately under the coat.
+
+Walk strip F0: wide planted stride, forward rightward boot and trailing leftward boot; coil hangs beside the trailing thigh. F1: almost the same wide stride with subtly changed arm/coat placement. F2: feet draw together; rear boot lifts, front boot plants, coil shifts inward. F3: one straight supporting leg and another raised forward boot; coat remains long and split. F4: wide stride again with both boots close to ground. F5: opposite-looking wide stride, rearward leg planted and rightward boot angled toward contact; front coat panel flares rightward. F6: one straight supporting boot and a lifted rear boot that appears conspicuously grey/darker than other boots; coat rises backward. F7: supporting leftward boot and raised forward rightward boot; coil is bright beside the near thigh. F8: legs closer, rightward boot low and leftward boot grounded; coat moves left. F9: wide stride near F0 arrangement, with the forward boot smaller/shorter-looking than F0. Across tiles, torso and head look steady, and most movement occurs below the belt; apparent boot shape/color and coat opening change more than arms.
+
+## Inspection and adjudication
+
+Scope is exactly `style_hero_neutral` and `hero_walk`. I inspected the lineup, both strips, all eleven native PNGs, all ten adjacent onion pairs including F9→F0, and all twenty actual engine PNGs (ten desktop and ten phone). I read the supplied requirements, style lock, scoped audit and clip metadata after recording the observations above. No previous reviewer verdict was consulted. Unrelated missing clips and derived actions listed in the generic index are outside this review.
+
+Both clips retain a complete human body from head through two boots, face right, and preserve the hunter's recognizable hair, face, shoulder mantle, sleeves, bracers, long coat and small held coil. There is no torso-only substitution, clipped body, hard sprite rectangle or detached weapon. Walk height changes are modest body bob, not a resized actor; the native figures remain the neutral's physical size. The neutral is a credible even-weight standing reference.
+
+The walk has individually credible contact and swing silhouettes, but the pair sequence fails sustained leg identity and weight transfer. Following the prominent warm brown near boot and its broad cuff: it swings forward in F3 and lands forward in F4; in F5 it is suddenly the rear supporting boot while the other boot occupies the forward contact; in F6 it abruptly becomes the forward supporting boot again, while the grey far boot lifts behind; in F7 the broad near cuff/support is behind again. Thus F4→F5 and F5→F6 reverse which leg carries the forward contact without the intervening supported progression. F6→F7 repeats the discontinuity. A ground-aligned sole in every still does not fix the moving support leg's identity. F6 is an especially conspicuous isolated grey boot/calf treatment against predominantly brown neighbours; this strengthens the visible replacement/pop rather than merely distinguishing depth.
+
+Onion pair findings: F0→F1 is a small shortening of the contact; F1→F2 draws the rear boot up while the front supports; F2→F3 can read as that boot swinging forward past the support; F3→F4 lowers the forward swing toward contact. F4→F5 fails the above near/far transfer. F5→F6 fails the above support reversal and rear-leg material jump. F6→F7 fails the reverse support relocation. F7→F8 is a believable lowering of a forward swing, F8→F9 widens toward contact, and F9→F0 is visually identical, so there is no seam pop. The repeated end/start contact does produce a brief hold, but is not the blocking defect.
+
+The coat and coil stay attached, but F4→F5 changes the coat opening and major skirt lobe at the same moment as the leg reassignment, and F5→F6 snaps it backward. These are secondary contributors to the broken gait; the body does not become a different character. The engine captures preserve the native defects: desktop shows the F3 forward lift and F6 rear lift clearly; phone preserves a complete, readable warm hunter silhouette but does not resolve the gait's contradictory transfers. Static engine captures establish render/readability and pose order; they do not independently prove travel-speed synchronization.
+
+Accepted audit flag: **A-08, hero_walk F004**, head width 1.051× reference. The face/head remain the same size visually; the two-pixel outline difference is an isolated hair/head silhouette variation, not scale drift. This flag is acceptable and is not a reason for failure.
+
+| Clip | Verdict | Failing frames | Defect | Smallest correction |
+|---|---|---|---|---|
+| style_hero_neutral | PASS | — | Complete, grounded, recognizable neutral hunter reference. | None. |
+| hero_walk | FAIL | F004–F007 (blocking transitions F4→F5, F5→F6, F6→F7) | Near/far boots exchange forward/support positions and reverse weight transfer; isolated far-boot material and coat opening pop compound the discontinuity. | Repair the boundary poses F4/F6 against unchanged F5/F7 so the same identified legs retain a continuous planted-support path and forward swing; preserve both boots' leather/material shading and interpolate coat/coil attachments through those neighbours. If the fixed anchors cannot support that path, replace the smallest adjacent contact pose needed rather than swapping leg identities. |
+
+REVIEW: FAIL (1 clips)

@@ -1,6 +1,7 @@
 class_name ActorVisual
 extends AnimatedSprite2D
 # Preview art follows authoritative gameplay clocks; release debt is documented.
+const WALK_CADENCE = 2.0
 var actor: String
 var specs: Dictionary
 var played: Dictionary = {}
@@ -40,6 +41,8 @@ func configure(kind: String) -> void:
  scale = Vector2(0.5, 0.5)
  offset = Vector2(0, -192) if actor == "hero" else Vector2(32, -96)
  follow("idle", 0)
+func playback_rate(state: String) -> float:
+ return WALK_CADENCE if actor == "hero" and state == "walk" else 1.0
 func follow(state: String, elapsed: float) -> void:
  var id = actor + "_" + state
  if not sprite_frames.has_animation(id): return
@@ -47,7 +50,7 @@ func follow(state: String, elapsed: float) -> void:
  if animation != id: animation = id
  pause()
  if get_parent().get("facing") != null: flip_h = get_parent().facing < 0
- var ms = elapsed * 1000.0
+ var ms = elapsed * 1000.0 * playback_rate(state)
  var durations: Array = specs[id].ms
  var total = 0.0
  for d in durations: total += float(d)

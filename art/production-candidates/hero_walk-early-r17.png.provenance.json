@@ -1,0 +1,15 @@
+{
+  "kind": "scripted_fallback",
+  "script": "tools/prepare-walk-early.mjs",
+  "sources": [
+    "art/production-candidates/hero_walk-key-edge-clean.png",
+    "art/production-candidates/hero_passing-key-v2-edge-clean.png",
+    "art/frames/style_hero_neutral/f000.png"
+  ],
+  "interpolation": 0.9,
+  "near_swing_joint_offset": [
+    0,
+    0
+  ],
+  "method": "Articulated approved limb masks; rigid neutral portrait reuse; authored origin retained."
+}

@@ -1,0 +1,12 @@
+{
+  "kind": "scripted_fallback",
+  "sources": [
+    "art/production-candidates/hero_passing-b-key-edge-clean.png",
+    "art/production-candidates/hero_walk-key-edge-clean.png",
+    "art/frames/style_hero_neutral/f000.png"
+  ],
+  "script": "tools/prepare-walk-seam.mjs",
+  "interpolation": 0.8,
+  "method": "Articulated approved passingB-to-contactA late-swing in-between, approved portrait reuse, authored origin retained. Final runtime only removesalpha<=4.",
+  "reason": "Replace duplicate terminal contact pose with distinct authored loop-seam target; full independent review required."
+}

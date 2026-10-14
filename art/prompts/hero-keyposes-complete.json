@@ -493,5 +493,184 @@
       "art/guides/hero.png"
     ],
     "status": "rejected: head width 44 persists"
+  },
+  {
+    "id": "walkF3R08",
+    "prompt": "Use case precise-object-edit. One full-body right-facing hunter walking in-between. Preserve exact approved neutral identity, narrow39px profilehead, leather mantle/long coat, pale linen, metal bracers, compact hipcoil. Full body, top of head to soles of boots, feet on ground line. SMALL218px high on512 transparent canvas headtop231 sole448 root256; upper45%empty, no zoom. Two distinct anatomically continuous legs: NEAR brown-leather leg and boot visibly in front of FAR desaturated gray leg. Same physical head, calves and35pxbootlength as references, no shrink/duplicateleg/fragments. Sharp painted textures, no guides/floor/shadow/text/debris. FIRST image is preceding passing pose, second is next opposed contact, third neutral, fourth guide. Continue FAR GRAY leg as grounded support: its boot remains planted atx272 sole448 underhip. NEAR BROWN leg that was lifted behind now swings FORWARD IN FRONT, near thigh/knee reachingx280, near brown boot lifted with sole430 atx294. DO NOT swap supporting leg; brown airborne boot overlaps gray calf, two feet visibly distinct. Keep torso/head centeredx256, hipcoilx236 y340 and natural coat panels consistent with previous/next images.",
+    "raw_output": "art/production-candidates/hero_walk-f3-r08.png",
+    "required_references": [
+      "art/frames/hero_walk/f002.png",
+      "art/frames/hero_walk/f005.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkF4R08",
+    "prompt": "Use case precise-object-edit. One full-body right-facing hunter walking in-between. Preserve exact approved neutral identity, narrow39px profilehead, leather mantle/long coat, pale linen, metal bracers, compact hipcoil. Full body, top of head to soles of boots, feet on ground line. SMALL218px high on512 transparent canvas headtop231 sole448 root256; upper45%empty, no zoom. Two distinct anatomically continuous legs: NEAR brown-leather leg and boot visibly in front of FAR desaturated gray leg. Same physical head, calves and35pxbootlength as references, no shrink/duplicateleg/fragments. Sharp painted textures, no guides/floor/shadow/text/debris. First previous passing, second next opposed contact, thirdneutral fourthguide. Just BEFORE second image contact: NEAR BROWN leg swings forward in front, brown boot reachesx310 with heel nearlyground sole445, knee extended. FAR GRAY leg keeps ground support and movesrear tox247 sole448, farheel beginning lift. Nearbrown thigh has coat panel; fargray shin behindit. This is brown forward foot arriving, not gray forward foot. Headcenter256/top231 and hipcoil match second image; coat shape transitions smoothly into second image. Do not change head/bodyhorizontalorigin.",
+    "raw_output": "art/production-candidates/hero_walk-f4-r08.png",
+    "required_references": [
+      "art/frames/hero_walk/f002.png",
+      "art/frames/hero_walk/f005.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkF6R08",
+    "prompt": "Use case precise-object-edit. One full-body right-facing hunter walking in-between. Preserve exact approved neutral identity, narrow39px profilehead, leather mantle/long coat, pale linen, metal bracers, compact hipcoil. Full body, top of head to soles of boots, feet on ground line. SMALL218px high on512 transparent canvas headtop231 sole448 root256; upper45%empty, no zoom. Two distinct anatomically continuous legs: NEAR brown-leather leg and boot visibly in front of FAR desaturated gray leg. Same physical head, calves and35pxbootlength as references, no shrink/duplicateleg/fragments. Sharp painted textures, no guides/floor/shadow/text/debris. First previous opposed contact, second next passing pose, thirdneutral fourthguide. Immediately AFTER firstimage: NEAR BROWN forward leg remains SUPPORT, brown boot draws underbody tox280 sole448, near knee slightly bent. FAR GRAY rear leg UNWEIGHTS and lifts BEHIND, gray boot tox228 sole433, grayknee begins swinging, NOT forward yet. Brown plantedboot must stay onground, grayrearboot airborne. Torso/headx256, avoid forward/backhitch. Match nearhipcoil and nearcoat panel from firstimage transitioning intosecond. No raisedforwardboot inthisframe.",
+    "raw_output": "art/production-candidates/hero_walk-f6-r08.png",
+    "required_references": [
+      "art/frames/hero_walk/f005.png",
+      "art/frames/hero_walk/f007.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkF5R09",
+    "prompt": "Use case precise-object-edit. Create ONE contact pose betweenimage1 andimage2, exactsamehunteridentity. Full body, top of head to soles of boots, feet on ground line. SMALL218px high512canvas head231 sole448 root256 emptyupper45%transparent nozoom. CLEAR near/far legs: NEAR leg directlyunderbrowncoatpanel extends FORWARD RIGHT tobootcenter315 sole448; FAR graytrouser leg extends BACKLEFT tobootcenter225 sole448, heelraised slightly. Nearbrown forward calf/boot crosses IN FRONT ofgrayfarleg atknees. BOTH boots are brownleather matchingneutralboots, farbootdarkerbrown NOTgraymaterial. Keepimage1upperbody/coat/coil continuous, nearcoatpanel lays overforwardthigh, fargraypantstrouservisiblebehind. SAME39px narrowhead/face profile, samephysicalbootcalfthighsizes. No legswap: nearbrownbootforward; fargraypants/brownbootrear. Opposite ofinitialfarlegforwardstride. Sharptexturedpaint nofloor shadows textguidesdebris. Exactlyonecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f5-r09.png",
+    "required_references": [
+      "art/frames/hero_walk/f004.png",
+      "art/frames/hero_walk/f006.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "rejected G03: required scale1.329268 outside0.85..1.18"
+  },
+  {
+    "id": "walkF6BootR09",
+    "prompt": "Use case precise-object-edit. Image1 actualwalkpose. ONLY repaint lifted BACKLEFT boot as darkBROWN LEATHER matching image2/3boots, NOTgray boot. KEEP GRAYfartrouseraboveboot but brownleathercalfboot, cuff/ankle/sole same35pxphysicallength. Retain allimage1pose, nearbrownfrontPLANTEDbootcenter280 ground448, grayfarlegliftbehind center228 sole433, torsoheadx256 coatcoilneck. No limbpositions orheadchange. Full body, top of head to soles of boots, feet on ground line. SMALL221px on512canvas head228 soles448 root256 upper45%empty transparent nozoom. Exact39pxcompactheadprofile approvedneutral. Sharppaintedleatherlinen, no textguidesfloorshadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f6-boot-r09.png",
+    "required_references": [
+      "art/frames/hero_walk/f006.png",
+      "art/frames/hero_walk/f004.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkF5R10",
+    "prompt": "Precise-object-edit of IMAGE1. Keep EXACT image1 canvas and FULL FIGURE SIZE/POSITION. Do not zoom out, shrink or recenter. Only lower its forward BROWN boot to touch ground448 and straighten near forward knee into heel-contact; keep that nearbrown leg forward-right atx315 and FAR graytrouser/brownboot behind-left atx225. This pose must retain image1 exacthead/face/torso/coilcoat, same39pxheadwidth same512canvas human218px tall, top231 soles448 root256. Image2 neutralidentity; image3 pivotguide. Full body, top of head to soles of boots, feet on ground line. Image1 body occupies y231..448: output MUST occupy same bounds, NOT smallerhumaninmiddle. Nearbrownforwardleg stays IN FRONT of fargraybackleg; BOTH boots brownleather with samephysical35pxbootlength. Upper45%emptytransparent. Sharpnaturalpaintedlinen/leather asimage1, no floor shadows textguidesdebris. Onecompletefigure. Entire218pxtallbody preserved.",
+    "raw_output": "art/production-candidates/hero_walk-f5-r10.png",
+    "required_references": [
+      "art/frames/hero_walk/f004.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkCoatF3R12",
+    "prompt": "Precise-object-edit image1 hunter walk frame. KEEP EXACT image1 headfacehairtorsoarms, full figure SIZE/POSITION, knee and BOOT POSITIONS unchanged. ONLY correct NEAR COAT PANEL OCCLUSION: warm brown NEAR coat skirt must travel WITH near forward RIGHT thigh, visibly draping OVER that thigh and knee in FRONT of the far gray leg. Shift the visible near skirt lobe from backLEFT to forwardRIGHT; show FAR gray trouser behind, connected continuously from farhip toward backLEFT knee/boot. The near leg is onRIGHT with Brown boot, far leg onLEFT with brownleatherboot and GRAY trouser. Near coat panel x270..300 y350..395 drapes nearforward thigh; brown near knee/cuff attacheddirectlybeneathit; farGRAYthigh is behind near thigh, not in front. F3 nearBrownboot raisedFORWARD; farleggrounded. Same physical limb/boot sizes, two coherent distinct legs, no repaint gray bootmaterial. Image2 neighbouring pose, image3 approvedidentity, image4guide. Full body, top of head to soles of boots, feet on ground line. EXACT SAME SMALL218px fullheight on512canvas, headtop231 ground448 root256; output samebounds asimage1, do NOT shrink/recenter/zoom. Upper45%emptytransparent. Exact39pxnarrowrightprofilehead. Sharpbrownleatherlinenpaint, no textfloor guides shadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f3-coat-r12.png",
+    "required_references": [
+      "art/frames-gait-review-r11/hero_walk/f003.png",
+      "art/frames-gait-review-r11/hero_walk/f002.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkCoatF4R12",
+    "prompt": "Precise-object-edit image1 hunter walk frame. KEEP EXACT image1 headfacehairtorsoarms, full figure SIZE/POSITION, knee and BOOT POSITIONS unchanged. ONLY correct NEAR COAT PANEL OCCLUSION: warm brown NEAR coat skirt must travel WITH near forward RIGHT thigh, visibly draping OVER that thigh and knee in FRONT of the far gray leg. Shift the visible near skirt lobe from backLEFT to forwardRIGHT; show FAR gray trouser behind, connected continuously from farhip toward backLEFT knee/boot. The near leg is onRIGHT with Brown boot, far leg onLEFT with brownleatherboot and GRAY trouser. Near coat panel x270..300 y350..395 drapes nearforward thigh; brown near knee/cuff attacheddirectlybeneathit; farGRAYthigh is behind near thigh, not in front. F4 nearBrownfrontboot reachingGROUND; fargraybackleg supportsbehind. Same physical limb/boot sizes, two coherent distinct legs, no repaint gray bootmaterial. Image2 neighbouring pose, image3 approvedidentity, image4guide. Full body, top of head to soles of boots, feet on ground line. EXACT SAME SMALL218px fullheight on512canvas, headtop231 ground448 root256; output samebounds asimage1, do NOT shrink/recenter/zoom. Upper45%emptytransparent. Exact39pxnarrowrightprofilehead. Sharpbrownleatherlinenpaint, no textfloor guides shadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f4-coat-r12.png",
+    "required_references": [
+      "art/frames-gait-review-r11/hero_walk/f004.png",
+      "art/frames-gait-review-r11/hero_walk/f003.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkCoatF5R12",
+    "prompt": "Precise-object-edit image1 hunter walk frame. KEEP EXACT image1 headfacehairtorsoarms, full figure SIZE/POSITION, knee and BOOT POSITIONS unchanged. ONLY correct NEAR COAT PANEL OCCLUSION: warm brown NEAR coat skirt must travel WITH near forward RIGHT thigh, visibly draping OVER that thigh and knee in FRONT of the far gray leg. Shift the visible near skirt lobe from backLEFT to forwardRIGHT; show FAR gray trouser behind, connected continuously from farhip toward backLEFT knee/boot. The near leg is onRIGHT with Brown boot, far leg onLEFT with brownleatherboot and GRAY trouser. Near coat panel x270..300 y350..395 drapes nearforward thigh; brown near knee/cuff attacheddirectlybeneathit; farGRAYthigh is behind near thigh, not in front. F5 nearBrownfrontboot reachingGROUND; fargraybackleg supportsbehind. Same physical limb/boot sizes, two coherent distinct legs, no repaint gray bootmaterial. Image2 neighbouring pose, image3 approvedidentity, image4guide. Full body, top of head to soles of boots, feet on ground line. EXACT SAME SMALL218px fullheight on512canvas, headtop231 ground448 root256; output samebounds asimage1, do NOT shrink/recenter/zoom. Upper45%emptytransparent. Exact39pxnarrowrightprofilehead. Sharpbrownleatherlinenpaint, no textfloor guides shadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f5-coat-r12.png",
+    "required_references": [
+      "art/frames-gait-review-r11/hero_walk/f005.png",
+      "art/frames-gait-review-r11/hero_walk/f004.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkCoatF6R12",
+    "prompt": "Precise-object-edit image1 hunter walk frame. KEEP EXACT image1 headfacehairtorsoarms, full figure SIZE/POSITION, knee and BOOT POSITIONS unchanged. ONLY correct NEAR COAT PANEL OCCLUSION: warm brown NEAR coat skirt must travel WITH near forward RIGHT thigh, visibly draping OVER that thigh and knee in FRONT of the far gray leg. Shift the visible near skirt lobe from backLEFT to forwardRIGHT; show FAR gray trouser behind, connected continuously from farhip toward backLEFT knee/boot. The near leg is onRIGHT with Brown boot, far leg onLEFT with brownleatherboot and GRAY trouser. Near coat panel x270..300 y350..395 drapes nearforward thigh; brown near knee/cuff attacheddirectlybeneathit; farGRAYthigh is behind near thigh, not in front. F6 nearBrownfrontboot PLANTED; fargraybackleg airborne. Same physical limb/boot sizes, two coherent distinct legs, no repaint gray bootmaterial. Image2 neighbouring pose, image3 approvedidentity, image4guide. Full body, top of head to soles of boots, feet on ground line. EXACT SAME SMALL221px fullheight on512canvas, headtop228 ground448 root256; output samebounds asimage1, do NOT shrink/recenter/zoom. Upper45%emptytransparent. Exact39pxnarrowrightprofilehead. Sharpbrownleatherlinenpaint, no textfloor guides shadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f6-coat-r12.png",
+    "required_references": [
+      "art/frames-gait-review-r11/hero_walk/f006.png",
+      "art/frames-gait-review-r11/hero_walk/f007.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkF6LiftR13",
+    "prompt": "Precise-object-edit image1. Preserve fullbody headfacehairtorsoarmcoil nearcoatpanel overforwardBrownthigh and FRONT/RIGHT plantedBrownbootcenter280 sole448 unchanged. ONLY bend FAR/LEFT knee and lift its trailing BROWN LEATHER boot HIGHER behind, soleat425 (not439), tipatx222, same physical35pxbootlength and calf dimensions. Fargraytrouser stays clearly behind nearforwardbrownthigh. Show visible transparent gap between both calves nearankles; coathem above395, no skirtcoveringlowercalves. Nearbrownleg isgrounded support onRIGHT; fargrayleg recoversbehindLEFT airborne. No forward raisedboot. Image2 priorcontact, image3 approvedidentity, image4guide. Full body, top of head to soles of boots, feet on ground line. EXACTsameSMALL221px tall512canvas headtop228 frontsole448 root256; no shrink/zoom/recenter. Compact39pxheadprofile sameasneutral. Upper45%emptytransparent. Both bootsbrownleather. Sharpbrownleatherlinen samecostume no floor shadow guides textdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f6-lift-r13.png",
+    "required_references": [
+      "art/production-candidates/hero_walk-f6-coat-key-r12.png",
+      "art/frames/hero_walk/f005.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "rejected G03 requiredscale1.473333 outside0.85..1.18"
+  },
+  {
+    "id": "walkF6LiftR14",
+    "prompt": "Precise-object-edit IMAGE1. Preserve its exact image canvas, character SIZE, POSITION, head and costume. Make ONLY one local edit: bend FAR/backLEFT knee and raise its backLEFT boot so sole is y425, while frontRIGHTboot stays flat y448. Same35pxbootlength, keep warm brown leather bothboots and greyfartrouser. Do not shrink the wholeperson when raisingoneboot. Image2 approvedneutral identity. Image3guide. FULLBODY fromtopheadtosoles, feetongroundline. Output512canvas: CHARACTER MUST occupy y228..448 =221px high (44% ofcanvasheight), rootx256, feet88% downcanvas; head44%downcanvas. EXACTsamefigurebounds asimage1. Do not make150px-high figureinmiddle. Upper45%emptytransparent, samecompact39pxheadprofile. Nearcoatpanel drapes forwardRIGHTthigh, farleg recoversbehindLEFT, visible gapbetweencalves. Sharppaintedleatherlinen, no zoom/recenter, no guides text floorshadows debris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f6-lift-r14.png",
+    "required_references": [
+      "art/frames-gait-review-r12/hero_walk/f006.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkPlantF3R15",
+    "prompt": "Precise-object-edit IMAGE1 fullbody hunter. Preserve exact canvas, body/headSIZE and POSITION, recognizable39pxrightprofileface, leather/linen/metal/hipcoil. ONLY reposition FAR GRAY support leg's connected knee/calf/brownboot to plant atx258 (was240), sole448, normal35pxbootlength. NEAR BROWN forward swingboot remains raisedatx315 sole430 with its foreground coatpanel. Fargray support stays behind nearBrownleg atoverlap. This keeps same support through previouspassingframe2 into nextcontactframe4. Image2 neighbouringtarget, image3approvedneutralidentity, image4guide. Samephysicalcalves/boots/thighlength, anatomicalbending notshrinking. BothbootsBROWNleather, fartrousersGRAY, nearthigh underBROWNforegroundcoatpanel. Full body, top of head to soles of boots, feet on ground line. EXACT218px figureheight on512canvas, top231, sole448 root256; 44% ofcanvasheight inLOWERmiddle, sameboundsasimage1. Do NOT shrink to150pxfigure orrecenter. Upper45%emptytransparent. Sharppaintedtextures samecostume, no textguidesfloor shadowsdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f3-plant-r15.png",
+    "required_references": [
+      "art/frames-gait-review-r14/hero_walk/f003.png",
+      "art/frames-gait-review-r14/hero_walk/f002.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "not selected: requested support-foot/passing registration was not realized; preserve candidate"
+  },
+  {
+    "id": "walkPlantF5R15",
+    "prompt": "Precise-object-edit IMAGE1 fullbody hunter. Preserve exact canvas, body/headSIZE and POSITION, recognizable39pxrightprofileface, leather/linen/metal/hipcoil. ONLY reposition NEAR BROWN planted/support leg and connected nearcoatpanel/knee to bootcenterx273 (was293), flatsole448. FAR grayrearleg/brownboot remains behindcenter229 with rear toe at448. Near foreground thigh/coat continuously occludesfarleg. Absorbcontactwithlightknee bend, hipsroot256unchanged. This is a forward contact loading underbody, not liftingfrontboot. Image2 neighbouringtarget, image3approvedneutralidentity, image4guide. Samephysicalcalves/boots/thighlength, anatomicalbending notshrinking. BothbootsBROWNleather, fartrousersGRAY, nearthigh underBROWNforegroundcoatpanel. Full body, top of head to soles of boots, feet on ground line. EXACT218px figureheight on512canvas, top231, sole448 root256; 44% ofcanvasheight inLOWERmiddle, sameboundsasimage1. Do NOT shrink to150pxfigure orrecenter. Upper45%emptytransparent. Sharppaintedtextures samecostume, no textguidesfloor shadowsdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f5-plant-r15.png",
+    "required_references": [
+      "art/frames-gait-review-r14/hero_walk/f005.png",
+      "art/frames-gait-review-r14/hero_walk/f007.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "not selected: requested support-foot/passing registration was not realized; preserve candidate"
+  },
+  {
+    "id": "walkPlantF6R15",
+    "prompt": "Precise-object-edit IMAGE1 fullbody hunter. Preserve exact canvas, body/headSIZE and POSITION, recognizable39pxrightprofileface, leather/linen/metal/hipcoil. Create supported passing-overlap: NEAR BROWN leg groundbootcenterx253 sole448 (was283), straight/lightlybentunderhip, connected foregroundcoatpanel follows nearthigh underhip. FAR GRAY leg swings THROUGH behind nearleg: farbrownbootcentre265 sole425, knee raised aheadx278, far bootpartiallyoccludedbynearcalf but foot visiblyhigherthanplantedboot. No rearbootremainingatx220, no supportlegswap. Pose heads/shoulders/neararm remain sideview like nextframe7, no frontal torso turn. This connects previousnearplant273 to nextnearplant233 while farlegadvances frombehind229 through265 towardnextforward300. Image2 neighbouringtarget, image3approvedneutralidentity, image4guide. Samephysicalcalves/boots/thighlength, anatomicalbending notshrinking. BothbootsBROWNleather, fartrousersGRAY, nearthigh underBROWNforegroundcoatpanel. Full body, top of head to soles of boots, feet on ground line. EXACT221px figureheight on512canvas, top228, sole448 root256; 44% ofcanvasheight inLOWERmiddle, sameboundsasimage1. Do NOT shrink to150pxfigure orrecenter. Upper45%emptytransparent. Sharppaintedtextures samecostume, no textguidesfloor shadowsdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-f6-plant-r15.png",
+    "required_references": [
+      "art/frames-gait-review-r14/hero_walk/f006.png",
+      "art/frames-gait-review-r14/hero_walk/f007.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "not selected: requested support-foot/passing registration was not realized; preserve candidate"
+  },
+  {
+    "id": "walkF4ContactR17",
+    "prompt": "Precise-object-edit IMAGE1 exact hunter identity/torso. Create ONE loaded contact pose immediately BEFORE image1passing pose and AFTER image2forward swing. PRESERVE IMAGE1 side-facing torso, shoulders, neck/head, forearms, hipcoil, allcostume textures andphysicalscale. Only openlegs into opposingcontact: NEAR BROWN leg/coatpanel goesFORWARD RIGHT, brownbootcenter300 flatsole448, farGRAYleg goesBACKLEFT withbrownbootcenter235 sole443, unweightedrearheelraised. Nearforeground coatpanel drapes continuously overnearforwardthigh, two distinct legs visible. Slightkneecompression and hipslower6px into contact, exactsideprofiletorso asimage1notfrontalturn. Nearbrownbootforwardload; grayfarbootbehindreleased, NEVER swap legidentity. Full body, top of head to soles of boots, feet on ground line. SMALL218px figure on512canvas, top231 sole448 root256;44%canvasheight inLOWERmiddle, exactsamephysicalboot/calflength35px and head39px asimage1. Do not zoomout/shrink/recenter. Upper45%emptytransparent. Image3neutralidentity image4guide. Sharpbrownleatherlinen/metal no textfloor guides shadowdebris. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_walk-contact-r17.png",
+    "required_references": [
+      "art/frames-gait-review-r16/hero_walk/f005.png",
+      "art/frames-gait-review-r16/hero_walk/f003.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
   }
 ]

@@ -26,5 +26,5 @@ func capture() -> void:
    printerr("Capture failed: ", error)
    quit(1)
    return
-  elapsed += durations[i] / 1000.0
+  elapsed += durations[i] / (1000.0 * world.hero.visual.playback_rate(state))
  quit()
