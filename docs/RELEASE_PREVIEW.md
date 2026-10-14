@@ -15,3 +15,7 @@ The full source, generated candidates, rejection evidence and contract tools are
 ## Follow-up fix: get-up
 
 Get-up now shows a supported floor-to-standing recovery and ends in a stable neutral pose. Its scoped audit and fresh independent motion review passed; timing and gameplay behavior are unchanged. See `evidence/getup-fix.md`. Other production-art/device gaps remain pending.
+
+## Follow-up fix: turning
+
+The repainted turning pose passed its fresh independent motion/identity review. Real input-driven engine captures confirmed the facing transition at 75 ms. See `evidence/turn-fix.md`.

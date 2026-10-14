@@ -37,3 +37,7 @@ See `docs/RELEASE_PREVIEW.md` for the actual shipped scope. The current gameplay
 ## Follow-up fix 1: get-up
 
 Supported get-up motion passed fresh independent review r04. The original reverse-fall clip and rejected revisions are retained. Only get-up frames/metadata changed; six-frame/450 ms timing remains authoritative. Gameplay T-01…T-09 and the tools checker/self-test passed. Actual desktop and phone-sized Godot frame captures are recorded, without claiming physical-device validation. See `evidence/getup-fix.md` and `docs/FIX_QUEUE.md`.
+
+## Follow-up fix 2: turning
+
+The repaired turn artwork passed fresh independent review (`art/review-turn-r01/`). Real-controller captures checked every turn phase and the 75 ms facing event at desktop and phone-sized resolutions. The scoped audit has no defects or flags; runtime textures match the reviewed frames. See `evidence/turn-fix.md`.

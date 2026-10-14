@@ -5,7 +5,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | Order | Gap | Status |
 |---|---|---|
 | 1 | Supported get-up motion with stable standing finish | DONE; independent r04 PASS, gameplay/tools checks and engine captures recorded |
-| 2 | Turning head/neck-to-mantle join | Painted repair integrated; independent acceptance pending |
+| 2 | Turning head/neck-to-mantle join | DONE; independent r01 PASS, actual controller facing event validated at 75 ms |
 | 3 | Braking weight transfer and rear-foot continuity | Narrower planted-foot candidate integrated; independent acceptance pending |
 | 4 | Alternating walk support/swing and coat continuity | r07 review failed F3/F4/F6 |
 | 5 | Ground attack and separate whip geometry/socket/reach | Preview uses selected held keys and engine line |
