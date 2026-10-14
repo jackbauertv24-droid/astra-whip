@@ -11,3 +11,7 @@ The preview integrates the painted hunter frames, selected attack keys, pursuer 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
 The full source, generated candidates, rejection evidence and contract tools are included so further work can resume from this checkpoint.
+
+## Follow-up fix: get-up
+
+Get-up now shows a supported floor-to-standing recovery and ends in a stable neutral pose. Its scoped audit and fresh independent motion review passed; timing and gameplay behavior are unchanged. See `evidence/getup-fix.md`. Other production-art/device gaps remain pending.

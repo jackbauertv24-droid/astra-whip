@@ -33,3 +33,7 @@ Tools were rechecked: contract checker PASS and self-test PASS, 25 negative case
 On 2026-10-14 the user explicitly instructed the builder to round up and push the product, relaxing the former gate order. The resulting public preview integrates selected painted art and working gameplay without claiming the strict gates 4–7 passed. The non-walk r06 reviewer passed 15 clips and failed braking, turning and get-up; gait r07 failed F3/F4/F6. Later candidates were not granted a final full production approval. A fresh isolated-key reviewer encountered an account usage limit; no approval was inferred.
 
 See `docs/RELEASE_PREVIEW.md` for the actual shipped scope. The current gameplay verification passed all T-01 through T-09: 1,213 assertions, zero failures, with 229 reachable standing samples (`evidence/release-preview-tests.log`). Prior mutation proofs remain in `evidence/`. Physical iPhone and unfamiliar-player tests remain unperformed.
+
+## Follow-up fix 1: get-up
+
+Supported get-up motion passed fresh independent review r04. The original reverse-fall clip and rejected revisions are retained. Only get-up frames/metadata changed; six-frame/450 ms timing remains authoritative. Gameplay T-01…T-09 and the tools checker/self-test passed. Actual desktop and phone-sized Godot frame captures are recorded, without claiming physical-device validation. See `evidence/getup-fix.md` and `docs/FIX_QUEUE.md`.

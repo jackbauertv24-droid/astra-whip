@@ -1,0 +1,20 @@
+{
+ "defects": 0,
+ "flags": 2,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_get_up",
+   "frame": 3,
+   "msg": "jump from frame 2: size 6.9%, height 33.3%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_get_up",
+   "frame": 5,
+   "msg": "jump from frame 4: size 6.3%, height 17.9%"
+  }
+ ]
+}

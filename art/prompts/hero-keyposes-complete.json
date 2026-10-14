@@ -388,5 +388,75 @@
       "art/guides/hero.png"
     ],
     "status": "unapproved painted candidate"
+  },
+  {
+    "id": "getupSupportedR02",
+    "prompt": "Use case: precise-object-edit. Edit image1 SMALL crouching hunter. Exact same body placement, physical proportions and scale: figure ONLY y308..448 on512canvas, whole top60% EMPTY TRANSPARENT. Image2 reference adult identity; image3 guide yellow308 top head and red448 sole baseline. Full body, top of head to soles of boots, feet on the ground line. Change only FAR (screen-right) arm: extend it down and slightly forward, palm FLAT on baseline448 ahead of knee to carry weight during getting up. Move far leg slightly back into a halfkneel, keep NEAR boot planted under pelvis at448. Near fist holds compact coil against thigh unchanged. Retain SAME compact head39px, hips low, sharply folded knees, forward torso, original coat material all body anatomical proportions. This is a tiny 140px tall figure occupying only28%canvas height, do NOT enlarge to fill. Hand and sole sharegroundline, no shadow/backgroundtextguides/specks. One fullfigure.",
+    "raw_output": "art/production-candidates/hero_getup-supported-r02.png",
+    "required_references": [
+      "art/production-candidates/hero_crouch-key-v2.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "getupRollR01",
+    "prompt": "Use case: identity-preserve. ONE get-up in-between, exact hunter full body. Image1 prior floor recline, image2 next recovery pose, image3 approved standing identity, image4 guide. Full body, top of head to soles of boots, feet on the ground line. Small figure LOW on512canvas: heady333 soles448 height115pixels, headphysicalwidth39px, upper65% empty transparency; don't enlarge. Torso rolls a little forward from image1, head moves just halfway toward image2 (x218). Supporting rear elbow opens to a flat rear palm on floor, while legs START drawing inward: knees bend more, front boot retracts halfway to next pose nearx352 stillfloor448, other heel draws towardhip nearx285. Pelvis stays on/justabove floor, upperbody still reclined but less than image1. DO NOT alreadykneel; this is seated supported roll beforelowkneel. Whip coil stays held against same thigh as image1, exactsame costume, brown textured leather longcoat pale sleeves boots gloves and compact hair. Match neighbour anatomy, leg contact/handplacement continuous. Onefullfigure nofloor/shadow/text/guides/specks actualalpha.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-02e8601f-a071-4aea-a1ce-6920a41bf170.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate pending independent review"
+  },
+  {
+    "id": "getupPrepR01",
+    "prompt": "Use case: identity-preserve. ONE GET-UP preparation in-between, SMALL fullbody sprite. Image1 previous floor recline, image2 next planted-hand kneel, image3 immutable identity/physical size, image4 ground/height guide. Full body, top of head to soles of boots, feet on the ground line. Preserve same adult face/head width39px, leather browncoat pale sleeves gloves coil boots. Pose halfway from image1 to2: hunter has rolled his torso FORWARD, rear elbow extends into a supporting palm on floor behind hip; knees DRAW IN toward hips, forward boot sole rests near x300 on baseline448, other leg curls beneath pelvis. Near fist keeps coil against thigh. Head moves toward x235 and rises modestly to y318 (fullheight130 on512canvas), torso still inclined, one palm is grounded supporting weight. Do NOT jump to standing/kneeling, not same reclined hold. Legs visibly retract continuously, two boots distinct. Figure tiny in lowercentre, upper60% completely empty alpha; do not zoom. Original textures, compact head size, no floor shadow/text/guides/specks. One pose.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-304ae8f4-0f3e-488d-9729-daaff68e90b0.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate pending independent review"
+  },
+  {
+    "id": "getupRiseR01",
+    "prompt": "Use case: identity-preserve. ONE SMALL getting-up rising half-kneel, between image1 supported low kneel and image2 upright stance. Image3 placement guide. Full body, top of head to soles of boots, feet on the ground line. Exact same brown-coated adult hunter face hair size39px gloves compact coil boots. Front NEAR boot planted under pelvis at x256 on baseline448; that knee extends to lift hips, rear FAR knee just rises away from ground while rear toes remain planted slightly behind. Body STILL inclined forward, headx276 at y273 (height175px on512canvas). Not already standing: retain clearly bent knee and rearhalfkneel. Far hand just releases floor when front boot takes weight, hovering a little above knee to balance; near fist stays at thigh holding compact coil. Near boot remains at SAME x asimage1 andimage2, don't spread/teleport feet. Coat unfolds over thighs smoothly. SMALL175-high figure inlowercenter, upper53% completelyEMPTY transparency; don't zoom. Painted sharp leather/linen anatomy physicalsize same reference, no enlarged head. No visibleguide/text/shadow/floor/debris. One full figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-f0a05849-fb5f-4f08-aa02-52810964995e.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate pending independent review"
+  },
+  {
+    "id": "getupF3BootR03",
+    "prompt": "Use case: precise-object-edit. Edit ONLY lower legs/boot path of image1 low recovery kneel. Images2/3 previous/next neighbouring poses, image4 identity, image5 guide. Keep image1 head/face/hair/upper torso/coat/coil/gloves and planted screen-right ground palm EXACTLY UNCHANGED, same SMALL140px body y308..448 on512canvas, headphysicalwidth39px. Full body, top of head to soles of boots, feet on the ground line. Move the FORWARD SUPPORTING BOOT farther RIGHT so its centre is x310 on groundline448, between the boot positions inimages2 and3, not tucked back under pelvis. Repaint the connected knee and calf anatomically to reach that boot: knee modestly forward atx285 aroundy397, shin inclines forward into foot. Keep rear folded knee/shin on ground underhip, grounded front palm stays atsamepoint. The ONLY change is this continuous knee/calf/boot path; no extra boots, don't move upperbody or shrinkperson. Preserve detailed painted leather linen sameoriginalimage1textures. Top60%emptytransparency; no text/guides/shadow/floor/specks.",
+    "raw_output": "art/production-candidates/hero_getup-supported-r03.png",
+    "required_references": [
+      "art/frames/hero_get_up/f003.png",
+      "art/frames/hero_get_up/f002.png",
+      "art/frames/hero_get_up/f004.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "getupPrepFootR02",
+    "prompt": "Use case: precise-object-edit. Image1 recovery preparation; image2 earlier roll; image3 later rising halfkneel; image4 identity; image5 guide. Change ONLY the forward boot and anatomically connected knee/calf of image1, preserve head upperbody hips coat rear supporting palm and near coil unchanged. Full body, top of head to soles of boots, feet on ground line, exact SMALL130px body top318 ground448 on512canvas. Draw front boot inward to centre x305, halfway between its current location and the planted boot ofimage3; keep boot pointedright, heel slightly lifted3px as it draws inward, while rear palm/knee support body. This is leg repositioning BEFORE taking weight. Do NOT enlarge/changeface/headwidth39px/canvasposition. Keep supporting rear hand exactlyfixed and visible. Same original painted brownleather linen texture sharp no blur. Upper60%emptyalpha. No guides/text/shadows/floor/debris.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-fd8cf353-7e95-4ec7-8152-4262fb614564.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "getupSupportFootR04",
+    "prompt": "Use case: precise-object-edit. Image1 low supported getup kneel, image2 later rising half-kneel, image3 final standing reference identity, image4 guide. ONLY move image1 supporting boot and its connected knee/calf to the EXACT SAME canvas position as the FORWARD PLANTED BOOT in image2: centre aboutx280, heel/toe span x260..303, baseline448. This boot must remain stationary while rising toimage2. Preserve all upperbody/head/face/hair/shoulders/coil/coat and planted screen-right ground palm of image1 unchanged. Full body, top of head to soles of boots, feet on ground line; SMALL140px-high on512canvas, heady308, headwidth39px. Bend shin and knee anatomically to reach new boot, keep rear folded knee distinct. No duplicatedfoot, noextraankle, no hand dragged along with leg. Do not shrink or enlargefigure. Keep sharp paintedbrownleather linen exacttexture and natural connectedneck. Upper60%EMPTYtransparent. No text/guide/floor/shadow/specks.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-b27958bc-2c65-455c-bb2d-a8db44c33049.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
   }
 ]

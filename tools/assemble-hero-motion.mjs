@@ -6,16 +6,20 @@ import {readFileSync,writeFileSync,mkdirSync,cpSync,existsSync} from 'node:fs';
 const c=JSON.parse(readFileSync('contract/art_contract.json'));
 const meta=JSON.parse(readFileSync('art/frames/clips.json'));
 const derivations=JSON.parse(readFileSync('art/frames/derivations.json'));
+const getupPaths={roll:'art/production-candidates/hero_getup-roll-key-r01.png',prep:'art/production-candidates/hero_getup-prep-key-r02.png',supported:'art/production-candidates/hero_getup-supported-key-r04.png',rise:'art/production-candidates/hero_getup-rise-key-r01.png'};
+const requestedClip=process.argv[2];
+if(requestedClip && !c.clips[requestedClip])throw Error('Unknown clip: '+requestedClip);
 const paths={neutral:'art/frames/style_hero_neutral/f000.png',turn:'art/production-candidates/hero_turn-neck-repair-key-r05.png',hurt:'art/review-hero-keys-r05/key_3.png',rise:'art/review-hero-keys-r05/key_4.png',apex:'art/review-hero-keys-r05/key_5.png',fall:'art/review-hero-keys-r05/key_6.png',halfdown:'art/review-hero-keys-r05/key_7.png',settled:'art/review-hero-keys-r05/key_8.png',down:'art/review-hero-keys-r04/key_6.png',compression:'art/frames/hero_crouch_enter/f001.png'};
 const keys=Object.fromEntries(Object.entries(paths).map(([id,p])=>[id,readPNG(p)]));
 const old={turn0:readPNG('art/frames/hero_turn/f000.png'),hurt0:readPNG('art/frames/hero_hurt_recoil/f000.png'),hurt3:readPNG('art/frames/hero_hurt_recoil/f003.png'),knock0:readPNG('art/frames/hero_knockback/f000.png'),stop0:readPNG('art/frames/hero_stop_move/f000.png'),stop2:readPNG('art/frames/hero_stop_move/f002.png')};
 const deform=(im,fn)=>registerFoot(meshWarp(im,heroGrid.xs,heroGrid.ys,fn));
 const clone=im=>({...im,data:new Uint8Array(im.data)});
 function emit(id,images,method,kind='scripted_fallback'){
+ if(requestedClip && id!==requestedClip)return;
  const root='art/frames/'+id;if(existsSync(root)){const archive=`art/rejected/motion-${Date.now()}-${id}`;mkdirSync(archive,{recursive:true});cpSync(root,archive+'/'+id,{recursive:true});}
  mkdirSync(root,{recursive:true});images.forEach((src,i)=>{const im=clone(src);for(let j=0;j<im.data.length;j+=4)if(im.data[j+3]<=4)im.data.fill(0,j,j+4);writePNG(`${root}/f${String(i).padStart(3,'0')}.png`,im);});
- const used={hero_stop_move:['art/production-candidates/hero_walk-key-edge-clean.png',paths.neutral],hero_turn:[paths.turn,paths.neutral],hero_jump_takeoff:[paths.neutral,paths.compression,paths.rise],hero_jump_rise:[paths.rise,paths.apex],hero_jump_apex:[paths.apex,paths.rise,paths.fall],hero_fall:[paths.fall],hero_land:[paths.rise,paths.compression,paths.neutral],hero_hurt_recoil:[paths.neutral,paths.hurt],hero_knockback:[paths.neutral,paths.hurt],hero_knockdown:[paths.hurt,paths.halfdown,paths.down],hero_get_up:[paths.hurt,paths.halfdown,paths.down],hero_death:[paths.hurt,paths.halfdown,paths.down,paths.settled]};
- const derivation={kind,source:used[id],method,reason:'Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review.'};
+ const used={hero_stop_move:['art/production-candidates/hero_walk-key-edge-clean.png',paths.neutral],hero_turn:[paths.turn,paths.neutral],hero_jump_takeoff:[paths.neutral,paths.compression,paths.rise],hero_jump_rise:[paths.rise,paths.apex],hero_jump_apex:[paths.apex,paths.rise,paths.fall],hero_fall:[paths.fall],hero_land:[paths.rise,paths.compression,paths.neutral],hero_hurt_recoil:[paths.neutral,paths.hurt],hero_knockback:[paths.neutral,paths.hurt],hero_knockdown:[paths.hurt,paths.halfdown,paths.down],hero_get_up:[paths.down,...Object.values(getupPaths),paths.neutral],hero_death:[paths.hurt,paths.halfdown,paths.down,paths.settled]};
+ const derivation={kind,source:used[id],method,reason:id==='hero_get_up'?'The reverse-fall experiment failed supported recovery. Direct painted in-between poses replace held and unsupported frames; fresh independent motion review is required.':'Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review.'};
  meta[id]={ms:c.clips[id].ms,loop:c.clips[id].loop,derivation};derivations[id]=derivation;
 }
 const braking=deform(old.stop0,(x,y)=>{const lower=clamp((y-360)/70),inward=(256-x)*.4*lower;return[x+inward-4*(1-lower),y+2*clamp((y-330)/40)*(1-clamp((y-425)/20))];});
@@ -38,7 +42,8 @@ const halfSettle=deform(keys.halfdown,(x,y)=>[x,y+1.5*clamp((280-x)/75)*(1-clamp
 const downSettle=a=>deform(keys.down,(x,y)=>[x+a*clamp((y-380)/35)*(1-clamp((y-435)/10)),y]);
 const knockdown=[keys.hurt,keys.halfdown,halfSettle,keys.down,downSettle(1),downSettle(2)];
 emit('hero_knockdown',knockdown,'Backward painted flinch, bracing mid-fall, hip/elbow ground contact, then clothing settle.');
-emit('hero_get_up',[...knockdown].reverse(),'Exact reverse of reviewed-reference fall candidates: elbow/hip support, bracing hand, then rising defensive stance. Must read as recovery in independent review.','reversed');
+const getupPainted=Object.values(getupPaths).map(readPNG);
+emit('hero_get_up',[readPNG('art/frames/hero_get_up/f000.png'),...getupPainted,keys.neutral],'Initial floor-contact frame retained, then direct painted supported torso roll/leg draw-in, low recovery preparation, planted-palm/foot half-kneel, rising half-kneel, and stable neutral recovery. Each new painted pose individually normalized once with authored horizontal origin retained.','reused');
 const deathSettle=a=>deform(keys.settled,(x,y)=>{const cloth=clamp((x-190)/45)*(1-clamp((x-320)/35))*clamp((425-y)/35);return[x+a*cloth,y+a*cloth*.5];});
 emit('hero_death',[keys.hurt,keys.halfdown,halfSettle,keys.down,downSettle(2),keys.settled,deathSettle(2),deathSettle(1.5),deathSettle(.75),keys.settled],'Full flinch and backward collapse through hip support into a painted resting body, followed by quiet fabric settle and a final hold. No get-up route.');
 writeFileSync('art/frames/clips.json',JSON.stringify(meta,null,2));writeFileSync('art/frames/derivations.json',JSON.stringify(derivations,null,2));

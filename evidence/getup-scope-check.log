@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "only_getup_changes": true,
+  "runtime_frames_match": 6,
+  "final_pose": "approved neutral with only alpha <=4 fringe cleanup",
+  "near_transparent_pixels_removed": 904
+}

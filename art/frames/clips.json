@@ -350,14 +350,17 @@
     ],
     "loop": false,
     "derivation": {
-      "kind": "reversed",
+      "kind": "reused",
       "source": [
-        "art/review-hero-keys-r05/key_3.png",
-        "art/review-hero-keys-r05/key_7.png",
-        "art/review-hero-keys-r04/key_6.png"
+        "art/review-hero-keys-r04/key_6.png",
+        "art/production-candidates/hero_getup-roll-key-r01.png",
+        "art/production-candidates/hero_getup-prep-key-r02.png",
+        "art/production-candidates/hero_getup-supported-key-r04.png",
+        "art/production-candidates/hero_getup-rise-key-r01.png",
+        "art/frames/style_hero_neutral/f000.png"
       ],
-      "method": "Exact reverse of reviewed-reference fall candidates: elbow/hip support, bracing hand, then rising defensive stance. Must read as recovery in independent review.",
-      "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
+      "method": "Initial floor-contact frame retained, then direct painted supported torso roll/leg draw-in, low recovery preparation, planted-palm/foot half-kneel, rising half-kneel, and stable neutral recovery. Each new painted pose individually normalized once with authored horizontal origin retained.",
+      "reason": "The reverse-fall experiment failed supported recovery. Direct painted in-between poses replace held and unsupported frames; fresh independent motion review is required."
     }
   },
   "hero_death": {

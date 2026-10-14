@@ -48,3 +48,7 @@ The local normalization helper initially inferred horizontal origin from the bot
 
 `tools/normalize-frame.mjs` now accepts an explicit authored horizontal guide origin for air/impact poses. It still applies one bounded uniform scale. `tools/test-normalization.mjs` demonstrates the legacy drift, verifies that the authored origin preserves placement, and verifies the scale-bound rejection. Both pre-fix and corrected production candidates remain archived. Engine captures and independent continuity review must still assess horizontal placement.
 
+
+### Supported recovery needs a continuous support-foot path
+
+Reversing a fall can preserve identity and numeric size while leaving the body unsupported during recovery. A seated hold, kneel and standing pose are individually plausible but do not automatically form a continuous get-up. Track the forward boot in canvas coordinates through leg draw-in, palm release and rising: finish repositioning before that foot carries weight. Neighbour references must preserve this path. The independent get-up reviews r01–r03 rejected unsupported transfer and one-boot-length sliding despite zero numeric defects; r04 accepted the corrected six-pose recovery.
