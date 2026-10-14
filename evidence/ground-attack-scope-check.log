@@ -1,0 +1,7 @@
+PASS unrelated clips.json metadata unchanged
+PASS unrelated derivations.json metadata unchanged
+PASS eight hero_attack_ground runtime/reviewed PNGs byte-identical
+PASS eight whip_attack_ground runtime/reviewed PNGs byte-identical
+PASS revision changed only weapon recovery F4/F5/F6; body and other weapon frames exact
+PASS existing runtime art untouched; source/runtime sockets byte-identical
+PASS unchanged 500ms synchronized contract timings

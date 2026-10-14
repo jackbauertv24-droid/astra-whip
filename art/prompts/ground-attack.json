@@ -1,0 +1,66 @@
+[
+  {
+    "id": "groundStrikeF3R01",
+    "prompt": "Precise-object-edit IMAGE1 into one final strike-apex key immediately beforeIMAGE2follow. Preserve exact hunter identity, narrowprofileface, nearleft shoulder/sleeve/forearm crossing IN FRONT ofchest towardRIGHT; sameweaponarm asimage1, otherhandguardswaist. Extendnear fist only3px right tocenter330,277 holding shortbarewoodgrip extending to348,277. Small chest-forward impulse3px, forwardknee absorbs2px, feetSTAY atimage1 plantedpositions, far guardinghand lowers4px, trailingcoat lags3px. No rope/coil painted into body; separateweaponlayer. Full body, top of head to soles of boots, feet on ground line. SMALL218px fullfigure on512canvas top231 sole448 root256,44%canvasheight LOWERmiddle, samephysicalhead39px boots/calves asimage1. Do not shrink/zoom/recenter. Upper45%emptytransparent. Exact sharpbrownleather pale linenmetal ofapprovedneutralimage3, guideimage4. Onecompletefigure no textguidesfloor shadowsdebris.",
+    "raw_output": "art/production-candidates/hero_ground-strike-f3-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/production-candidates/hero_attack-follow-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "groundReturnF5R01",
+    "prompt": "Precise-object-edit IMAGE1 into intermediate recovery towardIMAGE2rest. SameNEAR weapon arm lowers acrossbody: near elbowat232,313, closednear fist barewoodgripcenter253,334 (betweenfollow andrest), handlepointsdownleftto242,351. Farhandguardsfrontwaist separatelyat282,327, no fusedhands orarmswap. Weight onnearBROWNrearboot at215 sole448; FAR grayfront leg UNWEIGHTS, bootlifted sole438 center290 preparingdraw-in, normal35pxbootlength. Hipsdrawtowardplantednearleg, torso startsuprighting, coatreleaseswithkneebend. No coil/thong in body. Full body, top of head to soles of boots, feet on ground line. SMALL218px on512canvas top231 sole448 root256,44%height LOWERmiddle, same39pxhead facehaircostume andphysicalboots/calves asrefs. Do notshrink/zoom/recenter. Upper45%emptytransparent. Crispbrownleatherlinensilver no textguidesfloor shadowsdebris. Image3approvedidentity image4guide. Onecompletefigure.",
+    "raw_output": "art/production-candidates/hero_ground-return-f5-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_attack-follow-key.png",
+      "art/production-candidates/hero_attack-rest-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "groundSettleF7R01",
+    "prompt": "Precise-object-edit IMAGE1 into final settled postattack rest pose afterIMAGE2recovery. Preserve exact hunterface/hair/body/costume andneutralfootpositions near235 far282 soles448. NEAR weaponforearm relaxes inward: elbow221,318 closedfist barewoodgrip236,340, handlepointsdownleftto226,358. FAR hand movesup torestnearfrontbelt280,329, separatecleararmchain. Shoulders exhale/settle andlongcoat panels returninward, no identical heldimage. No rope/coil inbody, separateweaponlayer. Full body, top of head to soles of boots, feet on ground line. SAME SMALL224px fullfigure on512canvas headtop225 sole448 root256,44%height LOWERmiddle, exact39pxprofilehead andphysicalboots/calves ofapprovedneutralimage3. Do not shrink/zoom/recenter. Upper44%emptytransparent. Sharpbrownleatherlinensilvertexture, onecompletefigure no textguidesfloor shadowsdebris; image4guide.",
+    "raw_output": "art/production-candidates/hero_ground-settle-f7-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_attack-rest-key.png",
+      "art/production-candidates/hero_attack-follow-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "whipActiveKeyR01",
+    "prompt": "Generate ONLY a separate brown leather whip weapon sprite on transparent768x512 canvas, aligned exactly toIMAGE1guide. NO human/body/hand/guide/text inoutput. Foralignment reference shows full body fromtopheadtobootsoles; outputweaponONLY. A short textured brownwoodwrapped grip centeredat327,275 runsfrom321,275 to346,277, matchingIMAGE3 paintedheldgrip. Thin BROWN LEATHER thong attachesat346,277 andunfurls RIGHT inone supple shallowS arc through430,260 and520,335, ending a tiny taperedtipat600,320 (yellowhitboxrightedge592 mustbereached). Socket root stays327,275, pivot256,448; preserve largeblankspace below/above, doNOT recenter/zoom theweapon. Leatherthong ONLY5pxthick nearhandle, tapers to2px atlast20px, like heldbrowncoil inIMAGE2; no metalchain/glow/beam/tube/thickribbon. Warmbrownleather texturedsubtlehighlight, continuoussmoothfinecord, no knots/rings. Entireweapon withinx318..603 y250..340 on768x512transparentcanvas, allcornersblank. Onecompleteweapon, notsheet, no addedbody or decorativeeffects.",
+    "raw_output": "art/production-candidates/whip-ground-active-r01.png",
+    "required_references": [
+      "art/guides/whip-ground.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png"
+    ]
+  },
+  {
+    "id": "groundGatherF6R01",
+    "prompt": "Precise-object-edit intermediate pose betweenIMAGE1 late return andIMAGE2 settledrest, exact samehunter. Weight transfers toFAR GRAY frontboot atx282 sole448; NEAR BROWN rearboot staysaroundx220 but LIFTS fully clearofground sole440 preparingdraw-in toneutral235. Nearfist holds barewoodgrip near230,343, forearmrelaxesbyhip, griptipdownleft219,360; sameNEAR weaponarm andseparatefarhandatfrontbelt280,329. Torso riseshalfway fromimage1 towardimage2, coatpanels drawin followingknees. Full body, top of head to soles of boots, feet on ground line. SMALL221px fullfigure512canvas top228 sole448 root256,44%height LOWERmiddle; same39pxfacehairhead andphysicalboot35px/calfproportions asapprovedneutralimage3, guideimage4. Keep image1/image2 bodySIZE, do not shrink/zoom/recenter. Upper45%emptytransparent. No rope/coil inbody, baregriponly; sharpbrownleatherlinensilver. Onecompletefigure no textguidefloor shadowdebris.",
+    "raw_output": "art/production-candidates/hero_ground-gather-f6-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_ground-return-f5-key-r01.png",
+      "art/production-candidates/hero_ground-settle-f7-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "groundGatherF6R02",
+    "prompt": "Background removal only onIMAGE1. Remove the entire faintgraycloud/scenery rectangle abovehunter and every red/green/gray matte pixel outsidehis silhouette. TruealphaZERO outsidefigure, not translucent scenery. KEEP actualhunter pose, headfacecostume boots handgrip atEXACTsame positions andsize: bodyboundsx205..316,y228..448 on512canvas,221px tall, root256,448. No rescaling or recentering, no addedscenery. Full body, top of head to soles of boots, feet on ground line. Both completeboots/calfanatomy retained. Narrow39pxrightprofilehead likeapprovedidentityIMAGE2, guideIMAGE3. Onecompletehunter only, upper44%completelyEMPTYtransparent, no floor shadow rectangle textguide debris. Do not addbackground even faintly. Barewoodgrip only, no whiprope/coil.",
+    "raw_output": "art/production-candidates/hero_ground-gather-f6-r02.png",
+    "required_references": [
+      "art/production-candidates/hero_ground-gather-f6-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  }
+]

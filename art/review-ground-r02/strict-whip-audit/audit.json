@@ -1,0 +1,264 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-ground-r02/frames",
+ "defects": 0,
+ "flags": 1,
+ "clips_audited": 3,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_attack_ground",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.2%, height 3.1%"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_attack_ground": [
+   {
+    "bbox": [
+     198,
+     225,
+     298,
+     448
+    ],
+    "height": 224,
+    "width": 101,
+    "area": 13693,
+    "size": 117.017,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 41,
+    "bootRatio": 0.627,
+    "legDip": 0.421
+   },
+   {
+    "bbox": [
+     191,
+     232,
+     320,
+     448
+    ],
+    "height": 217,
+    "width": 130,
+    "area": 15431,
+    "size": 124.222,
+    "top": 232,
+    "foot": 448,
+    "headWidth": 68,
+    "bootRatio": 0.51,
+    "legDip": 0.354
+   },
+   {
+    "bbox": [
+     192,
+     232,
+     345,
+     448
+    ],
+    "height": 217,
+    "width": 154,
+    "area": 14904,
+    "size": 122.082,
+    "top": 232,
+    "foot": 448,
+    "headWidth": 50,
+    "bootRatio": 0.514,
+    "legDip": 0.364
+   },
+   {
+    "bbox": [
+     193,
+     237,
+     351,
+     448
+    ],
+    "height": 212,
+    "width": 159,
+    "area": 15032,
+    "size": 122.605,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 49,
+    "bootRatio": 0.508,
+    "legDip": 0.377
+   },
+   {
+    "bbox": [
+     193,
+     232,
+     317,
+     448
+    ],
+    "height": 217,
+    "width": 125,
+    "area": 14443,
+    "size": 120.179,
+    "top": 232,
+    "foot": 448,
+    "headWidth": 46,
+    "bootRatio": 0.571,
+    "legDip": 0.381
+   },
+   {
+    "bbox": [
+     196,
+     231,
+     310,
+     448
+    ],
+    "height": 218,
+    "width": 115,
+    "area": 13583,
+    "size": 116.546,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 46,
+    "bootRatio": 0.357,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     207,
+     228,
+     318,
+     448
+    ],
+    "height": 221,
+    "width": 112,
+    "area": 14472,
+    "size": 120.3,
+    "top": 228,
+    "foot": 448,
+    "headWidth": 46,
+    "bootRatio": 0.507,
+    "legDip": 0.404
+   },
+   {
+    "bbox": [
+     205,
+     225,
+     308,
+     448
+    ],
+    "height": 224,
+    "width": 104,
+    "area": 13951,
+    "size": 118.114,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 45,
+    "bootRatio": 0.649,
+    "legDip": 0.43
+   }
+  ],
+  "whip_attack_ground": [
+   {
+    "bbox": [
+     216,
+     328,
+     248,
+     394
+    ],
+    "tip": 57.219,
+    "near": 0
+   },
+   {
+    "bbox": [
+     72,
+     191,
+     225,
+     243
+    ],
+    "tip": 149.164,
+    "near": 0
+   },
+   {
+    "bbox": [
+     318,
+     260,
+     600,
+     329
+    ],
+    "tip": 276.684,
+    "near": 0
+   },
+   {
+    "bbox": [
+     322,
+     266,
+     610,
+     334
+    ],
+    "tip": 281.853,
+    "near": 0
+   },
+   {
+    "bbox": [
+     279,
+     328,
+     465,
+     403
+    ],
+    "tip": 182.016,
+    "near": 0
+   },
+   {
+    "bbox": [
+     215,
+     336,
+     355,
+     409
+    ],
+    "tip": 136.4,
+    "near": 0
+   },
+   {
+    "bbox": [
+     212,
+     334,
+     274,
+     411
+    ],
+    "tip": 68.731,
+    "near": 0
+   },
+   {
+    "bbox": [
+     215,
+     332,
+     247,
+     398
+    ],
+    "tip": 58.549,
+    "near": 0
+   }
+  ]
+ }
+}

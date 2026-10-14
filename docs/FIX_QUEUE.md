@@ -8,7 +8,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 2 | Turning head/neck-to-mantle join | DONE; independent r01 PASS, actual controller facing event validated at 75 ms |
 | 3 | Braking weight transfer and rear-foot continuity | DONE; independent r03 PASS, grounded compression, unchanged endpoints/timing |
 | 4 | Alternating walk support/swing and coat continuity | DONE; independent r19 PASS; real-input 400ms/96u loop and grounded handoff validated |
-| 5 | Ground attack and separate whip geometry/socket/reach | Preview uses selected held keys and engine line |
+| 5 | Ground attack and separate whip geometry/socket/reach | DONE; independent r02 PASS; eight synchronized frames, mirrored sockets, gathering recovery loops and strict thickness checks |
 | 6 | Crouch attack articulation | Held pose in preview |
 | 7 | Air attack articulation | Held pose in preview |
 | 8 | Pursuer supported action clips | Static painted pose in preview |

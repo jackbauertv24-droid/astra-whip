@@ -5,6 +5,9 @@ const WALK_CADENCE = 2.0
 var actor: String
 var specs: Dictionary
 var played: Dictionary = {}
+var weapon: Sprite2D
+var weapon_frames: Array[Texture2D] = []
+var hand_sockets: Array = []
 func configure(kind: String) -> void:
  actor = kind
  specs = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))["clips"]
@@ -40,7 +43,23 @@ func configure(kind: String) -> void:
  visible = actor in ["hero", "pursuer"]
  scale = Vector2(0.5, 0.5)
  offset = Vector2(0, -192) if actor == "hero" else Vector2(32, -96)
+ if actor == "hero":
+  weapon = Sprite2D.new()
+  weapon.centered = false
+  var shader = Shader.new()
+  shader.code = "shader_type canvas_item; uniform vec2 hand_socket; void fragment(){ COLOR.a *= smoothstep(7.5, 8.5, distance(UV * vec2(768.0, 512.0), hand_socket)); }"
+  var material_instance = ShaderMaterial.new()
+  material_instance.shader = shader
+  weapon.material = material_instance
+  add_child(weapon)
+  for i in 8:
+   var path = "res://assets/hero/whip_attack_ground/f%03d.png" % i
+   if ResourceLoader.exists(path): weapon_frames.append(load(path))
+  if FileAccess.file_exists("res://data/hand_sockets.json"):
+   hand_sockets = JSON.parse_string(FileAccess.get_file_as_string("res://data/hand_sockets.json")).get("hero_attack_ground", [])
  follow("idle", 0)
+func has_weapon_layer(state: String) -> bool:
+ return actor == "hero" and state == "attack_ground" and weapon_frames.size() == 8 and hand_sockets.size() == 8
 func playback_rate(state: String) -> float:
  return WALK_CADENCE if actor == "hero" and state == "walk" else 1.0
 func follow(state: String, elapsed: float) -> void:
@@ -60,3 +79,10 @@ func follow(state: String, elapsed: float) -> void:
   ms -= float(durations[index])
   index += 1
  set_frame_and_progress(index, clampf(ms / maxf(1.0, float(durations[index])), 0, 1))
+ if weapon:
+  weapon.visible = has_weapon_layer(state)
+  if weapon.visible:
+   weapon.texture = weapon_frames[index]
+   weapon.position = Vector2(256 if flip_h else -256, -448)
+   weapon.scale = Vector2(-1 if flip_h else 1, 1)
+   weapon.material.set_shader_parameter("hand_socket", Vector2(hand_sockets[index][0], hand_sockets[index][1]))

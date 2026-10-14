@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_ground-gather-f6-delivery-r01.png",
+  "corrective_normalization": 0.8911290322580645,
+  "source_pivot": [
+    256,
+    445
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 221,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

@@ -383,5 +383,55 @@
       "method": "Full flinch and backward collapse through hip support into a painted resting body, followed by quiet fabric settle and a final hold. No get-up route.",
       "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
     }
+  },
+  "hero_attack_ground": {
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "reused",
+      "source": [
+        "art/production-candidates/hero_attack-rest-key.png",
+        "art/production-candidates/hero_windup-key-v2.png",
+        "art/production-candidates/hero_same-arm-strike-key.png",
+        "art/production-candidates/hero_ground-strike-f3-key-r03.png",
+        "art/production-candidates/hero_attack-follow-key.png",
+        "art/production-candidates/hero_ground-return-f5-key-r01.png",
+        "art/production-candidates/hero_ground-gather-f6-key-r02.png",
+        "art/production-candidates/hero_ground-settle-f7-key-r01.png"
+      ],
+      "method": "Four approved attack anchors plus four direct painted in-betweens, each new body normalized once from its original delivery at bounded uniform scale; alpha<=4 cleanup only.",
+      "reason": "Replace held preview poses with a complete ordered action. Fresh independent body/weapon motion review required."
+    }
+  },
+  "whip_attack_ground": {
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/style_hero_neutral/f000.png",
+        "art/production-candidates/hero_same-arm-strike-key.png"
+      ],
+      "method": "Tapered raster leather curves and wood grip use sampled colors from approved coil/grip paint; source-pixel glove sockets and grip directions register each frame. Separate eight-frame weapon layer, no blank phases. Hand occlusion is explicit in the review composites and runtime shader.",
+      "reason": "Generated weapon key missed its hand socket by31.6px and had19.7px root thickness; diagnostic retained in art/rejected/whip-ground-key-r01. Full independent composite/motion review required."
+    }
   }
 }

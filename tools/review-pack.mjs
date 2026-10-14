@@ -27,6 +27,7 @@ if (!root) { console.error('usage: node tools/review-pack.mjs --frames <frames_r
 const out = resolve(opt('--out') || join(root, '..', 'review'));
 const c = loadContract(opt('--contract') || resolve(repo, 'contract/art_contract.json'));
 const src = dirSource(root);
+const occlusions = existsSync(join(root, 'hand_occlusion.json')) ? JSON.parse(readFileSync(join(root, 'hand_occlusion.json'))) : {};
 mkdirSync(out, { recursive: true });
 
 const PER_ROW = 8, GAP = 10, LABEL = 22, MARGIN = 14;
@@ -132,7 +133,16 @@ for (const id of present) {
   const comps = body.map((b, i) => {
     const img = canvas(W, H, [0, 0, 0, 0]);
     paste(img, b, 0, 0);
-    if (whip[i]) paste(img, whip[i], 0, 0);
+    if (whip[i]) {
+      const layer = { ...whip[i], data: Buffer.from(whip[i].data) };
+      const radius = occlusions[id]?.[i], socket = sockets[i];
+      if (radius && socket) for (let y = 0; y < layer.height; y++) for (let x = 0; x < layer.width; x++) {
+        const t = Math.max(0, Math.min(1, (Math.hypot(x + .5 - socket[0], y + .5 - socket[1]) - radius + .5)));
+        const offset = (y * layer.width + x) * 4 + 3;
+        layer.data[offset] = Math.round(layer.data[offset] * t * t * (3 - 2 * t));
+      }
+      paste(img, layer, 0, 0);
+    }
     return img;
   });
   const [x0, y0, x1, y1] = cropOf(comps, pv, c.actors.hero.design_height + 8);

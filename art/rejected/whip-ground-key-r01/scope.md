@@ -1,0 +1,1 @@
+Single generated weapon-key geometry diagnostic. A one-active-frame adapter exercises socket/thickness/reach against the actual strike grip; it is not a full clip proposal or production acceptance. The original contract is unchanged. Raw output, delivery and diagnostic remain preserved.

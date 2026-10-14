@@ -1,0 +1,82 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/rejected/whip-ground-key-r01/frames",
+ "defects": 2,
+ "flags": 0,
+ "clips_audited": 3,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "W-01",
+   "severity": "DEFECT",
+   "clip": "whip_attack_ground",
+   "frame": 0,
+   "msg": "nearest whip ink is 31.6 px from the hand socket (327, 275): not held"
+  },
+  {
+   "rule": "W-02",
+   "severity": "DEFECT",
+   "clip": "whip_attack_ground",
+   "frame": 0,
+   "msg": "whip 19.7 px thick near the grip (max 12)"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_attack_ground": [
+   {
+    "bbox": [
+     192,
+     232,
+     345,
+     448
+    ],
+    "height": 217,
+    "width": 154,
+    "area": 14904,
+    "size": 122.082,
+    "top": 232,
+    "foot": 448,
+    "headWidth": 50,
+    "bootRatio": 0.514,
+    "legDip": 0.364
+   }
+  ],
+  "whip_attack_ground": [
+   {
+    "bbox": [
+     236,
+     215,
+     716,
+     299
+    ],
+    "tip": 389.021,
+    "near": 31.575
+   }
+  ]
+ }
+}

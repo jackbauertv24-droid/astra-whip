@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/hero_ground-gather-f6-r01.png",
+  "source_canvas": [
+    1188,
+    1324
+  ],
+  "export_canvas": [
+    512,
+    512
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

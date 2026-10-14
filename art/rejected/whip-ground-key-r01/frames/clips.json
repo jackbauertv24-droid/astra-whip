@@ -1,0 +1,20 @@
+{
+  "style_hero_neutral": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "hero_attack_ground": {
+    "ms": [
+      50
+    ],
+    "loop": false
+  },
+  "whip_attack_ground": {
+    "ms": [
+      50
+    ],
+    "loop": false
+  }
+}

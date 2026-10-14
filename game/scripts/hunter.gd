@@ -220,6 +220,6 @@ func _draw() -> void:
  if not visual.visible:
   draw_rect(Rect2(Vector2(-20, -size.y), size), color)
   draw_line(Vector2(0,-size.y+15), Vector2(facing*28,-size.y+15), Color("c07f2e"), 4)
- if attack_time >= 0:
+ if attack_time >= 0 and not visual.has_weapon_layer(state):
   var reach = 168.0 if active() else lerpf(20, 150, clampf(attack_time / 0.15, 0, 1))
   draw_line(Vector2(facing*20, -34 if crouched else -64), Vector2(facing*reach, -34 if crouched else -64), Color("8b959e"), 3)
