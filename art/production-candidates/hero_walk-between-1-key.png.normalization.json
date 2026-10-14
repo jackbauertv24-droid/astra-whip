@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_walk-between-1-delivery.png",
+  "corrective_normalization": 1.0092592592592593,
+  "source_pivot": [
+    260.5,
+    448
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 218,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

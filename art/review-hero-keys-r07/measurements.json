@@ -1,0 +1,38 @@
+{
+  "1": {
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 904,
+    "height": 224,
+    "size": 115.13904637437292,
+    "head": 39,
+    "foot": 448
+  },
+  "2": {
+    "source": "art/production-candidates/hero_near-swing-mid-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 978,
+    "height": 218,
+    "size": 112.38772174930854,
+    "head": 41,
+    "foot": 448
+  },
+  "3": {
+    "source": "art/production-candidates/hero_near-precontact-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 874,
+    "height": 218,
+    "size": 116.29703349613007,
+    "head": 41,
+    "foot": 448
+  },
+  "4": {
+    "source": "art/production-candidates/hero_far-swing-mid-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1165,
+    "height": 218,
+    "size": 116.6576186967658,
+    "head": 42,
+    "foot": 448
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "source": "art/production-candidates/hero_down-key.png",
+    "output": "art/production-candidates/hero_down-key-edge-clean.png",
+    "removed": 31,
+    "alpha_max": 4,
+    "method": "Zero near-transparent saturated red/yellow residue only; no ink pixels changed."
+  },
+  {
+    "source": "art/production-candidates/hero_crouch-attack-key.png",
+    "output": "art/production-candidates/hero_crouch-attack-key-edge-clean.png",
+    "removed": 17,
+    "alpha_max": 4,
+    "method": "Zero near-transparent saturated red/yellow residue only; no ink pixels changed."
+  }
+]

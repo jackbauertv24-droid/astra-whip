@@ -1,0 +1,427 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/rejected/idle-sheet-r01",
+ "defects": 36,
+ "flags": 0,
+ "clips_audited": 2,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-02",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 0,
+   "msg": "canvas corners are not transparent (opaque or keyed background)"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 0,
+   "msg": "height 418 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 0,
+   "msg": "size 1.886 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 0,
+   "msg": "ink 55 px below the pivot line"
+  },
+  {
+   "rule": "A-02",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 1,
+   "msg": "canvas corners are not transparent (opaque or keyed background)"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 1,
+   "msg": "height 418 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 1,
+   "msg": "size 1.882 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 1,
+   "msg": "ink 55 px below the pivot line"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 2,
+   "msg": "height 420 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 2,
+   "msg": "size 1.892 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 2,
+   "msg": "ink 54 px below the pivot line"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 3,
+   "msg": "height 419 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 3,
+   "msg": "size 1.892 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 3,
+   "msg": "ink 55 px below the pivot line"
+  },
+  {
+   "rule": "A-02",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 4,
+   "msg": "canvas corners are not transparent (opaque or keyed background)"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 4,
+   "msg": "height 417 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 4,
+   "msg": "size 1.891 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 4,
+   "msg": "ink 54 px below the pivot line"
+  },
+  {
+   "rule": "A-02",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 5,
+   "msg": "canvas corners are not transparent (opaque or keyed background)"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 5,
+   "msg": "height 417 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 5,
+   "msg": "size 1.891 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 5,
+   "msg": "ink 54 px below the pivot line"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 6,
+   "msg": "height 417 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 6,
+   "msg": "size 1.884 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 6,
+   "msg": "ink 54 px below the pivot line"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 7,
+   "msg": "height 417 px outside stand band 217.3–230.7"
+  },
+  {
+   "rule": "A-06",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 7,
+   "msg": "size 1.882 × reference, outside stand band 0.92–1.08"
+  },
+  {
+   "rule": "A-09",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 7,
+   "msg": "ink 54 px below the pivot line"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 0,
+   "msg": "head width 1.974 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 1,
+   "msg": "head width 1.974 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 2,
+   "msg": "head width 1.872 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 3,
+   "msg": "head width 1.974 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 4,
+   "msg": "head width 1.923 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 5,
+   "msg": "head width 2.000 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 6,
+   "msg": "head width 1.949 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_idle",
+   "frame": 7,
+   "msg": "head width 2.000 × standing reference (±0.05): body parts changed size"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_idle": [
+   {
+    "bbox": [
+     168,
+     86,
+     352,
+     503
+    ],
+    "height": 418,
+    "width": 185,
+    "area": 47141,
+    "size": 217.12,
+    "top": 86,
+    "foot": 503,
+    "headWidth": 77,
+    "bootRatio": 0.574,
+    "legDip": 0.393
+   },
+   {
+    "bbox": [
+     168,
+     86,
+     354,
+     503
+    ],
+    "height": 418,
+    "width": 187,
+    "area": 46979,
+    "size": 216.746,
+    "top": 86,
+    "foot": 503,
+    "headWidth": 77,
+    "bootRatio": 0.561,
+    "legDip": 0.387
+   },
+   {
+    "bbox": [
+     167,
+     83,
+     355,
+     502
+    ],
+    "height": 420,
+    "width": 189,
+    "area": 47480,
+    "size": 217.899,
+    "top": 83,
+    "foot": 502,
+    "headWidth": 73,
+    "bootRatio": 0.56,
+    "legDip": 0.385
+   },
+   {
+    "bbox": [
+     169,
+     85,
+     356,
+     503
+    ],
+    "height": 419,
+    "width": 188,
+    "area": 47453,
+    "size": 217.837,
+    "top": 85,
+    "foot": 503,
+    "headWidth": 77,
+    "bootRatio": 0.551,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     167,
+     86,
+     356,
+     502
+    ],
+    "height": 417,
+    "width": 190,
+    "area": 47386,
+    "size": 217.683,
+    "top": 86,
+    "foot": 502,
+    "headWidth": 75,
+    "bootRatio": 0.547,
+    "legDip": 0.381
+   },
+   {
+    "bbox": [
+     168,
+     86,
+     356,
+     502
+    ],
+    "height": 417,
+    "width": 189,
+    "area": 47408,
+    "size": 217.734,
+    "top": 86,
+    "foot": 502,
+    "headWidth": 78,
+    "bootRatio": 0.553,
+    "legDip": 0.388
+   },
+   {
+    "bbox": [
+     167,
+     86,
+     353,
+     502
+    ],
+    "height": 417,
+    "width": 187,
+    "area": 47037,
+    "size": 216.88,
+    "top": 86,
+    "foot": 502,
+    "headWidth": 76,
+    "bootRatio": 0.559,
+    "legDip": 0.389
+   },
+   {
+    "bbox": [
+     167,
+     86,
+     353,
+     502
+    ],
+    "height": 417,
+    "width": 187,
+    "area": 46963,
+    "size": 216.709,
+    "top": 86,
+    "foot": 502,
+    "headWidth": 78,
+    "bootRatio": 0.563,
+    "legDip": 0.386
+   }
+  ]
+ }
+}

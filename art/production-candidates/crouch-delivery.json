@@ -1,0 +1,74 @@
+[
+  {
+    "clip": "hero_crouch_enter",
+    "frame": 0,
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "near_transparent_zeroed": 904,
+    "height": 224,
+    "size": 115.13904637437292,
+    "head": 39
+  },
+  {
+    "clip": "hero_crouch_enter",
+    "frame": 1,
+    "source": "art/production-candidates/hero_crouch-enter-1-key-v2.png",
+    "near_transparent_zeroed": 698,
+    "height": 190,
+    "size": 108.32820500682175,
+    "head": 40
+  },
+  {
+    "clip": "hero_crouch_enter",
+    "frame": 2,
+    "source": "art/production-candidates/hero_crouch-enter-2-key-v2.png",
+    "near_transparent_zeroed": 722,
+    "height": 156,
+    "size": 98.812954616285,
+    "head": 42
+  },
+  {
+    "clip": "hero_crouch_enter",
+    "frame": 3,
+    "source": "art/production-candidates/hero_crouch-key-v2.png",
+    "near_transparent_zeroed": 597,
+    "height": 142,
+    "size": 101.34594219799824,
+    "head": 38
+  },
+  {
+    "clip": "hero_crouch_exit",
+    "frame": 0,
+    "source": "art/production-candidates/hero_crouch-key-v2.png",
+    "near_transparent_zeroed": 597,
+    "height": 142,
+    "size": 101.34594219799824,
+    "head": 38
+  },
+  {
+    "clip": "hero_crouch_exit",
+    "frame": 1,
+    "source": "art/production-candidates/hero_crouch-enter-2-key-v2.png",
+    "near_transparent_zeroed": 722,
+    "height": 156,
+    "size": 98.812954616285,
+    "head": 42
+  },
+  {
+    "clip": "hero_crouch_exit",
+    "frame": 2,
+    "source": "art/production-candidates/hero_crouch-enter-1-key-v2.png",
+    "near_transparent_zeroed": 698,
+    "height": 190,
+    "size": 108.32820500682175,
+    "head": 40
+  },
+  {
+    "clip": "hero_crouch_exit",
+    "frame": 3,
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "near_transparent_zeroed": 904,
+    "height": 224,
+    "size": 115.13904637437292,
+    "head": 39
+  }
+]

@@ -42,3 +42,9 @@ This file records what that build proved about the specification, so that the ne
 - Archiving every pre-fix frame, which made each fix reversible and let each new check be proven against the old defect.
 - Writing what was *not* tested in every review entry.
 - The gameplay numbers: every constant in the shipped code equals this specification's, and the derived proofs (jump envelope, whip timing, boss punish windows) held in play.
+# Implementation lesson: authored horizontal origin
+
+The local normalization helper initially inferred horizontal origin from the bottom boot band. This shifts a tucked airborne pose toward a trailing boot and a falling pose toward a leading boot, making the torso slide sideways between actions. Foot-line auditing checks vertical registration and cannot infer an anatomical horizontal origin from arbitrary ink.
+
+`tools/normalize-frame.mjs` now accepts an explicit authored horizontal guide origin for air/impact poses. It still applies one bounded uniform scale. `tools/test-normalization.mjs` demonstrates the legacy drift, verifies that the authored origin preserves placement, and verifies the scale-bound rejection. Both pre-fix and corrected production candidates remain archived. Engine captures and independent continuity review must still assess horizontal placement.
+

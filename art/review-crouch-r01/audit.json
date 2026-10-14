@@ -1,0 +1,350 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/frames",
+ "defects": 0,
+ "flags": 5,
+ "clips_audited": 4,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "jump from frame 1: size 8.8%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 1,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 2,
+   "msg": "jump from frame 1: size 9.6%, height 21.8%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 3,
+   "msg": "jump from frame 2: size 6.3%, height 17.9%"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_idle": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     224,
+     297,
+     448
+    ],
+    "height": 225,
+    "width": 99,
+    "area": 13319,
+    "size": 115.408,
+    "top": 224,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13367,
+    "size": 115.616,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13394,
+    "size": 115.732,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13394,
+    "size": 115.732,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13367,
+    "size": 115.616,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     224,
+     297,
+     448
+    ],
+    "height": 225,
+    "width": 99,
+    "area": 13319,
+    "size": 115.408,
+    "top": 224,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_crouch_enter": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     196,
+     293,
+     301,
+     448
+    ],
+    "height": 156,
+    "width": 106,
+    "area": 9764,
+    "size": 98.813,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.611,
+    "legDip": 0.415
+   },
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   }
+  ],
+  "hero_crouch_exit": [
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     196,
+     293,
+     301,
+     448
+    ],
+    "height": 156,
+    "width": 106,
+    "area": 9764,
+    "size": 98.813,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.611,
+    "legDip": 0.415
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ]
+ }
+}

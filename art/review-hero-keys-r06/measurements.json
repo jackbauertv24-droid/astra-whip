@@ -1,0 +1,65 @@
+{
+  "1": {
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 904,
+    "height": 224,
+    "size": 115.13904637437292,
+    "head": 39,
+    "foot": 448
+  },
+  "2": {
+    "source": "art/production-candidates/hero_walk-between-1-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 982,
+    "height": 218,
+    "size": 114.24097338520886,
+    "head": 42,
+    "foot": 448
+  },
+  "3": {
+    "source": "art/production-candidates/hero_opposed-contact-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1009,
+    "height": 218,
+    "size": 117.17081547894082,
+    "head": 43,
+    "foot": 448
+  },
+  "4": {
+    "source": "art/production-candidates/hero_attack-rest-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 902,
+    "height": 224,
+    "size": 117.01709276853532,
+    "head": 41,
+    "foot": 448
+  },
+  "5": {
+    "source": "art/production-candidates/hero_windup-key-v2.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1254,
+    "height": 217,
+    "size": 124.22157622571048,
+    "head": 68,
+    "foot": 448
+  },
+  "6": {
+    "source": "art/production-candidates/hero_same-arm-strike-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1259,
+    "height": 217,
+    "size": 122.08193969625482,
+    "head": 50,
+    "foot": 448
+  },
+  "7": {
+    "source": "art/production-candidates/hero_attack-follow-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1267,
+    "height": 217,
+    "size": 120.17903311310172,
+    "head": 46,
+    "foot": 448
+  }
+}

@@ -1,0 +1,223 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/frames",
+ "defects": 1,
+ "flags": 1,
+ "clips_audited": 2,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-07",
+   "severity": "DEFECT",
+   "clip": "hero_walk",
+   "frame": 4,
+   "msg": "no lower body: boot ratio 0.68 > 0.6 and leg dip 0.55 > 0.5 (figure cut off above the legs?)"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_walk",
+   "frame": 2,
+   "msg": "jump from frame 1: size 6.1%, height 1.8%"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_walk": [
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13352,
+    "size": 115.551,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     191,
+     227,
+     313,
+     448
+    ],
+    "height": 222,
+    "width": 123,
+    "area": 13691,
+    "size": 117.009,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.62,
+    "legDip": 0.474
+   },
+   {
+    "bbox": [
+     196,
+     231,
+     307,
+     448
+    ],
+    "height": 218,
+    "width": 112,
+    "area": 12074,
+    "size": 109.882,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.538,
+    "legDip": 0.429
+   },
+   {
+    "bbox": [
+     206,
+     231,
+     307,
+     448
+    ],
+    "height": 218,
+    "width": 102,
+    "area": 12818,
+    "size": 113.217,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.502,
+    "legDip": 0.432
+   },
+   {
+    "bbox": [
+     209,
+     231,
+     314,
+     448
+    ],
+    "height": 218,
+    "width": 106,
+    "area": 13741,
+    "size": 117.222,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.68,
+    "legDip": 0.554
+   },
+   {
+    "bbox": [
+     209,
+     231,
+     333,
+     448
+    ],
+    "height": 218,
+    "width": 125,
+    "area": 13625,
+    "size": 116.726,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.643,
+    "legDip": 0.459
+   },
+   {
+    "bbox": [
+     197,
+     226,
+     306,
+     448
+    ],
+    "height": 223,
+    "width": 110,
+    "area": 13453,
+    "size": 115.987,
+    "top": 226,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.395,
+    "legDip": 0.337
+   },
+   {
+    "bbox": [
+     189,
+     225,
+     319,
+     448
+    ],
+    "height": 224,
+    "width": 131,
+    "area": 13568,
+    "size": 116.482,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.35,
+    "legDip": 0.31
+   },
+   {
+    "bbox": [
+     186,
+     226,
+     322,
+     448
+    ],
+    "height": 223,
+    "width": 137,
+    "area": 14633,
+    "size": 120.967,
+    "top": 226,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.514,
+    "legDip": 0.41
+   },
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13352,
+    "size": 115.551,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   }
+  ]
+ }
+}

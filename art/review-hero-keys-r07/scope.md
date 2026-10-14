@@ -1,0 +1,2 @@
+# Scope
+Isolated body-key approval only: 1 neutral identity, 2 near brown/coat-covered leg swings forward above ground while far gray leg supports, 3 near brown leg extended just before contact while far gray leg supports, 4 far gray leg swings forward while near brown/coat-covered leg supports. Assess isolated anatomy/identity/proportions and painted edges; complete timing and clip continuity are outside this pack.

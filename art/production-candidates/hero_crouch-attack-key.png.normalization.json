@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_crouch-attack-r02-delivery.png",
+  "corrective_normalization": 0.9793103448275862,
+  "source_pivot": [
+    256,
+    449
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 142,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

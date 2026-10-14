@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_windup-r01-delivery.png",
+  "corrective_normalization": 1.0185185185185186,
+  "source_pivot": [
+    258.5,
+    444
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 220,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

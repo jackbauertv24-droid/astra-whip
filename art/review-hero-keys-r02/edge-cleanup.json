@@ -1,0 +1,16 @@
+[
+  {
+    "source": "art/production-candidates/hero_walk-key.png",
+    "output": "art/production-candidates/hero_walk-key-edge-clean.png",
+    "removed": 46,
+    "alpha_max": 3,
+    "method": "Zero near-transparent saturated red edge residue; no ink-alpha>=40 pixels changed; no scale or silhouette change."
+  },
+  {
+    "source": "art/production-candidates/hero_attack-clean-key.png",
+    "output": "art/production-candidates/hero_attack-clean-key-edge-clean.png",
+    "removed": 52,
+    "alpha_max": 3,
+    "method": "Zero near-transparent saturated red edge residue; no ink-alpha>=40 pixels changed; no scale or silhouette change."
+  }
+]

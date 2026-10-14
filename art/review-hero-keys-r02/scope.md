@@ -1,0 +1,2 @@
+# Review scope
+Eight isolated hero key poses; no animation approval is requested at this checkpoint. First describe numbered tiles blind. Then compare identity/anatomy/scale against neutral. Intended poses in order: neutral, walking contact, deep crouch, airborne rise, knocked down on hip, attack windup, extended standing strike, extended crouching strike. Whip rope is a separate unfinished layer; assess grip placement but do not approve whip motion. Record PASS/FAIL per key and whether it may be used as a derivation reference. Full clip/motion gate remains separate.

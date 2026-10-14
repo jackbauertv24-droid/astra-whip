@@ -1,0 +1,66 @@
+{
+  "neutral": {
+    "height": 224,
+    "size": 115.13904637437292,
+    "headWidth": 39,
+    "foot": 448,
+    "bootRatio": 0.5916075650118203,
+    "legDip": 0.3829787234042553
+  },
+  "walk": {
+    "height": 222,
+    "size": 115.69788243524597,
+    "headWidth": 40,
+    "foot": 448,
+    "bootRatio": 0.6510611735330837,
+    "legDip": 0.47191011235955055
+  },
+  "crouch": {
+    "height": 142,
+    "size": 101.34594219799824,
+    "headWidth": 38,
+    "foot": 448,
+    "bootRatio": 0.7213254035683943,
+    "legDip": 0.7850467289719626
+  },
+  "air": {
+    "height": 210,
+    "size": 113.38430226446692,
+    "headWidth": 42,
+    "foot": 448,
+    "bootRatio": 0.09392789373814041,
+    "legDip": 0.11290322580645161
+  },
+  "down": {
+    "height": 105,
+    "size": 120.2538980657176,
+    "headWidth": 38,
+    "foot": 448,
+    "bootRatio": 0.39002145922746784,
+    "legDip": 0.7982832618025751
+  },
+  "windup": {
+    "height": 217,
+    "size": 124.22157622571048,
+    "headWidth": 68,
+    "foot": 448,
+    "bootRatio": 0.5096304008328996,
+    "legDip": 0.35398230088495575
+  },
+  "strike": {
+    "height": 206,
+    "size": 123.95563722558164,
+    "headWidth": 43,
+    "foot": 448,
+    "bootRatio": 0.3963709677419355,
+    "legDip": 0.2645161290322581
+  },
+  "crouch-strike": {
+    "height": 142,
+    "size": 106.63957989414625,
+    "headWidth": 39,
+    "foot": 448,
+    "bootRatio": 0.4741863075196408,
+    "legDip": 0.5
+  }
+}

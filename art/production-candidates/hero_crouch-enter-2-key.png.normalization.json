@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_crouch-enter-2-delivery.png",
+  "corrective_normalization": 0.9767441860465116,
+  "source_pivot": [
+    268.5,
+    462
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 168,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

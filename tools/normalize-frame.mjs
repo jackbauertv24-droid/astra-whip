@@ -2,7 +2,7 @@
 // Contract G-03: one uniform bounded scale and pivot registration, logged.
 import {readPNG,writePNG} from './lib/png.mjs';
 import {writeFileSync} from 'node:fs';
-const [src,dst,heightString='224',pivotX='256',pivotY='448']=process.argv.slice(2);
+const [src,dst,heightString='224',pivotX='256',pivotY='448',authoredOriginX]=process.argv.slice(2);
 const im=readPNG(src),target=Number(heightString);
 let minX=im.width,minY=im.height,maxX=-1,maxY=-1;
 for(let y=0;y<im.height;y++)for(let x=0;x<im.width;x++)if(im.data[(y*im.width+x)*4+3]>=40){minX=Math.min(minX,x);maxX=Math.max(maxX,x);minY=Math.min(minY,y);maxY=Math.max(maxY,y);}
@@ -10,7 +10,9 @@ const scale=target/(maxY-minY+1);
 if(scale<.85||scale>1.18)throw Error(`G-03: scale ${scale} outside allowed range; regenerate`);
 let footMin=im.width,footMax=-1;
 for(let y=maxY-Math.ceil((maxY-minY+1)*.08);y<=maxY;y++)for(let x=0;x<im.width;x++)if(im.data[(y*im.width+x)*4+3]>=40){footMin=Math.min(footMin,x);footMax=Math.max(footMax,x);}
-const pivot=[(footMin+footMax)/2,maxY],to=[Number(pivotX),Number(pivotY)],data=new Uint8Array(im.width*im.height*4);
+// Air/impact poses may put the lowest boot ahead of or behind the torso.
+// Use their authored guide origin, rather than recentering that boot as a root.
+const pivot=[authoredOriginX===undefined?(footMin+footMax)/2:Number(authoredOriginX),maxY],to=[Number(pivotX),Number(pivotY)],data=new Uint8Array(im.width*im.height*4);
 for(let y=0;y<im.height;y++)for(let x=0;x<im.width;x++){
  const sx=(x-to[0])/scale+pivot[0],sy=(y-to[1])/scale+pivot[1];
  const ix=Math.floor(sx),iy=Math.floor(sy),fx=sx-ix,fy=sy-iy;
@@ -26,5 +28,5 @@ for(let y=0;y<im.height;y++)for(let x=0;x<im.width;x++){
  data[j+3]=Math.round(a*255);
 }
 writePNG(dst,{width:im.width,height:im.height,data});
-const record={source:src,corrective_normalization:scale,source_pivot:pivot,delivery_pivot:to,target_height:target,method:'uniform bounded scale about measured foot pivot, registration at contract pivot',debris_removed:0};
+const record={source:src,corrective_normalization:scale,source_pivot:pivot,delivery_pivot:to,target_height:target,method:authoredOriginX===undefined?'uniform bounded scale about measured foot pivot, registration at contract pivot':'uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot',debris_removed:0};
 writeFileSync(dst+'.normalization.json',JSON.stringify(record,null,2));console.log(record);

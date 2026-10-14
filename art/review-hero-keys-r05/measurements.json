@@ -1,0 +1,74 @@
+{
+  "1": {
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 904,
+    "height": 224,
+    "size": 115.13904637437292,
+    "head": 39,
+    "foot": 448
+  },
+  "2": {
+    "source": "art/production-candidates/hero_turn-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1085,
+    "height": 214,
+    "size": 118.71815362445628,
+    "head": 45,
+    "foot": 448
+  },
+  "3": {
+    "source": "art/production-candidates/hero_hurt-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1215,
+    "height": 212,
+    "size": 118.46518475906751,
+    "head": 42,
+    "foot": 448
+  },
+  "4": {
+    "source": "art/production-candidates/hero_air-key-root-fixed.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1297,
+    "height": 210,
+    "size": 113.49008767288886,
+    "head": 43,
+    "foot": 448
+  },
+  "5": {
+    "source": "art/production-candidates/hero_apex-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1217,
+    "height": 182,
+    "size": 115.41663658242689,
+    "head": 48,
+    "foot": 448
+  },
+  "6": {
+    "source": "art/production-candidates/hero_fall-key-root-fixed.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1036,
+    "height": 218,
+    "size": 116.07325273291862,
+    "head": 52,
+    "foot": 448
+  },
+  "7": {
+    "source": "art/production-candidates/hero_half-down-key-root-fixed.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 1326,
+    "height": 157,
+    "size": 125.9761882261882,
+    "head": 42,
+    "foot": 448
+  },
+  "8": {
+    "source": "art/production-candidates/hero_death-settle-key.png",
+    "cleanup_alpha_max": 4,
+    "pixels_zeroed": 861,
+    "height": 71,
+    "size": 112.46332735607639,
+    "head": 38,
+    "foot": 448
+  }
+}

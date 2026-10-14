@@ -1,0 +1,35 @@
+{
+  "style_hero_neutral": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "hero_walk": {
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/production-candidates/hero_walk-key-edge-clean.png",
+        "art/production-candidates/hero_passing-key-v2-edge-clean.png",
+        "art/review-hero-keys-r06/key_3.png",
+        "art/production-candidates/hero_passing-b-key-edge-clean.png",
+        "art/frames/style_hero_neutral/f000.png"
+      ],
+      "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved.",
+      "reason": "Generated sheets failed scale; first rig and held-pose gait failed visual continuity. This full alternating candidate requires independent motion acceptance."
+    }
+  }
+}

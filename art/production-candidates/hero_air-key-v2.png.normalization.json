@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_air-r02-delivery.png",
+  "corrective_normalization": 0.9905660377358491,
+  "source_pivot": [
+    214,
+    436
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 210,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}

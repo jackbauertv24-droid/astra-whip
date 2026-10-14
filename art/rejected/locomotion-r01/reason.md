@@ -1,0 +1,1 @@
+Rejected before independent review: cutout leg motion leaves unnatural straight coat boundaries and does not establish a convincing alternating gait. Numeric audit passed; visual builder inspection rejected. Retained as evidence, not production.

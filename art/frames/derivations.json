@@ -1,0 +1,88 @@
+{
+  "hero_idle": {
+    "kind": "scripted_fallback",
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "method": "Planted feet; rigid head translation with a two-pixel breathing displacement easing through the chest to zero at hips.",
+    "reason": "Generated whole-clip sheet failed G-02 / A-05 / A-06. See art/rejected/idle-sheet-r01/audit/audit.md."
+  },
+  "hero_crouch_exit": {
+    "kind": "reversed",
+    "source": "hero_crouch_enter",
+    "method": "Exact reverse of entry frames.",
+    "reason": "ART_CONTRACT §11 explicitly permits crouch exit reversal."
+  },
+  "hero_crouch_idle": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/hero_crouch-key-v2.png",
+    "method": "Rigid head and shoulder breathing above folded hips, planted boots, one-pixel inhale and settle.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_jump_rise": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/hero_air-key-v2.png",
+    "method": "Restrained knee tuck and trailing coat progression from the approved airborne pose.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_jump_apex": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/hero_air-key-v2.png",
+    "method": "Tuck releases as upward motion stops; coat settles.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_fall": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/hero_air-key-v2.png",
+    "method": "Leg extension and cloth flutter during descent with a continuous loop seam.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_hurt_recoil": {
+    "kind": "scripted_fallback",
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "method": "Torso and head recoil together about planted feet, then recover; no global resize.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_knockback": {
+    "kind": "scripted_fallback",
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "method": "Sustained backward torso lean during state-driven horizontal knockback.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_turn": {
+    "kind": "scripted_fallback",
+    "source": "art/frames/style_hero_neutral/f000.png",
+    "method": "Three weight-transfer poses at the facing transition, with direction controlled by gameplay.",
+    "reason": "Generated whole-clip sheet failed contract scale checks. Uses independently reviewed painted key; secondary motion remains subject to the full clip review."
+  },
+  "hero_walk": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/hero_walk-key-edge-clean.png",
+      "art/production-candidates/hero_passing-key-v2-edge-clean.png",
+      "art/review-hero-keys-r06/key_3.png",
+      "art/production-candidates/hero_passing-b-key-edge-clean.png",
+      "art/frames/style_hero_neutral/f000.png"
+    ],
+    "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved.",
+    "reason": "Generated sheets failed scale; first rig and held-pose gait failed visual continuity. This full alternating candidate requires independent motion acceptance."
+  },
+  "hero_start_move": {
+    "kind": "reused",
+    "source": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_passing-b-key-edge-clean.png",
+      "art/production-candidates/hero_walk-key-edge-clean.png"
+    ],
+    "method": "Transition between neutral, lifted-foot and contact poses.",
+    "reason": "Shared painted gait poses permitted by ART_CONTRACT §11."
+  },
+  "hero_stop_move": {
+    "kind": "reused",
+    "source": [
+      "art/production-candidates/hero_walk-key-edge-clean.png",
+      "art/production-candidates/hero_passing-b-key-edge-clean.png",
+      "art/frames/style_hero_neutral/f000.png"
+    ],
+    "method": "Transition between neutral, lifted-foot and contact poses.",
+    "reason": "Shared painted gait poses permitted by ART_CONTRACT §11."
+  }
+}

@@ -1,0 +1,2 @@
+# Scope
+Isolated body-key approval only: 1 neutral identity, 2 walk intermediate rear heel lift, 3 opposing walk contact with near coat-covered leg forward and far gray leg back, 4 attack grip lowered at hip, 5 attack wind-up, 6 attack extended strike, 7 attack follow-through/return. Weapon rope is a separate layer. Inspect arm identity/pose at isolated key level; complete timing and rope motion are outside this pack.

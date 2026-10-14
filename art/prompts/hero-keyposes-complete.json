@@ -1,0 +1,290 @@
+[
+  {
+    "id": "crouch",
+    "prompt": "Create ONE animation key pose of the exact hunter in reference 1. Reference 2 is the placement guide. Full body, top of head to soles of boots, feet on the ground line. Identity/costume/painted matte rendering unchanged. The hunter faces right and is CROUCHING: knees deeply bent, hips lowered, torso leaning forward slightly, both boots on ground, long coat folds over thighs. Head keeps SAME physical size as reference (39 pixels wide on 512 canvas); do not shrink the person. Keep his whole figure only 140 pixels high on the 512x512 canvas, top of head at y308 yellow guide, bottom of boots y448 red guide, foot centre x256. This is a SMALL figure in a large transparent canvas with upper 60% empty, as guide. Do not zoom to fill. Neutral stands224pixels; bend to140 with same anatomy. Coiled whip compact in near fist. Separate visible bent thighs, knees, shins and boots. Fullbody 3/4side view to right, dark brown mantle, pale sleeve wraps, brown boots, quiet amber rim. Actual transparent background. Remove guide lines and all labels, no floor or shadow. Single pose only.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-4d0cebf2-5e68-4dac-a59e-cd3a8e2467ce.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouch2",
+    "prompt": "Precise small sprite composition. First reference is immutable character identity AND SCALE; second is placement guide. Generate ONE deep crouch pose, full body, top of head to soles of boots, feet on the ground line. Preserve original standing character's head size, narrow hair silhouette and anatomy. Bend BOTH knees into a full low squat, hips near heels, torso upright leaning slightly forward, near forearm horizontal over thigh. Facing RIGHT, coiled whip held at hip. Same detailed matte painted brown mantle, pale wraps, leather boots. 512-square conceptual canvas: tiny figure in lower centre, entire body y308 to448 ONLY (140 px tall, about27% canvas height), width about110px, headwidth39px (7.6% canvas). Image2 yellow line is TOP OF HEAD; red line is BOOT SOLES; feet centre at red cross. The entire upper60% of image MUST BE EMPTY TRANSPARENCY. Do not enlarge to fill; no waist-up crop. Compact low squatting silhouette, not halfstanding and not kneeling. No visible guides or any other marks. Alpha transparent. One figure only.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-1c652442-8043-4d2c-b1e7-98b1f8b7f49f.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walk",
+    "prompt": "ONE fullbody walking contact key pose of reference hunter, matte painted nonpixel transparent sprite. Preserve exact identity, headsize, narrow silhouette, brown mantle/pale wraps/boots. Ref2 guide is exact512x512 composition, headtop y224, bootbottom y448, pivot256448. Whole body224px tall, head39px wide, upper44% canvas empty. Full body, top of head to soles of boots, feet on the ground line. Facing right: right/front leg extended forward heel contacting ground at x286, rear leg extended back toe ground at x225. Knees subtly bent. Weight travels forward, near arm with compact whipcoil swings back slightly, far arm forward. Clear walking stride not running or extreme lunge. Same volume as neutral, same size head. Keep fullbody entire character small in lowercentral canvas, not enlarged to fill. No guide lines, labels, shadows, floor, or extra frames.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-e37c3aa3-2095-48a2-bb3e-4bede237400e.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "air",
+    "prompt": "ONE airborne key pose of exact original hunter reference1, guide reference2 for scale/placement. Full body top of head to soles of boots, feet on the ground line for sprite registration even though pose reads airborne. Face right. Same physique, same39px wide head, brown mantle, pale wrapped forearms, dark breeches, tall boots. Modest jump with knees bent: front knee raised slightly, rear leg trailing, both toes downward, cloak trails left, near fist holding compact coiled whip raised near chest. Matte painted detailed nonpixel. On512square canvas entirefigure200px tall: headtop248, lowestboot448, footcentre256. Upper48% blank transparent. Do not enlarge figure or head; maintain exact reference scale, bend limbs. No floor, no shadows, no guide lines. One figure, actual transparency.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-1bbe7cce-86fa-4710-b1fa-ce3a7f695f3c.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "air2",
+    "prompt": "Edit reference1 to one restrained airborne pose. Preserve the head PIXEL SIZE and all body proportions exactly, head remains small relative to body. Do NOT beautify/enlarge face, broaden hair or enlarge chest. Same 224px standing-scale man with slim limbs; bend knees gently into modest jump. Profile facing right. Near hand keeps compact whipcoil beside hip; far hand in front for balance. Rear leg bent back a little, front thigh raised a little. Coat trailing subtly, no huge flare. Reference2 guide:512x512 conceptual canvas, headtop y238, lowestboot y448, footcentrex256. Entirefigure210px high on512canvas, head exactly39px width; body area same as reference. Upper46% empty transparency. Full body, top of head to soles of boots, feet on the ground line for registration, airborne posture with no floor. Matte detailed painted sprite. No guide lines/labels/shadows. ONE small figure lower centre.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-ea7d6588-659e-40e0-ae4a-4783a4ec381c.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "down",
+    "prompt": "ONE knocked-down full body key pose of reference hunter. Preserve identity, exact physical anatomy scale, small39px head, brown mantle, pale wrapped arms, leather boots, detailed matte painted style. Guide ref2 is512canvas/pivot ground448. Hunter has fallen backward onto his hip/back, head on LEFT, boots to RIGHT, knees bent slightly, one forearm braces against ground. Full body top of head to soles of boots, feet on the ground line. Entire horizontal reclined silhouette occupies x145..355 y360..448 on512canvas, about210px wide88px high, same total body volume as upright reference. Not kneeling, not a rotated stiff standing cutout: back curled, elbows and knees bent, coat rumpled under body, both legs identifiable. Nonviolent no gore. Actual transparent background, empty upper70%, NO floor/shadow/guides/labels. Single small sprite lowcentre, no enlargement.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-8aa6ed5b-be23-4a5e-8c28-f966cbe1121b.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "attackClean",
+    "prompt": "Minimal edit to reference1 sprite. KEEP exact body placement, scale, face, costume and pose. Remove ONLY the coiled whip loop dangling from belt at left hip, replacing that loop area with the underlying coat. The outstretched fist must visibly grasp a short dark wooden whip grip, no thong or rope on this body layer (separate animation layer supplies rope). Do not change extended arm or head. Full body top of head to soles of boots, feet on the ground line. Reference2 approved neutral identity and reference3 placement guide. Reference1 exact silhouette206px high on512canvas bottom448 headtop242, preserve that. Actual alpha transparency, no marks/guide/shadow.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-72c8b114-72b0-4e8b-9d40-6602052f8725.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "windup",
+    "prompt": "ONE fullbody attack anticipation key of exact hunter from ref1. Preserve identity, brown mantle pale sleeve wraps boots, matte painted detailing, narrow39px head. Facing right with planted staggered feet. Torso twists back slightly, right weapon forearm bent up and back beside shoulder, fist at x280,y268 holding a short wooden whipgrip, NO rope/coil/thong anywhere (separate layer supplies it). Other fist near waist. Head still highest feature at y224; bent elbow/fist stays below head. Full body top of head to soles of boots, feet on the ground line. Ref2 guide defines512x512canvas footpivot256448; figure224px high and about115px wide, upper44% EMPTY. Use EXACT physical scale from neutral; do not enlarge head or body. One small character lower centre, actual transparent background, no floor/shadow/guide/label.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-0a97d757-e133-454b-8644-282e9391f6c1.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchAttack",
+    "prompt": "Create ONE crouching whip strike BODY sprite. Ref1 approved neutral identity, ref2 scaleguide, ref3 crouch proportions. Keep EXACT same head size as ref3, anatomy and painterly costume. Full body top of head to soles of boots, feet on the ground line. Deep crouch with bent knees/hips low, facing right, right weapon arm extended HORIZONTALLY forward at shoulderheight, closed fist visibly holding short wooden whipgrip. NO coiled whip or rope or thong anywhere: remove coil from hip, whip is separate animation layer. Other hand near chest for balance. On512canvas headtop308 lowestboots448, wholefigure140px tall; head39px wide. Arm ends nearx350 y350. Feetcentre256448. Large empty upper60% transparent. Bending not shrinking. Keep matte painted details, no floor/guide/shadow/labels.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-58b000a3-2c35-4a0e-9e89-7ff753853efa.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchAttack2",
+    "prompt": "Edit reference1 very locally: keep the EXACT same small crouching figure size, canvas, head, knees, boots, all placements. ONLY extend weapon arm forward to right at shoulder height with gloved fist holding short wooden whiphandle, and remove the whipcoil at the hip. NO ROPE on body, separate layer supplies rope. Do NOT redraw at larger scale. Character remains142px high within512x512canvas. Head at306, soles448. The upper60% canvas entirely empty alpha. Reference2 neutral identity and reference3 guide. Full body top of head to soles of boots, feet on ground line. Same39px physical headwidth, same compactslim body volume, bent knees. Matte painted sprite, rightfacing. Exact preserve reference1 proportion and figure placement, single sprite, transparent background, no floor or guides.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-c7b73d30-e6ec-4484-b956-fd64f987e1be.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "passing",
+    "prompt": "ONE walking passing key pose, exact hunter identity/scale from reference1. Same small39px head, thin painted proportions, brown mantle pale wraps dark breeches brown boots, compact whipcoil near hand. Guide ref2 512canvas headtop224 soles448 footcentre256. Full body top of head to soles of boots, feet on the ground line. Facing RIGHT. MID-WALK PASSING: support leg straight under hip, supporting boot flat on ground at x252. Other leg bends backward at knee, lifted boot passes behind support calf, heel raised about25px off ground and toe15px off ground. Knees overlap slightly; body upright and clearly walking not running. Near arm swings gently forward, far arm backward. Entire figure224px high, upper44% empty, same39px headwidth. Do not enlarge. Actual alpha, no floor/shadow/labels/guides, single small lowercentre sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-9057a234-1664-4c57-8061-751c8733ff25.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "contactB",
+    "prompt": "ONE opposite walking contact pose of reference1 hunter, preserve exact identity, small39px head and224px fullbody size on512canvas. Facing RIGHT. NEAR LEG (the leg on viewer's side, emerging under left side of coat) steps FAR FORWARD to right, heel grounded at x300; FAR LEG goes BACK LEFT with toe grounded at x218. Near knee and thigh pass IN FRONT of far thigh. This is the alternate footfall from reference1 neutral, normal deliberate walk, not run. Near arm carrying compact whipcoil swings slightly backward, glove visibly grasping coil grip; far arm gently forward. Same slim adult proportions, headtop224, bootsoles448, footpivot256448 in guide ref2. Full body top of head to soles of boots, feet on the ground line. Upper44% image fully empty transparency. Do not enlarge silhouette or head. Detailed matte painted sprite, no floor/guides/shadows/labels, one small sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-6960db5b-1982-476b-9861-976c9c4f7f84.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "passingB",
+    "prompt": "ONE walking passing animation key. Reference1 exact neutral identity and reference2 placement guide. SAME small head39px, fullbody224px tall on512canvas, headtop224, groundedboot448, upper44% EMPTY. Face RIGHT. Stand weight on the BACK/FAR leg straight under hip. Lift NEAR/front knee FORWARD, near shin vertical and its boot suspended above ground30px, pointing right. This is a slow WALK passing pose, no jumping; torso upright, support boot fully grounded. Near glove holding compact whipcoil swings slightly backward. Brown mantle pale wraps thin adult anatomy matchreference. Full body top of head to soles of boots, feet on ground line (supportfoot). No floor/guide/shadow, transparent alpha. Whole figure small lowercentre, do not zoom.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-677b13b2-0c3b-406e-94c3-c57c0477bab7.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouch_enter_1",
+    "prompt": "Generate ONE in-between animation key between references1 and2. ONE THIRD of the way from upright ref1 into crouch ref2. Knees slightly bent, hips lowered28px, torso inclines slightly. Same exact hunter,39px headwidth, body volume and thin adult proportions, costume matte brown mantle pale wraps boots unchanged. Facingright, coiledwhip near hip held in near glove. Full body top of head to soles of boots, feet on the ground line. Ref3 guide defines512canvas. Totalfigureheight196px, tophead253, bootsoles448, footcentre256. Large transparent upper half, DO NOT zoom/enlarge. Head physical size stays identical to neutral. Bend joints, never shrink body. Exact target height via pose. Actual transparent alpha, no floor/shadows/guides/labels, ONE small lowercentre sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-897b2070-9867-4496-a915-3791badf1bc0.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchEnterFix1",
+    "prompt": "Generate a corrected ONE in-between key: exact hunter from reference1 lowering into crouch by one third, knees slightly bent, hips lowered28px. Preserve SMALL HEAD from reference1 exactly: head width39px on512canvas, narrow hair outline, adult 1:6 standing head/body ratio. No wide hair or enlarged face. Maintain thin reference body anatomy. Total posed height196px, footsole448, headtop253, centre256. Guide ref2. Full body top of head to soles of boots, feet on the ground line. Near fist visibly holds compact coil at hip. Same matte painted brown mantle pale wraps brown boots, facing right. Upper49% of canvas empty transparency, small figure lowercentre, no zoom/floor/shadow/guide/labels. Body volume same as neutral, bend knees and hips rather than scaling the person.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-c5ca9aa1-8b11-4bc1-ad52-d310caf4a02e.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "halfDown",
+    "prompt": "ONE mid-knockdown animation pose of exact reference hunter. Full body top of head to soles of boots, feet on ground line. Facing right but falling BACKWARD toward left, hips very low, torso tilted backward45degrees, near hand reaches back/down to brace, one knee raised and other leg extends forward. Not sitting calmly: active loss of balance. Preserve reference head physical size39px on512canvas, slim adult anatomy and matte brown mantle/pale wraps/boots. Total vertical poseheight155px, lowestboots448, headtop294. Footregistrationcentre256448 guide ref2; entirefigure small lowcentre upper57% empty transparency. No gore, no floor/shadow/guides/text, one whole character, no enlargement. Keep compact whipcoil near belt/hand.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-1e83d9cb-ba64-4624-9063-aa0bbe22851b.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "deathSettle",
+    "prompt": "ONE final collapse pose of exact reference hunter, non-gory game death sprite. Full body top of head to soles of boots, feet on ground line. Lying completely on side/back along ground, head LEFT facing right/up with eyes closed, boots RIGHT, torso rests on ground, arms relaxed close to body, knees mildly bent. NOT propped up, no raised head, no sitting. Preserve exact physical anatomy/headwidth39px and bodyvolume from reference. Matte brown mantle pale wraps tallboots. On512canvas horizontal figure x145..370, y378..448, totalheight70px, width225px. Guide ref2 bottomline448. Upper73% transparent EMPTY. Actual alpha, no ground/shadow/guide/labels, one small lowcentre fullbody figure. Same original hunter, no gore.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-bbf79cbb-35d0-4130-9d27-86d7a004b637.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkSwap",
+    "prompt": "Edit this hunter sprite into the OPPOSITE WALK FOOTFALL. Essential change: swap the positions of his two legs. The near leg under the LEFT coat panel must cross forward diagonally to the RIGHT and end at the rightmost boot. The far leg now on the RIGHT must sweep diagonally BACK LEFT, with its boot leftmost. Show the near thigh IN FRONT OF the far thigh; near shin overlaps far shin at centre. This is the other half of a walk cycle, not the same stance. Keep upper body/face/costume/canvas scale unchanged, near arm with whipcoil swings BACK, far arm swings FORWARD for opposite-foot counterbalance. Full body top of head to soles of boots, feet on ground line. Ref1 current pose to alter; ref2 immutable neutral identity; ref3guide. Figure222px tall on512square, head39px, soles448, footcentre256. Upper44% empty alpha. One small sprite, no floor/shadow/guide/labels.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-116929eb-7ceb-46f9-8bcf-bd25934c0f83.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "hurtKey",
+    "prompt": "ONE impact-recoil key of exact hunter reference1. Full body top of head to soles of boots, feet on ground line. He faces right but flinches backward LEFT from a hit: chest leans back visibly, head recoils back and chin tucks, near elbow bends defensively across abdomen still holding compact whipcoil, far hand raised open at chest, knees flex, front boot planted and rear heel slightly lifted. Expression wince no gore. Clearly impact, not neutral stance. Preserve exact thin adult limbs and small39px head, brown mantle pale wraps boots, matte painted. Guide ref2 512canvas totalbodyheight214px, headtop235, soles448, pivot256448. Upper45% fully empty transparent, one small sprite lowercentre, no floor/shadow/guide/text, no enlargement.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-887ed261-1323-4e2c-9247-5ed8f53217c8.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "idleClip",
+    "prompt": "Use case: identity-preserve. Create hero_idle animation from image1, the approved original hunter neutral reference. Image2 is EXACT 4-column by2-row sprite placement guide, each cell512square, total2048x1024. Deliver EIGHT successive frames in reading order, no more/no fewer. Every frame shows SAME hunter full body top of head to soles of boots, feet on the ground line, facingright. Each full body height224px, headwidth39px, foot pivot(center256,y448) WITHIN ITS OWN CELL. Reference hunter occupies44% cellheight, preserve identical anatomy/size/costume; leave top44% of EACH CELL empty. Idle motion is restrained breathing: frames0/7 neutral; 1/6 slight inhale; 2/5 chest rises1px; 3/4 chest rises2px, mantle/coat settle subtly. Boots planted same baseline, no camera motion, no head enlargement, no outfit changes. Near gloved hand visibly holds compact coiled whip grip at hip. Matte detailed painted nonpixel sprite, reference palette/light unchanged. Actual transparent background. OMIT ALL guide lines, grids, labels, borders, shadows and floors from output. Exactly2048x1024 composition,4x2 equal cells, identical scale and placement. No collage decoration. This is one looping clip,8frames125ms each.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-01219cba-a2f7-4929-9213-a782344d0451.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero-idle-8.png"
+    ]
+  },
+  {
+    "id": "crouch_enter_2",
+    "prompt": "Generate ONE in-between animation key between references1 and2. TWO THIRDS of the way from upright ref1 into crouch ref2. Knees deeply bent but hips not yet fully lowered, torso leans forward slightly. Same exact hunter,39px headwidth, body volume and thin adult proportions, costume matte brown mantle pale wraps boots unchanged. Facingright, coiledwhip near hip held in near glove. Full body top of head to soles of boots, feet on the ground line. Ref3 guide defines512canvas. Totalfigureheight168px, tophead281, bootsoles448, footcentre256. Large transparent upper half, DO NOT zoom/enlarge. Head physical size stays identical to neutral. Bend joints, never shrink body. Exact target height via pose. Actual transparent alpha, no floor/shadows/guides/labels, ONE small lowercentre sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-64dade37-38f4-4a55-bf6b-a2b891a91398.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "turnKey",
+    "prompt": "ONE pivot-turn anticipation pose of exact hunter reference1. Body turns threequarters TOWARD CAMERA at hips and shoulders while face and gaze remain to RIGHT. Clear chest visible more frontally, shoulders twist opposed to hips, left boot planted bearing weight, right boot pivots heel lifted, knees flex slightly. Near arm carrying compact whipcoil bends across front of waist, far arm pulls slightly back. Readable turning/weighttransfer, not neutral standing. Preserve exact small39px head and224px tall adult anatomy, slim body same reference, matte brown mantle pale sleeves boots. Ref2guide512canvas headtop224 soles448 pivot256448, upper44% empty transparent. Full body top of head to soles of boots, feet on ground line. No floor/shadow/text/guides, one small sprite lowercentre.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-eb10fbe2-cab5-4d8f-a690-83ba3b4030ff.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "fallKey",
+    "prompt": "ONE falling/descent animation key of exact hunter reference1, distinguish from a jump tuck. Face RIGHT, torso upright slightly leaning back, BOTH legs extend DOWNWARD with knees only slightly bent, front boot lower and toes pointing down, rear boot trailing a little higher. Arms spread for balance: near elbow out holding compact whipcoil at hip, far forearm forward. Coat tails and hair lift UP subtly from downward air motion. Same small39px head, slim adult proportions, brown mantle pale wraps boots, matte painterly. Guide ref2 512canvas, wholebody220px high headtop229 lowestboot448, footcentre256448, upper44% empty transparent. Fullbody top of head to soles of boots, feet on ground line for registration, no floor/shadow/guides/text. Single small sprite, no enlargement.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-cc6e59e6-60bd-4297-b9fb-966854bf7874.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "apexKey",
+    "prompt": "ONE airborne APEX key of exact hunter reference1. At top of modest jump BOTH knees tuck toward hips, BOTH heels lift back and thighs fold, unlike the one-knee running pose. Torso upright, far arm forward open for balance, near elbow bent holding compact whipcoil at waist. Face RIGHT. Same exact small39px head on512canvas, slim adult bodyvolume and limb lengths, brown mantle pale wraps boots, matte painted. Guide ref2. Fullbody top of head to soles of boots, feet on ground line for registration: lowestboot448, tophead267, wholepose182px high; footcentre256. Upper52% empty transparency. Fold legs not shrink entire body; same head/torso scale as neutral. Coat tails begin settling downward. One small sprite lowercentre, actual alpha, no floor/shadow/guide/text.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-13baaf05-79f4-4847-9d8e-f2234806fbf4.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "sameArmStrike",
+    "prompt": "Edit reference1: the RAISED weapon hand at LEFT must swing forward RIGHT to perform a whip strike. Preserve WHICH ARM holds the grip: it is the NEAR arm, originating at the LEFT shoulder of the image. Extend this same near arm across the FRONT OF CHEST toward right, elbow at x286,y282 and fist/woodengrip at x350,y282. Pale near sleeve crosses and partly obscures the vest. The other FAR arm stays bent low at waist. Do NOT extend the opposite far arm. Remove belt whipcoil/rope; only short handle in strike fist, separate layer supplies rope. Preserve exact face/body/costume, planted stance, slim limbs from reference1; identity ref2, placementguide ref3. Fullbody top of head to soles of boots, feet groundline. Totalfigure217px on512canvas foot448, headtop232, upper45% empty transparency. Original matte painterly sprite, one small fullbody hunter facingright, no floor/guide/shadow/labels.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-06d6d9a4-023b-4b45-8518-ec38d978da80.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "attackRest",
+    "prompt": "Minimal edit to exact neutral hunter reference1. Preserve EVERYTHING about body/face/costume/pose/scale. ONLY remove the dangling coiled whip loop at his near hip, replacing loop pixels with underlying coat. Near glove must grasp a short dark wooden whipgrip at hip at x234,y337, hand naturally lowered as in reference. NO rope or coil anywhere on BODY sprite; separate whip layer supplies it. Do not enlarge head, do not regenerate different body. Full body top of head to soles of boots, feet groundline. Ref2 guide512canvas exactly224px figure,39px head, foot448. Upper44% empty alpha. Same original matte painted sprite, transparent background, no floor/guide/shadow/labels. One small figure lowercentre.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-ffa97025-509c-4267-aa0a-d4608c2f6512.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "attackFollow",
+    "prompt": "ONE whip-strike follow-through/return body pose between reference1 strike and reference2 neutral. Preserve SAME near weapon arm as ref1, beginning at LEFT shoulder and crossing FRONT OF CHEST. Bend this arm at elbow and lower grip-holding fist to x280,y322, forearm diagonally DOWN RIGHT across abdomen. Far hand remains near waist. Torso unwinds slightly from strike; same planted stance and knees, coat settles. NO rope or coiled whip anywhere on body; short wooden grip in near fist only. Identity ref2 and guide ref3. Exact slim adult proportions, small39px head, matte painted brown mantle pale wraps boots. Fullbody top of head to soles of boots, feet groundline. On512square canvas figure217px high tophead232 lowestsoles448, pivot256448, upper45% empty transparency. No floor/shadow/guide/text, one small fullbody sprite rightfacing.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-e9c1688d-1e68-4061-863b-132dd86d570f.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "opposedWalkCleanup",
+    "prompt": "LOCAL cleanup of reference1 sprite. Preserve its EXACT leg arrangement: near leg and near long coat panel extend FORWARD RIGHT, far gray trouser leg extends BACK LEFT, both boots face RIGHT. Do not swap these legs back. Correct ONLY the unnatural horizontal seam/fold at waist and upper coat around y360..380: smoothly paint the brown coat flowing from hips onto the near forward thigh, without the flat-cut flap sticking right. Keep head, torso, arms, hands, boots, pose and scale unchanged. This is an opposing walk contact frame. Ref2 immutable identity, ref3 guide. Fullbody top of head to soles of boots, feet groundline.222px figure on512canvas top227 sole448 head39px, upper44% empty alpha. Same matte painterly detail, no floor/shadow/guides/text, small lowercentre sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-bad3ca46-dd1e-4f20-bbf8-47f34f253b13.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkBetween1",
+    "prompt": "ONE true halfway in-between from walking contact reference1 to passing reference2. Track SAME legs: far gray trouser leg remains planted/supporting; near leg under long coat on LEFT lifts its rear heel and bends at knee to swing. Near rear boot raised10px, halfway behind support calf. Arms/coat move halfway between both refs, sameidentity as ref3. Head physically39px wide, thin adult proportions, totalheight220px on512canvas, headtop229 soles448 pivot256448. Guide ref4. Fullbody top of head to soles of boots, feet groundline (supportfoot). Upper44% empty transparency, matte painted brown mantle pale wraps boots, rightfacing, no floor/shadow/guides/labels. Do not enlarge head/body. Single small lowercentre sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-a37fbe68-b04d-41e8-afb6-5e012d6e0793.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkNearMid",
+    "prompt": "ONE halfway in-between WALK pose from reference1 passing to reference2 opposing contact. Track leg identity exactly: NEAR leg under brown long coat swings FORWARD RIGHT, knee slightly raised, near boot below hips at x270,y432, offground16px. Near coat panel follows forward thigh to right. FAR gray trouser leg remains SUPPORTING, planted far boot at x286,y448. Both boots face RIGHT. Near thigh begins passing in FRONT of far thigh. Not a jump. Upperbody/arms/cloth halfway between refs, same physical identity ref3. Tiny head39px width, figure220px tall on512canvas headtop229 sole448 pivot256448 (guide ref4). Fullbody top of head to soles of boots, feet groundline for supportfoot. Upper44% empty transparent, matte detailed brown mantle pale wraps boots, no zoom/floor/shadows/guides/labels, one sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-33dd6f06-56ab-44ac-8505-8be3547be952.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkNearSwing",
+    "prompt": "Local edit of reference1 OPPOSING WALK pose. Keep exact leg identity: brown long-coat-covered NEAR leg is the FORWARD RIGHT leg; gray FAR leg is BACK LEFT. Change ONLY near forward leg: bend its knee, retract its boot LEFT about40px and lift boot15px. Near boot now around x270,y433 on512canvas, brown coat follows that near forward thigh; far gray boot stays planted left aroundx238,y448. Do NOT swap gray trousers to the forward right leg. Preserve upperbody/head/arms/costume/scale exactly. Ref2 immutable identity ref3guide. Head39px, totalfigure218px high, fullbody top of head to soles of boots, feet groundline for supportfoot. Large upper44% empty alpha. Detailed matte painted sprite rightfacing, no floor/shadow/guides/text, one small figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-e47086c8-169c-4af2-8d4b-96b0345f9f44.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkNearPrecontact",
+    "prompt": "LOCAL edit of reference1 opposing WALK contact. Preserve EXACT legs: near brown coat-covered leg forward RIGHT; far gray trouser leg back LEFT. Keep near leg extended forward as in reference, but lift near forward heel/sole only8px ABOVE ground, toes point right. This is just BEFORE that heel contacts. Far gray foot remains planted behind on groundy448. Near front boot end aroundx308,y440 on512canvas, not higher. Upperbody/arms/head/coat/costume/scale unchanged, both legs distinct, no swap to gray forward leg. Ref2 identity, ref3guide.39px head,218px wholefigure, fullbody top of head to soles of boots, feet groundline (far supportfoot). Upper44% empty alpha. Matte detailed painterly sprite, rightfacing, no zoom/floor/shadow/guides/labels, one small figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-5fae69ae-5a06-4db5-97c1-6be14738c6a4.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_half-down-delivery.png",
+  "corrective_normalization": 0.8579234972677595,
+  "source_pivot": [
+    256,
+    456
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 157,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}
