@@ -1,0 +1,13 @@
+{
+ "defects": 0,
+ "flags": 1,
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_walk",
+   "frame": 6,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  }
+ ]
+}

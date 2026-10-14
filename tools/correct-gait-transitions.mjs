@@ -1,0 +1,12 @@
+import {readPNG,writePNG,blank} from './lib/png.mjs';
+import {meshWarp,clamp} from './lib/deform.mjs';
+import {mkdirSync,cpSync,readFileSync,writeFileSync} from 'node:fs';
+const root='./';
+const xs=[0,170,190,210,230,245,256,265,280,300,320,350,512],ys=[0,225,265,280,325,345,365,380,395,410,425,435,448,470,512];
+function over(dst,src){for(let j=0;j<dst.data.length;j+=4){const a=src.data[j+3]/255,b=dst.data[j+3]/255,aa=a+b*(1-a);if(!a)continue;for(let k=0;k<3;k++)dst.data[j+k]=Math.round((src.data[j+k]*a+dst.data[j+k]*b*(1-a))/aa);dst.data[j+3]=Math.round(aa*255);}}
+function moveParts(src,left,right){const out=blank(512,512);for(const [side,delta] of [[1,right],[0,left]]){const part=blank(512,512);for(let y=355;y<512;y++)for(let x=0;x<512;x++)if((x>=256)==!!side){const j=(y*512+x)*4;part.data.set(src.data.subarray(j,j+4),j);part.data[j+3]=Math.round(part.data[j+3]*clamp((y-355)/20));}const warped=meshWarp(part,xs,ys,(x,y)=>{const w=clamp((y-355)/65);return[x+delta[0]*w,y+delta[1]*w];});over(out,warped);}const body={...src,data:new Uint8Array(src.data)};for(let y=355;y<512;y++)for(let x=0;x<512;x++){const j=(y*512+x)*4;body.data[j+3]=Math.round(body.data[j+3]*(1-clamp((y-355)/20)));}over(out,body);return out;}
+const pa=readPNG(root+'art/frames/hero_walk/f002.png'),b=readPNG(root+'art/frames/hero_walk/f005.png');
+const images={3:moveParts(pa,[60,-8],[-22,0]),4:moveParts(b,[0,0],[-4,-9]),6:moveParts(b,[25,-17],[-19,0])};
+const archive=root+'art/rejected/gait-transition-'+Date.now();mkdirSync(archive,{recursive:true});cpSync(root+'art/frames/hero_walk',archive+'/hero_walk',{recursive:true});
+for(const [i,im] of Object.entries(images)){for(let j=0;j<im.data.length;j+=4)if(im.data[j+3]<=4)im.data.fill(0,j,j+4);writePNG(root+'art/frames/hero_walk/f'+String(i).padStart(3,'0')+'.png',im);}
+const d=JSON.parse(readFileSync(root+'art/frames/derivations.json'));d.hero_walk.method+=' Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours.';d.hero_walk.scripted_frames=[0,1,2,3,4,5,6,7,8,9];d.hero_walk.painted_frames=[];delete d.hero_walk.painted_frame_sources;writeFileSync(root+'art/frames/derivations.json',JSON.stringify(d,null,2));const m=JSON.parse(readFileSync(root+'art/frames/clips.json'));m.hero_walk.derivation=d.hero_walk;writeFileSync(root+'art/frames/clips.json',JSON.stringify(m,null,2));

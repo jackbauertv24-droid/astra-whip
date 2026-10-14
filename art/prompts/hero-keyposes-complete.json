@@ -286,5 +286,87 @@
       "art/frames/style_hero_neutral/f000.png",
       "art/guides/hero.png"
     ]
+  },
+  {
+    "id": "walk-r05-inbetween-invalid-request",
+    "prompt": "Recorded request omitted guide; exact prompt retained separately.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-3114a664-53cb-4f6c-bac8-c68998371072.png",
+    "status": "REJECTED: request omitted required guide reference; do not use in production"
+  },
+  {
+    "id": "turnHeadR02",
+    "prompt": "Use case: precise-object-edit. Edit image1 turning hunter only at his HEAD: replace the too-broad front-turned face/hair with the exact right-facing profile face and compact hair silhouette in image2. Keep image1 torso shoulder hip twist, loaded pivot foot, gloved hands, coil, long coat, legs and boots unchanged. Keep head connected naturally at neck. Maintain small adult head matching image2 width and length, no enlarged hair mass. Figure 214px tall on 512px canvas, foot448, transparent backdrop. Same detailed painted brown leather linen colors. No guide marks no text no debris. One full figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-bd957065-9d5a-4638-a071-57944acbd76e.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "REJECTED: guide omitted and scale exceeded bound"
+  },
+  {
+    "id": "turnGuidedR03",
+    "prompt": "Use case: identity-preserve. ONE full-body hunter TURN pose. Image1 exact costume and face identity; image2 guide controls scale/placement; image3 describes shoulder/hip twist only. Full body, top of head to soles of boots, feet on the ground line. SMALL figure bottom center on 512square canvas: entire figure y230..448, 218px tall, EXACT head width39px. Upper45% empty transparent. Right-facing PROFILE head copied in scale from image1, compact hair contour, not frontal head. Shoulder/hip rotate partly towards camera, front leg loads a heel pivot, body weight shift, both feet visible. Same brown leather coat and pale linen, near fist coil held, realistic connected neck. Do not enlarge to fill canvas. Remove guide lines in final. No text, no floor, no shadow, no specks. Full figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-6612b09a-af2f-46a6-8eba-02569fa3f6e7.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "brakeGuidedR01",
+    "prompt": "Use case: identity-preserve. One full-body right-facing hunter BRAKING pose, at SMALL reference scale. Image1 is original identity/scale, image2 placement guide, image3 is walking start pose. Full body, top of head to soles of boots, feet on the ground line. 512square canvas, top230 boots448: height218px, head39pxwide same reference adult. The far gray-trouser forward leg plants its boot flat ahead; slight knee flex absorbs momentum. Near brown-coat rear leg draws up behind and ALSO plants on ground. Both feet grounded, hips remain almost standing height. Torso leans slightly backward to stop walking, shoulders and gloved arms settle with compact whip coil near hip. Do not squat. Same anatomy/face/leather texture. Maintain head profile39px and costume. Large empty transparent upper45% of canvas; don't zoom. No visible guide lines/text/floor/shadow/debris.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-23abacc2-552c-46b4-88a1-beda9e3028a5.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkFarHairFix",
+    "prompt": "LOCAL hair-outline correction to reference1. Preserve entire walking pose/body/costume/face/limbs/boots/scale EXACTLY. Tighten ONLY the rear/left edge of the head hair silhouette by about2sourcepixels: keep wavy tied-back dark hair but tuck flyaway outline close to skull. Head upper outline must be39px wide on512canvas instead of41px, matching reference2. Do NOT shrink body or change head length; do not enlarge face; narrow the extra hair contour only. Reference2 approved immutable identity, ref3guide. Fullbody top of head to soles of boots, feet groundline; wholefigure211px high, headtop238 foot448. Upper46% empty transparency. Far gray trouser leg swings forward lifted, near brown leg supports, both boots rightfacing unchanged. Matte painted transparent sprite, no floor/shadow/guides/text, one small figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-4b775edb-970e-4dc7-b85f-7b09da62becb.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkSupportMidFix",
+    "prompt": "LOCAL lower-leg edit to reference1. Keep exact HEAD, FACE, hair39px, upperbody, arms and canvas scale. Far GRAY trouser leg remains swinging forward with boot raised at x309,y435. Move the NEAR BROWN coat-covered supporting boot RIGHT35px to x283,y448, keeping its sole on ground. Articulate near hip/knee naturally into this forward planted support: near knee aroundx252,y396, boot below/front of knee; retain limb lengths, no stretching. Brown coat follows near thigh forward. This is early passing, before that supporting foot travels back under hips. Both boots rightfacing; gray foot raised and brown foot grounded remain distinct. Ref2 immutableidentity ref3guide. Fullbody top of head to soles of boots, feet groundline. Same211px figure on512canvas headtop238 foot448, upper46% empty transparent, original matte painted brown mantle pale wraps boots, no floor/shadow/guides/text. One small sprite.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-e6dce845-37da-4523-be74-da19f4c559e8.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "walkRepairF3R06",
+    "prompt": "Use case: precise-object-edit. Repair ONE walk animation frame image1. Preserve its EXACT full-body placement, head, face, hair, shoulders, arms, hand coil and upper coat. Only improve anatomy and continuous coat below hip. Image2 is approved identity; image3 ground/height guide; image4 next contact pose. Full body, top of head to soles of boots, feet on ground line. Keep figure at same tiny size on 512square, head230, soles448. Image1 near boot is lifted and tucked beside support shin: extend that NEAR leg's lower calf slightly FORWARD so its lifted boot is clearly to right of planted shin, toe right, heel y427. Preserve far gray leg straight-ish supporting with sole448, x250. Preserve two distinct knees and boots, no overlapping double ankles. Coattails halfway between image1 and image4, longer back hem not abruptly shrinking; natural continuous leather folds. Do not swap which leg is lifted. Do not change upper half at all. Transparent background. No guides, text or isolated fragments.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-bc7d7696-e109-4fb2-b691-f70e81f40ea4.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate; not motion approved"
+  },
+  {
+    "id": "walkRepairF6R06",
+    "prompt": "Use case: precise-object-edit. ONE hunter animation in-between for walk. Image1 is rough pose draft, image2 previous contact, image3 next passing pose, image4 identity, image5 placement guide. Full body, top of head to soles of boots, feet on the ground line. Same SMALL 218px-high figure on512 canvas, boots448/head230, preserve exact upper body size/face compact head39px. Repair ONLY lower coat/legs of image1 to make smooth single step between images2/3. Near brown boot is planted flat on baseline448, halfway between its positions in image2 and3 (centerx270). Far gray trouser leg swings forward from back, knee bent, boot lifted nearx279y426, calf and ankle anatomically separate from planted leg. No folded or horizontal extra boot across calf. Remove isolated dangling boot fragment. Brown leather coat panels interpolate image2/image3 length and silhouette, tail trails gently left; do not shorten/flap horizontally. Keep head shoulders hands coil at short interpolated positions between2/3, same textures and lighting. Do not reverse which leg supports. Transparent backdrop; no guides/text/floor/shadows/debris.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-150c8830-430b-41a3-a050-0dd7c9aecba0.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate; not motion approved"
+  },
+  {
+    "id": "walkRepairF4R06",
+    "prompt": "Use case: precise-object-edit. One walk in-between. Image1 previous passing/swing frame, image2 next contact, image3 identity, image4 guide. Full body, top of head to soles of boots, feet on ground line. Place SMALL hunter on512canvas at y230..448 (218 tall), narrow head39px, feet baseline448 root256. Preserve exact head/shoulder/hand/coil positions of image1; torso coat size unchanged. Animate only lower legs and coat: NEAR brown-coat leg currently lifted in image1 straightens forward, boot points right with heel y441 (7px above ground), x300. FAR gray-trouser support leg remains planted with sole448, positioned atx230 slightly behind hip. Coat panels halfway toward image2, preserve total coat area and hem length not sudden broad new skirt. It is the same near boot that swings, not the other leg. Both clear anatomically connected legs and boots. Same painted leather linen and face. Full figure, huge emptytransparent upper45%. No text/guides/shadow/debris.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-934349b1-a4f4-4f91-a766-5a775c790479.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "candidate; not motion approved"
   }
 ]

@@ -1,0 +1,20 @@
+[
+  {
+    "frame": 3,
+    "source": "art/production-candidates/hero_near-swing-mid-key-v2.png",
+    "alpha_max": 4,
+    "pixels_zeroed": 945
+  },
+  {
+    "frame": 4,
+    "source": "art/production-candidates/hero_near-precontact-key-v2.png",
+    "alpha_max": 4,
+    "pixels_zeroed": 816
+  },
+  {
+    "frame": 6,
+    "source": "art/production-candidates/hero_far-support-mid-key.png",
+    "alpha_max": 4,
+    "pixels_zeroed": 976
+  }
+]

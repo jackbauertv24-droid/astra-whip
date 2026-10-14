@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_near-precontact-delivery.png",
+  "corrective_normalization": 0.9419642857142857,
+  "source_pivot": [
+    256,
+    448
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 211,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

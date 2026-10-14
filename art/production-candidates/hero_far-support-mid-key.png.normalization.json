@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_far-support-mid-delivery.png",
+  "corrective_normalization": 0.9952830188679245,
+  "source_pivot": [
+    256,
+    447
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 211,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

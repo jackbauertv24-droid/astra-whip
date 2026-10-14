@@ -1,0 +1,10 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/review-hero-keys-r05/key_2.png",
+    "art/frames/style_hero_neutral/f000.png"
+  ],
+  "method": "Approved compact right-facing neutral portrait reused rigidly on approved shoulder/hip twist; feathered neck join, no body rescale",
+  "reason": "Generated turn portraits repeatedly grew outside the shared physical head-size contract",
+  "near_transparent_pixels_removed": 80
+}

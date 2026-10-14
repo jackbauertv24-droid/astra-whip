@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_turn-guided-delivery-r03.png",
+  "corrective_normalization": 0.8770491803278688,
+  "source_pivot": [
+    256,
+    471
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 214,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

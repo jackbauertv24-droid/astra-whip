@@ -1,0 +1,69 @@
+{
+  "hero_walk": {
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/production-candidates/hero_walk-key-edge-clean.png",
+        "art/production-candidates/hero_passing-key-v2-edge-clean.png",
+        "art/review-hero-keys-r06/key_3.png",
+        "art/production-candidates/hero_passing-b-key-edge-clean.png",
+        "art/frames/style_hero_neutral/f000.png"
+      ],
+      "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved. Named middle-frame replacements F3/F4/F6 are direct normalized AI-painted in-betweens, with no scripted body deformation.",
+      "reason": "Generated sheets failed scale; first rig and held-pose gait failed visual continuity. This full alternating candidate requires independent motion acceptance.",
+      "scripted_frames": [
+        0,
+        1,
+        2,
+        5,
+        7,
+        8,
+        9
+      ],
+      "painted_frames": [
+        3,
+        4,
+        6
+      ]
+    },
+    "painted_frame_sources": [
+      {
+        "frame": 3,
+        "source": "art/production-candidates/hero_near-swing-mid-key-v2.png",
+        "alpha_max": 4,
+        "pixels_zeroed": 945
+      },
+      {
+        "frame": 4,
+        "source": "art/production-candidates/hero_near-precontact-key-v2.png",
+        "alpha_max": 4,
+        "pixels_zeroed": 816
+      },
+      {
+        "frame": 6,
+        "source": "art/production-candidates/hero_far-support-mid-key.png",
+        "alpha_max": 4,
+        "pixels_zeroed": 976
+      }
+    ]
+  },
+  "style_hero_neutral": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  }
+}

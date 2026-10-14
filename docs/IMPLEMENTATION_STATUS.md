@@ -21,3 +21,9 @@ Rejected source sheets, derived experiments, original frames, prompt records, no
 The game still renders greybox placeholders. No production-art integration, full hero/whip gate, deployed build, iPhone device test, unfamiliar-player study, or public repository has been claimed.
 
 Physical iPhone 17 gates V5/V8 and unfamiliar-human gate V6 stay PENDING unless actually performed. The user requested no human interaction.
+
+## Motion revision r06
+
+The current 19-clip set reports zero numeric defects in `art/review-hero-motion-r06/audit.md`. It is not approved for production. A fresh independent reviewer is inspecting 18 non-walk clips in `art/review-secondary-motion-r06/`; the result is pending. The gait r05 review rejected F3/F4/F6 for coat/hip discontinuity, support/swing continuity and a boot fragment. New painted in-betweens are candidates, not accepted motion. Turning uses an explicitly declared compact approved neutral portrait on an approved twisting body. Braking now draws both planted boots inward, bends the knees and leans back from an approved contact pose instead of using a crouch-height frame.
+
+Tools were rechecked: contract checker PASS and self-test PASS, 25 negative cases, zero problems (`evidence/art-tools-selftest-r06.log`, 41.5 seconds). No later build gate or publication is approved or complete.

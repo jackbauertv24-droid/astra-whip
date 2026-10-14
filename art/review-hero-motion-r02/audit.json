@@ -1,0 +1,1684 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/frames",
+ "defects": 2,
+ "flags": 12,
+ "clips_audited": 19,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_walk",
+   "frame": 6,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-05",
+   "severity": "DEFECT",
+   "clip": "hero_stop_move",
+   "frame": 1,
+   "msg": "height 190 px outside stride band 210.6–230.7"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_stop_move",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.4%, height 14.4%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_stop_move",
+   "frame": 2,
+   "msg": "jump from frame 1: size 6.3%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_turn",
+   "frame": 1,
+   "msg": "head width 1.154 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "jump from frame 1: size 8.8%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 1,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 2,
+   "msg": "jump from frame 1: size 9.6%, height 21.8%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 3,
+   "msg": "jump from frame 2: size 6.3%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_land",
+   "frame": 0,
+   "msg": "head width 1.103 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_knockdown",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.3%, height 25.9%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_death",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.3%, height 25.9%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_death",
+   "frame": 5,
+   "msg": "jump from frame 4: size 6.6%, height 32.4%"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_idle": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     224,
+     297,
+     448
+    ],
+    "height": 225,
+    "width": 99,
+    "area": 13319,
+    "size": 115.408,
+    "top": 224,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13367,
+    "size": 115.616,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13394,
+    "size": 115.732,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13394,
+    "size": 115.732,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     223,
+     297,
+     448
+    ],
+    "height": 226,
+    "width": 99,
+    "area": 13367,
+    "size": 115.616,
+    "top": 223,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     224,
+     297,
+     448
+    ],
+    "height": 225,
+    "width": 99,
+    "area": 13319,
+    "size": 115.408,
+    "top": 224,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_walk": [
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13352,
+    "size": 115.551,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     197,
+     227,
+     313,
+     448
+    ],
+    "height": 222,
+    "width": 117,
+    "area": 13270,
+    "size": 115.195,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.665,
+    "legDip": 0.488
+   },
+   {
+    "bbox": [
+     196,
+     231,
+     307,
+     448
+    ],
+    "height": 218,
+    "width": 112,
+    "area": 12074,
+    "size": 109.882,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.538,
+    "legDip": 0.429
+   },
+   {
+    "bbox": [
+     201,
+     238,
+     305,
+     448
+    ],
+    "height": 211,
+    "width": 105,
+    "area": 11821,
+    "size": 108.724,
+    "top": 238,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.38,
+    "legDip": 0.217
+   },
+   {
+    "bbox": [
+     206,
+     238,
+     328,
+     448
+    ],
+    "height": 211,
+    "width": 123,
+    "area": 12688,
+    "size": 112.641,
+    "top": 238,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.688,
+    "legDip": 0.467
+   },
+   {
+    "bbox": [
+     209,
+     231,
+     333,
+     448
+    ],
+    "height": 218,
+    "width": 125,
+    "area": 13625,
+    "size": 116.726,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.643,
+    "legDip": 0.459
+   },
+   {
+    "bbox": [
+     208,
+     238,
+     337,
+     448
+    ],
+    "height": 211,
+    "width": 130,
+    "area": 13424,
+    "size": 115.862,
+    "top": 238,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.383,
+    "legDip": 0.396
+   },
+   {
+    "bbox": [
+     189,
+     225,
+     319,
+     448
+    ],
+    "height": 224,
+    "width": 131,
+    "area": 13568,
+    "size": 116.482,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.35,
+    "legDip": 0.31
+   },
+   {
+    "bbox": [
+     186,
+     225,
+     321,
+     448
+    ],
+    "height": 224,
+    "width": 136,
+    "area": 13868,
+    "size": 117.762,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.526,
+    "legDip": 0.398
+   },
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13352,
+    "size": 115.551,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   }
+  ],
+  "hero_start_move": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     181,
+     225,
+     311,
+     448
+    ],
+    "height": 224,
+    "width": 131,
+    "area": 13629,
+    "size": 116.743,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.35,
+    "legDip": 0.31
+   },
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13386,
+    "size": 115.698,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   }
+  ],
+  "hero_stop_move": [
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13386,
+    "size": 115.698,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_turn": [
+   {
+    "bbox": [
+     200,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 98,
+    "area": 13360,
+    "size": 115.585,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.585,
+    "legDip": 0.389
+   },
+   {
+    "bbox": [
+     192,
+     235,
+     318,
+     448
+    ],
+    "height": 214,
+    "width": 127,
+    "area": 14094,
+    "size": 118.718,
+    "top": 235,
+    "foot": 448,
+    "headWidth": 45,
+    "bootRatio": 0.463,
+    "legDip": 0.316
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_crouch_enter": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     196,
+     293,
+     301,
+     448
+    ],
+    "height": 156,
+    "width": 106,
+    "area": 9764,
+    "size": 98.813,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.611,
+    "legDip": 0.415
+   },
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   }
+  ],
+  "hero_crouch_idle": [
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     202,
+     306,
+     322,
+     448
+    ],
+    "height": 143,
+    "width": 121,
+    "area": 10346,
+    "size": 101.715,
+    "top": 306,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     202,
+     306,
+     322,
+     448
+    ],
+    "height": 143,
+    "width": 121,
+    "area": 10369,
+    "size": 101.828,
+    "top": 306,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     202,
+     306,
+     322,
+     448
+    ],
+    "height": 143,
+    "width": 121,
+    "area": 10369,
+    "size": 101.828,
+    "top": 306,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     202,
+     306,
+     322,
+     448
+    ],
+    "height": 143,
+    "width": 121,
+    "area": 10346,
+    "size": 101.715,
+    "top": 306,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   }
+  ],
+  "hero_crouch_exit": [
+   {
+    "bbox": [
+     202,
+     307,
+     322,
+     448
+    ],
+    "height": 142,
+    "width": 121,
+    "area": 10271,
+    "size": 101.346,
+    "top": 307,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.721,
+    "legDip": 0.785
+   },
+   {
+    "bbox": [
+     196,
+     293,
+     301,
+     448
+    ],
+    "height": 156,
+    "width": 106,
+    "area": 9764,
+    "size": 98.813,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.611,
+    "legDip": 0.415
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_jump_takeoff": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     181,
+     239,
+     337,
+     448
+    ],
+    "height": 210,
+    "width": 157,
+    "area": 12880,
+    "size": 113.49,
+    "top": 239,
+    "foot": 448,
+    "headWidth": 43,
+    "bootRatio": 0.097,
+    "legDip": 0.113
+   }
+  ],
+  "hero_jump_rise": [
+   {
+    "bbox": [
+     181,
+     239,
+     337,
+     448
+    ],
+    "height": 210,
+    "width": 157,
+    "area": 12880,
+    "size": 113.49,
+    "top": 239,
+    "foot": 448,
+    "headWidth": 43,
+    "bootRatio": 0.097,
+    "legDip": 0.113
+   },
+   {
+    "bbox": [
+     182,
+     253,
+     337,
+     448
+    ],
+    "height": 196,
+    "width": 156,
+    "area": 12785,
+    "size": 113.071,
+    "top": 253,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.143,
+    "legDip": 0.25
+   },
+   {
+    "bbox": [
+     186,
+     267,
+     352,
+     448
+    ],
+    "height": 182,
+    "width": 167,
+    "area": 13321,
+    "size": 115.417,
+    "top": 267,
+    "foot": 448,
+    "headWidth": 48,
+    "bootRatio": 0.123,
+    "legDip": 0.161
+   },
+   {
+    "bbox": [
+     184,
+     267,
+     352,
+     448
+    ],
+    "height": 182,
+    "width": 169,
+    "area": 13468,
+    "size": 116.052,
+    "top": 267,
+    "foot": 448,
+    "headWidth": 48,
+    "bootRatio": 0.127,
+    "legDip": 0.167
+   }
+  ],
+  "hero_jump_apex": [
+   {
+    "bbox": [
+     184,
+     267,
+     352,
+     448
+    ],
+    "height": 182,
+    "width": 169,
+    "area": 13468,
+    "size": 116.052,
+    "top": 267,
+    "foot": 448,
+    "headWidth": 48,
+    "bootRatio": 0.127,
+    "legDip": 0.167
+   },
+   {
+    "bbox": [
+     181,
+     239,
+     337,
+     448
+    ],
+    "height": 210,
+    "width": 157,
+    "area": 12880,
+    "size": 113.49,
+    "top": 239,
+    "foot": 448,
+    "headWidth": 43,
+    "bootRatio": 0.097,
+    "legDip": 0.113
+   },
+   {
+    "bbox": [
+     183,
+     231,
+     332,
+     448
+    ],
+    "height": 218,
+    "width": 150,
+    "area": 13473,
+    "size": 116.073,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 52,
+    "bootRatio": 0.187,
+    "legDip": 0.198
+   }
+  ],
+  "hero_fall": [
+   {
+    "bbox": [
+     183,
+     231,
+     332,
+     448
+    ],
+    "height": 218,
+    "width": 150,
+    "area": 13473,
+    "size": 116.073,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 52,
+    "bootRatio": 0.187,
+    "legDip": 0.198
+   },
+   {
+    "bbox": [
+     183,
+     231,
+     332,
+     448
+    ],
+    "height": 218,
+    "width": 150,
+    "area": 13367,
+    "size": 115.616,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 52,
+    "bootRatio": 0.166,
+    "legDip": 0.182
+   },
+   {
+    "bbox": [
+     183,
+     231,
+     332,
+     448
+    ],
+    "height": 218,
+    "width": 150,
+    "area": 13208,
+    "size": 114.926,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 52,
+    "bootRatio": 0.151,
+    "legDip": 0.155
+   },
+   {
+    "bbox": [
+     183,
+     231,
+     332,
+     448
+    ],
+    "height": 218,
+    "width": 150,
+    "area": 13392,
+    "size": 115.724,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 52,
+    "bootRatio": 0.17,
+    "legDip": 0.191
+   }
+  ],
+  "hero_land": [
+   {
+    "bbox": [
+     181,
+     239,
+     337,
+     448
+    ],
+    "height": 210,
+    "width": 157,
+    "area": 12880,
+    "size": 113.49,
+    "top": 239,
+    "foot": 448,
+    "headWidth": 43,
+    "bootRatio": 0.097,
+    "legDip": 0.113
+   },
+   {
+    "bbox": [
+     198,
+     259,
+     305,
+     448
+    ],
+    "height": 190,
+    "width": 108,
+    "area": 11735,
+    "size": 108.328,
+    "top": 259,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.6,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     198,
+     254,
+     305,
+     448
+    ],
+    "height": 195,
+    "width": 108,
+    "area": 12123,
+    "size": 110.104,
+    "top": 254,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.588,
+    "legDip": 0.355
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_hurt_recoil": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   },
+   {
+    "bbox": [
+     189,
+     237,
+     318,
+     448
+    ],
+    "height": 212,
+    "width": 130,
+    "area": 14034,
+    "size": 118.465,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.339
+   },
+   {
+    "bbox": [
+     192,
+     237,
+     320,
+     448
+    ],
+    "height": 212,
+    "width": 129,
+    "area": 14047,
+    "size": 118.52,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.347
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13345,
+    "size": 115.521,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.585,
+    "legDip": 0.379
+   }
+  ],
+  "hero_knockback": [
+   {
+    "bbox": [
+     198,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 100,
+    "area": 13353,
+    "size": 115.555,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.592,
+    "legDip": 0.394
+   },
+   {
+    "bbox": [
+     189,
+     237,
+     318,
+     448
+    ],
+    "height": 212,
+    "width": 130,
+    "area": 14034,
+    "size": 118.465,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.339
+   },
+   {
+    "bbox": [
+     185,
+     237,
+     317,
+     448
+    ],
+    "height": 212,
+    "width": 133,
+    "area": 14079,
+    "size": 118.655,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.474,
+    "legDip": 0.35
+   },
+   {
+    "bbox": [
+     181,
+     237,
+     316,
+     448
+    ],
+    "height": 212,
+    "width": 136,
+    "area": 14060,
+    "size": 118.575,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.469,
+    "legDip": 0.339
+   }
+  ],
+  "hero_knockdown": [
+   {
+    "bbox": [
+     189,
+     237,
+     318,
+     448
+    ],
+    "height": 212,
+    "width": 130,
+    "area": 14034,
+    "size": 118.465,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.339
+   },
+   {
+    "bbox": [
+     138,
+     292,
+     381,
+     448
+    ],
+    "height": 157,
+    "width": 244,
+    "area": 15870,
+    "size": 125.976,
+    "top": 292,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.131,
+    "legDip": 0.214
+   },
+   {
+    "bbox": [
+     138,
+     293,
+     381,
+     448
+    ],
+    "height": 156,
+    "width": 244,
+    "area": 15913,
+    "size": 126.147,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.115,
+    "legDip": 0.228
+   },
+   {
+    "bbox": [
+     139,
+     344,
+     394,
+     448
+    ],
+    "height": 105,
+    "width": 256,
+    "area": 14461,
+    "size": 120.254,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.39,
+    "legDip": 0.798
+   },
+   {
+    "bbox": [
+     140,
+     344,
+     395,
+     448
+    ],
+    "height": 105,
+    "width": 256,
+    "area": 14492,
+    "size": 120.383,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.391,
+    "legDip": 0.803
+   },
+   {
+    "bbox": [
+     140,
+     344,
+     396,
+     448
+    ],
+    "height": 105,
+    "width": 257,
+    "area": 14501,
+    "size": 120.42,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.393,
+    "legDip": 0.803
+   }
+  ],
+  "hero_get_up": [
+   {
+    "bbox": [
+     140,
+     344,
+     396,
+     448
+    ],
+    "height": 105,
+    "width": 257,
+    "area": 14501,
+    "size": 120.42,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.393,
+    "legDip": 0.803
+   },
+   {
+    "bbox": [
+     140,
+     344,
+     395,
+     448
+    ],
+    "height": 105,
+    "width": 256,
+    "area": 14492,
+    "size": 120.383,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.391,
+    "legDip": 0.803
+   },
+   {
+    "bbox": [
+     139,
+     344,
+     394,
+     448
+    ],
+    "height": 105,
+    "width": 256,
+    "area": 14461,
+    "size": 120.254,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.39,
+    "legDip": 0.798
+   },
+   {
+    "bbox": [
+     138,
+     293,
+     381,
+     448
+    ],
+    "height": 156,
+    "width": 244,
+    "area": 15913,
+    "size": 126.147,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.115,
+    "legDip": 0.228
+   },
+   {
+    "bbox": [
+     138,
+     292,
+     381,
+     448
+    ],
+    "height": 157,
+    "width": 244,
+    "area": 15870,
+    "size": 125.976,
+    "top": 292,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.131,
+    "legDip": 0.214
+   },
+   {
+    "bbox": [
+     189,
+     237,
+     318,
+     448
+    ],
+    "height": 212,
+    "width": 130,
+    "area": 14034,
+    "size": 118.465,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.339
+   }
+  ],
+  "hero_death": [
+   {
+    "bbox": [
+     189,
+     237,
+     318,
+     448
+    ],
+    "height": 212,
+    "width": 130,
+    "area": 14034,
+    "size": 118.465,
+    "top": 237,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.47,
+    "legDip": 0.339
+   },
+   {
+    "bbox": [
+     138,
+     292,
+     381,
+     448
+    ],
+    "height": 157,
+    "width": 244,
+    "area": 15870,
+    "size": 125.976,
+    "top": 292,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.131,
+    "legDip": 0.214
+   },
+   {
+    "bbox": [
+     138,
+     293,
+     381,
+     448
+    ],
+    "height": 156,
+    "width": 244,
+    "area": 15913,
+    "size": 126.147,
+    "top": 293,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.115,
+    "legDip": 0.228
+   },
+   {
+    "bbox": [
+     139,
+     344,
+     394,
+     448
+    ],
+    "height": 105,
+    "width": 256,
+    "area": 14461,
+    "size": 120.254,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.39,
+    "legDip": 0.798
+   },
+   {
+    "bbox": [
+     140,
+     344,
+     396,
+     448
+    ],
+    "height": 105,
+    "width": 257,
+    "area": 14501,
+    "size": 120.42,
+    "top": 344,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.393,
+    "legDip": 0.803
+   },
+   {
+    "bbox": [
+     107,
+     378,
+     376,
+     448
+    ],
+    "height": 71,
+    "width": 270,
+    "area": 12648,
+    "size": 112.463,
+    "top": 378,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.42,
+    "legDip": 0.774
+   },
+   {
+    "bbox": [
+     107,
+     379,
+     376,
+     448
+    ],
+    "height": 70,
+    "width": 270,
+    "area": 12593,
+    "size": 112.219,
+    "top": 379,
+    "foot": 448,
+    "headWidth": 35,
+    "bootRatio": 0.42,
+    "legDip": 0.774
+   },
+   {
+    "bbox": [
+     107,
+     379,
+     376,
+     448
+    ],
+    "height": 70,
+    "width": 270,
+    "area": 12633,
+    "size": 112.397,
+    "top": 379,
+    "foot": 448,
+    "headWidth": 37,
+    "bootRatio": 0.42,
+    "legDip": 0.774
+   },
+   {
+    "bbox": [
+     107,
+     379,
+     376,
+     448
+    ],
+    "height": 70,
+    "width": 270,
+    "area": 12654,
+    "size": 112.49,
+    "top": 379,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.42,
+    "legDip": 0.774
+   },
+   {
+    "bbox": [
+     107,
+     378,
+     376,
+     448
+    ],
+    "height": 71,
+    "width": 270,
+    "area": 12648,
+    "size": 112.463,
+    "top": 378,
+    "foot": 448,
+    "headWidth": 38,
+    "bootRatio": 0.42,
+    "legDip": 0.774
+   }
+  ]
+ }
+}

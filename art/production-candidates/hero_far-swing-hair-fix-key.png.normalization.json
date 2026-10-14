@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_far-swing-hair-fix-delivery.png",
+  "corrective_normalization": 1.0047619047619047,
+  "source_pivot": [
+    256,
+    434
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 211,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}
