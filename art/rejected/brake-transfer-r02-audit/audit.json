@@ -1,0 +1,97 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/frames-brake-rejected-r02",
+ "defects": 1,
+ "flags": 0,
+ "clips_audited": 2,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_stop_move",
+   "frame": 1,
+   "msg": "head width 1.077 × standing reference (±0.05): body parts changed size"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_stop_move": [
+   {
+    "bbox": [
+     188,
+     227,
+     324,
+     448
+    ],
+    "height": 222,
+    "width": 137,
+    "area": 13386,
+    "size": 115.698,
+    "top": 227,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.651,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     199,
+     231,
+     326,
+     448
+    ],
+    "height": 218,
+    "width": 128,
+    "area": 14038,
+    "size": 118.482,
+    "top": 231,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.452,
+    "legDip": 0.37
+   },
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ]
+ }
+}

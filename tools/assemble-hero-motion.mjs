@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Raster secondary motion from independently reviewed keys; every fallback is labeled.
-import {readPNG,writePNG} from './lib/png.mjs';
+import {readPNG,writePNG,blank} from './lib/png.mjs';
 import {meshWarp,heroGrid,registerFoot,clamp} from './lib/deform.mjs';
 import {readFileSync,writeFileSync,mkdirSync,cpSync,existsSync} from 'node:fs';
 const c=JSON.parse(readFileSync('contract/art_contract.json'));
@@ -14,16 +14,21 @@ const keys=Object.fromEntries(Object.entries(paths).map(([id,p])=>[id,readPNG(p)
 const old={turn0:readPNG('art/frames/hero_turn/f000.png'),hurt0:readPNG('art/frames/hero_hurt_recoil/f000.png'),hurt3:readPNG('art/frames/hero_hurt_recoil/f003.png'),knock0:readPNG('art/frames/hero_knockback/f000.png'),stop0:readPNG('art/frames/hero_stop_move/f000.png'),stop2:readPNG('art/frames/hero_stop_move/f002.png')};
 const deform=(im,fn)=>registerFoot(meshWarp(im,heroGrid.xs,heroGrid.ys,fn));
 const clone=im=>({...im,data:new Uint8Array(im.data)});
+function registerX(src,dx){
+ const out=blank(src.width,src.height);
+ for(let y=0;y<src.height;y++)for(let x=0;x<src.width;x++)if(x+dx>=0&&x+dx<src.width)out.data.set(src.data.subarray((y*src.width+x)*4,(y*src.width+x)*4+4),(y*src.width+x+dx)*4);
+ return out;
+}
 function emit(id,images,method,kind='scripted_fallback'){
  if(requestedClip && id!==requestedClip)return;
  const root='art/frames/'+id;if(existsSync(root)){const archive=`art/rejected/motion-${Date.now()}-${id}`;mkdirSync(archive,{recursive:true});cpSync(root,archive+'/'+id,{recursive:true});}
  mkdirSync(root,{recursive:true});images.forEach((src,i)=>{const im=clone(src);for(let j=0;j<im.data.length;j+=4)if(im.data[j+3]<=4)im.data.fill(0,j,j+4);writePNG(`${root}/f${String(i).padStart(3,'0')}.png`,im);});
- const used={hero_stop_move:['art/production-candidates/hero_walk-key-edge-clean.png',paths.neutral],hero_turn:[paths.turn,paths.neutral],hero_jump_takeoff:[paths.neutral,paths.compression,paths.rise],hero_jump_rise:[paths.rise,paths.apex],hero_jump_apex:[paths.apex,paths.rise,paths.fall],hero_fall:[paths.fall],hero_land:[paths.rise,paths.compression,paths.neutral],hero_hurt_recoil:[paths.neutral,paths.hurt],hero_knockback:[paths.neutral,paths.hurt],hero_knockdown:[paths.hurt,paths.halfdown,paths.down],hero_get_up:[paths.down,...Object.values(getupPaths),paths.neutral],hero_death:[paths.hurt,paths.halfdown,paths.down,paths.settled]};
+ const used={hero_stop_move:['art/production-candidates/hero_walk-key-edge-clean.png','art/production-candidates/hero_brake-grounded-key-r03.png',paths.neutral],hero_turn:[paths.turn,paths.neutral],hero_jump_takeoff:[paths.neutral,paths.compression,paths.rise],hero_jump_rise:[paths.rise,paths.apex],hero_jump_apex:[paths.apex,paths.rise,paths.fall],hero_fall:[paths.fall],hero_land:[paths.rise,paths.compression,paths.neutral],hero_hurt_recoil:[paths.neutral,paths.hurt],hero_knockback:[paths.neutral,paths.hurt],hero_knockdown:[paths.hurt,paths.halfdown,paths.down],hero_get_up:[paths.down,...Object.values(getupPaths),paths.neutral],hero_death:[paths.hurt,paths.halfdown,paths.down,paths.settled]};
  const derivation={kind,source:used[id],method,reason:id==='hero_get_up'?'The reverse-fall experiment failed supported recovery. Direct painted in-between poses replace held and unsupported frames; fresh independent motion review is required.':'Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review.'};
  meta[id]={ms:c.clips[id].ms,loop:c.clips[id].loop,derivation};derivations[id]=derivation;
 }
-const braking=deform(old.stop0,(x,y)=>{const lower=clamp((y-360)/70),inward=(256-x)*.4*lower;return[x+inward-4*(1-lower),y+2*clamp((y-330)/40)*(1-clamp((y-425)/20))];});
-emit('hero_stop_move',[old.stop0,braking,old.stop2],'Front contact, planted boots draw inward while knees flex and torso leans back slightly, then upright settle. Approved contact source supplies middle pose without lifting either boot.','scripted_fallback');
+const braking=readPNG('art/production-candidates/hero_brake-grounded-portrait-r05.png');
+emit('hero_stop_move',[old.stop0,braking,old.stop2],'Contact, direct painted grounded knee compression with rear boot drawing inward, then neutral settle. Middle body normalized once at 0.973214; approved neutral portrait reused rigidly 6 px down with feathered neck join after two generated portraits failed head tolerance. No limb deformation.','reused');
 emit('hero_turn',[old.turn0,keys.turn,keys.neutral],'Planted weight anticipation, a painted hip/shoulder twist with pivot foot loaded, then a neutral settling stance; direct AI-painted neck repair retains the compact portrait and articulated twist.','scripted_fallback');
 emit('hero_jump_takeoff',[keys.neutral,keys.compression,keys.rise],'Neutral load, planted compression, then articulated airborne push-off.','reused');
 const tucked=deform(keys.rise,(x,y)=>{const w=(1-clamp((x-255)/25))*clamp((y-375)/20),a=25*Math.PI/180,dx=x-238,dy=y-390;return[x+w*(dx*Math.cos(a)-dy*Math.sin(a)-dx),y+w*(dx*Math.sin(a)+dy*Math.cos(a)-dy)];});

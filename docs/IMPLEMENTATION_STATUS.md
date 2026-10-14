@@ -41,3 +41,7 @@ Supported get-up motion passed fresh independent review r04. The original revers
 ## Follow-up fix 2: turning
 
 The repaired turn artwork passed fresh independent review (`art/review-turn-r01/`). Real-controller captures checked every turn phase and the 75 ms facing event at desktop and phone-sized resolutions. The scoped audit has no defects or flags; runtime textures match the reviewed frames. See `evidence/turn-fix.md`.
+
+## Follow-up fix 3: braking
+
+Grounded braking compression passed fresh independent review r03. Only the middle frame changed; endpoints and timing remain intact. Gameplay, art tools, engine captures and browser smoke checks passed. See `evidence/brake-fix.md`.

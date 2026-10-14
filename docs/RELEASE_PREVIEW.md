@@ -19,3 +19,7 @@ Get-up now shows a supported floor-to-standing recovery and ends in a stable neu
 ## Follow-up fix: turning
 
 The repainted turning pose passed its fresh independent motion/identity review. Real input-driven engine captures confirmed the facing transition at 75 ms. See `evidence/turn-fix.md`.
+
+## Follow-up fix 3: braking
+
+Grounded braking compression passed fresh independent review r03. Only the middle frame changed; endpoints and timing remain intact. Gameplay, art tools, engine captures and browser smoke checks passed. See `evidence/brake-fix.md`.

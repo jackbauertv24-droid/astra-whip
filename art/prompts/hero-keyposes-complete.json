@@ -458,5 +458,40 @@
       "art/frames/style_hero_neutral/f000.png",
       "art/guides/hero.png"
     ]
+  },
+  {
+    "id": "brakeTransferR02",
+    "prompt": "Use case: identity-preserve. ONE painted BRAKING weight-transfer key of exact hunter. Image1 identity/physicalscale, image2 prior stride, image3 next rest, image4 guide. Full body, top of head to soles of boots, feet on ground line. Same SMALL218px-high adult on512canvas: heady230, sole448, root256, exact headwidth39px and normal full-size boots/calves, NO squeezed limbs. NEAR brown-coated leg steps forward from rear position to plant boot underhip atx236 onbaseline448; loaded knee bends slightly to absorb stop. FAR gray-trouser forward leg becomes UNWEIGHTED: heel/toe gently lifted6pixels aboveground aroundx302 (sole442), ready to draw back into image3 stance. Weight clearly on planted nearboot, hips over it, uppertorso leans slightlyback to brake, arms settle with near fist compact coil atsamehip. Preserve reference boot lengths (~35px), calf/thigh/head dimensions and recognizable right-facing face. Coatfolds naturalnotcompressedmesh. Distinct two knees anklesboots. Same sharp textured brown leather pale linen and colors. Upper45%EMPTYtransparent, don't zoom. No guides/text/floor/shadow/debris. Onefullfigure.",
+    "raw_output": "art/production-candidates/hero_brake-transfer-r02.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/frames/hero_stop_move/f000.png",
+      "art/frames/hero_stop_move/f002.png",
+      "art/guides/hero.png"
+    ],
+    "status": "rejected: shared head size outside stride band"
+  },
+  {
+    "id": "brakeGroundedR03",
+    "prompt": "Use case: precise-object-edit. Edit image1 approved STANDING hunter into ONE grounded BRAKING pose. Image2 is preceding stride; image3 shows both-feet-grounded knee bend; image4 guide. KEEP image1 exact right-profile face/head/hair physical size (39pxwide on512canvas), unchanged costume textures/boots/calves dimensions and compact near-fist coil. Full body, top of head to soles of boots, feet on ground line. BOTH boots remain FLAT PLANTED on448: screenLEFT/rear boot stays atimage1 position x235 underhip, screenRIGHT/front boot steps only15px ahead tocentrex300. NO liftedboot, NO passing/walking pose. Loaded screenRIGHT/front knee bends slightly to absorb momentum, hips shift slightly toward it, uppertorso leansback4px, far arm balances then settles. Legs are anatomical, full boot lengths35px unchanged notsqueezed; visible knee compression rather than uniform shrinking. Whole SMALL figure218px high on512canvas, heady230 boots448, root256, upper45% completelyEMPTY transparency; do not enlarge. Head compact narrowprofile sameasimage1, no broadhair silhouette. Match neighbour boot paths and original paintedleather/linen colors. No text/guides/floor/shadow/debris. Onefullfigure.",
+    "raw_output": "art/production-candidates/hero_brake-grounded-r03.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/frames/hero_stop_move/f000.png",
+      "art/production-candidates/hero_brake-guided-key-r01.png",
+      "art/guides/hero.png"
+    ],
+    "status": "rejected: head width 44 exceeds stride tolerance"
+  },
+  {
+    "id": "brakeHeadR04",
+    "prompt": "Use case precise-object-edit. Image1 full-body grounded braking hunter, image2 approved neutral identity, image3 canvas guide. Preserve image1 entire body, bent knee, both flat planted boots, clothing and compact coil exactly. ONLY repaint head/hair as image2 exact narrow right-profile identity: head width39 pixels on512 canvas, not44. Keep natural neck flowing into mantle. Full body, top of head to soles of boots, feet on ground line. SMALL218px height headtop231 sole448 root256 on512 transparent canvas; no zoom. Both soles flat grounded, no lifted leg. Crisp painted leather/linen. Upper45%empty transparency. No text floor guides shadows debris.",
+    "raw_output": "art/production-candidates/hero_brake-head-r04.png",
+    "required_references": [
+      "art/production-candidates/hero_brake-grounded-key-r03.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "rejected: head width 44 persists"
   }
 ]

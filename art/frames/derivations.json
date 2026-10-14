@@ -122,12 +122,13 @@
     "reason": "Shared painted gait poses permitted by ART_CONTRACT §11."
   },
   "hero_stop_move": {
-    "kind": "scripted_fallback",
+    "kind": "reused",
     "source": [
       "art/production-candidates/hero_walk-key-edge-clean.png",
+      "art/production-candidates/hero_brake-grounded-key-r03.png",
       "art/frames/style_hero_neutral/f000.png"
     ],
-    "method": "Front contact, planted boots draw inward while knees flex and torso leans back slightly, then upright settle. Approved contact source supplies middle pose without lifting either boot.",
+    "method": "Contact, direct painted grounded knee compression with rear boot drawing inward, then neutral settle. Middle body normalized once at 0.973214; approved neutral portrait reused rigidly 6 px down with feathered neck join after two generated portraits failed head tolerance. No limb deformation.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
   },
   "hero_jump_takeoff": {

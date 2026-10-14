@@ -1,0 +1,12 @@
+{
+  "kind": "reused",
+  "body": "art/production-candidates/hero_brake-grounded-key-r03.png",
+  "portrait": "art/frames/style_hero_neutral/f000.png",
+  "script": "tools/prepare-brake-portrait.mjs",
+  "portrait_translation": [
+    0,
+    6
+  ],
+  "neck_join": "8 px alpha feather; no portrait or body scaling",
+  "reason": "Two head generations exceeded tolerance; approved portrait reused under ART_CONTRACT section 11. Entire assembled action requires fresh review."
+}
