@@ -1,0 +1,14 @@
+{
+  "3": {
+    "source": "art/production-candidates/hero_walk-repair-f3-key-r06.png",
+    "near_transparent_pixels_removed": 531
+  },
+  "4": {
+    "source": "art/production-candidates/hero_walk-repair-f4-key-r06.png",
+    "near_transparent_pixels_removed": 601
+  },
+  "6": {
+    "source": "art/production-candidates/hero_walk-repair-f6-key-r06.png",
+    "near_transparent_pixels_removed": 789
+  }
+}

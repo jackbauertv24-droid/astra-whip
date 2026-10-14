@@ -18,11 +18,14 @@ var camera: Camera2D
 var hud: CanvasLayer
 var status: Label
 var menu: VBoxContainer
+var menu_back: Panel
 var pause_button: Button
 var gates: Array = []
 var effigy = true
 var reduced_effects = false
 var touch_buttons: Dictionary = {}
+var backdrop: Texture2D = preload("res://assets/style/background.png")
+var masonry: Texture2D = preload("res://assets/style/terrain.png")
 func _ready() -> void:
  for row in Stage.SURFACES:
   add_surface(Rect2(float(row[0])*64,Rules.GROUND-float(row[2])*64,float(row[1]-row[0])*64,float(row[4])),row[3])
@@ -104,8 +107,9 @@ func _physics_process(dt: float) -> void:
  if testing: return
  if get_viewport_rect().size.y > get_viewport_rect().size.x and not paused: set_pause(true)
  if not paused and not complete: step(dt)
- status.text = "ASTRA WHIP   |   " + "◆ ".repeat(maxi(0,hero.health)) + "◇ ".repeat(5-maxi(0,hero.health)) + ("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
+ status.text = "ASTRA WHIP   |   HEALTH %d/5" % maxi(0,hero.health) + ("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
  if complete: status.text = "THE WARDEN HAS FALLEN — THE WAY IS OPEN"
+ menu_back.visible = menu.visible
  queue_redraw()
 func step(dt: float) -> void:
  if pit_timer >= 0:
@@ -140,6 +144,17 @@ func step(dt: float) -> void:
 func build_ui() -> void:
  hud = CanvasLayer.new()
  add_child(hud)
+ menu_back = Panel.new()
+ menu_back.position = Vector2(400,175)
+ menu_back.size = Vector2(480,485)
+ menu_back.mouse_filter = Control.MOUSE_FILTER_IGNORE
+ var panel_style = StyleBoxFlat.new()
+ panel_style.bg_color = Color(0.07,0.05,0.10,0.94)
+ panel_style.border_color = Color("9d7950")
+ panel_style.set_border_width_all(2)
+ panel_style.set_corner_radius_all(8)
+ menu_back.add_theme_stylebox_override("panel",panel_style)
+ hud.add_child(menu_back)
  status = Label.new()
  status.position = Vector2(30,22)
  status.add_theme_font_size_override("font_size",22)
@@ -154,9 +169,9 @@ func build_ui() -> void:
  menu.add_theme_constant_override("separation",18)
  hud.add_child(menu)
  var title = Label.new()
- title.text = "ASTRA WHIP\nThe Ashen Threshold"
+ title.text = "ASTRA WHIP\nThe Ashen Threshold · Preview"
  title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
- title.add_theme_font_size_override("font_size",36)
+ title.add_theme_font_size_override("font_size",28)
  menu.add_child(title)
  var intro = Label.new()
  intro.text = "A deliberate gothic passage.\nMove · read the tell · commit to the whip.\nA/D or arrows · Space jump · J whip · S crouch"
@@ -191,7 +206,7 @@ func build_ui() -> void:
   slider.tooltip_text = bus_name + " volume (audio production deferred by spec)"
   slider.value_changed.connect(func(value): AudioServer.set_bus_volume_db(bus,linear_to_db(maxf(value,0.001))))
   menu.add_child(slider)
- for entry in [["left","◀",Vector2(24,590)],["right","▶",Vector2(154,590)],["crouch","CROUCH",Vector2(840,590)],["jump","JUMP",Vector2(975,540)],["whip","WHIP",Vector2(1110,590)]]:
+ for entry in [["left","LEFT",Vector2(24,590)],["right","RIGHT",Vector2(154,590)],["crouch","CROUCH",Vector2(840,590)],["jump","JUMP",Vector2(975,540)],["whip","WHIP",Vector2(1110,590)]]:
   var b = button(entry[1],entry[2],Vector2(116,104))
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
@@ -224,8 +239,18 @@ func _input(event: InputEvent) -> void:
    hero.controls.set_action(action,touch_buttons[action].get_global_rect().has_point(event.position),source)
 func _draw() -> void:
  draw_rect(Rect2(camera_x-1000,-600,2200,1800),Color("171221"))
+ var background_x = floorf((camera_x * 0.2 - 640) / 1280) * 1280 - camera_x * 0.2 + camera_x
+ for i in range(-1, 3):
+  draw_texture_rect(backdrop,Rect2(background_x + i * 1280,0,1280,720),false)
  for surface in surfaces:
   draw_rect(surface.rect, Color("4c5866"))
+  if surface.rect.size.x >= 64:
+   for x in range(int(surface.rect.position.x),int(surface.rect.end.x),64):
+    if absf(x-camera_x) > 760: continue
+    for y in range(int(surface.rect.position.y),int(surface.rect.end.y),64):
+     var height = minf(64,surface.rect.end.y-y)
+     var source_y = 0 if y == int(surface.rect.position.y) else 128
+     draw_texture_rect_region(masonry,Rect2(x,y,64,height),Rect2(128,source_y,128,height*2))
   draw_line(surface.rect.position,surface.rect.position+Vector2(surface.rect.size.x,0),Color("77838f"),3)
  draw_rect(Rect2(4112,Rules.GROUND-120,32,120),Color("e3a34a") if checkpoint else Color("6e6a61"))
  draw_rect(Rect2(6585,Rules.GROUND-160,55,160),Color("e3a34a") if exit_unlocked else Color("3b2d20"))

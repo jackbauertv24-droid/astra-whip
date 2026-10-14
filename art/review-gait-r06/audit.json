@@ -1,0 +1,20 @@
+{
+ "defects": 2,
+ "flags": 0,
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_walk",
+   "frame": 4,
+   "msg": "head width 1.077 × standing reference (±0.05): body parts changed size"
+  },
+  {
+   "rule": "A-08",
+   "severity": "DEFECT",
+   "clip": "hero_walk",
+   "frame": 6,
+   "msg": "head width 1.077 × standing reference (±0.05): body parts changed size"
+  }
+ ]
+}

@@ -368,5 +368,25 @@
       "art/guides/hero.png"
     ],
     "status": "candidate; not motion approved"
+  },
+  {
+    "id": "walkF4HairR07",
+    "prompt": "Use case: precise-object-edit. Image1 exact walk sprite to preserve; image2 approved compact profile identity; image3 scale guide. Change ONLY head/hair contour in image1: copy the narrow profile face and close-fitting hair of image2 at precisely its physical size. Hair must not puff outward: final head max width39pixels on512canvas. Keep crown y230, foot448, full body top of head to soles of boots, feet on ground line. DO NOT change body pose, coat, legs, boots, glove/coil, shoulder or placement: exactsame figure218pixels tall. Improve natural continuous neck-to-collar join. Whole upper45% transparent asguide. No floor/shadows/text/guide lines, no specks. One small full-body painted sprite. Match material colors of image1 exactly.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-0f1b37f6-1b38-4dce-aa57-2e60374df85a.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "unapproved painted candidate"
+  },
+  {
+    "id": "turnNeckRepairR05",
+    "prompt": "Use case: precise-object-edit. Image1 hunter turning pose with imperfect neck collage seam. Image2 approved identity image3 guide. Repair ONLY back-neck/collar/upper shoulder join of image1: paint continuous natural hair-to-neck and textured mantle contours, eliminate the straight horizontal ledge and vertical square patch boundary at backneck. Preserve exact compact right-facing face/hair width39px, headtop235, all torso/hip twist, arms/hands, coil, legs and boots of image1. Full body, top of head to soles of boots, feet on ground line448, SMALL214px-high figure on512canvas, root256. Same sharp detailed brown leather and pale linen texture, no blur. Do not broaden head, change stance or enlarge. Huge upper45% empty transparent. No guides/text/floor/shadow/debris. One full figure.",
+    "raw_output": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-815f5936-9dee-473b-9551-0b36d79b461c.png",
+    "required_references": [
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ],
+    "status": "unapproved painted candidate"
   }
 ]

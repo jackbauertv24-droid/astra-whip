@@ -20,17 +20,8 @@
   "hero_jump_rise": {
     "kind": "scripted_fallback",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
       "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_5.png"
     ],
     "method": "A rising one-knee pose folds the trailing leg, progresses to a painted two-knee tuck, and settles the cape. Authored horizontal origin retained.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -38,17 +29,9 @@
   "hero_jump_apex": {
     "kind": "reused",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
       "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_4.png",
+      "art/review-hero-keys-r05/key_6.png"
     ],
     "method": "Two-knee suspension releases to one-knee balance and finally the painted extended-leg descent posture.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -56,17 +39,7 @@
   "hero_fall": {
     "kind": "scripted_fallback",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_6.png"
     ],
     "method": "Distinct downward-leg key with rear calf rotating about its knee, lifted cloak flutter, and forward arm response; returns continuously to the loop start.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -75,16 +48,7 @@
     "kind": "scripted_fallback",
     "source": [
       "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_3.png"
     ],
     "method": "Painted torso/head flinch with defensive arm and knee articulation, followed by guarded release and recovery. Original endpoints retained.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -93,16 +57,7 @@
     "kind": "scripted_fallback",
     "source": [
       "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_3.png"
     ],
     "method": "Impact changes the neutral stance into a painted defensive backward lean, then knees/arms/cloth sustain that response during physical displacement.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -110,10 +65,10 @@
   "hero_turn": {
     "kind": "scripted_fallback",
     "source": [
-      "art/production-candidates/hero_turn-head-reused-r04.png",
+      "art/production-candidates/hero_turn-neck-repair-key-r05.png",
       "art/frames/style_hero_neutral/f000.png"
     ],
-    "method": "Planted weight anticipation, a painted hip/shoulder twist with pivot foot loaded, then a neutral settling stance; compact neutral portrait reused on the turning body.",
+    "method": "Planted weight anticipation, a painted hip/shoulder twist with pivot foot loaded, then a neutral settling stance; direct AI-painted neck repair retains the compact portrait and articulated twist.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
   },
   "hero_walk": {
@@ -125,21 +80,36 @@
       "art/production-candidates/hero_passing-b-key-edge-clean.png",
       "art/frames/style_hero_neutral/f000.png"
     ],
-    "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved. Named middle-frame replacements F3/F4/F6 are direct normalized AI-painted in-betweens, with no scripted body deformation. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours.",
+    "method": "Four approved painted contact/passing keys; near/far leg masks interpolated along measured hip/knee/ankle/foot paths, nearest-parent paint retained without texture cross-fades, near leg composited last. Neutral head reused rigidly with a feathered neck join. Authored horizontal origin preserved. Named middle-frame replacements F3/F4/F6 are direct normalized AI-painted in-betweens, with no scripted body deformation. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours. Revision r05: only F3/F4/F6 replaced using separately articulated support/swing legs from approved passing/contact poses; support sole remains grounded while other boot swings forward. Upper torso/head/hand retained from immediate neighbours. Revision r06: F3/F4/F6 are direct AI-painted repairs using neighbouring poses, approved identity and guide, individually normalized once; no geometry editing after normalization.",
     "reason": "Generated sheets failed scale; first rig and held-pose gait failed visual continuity. This full alternating candidate requires independent motion acceptance.",
     "scripted_frames": [
       0,
       1,
       2,
-      3,
-      4,
       5,
-      6,
       7,
       8,
       9
     ],
-    "painted_frames": []
+    "painted_frames": [
+      3,
+      4,
+      6
+    ],
+    "painted_frame_sources": {
+      "3": {
+        "source": "art/production-candidates/hero_walk-repair-f3-key-r06.png",
+        "near_transparent_pixels_removed": 531
+      },
+      "4": {
+        "source": "art/production-candidates/hero_walk-f4-hair-key-r07.png",
+        "near_transparent_pixels_removed": 706
+      },
+      "6": {
+        "source": "art/production-candidates/hero_walk-repair-f6-key-r06.png",
+        "near_transparent_pixels_removed": 789
+      }
+    }
   },
   "hero_start_move": {
     "kind": "reused",
@@ -164,16 +134,8 @@
     "kind": "reused",
     "source": [
       "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/frames/hero_crouch_enter/f001.png",
+      "art/review-hero-keys-r05/key_4.png"
     ],
     "method": "Neutral load, planted compression, then articulated airborne push-off.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -181,17 +143,9 @@
   "hero_land": {
     "kind": "scripted_fallback",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
-      "art/review-hero-keys-r05/key_3.png",
       "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
-      "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/frames/hero_crouch_enter/f001.png",
+      "art/frames/style_hero_neutral/f000.png"
     ],
     "method": "Airborne contact, planted knee/hip compression, a small articulated release, then upright recovery.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -199,17 +153,9 @@
   "hero_knockdown": {
     "kind": "scripted_fallback",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
       "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
       "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r04/key_6.png"
     ],
     "method": "Backward painted flinch, bracing mid-fall, hip/elbow ground contact, then clothing settle.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -217,17 +163,9 @@
   "hero_get_up": {
     "kind": "reversed",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
       "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
       "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
-      "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r04/key_6.png"
     ],
     "method": "Exact reverse of reviewed-reference fall candidates: elbow/hip support, bracing hand, then rising defensive stance. Must read as recovery in independent review.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."
@@ -235,17 +173,10 @@
   "hero_death": {
     "kind": "scripted_fallback",
     "source": [
-      "art/frames/style_hero_neutral/f000.png",
-      "art/production-candidates/hero_turn-head-reused-r04.png",
-      "art/production-candidates/hero_brake-guided-key-r01.png",
       "art/review-hero-keys-r05/key_3.png",
-      "art/review-hero-keys-r05/key_4.png",
-      "art/review-hero-keys-r05/key_5.png",
-      "art/review-hero-keys-r05/key_6.png",
       "art/review-hero-keys-r05/key_7.png",
-      "art/review-hero-keys-r05/key_8.png",
       "art/review-hero-keys-r04/key_6.png",
-      "art/frames/hero_crouch_enter/f001.png"
+      "art/review-hero-keys-r05/key_8.png"
     ],
     "method": "Full flinch and backward collapse through hip support into a painted resting body, followed by quiet fabric settle and a final hold. No get-up route.",
     "reason": "Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review."

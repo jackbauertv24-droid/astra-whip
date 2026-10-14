@@ -1,0 +1,10 @@
+# Independent isolated key-pose review
+
+## Blind visual observations (written before contract or metadata reading)
+
+- Key 1: A small realistic painterly man faces right in a relaxed three-quarter profile. Brown shoulder-length wavy hair surrounds a pale face; a light collar joins a brown leather torso and shoulder cape. Pale sleeves lead to darker forearm guards and hanging gloved hands. A looped cord hangs at his near hip. A split long brown coat covers dark trousers; two sturdy tall boots rest at roughly the same baseline, the rightmost boot turned toward the right. His head and neck read as naturally attached to the torso; the silhouette is continuous with no obvious stray fragments.
+- Key 2: The same right-facing brown-clad man has his rightmost leg lifted and bent, its boot hanging above the ground and angled down/right. The leftmost leg supports him. The coat opens around the lifted knee; one triangular skirt flap projects right. His near arm hangs slightly behind him and the farther hand reaches forward. The face appears compact but recognizably human. The neck meets a pale collar and brown shoulder layer; no detached parts are visible.
+- Key 3: The right-facing man extends his rightmost boot forward and low, while the leftmost boot remains behind. The forward knee is bent slightly and covered by a flared coat edge. The coat has a broad opening between the legs and two outward skirt tips. Arms hang diagonally with the rightmost hand farther forward. Brown hair, pale collar, torso leather, pale sleeves, wrist guards, hip cord, and boot design match the preceding images. No obvious isolated debris is visible.
+- Key 4: The right-facing man has a planted leftmost boot and a raised bent rightmost leg, with its knee higher and boot nearly horizontal. A broad coat tail sweeps left and the lifted thigh is visible beneath the right coat opening. His arms hang with the rightmost hand ahead. His face and hair are a little higher and farther right than in keys 2 and 3. Neck and collar form a connected transition into the shoulders, and the body silhouette is continuous.
+
+Contract evaluation pending.

@@ -6,7 +6,7 @@ import {readFileSync,writeFileSync,mkdirSync,cpSync,existsSync} from 'node:fs';
 const c=JSON.parse(readFileSync('contract/art_contract.json'));
 const meta=JSON.parse(readFileSync('art/frames/clips.json'));
 const derivations=JSON.parse(readFileSync('art/frames/derivations.json'));
-const paths={neutral:'art/frames/style_hero_neutral/f000.png',turn:'art/production-candidates/hero_turn-head-reused-r04.png',hurt:'art/review-hero-keys-r05/key_3.png',rise:'art/review-hero-keys-r05/key_4.png',apex:'art/review-hero-keys-r05/key_5.png',fall:'art/review-hero-keys-r05/key_6.png',halfdown:'art/review-hero-keys-r05/key_7.png',settled:'art/review-hero-keys-r05/key_8.png',down:'art/review-hero-keys-r04/key_6.png',compression:'art/frames/hero_crouch_enter/f001.png'};
+const paths={neutral:'art/frames/style_hero_neutral/f000.png',turn:'art/production-candidates/hero_turn-neck-repair-key-r05.png',hurt:'art/review-hero-keys-r05/key_3.png',rise:'art/review-hero-keys-r05/key_4.png',apex:'art/review-hero-keys-r05/key_5.png',fall:'art/review-hero-keys-r05/key_6.png',halfdown:'art/review-hero-keys-r05/key_7.png',settled:'art/review-hero-keys-r05/key_8.png',down:'art/review-hero-keys-r04/key_6.png',compression:'art/frames/hero_crouch_enter/f001.png'};
 const keys=Object.fromEntries(Object.entries(paths).map(([id,p])=>[id,readPNG(p)]));
 const old={turn0:readPNG('art/frames/hero_turn/f000.png'),hurt0:readPNG('art/frames/hero_hurt_recoil/f000.png'),hurt3:readPNG('art/frames/hero_hurt_recoil/f003.png'),knock0:readPNG('art/frames/hero_knockback/f000.png'),stop0:readPNG('art/frames/hero_stop_move/f000.png'),stop2:readPNG('art/frames/hero_stop_move/f002.png')};
 const deform=(im,fn)=>registerFoot(meshWarp(im,heroGrid.xs,heroGrid.ys,fn));
@@ -18,9 +18,9 @@ function emit(id,images,method,kind='scripted_fallback'){
  const derivation={kind,source:used[id],method,reason:'Approved painted body keys supply articulated action poses after the earlier secondary-motion candidates failed independent review. All newly assembled clips require fresh motion review.'};
  meta[id]={ms:c.clips[id].ms,loop:c.clips[id].loop,derivation};derivations[id]=derivation;
 }
-const braking=deform(old.stop0,(x,y)=>{const lower=clamp((y-360)/70),inward=(256-x)*.12*lower;return[x+inward-4*(1-lower),y+2*clamp((y-330)/40)*(1-clamp((y-425)/20))];});
+const braking=deform(old.stop0,(x,y)=>{const lower=clamp((y-360)/70),inward=(256-x)*.4*lower;return[x+inward-4*(1-lower),y+2*clamp((y-330)/40)*(1-clamp((y-425)/20))];});
 emit('hero_stop_move',[old.stop0,braking,old.stop2],'Front contact, planted boots draw inward while knees flex and torso leans back slightly, then upright settle. Approved contact source supplies middle pose without lifting either boot.','scripted_fallback');
-emit('hero_turn',[old.turn0,keys.turn,keys.neutral],'Planted weight anticipation, a painted hip/shoulder twist with pivot foot loaded, then a neutral settling stance; compact neutral portrait reused on the turning body.','scripted_fallback');
+emit('hero_turn',[old.turn0,keys.turn,keys.neutral],'Planted weight anticipation, a painted hip/shoulder twist with pivot foot loaded, then a neutral settling stance; direct AI-painted neck repair retains the compact portrait and articulated twist.','scripted_fallback');
 emit('hero_jump_takeoff',[keys.neutral,keys.compression,keys.rise],'Neutral load, planted compression, then articulated airborne push-off.','reused');
 const tucked=deform(keys.rise,(x,y)=>{const w=(1-clamp((x-255)/25))*clamp((y-375)/20),a=25*Math.PI/180,dx=x-238,dy=y-390;return[x+w*(dx*Math.cos(a)-dy*Math.sin(a)-dx),y+w*(dx*Math.sin(a)+dy*Math.cos(a)-dy)];});
 const apexSettle=deform(keys.apex,(x,y)=>[x-2*clamp((y-330)/60)*clamp((265-x)/60),y]);

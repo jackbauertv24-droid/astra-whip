@@ -1,0 +1,76 @@
+{
+ "defects": 0,
+ "flags": 10,
+ "findings": [
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_walk",
+   "frame": 6,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_enter",
+   "frame": 2,
+   "msg": "jump from frame 1: size 8.8%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 1,
+   "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 2,
+   "msg": "jump from frame 1: size 9.6%, height 21.8%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_crouch_exit",
+   "frame": 3,
+   "msg": "jump from frame 2: size 6.3%, height 17.9%"
+  },
+  {
+   "rule": "A-08",
+   "severity": "FLAG",
+   "clip": "hero_land",
+   "frame": 0,
+   "msg": "head width 1.103 × standing reference (±0.05): single frame, reviewer adjudicates"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_knockdown",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.3%, height 25.9%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_death",
+   "frame": 1,
+   "msg": "jump from frame 0: size 6.3%, height 25.9%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_death",
+   "frame": 5,
+   "msg": "jump from frame 4: size 6.6%, height 32.4%"
+  }
+ ]
+}

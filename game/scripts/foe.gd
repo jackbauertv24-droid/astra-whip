@@ -168,13 +168,32 @@ func simulate(dt: float) -> void:
  visual.follow(state,elapsed)
  queue_redraw()
 func _draw() -> void:
- if hp <= 0 and elapsed > 1.2: return
+ if hp <= 0 and elapsed > 1.2:
+  visual.visible = false
+  return
  var color = Color("8cc084") if kind == "ranged" else Color("a9a491")
  if state.contains("windup") or state in ["alert", "aim", "dive_telegraph"]: color = Color("e3a34a")
  if hp <= 0: color.a = maxf(0.1,1-elapsed)
  var rect = contact_rect()
  rect.position -= position
- if kind == "swooper": draw_circle(Vector2.ZERO,40,color)
- else: draw_rect(rect,color)
+ if kind == "pursuer":
+  visual.modulate = color
+ elif kind == "swooper":
+  var flap = sin(elapsed * 15) * 12
+  draw_colored_polygon(PackedVector2Array([Vector2(-42,-15-flap),Vector2(-15,14),Vector2(0,-8),Vector2(15,14),Vector2(42,-15-flap),Vector2(18,-5),Vector2(0,-23),Vector2(-18,-5)]),color)
+  draw_circle(Vector2.ZERO,9,Color("27212e"))
+  draw_circle(Vector2(-3,-4),2,Color("e3a34a"))
+  draw_circle(Vector2(3,-4),2,Color("e3a34a"))
+ elif kind == "ranged":
+  draw_colored_polygon(PackedVector2Array([Vector2(-30,0),Vector2(-22,-110),Vector2(0,-154),Vector2(22,-110),Vector2(30,0)]),color.darkened(0.35))
+  draw_circle(Vector2(0,-118),16,Color("27212e"))
+  draw_line(Vector2(-8,-119),Vector2(8,-119),color,3)
+  draw_line(Vector2(facing*12,-88),Vector2(facing*38,-70),color,7)
+ else:
+  draw_colored_polygon(PackedVector2Array([Vector2(-50,0),Vector2(-38,-116),Vector2(-58,-138),Vector2(-30,-160),Vector2(0,-179),Vector2(30,-160),Vector2(58,-138),Vector2(38,-116),Vector2(50,0)]),color.darkened(0.25))
+  draw_rect(Rect2(-14,-154,28,18),Color("27212e"))
+  draw_line(Vector2(-8,-145),Vector2(8,-145),Color("e3a34a"),3)
+  draw_line(Vector2(facing*35,-95),Vector2(facing*70,-25),color,9)
+  draw_line(Vector2(facing*70,-25),Vector2(facing*89,-66),color,12)
  if kind == "boss" and state.begins_with("hazard_") and state != "hazard_recover":
   draw_rect(Rect2(Vector2(hazard_x-position.x-80,floor_y-position.y- (46 if state == "hazard_execute" else 6)),Vector2(160,46 if state == "hazard_execute" else 6)),Color("e3a34a"),state=="hazard_execute",3)

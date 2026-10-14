@@ -111,3 +111,9 @@ Source of authority: user answers in a scope interview on 2026-10-12, after revi
 2. What horror intensity and minimum phone must this support? — **Answered 2026-10-08** (see Amendments): dread/decay/silhouettes, no explicit gore; iPhone 17 with iOS Safari.
 
 No user questions remain open. D09 was the last one — resolved 2026-10-08 ("no stomp. whip is the weapon"). The texture amendment (R1) and proposed baselines (R3) were ratified/confirmed the same day under user-delegated judgement ("use your judgement") — see Amendments. Production (Godot project, greybox, art) still requires a separate explicit implementation assignment.
+
+## Preview release authorization — 2026-10-14
+
+The user instructed: "resume, but just round up the work and push it to repo. relax constrain as the priority now is to get a product out."
+
+Decision: publish the current working slice as a public preview named `astra-whip`, integrating available art and retaining the incomplete production-art reviews as disclosed debt. This explicitly supersedes the strict gate ordering for this preview release. Gameplay constants and collision/timing requirements remain intact. Do not represent incomplete art approval or unperformed physical device/user studies as passed. See `RELEASE_PREVIEW.md` for the actual scope and evidence.

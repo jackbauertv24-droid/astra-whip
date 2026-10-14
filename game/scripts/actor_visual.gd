@@ -1,7 +1,6 @@
 class_name ActorVisual
 extends AnimatedSprite2D
-# Greybox clips use the same duration/count contract as production clips.
-# Runtime art is deliberately absent until the art gates pass.
+# Preview art follows authoritative gameplay clocks; release debt is documented.
 var actor: String
 var specs: Dictionary
 var played: Dictionary = {}
@@ -17,16 +16,37 @@ func configure(kind: String) -> void:
   sprite_frames.add_animation(id)
   sprite_frames.set_animation_loop(id, spec.loop)
   sprite_frames.set_animation_speed(id, 1000)
-  for ms in spec.ms:
+  for i in spec.ms.size():
+   var ms = spec.ms[i]
+   var path = "res://assets/hero/" + id + "/f%03d.png" % i
+   var texture: Texture2D
+   if actor == "hero" and ResourceLoader.exists(path):
+    texture = load(path)
+   elif actor == "hero" and id == "hero_attack_ground":
+    var keys = ["rest","windup","strike","strike","follow","follow","rest","rest"]
+    texture = load("res://assets/hero/attack_" + keys[i] + ".png")
+   elif actor == "hero" and id == "hero_attack_crouch":
+    texture = load("res://assets/hero/hero_crouch_idle/f000.png")
+   elif actor == "hero" and id == "hero_attack_air":
+    texture = load("res://assets/hero/hero_jump_rise/f000.png")
+   elif actor == "hero":
+    texture = load("res://assets/hero/neutral.png")
+   elif actor == "pursuer":
+    texture = load("res://assets/style/pursuer.png")
    var placeholder = PlaceholderTexture2D.new()
    placeholder.size = Vector2(1, 1)
-   sprite_frames.add_frame(id, placeholder, maxf(1, float(ms)))
- visible = false
+   sprite_frames.add_frame(id, texture if texture else placeholder, maxf(1, float(ms)))
+ visible = actor in ["hero", "pursuer"]
+ scale = Vector2(0.5, 0.5)
+ offset = Vector2(0, -192) if actor == "hero" else Vector2(32, -96)
+ follow("idle", 0)
 func follow(state: String, elapsed: float) -> void:
  var id = actor + "_" + state
  if not sprite_frames.has_animation(id): return
  played[id] = true
- if animation != id: play(id)
+ if animation != id: animation = id
+ pause()
+ if get_parent().get("facing") != null: flip_h = get_parent().facing < 0
  var ms = elapsed * 1000.0
  var durations: Array = specs[id].ms
  var total = 0.0
