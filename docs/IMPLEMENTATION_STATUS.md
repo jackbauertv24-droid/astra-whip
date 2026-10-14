@@ -1,4 +1,4 @@
-# Implementation checkpoint
+# Implementation status — public preview
 
 The implementation is in `game/`. Upstream specification SHA: `cf717cab22b39344820c11ef9aaf3a827336ce14`.
 
@@ -9,8 +9,8 @@ The implementation is in `game/`. Upstream specification SHA: `cf717cab22b393448
 | 3 Style calibration | PASS | `evidence/gate-3.md`; independent five-piece review and `art/style-lock.json` |
 | 4 Hero and whip | IN PROGRESS | Partial audit and motion review in `art/review-hero-partial-r01/` |
 | 5 Other production assets | NOT STARTED | Requires gate 4 |
-| 6 Integration | NOT STARTED | Requires gate 5 |
-| 7 Web publication | NOT STARTED | Requires integration gate |
+| 6 Integration | PREVIEW SHIPPED; full production gate incomplete | Selected painted art integrated; release notes disclose remaining debt |
+| 7 Web publication | PUBLIC PREVIEW LIVE | `evidence/deployment-verification.json`; Pages deployment succeeded |
 
 The partial motion reviewer passed hero idle, start move, crouch entry, crouch idle and crouch exit. It rejected walk, stop move, turn, rise, apex, fall, hurt recoil and knockback. Those failures remain release blockers. Numeric acceptance alone did not approve those motions.
 
@@ -18,7 +18,7 @@ New isolated keys for turning, impact, rising, apex, falling and collapse passed
 
 Rejected source sheets, derived experiments, original frames, prompt records, normalization factors and prior reviews are retained. All scripted/reused/reversed clips are labeled in `art/frames/derivations.json`. The generated whole-clip idle sheet failed the size contract; approved neutral-derived breathing subsequently passed numeric and independent motion review.
 
-The game still renders greybox placeholders. No production-art integration, full hero/whip gate, deployed build, iPhone device test, unfamiliar-player study, or public repository has been claimed.
+The shipped preview integrates selected painted art and retains engine silhouettes for incomplete enemy assets. It is public and playable on Pages. The full hero/whip production gate, physical iPhone device tests and unfamiliar-player study remain incomplete.
 
 Physical iPhone 17 gates V5/V8 and unfamiliar-human gate V6 stay PENDING unless actually performed. The user requested no human interaction.
 

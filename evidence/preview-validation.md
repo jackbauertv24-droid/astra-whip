@@ -9,3 +9,7 @@
 - Physical iPhone performance and unfamiliar-player study NOT TESTED.
 - Single-threaded release export completed without script errors.
 - Headless Chromium 156 web startup smoke test: no JavaScript/runtime console errors; menu and gameplay screenshots are retained.
+- Public repository: https://github.com/jackbauertv24-droid/astra-whip
+- Pages deployment workflow 38571468172 completed successfully.
+- Deployed `index.pck` returned HTTP 200 and SHA-256 matched the local build: `636d85911d23ebb09f606707552e5b0cab25d605fd16a4ec90893c5fc6b8f41c`.
+- Live Pages URL also passed the Chromium startup/movement/whip smoke test with zero console/runtime errors.
