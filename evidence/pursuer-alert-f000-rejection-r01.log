@@ -1,0 +1,11 @@
+file:///config/codex-workspace/astra-whip/tools/normalize-frame.mjs:10
+if(scale<.85||scale>1.18)throw Error(`G-03: scale ${scale} outside allowed range; regenerate`);
+                               ^
+
+Error: G-03: scale 0.72 outside allowed range; regenerate
+    at file:///config/codex-workspace/astra-whip/tools/normalize-frame.mjs:10:32
+    at ModuleJob.run (node:internal/modules/esm/module_job:439:25)
+    at async node:internal/modules/esm/loader:643:26
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5)
+
+Node.js v24.19.0

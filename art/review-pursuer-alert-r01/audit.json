@@ -1,0 +1,27 @@
+{
+ "defects": 0,
+ "flags": 3,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_alert",
+   "frame": 1,
+   "msg": "jump from frame 0: size 3.1%, height 24.6%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_alert",
+   "frame": 2,
+   "msg": "jump from frame 1: size 2.3%, height 13.2%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_alert",
+   "frame": 3,
+   "msg": "jump from frame 2: size 0.5%, height 15.2%"
+  }
+ ]
+}

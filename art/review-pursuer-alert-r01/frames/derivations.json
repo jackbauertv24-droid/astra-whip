@@ -1,0 +1,30 @@
+{
+  "pursuer_patrol_walk": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-gait.mjs",
+      "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+    ],
+    "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+    "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+  },
+  "pursuer_approach_walk": {
+    "kind": "reused",
+    "source": [
+      "art/frames/pursuer_patrol_walk"
+    ],
+    "method": "Reuse the articulated patrol gait. Source timings stay70ms; runtime cadence35/27 gives the same43.2u stride.",
+    "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+  },
+  "pursuer_alert": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-alert.mjs",
+      "art/production-candidates/pursuer-alert-fallback-r03/rig.json"
+    ],
+    "method": "Same approved painted bone parts as locomotion. Torso rears around hips up to18degrees; four independent joint chains lift forepaws and place the far hind support while the near hindpaw stays fixed. Return pose equals approved approach entry. No whole-body scaling or translation. Alpha<=4 cleanup only.",
+    "reason": "Two generated intermediate entries exceeded G-03 normalization limits, with raw images and failures retained. D23 articulated fallback from independently approved static source; full new action/phone review required and quality debt disclosed."
+  }
+}

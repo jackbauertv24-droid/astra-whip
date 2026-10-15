@@ -1,0 +1,9 @@
+{
+  source: 'art/production-candidates/pursuer-alert-f002-delivery-r01.png',
+  corrective_normalization: 0.9183673469387755,
+  source_pivot: [ 128, 228 ],
+  delivery_pivot: [ 128, 224 ],
+  target_height: 135,
+  method: 'uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot',
+  debris_removed: 0
+}

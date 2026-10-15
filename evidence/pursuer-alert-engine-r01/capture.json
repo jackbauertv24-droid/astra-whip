@@ -1,0 +1,89 @@
+{
+ "records": [
+  {
+   "alert_duration": 0.3,
+   "direction": 1,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "alert-right-f00.png",
+     "frame": 0,
+     "state": "alert",
+     "x": 1062.0
+    },
+    {
+     "elapsed": 0.075,
+     "file": "alert-right-f01.png",
+     "frame": 1,
+     "state": "alert",
+     "x": 1062.0
+    },
+    {
+     "elapsed": 0.15,
+     "file": "alert-right-f02.png",
+     "frame": 2,
+     "state": "alert",
+     "x": 1062.0
+    },
+    {
+     "elapsed": 0.233333333333333,
+     "file": "alert-right-f03.png",
+     "frame": 3,
+     "state": "alert",
+     "x": 1062.0
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-right-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 1062.0
+    }
+   ],
+   "stationary_root": true
+  },
+  {
+   "alert_duration": 0.3,
+   "direction": -1,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "alert-left-f00.png",
+     "frame": 0,
+     "state": "alert",
+     "x": 1038.0
+    },
+    {
+     "elapsed": 0.075,
+     "file": "alert-left-f01.png",
+     "frame": 1,
+     "state": "alert",
+     "x": 1038.0
+    },
+    {
+     "elapsed": 0.15,
+     "file": "alert-left-f02.png",
+     "frame": 2,
+     "state": "alert",
+     "x": 1038.0
+    },
+    {
+     "elapsed": 0.233333333333333,
+     "file": "alert-left-f03.png",
+     "frame": 3,
+     "state": "alert",
+     "x": 1038.0
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-left-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 1038.0
+    }
+   ],
+   "stationary_root": true
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

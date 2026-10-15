@@ -1,0 +1,44 @@
+[
+  {
+    "frame": 0,
+    "height": 126,
+    "pose": "Early rear-up: hind feet take the weight, elbows fold and both front claws lift clear of the ground. Chest and skull rise from the low pose toward the tall reference, but reach only126source pixels above the floor. This is the entry between the low locomotion pose and the tall rear-up.",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent illustrated game enemy alert frame0. Image1 is the approved identity and tall rear-up endpoint. Image2 is the approved low body endpoint. Image3 is the mandatory canvas/layout guide, not an output layer. Full body, head to all four clawed feet, feet on the ground line. Preserve the same creature identity, long skull/head size, all four limb identities and bone lengths, long pale sinewy forearms, olive ragged layered hide and matte painted material. Pose: Early rear-up: hind feet take the weight, elbows fold and both front claws lift clear of the ground. Chest and skull rise from the low pose toward the tall reference, but reach only126source pixels above the floor. This is the entry between the low locomotion pose and the tall rear-up. Achieve height by articulating hips, knees, shoulders and neck, never by scaling the character. The planted hindfeet stay near the body's rear support; both hind legs are complete, and both forearms remain visibly connected. Right-facing. Exact320x256source composition: ground224, pivot128224, requested visible height126; enough transparent margin around every extremity. A threatening invented gaunt quadruped, not a dog, pet or human. Genuine transparent background. No ground, shadow, particles, detached debris, guide lines, colored marks, text, gore or blood. Match the reference illustration quality and physical bulk.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/guides/pursuer.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-1ca9ab78-0e55-4891-9b02-3f8a36c4e553.png",
+    "raw": "art/production-candidates/pursuer-alert-f000-r01.png",
+    "status": "Rejected G-03: requested126px pose delivered175px, required0.72scale below0.85limit; raw retained."
+  },
+  {
+    "frame": 2,
+    "height": 135,
+    "pose": "Descending from the tall rear-up: hind legs bend again, chest and head lower toward the low pose, long forearms extend downward to prepare their landing. Reach135source pixels above the floor. This follows the tall rear-up and precedes the low locomotion pose; visibly different forearm extension from the entry.",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent illustrated game enemy alert frame2. Image1 is the approved identity and tall rear-up endpoint. Image2 is the approved low body endpoint. Image3 is the mandatory canvas/layout guide, not an output layer. Full body, head to all four clawed feet, feet on the ground line. Preserve the same creature identity, long skull/head size, all four limb identities and bone lengths, long pale sinewy forearms, olive ragged layered hide and matte painted material. Pose: Descending from the tall rear-up: hind legs bend again, chest and head lower toward the low pose, long forearms extend downward to prepare their landing. Reach135source pixels above the floor. This follows the tall rear-up and precedes the low locomotion pose; visibly different forearm extension from the entry. Achieve height by articulating hips, knees, shoulders and neck, never by scaling the character. The planted hindfeet stay near the body's rear support; both hind legs are complete, and both forearms remain visibly connected. Right-facing. Exact320x256source composition: ground224, pivot128224, requested visible height135; enough transparent margin around every extremity. A threatening invented gaunt quadruped, not a dog, pet or human. Genuine transparent background. No ground, shadow, particles, detached debris, guide lines, colored marks, text, gore or blood. Match the reference illustration quality and physical bulk.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/guides/pursuer.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-b19a4b52-d07d-4a13-a38e-944b75c0c7f3.png",
+    "raw": "art/production-candidates/pursuer-alert-f002-r01.png",
+    "status": "Unused candidate: within bounded normalization for135px, retained when the coupled entry failed G-03 twice and the action switched to an articulated fallback."
+  },
+  {
+    "frame": 0,
+    "prompt": "Use case: identity-preserve. ONE transparent full-body enemy animation sprite. IMAGE1 IS THE EXACT LOW-POSE EDIT TARGET. Image2 is identity/material reference only. Image3 is mandatory320x256layout guide. Edit image1 only by an EARLY small rear-up: keep hips and hind paws exactly fixed; bend knees/shoulders and lift chest about10source pixels, head about14source pixels, and both forepaws12source pixels off their former floor contacts. Preserve all four connected limbs, bone lengths, face/head size, pale sinewy skin and olive ragged hide. Full body, head to all four clawed feet, grounded hindfeet on the ground line. Final head top98, floor224, visible height126; sourcecanvas320x256, pivot128224. The head remains forward at aboutx260, rather than becoming the full tall rear-up silhouette of image2. This is an early intermediate pose between image1 low and image2 tall, not the tall peak. Hips stay low and body still mostly horizontal, front arms only partly lifted. Achieve motion by articulation, not scale. Face right. Preserve matte illustrated non-pixel texture and exact identity. Genuine transparent background. No guide lines, colored dots, text, floor, shadow, scenery, particles, blood or gore.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-alert-f000-r02.png",
+    "status": "Rejected G-03: requested126px entry delivered151px; required0.83444scale below0.85limit. Raw and failure log retained."
+  }
+]

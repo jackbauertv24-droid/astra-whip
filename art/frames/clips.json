@@ -600,5 +600,24 @@
       "method": "Painted source geometry retained with local three-pixel chest/neck breathing and subpixel beard/rag follow-through. Legs and paws stay registered. No whole-body scaling, translation or rotation. Alpha<=4 cleanup only.",
       "reason": "Generated breathing poses changed chest/forelimb volume at neutral transitions; independent r01 FAIL retained. D23 permits a reviewed scripted fallback from approved art. The coherent six-frame breathing envelope uses the fixed approved patrol entry key; disclose quality debt."
     }
+  },
+  "pursuer_alert": {
+    "ms": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/review-pursuer-keys-r01/f000.png",
+        "tools/prepare-pursuer-alert.mjs",
+        "art/production-candidates/pursuer-alert-fallback-r03/rig.json"
+      ],
+      "method": "Same approved painted bone parts as locomotion. Torso rears around hips up to18degrees; four independent joint chains lift forepaws and place the far hind support while the near hindpaw stays fixed. Return pose equals approved approach entry. No whole-body scaling or translation. Alpha<=4 cleanup only.",
+      "reason": "Two generated intermediate entries exceeded G-03 normalization limits, with raw images and failures retained. D23 articulated fallback from independently approved static source; full new action/phone review required and quality debt disclosed."
+    }
   }
 }
