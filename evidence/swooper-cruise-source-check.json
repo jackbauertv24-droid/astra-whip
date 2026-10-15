@@ -1,0 +1,41 @@
+{
+  "result": "PASS",
+  "frames": [
+    "f000.png",
+    "f001.png",
+    "f002.png",
+    "f003.png",
+    "f004.png",
+    "f005.png",
+    "f006.png",
+    "f007.png"
+  ],
+  "source_runtime_snapshot_byte_identical": true,
+  "unrelated_metadata_unchanged": true,
+  "rejected_oversize_key_status": 1,
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "directions": [
+        1,
+        -1
+      ],
+      "samples": [
+        9,
+        9
+      ]
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "directions": [
+        1,
+        -1
+      ],
+      "samples": [
+        9,
+        9
+      ]
+    }
+  },
+  "physical_device_test": false
+}

@@ -174,6 +174,11 @@ func _draw() -> void:
  var color = Color("8cc084") if kind == "ranged" else Color("a9a491")
  if state.contains("windup") or state in ["alert", "aim", "dive_telegraph"]: color = Color("e3a34a")
  if hp <= 0: color.a = maxf(0.1,1-elapsed)
+ if kind == "swooper":
+  visual.visible = visual.has_body_layer(state)
+  if visual.visible:
+   visual.modulate = Color(1,1,1,color.a)
+   return
  var rect = contact_rect()
  rect.position -= position
  if kind == "pursuer":

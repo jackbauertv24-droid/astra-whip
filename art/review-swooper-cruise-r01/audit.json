@@ -1,0 +1,155 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-swooper-cruise-r01/frames",
+ "defects": 0,
+ "flags": 0,
+ "clips_audited": 1,
+ "references": {
+  "swooper": {
+   "size": 109.82864039719894,
+   "height": 169,
+   "head": 125
+  }
+ },
+ "findings": [],
+ "metrics": {
+  "swooper_cruise": [
+   {
+    "bbox": [
+     53,
+     44,
+     335,
+     212
+    ],
+    "height": 169,
+    "width": 283,
+    "area": 12745,
+    "size": 112.894,
+    "top": 44,
+    "foot": 212,
+    "headWidth": 142,
+    "bootRatio": 0.023,
+    "legDip": 0.031
+   },
+   {
+    "bbox": [
+     55,
+     44,
+     332,
+     212
+    ],
+    "height": 169,
+    "width": 278,
+    "area": 12720,
+    "size": 112.783,
+    "top": 44,
+    "foot": 212,
+    "headWidth": 150,
+    "bootRatio": 0.023,
+    "legDip": 0.032
+   },
+   {
+    "bbox": [
+     63,
+     45,
+     323,
+     212
+    ],
+    "height": 168,
+    "width": 261,
+    "area": 12153,
+    "size": 110.241,
+    "top": 45,
+    "foot": 212,
+    "headWidth": 125,
+    "bootRatio": 0.023,
+    "legDip": 0.033
+   },
+   {
+    "bbox": [
+     73,
+     43,
+     313,
+     212
+    ],
+    "height": 170,
+    "width": 241,
+    "area": 11520,
+    "size": 107.331,
+    "top": 43,
+    "foot": 212,
+    "headWidth": 106,
+    "bootRatio": 0.025,
+    "legDip": 0.033
+   },
+   {
+    "bbox": [
+     78,
+     41,
+     309,
+     212
+    ],
+    "height": 172,
+    "width": 232,
+    "area": 11241,
+    "size": 106.024,
+    "top": 41,
+    "foot": 212,
+    "headWidth": 101,
+    "bootRatio": 0.025,
+    "legDip": 0.034
+   },
+   {
+    "bbox": [
+     73,
+     43,
+     313,
+     212
+    ],
+    "height": 170,
+    "width": 241,
+    "area": 11417,
+    "size": 106.85,
+    "top": 43,
+    "foot": 212,
+    "headWidth": 106,
+    "bootRatio": 0.025,
+    "legDip": 0.034
+   },
+   {
+    "bbox": [
+     63,
+     45,
+     323,
+     212
+    ],
+    "height": 168,
+    "width": 261,
+    "area": 11972,
+    "size": 109.417,
+    "top": 45,
+    "foot": 212,
+    "headWidth": 125,
+    "bootRatio": 0.024,
+    "legDip": 0.033
+   },
+   {
+    "bbox": [
+     55,
+     44,
+     332,
+     212
+    ],
+    "height": 169,
+    "width": 278,
+    "area": 12586,
+    "size": 112.187,
+    "top": 44,
+    "foot": 212,
+    "headWidth": 150,
+    "bootRatio": 0.024,
+    "legDip": 0.032
+   }
+  ]
+ }
+}

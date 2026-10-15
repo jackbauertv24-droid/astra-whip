@@ -1,0 +1,14 @@
+{
+  "intended_pose": "Original winged shrouded swooper, small hooded body facing right, two complete articulated ragged membrane wings in raised partial upstroke, long narrow shroud, body centered on flight pivot.",
+  "canvas": [
+    384,
+    256
+  ],
+  "pivot": [
+    192,
+    128
+  ],
+  "static_only": true,
+  "source": "art/production-candidates/swooper-identity-r02/key.png",
+  "normalization": "art/production-candidates/swooper-identity-r02/key.png.normalization.json"
+}

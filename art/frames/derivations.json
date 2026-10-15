@@ -345,5 +345,11 @@
     ],
     "method": "Reuse approved compression for the lethal buckling entry, directly painted intermediate fall poses and independently accepted complete grounded corpse. Final two frames derive soft Ash Grey erosion and descending/settling flecks from that approved corpse; no whole-body scale. Generated body keys get one factor1 baseline registration. Alpha<=4 cleanup only.",
     "reason": "Complete the one-HP lethal sequence with supported collapse and D13 ash rather than a tinted held pose. Body identity is preserved through a declared D23 scripted ash derivation from approved paint; retain derived-animation quality debt and require full independent motion review."
+  },
+  "swooper_cruise": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/swooper-identity-r02/key.png",
+    "method": "Separate articulated wing meshes with fixed shoulder roots, elbow flexion and phase-lagged membrane camber; unchanged torso, no global scaling. See tools/prepare-swooper-cruise.mjs and rig.json.",
+    "reason": "Painted opposite-pose generation moved and changed the central hood/body instead of preserving the flight pivot (art/production-candidates/swooper-downstroke-r01). Static source key independently accepted; derived animation requires separate review."
   }
 }

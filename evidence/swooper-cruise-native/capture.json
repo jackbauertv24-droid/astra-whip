@@ -1,0 +1,220 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "natural_perch_to_cruise": true,
+   "nominal_cycle_ms": 720,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "cruise-right-first-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.0916666666666667,
+     "file": "cruise-right-first-f01.png",
+     "frame": 1,
+     "position": [
+      1805.95788574219,
+      378.867309570312
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.183333333333333,
+     "file": "cruise-right-first-f02.png",
+     "frame": 2,
+     "position": [
+      1811.91577148438,
+      380.188781738281
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.275,
+     "file": "cruise-right-first-f03.png",
+     "frame": 3,
+     "position": [
+      1817.87365722656,
+      381.420166015625
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.366666666666667,
+     "file": "cruise-right-first-f04.png",
+     "frame": 4,
+     "position": [
+      1823.83154296875,
+      382.520111083984
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "cruise-right-first-f05.png",
+     "frame": 5,
+     "position": [
+      1829.24780273438,
+      383.374938964844
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.541666666666667,
+     "file": "cruise-right-first-f06.png",
+     "frame": 6,
+     "position": [
+      1835.20568847656,
+      384.126434326172
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.633333333333334,
+     "file": "cruise-right-first-f07.png",
+     "frame": 7,
+     "position": [
+      1841.16357421875,
+      384.655822753906
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.725,
+     "file": "cruise-right-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      1847.12145996094,
+      384.945343017578
+     ],
+     "state": "cruise",
+     "wrap": true
+    }
+   ],
+   "speed_u_per_s": 65
+  },
+  {
+   "direction": -1,
+   "natural_perch_to_cruise": true,
+   "nominal_cycle_ms": 720,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "cruise-left-first-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.0916666666666667,
+     "file": "cruise-left-first-f01.png",
+     "frame": 1,
+     "position": [
+      1794.04211425781,
+      378.867309570312
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.183333333333333,
+     "file": "cruise-left-first-f02.png",
+     "frame": 2,
+     "position": [
+      1788.08422851562,
+      380.188781738281
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.275,
+     "file": "cruise-left-first-f03.png",
+     "frame": 3,
+     "position": [
+      1782.12634277344,
+      381.420166015625
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.366666666666667,
+     "file": "cruise-left-first-f04.png",
+     "frame": 4,
+     "position": [
+      1776.16845703125,
+      382.520111083984
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "cruise-left-first-f05.png",
+     "frame": 5,
+     "position": [
+      1770.75219726562,
+      383.374938964844
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.541666666666667,
+     "file": "cruise-left-first-f06.png",
+     "frame": 6,
+     "position": [
+      1764.79431152344,
+      384.126434326172
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.633333333333334,
+     "file": "cruise-left-first-f07.png",
+     "frame": 7,
+     "position": [
+      1758.83642578125,
+      384.655822753906
+     ],
+     "state": "cruise",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.725,
+     "file": "cruise-left-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      1752.87854003906,
+      384.945343017578
+     ],
+     "state": "cruise",
+     "wrap": true
+    }
+   ],
+   "speed_u_per_s": 65
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

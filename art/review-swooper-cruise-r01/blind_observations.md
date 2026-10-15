@@ -1,0 +1,5 @@
+# Blind observations
+
+Viewed every lineup and strip image before reading any index, audit, contract, intent, or metadata.
+
+The one visible creature is a desaturated brown/gray hooded wraith with two broad skeletal bat wings and a trailing shredded cloth tail. It reads as hovering/flying undead. The face has no clear rightward direction: the hood appears broadly frontal, with a slight diagonal tilt. Wing silhouettes and individual joint heights change between frames, especially through the middle of the cycle; the motion appears small and restrained. The torso and trailing cloth remain unusually consistent while the wings narrow and rise. This could read as a shallow hovering flap, but does not show a large power stroke. Identity and apparent size are consistent. There is no visible translational jump or obvious palette flash. The final and initial wing poses appear close enough for a plausible loop. Fine texture is attractive at the displayed scale; the silhouette, hood, and wing spread carry recognition more than interior detail.

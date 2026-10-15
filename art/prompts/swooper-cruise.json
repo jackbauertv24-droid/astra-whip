@@ -1,0 +1,37 @@
+[
+  {
+    "key": "identity-r01",
+    "prompt": null,
+    "prompt_record_note": "Original prompt not recoverable after context compaction; rejected for required 0.787 uniform correction, never delivered.",
+    "raw": "art/production-candidates/swooper-identity-r01/raw.png",
+    "source": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/swooper.png"
+    ],
+    "tool": "built-in image_gen"
+  },
+  {
+    "key": "identity-r02",
+    "prompt": "Use case: stylized-concept. Create ONE illustrated gothic side-scroller enemy sprite, genuine transparent background. References: image1 rejected size draft for identity; image2 exact384x256 registration guide, NOT artwork; image3 approved enemy material/style; image4 hero style. Keep draft's small hooded wraith and jointed torn membrane wings but FIX SIZE: occupy only x45..339 and y43..213 on384x256 equivalent canvas (1536x1024 output: x180..1356,y172..852). Large EMPTY TRANSPARENT margins especially top and bottom. No backdrop shadow glow or dust. Body-center192,128. Hood points right, torso narrow about40px, long thin shroud tail reachesy213, hood tip reachesy43. Wings extend sideways partial raised upstroke, elbows/wrists/fingers visibly articulated, highest wing pixels NO ABOVE y43. Illustrated muted ASH GREY #6E6A61 membrane and cloth, slate creases and pallid highlights; deep violet only narrow inner crease. No tan coloration. No gore, eyes, feet, bird feathers, horns, text, guide marks. Keep FULL silhouette within specified margins; subject must be only 170/256=66% canvas height, not filling image. Narrow shroud tail, compact body, broad two wings. A production sprite with clean alpha, not a scene.",
+    "raw": "art/production-candidates/swooper-identity-r02/raw.png",
+    "source": [
+      "art/production-candidates/swooper-identity-r01/raw.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/frames/style_hero_neutral/f000.png"
+    ],
+    "tool": "built-in image_gen"
+  },
+  {
+    "key": "downstroke-r01",
+    "prompt": "Use case: identity-preserve. Edit image1 approved swooper static sprite into the OPPOSITE DOWNSTROKE of a flight wingbeat. Image2 is mandatory384x256guide, image3 style. Same exact hooded creature, shroud, membrane material, physical size, right facing and body placement. Body center192128; fixed narrow torso, same cloth tail endingy212. Wing shoulders stay fixed, but upper arms rotate down/out and forearms and finger spars fold downward decisively. Wings now descend toward lower-left/lower-right rather than sweeping up: tips aroundx85,y195 andx310,y195, elbows aroundx110,y95 andx285,y90. Preserve membrane area by showing full broad panels tilted toward viewer, not skinny folds. For a recognizable high-to-low wing stroke, re-pose BOTH entire articulated wings, not just flicker fringe. Total flight envelope can remain y44..212: a swept narrow hood point or swept shroud tip above the head reaches y44, with actual hood face still same size nearx210y100. Do NOT rescale torso or translate body. Entire creature withinx45..339,y43..213, transparent margins. Genuine clean alpha, NO background, shadow, dust, glow, lettering or guides. Muted ASH GREY #6E6A61 wings, narrow crypt violet recesses, slate bone struts, keep same painted identity. ONE FRAME not sheet.384x256proportions.",
+    "raw": "art/production-candidates/swooper-downstroke-r01/raw.png",
+    "source": [
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png"
+    ],
+    "tool": "built-in image_gen"
+  }
+]

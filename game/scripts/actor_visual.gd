@@ -11,6 +11,7 @@ var hand_sockets: Array = []
 var weapon_sets: Dictionary = {}
 var socket_sets: Dictionary = {}
 var approach_cadence = 1.0
+var body_clips: Dictionary = {}
 var pivot_offset = Vector2.ZERO
 func configure(kind: String) -> void:
  actor = kind
@@ -33,12 +34,14 @@ func configure(kind: String) -> void:
   sprite_frames.add_animation(id)
   sprite_frames.set_animation_loop(id, spec.loop)
   sprite_frames.set_animation_speed(id, 1000)
+  var delivered = 0
   for i in spec.ms.size():
    var ms = spec.ms[i]
    var path = "res://assets/" + actor + "/" + id + "/f%03d.png" % i
    var texture: Texture2D
    if ResourceLoader.exists(path):
     texture = load(path)
+    if texture != null: delivered += 1
    elif actor == "hero" and id == "hero_attack_ground":
     var keys = ["rest","windup","strike","strike","follow","follow","rest","rest"]
     texture = load("res://assets/hero/attack_" + keys[i] + ".png")
@@ -53,6 +56,7 @@ func configure(kind: String) -> void:
    var placeholder = PlaceholderTexture2D.new()
    placeholder.size = Vector2(1, 1)
    sprite_frames.add_frame(id, texture if texture else placeholder, maxf(1, float(ms)))
+  body_clips[id] = delivered == spec.ms.size()
  visible = actor in ["hero", "pursuer"]
  scale = Vector2(0.5, 0.5)
  offset = pivot_offset
@@ -74,6 +78,8 @@ func configure(kind: String) -> void:
     if ResourceLoader.exists(path): textures.append(load(path))
    weapon_sets[state] = textures
  follow("idle", 0)
+func has_body_layer(state: String) -> bool:
+ return body_clips.get(actor+"_"+state,false)
 func has_weapon_layer(state: String) -> bool:
  return actor == "hero" and weapon_sets.has(state) and weapon_sets[state].size() == specs["hero_" + state].ms.size() and socket_sets.get("hero_" + state, []).size() == specs["hero_" + state].ms.size()
 func playback_rate(state: String) -> float:

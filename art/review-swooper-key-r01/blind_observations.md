@@ -1,0 +1,7 @@
+# Blind static observations
+
+Viewed lineup.png and f000.png before reading any intent, metadata, contract, or reference.
+
+The image shows an airborne, ragged winged creature on a diagonal body axis. Two large skeletal bat wings stretch upward and sideways, with thin gray brown membrane panels, angular bone spars, and torn lower margins. A small hooded or swept-back head sits near the center upper body; its apparent face points toward image right. A narrow torso descends into a long, disintegrating cloak or tail of tapering ribbons. There are no readily recognizable legs or feet; the lower body is almost entirely trailing fabric-like strips. Small warm reddish brown marks occur near the middle left side of the torso. The image is subdued warm gray and brown with pale bone highlights and dark internal creases.
+
+The wing silhouette reads clearly at this displayed size, although the central head/chest anatomy is harder to parse. Both wings visibly attach around the upper torso; the nearer left wing is larger and has long curved finger-like tips. The overall silhouette resembles an undead wraith with bat wings more immediately than a conventional fleshed animal. Edges are delicately ragged rather than thickly outlined. No ground, shadow, scenery, text, or obvious rectangular background appears in the isolated view. Fine detail and thin trailing strips may lose readability at smaller sizes. This is a single static pose, so it establishes no animation behavior.

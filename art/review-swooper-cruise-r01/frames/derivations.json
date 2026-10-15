@@ -1,0 +1,8 @@
+{
+  "swooper_cruise": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/swooper-identity-r02/key.png",
+    "method": "Separate articulated wing meshes with fixed shoulder roots, elbow flexion and phase-lagged membrane camber; unchanged torso, no global scaling. See tools/prepare-swooper-cruise.mjs and rig.json.",
+    "reason": "Painted opposite-pose generation moved and changed the central hood/body instead of preserving the flight pivot (art/production-candidates/swooper-downstroke-r01). Static source key independently accepted; derived animation requires separate review."
+  }
+}

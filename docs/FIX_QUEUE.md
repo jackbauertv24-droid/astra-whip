@@ -12,7 +12,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 6 | Crouch attack articulation | DONE; independent r01 PASS; articulated same-arm low attack, synchronized whip and unchanged crouch collision |
 | 7 | Air attack articulation | DONE; independent r01 PASS; airborne body/whip sequence, mirrored sockets and active landing handoffs verified |
 | 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
-| 9 | Swooper supported action clips | Engine silhouette in preview |
+| 9 | Swooper supported action clips | PARTIAL: cruise8frames independent r01 PASS, actual AI/pivot/loop captures both facings; six clips pending |
 | 10 | Ranged enemy supported action clips | Engine silhouette in preview |
 | 11 | Boss supported action clips | Engine silhouette in preview |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |

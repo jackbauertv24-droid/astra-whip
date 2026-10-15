@@ -1,0 +1,373 @@
+{
+  "source": "art/production-candidates/swooper-identity-r02/key.png",
+  "static_review": "art/review-swooper-key-r01/review_verdict.md",
+  "method": "Separate wing membranes, fixed shoulder roots, elbow-centered outer-wing flexion with progressive inner-web influence and phase-lagged membrane camber; torso and tail paint remain fixed. Baked compatible RGBA frames, no global scale or translation.",
+  "polygons": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        160,
+        0
+      ],
+      [
+        175,
+        98
+      ],
+      [
+        161,
+        120
+      ],
+      [
+        144,
+        136
+      ],
+      [
+        134,
+        150
+      ],
+      [
+        107,
+        155
+      ],
+      [
+        0,
+        160
+      ]
+    ],
+    [
+      [
+        215,
+        0
+      ],
+      [
+        384,
+        0
+      ],
+      [
+        384,
+        170
+      ],
+      [
+        246,
+        157
+      ],
+      [
+        225,
+        136
+      ],
+      [
+        215,
+        104
+      ]
+    ]
+  ],
+  "records": [
+    {
+      "frame": 0,
+      "stroke": 0,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": 0,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            53,
+            65
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 0,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            335,
+            95
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 1,
+      "stroke": 0.1464466094067262,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -5.125631329235417,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            54.72934797917537,
+            71.63650928131872
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 5.125631329235417,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            331.2024724116471,
+            100.19663395059968
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 2,
+      "stroke": 0.49999999999999994,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -17.499999999999996,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            61.28252148595135,
+            86.8124061747921
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 17.499999999999996,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            320.3799172617298,
+            110.48820280216836
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 3,
+      "stroke": 0.8535533905932737,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -29.874368670764582,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            70.93562353165323,
+            100.2314057808176
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 29.874368670764582,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            307.6347057207887,
+            117.93193326962046
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "stroke": 1,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -35,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            75.74081965994235,
+            105.12466543495232
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 35,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            301.92945702614173,
+            119.88636220721824
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 5,
+      "stroke": 0.8535533905932738,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -29.874368670764586,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            70.93562353165323,
+            100.2314057808176
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 29.874368670764586,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            307.63470572078865,
+            117.2248264884339
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 6,
+      "stroke": 0.5000000000000001,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -17.5,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            61.28252148595135,
+            86.81240617479212
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 17.5,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            320.3799172617298,
+            109.48820280216839
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 7,
+      "stroke": 0.14644660940672632,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -5.125631329235422,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            54.72934797917539,
+            71.63650928131872
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 5.125631329235422,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            331.2024724116471,
+            99.48952716941312
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -184,3 +184,7 @@ Date: 2026-10-12. Scope: documents, `contract/art_contract.json`, `tools/`. Trig
 - The independent-reviewer protocol (prompts/ART_REVIEW.md) has not been exercised on a real pack.
 - Gameplay tests T-01…T-09 are specified, not implemented (they belong to a build).
 - No engine, device or browser work was done.
+
+## Swooper cruise follow-up — 2026-10-15
+
+Fresh `/root/swooper_static_key_review_r01` accepted the single source key; fresh `/root/swooper_cruise_review_r01` independently accepted the complete cruise clip after blind observations, native frames/onions, registered style references, and actual desktop/phone-sized engine captures. Scoped verdict: `swooper_cruise | PASS | no failing frames | continuous articulated cruise beat with stable identity/body pivot`. Zero automated defects/flags. The held tail makes the labelled scripted fallback somewhat mechanical; this remains disclosed quality debt. Full output is retained in `art/review-swooper-cruise-r01/review_verdict.md`; six other swooper clips remain pending. No physical device approval is inferred.
