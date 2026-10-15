@@ -1,0 +1,43 @@
+{
+  "result": "PASS",
+  "source_runtime_snapshot_identical": true,
+  "terminal_frame_equals_cruise_start": true,
+  "unrelated_metadata_unchanged": true,
+  "painted_normalizations": [
+    1,
+    0.9497206703910615
+  ],
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.908333333333333,
+        0.908333333333333
+      ],
+      "altitude": [
+        64,
+        182.5
+      ]
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.908333333333333,
+        0.908333333333333
+      ],
+      "altitude": [
+        64,
+        182.5
+      ]
+    }
+  },
+  "physical_device": false
+}

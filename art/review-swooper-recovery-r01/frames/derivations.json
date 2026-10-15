@@ -1,0 +1,24 @@
+{
+  "swooper_recovery_climb": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/swooper-recovery-catch-r01/key.png",
+      "art/production-candidates/swooper-recovery-right-r02/key.png",
+      "art/production-candidates/swooper-identity-r02/key.png"
+    ],
+    "method": "Painted bank/catch and righting frames0/1;55degree articulated wing power strokes frames2/4, approved full upstroke reused frames3/5. Ending equals cruise frame0. No global scaling in the rig.",
+    "reason": "Labelled D23 rig/reuse for stronger repeat strokes preserves accepted wide-wing paint; generated righting draft r01 exceeded intended normalization bounds and was regenerated r02. Entire action requires fresh independent review."
+  },
+  "swooper_cruise": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/swooper-identity-r02/key.png",
+    "method": "Separate articulated wing meshes with fixed shoulder roots, elbow flexion and phase-lagged membrane camber; unchanged torso, no global scaling. See tools/prepare-swooper-cruise.mjs and rig.json.",
+    "reason": "Painted opposite-pose generation moved and changed the central hood/body instead of preserving the flight pivot (art/production-candidates/swooper-downstroke-r01). Static source key independently accepted; derived animation requires separate review."
+  },
+  "swooper_dive": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/swooper-fold-r01/key.png",
+    "method": "Body-center pitch20/40/80/80degrees plus independently flexed folded wing struts and streaming cloth. No scaling/recentering. See tools/prepare-swooper-dive.mjs.",
+    "reason": "D23 articulated fallback preserves accepted painted folded identity after the generated opposite wing pose changed the central body. Separate review required for active dive and outgoing handoff."
+  }
+}

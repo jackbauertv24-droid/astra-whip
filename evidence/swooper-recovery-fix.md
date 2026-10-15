@@ -1,0 +1,13 @@
+# Swooper climbing recovery
+
+Six 150 ms frames replace the recovery placeholder: newly painted bank/catch and righting keys, two stronger 55-degree articulated wing strokes, and approved spread poses between/after them. The final frame is byte-identical to cruise frame zero. Body physics, canonical 900 ms timing and the 64→182.5-unit climb remain unchanged.
+
+Exact built-in image generation prompts/references/raw results are retained in `art/prompts/swooper-recovery.json`. The first righting draft needed a 0.829 correction to its requested 170 px envelope and was regenerated, not delivered. Catch uses factor 1 registration; the replacement righting pose uses 0.949721 bounded uniform normalization. Source artwork, rejected draft and normalization records are retained. Rigged/reused frames are explicitly labelled D23 quality debt; this is not a claim of six independently painted poses. See `tools/prepare-swooper-recovery.mjs` and `art/production-candidates/swooper-recovery-r01/rig.json`.
+
+Fresh independent review `art/review-swooper-recovery-r01/review_verdict.md`: REVIEW: PASS for recovery plus unchanged dive/cruise references. The reviewer inspected all 18 source frames, onions/seam, four source keys, five style references and all 32 engine captures. All six A11 flags were accepted: two unchanged dive pitching flags and four recovery membrane-area changes. Body scale, attachment, bank/righting, stronger wing pumping and both handoffs pass. The coarse six-frame cadence and scripted/reused motion remain disclosed quality debt.
+
+`swooper-recovery-native/` and `swooper-recovery-phone/` show actual AI entry from dive, all six frames in both facings, stationary horizontal root, body-center registration, 900 ms ascent and natural cruise return. These are desktop viewport captures, not physical-device evidence. `swooper-recovery-source-check.json` verifies exact source/runtime/snapshot copies, terminal cruise equality, unaffected metadata and capture inventory.
+
+Default gameplay, actor-pivot and 32-case circle suites pass in `swooper-recovery-default-suite.log`; detailed regression logs are alongside. Contract check and 25 negative art fixtures pass; scoped art audit has zero defects and six adjudicated flags. Export/hash: `swooper-recovery-export.log`, `swooper-recovery-build.sha256`. Hurt/death and remaining release gates stay tracked in `docs/FIX_QUEUE.md`.
+
+The scoped Chromium156 smoke test booted the export, started gameplay, ran AI and paused without page/console errors (`swooper-recovery-browser-smoke.json`, screenshot alongside). Committed web artifact matches the exact recorded pack hash.

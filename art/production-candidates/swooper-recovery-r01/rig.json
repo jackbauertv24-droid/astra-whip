@@ -1,0 +1,153 @@
+{
+  "source": "art/production-candidates/swooper-identity-r02/key.png",
+  "static_review": "art/review-swooper-key-r01/review_verdict.md",
+  "painted_frames": {
+    "0": "art/production-candidates/swooper-recovery-catch-r01/key.png",
+    "1": "art/production-candidates/swooper-recovery-right-r02/key.png"
+  },
+  "reused_frames": {
+    "3": "art/frames/swooper_cruise/f000.png",
+    "5": "art/frames/swooper_cruise/f000.png"
+  },
+  "method": "Painted bank/righting keys for frames0/1;55-degree articulated power strokes with opposed membrane camber on frames2/4; approved full upstroke reused for frames3/5. Rig frames keep torso/cloth fixed and wing roots attached. No global scaling or translation.",
+  "polygons": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        160,
+        0
+      ],
+      [
+        175,
+        98
+      ],
+      [
+        161,
+        120
+      ],
+      [
+        144,
+        136
+      ],
+      [
+        134,
+        150
+      ],
+      [
+        107,
+        155
+      ],
+      [
+        0,
+        160
+      ]
+    ],
+    [
+      [
+        215,
+        0
+      ],
+      [
+        384,
+        0
+      ],
+      [
+        384,
+        170
+      ],
+      [
+        246,
+        157
+      ],
+      [
+        225,
+        136
+      ],
+      [
+        215,
+        104
+      ]
+    ]
+  ],
+  "records": [
+    {
+      "frame": 2,
+      "stroke": 1,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -55,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            98.08819998229542,
+            119.61362630329113
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 55,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            278.35419866409893,
+            124.56557193422537
+          ]
+        }
+      ]
+    },
+    {
+      "frame": 4,
+      "stroke": 1,
+      "wings": [
+        {
+          "side": 0,
+          "pivot": [
+            128,
+            49
+          ],
+          "outer_angle_degrees": -55,
+          "shoulder": [
+            175,
+            100
+          ],
+          "tip": [
+            98.08819998229542,
+            119.61362630329113
+          ]
+        },
+        {
+          "side": 1,
+          "pivot": [
+            279,
+            55
+          ],
+          "outer_angle_degrees": 55,
+          "shoulder": [
+            215,
+            104
+          ],
+          "tip": [
+            278.35419866409893,
+            123.06557193422537
+          ]
+        }
+      ]
+    }
+  ]
+}

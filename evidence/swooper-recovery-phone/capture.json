@@ -1,0 +1,166 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "before": "before-dive-right.png",
+   "direction": 1,
+   "duration": 0.908333333333333,
+   "end_altitude": 182.5,
+   "natural_dive_to_recovery": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-right-f00.png",
+     "frame": 0,
+     "position": [
+      1938.03674316406,
+      496.0
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "recovery_climb-right-f01.png",
+     "frame": 1,
+     "position": [
+      1938.03674316406,
+      476.25
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recovery_climb-right-f02.png",
+     "frame": 2,
+     "position": [
+      1938.03674316406,
+      456.5
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "recovery_climb-right-f03.png",
+     "frame": 3,
+     "position": [
+      1938.03674316406,
+      436.75
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "recovery_climb-right-f04.png",
+     "frame": 4,
+     "position": [
+      1938.03674316406,
+      417.0
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "recovery_climb-right-f05.png",
+     "frame": 5,
+     "position": [
+      1938.03674316406,
+      396.152770996094
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0,
+     "file": "cruise-right-f00.png",
+     "frame": 0,
+     "position": [
+      1938.03674316406,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ],
+   "start_altitude": 64
+  },
+  {
+   "before": "before-dive-left.png",
+   "direction": -1,
+   "duration": 0.908333333333333,
+   "end_altitude": 182.5,
+   "natural_dive_to_recovery": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-left-f00.png",
+     "frame": 0,
+     "position": [
+      1661.96325683594,
+      496.0
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "recovery_climb-left-f01.png",
+     "frame": 1,
+     "position": [
+      1661.96325683594,
+      476.25
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recovery_climb-left-f02.png",
+     "frame": 2,
+     "position": [
+      1661.96325683594,
+      456.5
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "recovery_climb-left-f03.png",
+     "frame": 3,
+     "position": [
+      1661.96325683594,
+      436.75
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "recovery_climb-left-f04.png",
+     "frame": 4,
+     "position": [
+      1661.96325683594,
+      417.0
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "recovery_climb-left-f05.png",
+     "frame": 5,
+     "position": [
+      1661.96325683594,
+      396.152770996094
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0,
+     "file": "cruise-left-f00.png",
+     "frame": 0,
+     "position": [
+      1661.96325683594,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ],
+   "start_altitude": 64
+  }
+ ],
+ "viewport": "(852, 393)"
+}

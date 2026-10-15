@@ -1,0 +1,39 @@
+[
+  {
+    "key": "catch-r01",
+    "prompt": "Use case: identity-preserve. ONE transparent 2D illustrated game sprite, recovery-climb frame0. Image1 exact approved diving swooper identity and starting pose; image2 approved wide-wing identity/material; image3 required384x256 registration guide; image4 same game style. Keep image1's SAME small hooded body, face, cloth bindings, ragged shroud, physical size and placement, head at right/down-right and cloth streaming left/up. The torso stays pitched approximately75degrees clockwise from upright as in image1. Change BOTH wings into the FIRST POWERFUL RECOVERY CATCH: wings unfurl into broad, fully connected membrane panels while banking. NEAR wing spreads down-left, outer tip nearx70,y210; FAR wing sweeps up-right, tip nearx310,y44. Body center fixed192128, hood near250150, trailing cloth near115100. Two complete shoulder/elbow/wrist/finger chains, broad ASH GREY membrane area comparable to wide source, not thin lines. Long spars retain actual length; open by joints, never grow new wings. Narrow diving dart opens into banked flight cross while body still angles forward. Frame must contain the entire creature withinx40..344,y43..213 on384x256equivalent canvas. Keep generous transparent top/bottom margins: subject only66% canvas height, no wing beyond guide height lines. Genuine clean alpha, no backdrop/shadow plane/dust/glow, no text or guide colors, no feathers, feet, gore or new costume. Matte painted Ash Grey#6E6A61 over narrow Crypt Violet creases, slate struts and restrained pale upper-left wear, same texture and identity as references. Single frame, not sheet. Do not replace the body with a frontal portrait or scale it to make room for wings.",
+    "source": [
+      "art/frames/swooper_dive/f003.png",
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png"
+    ],
+    "raw": "art/production-candidates/swooper-recovery-catch-r01/raw.png",
+    "tool": "built-in image_gen"
+  },
+  {
+    "key": "right-r01",
+    "prompt": "Use case: identity-preserve. ONE transparent illustrated game enemy recovery-climb FRAME1, an in-between from image1 banked recovery catch toward image2 upright flight. Image1 neighboring frame/pose bracket; image2 approved exact wide-wing identity/end bracket; image3 mandatory384x256guide; image4 approved game style. SAME complete hooded winged creature, exact head/body size, costume bindings, Ash Grey membranes, torn shroud and bone spars. Keep body center192128. Recover from the bank: torso is now mostly UPRIGHT with a modest20degree forward lean; hood projects RIGHT near22098. Both wings now lift into a BROAD UPSTROKE, outer fingers sweeping up/out, shoulders and elbows articulated, full membrane panels; tip extents nearx50y65 andx335y75, upper elbow ridges near y43. The long cloth is unrolling downward with gravity after the catch, hanging down/left with lowest rag tip near145213. It is NOT a global rotation of image1: separately right the torso, unfold cloth and articulate both wing chains toward the next power stroke. Actual bone lengths and physical mass stay constant; no new body or wing design, no shrinking. Entire silhouette withinx40..344,y43..213, on384x256equivalent canvas with generous empty transparent margins; subject about66% canvas height, not filling image. Same matte detailed painterly Ash Grey#6E6A61 with narrow Crypt Violet recesses, slate struts, pale upper-left highlights. Clean true transparency, no shadow plane/backdrop/glow/dust, text, guides, feet, feathers or gore. Single full-body frame, not sheet. Preserve original projected right-facing hood and cloth identity.",
+    "source": [
+      "art/production-candidates/swooper-recovery-catch-r01/key.png",
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png"
+    ],
+    "raw": "art/production-candidates/swooper-recovery-right-r01/raw.png",
+    "rejected_reason": "205px envelope requires0.829 correction to requested170px; below G03 bound. Not delivered.",
+    "tool": "built-in image_gen"
+  },
+  {
+    "key": "right-r02",
+    "prompt": "Regenerate at CORRECT PHYSICAL SIZE. Use case: identity-preserve. ONE transparent full creature recovery-climb frame, not sheet. Image1 APPROVED IDENTITY AND EXACT SIZE ANCHOR; image2 neighboring banked catch; image3 mandatory384x256guide; image4 rejected OVERSIZED draft for pose ONLY, NEVER copy its size. Rebuild draft's mostly upright broad UPSTROKE at image1's exact small head/torso/wing physical scale. Body-center192128, hood projects RIGHT near21395, cloth tail ends near145213. Two complete jointed membrane wings rise wide, upper elbow ridges y43, outer tips x55y65 andx330y75. Full figure MUST ONLY occupy y43..213 (170/256=66% canvas height), x48..337. TOP43px and BOTTOM42px on384x256canvas stay EMPTY TRANSPARENT. If output1536x1024, figure height680px, top172/bottom852; DO NOT fill80% height like rejected draft. Narrow SMALL hooded core same size as image1; BOTH wings complete with same bone lengths and membrane mass, small20degree forward lean while righting from bank. Long shroud unrolls downward by gravity. Same matte Ash Grey#6E6A61, narrow Crypt Violet recesses, slate worn struts and pale upper-left edges, original cloth/bindings. No body enlargement, new costume or chunky membranes. Large actual transparent margins around ENTIRE creature, no background, shadow, particles, glow, guide lines/text, feet, feathers or gore. One detailed illustrated production sprite. The rejected draft failed scale bounds; this regeneration must use image1's physical size and the guide.",
+    "source": [
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/production-candidates/swooper-recovery-catch-r01/key.png",
+      "art/guides/swooper.png",
+      "art/production-candidates/swooper-recovery-right-r01/delivery.png"
+    ],
+    "raw": "art/production-candidates/swooper-recovery-right-r02/raw.png",
+    "tool": "built-in image_gen"
+  }
+]
