@@ -188,3 +188,7 @@ Date: 2026-10-12. Scope: documents, `contract/art_contract.json`, `tools/`. Trig
 ## Swooper cruise follow-up — 2026-10-15
 
 Fresh `/root/swooper_static_key_review_r01` accepted the single source key; fresh `/root/swooper_cruise_review_r01` independently accepted the complete cruise clip after blind observations, native frames/onions, registered style references, and actual desktop/phone-sized engine captures. Scoped verdict: `swooper_cruise | PASS | no failing frames | continuous articulated cruise beat with stable identity/body pivot`. Zero automated defects/flags. The held tail makes the labelled scripted fallback somewhat mechanical; this remains disclosed quality debt. Full output is retained in `art/review-swooper-cruise-r01/review_verdict.md`; six other swooper clips remain pending. No physical device approval is inferred.
+
+## Swooper perch idle follow-up — 2026-10-15
+
+Fresh `/root/swooper_idle_review_r01` completed blind observations, every native frame/onion/seam, five style references, and all 28 engine captures. `swooper_perch_idle | PASS | no failing frames | restrained stationary hover and continuous cruise handoff`; unchanged cruise reference also PASS. Zero defects/flags. Exact approved-frame reuse is accepted under D23, with the held shroud retained as disclosed quality debt. Full output: `art/review-swooper-idle-r01/review_verdict.md`. This does not approve five absent swooper action clips or physical-device behavior.

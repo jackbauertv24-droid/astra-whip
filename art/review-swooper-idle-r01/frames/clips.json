@@ -1,0 +1,38 @@
+{
+  "swooper_perch_idle": {
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "reused",
+      "source": "swooper_cruise",
+      "method": "Exact approved frame reuse in order [0,1,2,3,6,7], each150ms: slower900ms hovering beat, omitting the deepest cruise downstroke; root stationary through idle and source frame1 approaches frame0 at cruise handoff.",
+      "reason": "ART_CONTRACT §11 permits reused frames. Idle still requires its own independent acting/timing/handoff review."
+    }
+  },
+  "swooper_cruise": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": "art/production-candidates/swooper-identity-r02/key.png",
+      "method": "Separate articulated wing meshes with fixed shoulder roots, elbow flexion and phase-lagged membrane camber; unchanged torso, no global scaling. See tools/prepare-swooper-cruise.mjs and rig.json.",
+      "reason": "Painted opposite-pose generation moved and changed the central hood/body instead of preserving the flight pivot (art/production-candidates/swooper-downstroke-r01). Static source key independently accepted; derived animation requires separate review."
+    }
+  }
+}

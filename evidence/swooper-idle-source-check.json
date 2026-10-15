@@ -1,0 +1,38 @@
+{
+  "result": "PASS",
+  "exact_approved_frame_reuse": [
+    0,
+    1,
+    2,
+    3,
+    6,
+    7
+  ],
+  "source_runtime_snapshot_identical": true,
+  "other_metadata_unchanged": true,
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.908333333333333,
+        0.908333333333333
+      ]
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.908333333333333,
+        0.908333333333333
+      ]
+    }
+  },
+  "physical_device": false
+}

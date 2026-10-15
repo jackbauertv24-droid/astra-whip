@@ -1,0 +1,160 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "duration": 0.908333333333333,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "perch_idle-right-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "perch_idle-right-f01.png",
+     "frame": 1,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "perch_idle-right-f02.png",
+     "frame": 2,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "perch_idle-right-f03.png",
+     "frame": 3,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "perch_idle-right-f04.png",
+     "frame": 4,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "perch_idle-right-f05.png",
+     "frame": 5,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0,
+     "file": "cruise-right-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ],
+   "stationary_root": true
+  },
+  {
+   "direction": -1,
+   "duration": 0.908333333333333,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "perch_idle-left-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "perch_idle-left-f01.png",
+     "frame": 1,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "perch_idle-left-f02.png",
+     "frame": 2,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "perch_idle-left-f03.png",
+     "frame": 3,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "perch_idle-left-f04.png",
+     "frame": 4,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "perch_idle-left-f05.png",
+     "frame": 5,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "perch_idle"
+    },
+    {
+     "elapsed": 0,
+     "file": "cruise-left-f00.png",
+     "frame": 0,
+     "position": [
+      1800.0,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ],
+   "stationary_root": true
+  }
+ ],
+ "viewport": "(852, 393)"
+}
