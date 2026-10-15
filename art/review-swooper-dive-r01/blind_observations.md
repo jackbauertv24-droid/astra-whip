@@ -1,0 +1,14 @@
+# Blind observations
+Inspected every lineup and strip before reading index, audit, metadata, intent, contracts or references.
+
+The lineup depicts a consistent bone-grey hooded flying wraith with tattered trailing cloth and skeletal bat wings. Cruise is broad and wings-out, telegraph folds into a steep narrow silhouette, dive begins in nearly the same fold and turns head-first right by frame 2. Identity and apparent body mass seem stable; spread silhouette naturally differs.
+
+Cruise has visible wingtip and membrane flex but comparatively restrained body/cloth action. Telegraph reads held and very subtly moving; pose changes are difficult to identify in the strip. Dive reads as a rapid forward pitching action: frame 0 upright diagonal, frame 1 shallower, frame 2 nearly horizontal and frame 3 extremely close to frame 2. The trailing tatters curve toward the left. Strong direction change from frame 1 to 2; final two frames could read as a hold. Need individual/onion inspection to distinguish articulation from rigid rotation and assess the handoff.
+
+Tile detail: lineup left shows a complete floating cloth-bodied creature, hood centered and both wings extended; no feet appear appropriate to its ghostly lower tatters. Lineup center shows the same hood and cloth body with wings folded steeply upward and tail down-left. Lineup right shows the same body pitched toward the right with folded wings and trailing tail.
+
+Cruise f000: complete winged hooded creature, wings spread high and cloth hanging down-left. No clipping or rectangular residue. f001: same body, wing tops slightly shifted and tail still down-left. No obvious missing pieces. f002: wings a little more bowed toward the body, hood and cloth retained. Complete silhouette. f003: wings narrower and somewhat raised at their tips, same hood and tatters. Body remains intact. f004: similar narrowed wings with a slight tip shift, same full body. No obvious specks. f005: wings open again, hood remains centered and tail intact. No costume change visible. f006: wings broad with left tip extended, complete trailing cloth. No clipping. f007: broad wings and complete body returning toward first pose. No obvious hard edge.
+
+Telegraph f000: hooded creature in a steep tucked wing pose, full long tail below. f001: almost identical tuck with a slight hood/wing/cloth shift; complete body. f002: same tucked silhouette and visible bony wing apex; complete tail. f003: almost the first pose with same long lower cloth; no clear missing component or clipping.
+
+Dive f000: complete tucked creature leaning up-right with tail down-left. f001: same creature angled more horizontally, hood right and tail left; full silhouette remains. f002: hood points down-right, folded wing bone sweeps over body, and tail curves left/up; no obvious missing piece. f003: almost the same horizontal pose with slight cloth changes; intact hood, wings and tail.

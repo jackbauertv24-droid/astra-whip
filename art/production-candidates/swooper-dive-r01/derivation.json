@@ -1,0 +1,47 @@
+{
+  "source": "art/production-candidates/swooper-fold-r01/key.png",
+  "static_review": "art/review-swooper-fold-key-r01/review_verdict.md",
+  "method": "Progressive dive pitch about body center, independent folded-wing strut flexion about shoulder, and wind-driven cloth deflection. No global scaling, no per-frame recentering; one mesh sample per output pixel.",
+  "records": [
+    {
+      "frame": 0,
+      "body_pitch_degrees": 20,
+      "folded_wing_articulation_degrees": 2,
+      "cloth_deflection": 0,
+      "pivot": [
+        192,
+        128
+      ]
+    },
+    {
+      "frame": 1,
+      "body_pitch_degrees": 40,
+      "folded_wing_articulation_degrees": 6,
+      "cloth_deflection": -3,
+      "pivot": [
+        192,
+        128
+      ]
+    },
+    {
+      "frame": 2,
+      "body_pitch_degrees": 80,
+      "folded_wing_articulation_degrees": 10,
+      "cloth_deflection": 3,
+      "pivot": [
+        192,
+        128
+      ]
+    },
+    {
+      "frame": 3,
+      "body_pitch_degrees": 80,
+      "folded_wing_articulation_degrees": 7,
+      "cloth_deflection": -2,
+      "pivot": [
+        192,
+        128
+      ]
+    }
+  ]
+}

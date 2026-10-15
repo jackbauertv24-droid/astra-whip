@@ -1,0 +1,126 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "before": "before-tell-right.png",
+   "bottom_altitude": 64.0,
+   "direction": 1,
+   "duration": 0.241666666666667,
+   "natural_tell_entry": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "dive-right-f00.png",
+     "frame": 0,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "dive-right-f01.png",
+     "frame": 1,
+     "position": [
+      1885.53674316406,
+      443.333343505859
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "dive-right-f02.png",
+     "frame": 2,
+     "position": [
+      1903.03674316406,
+      496.0
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.183333333333333,
+     "file": "dive-right-f03.png",
+     "frame": 3,
+     "position": [
+      1920.53674316406,
+      496.0
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-right-f00.png",
+     "frame": 0,
+     "position": [
+      1938.03674316406,
+      496.0
+     ],
+     "state": "recovery_climb"
+    }
+   ],
+   "speed": 300
+  },
+  {
+   "before": "before-tell-left.png",
+   "bottom_altitude": 64.0,
+   "direction": -1,
+   "duration": 0.241666666666667,
+   "natural_tell_entry": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "dive-left-f00.png",
+     "frame": 0,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "dive-left-f01.png",
+     "frame": 1,
+     "position": [
+      1714.46325683594,
+      443.333343505859
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "dive-left-f02.png",
+     "frame": 2,
+     "position": [
+      1696.96325683594,
+      496.0
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0.183333333333333,
+     "file": "dive-left-f03.png",
+     "frame": 3,
+     "position": [
+      1679.46325683594,
+      496.0
+     ],
+     "state": "dive"
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-left-f00.png",
+     "frame": 0,
+     "position": [
+      1661.96325683594,
+      496.0
+     ],
+     "state": "recovery_climb"
+    }
+   ],
+   "speed": 300
+  }
+ ],
+ "viewport": "(852, 393)"
+}

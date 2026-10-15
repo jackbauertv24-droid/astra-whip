@@ -363,5 +363,11 @@
     "source": "art/production-candidates/swooper-fold-r01/key.png",
     "method": "Painted folded key held from frame0 through600ms, with local membrane tightening, small hood anticipation and cloth-tip quiver. No global scaling or translation. See tools/prepare-swooper-telegraph.mjs.",
     "reason": "Declared D23 local rig acting from independently accepted painted pose; earlier generated opposite wing pose changed central body/pivot, so follow-up motion preserves accepted body paint rather than regenerating its identity."
+  },
+  "swooper_dive": {
+    "kind": "scripted_fallback",
+    "source": "art/production-candidates/swooper-fold-r01/key.png",
+    "method": "Body-center pitch20/40/80/80degrees plus independently flexed folded wing struts and streaming cloth. No scaling/recentering. See tools/prepare-swooper-dive.mjs.",
+    "reason": "D23 articulated fallback preserves accepted painted folded identity after the generated opposite wing pose changed the central body. Separate review required for active dive and outgoing handoff."
   }
 }

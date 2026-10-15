@@ -1,0 +1,35 @@
+{
+  "result": "PASS",
+  "all_four_frames_distinct": true,
+  "source_runtime_snapshot_identical": true,
+  "unrelated_metadata_unchanged": true,
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.241666666666667,
+        0.241666666666667
+      ],
+      "speed": 300,
+      "bottom_altitude": 64
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.241666666666667,
+        0.241666666666667
+      ],
+      "speed": 300,
+      "bottom_altitude": 64
+    }
+  },
+  "physical_device": false
+}
