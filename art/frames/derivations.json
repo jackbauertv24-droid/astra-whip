@@ -290,5 +290,35 @@
     ],
     "method": "Same approved painted bone parts as locomotion. Torso rears around hips up to18degrees; four independent joint chains lift forepaws and place the far hind support while the near hindpaw stays fixed. Return pose equals approved approach entry. No whole-body scaling or translation. Alpha<=4 cleanup only.",
     "reason": "Two generated intermediate entries exceeded G-03 normalization limits, with raw images and failures retained. D23 articulated fallback from independently approved static source; full new action/phone review required and quality debt disclosed."
+  },
+  "pursuer_lunge_windup": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-lunge.mjs",
+      "art/production-candidates/pursuer-lunge-r02/pursuer_lunge_windup/rig.json"
+    ],
+    "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+    "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+  },
+  "pursuer_lunge": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-lunge.mjs",
+      "art/production-candidates/pursuer-lunge-r02/pursuer_lunge/rig.json"
+    ],
+    "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+    "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+  },
+  "pursuer_recovery": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-lunge.mjs",
+      "art/production-candidates/pursuer-lunge-r02/pursuer_recovery/rig.json"
+    ],
+    "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+    "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
   }
 }

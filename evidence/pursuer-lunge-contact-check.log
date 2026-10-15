@@ -1,0 +1,5 @@
+PASS lunge support registration: far support unloads, near catch cancels final260u/s interval and remains fixed through recovery
+PASS evidence/pursuer-lunge-engine-r02/capture.json facing1: early support drift0.8663u, terminal drift1.3004u; bound2.1767u
+PASS evidence/pursuer-lunge-engine-r02/capture.json facing-1: early support drift0.8663u, terminal drift1.2998u; bound2.1767u
+PASS evidence/pursuer-lunge-phone-r02/capture.json facing1: early support drift0.8663u, terminal drift1.3004u; bound2.1767u
+PASS evidence/pursuer-lunge-phone-r02/capture.json facing-1: early support drift0.8663u, terminal drift1.2998u; bound2.1767u

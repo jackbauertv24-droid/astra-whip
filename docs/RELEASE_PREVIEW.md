@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle breathing, patrol/approach locomotion and a rear-up alert; its remaining actions use a static painted pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle, patrol/approach, rear-up alert and windup/lunge/recovery; hurt and death remain static preview poses. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -51,3 +51,7 @@ Six breathing frames passed fresh independent review r02, with fixed paws and a 
 ## Follow-up fix 8c: pursuer alert
 
 Four articulated rear-up frames passed fresh independent review r01, including the three expected height-change flags and visible phone-sized silhouette cue. Actual detection and300ms approach handoff, mirrored pivots, gameplay, contract, art tools and isolated browser smoke passed. The D23 scripted fallback retains its quality-debt disclosure; failed generation/normalization evidence is preserved. Five pursuer actions remain. See `evidence/pursuer-alert-fix.md`.
+
+## Follow-up fix 8d: pursuer lunge sequence
+
+Windup, execution and recovery passed fresh independent r02 review after a terminal support-foot slide was corrected in lunge F2 alone. Actual AI captures verify350/240/600ms phases,260u/s movement, terminal catch registration, stationary recovery and the approach handoff in both directions. The new contact checker fails on the retained earlier candidate and passes the corrected target paths and native/phone capture records. Gameplay, contract, art tools and browser regression passed. The scripted fallback quality-debt disclosure remains. Hurt and death are still pending. See `evidence/pursuer-lunge-fix.md`.

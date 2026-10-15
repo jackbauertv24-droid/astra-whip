@@ -1,0 +1,225 @@
+{
+ "records": [
+  {
+   "direction": 1,
+   "lunge_speed": 260,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "lunge_windup-right-f00.png",
+     "frame": 0,
+     "state": "lunge_windup",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "lunge_windup-right-f01.png",
+     "frame": 1,
+     "state": "lunge_windup",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.208333333333333,
+     "file": "lunge_windup-right-f02.png",
+     "frame": 2,
+     "state": "lunge_windup",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.275,
+     "file": "lunge_windup-right-f03.png",
+     "frame": 3,
+     "state": "lunge_windup",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0,
+     "file": "lunge-right-f00.png",
+     "frame": 0,
+     "state": "lunge",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "lunge-right-f01.png",
+     "frame": 1,
+     "state": "lunge",
+     "x": 1072.49963378906
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "lunge-right-f02.png",
+     "frame": 2,
+     "state": "lunge",
+     "x": 1094.16589355469
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery-right-f00.png",
+     "frame": 0,
+     "state": "recovery",
+     "x": 1113.66552734375
+    },
+    {
+     "elapsed": 0.15,
+     "file": "recovery-right-f01.png",
+     "frame": 1,
+     "state": "recovery",
+     "x": 1113.66552734375
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recovery-right-f02.png",
+     "frame": 2,
+     "state": "recovery",
+     "x": 1113.66552734375
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "recovery-right-f03.png",
+     "frame": 3,
+     "state": "recovery",
+     "x": 1113.66552734375
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-right-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 1113.66552734375
+    }
+   ],
+   "transitions": [
+    {
+     "distance": 0.0,
+     "duration": 0.35,
+     "from": "lunge_windup",
+     "to": "lunge"
+    },
+    {
+     "distance": 62.8321533203125,
+     "duration": 0.241666666666667,
+     "from": "lunge",
+     "to": "recovery"
+    },
+    {
+     "distance": 0.0,
+     "duration": 0.599999999999998,
+     "from": "recovery",
+     "to": "approach_walk"
+    }
+   ]
+  },
+  {
+   "direction": -1,
+   "lunge_speed": 260,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "lunge_windup-left-f00.png",
+     "frame": 0,
+     "state": "lunge_windup",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "lunge_windup-left-f01.png",
+     "frame": 1,
+     "state": "lunge_windup",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.208333333333333,
+     "file": "lunge_windup-left-f02.png",
+     "frame": 2,
+     "state": "lunge_windup",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.275,
+     "file": "lunge_windup-left-f03.png",
+     "frame": 3,
+     "state": "lunge_windup",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0,
+     "file": "lunge-left-f00.png",
+     "frame": 0,
+     "state": "lunge",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "lunge-left-f01.png",
+     "frame": 1,
+     "state": "lunge",
+     "x": 1027.50036621094
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "lunge-left-f02.png",
+     "frame": 2,
+     "state": "lunge",
+     "x": 1005.83355712891
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery-left-f00.png",
+     "frame": 0,
+     "state": "recovery",
+     "x": 986.333374023438
+    },
+    {
+     "elapsed": 0.15,
+     "file": "recovery-left-f01.png",
+     "frame": 1,
+     "state": "recovery",
+     "x": 986.333374023438
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recovery-left-f02.png",
+     "frame": 2,
+     "state": "recovery",
+     "x": 986.333374023438
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "recovery-left-f03.png",
+     "frame": 3,
+     "state": "recovery",
+     "x": 986.333374023438
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-left-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 986.333374023438
+    }
+   ],
+   "transitions": [
+    {
+     "distance": 0.0,
+     "duration": 0.35,
+     "from": "lunge_windup",
+     "to": "lunge"
+    },
+    {
+     "distance": 62.833251953125,
+     "duration": 0.241666666666667,
+     "from": "lunge",
+     "to": "recovery"
+    },
+    {
+     "distance": 0.0,
+     "duration": 0.599999999999998,
+     "from": "recovery",
+     "to": "approach_walk"
+    }
+   ]
+  }
+ ],
+ "viewport": "(852, 393)"
+}

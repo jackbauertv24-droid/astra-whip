@@ -28,3 +28,9 @@ Frames are the delivered, normalised frames before atlas packing: RGBA PNG at th
 - The automated rules are tripwires. They measure silhouettes, not drawings: they cannot tell a face changed, a costume drifted, or a pose reads wrong. That is the reviewer's job (ART_CONTRACT §9), and a PASS from the audit alone never approves art.
 - The anatomy proxies (head width, lower-body ratios) are heuristics calibrated on one real art set. The self-test shows one way to fool the lower-body proxy (hands hanging below a cut-off torso); the head rule catches that case. New defect classes found in production get a self-test case first.
 - Thresholds live in `contract/art_contract.json`, not in code. Change them there, with a reason in `docs/DECISIONS.md`.
+
+### Pursuer lunge support registration
+
+`node tools/check-pursuer-lunge.mjs` checks the declared articulated support paths against the canonical80ms frames and260u/s physical travel, including the final catch into stationary recovery. The earlier candidate is a retained negative fixture: passing `art/production-candidates/pursuer-lunge-r01` must fail because the old planted support was not released. Source/runtime/review PNG identity and actual-AI captures supplement this target-space check; independent visual acceptance remains required.
+
+Optionally append actual capture.json paths after the candidate root. The checker compares mirrored world-space supports through the early lunge and terminal recovery interval, allowing only one120Hz simulation step of sampling error and requiring stationary recovery contacts.

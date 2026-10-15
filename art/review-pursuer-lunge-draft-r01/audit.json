@@ -1,0 +1,363 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-pursuer-lunge-draft-r01/frames",
+ "defects": 0,
+ "flags": 2,
+ "clips_audited": 4,
+ "references": {
+  "pursuer": {
+   "size": 102.21301143625337,
+   "height": 112,
+   "head": 75
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-09",
+   "severity": "FLAG",
+   "clip": "pursuer_lunge",
+   "frame": 2,
+   "msg": "ink 3 px below the pivot line (cloth pooling?)"
+  },
+  {
+   "rule": "A-09",
+   "severity": "FLAG",
+   "clip": "pursuer_recovery",
+   "frame": 0,
+   "msg": "ink 5 px below the pivot line (cloth pooling?)"
+  }
+ ],
+ "metrics": {
+  "pursuer_patrol_walk": [
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 190,
+    "area": 10451,
+    "size": 102.23,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 75,
+    "bootRatio": 0.268,
+    "legDip": 0.276
+   },
+   {
+    "bbox": [
+     84,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 194,
+    "area": 10802,
+    "size": 103.933,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 73,
+    "bootRatio": 0.214,
+    "legDip": 0.252
+   },
+   {
+    "bbox": [
+     74,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 204,
+    "area": 10839,
+    "size": 104.111,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 75,
+    "bootRatio": 0.338,
+    "legDip": 0.237
+   },
+   {
+    "bbox": [
+     80,
+     112,
+     277,
+     224
+    ],
+    "height": 113,
+    "width": 198,
+    "area": 10486,
+    "size": 102.401,
+    "top": 112,
+    "foot": 224,
+    "headWidth": 83,
+    "bootRatio": 0.198,
+    "legDip": 0.223
+   },
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 190,
+    "area": 10305,
+    "size": 101.514,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 75,
+    "bootRatio": 0.249,
+    "legDip": 0.276
+   },
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 190,
+    "area": 10119,
+    "size": 100.593,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 73,
+    "bootRatio": 0.17,
+    "legDip": 0.178
+   },
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     225
+    ],
+    "height": 113,
+    "width": 190,
+    "area": 9692,
+    "size": 98.448,
+    "top": 113,
+    "foot": 225,
+    "headWidth": 86,
+    "bootRatio": 0.194,
+    "legDip": 0.218
+   },
+   {
+    "bbox": [
+     88,
+     112,
+     277,
+     224
+    ],
+    "height": 113,
+    "width": 190,
+    "area": 10444,
+    "size": 102.196,
+    "top": 112,
+    "foot": 224,
+    "headWidth": 83,
+    "bootRatio": 0.189,
+    "legDip": 0.184
+   }
+  ],
+  "pursuer_lunge_windup": [
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 190,
+    "area": 10451,
+    "size": 102.23,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 75,
+    "bootRatio": 0.268,
+    "legDip": 0.276
+   },
+   {
+    "bbox": [
+     87,
+     122,
+     279,
+     224
+    ],
+    "height": 103,
+    "width": 193,
+    "area": 10693,
+    "size": 103.407,
+    "top": 122,
+    "foot": 224,
+    "headWidth": 99,
+    "bootRatio": 0.204,
+    "legDip": 0.302
+   },
+   {
+    "bbox": [
+     86,
+     133,
+     281,
+     224
+    ],
+    "height": 92,
+    "width": 196,
+    "area": 10512,
+    "size": 102.528,
+    "top": 133,
+    "foot": 224,
+    "headWidth": 137,
+    "bootRatio": 0.275,
+    "legDip": 0.279
+   },
+   {
+    "bbox": [
+     85,
+     139,
+     283,
+     224
+    ],
+    "height": 86,
+    "width": 199,
+    "area": 10729,
+    "size": 103.581,
+    "top": 139,
+    "foot": 224,
+    "headWidth": 133,
+    "bootRatio": 0.278,
+    "legDip": 0.339
+   }
+  ],
+  "pursuer_lunge": [
+   {
+    "bbox": [
+     86,
+     129,
+     281,
+     224
+    ],
+    "height": 96,
+    "width": 196,
+    "area": 10857,
+    "size": 104.197,
+    "top": 129,
+    "foot": 224,
+    "headWidth": 124,
+    "bootRatio": 0.278,
+    "legDip": 0.205
+   },
+   {
+    "bbox": [
+     86,
+     123,
+     280,
+     224
+    ],
+    "height": 102,
+    "width": 195,
+    "area": 10403,
+    "size": 101.995,
+    "top": 123,
+    "foot": 224,
+    "headWidth": 109,
+    "bootRatio": 0.047,
+    "legDip": 0.082
+   },
+   {
+    "bbox": [
+     86,
+     132,
+     281,
+     227
+    ],
+    "height": 96,
+    "width": 196,
+    "area": 10259,
+    "size": 101.287,
+    "top": 132,
+    "foot": 227,
+    "headWidth": 146,
+    "bootRatio": 0.107,
+    "legDip": 0.205
+   }
+  ],
+  "pursuer_recovery": [
+   {
+    "bbox": [
+     86,
+     132,
+     281,
+     229
+    ],
+    "height": 98,
+    "width": 196,
+    "area": 10338,
+    "size": 101.676,
+    "top": 132,
+    "foot": 229,
+    "headWidth": 146,
+    "bootRatio": 0.116,
+    "legDip": 0.267
+   },
+   {
+    "bbox": [
+     86,
+     126,
+     280,
+     224
+    ],
+    "height": 99,
+    "width": 195,
+    "area": 10775,
+    "size": 103.803,
+    "top": 126,
+    "foot": 224,
+    "headWidth": 112,
+    "bootRatio": 0.069,
+    "legDip": 0.121
+   },
+   {
+    "bbox": [
+     87,
+     119,
+     279,
+     224
+    ],
+    "height": 106,
+    "width": 193,
+    "area": 10607,
+    "size": 102.99,
+    "top": 119,
+    "foot": 224,
+    "headWidth": 102,
+    "bootRatio": 0.239,
+    "legDip": 0.287
+   },
+   {
+    "bbox": [
+     88,
+     113,
+     277,
+     224
+    ],
+    "height": 112,
+    "width": 190,
+    "area": 10451,
+    "size": 102.23,
+    "top": 113,
+    "foot": 224,
+    "headWidth": 75,
+    "bootRatio": 0.268,
+    "legDip": 0.276
+   }
+  ]
+ }
+}

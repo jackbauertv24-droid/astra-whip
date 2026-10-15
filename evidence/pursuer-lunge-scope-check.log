@@ -1,0 +1,2 @@
+PASS unrelated metadata unchanged; all11 source/runtime/review frames byte-identical; only lunge F2 changed after r01 review.
+PASS windup entry and recovery finish equal approved approach entry; maximum bone length discrepancy 2.842170943040401e-14px.
