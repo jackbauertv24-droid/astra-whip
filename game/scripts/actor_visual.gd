@@ -11,9 +11,13 @@ var hand_sockets: Array = []
 var weapon_sets: Dictionary = {}
 var socket_sets: Dictionary = {}
 var approach_cadence = 1.0
+var pivot_offset = Vector2.ZERO
 func configure(kind: String) -> void:
  actor = kind
- specs = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))["clips"]
+ var contract_data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
+ specs = contract_data.clips
+ var actor_spec: Dictionary = contract_data.actors[actor]
+ pivot_offset = Vector2(float(actor_spec.canvas[0])*0.5-float(actor_spec.pivot[0]),float(actor_spec.canvas[1])*0.5-float(actor_spec.pivot[1]))
  if actor == "pursuer":
   var patrol_ms = 0.0
   var approach_ms = 0.0
@@ -51,7 +55,7 @@ func configure(kind: String) -> void:
    sprite_frames.add_frame(id, texture if texture else placeholder, maxf(1, float(ms)))
  visible = actor in ["hero", "pursuer"]
  scale = Vector2(0.5, 0.5)
- offset = Vector2(0, -192) if actor == "hero" else Vector2(32, -96)
+ offset = pivot_offset
  if actor == "hero":
   weapon = Sprite2D.new()
   weapon.centered = false
@@ -82,7 +86,7 @@ func follow(state: String, elapsed: float) -> void:
  if animation != id: animation = id
  pause()
  if get_parent().get("facing") != null: flip_h = get_parent().facing < 0
- if actor == "pursuer": offset.x = -32 if flip_h else 32
+ offset.x = -pivot_offset.x if flip_h else pivot_offset.x
  var ms = elapsed * 1000.0 * playback_rate(state)
  var durations: Array = specs[id].ms
  var total = 0.0

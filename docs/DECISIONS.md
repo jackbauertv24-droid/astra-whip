@@ -117,3 +117,7 @@ No user questions remain open. D09 was the last one — resolved 2026-10-08 ("no
 The user instructed: "resume, but just round up the work and push it to repo. relax constrain as the priority now is to get a product out."
 
 Decision: publish the current working slice as a public preview named `astra-whip`, integrating available art and retaining the incomplete production-art reviews as disclosed debt. This explicitly supersedes the strict gate ordering for this preview release. Gameplay constants and collision/timing requirements remain intact. Do not represent incomplete art approval or unperformed physical device/user studies as passed. See `RELEASE_PREVIEW.md` for the actual scope and evidence.
+
+## Actor pivot repair — 2026-10-15
+
+Read each actor's canvas and pivot from the existing runtime art contract and mirror the horizontal offset with facing. This repairs sprite registration before adding remaining enemy art; gameplay origins, collision and timing remain authoritative. Validate all five actors in both facings with a full-canvas registration pixel and prove failure against the previous renderer. See `../evidence/actor-pivot-fix.md`.

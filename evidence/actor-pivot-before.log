@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL registered pivot swooper mirrored=false delta=(16.0, -48.0)
+FAIL registered pivot swooper mirrored=true delta=(16.0, -48.0)
+FAIL registered pivot ranged mirrored=false delta=(16.0, 24.0)
+FAIL registered pivot ranged mirrored=true delta=(16.0, 24.0)
+FAIL registered pivot boss mirrored=false delta=(-24.0, 64.0)
+FAIL registered pivot boss mirrored=true delta=(56.0, 64.0)
+ACTOR PIVOT: 6 failures

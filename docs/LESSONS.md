@@ -52,3 +52,7 @@ The local normalization helper initially inferred horizontal origin from the bot
 ### Supported recovery needs a continuous support-foot path
 
 Reversing a fall can preserve identity and numeric size while leaving the body unsupported during recovery. A seated hold, kneel and standing pose are individually plausible but do not automatically form a continuous get-up. Track the forward boot in canvas coordinates through leg draw-in, palm release and rising: finish repositioning before that foot carries weight. Neighbour references must preserve this path. The independent get-up reviews r01–r03 rejected unsupported transfer and one-boot-length sliding despite zero numeric defects; r04 accepted the corrected six-pose recovery.
+
+### Sprite registration must use each actor's contract pivot
+
+The renderer reused the pursuer offset for every non-hero actor. Full-canvas sprite registration then misplaced the swooper by (16,-48) world units, ranged enemy by (16,24), and boss differently in each facing. Ink-size audits cannot detect a runtime transform error. `game/tests/actor_pivot.gd` places a registration pixel at each contract pivot on a full-size texture and transforms it through the actual sprite for both facings. The archived previous renderer fails six cases; the corrected renderer passes all ten. Hero and pursuer offsets remain identical.
