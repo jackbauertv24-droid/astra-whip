@@ -5,3 +5,5 @@ The previous renderer assigned the pursuer's (32,-96) source-pixel offset to all
 `actor-pivot-before.log` records six actual failing registration checks against the previous renderer. `actor-pivot-targeted.log` records zero failures across five actors and both facings. The check uses a full-size texture with a marked source pivot and the actual sprite's world transform. `actor-pivot-gameplay.log` records 1,213 passing gameplay assertions. No actor PNGs, gameplay constants or contract values changed. Hero and pursuer retain their prior registration; remaining enemy textures are still pending production art.
 
 Web export: `actor-pivot-export.log`; exact exported pack hash: `actor-pivot-build.sha256`. Physical iPhone validation is not performed.
+
+The scoped Chromium156 browser probe booted the exported build, started gameplay, ran AI and paused with no page/console errors (`actor-pivot-browser-smoke.json`, screenshot alongside). Pages publishes committed `build/web` directly; the export artifact is included in its publication commit.
