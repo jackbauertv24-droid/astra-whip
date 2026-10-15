@@ -1,0 +1,64 @@
+{
+  "pursuer_patrol_walk": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/review-pursuer-keys-r01/f000.png",
+        "tools/prepare-pursuer-gait.mjs",
+        "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+      ],
+      "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+      "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+    }
+  },
+  "pursuer_approach_walk": {
+    "ms": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "reused",
+      "source": [
+        "art/frames/pursuer_patrol_walk"
+      ],
+      "method": "Reuse the articulated patrol gait. Source timings stay70ms; runtime cadence35/27 gives the same43.2u stride.",
+      "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+    }
+  },
+  "pursuer_hurt": {
+    "ms": [
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/review-pursuer-keys-r01/f000.png",
+        "tools/prepare-pursuer-hurt.mjs",
+        "art/production-candidates/pursuer-hurt-r02/pursuer_hurt/rig.json"
+      ],
+      "method": "Asymmetric articulated recoil: head/torso retract, one forearm folds toward the chest, opposite forepaw and near hindpaw stay registered. Recover to approved approach entry. Original bone lengths and painted identity retained, no whole-body scale. Alpha<=4 cleanup only.",
+      "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+    }
+  }
+}

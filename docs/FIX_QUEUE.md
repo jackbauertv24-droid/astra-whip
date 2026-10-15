@@ -11,7 +11,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 5 | Ground attack and separate whip geometry/socket/reach | DONE; independent r02 PASS; eight synchronized frames, mirrored sockets, gathering recovery loops and strict thickness checks |
 | 6 | Crouch attack articulation | DONE; independent r01 PASS; articulated same-arm low attack, synchronized whip and unchanged crouch collision |
 | 7 | Air attack articulation | DONE; independent r01 PASS; airborne body/whip sequence, mirrored sockets and active landing handoffs verified |
-| 8 | Pursuer supported action clips | PARTIAL: patrol/approach, idle, alert and lunge sequence DONE (fresh reviews PASS); hurt and death remain |
+| 8 | Pursuer supported action clips | PARTIAL: patrol/approach, idle, alert, lunge sequence and conditional hurt DONE (fresh reviews PASS); death remains |
 | 9 | Swooper supported action clips | Engine silhouette in preview |
 | 10 | Ranged enemy supported action clips | Engine silhouette in preview |
 | 11 | Boss supported action clips | Engine silhouette in preview |

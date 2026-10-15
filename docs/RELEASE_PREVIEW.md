@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle, patrol/approach, rear-up alert and windup/lunge/recovery; hurt and death remain static preview poses. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle, patrol/approach, alert, lunge sequence and conditional hurt; death remains a static preview pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -55,3 +55,7 @@ Four articulated rear-up frames passed fresh independent review r01, including t
 ## Follow-up fix 8d: pursuer lunge sequence
 
 Windup, execution and recovery passed fresh independent r02 review after a terminal support-foot slide was corrected in lunge F2 alone. Actual AI captures verify350/240/600ms phases,260u/s movement, terminal catch registration, stationary recovery and the approach handoff in both directions. The new contact checker fails on the retained earlier candidate and passes the corrected target paths and native/phone capture records. Gameplay, contract, art tools and browser regression passed. The scripted fallback quality-debt disclosure remains. Hurt and death are still pending. See `evidence/pursuer-lunge-fix.md`.
+
+## Follow-up fix 8e: pursuer hurt
+
+Three articulated recoil frames passed fresh independent r02 review with stationary supports and an exact approach return. A two-HP test-only instance exercises the actual nonlethal hit handler and windup interruption; normal production one-HP hits are separately verified to enter death. Production durability and damage are unchanged. Native/phone captures, gameplay, contract, art tools and browser regression passed. Scripted fallback quality debt remains disclosed; death is still pending. See `evidence/pursuer-hurt-fix.md`.

@@ -1,0 +1,81 @@
+{
+ "records": [
+  {
+   "direction": 1,
+   "hurt_duration": 0.18,
+   "measured_duration": 0.183333333333333,
+   "normal_lethal_state": "death",
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "hurt-right-f00.png",
+     "frame": 0,
+     "state": "hurt",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-right-f01.png",
+     "frame": 1,
+     "state": "hurt",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-right-f02.png",
+     "frame": 2,
+     "state": "hurt",
+     "x": 1050.83337402344
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-right-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 1050.83337402344
+    }
+   ],
+   "stationary_root": true,
+   "test_only_initial_hp": 2
+  },
+  {
+   "direction": -1,
+   "hurt_duration": 0.18,
+   "measured_duration": 0.183333333333333,
+   "normal_lethal_state": "death",
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "hurt-left-f00.png",
+     "frame": 0,
+     "state": "hurt",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-left-f01.png",
+     "frame": 1,
+     "state": "hurt",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-left-f02.png",
+     "frame": 2,
+     "state": "hurt",
+     "x": 1049.16662597656
+    },
+    {
+     "elapsed": 0,
+     "file": "approach_walk-left-f00.png",
+     "frame": 0,
+     "state": "approach_walk",
+     "x": 1049.16662597656
+    }
+   ],
+   "stationary_root": true,
+   "test_only_initial_hp": 2
+  }
+ ],
+ "viewport": "(852, 393)"
+}
