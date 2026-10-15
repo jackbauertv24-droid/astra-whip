@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated patrol/approach locomotion; its remaining actions use a static painted pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle breathing and patrol/approach locomotion; its remaining actions use a static painted pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -43,3 +43,7 @@ The airborne attack body and separate whip passed fresh independent review r01 w
 ## Follow-up fix 8a: pursuer locomotion
 
 The eight-frame patrol and approach gaits passed fresh independent review r02. Actual AI desktop/phone captures verify support-foot registration, both facings, unchanged movement speeds and matching43.2-unit strides. Mirroring now preserves the asymmetric ground pivot. This is a disclosed D23 scripted animation fallback from an independently accepted painted source key; retain it as quality debt. Seven pursuer actions remain pending. See `evidence/pursuer-walk-fix.md`.
+
+## Follow-up fix 8b: pursuer idle
+
+Six breathing frames passed fresh independent review r02, with fixed paws and a continuous900ms loop and natural patrol handoff. Native/phone captures, gameplay, contract, art tools and browser smoke passed. The declared scripted fallback retains the approved painted anatomy after a generated cycle failed endpoint continuity. Six pursuer actions remain pending. See `evidence/pursuer-idle-fix.md`.

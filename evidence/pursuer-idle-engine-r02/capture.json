@@ -1,0 +1,117 @@
+{
+ "records": [
+  {
+   "direction": 1,
+   "idle_duration": 0.9,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "idle-right-f00.png",
+     "frame": 0,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.15,
+     "file": "idle-right-f01.png",
+     "frame": 1,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.3,
+     "file": "idle-right-f02.png",
+     "frame": 2,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "idle-right-f03.png",
+     "frame": 3,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.6,
+     "file": "idle-right-f04.png",
+     "frame": 4,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "idle-right-f05.png",
+     "frame": 5,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0,
+     "file": "patrol_walk-right-f00.png",
+     "frame": 0,
+     "state": "patrol_walk",
+     "x": 1050.0
+    }
+   ],
+   "stationary_root": true
+  },
+  {
+   "direction": -1,
+   "idle_duration": 0.9,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "idle-left-f00.png",
+     "frame": 0,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.15,
+     "file": "idle-left-f01.png",
+     "frame": 1,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.3,
+     "file": "idle-left-f02.png",
+     "frame": 2,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "idle-left-f03.png",
+     "frame": 3,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.6,
+     "file": "idle-left-f04.png",
+     "frame": 4,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "idle-left-f05.png",
+     "frame": 5,
+     "state": "idle",
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0,
+     "file": "patrol_walk-left-f00.png",
+     "frame": 0,
+     "state": "patrol_walk",
+     "x": 1050.0
+    }
+   ],
+   "stationary_root": true
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

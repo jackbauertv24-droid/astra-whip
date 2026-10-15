@@ -1,0 +1,20 @@
+{
+ "defects": 0,
+ "flags": 2,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_idle",
+   "frame": 1,
+   "msg": "jump from frame 0: size 7.0%, height 1.8%"
+  },
+  {
+   "rule": "A-13",
+   "severity": "FLAG",
+   "clip": "pursuer_idle",
+   "frame": 0,
+   "msg": "loop seam from the last frame: size 8.0%, height 3.4%"
+  }
+ ]
+}

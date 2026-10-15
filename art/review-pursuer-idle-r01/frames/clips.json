@@ -1,0 +1,49 @@
+{
+  "pursuer_patrol_walk": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/review-pursuer-keys-r01/f000.png",
+        "tools/prepare-pursuer-gait.mjs",
+        "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+      ],
+      "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+      "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+    }
+  },
+  "pursuer_idle": {
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "reused",
+      "source": [
+        "art/frames/pursuer_patrol_walk/f000.png",
+        "art/production-candidates/pursuer-idle-f001-key-r02.png",
+        "art/production-candidates/pursuer-idle-f002-key-r02.png",
+        "art/production-candidates/pursuer-idle-f003-key-r02.png",
+        "art/production-candidates/pursuer-idle-f004-key-r02.png",
+        "art/production-candidates/pursuer-idle-f005-key-r02.png"
+      ],
+      "method": "Approved patrol start reused for neutral idle. Five directly painted breathing poses preserve planted paw positions and illustrate chest, neck and cloth settling. Canvas export conversion and one baseline registration per generated delivery; no whole-body scale animation. Alpha<=4 cleanup only.",
+      "reason": "Replace the held rear-up preview with a living stationary low idle and a compatible patrol handoff."
+    }
+  }
+}

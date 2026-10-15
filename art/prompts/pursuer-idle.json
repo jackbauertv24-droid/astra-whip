@@ -1,0 +1,71 @@
+[
+  {
+    "phase": "peak-r01",
+    "prompt": "Use case: identity-preserve. Asset type: one transparent illustrated 2D game sprite, pursuer idle inhalation peak, not a sheet. Image1 is the exact edit target and identity/low-pose reference; image2 is layout guide only. Preserve the complete four-limbed monster, all four limb identities, face, long skull, hanging facial hide, olive layered back, painted pallid skin, claws and framing. Change only breathing articulation: chest/shoulders rise slightly about3source pixels, neck hinge tilts the skull upward2px, abdomen expands subtly and hanging hide settles a few pixels. Keep every paw's existing position unchanged (including raised far paws); do not walk or translate or rescale the whole figure. Complete connected limbs and full head to feet, face right. Source-space canvas320x256; top around110, lowest grounded claw224, root128224. Return same5:4composition on genuine transparent background. Guide colors/lines must not appear in output. No ground, shadow, scenery, particles, detached marks, blood, red paint or text. Matte painterly non-pixel style and color palette exactly as target.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-idle-peak-r01.png",
+    "status": "Retained candidate; used earlier static key rather than current approved patrol entry, so replaced before clip assembly to keep handoff coordinates compatible."
+  },
+  {
+    "phase": "f003-r02",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent full-body game sprite, breathing peak of a six-frame stationary idle. Image1 is the exact edit target; preserve its canvas, composition, all four paw coordinates, raised versus planted paw heights, limb bends, face, skull, ragged olive back layers, long pale forelimbs and painted material. Only change the chest and neck breathing: ribcage/shoulder lifts about2source pixels and expands subtly, neck joints raise the skull1pixel, beard and back rag edges settle1pixel. Do not change the legs or paws. Do not translate or rescale the complete body. Face right, full body within320x256source canvas, baseline224, shoulder/top near112, root128224. Maintain true transparent background. No ground, shadow, scenery, particles, red or colored guide marks, rectangles, text, blood or gore. Preserve exact creature identity and non-pixel matte illustration quality. This image must return to the original pose smoothly within900ms.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png"
+    ],
+    "raw": "art/production-candidates/pursuer-idle-f003-r02.png",
+    "status": "Rejected painted cycle: independent r01 failed endpoint body/cloth continuity. These requests also omitted the G-01 guide reference; none of their pixels is used in the replacement scripted clip."
+  },
+  {
+    "frame": 1,
+    "prompt": "Use case: identity-preserve. ONE transparent full-body painted game sprite, stationary monster idle frame1 of6. Image1 is the exact neutral edit target and mandatory limb/paw registration. Image2 is inhalation-peak bracket pose. Create early inhale,25% of the small chest/neck rise between image1 and image2; beard slightly lags the rising chest. This is an in-between, not another full inhale pose. Preserve all four paws and leg bones from image1 at exact existing coordinates (within1source pixel), preserve identity, skull size, long pale forelimbs, olive back plates and complete connected anatomy. Change only small ribcage/shoulder/neck articulation and beard/rag settling; no whole-body translation, rotation, resizing, walking or new pose. Same320x256source layout, right-facing, baseline224 and origin128224. Truly transparent background; no floor, shadow, scene, particles, colored marks, text or gore. Matte painterly non-pixel texture consistent with both images. The loop lasts900ms; movements are subtle but intentional.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/production-candidates/pursuer-idle-f003-delivery-r02.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-6489bc2c-bf8d-43ed-aa8f-d8bc6a414246.png",
+    "raw": "art/production-candidates/pursuer-idle-f001-r02.png",
+    "status": "Rejected painted cycle: independent r01 failed endpoint body/cloth continuity. These requests also omitted the G-01 guide reference; none of their pixels is used in the replacement scripted clip."
+  },
+  {
+    "frame": 2,
+    "prompt": "Use case: identity-preserve. ONE transparent full-body painted game sprite, stationary monster idle frame2 of6. Image1 is the exact neutral edit target and mandatory limb/paw registration. Image2 is inhalation-peak bracket pose. Create late inhale,75% of the small chest/neck rise between image1 and image2; rag tips settle downward while shoulder opens. This is an in-between, not another full inhale pose. Preserve all four paws and leg bones from image1 at exact existing coordinates (within1source pixel), preserve identity, skull size, long pale forelimbs, olive back plates and complete connected anatomy. Change only small ribcage/shoulder/neck articulation and beard/rag settling; no whole-body translation, rotation, resizing, walking or new pose. Same320x256source layout, right-facing, baseline224 and origin128224. Truly transparent background; no floor, shadow, scene, particles, colored marks, text or gore. Matte painterly non-pixel texture consistent with both images. The loop lasts900ms; movements are subtle but intentional.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/production-candidates/pursuer-idle-f003-delivery-r02.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-1efb0298-cd7e-4952-9636-a4882d662547.png",
+    "raw": "art/production-candidates/pursuer-idle-f002-r02.png",
+    "status": "Rejected painted cycle: independent r01 failed endpoint body/cloth continuity. These requests also omitted the G-01 guide reference; none of their pixels is used in the replacement scripted clip."
+  },
+  {
+    "frame": 4,
+    "prompt": "Use case: identity-preserve. ONE transparent full-body painted game sprite, stationary monster idle frame4 of6. Image1 is the exact neutral edit target and mandatory limb/paw registration. Image2 is inhalation-peak bracket pose. Create early exhale,75% of the chest/neck rise, returning from image2 toward image1; beard falls1source pixel. This is an in-between, not another full inhale pose. Preserve all four paws and leg bones from image1 at exact existing coordinates (within1source pixel), preserve identity, skull size, long pale forelimbs, olive back plates and complete connected anatomy. Change only small ribcage/shoulder/neck articulation and beard/rag settling; no whole-body translation, rotation, resizing, walking or new pose. Same320x256source layout, right-facing, baseline224 and origin128224. Truly transparent background; no floor, shadow, scene, particles, colored marks, text or gore. Matte painterly non-pixel texture consistent with both images. The loop lasts900ms; movements are subtle but intentional.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/production-candidates/pursuer-idle-f003-delivery-r02.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-0b53e206-26ab-49a3-8da3-2a3667f8436b.png",
+    "raw": "art/production-candidates/pursuer-idle-f004-r02.png",
+    "status": "Rejected painted cycle: independent r01 failed endpoint body/cloth continuity. These requests also omitted the G-01 guide reference; none of their pixels is used in the replacement scripted clip."
+  },
+  {
+    "frame": 5,
+    "prompt": "Use case: identity-preserve. ONE transparent full-body painted game sprite, stationary monster idle frame5 of6. Image1 is the exact neutral edit target and mandatory limb/paw registration. Image2 is inhalation-peak bracket pose. Create late exhale,25% of the chest/neck rise, returning nearly to image1; rag tips finish settling. This is an in-between, not another full inhale pose. Preserve all four paws and leg bones from image1 at exact existing coordinates (within1source pixel), preserve identity, skull size, long pale forelimbs, olive back plates and complete connected anatomy. Change only small ribcage/shoulder/neck articulation and beard/rag settling; no whole-body translation, rotation, resizing, walking or new pose. Same320x256source layout, right-facing, baseline224 and origin128224. Truly transparent background; no floor, shadow, scene, particles, colored marks, text or gore. Matte painterly non-pixel texture consistent with both images. The loop lasts900ms; movements are subtle but intentional.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/production-candidates/pursuer-idle-f003-delivery-r02.png"
+    ],
+    "generated": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-6e1cb3b4-0c1d-4de1-87ce-8fddc344fbe0.png",
+    "raw": "art/production-candidates/pursuer-idle-f005-r02.png",
+    "status": "Rejected painted cycle: independent r01 failed endpoint body/cloth continuity. These requests also omitted the G-01 guide reference; none of their pixels is used in the replacement scripted clip."
+  }
+]

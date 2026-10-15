@@ -1,0 +1,50 @@
+{
+  "source": "art/frames/pursuer_patrol_walk/f000.png",
+  "source_acceptance": "art/review-pursuer-walk-r02/review_verdict.md",
+  "failed_painted_clip": "art/review-pursuer-idle-r01/review_verdict.md",
+  "method": "Local chest/neck breathing with three-pixel maximum head lift and subpixel cloth follow-through. Legs, paws and ground pivot remain fixed; no whole-body scale, rotation or translation.",
+  "records": [
+    {
+      "frame": 0,
+      "breath": 0,
+      "settle": 0,
+      "max_head_lift_px": 0,
+      "feet": "unchanged source geometry below y210"
+    },
+    {
+      "frame": 1,
+      "breath": 0.24999999999999994,
+      "settle": 0.8660254037844386,
+      "max_head_lift_px": 0.7499999999999998,
+      "feet": "unchanged source geometry below y210"
+    },
+    {
+      "frame": 2,
+      "breath": 0.7499999999999999,
+      "settle": 0.8660254037844387,
+      "max_head_lift_px": 2.2499999999999996,
+      "feet": "unchanged source geometry below y210"
+    },
+    {
+      "frame": 3,
+      "breath": 1,
+      "settle": 1.2246467991473532e-16,
+      "max_head_lift_px": 3,
+      "feet": "unchanged source geometry below y210"
+    },
+    {
+      "frame": 4,
+      "breath": 0.7500000000000002,
+      "settle": -0.8660254037844385,
+      "max_head_lift_px": 2.250000000000001,
+      "feet": "unchanged source geometry below y210"
+    },
+    {
+      "frame": 5,
+      "breath": 0.24999999999999994,
+      "settle": -0.8660254037844386,
+      "max_head_lift_px": 0.7499999999999998,
+      "feet": "unchanged source geometry below y210"
+    }
+  ]
+}
