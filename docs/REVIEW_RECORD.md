@@ -192,3 +192,7 @@ Fresh `/root/swooper_static_key_review_r01` accepted the single source key; fres
 ## Swooper perch idle follow-up — 2026-10-15
 
 Fresh `/root/swooper_idle_review_r01` completed blind observations, every native frame/onion/seam, five style references, and all 28 engine captures. `swooper_perch_idle | PASS | no failing frames | restrained stationary hover and continuous cruise handoff`; unchanged cruise reference also PASS. Zero defects/flags. Exact approved-frame reuse is accepted under D23, with the held shroud retained as disclosed quality debt. Full output: `art/review-swooper-idle-r01/review_verdict.md`. This does not approve five absent swooper action clips or physical-device behavior.
+
+## Swooper dive warning follow-up — 2026-10-15
+
+Fresh `/root/swooper_fold_key_review_r02` accepted the static folded key, then fresh `/root/swooper_telegraph_review_r01` reviewed the complete warning after blind observations, all native tiles/onions, five registered style references, and engine captures. `swooper_dive_telegraph | PASS | no failing frames | narrow fold held through the full 600 ms warning`; unchanged cruise also PASS. Zero defects/flags. The overlapping far wing is accepted as pose occlusion; subtle scripted acting remains disclosed quality debt. The outgoing dive capture switches to its geometric preview placeholder, explicitly outside scope and unapproved. Full verdict: `art/review-swooper-telegraph-r01/review_verdict.md`. Physical-device and remaining clip approval are not inferred.

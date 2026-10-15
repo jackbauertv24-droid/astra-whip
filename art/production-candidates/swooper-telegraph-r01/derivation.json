@@ -1,0 +1,31 @@
+{
+  "source": "art/production-candidates/swooper-fold-r01/key.png",
+  "static_review": "art/review-swooper-fold-key-r01/review_verdict.md",
+  "method": "Painted folded pose held from first frame through full tell; local folded-membrane tightening, slight hood anticipation and cloth-tip quiver, no global scaling/translation.",
+  "records": [
+    {
+      "frame": 0,
+      "tension": 0,
+      "cloth_quiver": 0,
+      "wing_fold_held": true
+    },
+    {
+      "frame": 1,
+      "tension": 0.6,
+      "cloth_quiver": 1,
+      "wing_fold_held": true
+    },
+    {
+      "frame": 2,
+      "tension": 1,
+      "cloth_quiver": -0.7,
+      "wing_fold_held": true
+    },
+    {
+      "frame": 3,
+      "tension": 1,
+      "cloth_quiver": 0.3,
+      "wing_fold_held": true
+    }
+  ]
+}

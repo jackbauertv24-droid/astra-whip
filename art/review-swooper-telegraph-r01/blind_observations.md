@@ -1,0 +1,6 @@
+# Blind visual observations
+Viewed every lineup and strip before reading instructions, intent, metadata or references.
+
+The creature appears as a desaturated bone/olive hooded flying wraith, with torn fabric tail and skeletal bat wings. Cruise spreads two wings very broadly around a central hood and torso. The second pose folds wings into a tall narrow silhouette, retaining the hood, central body, and torn lower cloth. Both appear to share roughly the same total height. Neither loses head or lower cloth. The folded pose looks more decisively right-facing than the near-frontal spread pose.
+
+Across the four narrow frames the main hood/body stays centered near the magenta marker; small differences occur in cloth and upper/outer wing contours. It reads as a sustained tense pose with subtle flutter, not a large new gesture. The narrow silhouette persists in every frame. Cruise's eight frames have subtle wing/cloth changes and a stable torso. There is no obvious clipping or drastic identity change in the strips. Fine dark detail may become hard to resolve at small display sizes; the wide-to-narrow silhouette difference should survive reduction. Still strips alone do not establish smooth playback or engine readability.

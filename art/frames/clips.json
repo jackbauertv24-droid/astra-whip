@@ -755,5 +755,20 @@
       "method": "Exact approved frame reuse in order [0,1,2,3,6,7], each150ms: slower900ms hovering beat, omitting the deepest cruise downstroke; root stationary through idle and source frame1 approaches frame0 at cruise handoff.",
       "reason": "ART_CONTRACT §11 permits reused frames. Idle still requires its own independent acting/timing/handoff review."
     }
+  },
+  "swooper_dive_telegraph": {
+    "ms": [
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": "art/production-candidates/swooper-fold-r01/key.png",
+      "method": "Painted folded key held from frame0 through600ms, with local membrane tightening, small hood anticipation and cloth-tip quiver. No global scaling or translation. See tools/prepare-swooper-telegraph.mjs.",
+      "reason": "Declared D23 local rig acting from independently accepted painted pose; earlier generated opposite wing pose changed central body/pivot, so follow-up motion preserves accepted body paint rather than regenerating its identity."
+    }
   }
 }

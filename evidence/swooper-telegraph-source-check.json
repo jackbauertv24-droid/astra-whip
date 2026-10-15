@@ -1,0 +1,74 @@
+{
+  "result": "PASS",
+  "source_runtime_snapshot_identical": true,
+  "default_normalization_preserves_approved_identity": true,
+  "oversize_key_rejected": true,
+  "unrelated_metadata_unchanged": true,
+  "frames": [
+    {
+      "name": "f000.png",
+      "bounds": [
+        138,
+        46,
+        240,
+        210
+      ],
+      "width_ratio": 0.36395759717314485
+    },
+    {
+      "name": "f001.png",
+      "bounds": [
+        138,
+        46,
+        241,
+        210
+      ],
+      "width_ratio": 0.3674911660777385
+    },
+    {
+      "name": "f002.png",
+      "bounds": [
+        138,
+        46,
+        242,
+        210
+      ],
+      "width_ratio": 0.3710247349823322
+    },
+    {
+      "name": "f003.png",
+      "bounds": [
+        138,
+        46,
+        242,
+        210
+      ],
+      "width_ratio": 0.3710247349823322
+    }
+  ],
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "durations": [
+        0.6,
+        0.6
+      ],
+      "directions": [
+        1,
+        -1
+      ]
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "durations": [
+        0.6,
+        0.6
+      ],
+      "directions": [
+        1,
+        -1
+      ]
+    }
+  },
+  "physical_device": false
+}

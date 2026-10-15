@@ -1,0 +1,13 @@
+[
+  {
+    "key": "fold-r01",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent 2D illustrated game enemy wing-fold attack-warning key frame. Image1 exact approved swooper identity and edit target. Image2 mandatory 384x256 guide. Image3 style/material reference. Preserve the EXACT small shrouded torso, head and long ragged tail of image1 in SAME position and SAME physical size. Change ONLY BOTH wings: snap them tightly FOLDED back alongside the narrow body so broad cross becomes a NARROW DART. Complete wing bones and folded membrane panels remain, folded against back and trailing shroud. No spread side wings, no new limbs. Closed silhouette narrow about100px, height170px on384x256canvas, centered around body pivot192128. Top folded wing tip near y43, lower shroud y213. Source face points RIGHT. Hood opening, shoulder size, painted texture and cloth identity match image1. The threat anticipates a fast dive: lean hood forward slightly, taut compact poised silhouette; all wings folded already, not half folding. Matte Ash Grey membranes #6E6A61 with Crypt Violet ONLY inner narrow shadows, slate worn struts, restrained upper-left pale highlights. Entire body and folded wings inside margins. Genuine transparent alpha background, no backdrop/shadow/glow/particles, no guide lines or text, no gore. NOT a bird, pet, angel, human with feet or generic flying portrait. One complete sprite at same registration as image1.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png"
+    ],
+    "raw": "art/production-candidates/swooper-fold-r01/raw.png"
+  }
+]

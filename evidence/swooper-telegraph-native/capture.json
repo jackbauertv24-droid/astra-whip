@@ -1,0 +1,122 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "natural_detection": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "dive_telegraph-right-f00.png",
+     "frame": 0,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "dive_telegraph-right-f01.png",
+     "frame": 1,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "dive_telegraph-right-f02.png",
+     "frame": 2,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "dive_telegraph-right-f03.png",
+     "frame": 3,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0,
+     "file": "dive-right-f00.png",
+     "frame": 0,
+     "position": [
+      1865.53674316406,
+      384.266754150391
+     ],
+     "state": "dive"
+    }
+   ],
+   "stationary_root": true,
+   "tell_duration": 0.6
+  },
+  {
+   "direction": -1,
+   "natural_detection": true,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "dive_telegraph-left-f00.png",
+     "frame": 0,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "dive_telegraph-left-f01.png",
+     "frame": 1,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "dive_telegraph-left-f02.png",
+     "frame": 2,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "dive_telegraph-left-f03.png",
+     "frame": 3,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive_telegraph"
+    },
+    {
+     "elapsed": 0,
+     "file": "dive-left-f00.png",
+     "frame": 0,
+     "position": [
+      1734.46325683594,
+      384.266754150391
+     ],
+     "state": "dive"
+    }
+   ],
+   "stationary_root": true,
+   "tell_duration": 0.6
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

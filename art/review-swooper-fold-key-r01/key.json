@@ -1,0 +1,14 @@
+{
+  "static_only": true,
+  "intended_pose": "Same swooper with both wings tightly folded back beside body, narrow dart silhouette for full dive-warning hold. Full body/hood/shroud and two folded wing structures, facing right, physical scale compatible with approved wide cruise.",
+  "canvas": [
+    384,
+    256
+  ],
+  "pivot": [
+    192,
+    128
+  ],
+  "source": "art/production-candidates/swooper-fold-r01/key.png",
+  "normalization": "art/production-candidates/swooper-fold-r01/key.png.normalization.json"
+}
