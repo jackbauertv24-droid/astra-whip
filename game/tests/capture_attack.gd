@@ -23,6 +23,12 @@ func capture() -> void:
   for i in 40:
    await physics_frame
    world.step(DT)
+  if attack_state == "attack_air":
+   world.hero.controls.set_action("jump", true, "capture")
+   for i in 4:
+    await physics_frame
+    world.step(DT)
+   world.hero.controls.set_action("jump", false, "capture")
   world.hero.controls.set_action("whip", true, "capture")
   var seen = {}
   for tick in 66:
@@ -33,6 +39,10 @@ func capture() -> void:
    var visual = hero.visual
    if hero.state != attack_state: continue
    var index = visual.frame
+   if attack_state == "attack_air" and hero.is_on_floor():
+    printerr("FAIL air attack landed before its captured recovery")
+    quit(1)
+    return
    if attack_state == "attack_crouch" and (not hero.crouched or hero.shape.shape.size != Rules.CROUCH):
     printerr("FAIL crouch attack changed collision stance")
     quit(1)
@@ -50,7 +60,7 @@ func capture() -> void:
     return
    if seen.has(index): continue
    seen[index] = true
-   samples.append({"facing": direction, "frame": index, "time": hero.attack_time, "active": hero.active()})
+   samples.append({"facing": direction, "frame": index, "time": hero.attack_time, "active": hero.active(), "y": hero.position.y, "velocity_y": hero.velocity.y, "airborne": not hero.is_on_floor()})
    await process_frame
    await RenderingServer.frame_post_draw
    var side = "right" if direction > 0 else "left"
@@ -59,6 +69,10 @@ func capture() -> void:
     quit(1)
     return
   world.hero.controls.clear()
+  if world.hero.attack_time >= 0 or world.hero.visual.weapon.visible:
+   printerr("FAIL attack did not finish or left a stale weapon layer")
+   quit(1)
+   return
   if seen.size() != 8:
    printerr("FAIL missing attack frames: ", seen)
    quit(1)

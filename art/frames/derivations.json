@@ -227,5 +227,30 @@
     ],
     "method": "Adapt the approved ground raster fallback to the low fist sockets and hitbox. Thin tapered leather and wood colors come from approved paint; recovery folds gather into a compact coil above the floor. Shared shader/review hand occlusion preserves the painted glove.",
     "reason": "The original weapon generation failed socket/thickness checks (art/rejected/whip-ground-key-r01). Reuse its independently approved scripted replacement method under ART_CONTRACT section11, with a new independent low-attack motion review."
+  },
+  "hero_attack_air": {
+    "kind": "reused",
+    "source": [
+      "art/production-candidates/hero_air-attack-rest-key-r01.png",
+      "art/production-candidates/hero_air-attack-windup-key-r01.png",
+      "art/production-candidates/hero_air-attack-strike-key-r02.png",
+      "art/production-candidates/hero_air-attack-apex-key-r02.png",
+      "art/production-candidates/hero_air-attack-follow-key-r02.png",
+      "art/production-candidates/hero_air-attack-return-key-r01.png",
+      "art/production-candidates/hero_air-attack-settle-key-r01.png",
+      "art/production-candidates/hero_air-attack-rest-key-r01.png"
+    ],
+    "method": "Seven directly painted airborne poses, with the ready key reused at the final settle. Same near weapon arm, tucked/adjusting legs and trailing coat. One bounded uniform normalization from each original delivery; alpha<=4 cleanup only.",
+    "reason": "Replace the held jump-pose preview with a distinct complete airborne attack. Initial arm-switch candidates are retained in art/rejected/air-attack-arm-r01; corrected strike/follow use the approved same-arm ground keys as edit targets."
+  },
+  "whip_attack_air": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/whip_attack_ground",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png"
+    ],
+    "method": "Adapt the approved ground leather/wood raster fallback to airborne fist sockets and the standing-height active hitbox. Tapered flexible lash gathers in ordered recovery loops; shared runtime/review glove occlusion.",
+    "reason": "Original weapon generation failed socket/thickness checks (art/rejected/whip-ground-key-r01). Reuse its independently approved scripted replacement method under ART_CONTRACT section11, with a fresh independent air-attack review."
   }
 }

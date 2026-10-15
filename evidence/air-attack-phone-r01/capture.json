@@ -1,0 +1,152 @@
+{
+ "attack_seconds": 0.5,
+ "samples": [
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 0,
+   "time": 0,
+   "velocity_y": -573.333435058594,
+   "y": 534.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 1,
+   "time": 0.075,
+   "velocity_y": -453.333465576172,
+   "y": 496.925231933594
+  },
+  {
+   "active": true,
+   "airborne": true,
+   "facing": 1,
+   "frame": 2,
+   "time": 0.15,
+   "velocity_y": -333.333374023438,
+   "y": 467.925231933594
+  },
+  {
+   "active": true,
+   "airborne": true,
+   "facing": 1,
+   "frame": 3,
+   "time": 0.208333333333333,
+   "velocity_y": -240.0,
+   "y": 451.591888427734
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 4,
+   "time": 0.258333333333333,
+   "velocity_y": -160.000030517578,
+   "y": 441.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 5,
+   "time": 0.316666666666667,
+   "velocity_y": -66.6666946411133,
+   "y": 435.703033447266
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 6,
+   "time": 0.375,
+   "velocity_y": 26.6666374206543,
+   "y": 434.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": 1,
+   "frame": 7,
+   "time": 0.441666666666667,
+   "velocity_y": 133.333312988281,
+   "y": 440.703002929688
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 0,
+   "time": 0,
+   "velocity_y": -573.333435058594,
+   "y": 534.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 1,
+   "time": 0.075,
+   "velocity_y": -453.333465576172,
+   "y": 496.925231933594
+  },
+  {
+   "active": true,
+   "airborne": true,
+   "facing": -1,
+   "frame": 2,
+   "time": 0.15,
+   "velocity_y": -333.333374023438,
+   "y": 467.925231933594
+  },
+  {
+   "active": true,
+   "airborne": true,
+   "facing": -1,
+   "frame": 3,
+   "time": 0.208333333333333,
+   "velocity_y": -240.0,
+   "y": 451.591888427734
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 4,
+   "time": 0.258333333333333,
+   "velocity_y": -160.000030517578,
+   "y": 441.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 5,
+   "time": 0.316666666666667,
+   "velocity_y": -66.6666946411133,
+   "y": 435.703033447266
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 6,
+   "time": 0.375,
+   "velocity_y": 26.6666374206543,
+   "y": 434.925231933594
+  },
+  {
+   "active": false,
+   "airborne": true,
+   "facing": -1,
+   "frame": 7,
+   "time": 0.441666666666667,
+   "velocity_y": 133.333312988281,
+   "y": 440.703002929688
+  }
+ ],
+ "socket_error_max": 0.0,
+ "socket_tolerance": 0.001,
+ "state": "attack_air"
+}

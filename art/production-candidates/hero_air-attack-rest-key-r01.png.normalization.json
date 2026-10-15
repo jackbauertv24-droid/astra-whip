@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_air-attack-rest-delivery-r01.png",
+  "corrective_normalization": 0.8888888888888888,
+  "source_pivot": [
+    256,
+    467
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 208,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

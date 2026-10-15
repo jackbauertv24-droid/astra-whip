@@ -1,0 +1,256 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-air-attack-r01/frames",
+ "defects": 0,
+ "flags": 0,
+ "clips_audited": 3,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_attack_air": [
+   {
+    "bbox": [
+     183,
+     241,
+     353,
+     448
+    ],
+    "height": 208,
+    "width": 171,
+    "area": 13589,
+    "size": 116.572,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 44,
+    "bootRatio": 0.089,
+    "legDip": 0.107
+   },
+   {
+    "bbox": [
+     179,
+     241,
+     317,
+     448
+    ],
+    "height": 208,
+    "width": 139,
+    "area": 13321,
+    "size": 115.417,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 106,
+    "bootRatio": 0.088,
+    "legDip": 0.11
+   },
+   {
+    "bbox": [
+     172,
+     241,
+     346,
+     448
+    ],
+    "height": 208,
+    "width": 175,
+    "area": 14015,
+    "size": 118.385,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 49,
+    "bootRatio": 0.092,
+    "legDip": 0.106
+   },
+   {
+    "bbox": [
+     175,
+     241,
+     347,
+     448
+    ],
+    "height": 208,
+    "width": 173,
+    "area": 13850,
+    "size": 117.686,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 49,
+    "bootRatio": 0.094,
+    "legDip": 0.113
+   },
+   {
+    "bbox": [
+     178,
+     241,
+     326,
+     448
+    ],
+    "height": 208,
+    "width": 149,
+    "area": 12353,
+    "size": 111.144,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 44,
+    "bootRatio": 0.088,
+    "legDip": 0.107
+   },
+   {
+    "bbox": [
+     178,
+     241,
+     347,
+     448
+    ],
+    "height": 208,
+    "width": 170,
+    "area": 12982,
+    "size": 113.939,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 49,
+    "bootRatio": 0.098,
+    "legDip": 0.122
+   },
+   {
+    "bbox": [
+     179,
+     241,
+     348,
+     448
+    ],
+    "height": 208,
+    "width": 170,
+    "area": 14045,
+    "size": 118.512,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 47,
+    "bootRatio": 0.108,
+    "legDip": 0.13
+   },
+   {
+    "bbox": [
+     183,
+     241,
+     353,
+     448
+    ],
+    "height": 208,
+    "width": 171,
+    "area": 13589,
+    "size": 116.572,
+    "top": 241,
+    "foot": 448,
+    "headWidth": 44,
+    "bootRatio": 0.089,
+    "legDip": 0.107
+   }
+  ],
+  "whip_attack_air": [
+   {
+    "bbox": [
+     208,
+     328,
+     241,
+     388
+    ],
+    "tip": 54.571,
+    "near": 0
+   },
+   {
+    "bbox": [
+     56,
+     213,
+     215,
+     265
+    ],
+    "tip": 154.78,
+    "near": 0
+   },
+   {
+    "bbox": [
+     314,
+     276,
+     600,
+     330
+    ],
+    "tip": 279.46,
+    "near": 0
+   },
+   {
+    "bbox": [
+     314,
+     279,
+     610,
+     334
+    ],
+    "tip": 289.126,
+    "near": 0
+   },
+   {
+    "bbox": [
+     263,
+     317,
+     471,
+     402
+    ],
+    "tip": 204.247,
+    "near": 0
+   },
+   {
+    "bbox": [
+     261,
+     314,
+     376,
+     395
+    ],
+    "tip": 116.73,
+    "near": 0
+   },
+   {
+    "bbox": [
+     208,
+     329,
+     269,
+     401
+    ],
+    "tip": 67.268,
+    "near": 0
+   },
+   {
+    "bbox": [
+     208,
+     328,
+     241,
+     388
+    ],
+    "tip": 54.571,
+    "near": 0
+   }
+  ]
+ }
+}

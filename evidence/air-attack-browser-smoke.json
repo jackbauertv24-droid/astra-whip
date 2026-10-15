@@ -1,0 +1,26 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "browser": "156.0.8078.4",
+  "actions": [
+    "start",
+    "jump input",
+    "fresh whip input",
+    "request pause after40ms",
+    "capture paused runtime"
+  ],
+  "key_events": [
+    {
+      "key": " ",
+      "time_ms": 5157.400000095367
+    },
+    {
+      "key": "j",
+      "time_ms": 5639.200000286102
+    },
+    {
+      "key": "Escape",
+      "time_ms": 5818.5
+    }
+  ],
+  "errors": []
+}

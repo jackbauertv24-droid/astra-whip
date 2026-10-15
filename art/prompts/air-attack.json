@@ -1,0 +1,138 @@
+[
+  {
+    "id": "airRestR01",
+    "name": "rest",
+    "prompt": "Make AIR attack ready key. Retain IMAGE1's flying bent-leg pose, coat trailingleft. Neararm low atside withclosedfist approx234,333 andbarewoodgrip angleddownleft to221,351. Fararm extended forward about309,315 forbalance. Forwardkneeraised288,356, itsbootaround270,417; trailingbootlower/behind at215,448. Removeoldcoil fromnearhand. No plantedstandingpose. IMAGE1 is the EDIT TARGET approved AIRBORNE body: fully visible head-to-boots, adult hunter suspended in air with forward bent knee and trailing boot. IMAGE2 is identity/style neutral, IMAGE3 shows correct near LEFT-side weapon arm crossing IN FRONT of chest, IMAGE4 is source canvas guideonly. Same detailed brown leather mantle/duster/vest, cream linen, dark trousers, bracer and fullboots; same39px narrowprofilehead. Full body, top of head to soles of boots, feet on ground line means LOWESTboot registered at sourcey448 ONLY, but this is airborne with NO floor, shadow orgroundscenery. 512squarecanvas, root256448, figureheight208px headtop241, physicalbodycenteraround256. Do NOT zoom/crop/enlargehead/shrinkwholebody. Upper46% completely EMPTYtruealpha0. Sameidentity in allframes. NearLEFT arm is weaponarm; farRIGHT armcounterbalances. ShortbarewoodgripONLY, no whiplash/rope/coil painted in BODY, no text/guide/background/matte/debris. Keep both complete legs and boots, anatomicaljointpaths.",
+    "raw_output": "art/production-candidates/hero_air-attack-rest-r01.png",
+    "required_references": [
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airWindupR01",
+    "name": "windup",
+    "prompt": "Make AIR attack WIND-UP key. NearLEFT upperarm liftsback; near elbow215,291, nearfist225,253 withshortbarewoodgrip pointingleft to206,251. Fist mustnot goaboveheadtop241. Fararmguardswaist290,337 forbalance. Forwardkneetucks5pxhigher to290,351 andfrontboot271,413; trailinglegcounterbends, lowestboot219,448. Coat hemfluttersback4px. No standingfootstance orfloorcontact. IMAGE1 is the EDIT TARGET approved AIRBORNE body: fully visible head-to-boots, adult hunter suspended in air with forward bent knee and trailing boot. IMAGE2 is identity/style neutral, IMAGE3 shows correct near LEFT-side weapon arm crossing IN FRONT of chest, IMAGE4 is source canvas guideonly. Same detailed brown leather mantle/duster/vest, cream linen, dark trousers, bracer and fullboots; same39px narrowprofilehead. Full body, top of head to soles of boots, feet on ground line means LOWESTboot registered at sourcey448 ONLY, but this is airborne with NO floor, shadow orgroundscenery. 512squarecanvas, root256448, figureheight208px headtop241, physicalbodycenteraround256. Do NOT zoom/crop/enlargehead/shrinkwholebody. Upper46% completely EMPTYtruealpha0. Sameidentity in allframes. NearLEFT arm is weaponarm; farRIGHT armcounterbalances. ShortbarewoodgripONLY, no whiplash/rope/coil painted in BODY, no text/guide/background/matte/debris. Keep both complete legs and boots, anatomicaljointpaths.",
+    "raw_output": "art/production-candidates/hero_air-attack-windup-r01.png",
+    "required_references": [
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airStrikeR01",
+    "name": "strike",
+    "prompt": "Make AIR attack STRIKE extension key. NearLEFT shoulder/sleeve swings across IN FRONT ofchest, nearforearm extendsRIGHT, fist337,285 holding shortbarewoodgrip ending359,285. Farhandguardswaist290,337, do notswitchweaponarm. Forwardkneebendsout to304,356, frontboot287,416; trailingboot217,448 and its connectedbentleg clearlypresent. Chesttwistsforward3px, coat trailsleft. Both legsvisiblyairborne, notspreadasstanding. IMAGE1 is the EDIT TARGET approved AIRBORNE body: fully visible head-to-boots, adult hunter suspended in air with forward bent knee and trailing boot. IMAGE2 is identity/style neutral, IMAGE3 shows correct near LEFT-side weapon arm crossing IN FRONT of chest, IMAGE4 is source canvas guideonly. Same detailed brown leather mantle/duster/vest, cream linen, dark trousers, bracer and fullboots; same39px narrowprofilehead. Full body, top of head to soles of boots, feet on ground line means LOWESTboot registered at sourcey448 ONLY, but this is airborne with NO floor, shadow orgroundscenery. 512squarecanvas, root256448, figureheight208px headtop241, physicalbodycenteraround256. Do NOT zoom/crop/enlargehead/shrinkwholebody. Upper46% completely EMPTYtruealpha0. Sameidentity in allframes. NearLEFT arm is weaponarm; farRIGHT armcounterbalances. ShortbarewoodgripONLY, no whiplash/rope/coil painted in BODY, no text/guide/background/matte/debris. Keep both complete legs and boots, anatomicaljointpaths.",
+    "raw_output": "art/production-candidates/hero_air-attack-strike-r01.png",
+    "required_references": [
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airFollowR01",
+    "name": "follow",
+    "prompt": "Make AIR attack FOLLOW-THROUGH key afterneararmforwardstrike. Nearelbowfoldsdown acrossfrontabdomen at260,324, nearclosedfist286,339, shortbarewoodgrip anglesdownright to302,350. Farcounterbalancearm staysdistinct guardingwaist288,319. Forwardknee slightlyopens to304,370, itsboot292,427; trailingboot217,448 behind. Torso tiltsforward2px, coatlagsleft. Stillfullyairborne bentlegs, notstanding, notcrouchingonfloor. IMAGE1 is the EDIT TARGET approved AIRBORNE body: fully visible head-to-boots, adult hunter suspended in air with forward bent knee and trailing boot. IMAGE2 is identity/style neutral, IMAGE3 shows correct near LEFT-side weapon arm crossing IN FRONT of chest, IMAGE4 is source canvas guideonly. Same detailed brown leather mantle/duster/vest, cream linen, dark trousers, bracer and fullboots; same39px narrowprofilehead. Full body, top of head to soles of boots, feet on ground line means LOWESTboot registered at sourcey448 ONLY, but this is airborne with NO floor, shadow orgroundscenery. 512squarecanvas, root256448, figureheight208px headtop241, physicalbodycenteraround256. Do NOT zoom/crop/enlargehead/shrinkwholebody. Upper46% completely EMPTYtruealpha0. Sameidentity in allframes. NearLEFT arm is weaponarm; farRIGHT armcounterbalances. ShortbarewoodgripONLY, no whiplash/rope/coil painted in BODY, no text/guide/background/matte/debris. Keep both complete legs and boots, anatomicaljointpaths.",
+    "raw_output": "art/production-candidates/hero_air-attack-follow-r01.png",
+    "required_references": [
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airStrikeR02",
+    "name": "strike",
+    "target": "art/production-candidates/hero_same-arm-strike-key.png",
+    "prompt": "Edit IMAGE1 approved SAME-ARM standing strike into an AIRBORNE strike by changing ONLY the lowerbody/coat to the tucked flying legs of IMAGE2. CRITICAL: KEEP IMAGE1's upper-body arm topology: the visible NEAR sleeve/forearm sweeps ACROSS THE FRONT OF THE CHEST to the right fist; the OTHER forearm/hand remains on RIGHT side of waist. Do NOT leave a second low arm on LEFT hip. Exactly TWOarms. Nearweaponfist approximately337,285, barewoodgrip to359,285. Headtop241; adulttorso/hips maintainoriginalwidth, legstuck: forward knee304356, boot287416, trailingboot217448 withconnectedbentleg. Bodyfloating, coat trailingleft. IMAGE2 is LEGS referenceonly, do notcopyitsforwardarm. Same39pxface/headidentity asIMAGE3neutral. Full body, top of head to soles of boots, feet on ground line means lowestbootregistered aty448 onsourceguide, NO actualfloor.512squaretiny208pxfigure LOWERmiddle root256448, upper46%EMPTYalpha0. Brownleathercreamlinenmetal sharpdetail. No coil/rope/lash inBODY, onlybarewoodgrip. No textguidesbackgroundshadowdebris. PreserveexactnearweaponarmofIMAGE1.",
+    "raw_output": "art/production-candidates/hero_air-attack-strike-r02.png",
+    "required_references": [
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airFollowR02",
+    "name": "follow",
+    "target": "art/frames/hero_attack_ground/f004.png",
+    "prompt": "Edit IMAGE1 approved near-arm ground FOLLOW-THROUGH into AIRBORNE follow-through by replacing ONLY standinglegs/coatbottom with IMAGE2's tuckedflyinglegs. CRITICAL: KEEP IMAGE1's exactnear-weaponarmtopology: LEFT visible shoulder→creamupperarm→bracediagonalforearmacrossFRONTabdomen→nearclosedfist286,339→shortbarewoodgripending302,350. OTHER farhandguardsRIGHTwaist around288,319, clearlydistinct. Do NOT transfergrip tofararm, do NOT leave nearleftarmhanging atlefthip. Exactlytwoarms. Headtop241. Forward knee304370, boot292427; trailingboot217448 withconnectedbentleg. Torso tiltsforward2px, coattailsleft, airbornefloatingnofootcontact. IMAGE2 is LEGSreferenceonly, don'tcopyitsarms. IMAGE3neutraladult39pxheadidentity. Full body, top of head to soles of boots, feet on ground line meanslowestbootregistered448 in512canvasguideonly. Tiny208pxfullfigureLOWERmiddle root256448,upper46%EMPTYtruealpha0, nofloor/shadow/textguidesbackgrounddebris. Samebrownleathercreamlinenmetal detail, no rope/coil/lash inBODY, barewoodgriponly.",
+    "raw_output": "art/production-candidates/hero_air-attack-follow-r02.png",
+    "required_references": [
+      "art/frames/hero_attack_ground/f004.png",
+      "art/frames/hero_jump_rise/f000.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airApexR01",
+    "name": "apex",
+    "a": "strike",
+    "b": "follow",
+    "ar": "r02",
+    "br": "r02",
+    "height": 206,
+    "prompt": "Create ONE AIRBORNE strike-apex in-between IMAGE1 (extendedneararmstrike) and IMAGE2 (neararmfollow). NearLEFT sleeve/forearm staysACROSSTHEFRONTofchest asIMAGE1; fist326,286 withbarewoodgripending347,286, shoulder/head dip2px toheadtop243. FarhandcounterbalancesRIGHTwaist286,327. NO secondlowarmatlefthip. Forwardkneeflexes5px to305,357 andfrontboot282,425, trailingboot216,448 connectedbentleg. Coatflutters3pxleft. Distinctsmall follow-through, notstaticduplicate. Full body, top of head to soles of boots, feet on ground line means only LOWESTbootregistration atsource448; character MUSTremainairborne, nofloor/shadow/footcontact. Same39pxadultprofilehead and detailed brownleathercoat/mantle/vest creamlinen metalbracer fullboots asIMAGE3neutral.512squarecanvasroot256448 tiny208pxfullfigureLOWERmiddle, upper46%EMPTYtruealpha0. EXACTLYtwoarms/twolegs, nearLEFT armweapon, farRIGHT armcounterbalance. No whipcoil/rope/lash inBODY, onlyshortbarewoodgrip. No textguidesbackgroundmatte/scenery/debris/cropping/zoom. Do notscalebodyparts or changeidentity. IMAGE4canvasguideonly.",
+    "raw_output": "art/production-candidates/hero_air-attack-apex-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_air-attack-strike-key-r02.png",
+      "art/production-candidates/hero_air-attack-follow-key-r02.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airReturnR01",
+    "name": "return",
+    "a": "follow",
+    "b": "rest",
+    "ar": "r02",
+    "br": "r01",
+    "height": 208,
+    "prompt": "Create ONE AIRBORNE recovery between IMAGE1follow and IMAGE2rest. NearLEFT shoulder→elbow→bracedforearm movesclosedweaponfist to253,333 holdingbarewoodgrip diagonallydownleftending241,348; thisisthesameNEARarmthatholdsIMAGE1handle. FarunarmedRIGHThand counterbalances323,310, separatefromweaponhand. Headtop241, torso untwists3px towardrest. Forwardkneefoldsback to294,357, itsboot278,424; trailingboot213,448. Legsremainflyingwithsubtleanatomicalbalancechange andcoatlag, no groundstance. Full body, top of head to soles of boots, feet on ground line means only LOWESTbootregistration atsource448; character MUSTremainairborne, nofloor/shadow/footcontact. Same39pxadultprofilehead and detailed brownleathercoat/mantle/vest creamlinen metalbracer fullboots asIMAGE3neutral.512squarecanvasroot256448 tiny208pxfullfigureLOWERmiddle, upper46%EMPTYtruealpha0. EXACTLYtwoarms/twolegs, nearLEFT armweapon, farRIGHT armcounterbalance. No whipcoil/rope/lash inBODY, onlyshortbarewoodgrip. No textguidesbackgroundmatte/scenery/debris/cropping/zoom. Do notscalebodyparts or changeidentity. IMAGE4canvasguideonly.",
+    "raw_output": "art/production-candidates/hero_air-attack-return-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_air-attack-follow-key-r02.png",
+      "art/production-candidates/hero_air-attack-rest-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airSettleR01",
+    "name": "settle",
+    "a": "follow",
+    "b": "rest",
+    "ar": "r02",
+    "br": "r01",
+    "height": 208,
+    "prompt": "Create ONE AIRBORNE finalsettle between IMAGE1follow and IMAGE2rest,85%towardIMAGE2. NearLEFT armreturnsdownatlefthip, fist238,334 holdingbarewoodgripending222,351 (small4pxforwarddifferencefromrest), farRIGHTemptyhand counterbalances338,306. Headtop241, forwardkneere-tucks291,355, boot273,419; trailingboot214,448. Both bentlegsfullypresent, suspendedinflyingpose, coathem settles2px. Keepanatomicalarms distinct; nofararmweaponorstandingfootplant. Full body, top of head to soles of boots, feet on ground line means only LOWESTbootregistration atsource448; character MUSTremainairborne, nofloor/shadow/footcontact. Same39pxadultprofilehead and detailed brownleathercoat/mantle/vest creamlinen metalbracer fullboots asIMAGE3neutral.512squarecanvasroot256448 tiny208pxfullfigureLOWERmiddle, upper46%EMPTYtruealpha0. EXACTLYtwoarms/twolegs, nearLEFT armweapon, farRIGHT armcounterbalance. No whipcoil/rope/lash inBODY, onlyshortbarewoodgrip. No textguidesbackgroundmatte/scenery/debris/cropping/zoom. Do notscalebodyparts or changeidentity. IMAGE4canvasguideonly.",
+    "raw_output": "art/production-candidates/hero_air-attack-settle-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_air-attack-follow-key-r02.png",
+      "art/production-candidates/hero_air-attack-rest-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "airApexR02",
+    "prompt": "Precision edit IMAGE1 airborne strike into the very next50ms AIR strike-apex frame before IMAGE2follow. PRESERVE IMAGE1 upper-body topology EXACTLY: visible nearLEFT cream sleeve ACROSSFRONTofchest to right weaponfist at323,283; FARotherhand stays atRIGHTwaist286,327 withitscreamcuff/brace. Absolutely NO arm or glove appears at LEFT/back hip or left flank; leftflankbelowmantle is unbrokenbrownvest/coat. EXACTLYtwoarms, sameweaponarm. Nearfist maydip2px to323,285 withbarewoodgrip to344,285. Farwaistglove mustNOT move. Onlydistinctchanges: forwardkneeflexesdown5px to305357, frontboot282425; coathemfluttersleft3px, rearboot216448. Headcanstaytop241 ratherthandip. IMAGE2bracketsfollowingkey, don'tcopyitsfarguardarm. IMAGE3approvedneutralidentity, IMAGE4guide. Full body, top of head to soles of boots, feet on ground line onlyLOWESTbootregisteredsource448, floatingairbornenofloor/shadow.512squarecanvasroot256448 tiny208pxfigureLOWERmiddle,upper46%EMPTYalpha0. Same39pxheadadultbrownleathercreamlinenmetalboots, no zoom/crop/bodypartresizing/backgroundtextguidesdebris. Shortbarewoodgriponly no bodycoil/rope/lash.",
+    "raw_output": "art/production-candidates/hero_air-attack-apex-r02.png",
+    "required_references": [
+      "art/production-candidates/hero_air-attack-strike-key-r02.png",
+      "art/production-candidates/hero_air-attack-follow-key-r02.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  }
+]

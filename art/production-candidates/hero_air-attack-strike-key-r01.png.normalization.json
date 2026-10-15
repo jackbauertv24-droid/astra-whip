@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_air-attack-strike-delivery-r01.png",
+  "corrective_normalization": 0.9285714285714286,
+  "source_pivot": [
+    256,
+    455
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 208,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

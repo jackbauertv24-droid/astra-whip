@@ -1,0 +1,28 @@
+[
+ {
+  "active": true,
+  "after_frame": 2,
+  "after_time": 0.183333333333333,
+  "before": {
+   "active": true,
+   "frame": 2,
+   "state": "attack_air",
+   "time": 0.175
+  },
+  "hit_id_preserved": true,
+  "landing_state": "attack_ground"
+ },
+ {
+  "active": true,
+  "after_frame": 2,
+  "after_time": 0.183333333333333,
+  "before": {
+   "active": true,
+   "frame": 2,
+   "state": "attack_air",
+   "time": 0.175
+  },
+  "hit_id_preserved": true,
+  "landing_state": "attack_crouch"
+ }
+]
