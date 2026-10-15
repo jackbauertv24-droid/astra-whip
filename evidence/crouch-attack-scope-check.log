@@ -1,0 +1,9 @@
+PASS unrelated clips.json entries unchanged
+PASS unrelated derivations.json entries unchanged
+PASS unrelated hand_sockets.json entries unchanged
+PASS unrelated hand_occlusion.json entries unchanged
+PASS hero_attack_crouch eight runtime/review/source PNGs byte-identical
+PASS whip_attack_crouch eight runtime/review/source PNGs byte-identical
+PASS ground body/whip unchanged; source/runtime sockets byte-identical
+PASS existing runtime art and historical crouch review reports unchanged
+PASS unchanged synchronized500ms low-attack timing

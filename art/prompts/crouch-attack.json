@@ -1,0 +1,91 @@
+[
+  {
+    "id": "crouchRestR01",
+    "prompt": "Make a crouch ready pose. Remove the old coil under near hand and retain the near closed glove centered256,402 holding a barewoodgrip directed down-left ending245,420. Near upperarmhangs relaxed, elbow241,381. Far hand stays onforwardknee at305,393. Exactpose and boots ofIMAGE1. Edit target IMAGE1 is the approved crouched hunter: preserve EXACT crouch folded knees/hips, both planted boots at y448, head top309,140px figure height, body approx x202..322 on512 square. FULL BODY from top of head to soles of boots, feet on ground line. Same 39px profile head and adult proportions as IMAGE3 approved neutral, detailed brown leather duster/mantle, cream linen sleeve, metal bracer, dark trousers, full boots. Right-facing. Canvas top60% completely empty truealpha0. Onecomplete character on transparent background, no ground shadow, no text/guides, no background/matte/scenery. IMAGE4 provides ground/design guide only. Do NOT shrink wholeperson, alter identity, enlarge head, zoom, crop or recenter. No whip lash/rope/coil in BODY layer, only a short bare wood grip. Near visible LEFT-side arm must wield weapon as in IMAGE2 standing strike (forearm crosses IN FRONT of chest when extending), opposite fararm remains at waist/knee. Weapon cannot switch hands.",
+    "raw_output": "art/production-candidates/hero_crouch-attack-rest-r01.png",
+    "required_references": [
+      "art/frames/hero_crouch_idle/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchWindupR01",
+    "prompt": "Create crouch attack WIND-UP key. Near left shoulder remains approx244,351, near elbow bends outward-left at221,351, near fist raised at231,326 withbarewoodgrip directedleft ending213,321. Forearm is visibly connected shoulder→elbow→wrist; far hand guards waist/knee at300,393. Headstays top309; no raised hand abovehead. Knees remain fully folded and boots planted asIMAGE1, chest twistsback3px. No standingup. Edit target IMAGE1 is the approved crouched hunter: preserve EXACT crouch folded knees/hips, both planted boots at y448, head top309,140px figure height, body approx x202..322 on512 square. FULL BODY from top of head to soles of boots, feet on ground line. Same 39px profile head and adult proportions as IMAGE3 approved neutral, detailed brown leather duster/mantle, cream linen sleeve, metal bracer, dark trousers, full boots. Right-facing. Canvas top60% completely empty truealpha0. Onecomplete character on transparent background, no ground shadow, no text/guides, no background/matte/scenery. IMAGE4 provides ground/design guide only. Do NOT shrink wholeperson, alter identity, enlarge head, zoom, crop or recenter. No whip lash/rope/coil in BODY layer, only a short bare wood grip. Near visible LEFT-side arm must wield weapon as in IMAGE2 standing strike (forearm crosses IN FRONT of chest when extending), opposite fararm remains at waist/knee. Weapon cannot switch hands.",
+    "raw_output": "art/production-candidates/hero_crouch-attack-windup-r01.png",
+    "required_references": [
+      "art/frames/hero_crouch_idle/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchStrikeR01",
+    "prompt": "Create crouch attack STRIKE extension key. Near LEFT-side sleeve/forearm crosses IN FRONT of chest, elbow at281,369 and near fist extendsRIGHT to350,372. A short barewoodgrip projectsRIGHT to369,372. Far guardinghand remains at300,400. Head top309, forward torso lean3px, folded knees and plantedboots unchanged. This is the SAME near arm thatwields inIMAGE2; do not extend far arm while leavingnearhand atleftknee. Exact140pxlowcrouchheight. Edit target IMAGE1 is the approved crouched hunter: preserve EXACT crouch folded knees/hips, both planted boots at y448, head top309,140px figure height, body approx x202..322 on512 square. FULL BODY from top of head to soles of boots, feet on ground line. Same 39px profile head and adult proportions as IMAGE3 approved neutral, detailed brown leather duster/mantle, cream linen sleeve, metal bracer, dark trousers, full boots. Right-facing. Canvas top60% completely empty truealpha0. Onecomplete character on transparent background, no ground shadow, no text/guides, no background/matte/scenery. IMAGE4 provides ground/design guide only. Do NOT shrink wholeperson, alter identity, enlarge head, zoom, crop or recenter. No whip lash/rope/coil in BODY layer, only a short bare wood grip. Near visible LEFT-side arm must wield weapon as in IMAGE2 standing strike (forearm crosses IN FRONT of chest when extending), opposite fararm remains at waist/knee. Weapon cannot switch hands.",
+    "raw_output": "art/production-candidates/hero_crouch-attack-strike-r01.png",
+    "required_references": [
+      "art/frames/hero_crouch_idle/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchFollowR01",
+    "prompt": "Create crouch attack FOLLOW-THROUGH/retraction key after a near-arm horizontal forwardwhip strike. NearLEFT elbow comesdown across frontabdomen at270,386, nearclosedfist at309,399, barewoodgrip slantsdownright ending324,409. Far arm remains guardingwaist at292,383, don'tmergehands. Head top309, foldedknees and boots sameasIMAGE1. Torso leansforward3px, coatfrontresponds3px. No standingup. Edit target IMAGE1 is the approved crouched hunter: preserve EXACT crouch folded knees/hips, both planted boots at y448, head top309,140px figure height, body approx x202..322 on512 square. FULL BODY from top of head to soles of boots, feet on ground line. Same 39px profile head and adult proportions as IMAGE3 approved neutral, detailed brown leather duster/mantle, cream linen sleeve, metal bracer, dark trousers, full boots. Right-facing. Canvas top60% completely empty truealpha0. Onecomplete character on transparent background, no ground shadow, no text/guides, no background/matte/scenery. IMAGE4 provides ground/design guide only. Do NOT shrink wholeperson, alter identity, enlarge head, zoom, crop or recenter. No whip lash/rope/coil in BODY layer, only a short bare wood grip. Near visible LEFT-side arm must wield weapon as in IMAGE2 standing strike (forearm crosses IN FRONT of chest when extending), opposite fararm remains at waist/knee. Weapon cannot switch hands.",
+    "raw_output": "art/production-candidates/hero_crouch-attack-follow-r01.png",
+    "required_references": [
+      "art/frames/hero_crouch_idle/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchApexR01",
+    "name": "apex",
+    "prompt": "Create ONE crouched attack apex in-between IMAGE1 (just-extended strike) and IMAGE2 (armretractedfollow-through). Keep near LEFT-side sleeve/forearm crossing in FRONT of chest, fist stays extended at340,358 with shortbarewoodgrip ending363,358, distinct3pxdownward settling fromimage1. Farhandguardswaist at300,395. Head/shoulder dip2px, coatlags3px; BOTHboots/knees stay exactlyplanted asimage1. Stillfull crouch, headtop311 foot448 (138px tall). No standing. Preservefigureidentityandallcostume. The visiblefront neararm is weaponarm, never switch tofararm. Full body, top of head to soles of boots, feet on ground line. Same detailedadult hunter as neutralIMAGE3,39px profilehead, sharpbrownleather mantle/coat, creamlinen, metalbracer, trousers andcompleteboots. Rightfacing. Same512squarecanvas, root256448, tiny140pxfullfigure LOWERmiddle; upper60%totallyEMPTYtransparent alpha0. NOtext, guide, background, floor shadows, debris, zoom orcrop. IMAGE4 isguideonly. No whip rope/lash/coil inbody, shortbarewoodgriponly. Editposeswithoutscalingidentity.",
+    "a": "strike",
+    "b": "follow",
+    "height": 138,
+    "raw_output": "art/production-candidates/hero_crouch-attack-apex-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_crouch-attack-strike-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-follow-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchReturnR01",
+    "name": "return",
+    "prompt": "Create ONE crouched attack recovery in-between IMAGE1(follow-through) and IMAGE2(rest). NearLEFT sleeveforearm relaxes down/across abdomen: nearclosedfist at258,398, elbow243,380, barewoodgrip diagonaldownleft ending247,414. Farhandonforwardknee300,392 staysdistinct. Torso turnsback2px towardrest, knees/hips remain folded; BOTHboots stayexactlyplanted asreference. Headtop309, boots448 (140px tall). No standing. Anatomical shoulder→elbow→wrist visiblycontinuous. No bodycoil/rope. Full body, top of head to soles of boots, feet on ground line. Same detailedadult hunter as neutralIMAGE3,39px profilehead, sharpbrownleather mantle/coat, creamlinen, metalbracer, trousers andcompleteboots. Rightfacing. Same512squarecanvas, root256448, tiny140pxfullfigure LOWERmiddle; upper60%totallyEMPTYtransparent alpha0. NOtext, guide, background, floor shadows, debris, zoom orcrop. IMAGE4 isguideonly. No whip rope/lash/coil inbody, shortbarewoodgriponly. Editposeswithoutscalingidentity.",
+    "a": "follow",
+    "b": "rest",
+    "height": 140,
+    "raw_output": "art/production-candidates/hero_crouch-attack-return-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_crouch-attack-follow-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-rest-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  },
+  {
+    "id": "crouchSettleR01",
+    "name": "settle",
+    "prompt": "Create ONE crouched final settling in-between IMAGE1(retractedfollow-through) and IMAGE2(rest),90%towardIMAGE2. NearLEFT shoulder/elbow relaxes, nearclosedfist at236,401 holding barewoodgrip directeddownleft ending220,418, distinct8pxforward ofrest. Farhandrests onfrontknee300,392. Knees and hips stayfullyfolded; BOTHboots/plantedpositions matchIMAGE2, coathem settles2px. Headtop309 feet448 (140px tall). Do NOT unfoldknees or raisetorso. No bodyrope/coil. Full body, top of head to soles of boots, feet on ground line. Same detailedadult hunter as neutralIMAGE3,39px profilehead, sharpbrownleather mantle/coat, creamlinen, metalbracer, trousers andcompleteboots. Rightfacing. Same512squarecanvas, root256448, tiny140pxfullfigure LOWERmiddle; upper60%totallyEMPTYtransparent alpha0. NOtext, guide, background, floor shadows, debris, zoom orcrop. IMAGE4 isguideonly. No whip rope/lash/coil inbody, shortbarewoodgriponly. Editposeswithoutscalingidentity.",
+    "a": "follow",
+    "b": "rest",
+    "height": 140,
+    "raw_output": "art/production-candidates/hero_crouch-attack-settle-r01.png",
+    "required_references": [
+      "art/production-candidates/hero_crouch-attack-follow-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-rest-key-r01.png",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/guides/hero.png"
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/hero_crouch-attack-strike-delivery-r01.png",
+  "corrective_normalization": 0.958904109589041,
+  "source_pivot": [
+    256,
+    453
+  ],
+  "delivery_pivot": [
+    256,
+    448
+  ],
+  "target_height": 140,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

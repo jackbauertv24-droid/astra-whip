@@ -1,0 +1,264 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-crouch-attack-r01/frames",
+ "defects": 0,
+ "flags": 1,
+ "clips_audited": 3,
+ "references": {
+  "hero": {
+   "size": 115.13904637437292,
+   "height": 224,
+   "head": 39
+  }
+ },
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_attack_crouch",
+   "frame": 4,
+   "msg": "jump from frame 3: size 7.6%, height 1.4%"
+  }
+ ],
+ "metrics": {
+  "style_hero_neutral": [
+   {
+    "bbox": [
+     199,
+     225,
+     297,
+     448
+    ],
+    "height": 224,
+    "width": 99,
+    "area": 13257,
+    "size": 115.139,
+    "top": 225,
+    "foot": 448,
+    "headWidth": 39,
+    "bootRatio": 0.592,
+    "legDip": 0.383
+   }
+  ],
+  "hero_attack_crouch": [
+   {
+    "bbox": [
+     203,
+     309,
+     320,
+     448
+    ],
+    "height": 140,
+    "width": 118,
+    "area": 10275,
+    "size": 101.366,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.683,
+    "legDip": 0.769
+   },
+   {
+    "bbox": [
+     199,
+     309,
+     321,
+     448
+    ],
+    "height": 140,
+    "width": 123,
+    "area": 11206,
+    "size": 105.858,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 74,
+    "bootRatio": 0.668,
+    "legDip": 0.714
+   },
+   {
+    "bbox": [
+     198,
+     309,
+     364,
+     448
+    ],
+    "height": 140,
+    "width": 167,
+    "area": 11032,
+    "size": 105.033,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.625,
+    "legDip": 0.537
+   },
+   {
+    "bbox": [
+     196,
+     311,
+     363,
+     448
+    ],
+    "height": 138,
+    "width": 168,
+    "area": 11011,
+    "size": 104.933,
+    "top": 311,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.615,
+    "legDip": 0.533
+   },
+   {
+    "bbox": [
+     205,
+     309,
+     318,
+     448
+    ],
+    "height": 140,
+    "width": 114,
+    "area": 9397,
+    "size": 96.938,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 42,
+    "bootRatio": 0.772,
+    "legDip": 0.735
+   },
+   {
+    "bbox": [
+     204,
+     309,
+     318,
+     448
+    ],
+    "height": 140,
+    "width": 115,
+    "area": 9504,
+    "size": 97.488,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 43,
+    "bootRatio": 0.736,
+    "legDip": 0.796
+   },
+   {
+    "bbox": [
+     204,
+     309,
+     318,
+     448
+    ],
+    "height": 140,
+    "width": 115,
+    "area": 9736,
+    "size": 98.671,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.678,
+    "legDip": 0.775
+   },
+   {
+    "bbox": [
+     203,
+     309,
+     320,
+     448
+    ],
+    "height": 140,
+    "width": 118,
+    "area": 10275,
+    "size": 101.366,
+    "top": 309,
+    "foot": 448,
+    "headWidth": 40,
+    "bootRatio": 0.683,
+    "legDip": 0.769
+   }
+  ],
+  "whip_attack_crouch": [
+   {
+    "bbox": [
+     194,
+     396,
+     235,
+     444
+    ],
+    "tip": 47.508,
+    "near": 0
+   },
+   {
+    "bbox": [
+     76,
+     271,
+     230,
+     326
+    ],
+    "tip": 150.615,
+    "near": 0
+   },
+   {
+    "bbox": [
+     328,
+     344,
+     600,
+     390
+    ],
+    "tip": 264.186,
+    "near": 0
+   },
+   {
+    "bbox": [
+     328,
+     349,
+     610,
+     393
+    ],
+    "tip": 273.885,
+    "near": 0
+   },
+   {
+    "bbox": [
+     266,
+     371,
+     480,
+     437
+    ],
+    "tip": 207.781,
+    "near": 0
+   },
+   {
+    "bbox": [
+     256,
+     380,
+     394,
+     441
+    ],
+    "tip": 122.483,
+    "near": 0
+   },
+   {
+    "bbox": [
+     209,
+     394,
+     255,
+     447
+    ],
+    "tip": 49.659,
+    "near": 0
+   },
+   {
+    "bbox": [
+     194,
+     396,
+     235,
+     444
+    ],
+    "tip": 47.508,
+    "near": 0
+   }
+  ]
+ }
+}

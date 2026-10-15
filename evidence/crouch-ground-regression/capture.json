@@ -1,0 +1,104 @@
+{
+ "attack_seconds": 0.5,
+ "samples": [
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 0,
+   "time": 0
+  },
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 1,
+   "time": 0.075
+  },
+  {
+   "active": true,
+   "facing": 1,
+   "frame": 2,
+   "time": 0.15
+  },
+  {
+   "active": true,
+   "facing": 1,
+   "frame": 3,
+   "time": 0.208333333333333
+  },
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 4,
+   "time": 0.258333333333333
+  },
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 5,
+   "time": 0.316666666666667
+  },
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 6,
+   "time": 0.375
+  },
+  {
+   "active": false,
+   "facing": 1,
+   "frame": 7,
+   "time": 0.441666666666667
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 0,
+   "time": 0
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 1,
+   "time": 0.075
+  },
+  {
+   "active": true,
+   "facing": -1,
+   "frame": 2,
+   "time": 0.15
+  },
+  {
+   "active": true,
+   "facing": -1,
+   "frame": 3,
+   "time": 0.208333333333333
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 4,
+   "time": 0.258333333333333
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 5,
+   "time": 0.316666666666667
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 6,
+   "time": 0.375
+  },
+  {
+   "active": false,
+   "facing": -1,
+   "frame": 7,
+   "time": 0.441666666666667
+  }
+ ],
+ "socket_error_max": 0.0,
+ "socket_tolerance": 0.001,
+ "state": "attack_ground"
+}

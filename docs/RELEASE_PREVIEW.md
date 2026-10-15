@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, a synchronized ground-attack body and separate whip layer, pursuer calibration image, background and masonry. Incomplete crouching/air attacks use held body poses with an engine-drawn whip. The pursuer uses a static painted pose; other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch attack bodies with separate whip layers, pursuer calibration image, background and masonry. The incomplete air attack uses a held body pose with an engine-drawn whip. The pursuer uses a static painted pose; other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -31,3 +31,7 @@ Alternating walk motion, coat continuity and the distinct seam passed fresh inde
 ## Follow-up fix 5: ground attack and whip
 
 Eight painted attack body frames and a separate synchronized leather whip passed fresh independent review r02. Recovery folds gather visibly into the final coil. Actual-input desktop/phone captures verify all frames in both directions and exact mirrored socket registration. Gameplay, strict geometry audits, art-tool checks and web smoke passed. See `evidence/ground-attack-fix.md`.
+
+## Follow-up fix 6: crouch attack
+
+The articulated low attack and separate crouch whip passed fresh independent review r01. The weapon stays in the same near arm, the knees remain folded, and the low hitbox and 500 ms timing are unchanged. Desktop/phone captures verify all eight frames in both facings, crouched collision and exact socket registration. Ground regression, gameplay, art tools and browser smoke passed. See `evidence/crouch-attack-fix.md`.

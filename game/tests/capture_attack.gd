@@ -6,6 +6,7 @@ func _initialize() -> void:
 func capture() -> void:
  var args = OS.get_cmdline_user_args()
  var output = args[0]
+ var attack_state = args[1] if args.size() > 1 else "attack_ground"
  DirAccess.make_dir_recursive_absolute(output)
  var world = load("res://main.tscn").instantiate()
  root.add_child(world)
@@ -18,7 +19,8 @@ func capture() -> void:
  for direction in [1, -1]:
   world.hero.reset_at(Vector2(640, Rules.GROUND))
   world.hero.facing = direction
-  for i in 8:
+  if attack_state == "attack_crouch": world.hero.controls.set_action("crouch", true, "capture")
+  for i in 40:
    await physics_frame
    world.step(DT)
   world.hero.controls.set_action("whip", true, "capture")
@@ -29,8 +31,12 @@ func capture() -> void:
    world.camera.position.x = 640
    var hero = world.hero
    var visual = hero.visual
-   if hero.state != "attack_ground": continue
+   if hero.state != attack_state: continue
    var index = visual.frame
+   if attack_state == "attack_crouch" and (not hero.crouched or hero.shape.shape.size != Rules.CROUCH):
+    printerr("FAIL crouch attack changed collision stance")
+    quit(1)
+    return
    if not visual.weapon.visible or visual.weapon.texture != visual.weapon_frames[index]:
     printerr("FAIL weapon/body synchronization")
     quit(1)
@@ -58,6 +64,6 @@ func capture() -> void:
    quit(1)
    return
  var record = FileAccess.open(output + "/capture.json", FileAccess.WRITE)
- record.store_string(JSON.stringify({"samples": samples, "socket_error_max": socket_error_max, "socket_tolerance": 0.001, "attack_seconds": Rules.ATTACK_END}, " "))
+ record.store_string(JSON.stringify({"state": attack_state, "samples": samples, "socket_error_max": socket_error_max, "socket_tolerance": 0.001, "attack_seconds": Rules.ATTACK_END}, " "))
  print("PASS eight synchronized attack frames in both facings; mirrored sockets within0.001 units")
  quit()

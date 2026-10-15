@@ -202,5 +202,30 @@
     ],
     "method": "Tapered raster leather curves and wood grip use sampled colors from approved coil/grip paint; source-pixel glove sockets and grip directions register each frame. Separate eight-frame weapon layer, no blank phases. Hand occlusion is explicit in the review composites and runtime shader.",
     "reason": "Generated weapon key missed its hand socket by31.6px and had19.7px root thickness; diagnostic retained in art/rejected/whip-ground-key-r01. Full independent composite/motion review required."
+  },
+  "hero_attack_crouch": {
+    "kind": "reused",
+    "source": [
+      "art/production-candidates/hero_crouch-attack-rest-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-windup-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-strike-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-apex-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-follow-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-return-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-settle-key-r01.png",
+      "art/production-candidates/hero_crouch-attack-rest-key-r01.png"
+    ],
+    "method": "Seven directly painted crouched body poses; ready pose reused at final settle. Each key is normalized once from its original delivery with bounded uniform scale; alpha<=4 cleanup only.",
+    "reason": "Replace the held crouch preview with same-arm wind-up, extension, follow-through and recovery without standing up."
+  },
+  "whip_attack_crouch": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/whip_attack_ground",
+      "art/frames/style_hero_neutral/f000.png",
+      "art/production-candidates/hero_same-arm-strike-key.png"
+    ],
+    "method": "Adapt the approved ground raster fallback to the low fist sockets and hitbox. Thin tapered leather and wood colors come from approved paint; recovery folds gather into a compact coil above the floor. Shared shader/review hand occlusion preserves the painted glove.",
+    "reason": "The original weapon generation failed socket/thickness checks (art/rejected/whip-ground-key-r01). Reuse its independently approved scripted replacement method under ART_CONTRACT section11, with a new independent low-attack motion review."
   }
 }

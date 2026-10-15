@@ -1,0 +1,13 @@
+{
+ "defects": 0,
+ "flags": 1,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "hero_attack_crouch",
+   "frame": 4,
+   "msg": "jump from frame 3: size 7.6%, height 1.4%"
+  }
+ ]
+}

@@ -8,6 +8,8 @@ var played: Dictionary = {}
 var weapon: Sprite2D
 var weapon_frames: Array[Texture2D] = []
 var hand_sockets: Array = []
+var weapon_sets: Dictionary = {}
+var socket_sets: Dictionary = {}
 func configure(kind: String) -> void:
  actor = kind
  specs = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))["clips"]
@@ -52,14 +54,17 @@ func configure(kind: String) -> void:
   material_instance.shader = shader
   weapon.material = material_instance
   add_child(weapon)
-  for i in 8:
-   var path = "res://assets/hero/whip_attack_ground/f%03d.png" % i
-   if ResourceLoader.exists(path): weapon_frames.append(load(path))
   if FileAccess.file_exists("res://data/hand_sockets.json"):
-   hand_sockets = JSON.parse_string(FileAccess.get_file_as_string("res://data/hand_sockets.json")).get("hero_attack_ground", [])
+   socket_sets = JSON.parse_string(FileAccess.get_file_as_string("res://data/hand_sockets.json"))
+  for state in ["attack_ground", "attack_crouch", "attack_air"]:
+   var textures: Array[Texture2D] = []
+   for i in specs["hero_" + state].ms.size():
+    var path = "res://assets/hero/whip_" + state + "/f%03d.png" % i
+    if ResourceLoader.exists(path): textures.append(load(path))
+   weapon_sets[state] = textures
  follow("idle", 0)
 func has_weapon_layer(state: String) -> bool:
- return actor == "hero" and state == "attack_ground" and weapon_frames.size() == 8 and hand_sockets.size() == 8
+ return actor == "hero" and weapon_sets.has(state) and weapon_sets[state].size() == specs["hero_" + state].ms.size() and socket_sets.get("hero_" + state, []).size() == specs["hero_" + state].ms.size()
 func playback_rate(state: String) -> float:
  return WALK_CADENCE if actor == "hero" and state == "walk" else 1.0
 func follow(state: String, elapsed: float) -> void:
@@ -82,6 +87,8 @@ func follow(state: String, elapsed: float) -> void:
  if weapon:
   weapon.visible = has_weapon_layer(state)
   if weapon.visible:
+   weapon_frames.assign(weapon_sets[state])
+   hand_sockets = socket_sets["hero_" + state]
    weapon.texture = weapon_frames[index]
    weapon.position = Vector2(256 if flip_h else -256, -448)
    weapon.scale = Vector2(-1 if flip_h else 1, 1)
