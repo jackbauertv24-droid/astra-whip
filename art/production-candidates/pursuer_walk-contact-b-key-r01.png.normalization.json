@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/pursuer_walk-contact-b-delivery-r01.png",
+  "corrective_normalization": 1.0769230769230769,
+  "source_pivot": [
+    128,
+    234
+  ],
+  "delivery_pivot": [
+    128,
+    224
+  ],
+  "target_height": 112,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

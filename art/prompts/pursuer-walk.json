@@ -1,0 +1,98 @@
+[
+  {
+    "id": "pursuerContactAR01",
+    "name": "contact-a",
+    "prompt": "ContactA: NEARfrontclaw plantedat231224, FARhindpawplanted101224. Nearforearmshoulder181143→elbow195179→wrist230215→claw231224. Nearhindlegatback77224justreleasing, farfrontclaw200214 slightlyairborne topreparestep. Shoulder/spinebodyrigidposition, fourlimbsdistinct. Edit approvedcreature IMAGE1 fromrear-up into LOW QUADRUPED patrol. SAME monsteridentity: pallidgnarled flesh coveredinraggeddecaygreencloth-likehide, longhanginghoodskull, rib/spineshadingCLOSEDskin, longthinforelimbs andclawedhands, crookedhindlegs. NOT a dog/pet/naturalanimal, nofur/cuteeyes/gore/wounds/blood. EXACTLY fourconnectedlimbs(twoforearms/twohinds), allcompletefingers/feet. Body lowelongatedspine: hip112,145, shoulders180,142, headhangsforward223,160. Figurebboxaroundx55..261,y113..224 (112pxheight). Samephysicalbodymassasrear-upreference, unfoldedhorizontally, doNOT shrinkitsbones/head. Rightfacing. 320x256canvas, root128224, lowestplantedpawsongroundliney224, NO actualgroundshadow/floor/scenery/text/markers/guides. Upper44%EMPTYtruealpha0. IMAGE2guideonly. KeepcolorsanddetailednonpixelpaintofIMAGE1, sharedbodywidthandscale acrossallposes. Nearlimbsareforeground/darkerclawdefinition; farlimbsdistinctbehind. No posedstandinghumanoid/rear-up.",
+    "raw_output": "art/production-candidates/pursuer_walk-contact-a-r01.png",
+    "required_references": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerPassingAR01",
+    "name": "passing-a",
+    "prompt": "PassingA: plantedNEARfrontclaw209224 andFARhindpaw79224 nowbehindtheircontactpositions. Nearhindlegswingsforwardwithpaw104206, FARfrontlongarmclaw219208liftedandmovingforward. Distinctelbows/hocks, bodyrigidposition. Shoulder181143same. No missinglimbs or duplicatefeet. Edit approvedcreature IMAGE1 fromrear-up into LOW QUADRUPED patrol. SAME monsteridentity: pallidgnarled flesh coveredinraggeddecaygreencloth-likehide, longhanginghoodskull, rib/spineshadingCLOSEDskin, longthinforelimbs andclawedhands, crookedhindlegs. NOT a dog/pet/naturalanimal, nofur/cuteeyes/gore/wounds/blood. EXACTLY fourconnectedlimbs(twoforearms/twohinds), allcompletefingers/feet. Body lowelongatedspine: hip112,145, shoulders180,142, headhangsforward223,160. Figurebboxaroundx55..261,y113..224 (112pxheight). Samephysicalbodymassasrear-upreference, unfoldedhorizontally, doNOT shrinkitsbones/head. Rightfacing. 320x256canvas, root128224, lowestplantedpawsongroundliney224, NO actualgroundshadow/floor/scenery/text/markers/guides. Upper44%EMPTYtruealpha0. IMAGE2guideonly. KeepcolorsanddetailednonpixelpaintofIMAGE1, sharedbodywidthandscale acrossallposes. Nearlimbsareforeground/darkerclawdefinition; farlimbsdistinctbehind. No posedstandinghumanoid/rear-up.",
+    "raw_output": "art/production-candidates/pursuer_walk-passing-a-r01.png",
+    "required_references": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerContactBR01",
+    "name": "contact-b",
+    "prompt": "ContactB/opposite halfstride: FARfrontclawplanted231224 andNEARhindpawplanted101224. NEARfrontclaw201203isfoldedbackofffloor; FARhindpaw77212liftedjustreleasing. Samebodypositionandproportions; changefourlimbjointangles toreversewhichdiagonalpairbearsweight. Edit approvedcreature IMAGE1 fromrear-up into LOW QUADRUPED patrol. SAME monsteridentity: pallidgnarled flesh coveredinraggeddecaygreencloth-likehide, longhanginghoodskull, rib/spineshadingCLOSEDskin, longthinforelimbs andclawedhands, crookedhindlegs. NOT a dog/pet/naturalanimal, nofur/cuteeyes/gore/wounds/blood. EXACTLY fourconnectedlimbs(twoforearms/twohinds), allcompletefingers/feet. Body lowelongatedspine: hip112,145, shoulders180,142, headhangsforward223,160. Figurebboxaroundx55..261,y113..224 (112pxheight). Samephysicalbodymassasrear-upreference, unfoldedhorizontally, doNOT shrinkitsbones/head. Rightfacing. 320x256canvas, root128224, lowestplantedpawsongroundliney224, NO actualgroundshadow/floor/scenery/text/markers/guides. Upper44%EMPTYtruealpha0. IMAGE2guideonly. KeepcolorsanddetailednonpixelpaintofIMAGE1, sharedbodywidthandscale acrossallposes. Nearlimbsareforeground/darkerclawdefinition; farlimbsdistinctbehind. No posedstandinghumanoid/rear-up.",
+    "raw_output": "art/production-candidates/pursuer_walk-contact-b-r01.png",
+    "required_references": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerPassingBR01",
+    "name": "passing-b",
+    "prompt": "PassingB/opposite halfstride: plantedFARfrontclaw209224 andNEARhindpaw79224. FARhindlegswingsforwardwithpaw104206; NEARfrontlongarmclaw219208liftedmovingforward. Samebodypositionandproportions. Clearallfourconnectedlimbs, correspondingoppositediagonal supportpairfromContactA. Edit approvedcreature IMAGE1 fromrear-up into LOW QUADRUPED patrol. SAME monsteridentity: pallidgnarled flesh coveredinraggeddecaygreencloth-likehide, longhanginghoodskull, rib/spineshadingCLOSEDskin, longthinforelimbs andclawedhands, crookedhindlegs. NOT a dog/pet/naturalanimal, nofur/cuteeyes/gore/wounds/blood. EXACTLY fourconnectedlimbs(twoforearms/twohinds), allcompletefingers/feet. Body lowelongatedspine: hip112,145, shoulders180,142, headhangsforward223,160. Figurebboxaroundx55..261,y113..224 (112pxheight). Samephysicalbodymassasrear-upreference, unfoldedhorizontally, doNOT shrinkitsbones/head. Rightfacing. 320x256canvas, root128224, lowestplantedpawsongroundliney224, NO actualgroundshadow/floor/scenery/text/markers/guides. Upper44%EMPTYtruealpha0. IMAGE2guideonly. KeepcolorsanddetailednonpixelpaintofIMAGE1, sharedbodywidthandscale acrossallposes. Nearlimbsareforeground/darkerclawdefinition; farlimbsdistinctbehind. No posedstandinghumanoid/rear-up.",
+    "raw_output": "art/production-candidates/pursuer_walk-passing-b-r01.png",
+    "required_references": [
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerEarlyAR01",
+    "name": "early-a",
+    "a": "contact-a",
+    "b": "passing-a",
+    "prompt": "Create earlyswing walk in-between half-way IMAGE1contactA→IMAGE2passingA. NEARfrontclaw supportmovesback to220224; FARhindpaw support90224. NEARhindlegstartswingpaw94212; FARfrontclaw211208rises. Shoulder/spineremainposeconsistent, elbowsandkneesbend, cloakfolds lag2px. Notuniformtranslationorstaticcopy. IMAGE1 andIMAGE2 bracket this in-between pose, IMAGE3approvedrear-upidentityreference, IMAGE4guideonly. Full creature fromhood/skull toallfourcompleteclawedhands/feet. SAME112pxlowquadruped figure height, bodymassandlimb/hoodsizes asparents, root128224 on320x256canvas; lowestplantedpaws224, top113. Samegaunt pallidflesh decaygreenraggedhide, longthinforelimbs, crookedhocks, no dog/pet/fur/gore/wounds. Exactlyfourlimbs(twoforearms/twohinds), notextra/missingfeet. Anatomyshoulder→elbow→wrist/claws andhip→knee→hock/pawcontinuous. Preservebodyidentityandsharedscale, nofullfigureresizing/zoom/crop. Rightfacing, upper44%EMPTYtruealpha0, nofloor/shadows/text/scenery/markers/guides. Bodyadvances throughfour-limbedwalkingcycle, weightbearingpawsstayflatwhileoppositepairlifts.",
+    "raw_output": "art/production-candidates/pursuer_walk-early-a-r01.png",
+    "required_references": [
+      "art/production-candidates/pursuer_walk-contact-a-key-r01.png",
+      "art/production-candidates/pursuer_walk-passing-a-key-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerLateAR01",
+    "name": "late-a",
+    "a": "passing-a",
+    "b": "contact-b",
+    "prompt": "Create laterswing walk in-between half-way IMAGE1passingA→IMAGE2contactB. NEARfrontclaw reachesback toeoff198224; FARhindpaw68224toeoff. FARfrontclawextendsforward225213 abouttoplant; NEARhindpaw100214 abouttoplant. Far/near limbvisibilitytransitions smoothly, cloaklags2px. Bodymass staysconsistent, knees/elbowsmoveanatomically. IMAGE1 andIMAGE2 bracket this in-between pose, IMAGE3approvedrear-upidentityreference, IMAGE4guideonly. Full creature fromhood/skull toallfourcompleteclawedhands/feet. SAME112pxlowquadruped figure height, bodymassandlimb/hoodsizes asparents, root128224 on320x256canvas; lowestplantedpaws224, top113. Samegaunt pallidflesh decaygreenraggedhide, longthinforelimbs, crookedhocks, no dog/pet/fur/gore/wounds. Exactlyfourlimbs(twoforearms/twohinds), notextra/missingfeet. Anatomyshoulder→elbow→wrist/claws andhip→knee→hock/pawcontinuous. Preservebodyidentityandsharedscale, nofullfigureresizing/zoom/crop. Rightfacing, upper44%EMPTYtruealpha0, nofloor/shadows/text/scenery/markers/guides. Bodyadvances throughfour-limbedwalkingcycle, weightbearingpawsstayflatwhileoppositepairlifts.",
+    "raw_output": "art/production-candidates/pursuer_walk-late-a-r01.png",
+    "required_references": [
+      "art/production-candidates/pursuer_walk-passing-a-key-r01.png",
+      "art/production-candidates/pursuer_walk-contact-b-key-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerEarlyBR01",
+    "name": "early-b",
+    "a": "contact-b",
+    "b": "passing-b",
+    "prompt": "Create oppositehalfgait earlyswing in-between half-way IMAGE1contactB→IMAGE2passingB. FARfrontclaw support220224, NEARhindpaw90224. FARhindpaw94212liftsandNEARfrontclaw211208swingsforward. Samebodyandidentity, bodyoscillation2pxonly, bendjoints ratherthantranslatelimbstickers. IMAGE1 andIMAGE2 bracket this in-between pose, IMAGE3approvedrear-upidentityreference, IMAGE4guideonly. Full creature fromhood/skull toallfourcompleteclawedhands/feet. SAME112pxlowquadruped figure height, bodymassandlimb/hoodsizes asparents, root128224 on320x256canvas; lowestplantedpaws224, top113. Samegaunt pallidflesh decaygreenraggedhide, longthinforelimbs, crookedhocks, no dog/pet/fur/gore/wounds. Exactlyfourlimbs(twoforearms/twohinds), notextra/missingfeet. Anatomyshoulder→elbow→wrist/claws andhip→knee→hock/pawcontinuous. Preservebodyidentityandsharedscale, nofullfigureresizing/zoom/crop. Rightfacing, upper44%EMPTYtruealpha0, nofloor/shadows/text/scenery/markers/guides. Bodyadvances throughfour-limbedwalkingcycle, weightbearingpawsstayflatwhileoppositepairlifts.",
+    "raw_output": "art/production-candidates/pursuer_walk-early-b-r01.png",
+    "required_references": [
+      "art/production-candidates/pursuer_walk-contact-b-key-r01.png",
+      "art/production-candidates/pursuer_walk-passing-b-key-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  },
+  {
+    "id": "pursuerLateBR01",
+    "name": "late-b",
+    "a": "passing-b",
+    "b": "contact-a",
+    "prompt": "Create oppositehalfgait laterswing in-between half-way IMAGE1passingB→IMAGE2contactA. FARfrontclawtoeoff198224, NEARhindpawtoeoff68224. NEARfrontclawreaches225213 readyplant, FARhindpaw100214 readyplant. ThisleadsbackintoIMAGE2contact withoutjump. Samebodymass/hood/clothidentity, elbowskneeshocksmove, cloaklags2px. IMAGE1 andIMAGE2 bracket this in-between pose, IMAGE3approvedrear-upidentityreference, IMAGE4guideonly. Full creature fromhood/skull toallfourcompleteclawedhands/feet. SAME112pxlowquadruped figure height, bodymassandlimb/hoodsizes asparents, root128224 on320x256canvas; lowestplantedpaws224, top113. Samegaunt pallidflesh decaygreenraggedhide, longthinforelimbs, crookedhocks, no dog/pet/fur/gore/wounds. Exactlyfourlimbs(twoforearms/twohinds), notextra/missingfeet. Anatomyshoulder→elbow→wrist/claws andhip→knee→hock/pawcontinuous. Preservebodyidentityandsharedscale, nofullfigureresizing/zoom/crop. Rightfacing, upper44%EMPTYtruealpha0, nofloor/shadows/text/scenery/markers/guides. Bodyadvances throughfour-limbedwalkingcycle, weightbearingpawsstayflatwhileoppositepairlifts.",
+    "raw_output": "art/production-candidates/pursuer_walk-late-b-r01.png",
+    "required_references": [
+      "art/production-candidates/pursuer_walk-passing-b-key-r01.png",
+      "art/production-candidates/pursuer_walk-contact-a-key-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ]
+  }
+]

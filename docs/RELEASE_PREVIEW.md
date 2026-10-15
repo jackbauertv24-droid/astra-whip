@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer uses a static painted pose; other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated patrol/approach locomotion; its remaining actions use a static painted pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -39,3 +39,7 @@ The articulated low attack and separate crouch whip passed fresh independent rev
 ## Follow-up fix 7: air attack
 
 The airborne attack body and separate whip passed fresh independent review r01 with zero numeric defects or flags. Real-jump desktop/phone captures verify all eight synchronized frames in both directions. Active attacks land into the existing ground/crouch layers without restarting the clock or clearing hit IDs. Gameplay, strict weapon audits, art tools and browser jump/whip smoke passed. See `evidence/air-attack-fix.md`.
+
+## Follow-up fix 8a: pursuer locomotion
+
+The eight-frame patrol and approach gaits passed fresh independent review r02. Actual AI desktop/phone captures verify support-foot registration, both facings, unchanged movement speeds and matching43.2-unit strides. Mirroring now preserves the asymmetric ground pivot. This is a disclosed D23 scripted animation fallback from an independently accepted painted source key; retain it as quality debt. Seven pursuer actions remain pending. See `evidence/pursuer-walk-fix.md`.

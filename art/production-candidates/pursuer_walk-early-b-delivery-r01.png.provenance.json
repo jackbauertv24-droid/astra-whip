@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/pursuer_walk-early-b-r01.png",
+  "source_canvas": [
+    1402,
+    1122
+  ],
+  "export_canvas": [
+    320,
+    256
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

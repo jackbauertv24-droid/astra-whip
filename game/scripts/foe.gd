@@ -58,7 +58,7 @@ func simulate(dt: float) -> void:
     "idle":
      if elapsed >= 0.9: enter("patrol_walk")
     "patrol_walk":
-     position.x += facing * 60 * dt
+     position.x += facing * Rules.PURSUER_PATROL_SPEED * dt
      if position.x <= bounds.x: facing = 1
      if position.x >= bounds.y: facing = -1
      if visible_threat and distance < 400 and absf(h.position.y - floor_y) < 70: enter("alert")
@@ -67,7 +67,7 @@ func simulate(dt: float) -> void:
      if elapsed >= 0.3: enter("approach_walk")
     "approach_walk":
      facing = direction
-     position.x += facing * 100 * dt
+     position.x += facing * Rules.PURSUER_APPROACH_SPEED * dt
      if distance < 120: enter("lunge_windup")
      elif distance > 400: enter("patrol_walk")
     "lunge_windup":

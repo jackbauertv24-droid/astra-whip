@@ -535,5 +535,49 @@
       "method": "Adapt the approved ground leather/wood raster fallback to airborne fist sockets and the standing-height active hitbox. Tapered flexible lash gathers in ordered recovery loops; shared runtime/review glove occlusion.",
       "reason": "Original weapon generation failed socket/thickness checks (art/rejected/whip-ground-key-r01). Reuse its independently approved scripted replacement method under ART_CONTRACT section11, with a fresh independent air-attack review."
     }
+  },
+  "pursuer_patrol_walk": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/review-pursuer-keys-r01/f000.png",
+        "tools/prepare-pursuer-gait.mjs",
+        "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+      ],
+      "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+      "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+    }
+  },
+  "pursuer_approach_walk": {
+    "ms": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "reused",
+      "source": [
+        "art/frames/pursuer_patrol_walk"
+      ],
+      "method": "Reuse the articulated patrol gait. Source timings stay70ms; runtime cadence35/27 gives the same43.2u stride.",
+      "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+    }
   }
 }

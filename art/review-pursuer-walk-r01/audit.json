@@ -1,0 +1,20 @@
+{
+ "defects": 0,
+ "flags": 2,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_patrol_walk",
+   "frame": 2,
+   "msg": "jump from frame 1: size 6.4%, height 0.9%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "pursuer_approach_walk",
+   "frame": 2,
+   "msg": "jump from frame 1: size 6.4%, height 0.9%"
+  }
+ ]
+}

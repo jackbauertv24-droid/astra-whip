@@ -241,6 +241,7 @@ func run() -> void:
    var ms=0.0
    for index in spec.ms.size():
     var expected_rate = 2.0 if id == "hero_walk" else 1.0 # ANIMATION_SPEC permits travel-speed tuning.
+    if id == "pursuer_approach_walk": expected_rate = 35.0 / 27.0
     v.follow(id.substr(v.actor.length()+1),(ms+0.01)/(1000.0*expected_rate))
     check(v.frame==index,"frame-step "+id+"/"+str(index))
     ms+=float(spec.ms[index])

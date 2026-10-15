@@ -10,9 +10,16 @@ var weapon_frames: Array[Texture2D] = []
 var hand_sockets: Array = []
 var weapon_sets: Dictionary = {}
 var socket_sets: Dictionary = {}
+var approach_cadence = 1.0
 func configure(kind: String) -> void:
  actor = kind
  specs = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))["clips"]
+ if actor == "pursuer":
+  var patrol_ms = 0.0
+  var approach_ms = 0.0
+  for value in specs.pursuer_patrol_walk.ms: patrol_ms += float(value)
+  for value in specs.pursuer_approach_walk.ms: approach_ms += float(value)
+  approach_cadence = approach_ms * Rules.PURSUER_APPROACH_SPEED / (patrol_ms * Rules.PURSUER_PATROL_SPEED)
  sprite_frames = SpriteFrames.new()
  sprite_frames.remove_animation("default")
  for id in specs:
@@ -24,9 +31,9 @@ func configure(kind: String) -> void:
   sprite_frames.set_animation_speed(id, 1000)
   for i in spec.ms.size():
    var ms = spec.ms[i]
-   var path = "res://assets/hero/" + id + "/f%03d.png" % i
+   var path = "res://assets/" + actor + "/" + id + "/f%03d.png" % i
    var texture: Texture2D
-   if actor == "hero" and ResourceLoader.exists(path):
+   if ResourceLoader.exists(path):
     texture = load(path)
    elif actor == "hero" and id == "hero_attack_ground":
     var keys = ["rest","windup","strike","strike","follow","follow","rest","rest"]
@@ -66,6 +73,7 @@ func configure(kind: String) -> void:
 func has_weapon_layer(state: String) -> bool:
  return actor == "hero" and weapon_sets.has(state) and weapon_sets[state].size() == specs["hero_" + state].ms.size() and socket_sets.get("hero_" + state, []).size() == specs["hero_" + state].ms.size()
 func playback_rate(state: String) -> float:
+ if actor == "pursuer" and state == "approach_walk": return approach_cadence
  return WALK_CADENCE if actor == "hero" and state == "walk" else 1.0
 func follow(state: String, elapsed: float) -> void:
  var id = actor + "_" + state
@@ -74,6 +82,7 @@ func follow(state: String, elapsed: float) -> void:
  if animation != id: animation = id
  pause()
  if get_parent().get("facing") != null: flip_h = get_parent().facing < 0
+ if actor == "pursuer": offset.x = -32 if flip_h else 32
  var ms = elapsed * 1000.0 * playback_rate(state)
  var durations: Array = specs[id].ms
  var total = 0.0
