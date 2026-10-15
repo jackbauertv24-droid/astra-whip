@@ -1,0 +1,27 @@
+{
+  "pursuer_patrol_walk": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/review-pursuer-keys-r01/f000.png",
+      "tools/prepare-pursuer-gait.mjs",
+      "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+    ],
+    "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+    "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+  },
+  "pursuer_death": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/pursuer_lunge_windup/f001.png",
+      "art/production-candidates/pursuer-death-f001-key-r01.png",
+      "art/production-candidates/pursuer-death-f002-key-r01.png",
+      "art/production-candidates/pursuer-death-corpse-clean-r01.png",
+      "art/production-candidates/pursuer-death-ash-r01/f004.png",
+      "art/production-candidates/pursuer-death-ash-r01/f005.png",
+      "tools/prepare-pursuer-ash.mjs",
+      "art/review-pursuer-corpse-key-r01/review_verdict.md"
+    ],
+    "method": "Reuse approved compression for the lethal buckling entry, directly painted intermediate fall poses and independently accepted complete grounded corpse. Final two frames derive soft Ash Grey erosion and descending/settling flecks from that approved corpse; no whole-body scale. Generated body keys get one factor1 baseline registration. Alpha<=4 cleanup only.",
+    "reason": "Complete the one-HP lethal sequence with supported collapse and D13 ash rather than a tinted held pose. Body identity is preserved through a declared D23 scripted ash derivation from approved paint; retain derived-animation quality debt and require full independent motion review."
+  }
+}

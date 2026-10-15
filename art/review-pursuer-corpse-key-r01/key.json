@@ -1,0 +1,13 @@
+{
+  "intended_pose": "Complete grounded limp pursuer at the end of collapse, before ash. Skull/cheek and chest down, hips fallen, four limbs folded/splayed plausibly, not a living crouch or smaller copy.",
+  "canvas": [
+    320,
+    256
+  ],
+  "pivot": [
+    128,
+    224
+  ],
+  "static_only": true,
+  "source": "art/production-candidates/pursuer-death-corpse-clean-r01.png"
+}

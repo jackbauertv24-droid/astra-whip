@@ -1,0 +1,167 @@
+{
+ "records": [
+  {
+   "dead_contact_damage": false,
+   "direction": 1,
+   "normal_initial_hp": 1,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "death-right-before.png",
+     "frame": 0,
+     "hp": 1,
+     "state": "patrol_walk",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.0,
+     "file": "death-right-f00.png",
+     "frame": 0,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "death-right-f01.png",
+     "frame": 1,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "death-right-f02.png",
+     "frame": 2,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.241666666666667,
+     "file": "death-right-f03.png",
+     "frame": 3,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.325,
+     "file": "death-right-f04.png",
+     "frame": 4,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.4,
+     "file": "death-right-f05.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "death-right-hold.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 1.30833333333333,
+     "file": "death-right-hidden.png",
+     "frame": 5,
+     "state": "death",
+     "visible": false,
+     "x": 1050.0
+    }
+   ],
+   "six_frames_then_hold": true
+  },
+  {
+   "dead_contact_damage": false,
+   "direction": -1,
+   "normal_initial_hp": 1,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "death-left-before.png",
+     "frame": 0,
+     "hp": 1,
+     "state": "patrol_walk",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.0,
+     "file": "death-left-f00.png",
+     "frame": 0,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "death-left-f01.png",
+     "frame": 1,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "death-left-f02.png",
+     "frame": 2,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.241666666666667,
+     "file": "death-left-f03.png",
+     "frame": 3,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.325,
+     "file": "death-left-f04.png",
+     "frame": 4,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.4,
+     "file": "death-left-f05.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "death-left-hold.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true,
+     "x": 1050.0
+    },
+    {
+     "elapsed": 1.30833333333333,
+     "file": "death-left-hidden.png",
+     "frame": 5,
+     "state": "death",
+     "visible": false,
+     "x": 1050.0
+    }
+   ],
+   "six_frames_then_hold": true
+  }
+ ],
+ "viewport": "(852, 393)"
+}

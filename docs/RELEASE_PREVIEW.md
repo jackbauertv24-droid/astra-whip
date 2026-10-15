@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, pursuer calibration image, background and masonry. The pursuer has animated idle, patrol/approach, alert, lunge sequence and conditional hurt; death remains a static preview pose. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -59,3 +59,7 @@ Windup, execution and recovery passed fresh independent r02 review after a termi
 ## Follow-up fix 8e: pursuer hurt
 
 Three articulated recoil frames passed fresh independent r02 review with stationary supports and an exact approach return. A two-HP test-only instance exercises the actual nonlethal hit handler and windup interruption; normal production one-HP hits are separately verified to enter death. Production durability and damage are unchanged. Native/phone captures, gameplay, contract, art tools and browser regression passed. Scripted fallback quality debt remains disclosed; death is still pending. See `evidence/pursuer-hurt-fix.md`.
+
+## Follow-up fix 8f: pursuer death and complete actor inventory
+
+Six collapse/ash frames passed fresh independent r01 review, including both numeric flags. Actual normal one-HP death captures verify complete grounded collapse, final hold, cleanup and no dead contact damage in both facings. The complete pursuer inventory now passes: nine clips, 46 frames, exact runtime files, scoped approvals and all frames in both-facing native/phone captures. Gameplay, contract, art tools and browser regression passed. Scripted-animation quality debt and external physical-device/player studies remain explicitly disclosed. See `evidence/pursuer-death-fix.md` and `evidence/pursuer-inventory.json`.

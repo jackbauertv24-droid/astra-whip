@@ -11,13 +11,13 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 5 | Ground attack and separate whip geometry/socket/reach | DONE; independent r02 PASS; eight synchronized frames, mirrored sockets, gathering recovery loops and strict thickness checks |
 | 6 | Crouch attack articulation | DONE; independent r01 PASS; articulated same-arm low attack, synchronized whip and unchanged crouch collision |
 | 7 | Air attack articulation | DONE; independent r01 PASS; airborne body/whip sequence, mirrored sockets and active landing handoffs verified |
-| 8 | Pursuer supported action clips | PARTIAL: patrol/approach, idle, alert, lunge sequence and conditional hurt DONE (fresh reviews PASS); death remains |
+| 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
 | 9 | Swooper supported action clips | Engine silhouette in preview |
 | 10 | Ranged enemy supported action clips | Engine silhouette in preview |
 | 11 | Boss supported action clips | Engine silhouette in preview |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |
-| 14 | Phone-sized runtime captures, portrait/safe-area/input checks | Basic touch controls; further validation pending |
+| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Basic touch controls; further validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.

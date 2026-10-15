@@ -1,0 +1,50 @@
+[
+  {
+    "key": "corpse-r01",
+    "prompt": "Use case: identity-preserve. Asset type: ONE complete transparent painted game enemy sprite, final grounded collapse/death pose, not a sheet. Image1 is the exact creature identity and physical scale/edit target. Image2 is its approved tall identity reference. Image3 is the required320x256canvas guide. Repose the same gaunt invented quadruped into a DEAD, limp body resting on its side/stomach along the ground. Chest and long skull/cheek touch the floor; hind hips have dropped, both crooked hindlegs fold and splay, both excessively long forelimbs lie slack along the floor, all four limb chains remain present with plausible overlap. The hanging facial hide and olive layered pelt fold onto the floor, not upright. Closed pale skin, no open wounds or exposed bones. Preserve exact head size, limb bone lengths, body mass, pallid skin/decay-green ragged hide, painterly matte material and upper-left light. Full body, head to all four clawed feet, grounded feet/body on the ground line. Body lies lengthwise facing right; complete skull and all limbs insidecanvas. Exactsource layout320x256, baseline224, origin128224, lowest claw224, highest hunched hip/back near164 (about60px totalheight), horizontal extents around60..300. Head near250208, cheek near224; a complete creature folded onto the floor, not a resized little copy or a living crouch. Enough transparent margin. Genuinely transparent background, no ground or shadow plane, scenery, particles, separate blood, gore, colored guide marks, text or watermark. Head and limbs retain their original physical size; achieve low envelope by collapse and folding.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_patrol_walk/f000.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-death-corpse-r01.png"
+  },
+  {
+    "key": "collapse-f002-r01",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent full-body illustrated game enemy death-collapse sprite, frame2 of the body collapse. Image1 is the approved living low-pose edit target and physical scale. Image2 is the grounded final-body endpoint/pose bracket. Image3 is approved tall identity reference. Image4 is mandatory320x256layout guide. Repose image1 toward image2, at abouttwo-thirds of the fall: hind knees buckle and hips sink, both long forearms are folded and splayed as their support gives way, shoulders fall toward the floor and the neck/skull droops low; cheek is approaching the ground but has not fully settled into image2. Clearly losing support and dying, not an alert or deliberate crouch. Keep same complete four-limbed gaunt monster, exact face/head size, long forearm and hind bone lengths, pallid closed skin, layered decay-green ragged hide and matte painterly texture. Full body, head to all four clawed feet, feet on the ground line; all four limb chains present with plausible overlap. Face right, sourcecanvas320x256, floor224/pivot128224, approximate top140 (84px visibleheight), root/body placement compatible with both endpoints; do not globally resize. Head around260185, lowered chest/hips; cloth falls/folds around the intact body. Genuine transparent background, no ground plane/shadow, scenery, particles, detached limbs/marks, guide colors/lines, text, gore or blood. No natural animal/pet read.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_lunge_windup/f001.png",
+      "art/production-candidates/pursuer-death-corpse-clean-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-death-f002-r01.png"
+  },
+  {
+    "key": "collapse-f001-r01",
+    "prompt": "Use case: identity-preserve. Asset type: ONE transparent full-body painted enemy collapse in-between, frame1. Image1 is the exact approved source/early pose. Image2 is the next falling-pose neighbor. Image3 is the approved identity reference; image4 the required320x256layout guide. Produce the connected IN-BETWEEN halfway from image1 to image2: forearm/elbow support starts buckling, skull and neck droop halfway down, hind knees fold and hips begin to give way; not yet as low or folded as image2. Head top around148, body/back top around124, grounded claws224; fullbody320x256source canvas with pivot128224. Full body, head to all four clawed feet, feet on the ground line. Preserve image1's exact head size, bone lengths, pale gaunt limbs, all four limb identities, decay-green ragged layered hide, matte painted material and physical bodymass. Keep plausible joint connections and occlusion, right-facing, all extremities comfortably insidecanvas. This is loss of support after a lethal hit, not a deliberate living crouch. No whole-character scaling or translation. Maintain original upper-left light. True transparent background; no ground/shadowplane, scenery, particles, floating scraps, guide colors/lines, text, blood, gore or opened skin.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/frames/pursuer_lunge_windup/f001.png",
+      "art/production-candidates/pursuer-death-f002-key-r01.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-death-f001-r01.png",
+    "status": "Retained builder-rejected draft: head/neck did not form the requested falling in-between and S changed6.6% from entry. Draft full audit/snapshot retained; not submitted for motion acceptance."
+  },
+  {
+    "key": "collapse-f001-r02",
+    "prompt": "Use case: identity-preserve. ONE full-body transparent illustrated game sprite, collapse in-between. IMAGE1 IS THE EXACT EDIT TARGET: preserve its hips, legs, planted claws, illustration detail and all four limb identities. IMAGE2 is the earlier pose neighbor. Image3 is approved identity reference, image4 mandatory canvas guide. Change only image1's head/neck and a small shoulder adjustment to create the intermediate BEFORE image1: lift the skull/face about20source pixels toward image2, lifting shoulders only3px and slightly opening the folded elbows. Keep the hindquarters and paws in image1's positions. Thus face top should be around150 instead of image1's170; between image2's125 and image1's170. The head is drooping halfway down after lethal impact; support is buckling and body is losing weight, not a new alert. Preserve exact head size, limb lengths, pale skin, matte decay-green ragged hide and body bulk. Full body head to all four clawed feet, feet on groundline224;320x256sourcecanvas, pivot128224. All limbs connected, full right-facing creature safely inside canvas. Keep the overall crouched back height and do not lift the whole body. No whole-character scaling. Genuine transparent background; no ground/shadow, scenery, particles, loose scraps, guide colors, text, blood, gore or opened skin.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/production-candidates/pursuer-death-f002-key-r01.png",
+      "art/frames/pursuer_lunge_windup/f001.png",
+      "art/candidates/style_enemy_pursuer.png",
+      "art/guides/pursuer.png"
+    ],
+    "raw": "art/production-candidates/pursuer-death-f001-r02.png"
+  }
+]

@@ -1,0 +1,278 @@
+{
+  "actor": "pursuer",
+  "clips": 9,
+  "frames": 46,
+  "all_scoped_reviews_pass": true,
+  "all_frames_both_facings_native_and_phone": true,
+  "conditional_hurt_only": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "reports": [
+    {
+      "id": "pursuer_idle",
+      "frames": 6,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "normal_one_hp_path": true,
+      "transitions": "spawn ->900ms ->patrol",
+      "review": "art/review-pursuer-idle-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-idle-engine-r02/capture.json",
+        "evidence/pursuer-idle-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/frames/pursuer_patrol_walk/f000.png",
+          "tools/prepare-pursuer-idle.mjs",
+          "art/production-candidates/pursuer-idle-fallback-r03/derivation.json"
+        ],
+        "method": "Painted source geometry retained with local three-pixel chest/neck breathing and subpixel beard/rag follow-through. Legs and paws stay registered. No whole-body scaling, translation or rotation. Alpha<=4 cleanup only.",
+        "reason": "Generated breathing poses changed chest/forelimb volume at neutral transitions; independent r01 FAIL retained. D23 permits a reviewed scripted fallback from approved art. The coherent six-frame breathing envelope uses the fixed approved patrol entry key; disclose quality debt."
+      }
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frames": 8,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "normal_one_hp_path": true,
+      "transitions": "patrol60u/s ->visible same-level hunter within400u ->alert",
+      "review": "art/review-pursuer-walk-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-walk-engine-r02/capture.json",
+        "evidence/pursuer-walk-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-gait.mjs",
+          "art/production-candidates/pursuer-gait-rig-r02/rig.json"
+        ],
+        "method": "Rigid painted bone parts rotated about connected joints from an independently approved static key. Four fixed limb identities, continuous stance and lifted forward swing; stance travels10.8source px per frame. No whole-body scaling. Isolated old toe fragments outside limb cutouts are removed from the remaining connected torso layer.",
+        "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+      }
+    },
+    {
+      "id": "pursuer_alert",
+      "frames": 4,
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "transitions": "300ms rear-up ->approach",
+      "review": "art/review-pursuer-alert-r01/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-alert-engine-r01/capture.json",
+        "evidence/pursuer-alert-phone-r01/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-alert.mjs",
+          "art/production-candidates/pursuer-alert-fallback-r03/rig.json"
+        ],
+        "method": "Same approved painted bone parts as locomotion. Torso rears around hips up to18degrees; four independent joint chains lift forepaws and place the far hind support while the near hindpaw stays fixed. Return pose equals approved approach entry. No whole-body scaling or translation. Alpha<=4 cleanup only.",
+        "reason": "Two generated intermediate entries exceeded G-03 normalization limits, with raw images and failures retained. D23 articulated fallback from independently approved static source; full new action/phone review required and quality debt disclosed."
+      }
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frames": 8,
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "normal_one_hp_path": true,
+      "transitions": "approach100u/s ->within120u ->windup; beyond400u ->patrol",
+      "review": "art/review-pursuer-walk-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-walk-engine-r02/capture.json",
+        "evidence/pursuer-walk-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "reused",
+        "source": [
+          "art/frames/pursuer_patrol_walk"
+        ],
+        "method": "Reuse the articulated patrol gait. Source timings stay70ms; runtime cadence35/27 gives the same43.2u stride.",
+        "reason": "D23 fallback after generated gait failed independent motion review (art/review-pursuer-walk-r01/review_verdict.md). Static key independently accepted in art/review-pursuer-keys-r01/review_verdict.md. Full new motion review required; disclose scripted animation as quality debt."
+      }
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "frames": 4,
+      "ms": [
+        100,
+        100,
+        75,
+        75
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "transitions": "350ms supported windup ->lunge",
+      "review": "art/review-pursuer-lunge-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-lunge-engine-r02/capture.json",
+        "evidence/pursuer-lunge-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-lunge.mjs",
+          "art/production-candidates/pursuer-lunge-r02/pursuer_lunge_windup/rig.json"
+        ],
+        "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+        "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+      }
+    },
+    {
+      "id": "pursuer_lunge",
+      "frames": 3,
+      "ms": [
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "transitions": "260u/s for240ms ->recovery",
+      "review": "art/review-pursuer-lunge-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-lunge-engine-r02/capture.json",
+        "evidence/pursuer-lunge-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-lunge.mjs",
+          "art/production-candidates/pursuer-lunge-r02/pursuer_lunge/rig.json"
+        ],
+        "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+        "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+      }
+    },
+    {
+      "id": "pursuer_recovery",
+      "frames": 4,
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "transitions": "600ms stationary recovery ->approach",
+      "review": "art/review-pursuer-lunge-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-lunge-engine-r02/capture.json",
+        "evidence/pursuer-lunge-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-lunge.mjs",
+          "art/production-candidates/pursuer-lunge-r02/pursuer_recovery/rig.json"
+        ],
+        "method": "Same approved painted bone parts and articulated cutout technique as locomotion/alert. Windup compresses through hips and independent knees/elbows; lunge extends low with alternating forepaw supports compensating41.6source px per80ms at260u/s, including the final catch into recovery; recovery replants and rises into the approved approach entry. No whole-body scale. Alpha<=4 cleanup only.",
+        "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+      }
+    },
+    {
+      "id": "pursuer_hurt",
+      "frames": 3,
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "normal_one_hp_path": false,
+      "conditional_note": "Nonlethal branch exercised with test-only2HP; normal production1HP routes to death.",
+      "transitions": "conditional nonlethal take_hit ->180ms ->approach",
+      "review": "art/review-pursuer-hurt-r02/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-hurt-engine-r02/capture.json",
+        "evidence/pursuer-hurt-phone-r02/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/review-pursuer-keys-r01/f000.png",
+          "tools/prepare-pursuer-hurt.mjs",
+          "art/production-candidates/pursuer-hurt-r02/pursuer_hurt/rig.json"
+        ],
+        "method": "Asymmetric articulated recoil: head/torso retract, one forearm folds toward the chest, opposite forepaw and near hindpaw stay registered. Recover to approved approach entry. Original bone lengths and painted identity retained, no whole-body scale. Alpha<=4 cleanup only.",
+        "reason": "Continue the actor D23 fallback after direct generated keys failed gait continuity and alert density/pose constraints; retain those failures. Every new action receives a fresh independent motion and actual-AI travel review; disclose scripted quality debt."
+      }
+    },
+    {
+      "id": "pursuer_death",
+      "frames": 6,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "transitions": "normal lethal take_hit ->480ms clip ->hold ->cleanup after1.2s",
+      "review": "art/review-pursuer-death-r01/review_verdict.md",
+      "captures": [
+        "evidence/pursuer-death-engine-r01/capture.json",
+        "evidence/pursuer-death-phone-r01/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/frames/pursuer_lunge_windup/f001.png",
+          "art/production-candidates/pursuer-death-f001-key-r02.png",
+          "art/production-candidates/pursuer-death-f002-key-r01.png",
+          "art/production-candidates/pursuer-death-corpse-clean-r01.png",
+          "art/production-candidates/pursuer-death-ash-r01/f004.png",
+          "art/production-candidates/pursuer-death-ash-r01/f005.png",
+          "tools/prepare-pursuer-ash.mjs",
+          "art/review-pursuer-corpse-key-r01/review_verdict.md"
+        ],
+        "method": "Reuse approved compression for the lethal buckling entry, directly painted intermediate fall poses and independently accepted complete grounded corpse. Final two frames derive soft Ash Grey erosion and descending/settling flecks from that approved corpse; no whole-body scale. Generated body keys get one factor1 baseline registration. Alpha<=4 cleanup only.",
+        "reason": "Complete the one-HP lethal sequence with supported collapse and D13 ash rather than a tinted held pose. Body identity is preserved through a declared D23 scripted ash derivation from approved paint; retain derived-animation quality debt and require full independent motion review."
+      }
+    }
+  ]
+}
