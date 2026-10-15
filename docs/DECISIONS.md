@@ -121,3 +121,7 @@ Decision: publish the current working slice as a public preview named `astra-whi
 ## Actor pivot repair — 2026-10-15
 
 Read each actor's canvas and pivot from the existing runtime art contract and mirror the horizontal offset with facing. This repairs sprite registration before adding remaining enemy art; gameplay origins, collision and timing remain authoritative. Validate all five actors in both facings with a full-canvas registration pixel and prove failure against the previous renderer. See `../evidence/actor-pivot-fix.md`.
+
+## Swooper circle collision repair — 2026-10-15
+
+Apply the existing ASSET_BRIEFS radius of 40 units to both contact and whip intersection, with a closest-point rectangle/circle test. Store the radius in Rules, shared by the bounding envelope and exact narrow phase. Preserve all other enemy rectangle geometry, attack timing and hit deduplication. The default engine test runner now includes the actual-damage collision regression and the existing actor-pivot regression. See `../evidence/swooper-circle-fix.md`.

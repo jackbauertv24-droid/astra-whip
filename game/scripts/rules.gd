@@ -7,6 +7,7 @@ const JUMP = -640.0
 const AIR_ACCEL = 600.0
 const PURSUER_PATROL_SPEED = 60.0
 const PURSUER_APPROACH_SPEED = 100.0
+const SWOOPER_RADIUS = 40.0
 const COYOTE = 0.1
 const BUFFER = 0.1
 const WINDUP = 0.15

@@ -30,8 +30,12 @@ func contact_rect() -> Rect2:
  match kind:
   "boss": return Rect2(position + Vector2(-60, -176), Vector2(120,176))
   "ranged": return Rect2(position + Vector2(-36,-150), Vector2(72,150))
-  "swooper": return Rect2(position - Vector2(40,40),Vector2(80,80))
+  "swooper": return Rect2(position-Vector2.ONE*Rules.SWOOPER_RADIUS,Vector2.ONE*Rules.SWOOPER_RADIUS*2)
  return Rect2(position + Vector2(-48,-52), Vector2(96,52))
+func overlaps_rect(rect: Rect2) -> bool:
+ if kind != "swooper": return contact_rect().intersects(rect)
+ var closest = Vector2(clampf(position.x,rect.position.x,rect.end.x),clampf(position.y,rect.position.y,rect.end.y))
+ return position.distance_squared_to(closest) < Rules.SWOOPER_RADIUS*Rules.SWOOPER_RADIUS
 func take_hit() -> void:
  if hp <= 0: return
  hp -= 1
@@ -160,11 +164,9 @@ func simulate(dt: float) -> void:
     "hurt":
      if elapsed >= 0.2: enter("walk")
    position.x = clampf(position.x, 5700, 6460)
- if contact_rect().intersects(h.body_rect()):
-  # Flight contact uses the declared circle, not its bounding square corners.
-  if kind != "swooper" or h.body_rect().get_center().distance_to(position) < 60:
-   h.damage("contact", position.x)
- if h.active() and contact_rect().intersects(h.whip_rect()) and h.hit_target(get_instance_id()): take_hit()
+ if overlaps_rect(h.body_rect()):
+  h.damage("contact", position.x)
+ if h.active() and overlaps_rect(h.whip_rect()) and h.hit_target(get_instance_id()): take_hit()
  visual.follow(state,elapsed)
  queue_redraw()
 func _draw() -> void:

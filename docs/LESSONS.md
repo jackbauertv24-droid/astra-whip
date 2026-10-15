@@ -56,3 +56,7 @@ Reversing a fall can preserve identity and numeric size while leaving the body u
 ### Sprite registration must use each actor's contract pivot
 
 The renderer reused the pursuer offset for every non-hero actor. Full-canvas sprite registration then misplaced the swooper by (16,-48) world units, ranged enemy by (16,24), and boss differently in each facing. Ink-size audits cannot detect a runtime transform error. `game/tests/actor_pivot.gd` places a registration pixel at each contract pivot on a full-size texture and transforms it through the actual sprite for both facings. The archived previous renderer fails six cases; the corrected renderer passes all ten. Hero and pursuer offsets remain identical.
+
+### Circle collisions require rectangle-to-circle distance
+
+The swooper's declared circle was approximated by a 60-unit distance to the hunter's center, which missed real contact near the top and bottom of the hunter. Whip hits used the circle's bounding square and could hit empty corners, consuming the target's once-per-attack slot. A 32-case engine regression reproduces 12 failures in the previous implementation across both facings and standing/crouched bodies. It exercises actual damage and attack deduplication, not just a standalone math helper. The repair measures distance from the circle center to the closest point of each body/attack rectangle, using the authoritative 40-unit radius. `tools/test-game.sh` now includes this suite and the actor-pivot regression. Pixel art audits do not establish runtime collision geometry.

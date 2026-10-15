@@ -55,3 +55,7 @@ A test is accepted only after it has been seen failing: break the rule on purpos
 ## Handoff evidence format
 
 Record gate ID, revision/build, method, device/tool details, expected result, observed result, evidence path, verdict (PASS/FAIL/NOT-TESTED), and corrective action. Never replace missing measurements with “should work.”
+
+## Implementation regressions: authored pivots and flight collision
+
+The implementation's `tools/test-game.sh` runs the canonical T01–T09 suite, `game/tests/actor_pivot.gd` and `game/tests/swooper_collision.gd`. The latter fixtures verify all five actor pivots in both facings and exercise actual swooper contact/whip damage against the specified circle, including corner misses and once-per-attack target accounting. Archived failures prove these tests reject the pre-fix renderer/collision implementations. See `../evidence/actor-pivot-fix.md` and `../evidence/swooper-circle-fix.md`. These automated engine checks do not replace physical-device or unfamiliar-player testing.
