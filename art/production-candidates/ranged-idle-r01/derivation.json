@@ -1,0 +1,69 @@
+{
+  "source": "art/production-candidates/ranged-identity-r02/key.png",
+  "static_review": "art/review-ranged-key-r02/review_verdict.md",
+  "kind": "scripted_fallback",
+  "method": "Local3px chest expansion/2px lift,1px hood lift, elbow/wrist sway and2px cloth response; post and grounded base fixed. No global scaling, translation or per-frame normalization.",
+  "reason": "D23 local rig preserves accepted painted anatomy for subtle idle. The first generated ranged key failed construction readiness (bound aiming arm/post height); the corrected source retains that repaired construction. Prior generated action corrections elsewhere also changed anatomy/pose; no rejected ranged motion cycle is claimed. Entire resulting idle requires independent action review and remains quality debt.",
+  "records": [
+    {
+      "frame": 0,
+      "breath": 0,
+      "sway": 0,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 781,
+      "max_chest_expansion_px": 0,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 0
+    },
+    {
+      "frame": 1,
+      "breath": 0.24999999999999994,
+      "sway": 0.8660254037844386,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 729,
+      "max_chest_expansion_px": 0.7499999999999998,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 0.24999999999999994
+    },
+    {
+      "frame": 2,
+      "breath": 0.7499999999999999,
+      "sway": 0.8660254037844387,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 703,
+      "max_chest_expansion_px": 2.2499999999999996,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 0.7499999999999999
+    },
+    {
+      "frame": 3,
+      "breath": 1,
+      "sway": 1.2246467991473532e-16,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 743,
+      "max_chest_expansion_px": 3,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 1
+    },
+    {
+      "frame": 4,
+      "breath": 0.7500000000000002,
+      "sway": -0.8660254037844385,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 706,
+      "max_chest_expansion_px": 2.250000000000001,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 0.7500000000000002
+    },
+    {
+      "frame": 5,
+      "breath": 0.24999999999999994,
+      "sway": -0.8660254037844386,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 715,
+      "max_chest_expansion_px": 0.7499999999999998,
+      "post_and_base": "x<=120 and y>=295 remain exactly registered",
+      "hood_lift_px": 0.24999999999999994
+    }
+  ]
+}

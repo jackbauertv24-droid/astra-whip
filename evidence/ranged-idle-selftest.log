@@ -1,0 +1,30 @@
+ok   correct synthetic set (64 clips): 0 DEFECT, 7 FLAG
+ok   PNG encode/decode round trip is lossless
+ok   correct hero set read back from PNG files: 25 clips, 0 DEFECT
+ok   torso-idle             A-07 expected; DEFECT rules reported: A-06, A-07, A-08  — DA-2 standing idle is a waist-up torso stretched to full height
+ok   torso-hands-low        A-08 expected; DEFECT rules reported: A-05, A-06, A-08  — DA-2 variant: hands hang below the belt and mimic feet; the lower-body proxy is fooled, the head rule is not
+ok   torso-reference        A-08 expected; DEFECT rules reported: A-08, A-07, A-06  — DA-2 the identity reference itself is a torso
+ok   boss-torso             A-07 expected; DEFECT rules reported: A-05, A-06, A-07, A-08, A-12  — DA-6 boss idle is a torso (no robe exemption)
+ok   crouch-shrink          A-08 expected; DEFECT rules reported: A-05, A-06, A-08  — DA-3 crouch drawn as a smaller man
+ok   walk-scale             A-05 expected; DEFECT rules reported: A-05, A-06, A-08, A-12  — DA-1 walk sheet generated 14% small
+ok   clip-scale-subtle      A-12 expected; DEFECT rules reported: A-05, A-08, A-12  — DA-1 idle sheet 7% large: inside every per-frame band
+ok   frame-drift            A-06 expected; DEFECT rules reported: A-06  — DA-8 one attack frame drawn 12% large
+ok   debris                 A-04 expected; DEFECT rules reported: A-04  — DA-7 a detached speck left by extraction
+ok   clipped                A-03 expected; DEFECT rules reported: A-03, A-06  — DA-7 figure cut off at the canvas edge
+ok   opaque-bg              A-02 expected; DEFECT rules reported: A-02, A-03, A-05, A-06, A-07, A-09  — DA-7 background left opaque
+ok   key-residue            A-02 expected; DEFECT rules reported: A-02  — DA-7 chroma-key fringe left on the art
+ok   floating               A-09 expected; DEFECT rules reported: A-09  — feet lifted off the pivot line
+ok   empty-frame            A-01 expected; DEFECT rules reported: A-01  — blank frame in a clip
+ok   wrong-canvas           A-01 expected; DEFECT rules reported: A-01  — frame delivered at the wrong canvas size
+ok   missing-frame          A-14 expected; DEFECT rules reported: A-14  — clip delivered one frame short
+ok   wrong-timing           A-14 expected; DEFECT rules reported: A-14  — delivered durations differ from the contract
+ok   whip-detached          W-01 expected; DEFECT rules reported: W-01, W-05  — DA-4 whip floats beside an empty fist
+ok   whip-giant-coil        W-03 expected; DEFECT rules reported: W-03  — DA-4 coiled whip as big as the hero
+ok   whip-short             W-04 expected; DEFECT rules reported: W-04  — whip never reaches the hitbox
+ok   whip-snap              W-05 expected; DEFECT rules reported: W-04, W-05  — DA-5 whip jumps back mid-extension
+ok   whip-blank             W-06 expected; DEFECT rules reported: W-06  — blank whip frame during the attack
+ok   vfx-rectangle          V-01 expected; DEFECT rules reported: V-01, V-03  — DA-7 effect shows a hard rectangle edge
+ok   vfx-pop                V-03 expected; DEFECT rules reported: V-03  — DA-5 impact effect pops between sizes
+ok   engine-effect-as-art   V-04 expected; DEFECT rules reported: V-04  — DA-7 screen vignette delivered as keyed art
+
+SELFTEST: PASS — 25 defect cases, 0 problem(s), 58.1 s

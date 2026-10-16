@@ -1,0 +1,20 @@
+[
+  {
+    "prompt": "Use case: stylized-concept. Asset: ONE original stationary ranged enemy identity/idle key for dark gothic 2D side-view game, full body from hood top to rooted base. Image1 approved painterly enemy MATERIAL/STYLE anchor only, do not copy its quadruped anatomy; image2 required256x352 placement guide only, don't render guides. New enemy: a tall narrow shrouded hooded figure bound upright to a cold slate funerary post, trapped and rooted. Hood face in deep shadow faces RIGHT; one long pale bony arm rests loosely down forward along right side, hand nearx170y218, bent natural elbow. Other arm partly held by old rope bands at chest. Complete long ragged Decay Green gray-olive funeral cloth wraps narrow torso and hangs to the post base. No exposed wound, gore, skull face, armor or weapon. Post is narrow carved weathered Cold Slate stone, visible behind left shoulder and at grounded base; rounded or angled funerary finial below hood height, NO cross shape or readable symbols. Whole creature + base withinx66..196,y20..320 on256x352 equivalent canvas, root base center128320 exactly on red guide's ground, tallest point hood atbluey20, subject85 percent canvas height; preserve20px top and32px bottom transparent margin. Base modest widthx105..150, contact grounded at320. Hood width~54px, dark hollow opening projects RIGHT, shoulderx124y84, slim torso; tattered lower cloth layers remain complete, no human boots needed for this bound rooted creature. Painted matte detailed folds, restrained pallid bone fingers, Ash Grey and Decay Green cloth, violet dark folds, slate stone, pale upper-left worn edges consistent with reference. No charge glow or projectile in idle. Actual transparent background, no floor scenery, drop shadow, halo, dust, text, watermark or guides. Single isolated full-body sprite, not sheet. Original character; no franchise iconography.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/candidates/style_enemy_pursuer.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-identity-r01/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. Correct ONLY TWO construction details in image1, keeping this SAME complete enemy identity, proportions, pose, materials, cloth pattern and grounded base. Image2 required256x352guide. (1) FREE THE RIGHT-FACING AIMING ARM: remove every rope band crossing that exposed long upper arm. Keep the shoulder, upper arm, elbow, forearm and hanging hand fully FREE to raise together. Bindings still visibly wrap the torso/post BEHIND the arm and below its armpit; other arm may remain restrained. Show a visible gap between free upper arm and torso bands so it cannot look pinned. (2) LOWER THE STONE POST CAP by25px equivalent so its top is aroundy55 and the HOOD apex is the sole highest feature at y20. Keep post narrow, base fixed, and no cross silhouette. Preserve right-facing dark hollow hood, long ragged Decay Green cloth, pallid hand, matte painted Cold Slate post and complete carved base. Whole creature + post300px tall, hood top20, rooted base center128320, canvas256352, withinx65..195. Do not stretch or shrink anatomy; merely lower post top and reroute bindings to free the arm. Same dark gothic palette/upper-left worn edges. Actual transparent background, no backdrop/ground/shadow/glow/effects/sparks/text/guides/gore. One full-body key, no sheet.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r01/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-identity-r02/raw.png"
+  }
+]

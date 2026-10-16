@@ -1,0 +1,14 @@
+{
+  "pass": true,
+  "frames": 6,
+  "source_candidate_runtime_review_byte_identical": true,
+  "unrelated_clip_metadata_unchanged": true,
+  "both_facings_native_phone": true,
+  "rooted_at_actual_stage_position": [
+    4608,
+    432
+  ],
+  "all_six_frames_and_loop_wrap": true,
+  "outgoing_aim_preview_unapproved": true,
+  "scripted_animation_quality_debt": true
+}

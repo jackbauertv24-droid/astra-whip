@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer and seven swooper action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. The swooper has all36 required frames, including a normal one-HP falling collapse and readable ash settle; conditional hurt uses an explicit test-only2HP fixture. Ranged and boss enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer and seven swooper action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. The swooper has all36 required frames, including a normal one-HP falling collapse and readable ash settle; conditional hurt uses an explicit test-only2HP fixture. The ranged enemy has a painted rooted idle; its remaining actions and the boss use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -67,3 +67,7 @@ Six collapse/ash frames passed fresh independent r01 review, including both nume
 ## Follow-up fix 9: complete swooper action set
 
 All seven clips and36frames have fresh scoped independent PASS verdicts and actual native/phone frame coverage in both facings. The final death revision preserves the accepted collapse keys, keeps falling ash readable through ground arrival and fades before cleanup. Retained failed source/motion reviews show the corrections. Exact runtime delivery and conditional hurt disclosure are checked by `tools/check-swooper-inventory.mjs`. Reused/local mesh/erosion frames remain D23 quality debt; this is not physical-device or complete-production-inventory approval. See `evidence/swooper-death-fix.md`.
+
+## Follow-up fix 10a: ranged rooted idle
+
+Six150ms frames passed a fresh independent review, with local chest/arm/cloth motion, a fixed stone post/base and continuous900ms wrap. Actual stage captures cover both facings/native/phone, and runtime bytes, gameplay, art tools, export and browser smoke pass. The corrected identity frees the future aiming arm and keeps the hood topmost. This D23 local rig remains quality debt. Remaining ranged actions/projectile and physical-device gates stay pending. See `evidence/ranged-idle-fix.md`.

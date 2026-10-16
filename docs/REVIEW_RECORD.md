@@ -219,3 +219,13 @@ Fresh static reviewer r05 accepted the folded death key after rejected drafts we
 | swooper_death_fall | PASS | None | Banking collapse, folded limp body, erosion and visible falling/settling ash in both facings/sizes | None |
 
 Both A11 flags (folded membrane area12.6%; dissolve70.8%) were visually accepted. Full verdict: `art/review-swooper-death-r02/review_verdict.md`. All7clips/36frames now have exact runtime bytes, scoped approval and both-face native/phone coverage (`evidence/swooper-inventory.json`). D23 scripted/reused quality debt remains disclosed. This does not approve physical devices or other actors/inventory.
+
+## Ranged rooted idle follow-up — 2026-10-16
+
+Static r01 rejected a pinned aiming arm and post cap above the hood. Fresh static r02 accepted their correction. The first motion reviewer was interrupted with no verdict; fresh replacement `/root/ranged_idle_review_r02` saved blind observations first, opened all6 tiles/onion pairs, five style references and all32 native/phone captures, and returned:
+
+| Clip | Result | Failing frames | Defect | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | None in scoped idle | None |
+
+Zero automated defects/flags. Full output: `art/review-ranged-idle-r01/review_verdict.md`. The900ms rooted loop and actual stage base(4608,432) are verified in both facings. Local scripted animation remains D23 quality debt. Outgoing aim is an explicitly unapproved placeholder; other ranged clips/projectile and physical-device gates remain pending.

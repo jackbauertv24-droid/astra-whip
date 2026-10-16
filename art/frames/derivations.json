@@ -398,5 +398,15 @@
     ],
     "method": "Reused banking interruption, independently accepted painted limp-folded wings, local5px sag and3px hood droop, two soft seeded Ash Grey erosion/fleck stages. Actual180u/s falling root; no global animation scaling or per-frame recentering. Final held frame has an irregular soft ash cluster; runtime alpha stays visible through arrival and fades over final100ms before1.2s cleanup.",
     "reason": "Four prior generated/derived collapse drafts retained active supported wing fans and are archived with rejections. D23 reuse/local rig/soft erosion bridges accepted painted folded pose into ash; separate full motion review required. Full motion review r01 rejected unreadable ground ash; revision preserves frames0–3 and strengthens only final ash/visibility."
+  },
+  "ranged_idle": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/ranged-identity-r02/key.png",
+      "tools/prepare-ranged-idle.mjs",
+      "art/production-candidates/ranged-idle-r01/derivation.json"
+    ],
+    "method": "Local3px chest expansion/2px lift,1px hood lift, elbow/wrist sway and2px cloth response; post and grounded base fixed. No global scaling, translation or per-frame normalization.",
+    "reason": "D23 local rig preserves accepted painted anatomy for subtle idle. The first generated ranged key failed construction readiness (bound aiming arm/post height); the corrected source retains that repaired construction. Prior generated action corrections elsewhere also changed anatomy/pose; no rejected ranged motion cycle is claimed. Entire resulting idle requires independent action review and remains quality debt."
   }
 }

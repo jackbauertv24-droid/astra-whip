@@ -1,0 +1,4 @@
+ok   correct synthetic set (64 clips): 0 DEFECT, 7 FLAG
+ok   PNG encode/decode round trip is lossless
+ok   correct hero set read back from PNG files: 25 clips, 0 DEFECT
+ok   torso-idle             A-07 expected; DEFECT rules reported: A-06, A-07, A-08  — DA-2 standing idle is a waist-up torso stretched to full height

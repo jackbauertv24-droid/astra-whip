@@ -68,3 +68,7 @@ The swooper climb assumed every entry came from the 64-unit low pass. Its condit
 ### Lowered wings can still read as active flight
 
 Three painted death drafts and a derived shoulder rotation retained broad supported wing fans. Repeated coordinate instructions and downward rotations did not establish loss of lift. Fresh static reviewers rejected those poses despite intact anatomy and valid measurements. A new painted pose folded the wing fingers and slack membranes alongside the body, with a drooping hood; it passed the separate static gate. Keep rejected drafts and judge the resulting action before deriving an entire clip from a source key.
+
+### Lock anatomy that can perform the later action
+
+The first ranged identity tightly bound the upper arm that its later aim must raise, and its post cap overtopped the hood required to remain highest. A static key can fit its idle silhouette while preventing a credible future action. The independent source gate rejected both construction issues before animation derivation; reroute the bindings and lower the post cap while preserving the complete base and figure. Retain the rejected source rather than silently changing its construction during an attack.
