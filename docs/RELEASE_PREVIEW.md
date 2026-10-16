@@ -79,3 +79,7 @@ Six150ms aiming frames passed fresh independent r04 review after preserving the 
 ## Follow-up fix 10c: projectile range origin
 
 Projectile expiry now measures640u from its muzzle, correcting the previous600u actual flight caused by the40u spawn offset. Both-facing actual-engine checks fail before the change and pass afterward; warning/shot timing, speed, collision band and crouch dodge remain intact. This separate code fix adds no projectile-art approval. See `evidence/ranged-projectile-fix.md`.
+
+## Follow-up fix 10d: ranged firing
+
+Three50/50/100ms frames passed fresh independent review after a local hand correction removed embedded charge paint. The action reuses the exact aim endpoint, contracts the painted diamond at release and adds a small connected recoil. Engine captures validate both facings/sizes, fixed registration and frame1shot. Byte/identity checks, failing-before/passing-after final-charge regression, gameplay/tools/export and browser smoke pass. D23 debt and remaining recovery/hurt/death/projectile/device gates stay pending. See `evidence/ranged-fire-fix.md`.

@@ -1,0 +1,1 @@
+Builder rejected: desired recoil wrist near(202,151) instead rises roughly25px from the established muzzle; red wrist mark around(195,125). Full generated painting also changes fixed identity. Raw, exact prompt and normalization retained. D23 local fallback will reuse approved aim construction and retain fixed idle body.

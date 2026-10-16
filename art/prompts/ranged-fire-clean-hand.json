@@ -1,0 +1,10 @@
+{
+  "id": "ranged-fire-clean-hand-r01",
+  "prompt": "Precisely edit this transparent gothic game sprite: remove the residual lime/green hollow polygon and ALL phosphor charge light around the right-facing extended hand. Repaint the affected fingertips and gaps as ordinary pallid bone/flesh against full transparency, preserving ONE continuous hand with long slender visible fingers at the same pose and location. No green pixels, aura, diamond, yellow light, colored marks, detached fragments or new effects anywhere around the fingers. Keep the hand/wrist extended forward exactly as the reference, same shoulder/elbow/forearm, same whole silhouette and rooted position. Do not add or remove another arm. Preserve entire hood/post/robe/base unchanged. Do NOT change the pose or retract/raise the arm. Full figure same transparent aspect ratio, root128320 on256352 canvas, muzzle neighborhood208155. Matte painted dark-gothic style identical to reference; transparent background. Return complete sprite; only correction is removing the green contamination while retaining credible flesh fingers.",
+  "references": [
+    "art/production-candidates/ranged-aim-r03/body-source.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-cbda912e-89b1-49a5-ad8a-6778d9f59b76.png"
+}

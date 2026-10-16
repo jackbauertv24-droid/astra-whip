@@ -1,0 +1,32 @@
+{
+  "original": "art/production-candidates/ranged-aim-r03/body-source.png",
+  "correction": "art/production-candidates/ranged-fire-clean-hand-r01/key.png",
+  "polygon": [
+    [
+      183,
+      134
+    ],
+    [
+      219,
+      130
+    ],
+    [
+      226,
+      148
+    ],
+    [
+      224,
+      178
+    ],
+    [
+      188,
+      177
+    ],
+    [
+      181,
+      155
+    ]
+  ],
+  "edited_region_pixels": 1866,
+  "method": "Local generated hand patch, eight-pixel alpha-aware wrist blend; all other body pixels preserved. Uniform source registration recorded separately."
+}

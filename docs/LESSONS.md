@@ -80,3 +80,7 @@ A locally folded mesh can let later transparent source triangles overwrite an al
 ### Measure projectile travel from projectile birth
 
 An enemy-root reference shortened a forward-offset shot's specified flight by its40u muzzle offset. Store the projectile's actual spawn coordinate for its range limit. The ranged projectile regression fails at639u before the fix in both directions and passes afterward while preserving timing, speed and crouch clearance.
+
+### Effect extraction must remove the effect from the body
+
+The first ranged firing derivation removed its separate charge layer, but bright charge pixels retained around the painted fingers created an apparent rebound in the final frame. A zero opacity field does not prove an effect is gone. Inspect the correctly composited body-only hand and the final runtime pose; preserve the failed frames/review and correct only the local source region before rederiving affected frames.

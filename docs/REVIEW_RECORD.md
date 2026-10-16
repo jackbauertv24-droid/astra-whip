@@ -240,3 +240,15 @@ Static r05 passed after retained duplicate-arm/lane failures. Motion r02 rejecte
 | ranged_aim | PASS | None | Connected raising arm, growing diamond, stable identity and mirrored muzzle alignment | None |
 
 Zero audit defects/flags. Full output: `art/review-ranged-aim-r03/review_verdict.md`. Six150ms frames/900ms warning and fire-frame1 birth are engine-verified. D23 local rig remains disclosed quality debt. Fire/projectile placeholder graphics and physical-device gates remain unapproved.
+
+## Ranged firing follow-up — 2026-10-16
+
+Fresh full review r02 rejected charge pixels embedded in the body-only hand. A local generated clean-hand correction rederived only fire frames1–2; original frame0 remains exact. The scoped final-charge regression fails on157bright pixels in the retained rejected frame and passes with0in the correction. Fresh `/root/ranged_fire_review_r03` saved blind descriptions before intent, opened all15native frames/onions, five style references, corrected sources and all20current engine captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | Coherent rooted reference | None |
+| ranged_aim | PASS | None | Continuous arm raise and growing diamond | None |
+| ranged_fire | PASS | None | Exact incoming endpoint, charge contraction/disappearance and connected local recoil | None |
+
+Zero audit defects/flags. Full verdict: `art/review-ranged-fire-r02/review_verdict.md`. Actual native/phone captures verify all3frames, bothfacings, fixed root, frame1shot and200ms handoff within a120Hz tick. D23 scripted debt remains. Recovery/projectile graphics and physical-device gates remain unapproved.

@@ -886,5 +886,26 @@
       "method": "Local elbow/forearm articulation55degrees to0 with blended joint and rigid foreground forearm layer for robe occlusion (avoids folded-mesh transparent-cell overwrite); separately extracted painted diamond grows0.25to1 around moving hand. Effect scale is deliberate cue growth, not actor normalization. Approved idle painting retained outside the local arm corridor; post/base/hood remain fixed; no whole-actor scale or per-frame recentering.",
       "reason": "Generated drafts missed the projectile lane and retained duplicate anatomy/warm remnants; D23 rig preserves the corrected independently accepted construction for the six-frame warning. Scripted quality debt requires fresh full-action/runtime review."
     }
+  },
+  "ranged_fire": {
+    "ms": [
+      50,
+      50,
+      100
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/ranged_aim/f005.png",
+        "art/production-candidates/ranged-fire-r02/clean-body-source.png",
+        "art/production-candidates/ranged-fire-clean-hand-r01/key.png",
+        "tools/prepare-ranged-fire-clean-body.mjs",
+        "art/production-candidates/ranged-aim-r03/charge-source.png",
+        "tools/prepare-ranged-fire.mjs"
+      ],
+      "method": "Exact aim endpoint reuse, painted diamond contraction/fade on50ms release, local six-degree forearm recoil and six-pixel retraction after release with foreground occlusion; local generated hand correction removes embedded charge; fixed approved identity, no global scale/recenter.",
+      "reason": "Generated recoil key lifted the hand out of the muzzle neighborhood and introduced a red wrist remnant; retained rejected source/prompt. D23 fallback requires fresh motion/runtime review and remains quality debt."
+    }
   }
 }

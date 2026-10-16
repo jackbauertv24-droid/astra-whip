@@ -1,0 +1,10 @@
+{
+  "id": "ranged-fire-key-r01",
+  "prompt": "Edit the attached approved 2D gothic painted game sprite into ONE firing recoil endpoint key, same whole creature, same transparent canvas proportions and exact rooted registration. Full head-to-base figure, right-facing concealed pointed hood, mossy layered corpse cloth, weathered rear funerary post and stone root slab. Keep the hood, robe, post and entire base exactly as the supplied image. Change ONLY the exposed pale forearm and fingers: it has just released its phosphor diamond shot; remove ALL green charge halo/diamond from the hand, show a small credible recoil by retracting the wrist about 6 source pixels (reference normalized256x352) toward its elbow and lifting it about 4px. One shoulder, one elbow, one continuous forearm, one hand with long extended relaxed fingers; no extra hanging hand or second arm. The upper arm remains attached at same shoulder. Muzzle at release was source208155; this is the 100ms later recoil endpoint, so fingertips remain close to that point. No projectile, no green glimmer, no flash, no new effect or detached flecks. Keep identical muted matte painterly style, pallid flesh and dark decay-green cloth. Hood highest at sourcey21; full grounded base at320; root x128. No actor resizing/recentering. Transparent background, no ground shadow, guides, text or borders. Return the complete sprite with only this local forearm recoil modification.",
+  "references": [
+    "art/frames/ranged_aim/f005.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-19395840-2068-4408-a0fa-40a4c372d5f7.png"
+}

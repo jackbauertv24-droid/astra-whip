@@ -1,0 +1,21 @@
+{
+  "records": [
+    {
+      "frame": 0,
+      "identical_delivery": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 1,
+      "identical_delivery": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 2,
+      "identical_delivery": true,
+      "fixed_region_changed_pixels": 0
+    }
+  ],
+  "exact_aim_endpoint_reuse": true,
+  "original_fire_frame0_unchanged": true
+}

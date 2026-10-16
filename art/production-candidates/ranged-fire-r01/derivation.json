@@ -1,0 +1,46 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/ranged_aim/f005.png",
+    "art/production-candidates/ranged-aim-r03/body-source.png",
+    "art/production-candidates/ranged-aim-r03/charge-source.png",
+    "tools/prepare-ranged-fire.mjs"
+  ],
+  "method": "Exact aim endpoint reuse, painted diamond contraction/fade on50ms release, local six-degree forearm recoil and six-pixel retraction after release with foreground occlusion; fixed approved identity, no global scale/recenter.",
+  "reason": "Generated recoil key lifted the hand out of the muzzle neighborhood and introduced a red wrist remnant; retained rejected source/prompt. D23 fallback requires fresh motion/runtime review and remains quality debt.",
+  "records": [
+    {
+      "frame": 0,
+      "ms": 50,
+      "reuse": "art/frames/ranged_aim/f005.png",
+      "charge_scale": 1,
+      "charge_opacity": 1
+    },
+    {
+      "frame": 1,
+      "ms": 50,
+      "forearm_angle_degrees": 0,
+      "translation": [
+        0,
+        0
+      ],
+      "charge_scale": 0.65,
+      "charge_opacity": 0.6,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 133
+    },
+    {
+      "frame": 2,
+      "ms": 100,
+      "forearm_angle_degrees": -6,
+      "translation": [
+        -6,
+        -1
+      ],
+      "charge_scale": 0,
+      "charge_opacity": 0,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 111
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-ranged-fire-r02/frames",
+ "defects": 0,
+ "flags": 0,
+ "clips_audited": 3,
+ "references": {
+  "ranged": {
+   "size": 145.93252938228343,
+   "height": 300,
+   "head": 71
+  }
+ },
+ "findings": [],
+ "metrics": {
+  "ranged_idle": [
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21167,
+    "size": 145.489,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.465
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21626,
+    "size": 147.058,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.48
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21755,
+    "size": 147.496,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.48
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21426,
+    "size": 146.376,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.465
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21041,
+    "size": 145.055,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.449
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 20919,
+    "size": 144.634,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.449
+   }
+  ],
+  "ranged_aim": [
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21349,
+    "size": 146.113,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     196,
+     320
+    ],
+    "height": 300,
+    "width": 128,
+    "area": 21950,
+    "size": 148.155,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     203,
+     320
+    ],
+    "height": 300,
+    "width": 135,
+    "area": 22241,
+    "size": 149.134,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     216,
+     320
+    ],
+    "height": 300,
+    "width": 148,
+    "area": 22322,
+    "size": 149.405,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     226,
+     320
+    ],
+    "height": 300,
+    "width": 158,
+    "area": 22431,
+    "size": 149.77,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     230,
+     320
+    ],
+    "height": 300,
+    "width": 162,
+    "area": 22562,
+    "size": 150.207,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   }
+  ],
+  "ranged_fire": [
+   {
+    "bbox": [
+     69,
+     21,
+     230,
+     320
+    ],
+    "height": 300,
+    "width": 162,
+    "area": 22562,
+    "size": 150.207,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     221,
+     320
+    ],
+    "height": 300,
+    "width": 153,
+    "area": 22238,
+    "size": 149.124,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   },
+   {
+    "bbox": [
+     69,
+     21,
+     207,
+     320
+    ],
+    "height": 300,
+    "width": 139,
+    "area": 21987,
+    "size": 148.28,
+    "top": 21,
+    "foot": 320,
+    "headWidth": 71,
+    "bootRatio": 0.871,
+    "legDip": 0.472
+   }
+  ]
+ }
+}

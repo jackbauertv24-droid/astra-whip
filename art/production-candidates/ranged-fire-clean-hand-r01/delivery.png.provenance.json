@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/ranged-fire-clean-hand-r01/raw.png",
+  "source_canvas": [
+    1070,
+    1470
+  ],
+  "export_canvas": [
+    256,
+    352
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

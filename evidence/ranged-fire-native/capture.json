@@ -1,0 +1,110 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "duration": 0.208333333333333,
+   "outgoing_recover_art_approved": false,
+   "projectile_art_approved": false,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "fire-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 0,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0.0583333333333333,
+     "file": "fire-right-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "fire-right-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0,
+     "file": "recover-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    }
+   ]
+  },
+  {
+   "direction": -1,
+   "duration": 0.208333333333333,
+   "outgoing_recover_art_approved": false,
+   "projectile_art_approved": false,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "fire-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 0,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0.0583333333333333,
+     "file": "fire-left-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "fire-left-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "fire"
+    },
+    {
+     "elapsed": 0,
+     "file": "recover-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}
