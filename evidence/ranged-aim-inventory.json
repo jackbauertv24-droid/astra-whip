@@ -1,0 +1,65 @@
+{
+  "records": [
+    {
+      "frame": 0,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f000.png",
+        "art/frames/ranged_aim/f000.png",
+        "game/assets/ranged/ranged_aim/f000.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f000.png"
+      ],
+      "identical": true
+    },
+    {
+      "frame": 1,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f001.png",
+        "art/frames/ranged_aim/f001.png",
+        "game/assets/ranged/ranged_aim/f001.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f001.png"
+      ],
+      "identical": true
+    },
+    {
+      "frame": 2,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f002.png",
+        "art/frames/ranged_aim/f002.png",
+        "game/assets/ranged/ranged_aim/f002.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f002.png"
+      ],
+      "identical": true
+    },
+    {
+      "frame": 3,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f003.png",
+        "art/frames/ranged_aim/f003.png",
+        "game/assets/ranged/ranged_aim/f003.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f003.png"
+      ],
+      "identical": true
+    },
+    {
+      "frame": 4,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f004.png",
+        "art/frames/ranged_aim/f004.png",
+        "game/assets/ranged/ranged_aim/f004.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f004.png"
+      ],
+      "identical": true
+    },
+    {
+      "frame": 5,
+      "paths": [
+        "art/production-candidates/ranged-aim-r03/f005.png",
+        "art/frames/ranged_aim/f005.png",
+        "game/assets/ranged/ranged_aim/f005.png",
+        "art/review-ranged-aim-r03/frames/ranged_aim/f005.png"
+      ],
+      "identical": true
+    }
+  ],
+  "capture_coverage": "all6frames, bothfacings, native+phone; actual detection and delayed projectile birth"
+}

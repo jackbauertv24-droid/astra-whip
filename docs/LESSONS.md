@@ -72,3 +72,7 @@ Three painted death drafts and a derived shoulder rotation retained broad suppor
 ### Lock anatomy that can perform the later action
 
 The first ranged identity tightly bound the upper arm that its later aim must raise, and its post cap overtopped the hood required to remain highest. A static key can fit its idle silhouette while preventing a credible future action. The independent source gate rejected both construction issues before animation derivation; reroute the bindings and lower the post cap while preserving the complete base and figure. Retain the rejected source rather than silently changing its construction during an attack.
+
+### Foreground arm occlusion and transparent RGB (ranged aim)
+
+A locally folded mesh can let later transparent source triangles overwrite an already transformed hand. The first ranged aiming rig produced a detached fragment and failed A04. Preserve that failure; use a separate rigid foreground forearm layer for the robe crossing, leaving a blended attached elbow on the body. Source identity and motion still need fresh independent review. Also assess color on correctly alpha-composited images: hidden saturated RGB at alpha1 can look vivid in some previews while contributing essentially nothing to the displayed pixel. Record cleanup thresholds instead of inferring a palette defect from hidden RGB.

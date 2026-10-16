@@ -1,0 +1,206 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "aim_duration": 0.908333333333333,
+   "before": "before-idle-right.png",
+   "direction": 1,
+   "natural_idle_detection": true,
+   "outgoing_fire_art_approved": false,
+   "production_hp": 2,
+   "projectile_birth": {
+    "expected_source_muzzle": [
+     208,
+     155
+    ],
+    "fire_elapsed": 0.05,
+    "fire_frame": 1,
+    "position": [
+     4648.0,
+     349.5
+    ],
+    "projectile_art_approved": false
+   },
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "aim-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "aim-right-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "aim-right-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "aim-right-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "aim-right-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "aim-right-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0,
+     "file": "fire-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "fire"
+    }
+   ]
+  },
+  {
+   "aim_duration": 0.908333333333333,
+   "before": "before-idle-left.png",
+   "direction": -1,
+   "natural_idle_detection": true,
+   "outgoing_fire_art_approved": false,
+   "production_hp": 2,
+   "projectile_birth": {
+    "expected_source_muzzle": [
+     208,
+     155
+    ],
+    "fire_elapsed": 0.05,
+    "fire_frame": 1,
+    "position": [
+     4568.0,
+     349.5
+    ],
+    "projectile_art_approved": false
+   },
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "aim-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.15,
+     "file": "aim-left-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "aim-left-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.450000000000001,
+     "file": "aim-left-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "aim-left-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "aim-left-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "aim"
+    },
+    {
+     "elapsed": 0,
+     "file": "fire-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "fire"
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

@@ -1,0 +1,31 @@
+{
+  "reference": "art/frames/ranged_idle/f000.png",
+  "candidate": "art/frames/ranged_aim",
+  "fixed_region": "y<60 or y>220 or x<110; shoulder/arm corridor excluded",
+  "records": [
+    {
+      "frame": 0,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 1,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 2,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 3,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 4,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 5,
+      "fixed_region_changed_pixels": 0
+    }
+  ]
+}

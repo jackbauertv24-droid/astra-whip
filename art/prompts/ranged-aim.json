@@ -1,0 +1,51 @@
+[
+  {
+    "prompt": "Use case: identity-preserve. ONE transparent full-body game enemy FULL AIM/CHARGE end key. Image1 is approved exact enemy identity; image2 required256x352 canvas/base/hand guide. Keep SAME hood/head size, faceconcealment, narrow body, cloth pattern, post height, torso bindings BEHIND free arm, full stone base and material. Change ONLY free long arm: elbow bends so forearm aims HORIZONTALLY RIGHT, elbow near(152,155), palm near(208,155) on guide cyanhand cross. Shoulder stays naturally attached near(130,95), upper arm slopes down/out to elbow; do not lengthen limb or disconnect elbow. Wrist and pointing/cupped long fingers aim level, not down. Same rooted whole figure, hoodtop20 is highest point, post cap BELOW hood, base bottom320 and origin128320. Tiny Grave Phosphor#8CC084 DIAMOND HALO at palm center(208,155), thin painterly luminous diamond outline with angular corners at(208,137),(226,155),(208,173),(190,155), transparent center so real fingers stay visible. This is a small20px-radius energy diamond, NOT a sphere/bullet/ball/fireball; subtlegreen wisps only near outline, no large light bath or neon circle. Pale arm/hand remain intact identifiable skin. Complete full silhouette withinx65..235,y20..320, same body physical scale as reference, don't stretch torso or zoom. Matte dark gothic painting, Decay Green ragged cloth, pallid arm, Cold Slate post, pale upper-left wornedges, shadowed right-facing hood. Actual transparent backdrop. No ground plane/shadow/scenery/text/guides/extra props/gore, no cropped base or detachedhand. One full-body pose, not sheet.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged-aim.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-aim-key-r01/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. Image1 approved full-body rooted enemy. Change ONLY its free forearm from dangling to WAIST-LEVEL horizontal aim. Image2 guide: CYAN CROSS at208155 is the REQUIRED hand/diamond position, other cyan cross is elbow. Keep image1 post/base/head/cloth physical size and exact placement, DO NOT recenter body to make space for arm. Hoodtop20, postcapbelowhood, baseorigin128320 on256352canvas. Upper arm HANGS DOWN close to torso from shouldernear(125,90) to elbownear(145,155). Forearm extends horizontally RIGHT from that WAIST/BELT-HEIGHT elbow to the cupped handcenter(208,155). Do NOT lift elbow or hand to shoulder/chest height. Hand must be at Y155, NOT Y95. Natural elbow bent90degrees, complete same thin long upperarm/forearm lengths and pallid fingers, shoulder attachment free outside torso bindings. Other arm remains bound. Small thin painterly Grave Phosphor#8CC084 DIAMOND HALO centered exactly at hand208155, corners208137/226155/208173/190155. Transparent center lets fingers read; faint soft wisp outline, NOT round, no large glow bath. SAME matte Decay Green shroud, pale arm, Cold Slate post and complete rooted base, hood face dark and pointingright, upperleft wornedges. Full figuretop20bottom320, unchanged post/base identity and locations. Keep entire arm/diamondwithinrightedge235. Actual transparent background, no floor/shadow/scenery/text/guides/gore, no cropping or extra props. ONE full-body pose, not sheet.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged-aim.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-aim-key-r02/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. Image1 approved exact enemy/body/post/base identity. Image2 POSE GUIDE: follow its CYAN ARM skeleton exactly while keeping the ghosted body/post unchanged. Shoulder(125,85)→elbow(140,135)→wrist(193,151)→fingertips/diamond center(208,155). Repose ONLY that free long arm to this low forward casting pose. Upper arm hangs down, forearm slopes slightly DOWN and RIGHT, wrist/fingers point horizontally right. Hand is LOWER WAIST/upper-hip height, below torso binding, not shoulder or chest height. Do NOT force forearm perfectly horizontal if it raises the hand above target. Cyan end cross at208155 is the required charge point. Preserve original bone lengths and shoulder/elbow attachment, pale complete fingers, other arm/torso bindings, same hood highest at20 and right-facing dark concealed face, SAME fixed post and complete base origin128320. DO NOT recenter or resize figure to fit arm. Thin small green Grave Phosphor#8CC084 diamond outline centered at208155,18px radius, hollow transparent center shows real fingers, tiny painterly wisps at angular corners; NO sphere/bullet/round orb or broad glow bath. Same matte Decay Green funeral cloth and slate funerary post, original rag pattern and worn pale edges. Whole full-body sprite256x352 equivalent, hoodtop20/basebottom320, all artwithinx65..235, transparent padding. Actual transparent background, no ground/scenery/shadow/guide lines/text/gore, no added props. One full-body end pose only.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged-aim-pose.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-aim-key-r03/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. Correct ONLY named defects in image1, preserving its current LOW forward aiming pose and fixed full body/post/base. Image2 approved identity is MATERIAL/CONSTRUCTION reference ONLY: DO NOT COPY its original dangling aiming hand. Image3 pose guide required. (1) REMOVE the leftover OLD dangling forearm/hand along robe right edge below the newly posed arm, approx x145..171 y157..215 on256x352canvas. Replace that remnant with matching ragged olive cloth behind it. There must be exactly ONE exposed free arm: shoulder→elbow→low forward forearm→new rightward hand. No extra pale dangling fingers below. Other bound arm stays as existing concealed torso detail. (2) Remove the saturated red speck around160156 and every stray yellow/warm guide fringe. Repaint cloth seamlessly, no holes, no red, orange or blood. (3) Locally move/repaint ONLY distal fingers/wrist and charge a few pixels RIGHT/DOWN so diamond geometric CENTER is EXACTLY(208,155), within3px. Don't raise the arm toward chest again. Keep coherent continuous joints and physical bone lengths. Diamond thin painterly outline18pxradius, four angular points centered208155, hollow/pale center with real fingers readable; muted mint-sage Grave Phosphor#8CC084, pale tint of same green, NO NEON YELLOW/LIME fringe or round orb. Preserve current hood apex20 as highest, unchanged post cap below hood, same robe/post/body identity, full grounded base origin128320, 300px figureheight on256352canvas. No recentering/resizing body. All artx65..235,y20..320. Actual transparency, no floor/scenery/shadow/guides/text/gore. One corrected full-body key, not sheet.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-aim-key-r03/key.png",
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged-aim-pose.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-aim-key-r04/raw.png"
+  },
+  {
+    "key": "r05",
+    "prompt": "Use case: precise-object-edit. Make ONE SMALL LOCAL CORRECTION in image1. Image2 marks exact area in transparent MAGENTA: x145..175,y156..215 on256352canvas. Replace the old PALE DANGLING HAND AND FOREARM inside this region with ordinary ragged Decay Green cloak cloth matching adjacent robe. There must be NO exposed skin, finger shapes, wrist, or forearm dangling below the newly outstretched arm. Fill this obsolete arm with cloth, reconstruct natural robe edge; don't merely recolor fingers olive. Image3 approved identity is palette/post/hood reference ONLY, DO NOT restore its old hanging arm. Keep the CURRENT new raised/casting shoulder-elbow-forearm-hand and its low forward pose EXACTLY, including real fingers at green diamond; these lie ABOVE or RIGHT of pink mask, not the obsolete hand within it. Keep all other hood, post, body, robe, ground base and placement unchanged. Charge stays centered at208155 and thin angular muted Grave Phosphor#8CC084 diamond with pale same-green tint, no neon yellow fringe. Remove any red/warm stray specks. Full figurehoodtop20basebottom320 origin128320 same256x352canvas. Actual transparent backdrop. DO NOT paint mask/magenta/guides or text; no floor/scenery/shadows/gore/newlimbs/props. Exactly ONE exposed free aiming arm and concealed bound other arm; no extra dangling hand. Single corrected full-body key only.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-aim-key-r04/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/ranged-aim-cleanup.png",
+      "/config/codex-workspace/astra-whip/art/production-candidates/ranged-identity-r02/key.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/ranged-aim-key-r05/raw.png",
+    "generation_status": "complete"
+  }
+]

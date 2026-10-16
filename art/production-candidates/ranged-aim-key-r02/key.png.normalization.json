@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/ranged-aim-key-r02/delivery.png",
+  "corrective_normalization": 0.9900990099009901,
+  "source_pivot": [
+    128,
+    321
+  ],
+  "delivery_pivot": [
+    128,
+    320
+  ],
+  "target_height": 300,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

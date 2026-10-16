@@ -1,0 +1,1 @@
+Builder rejected before independent review: hand/diamond remains near y125 instead of required source muzzle y155. Preserve the body construction; lower forearm/wrist into the actual firing band. No source approval claimed.

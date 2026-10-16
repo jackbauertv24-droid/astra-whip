@@ -408,5 +408,16 @@
     ],
     "method": "Local3px chest expansion/2px lift,1px hood lift, elbow/wrist sway and2px cloth response; post and grounded base fixed. No global scaling, translation or per-frame normalization.",
     "reason": "D23 local rig preserves accepted painted anatomy for subtle idle. The first generated ranged key failed construction readiness (bound aiming arm/post height); the corrected source retains that repaired construction. Prior generated action corrections elsewhere also changed anatomy/pose; no rejected ranged motion cycle is claimed. Entire resulting idle requires independent action review and remains quality debt."
+  },
+  "ranged_aim": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/ranged-aim-key-r05/key.png",
+      "art/frames/ranged_idle/f000.png",
+      "tools/prepare-ranged-aim.mjs",
+      "art/production-candidates/ranged-aim-r03/derivation.json"
+    ],
+    "method": "Local elbow/forearm articulation55degrees to0 with blended joint and rigid foreground forearm layer for robe occlusion (avoids folded-mesh transparent-cell overwrite); separately extracted painted diamond grows0.25to1 around moving hand. Effect scale is deliberate cue growth, not actor normalization. Approved idle painting retained outside the local arm corridor; post/base/hood remain fixed; no whole-actor scale or per-frame recentering.",
+    "reason": "Generated drafts missed the projectile lane and retained duplicate anatomy/warm remnants; D23 rig preserves the corrected independently accepted construction for the six-frame warning. Scripted quality debt requires fresh full-action/runtime review."
   }
 }

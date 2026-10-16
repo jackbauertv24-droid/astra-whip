@@ -1,0 +1,54 @@
+#!/usr/bin/env node
+// D23: preserve corrected source construction; raise one free forearm and grow its painted diamond.
+import{readPNG,writePNG,blank}from'./lib/png.mjs';
+import{meshWarp,clamp}from'./lib/deform.mjs';
+import{mkdirSync,readFileSync,writeFileSync}from'node:fs';
+const source='art/production-candidates/ranged-aim-key-r05/key.png';
+const review='art/review-ranged-aim-key-r05/review_verdict.md';
+if(!readFileSync(review,'utf8').trimEnd().endsWith('STATIC KEY REVIEW: PASS'))throw Error('Aim source not independently accepted');
+const src=readPNG(source),body=readPNG('art/frames/ranged_idle/f000.png'),effect=blank(256,352),elbow=[143,130],anchor=[208,155];
+// Retain the approved idle identity outside a tightly bounded arm replacement.
+// Patch only the exposed old/new limb corridor; source cloth locally covers the old hanging fingers.
+const polygon=[[122,65],[135,65],[145,105],[164,122],[207,140],[219,148],[216,166],[180,168],[160,155],[171,185],[163,198],[146,196],[136,166],[128,137],[119,114],[115,85]];
+function inside(x,y){let hit=false;for(let i=0,j=polygon.length-1;i<polygon.length;j=i++){const a=polygon[i],b=polygon[j];if((a[1]>y)!=(b[1]>y)&&x<(b[0]-a[0])*(y-a[1])/(b[1]-a[1])+a[0])hit=!hit;}return hit;}
+for(let y=0;y<352;y++)for(let x=0;x<256;x++)if(inside(x,y)){const k=(y*256+x)*4;body.data.set(src.data.subarray(k,k+4),k);}
+const theta=Math.atan2(anchor[1]-elbow[1],anchor[0]-elbow[0]),cs=Math.cos(theta),sn=Math.sin(theta);
+let extracted=0;
+for(let y=0;y<352;y++)for(let x=0;x<256;x++){
+ const k=(y*256+x)*4,[r,g,b,a]=src.data.subarray(k,k+4);if(!a)continue;
+ const along=(x-elbow[0])*cs+(y-elbow[1])*sn,across=-(x-elbow[0])*sn+(y-elbow[1])*cs;
+ const hand=x<=213&&Math.abs(across)<=14&&along>10;
+ const saturated=g-r>32&&g-b>25&&g>120;
+ const region=x>=182&&x<=240&&y>=114&&y<=190;
+ // Keep pale flesh and the immediate palm; separate the painted halo, including faint outer wisps.
+ if(region&&(!hand||(saturated&&Math.hypot(x-anchor[0],y-anchor[1])>7))){effect.data.set(src.data.subarray(k,k+4),k);body.data.fill(0,k,k+4);extracted++;}
+}
+const smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t);};
+const xs=[...new Set([0,60,85,100,110,...Array.from({length:31},(_,i)=>116+i*4),143,208,256])].sort((a,b)=>a-b);
+const ys=[...new Set([0,20,40,60,80,90,...Array.from({length:36},(_,i)=>100+i*4),130,155,260,280,295,320,352])].sort((a,b)=>a-b);
+function over(dst,img){for(let k=0;k<dst.data.length;k+=4){const a=img.data[k+3]/255,b=dst.data[k+3]/255,t=a+b*(1-a);if(!a)continue;for(let c=0;c<3;c++)dst.data[k+c]=Math.round((img.data[k+c]*a+dst.data[k+c]*b*(1-a))/t);dst.data[k+3]=Math.round(t*255);}}
+const foreground=blank(256,352);
+for(let y=0;y<352;y++)for(let x=0;x<256;x++){
+ const k=(y*256+x)*4,dx=x-elbow[0],dy=y-elbow[1],along=dx*cs+dy*sn,across=-dx*sn+dy*cs;
+ const weight=smooth(0,10,along)*(1-smooth(9,15,Math.abs(across)));
+ foreground.data.set(body.data.subarray(k,k+4),k);foreground.data[k+3]=Math.round(body.data[k+3]*weight);
+}
+const dir='art/production-candidates/ranged-aim-r03';mkdirSync(dir,{recursive:true});writePNG(dir+'/body-source.png',body);writePNG(dir+'/charge-source.png',effect);const records=[];
+for(let frame=0;frame<6;frame++){
+ const degrees=[55,40,25,12,0,0][frame],angle=degrees*Math.PI/180,scale=[.25,.4,.55,.7,.85,1][frame];
+ const warp=(x,y)=>{
+  const dx=x-elbow[0],dy=y-elbow[1],along=dx*cs+dy*sn,across=-dx*sn+dy*cs;
+  const influence=smooth(0,16,along)*(1-smooth(10,24,Math.abs(across)));
+  const a=angle*influence;
+  return[elbow[0]+dx*Math.cos(a)-dy*Math.sin(a),elbow[1]+dx*Math.sin(a)+dy*Math.cos(a)];
+ };
+ const output=meshWarp(body,xs,ys,warp);
+ // Forearm is foreground when lowering across the hanging robe.
+ over(output,meshWarp(foreground,[0,256],[0,352],(x,y)=>{const dx=x-elbow[0],dy=y-elbow[1];return[elbow[0]+dx*Math.cos(angle)-dy*Math.sin(angle),elbow[1]+dx*Math.sin(angle)+dy*Math.cos(angle)];}));
+ const dx=anchor[0]-elbow[0],dy=anchor[1]-elbow[1],center=[elbow[0]+dx*Math.cos(angle)-dy*Math.sin(angle),elbow[1]+dx*Math.sin(angle)+dy*Math.cos(angle)];
+ const charge=meshWarp(effect,[0,256],[0,352],(x,y)=>[center[0]+(x-anchor[0])*scale,center[1]+(y-anchor[1])*scale]);
+ over(output,charge);
+ let removed=0;for(let k=0;k<output.data.length;k+=4)if(output.data[k+3]<=4){if(output.data[k+3])removed++;output.data.fill(0,k,k+4);}
+ writePNG(`${dir}/f00${frame}.png`,output);records.push({frame,forearm_down_angle_degrees:degrees,charge_effect_scale:scale,charge_center: center,removed_alpha_at_most:4,removed_low_alpha_pixels:removed});
+}
+writeFileSync(dir+'/derivation.json',JSON.stringify({kind:'scripted_fallback',source,fixed_body_source:'art/frames/ranged_idle/f000.png',local_arm_patch_polygon:polygon,static_review:review,elbow,source_charge_anchor:anchor,final_source_muzzle:anchor,extracted_effect_pixels:extracted,method:'Local elbow/forearm articulation55degrees to0 with blended joint and rigid foreground forearm layer for robe occlusion (avoids folded-mesh transparent-cell overwrite); separately extracted painted diamond grows0.25to1 around moving hand. Effect scale is deliberate cue growth, not actor normalization. Approved idle painting retained outside the local arm corridor; post/base/hood remain fixed; no whole-actor scale or per-frame recentering.',reason:'Generated drafts missed the projectile lane and retained duplicate anatomy/warm remnants; D23 rig preserves the corrected independently accepted construction for the six-frame warning. Scripted quality debt requires fresh full-action/runtime review.',records},null,2)+'\n');

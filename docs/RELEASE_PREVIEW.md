@@ -71,3 +71,7 @@ All seven clips and36frames have fresh scoped independent PASS verdicts and actu
 ## Follow-up fix 10a: ranged rooted idle
 
 Six150ms frames passed a fresh independent review, with local chest/arm/cloth motion, a fixed stone post/base and continuous900ms wrap. Actual stage captures cover both facings/native/phone, and runtime bytes, gameplay, art tools, export and browser smoke pass. The corrected identity frees the future aiming arm and keeps the hood topmost. This D23 local rig remains quality debt. Remaining ranged actions/projectile and physical-device gates stay pending. See `evidence/ranged-idle-fix.md`.
+
+## Follow-up fix 10b: ranged aim
+
+Six150ms aiming frames passed fresh independent r04 review after preserving the idle painting across the stationary hood/post/robe/base. Actual native/phone captures verify the900ms warning in both facings, fixed root, no early shot and unchanged muzzle. The growing painted diamond provides a shape cue. Retained failed source/rig/repaint evidence and a failing-before/passing-after identity regression document the corrections. Gameplay, art tools, export and browser smoke pass. D23 rig debt, later ranged clips/projectile and external device/player gates remain pending. See `evidence/ranged-aim-fix.md`.

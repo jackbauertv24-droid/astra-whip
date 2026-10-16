@@ -1,0 +1,1 @@
+Builder rejected before independent review: old pale dangling hand/forearm still visibly persists under the posed arm. The red remnant is removed, but the anatomical correction is incomplete. Preserve source and correct only the named remnant region.

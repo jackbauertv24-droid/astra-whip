@@ -229,3 +229,14 @@ Static r01 rejected a pinned aiming arm and post cap above the hood. Fresh stati
 | ranged_idle | PASS | None | None in scoped idle | None |
 
 Zero automated defects/flags. Full output: `art/review-ranged-idle-r01/review_verdict.md`. The900ms rooted loop and actual stage base(4608,432) are verified in both facings. Local scripted animation remains D23 quality debt. Outgoing aim is an explicitly unapproved placeholder; other ranged clips/projectile and physical-device gates remain pending.
+
+## Ranged aim follow-up — 2026-10-16
+
+Static r05 passed after retained duplicate-arm/lane failures. Motion r02 rejected a cross-clip repaint of the stationary body. The r03 candidate retains idle identity outside the local arm corridor; a scoped regression fails all6old frames and passes all6new frames. One reviewer stopped for failed blind-note persistence; fresh `/root/ranged_aim_review_r04` verified saved blind notes before intent, then inspected all12tiles, onions/seam, five style references and all32 native/phone captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | Coherent rooted breathing reference | None |
+| ranged_aim | PASS | None | Connected raising arm, growing diamond, stable identity and mirrored muzzle alignment | None |
+
+Zero audit defects/flags. Full output: `art/review-ranged-aim-r03/review_verdict.md`. Six150ms frames/900ms warning and fire-frame1 birth are engine-verified. D23 local rig remains disclosed quality debt. Fire/projectile placeholder graphics and physical-device gates remain unapproved.

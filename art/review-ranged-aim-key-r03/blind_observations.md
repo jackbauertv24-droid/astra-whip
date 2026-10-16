@@ -1,0 +1,5 @@
+# Blind observations
+
+Viewed only the candidate key image before any references or context.
+
+A narrow hooded, aged stone or woodlike figure stands on a layered rectangular plinth. The hood is the highest point. Its face opening is dark and olive. Layered ragged robes descend to the base, with a vertical carved support visible behind the left shoulder. A very long pale arm emerges beneath the hood and slopes down and right, bends toward the right, then ends in a spread, clawlike hand. A bright lime green diamond or four pointed star is centered close to the hand. Its center looks pale gray and green, and the outer green contour is uneven. The fingers overlap the left side of this effect. One tiny bright red mark is visible underneath the forearm near the figure's right silhouette; other minute green points surround the diamond. The hand and diamond read as a held or gathered magical effect, though the broad spread of fingers makes the precise palm center less clear. No obvious second dangling arm is visible. The silhouette is tall and asymmetrical, with the arm extending right around mid height.

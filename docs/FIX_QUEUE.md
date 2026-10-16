@@ -13,7 +13,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 7 | Air attack articulation | DONE; independent r01 PASS; airborne body/whip sequence, mirrored sockets and active landing handoffs verified |
 | 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
-| 10 | Ranged enemy supported action clips | PARTIAL: idle6frames independent PASS with fixed-base native/phone loops both facings; aim, fire, recover, hurt, death and projectile pending |
+| 10 | Ranged enemy supported action clips | PARTIAL: idle6+aim6frames independent PASS; fixed-base native/phone captures both facings and900ms aiming/muzzle validated; fire, recover, hurt, death and projectile pending |
 | 11 | Boss supported action clips | Engine silhouette in preview |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |
@@ -21,3 +21,5 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.
+
+Projectile follow-up to verify with its own regression/fix: `fire` spawns40u from the enemy root, but records the root as projectile `start`; the current640u expiry check therefore allows only600u of actual travel. Keep this separate from the current aim-art fix.

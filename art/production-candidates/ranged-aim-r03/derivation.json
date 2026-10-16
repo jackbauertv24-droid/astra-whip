@@ -1,0 +1,155 @@
+{
+  "kind": "scripted_fallback",
+  "source": "art/production-candidates/ranged-aim-key-r05/key.png",
+  "fixed_body_source": "art/frames/ranged_idle/f000.png",
+  "local_arm_patch_polygon": [
+    [
+      122,
+      65
+    ],
+    [
+      135,
+      65
+    ],
+    [
+      145,
+      105
+    ],
+    [
+      164,
+      122
+    ],
+    [
+      207,
+      140
+    ],
+    [
+      219,
+      148
+    ],
+    [
+      216,
+      166
+    ],
+    [
+      180,
+      168
+    ],
+    [
+      160,
+      155
+    ],
+    [
+      171,
+      185
+    ],
+    [
+      163,
+      198
+    ],
+    [
+      146,
+      196
+    ],
+    [
+      136,
+      166
+    ],
+    [
+      128,
+      137
+    ],
+    [
+      119,
+      114
+    ],
+    [
+      115,
+      85
+    ]
+  ],
+  "static_review": "art/review-ranged-aim-key-r05/review_verdict.md",
+  "elbow": [
+    143,
+    130
+  ],
+  "source_charge_anchor": [
+    208,
+    155
+  ],
+  "final_source_muzzle": [
+    208,
+    155
+  ],
+  "extracted_effect_pixels": 449,
+  "method": "Local elbow/forearm articulation55degrees to0 with blended joint and rigid foreground forearm layer for robe occlusion (avoids folded-mesh transparent-cell overwrite); separately extracted painted diamond grows0.25to1 around moving hand. Effect scale is deliberate cue growth, not actor normalization. Approved idle painting retained outside the local arm corridor; post/base/hood remain fixed; no whole-actor scale or per-frame recentering.",
+  "reason": "Generated drafts missed the projectile lane and retained duplicate anatomy/warm remnants; D23 rig preserves the corrected independently accepted construction for the six-frame warning. Scripted quality debt requires fresh full-action/runtime review.",
+  "records": [
+    {
+      "frame": 0,
+      "forearm_down_angle_degrees": 55,
+      "charge_effect_scale": 0.25,
+      "charge_center": [
+        159.8036672555932,
+        197.58429378756063
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 72
+    },
+    {
+      "frame": 1,
+      "forearm_down_angle_degrees": 40,
+      "charge_effect_scale": 0.4,
+      "charge_center": [
+        176.72319856057007,
+        190.9323057075995
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 91
+    },
+    {
+      "frame": 2,
+      "forearm_down_angle_degrees": 25,
+      "charge_effect_scale": 0.55,
+      "charge_center": [
+        191.34454961386476,
+        180.1278816890617
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 121
+    },
+    {
+      "frame": 3,
+      "forearm_down_angle_degrees": 12,
+      "charge_effect_scale": 0.7,
+      "charge_center": [
+        201.38180177725337,
+        167.9679499214995
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 131
+    },
+    {
+      "frame": 4,
+      "forearm_down_angle_degrees": 0,
+      "charge_effect_scale": 0.85,
+      "charge_center": [
+        208,
+        155
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 157
+    },
+    {
+      "frame": 5,
+      "forearm_down_angle_degrees": 0,
+      "charge_effect_scale": 1,
+      "charge_center": [
+        208,
+        155
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 184
+    }
+  ]
+}
