@@ -99,3 +99,7 @@ Six80ms death frames passed fresh independent review, including the dissolve-siz
 ## Follow-up fix 10h: painted projectile and complete ranged inventory
 
 Three directly generated64pxdiamond frames passed fresh independent review, including phone readability and240msloop seam. Shots now render from contract timings/center pivot and per-shot age, replacing the flat polygon when allframes load. Actual both-facing/native/phone captures verify birth,loop,long flight,expiry,standing non-displacing hit and crouch dodge;28new clock/resource checks and existing gameplay/regressions/tools/export/browser smoke pass. All34ranged body/projectile frames now have scoped approval and exact runtime/capture inventory. Body D23 debt and external device/player gates remain. See `evidence/projectile-grave-shot-fix.md` and `evidence/ranged-complete-inventory.json`.
+
+## Follow-up fix 11a: boss walk reference
+
+Eight80ms painted walk frames passed fresh independent review. Actual boss AI captures verify70u/s,640ms loop,bothfacings/native+phone,pivot and original palette. Old silhouette dispatch fails the new fixture; corrected runtime passes. Generated oversized sheet and earlier sole/fixture errors are retained. Contract/tools/gameplay/focused regressions,export and browser boot/input smoke pass. D23 articulated fallback remains quality debt; ten other boss actions, remaining inventory and external device/player gates stay pending. See `evidence/boss-walk-fix.md` and `evidence/boss-walk-inventory.json`.

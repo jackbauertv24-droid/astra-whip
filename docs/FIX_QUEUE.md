@@ -14,7 +14,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
 | 10 | Ranged enemy supported action clips | DONE: all6body clips/31frames +3projectile frames independent PASS; exact runtime, full both-facing native/phone coverage, actual2HP hurt/death path, shot loop/flight/standing/crouch verified |
-| 11 | Boss supported action clips | Engine silhouette in preview |
+| 11 | Boss supported action clips | PARTIAL: walk8/70frames independent PASS,actual70u/s640ms bothfacings/native+phone; ten other actions remain previews |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |
 | 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Basic touch controls; further validation pending |

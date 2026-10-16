@@ -1,0 +1,25 @@
+{
+  "canvas": [
+    512,
+    576
+  ],
+  "bbox": [
+    73,
+    161,
+    293,
+    512
+  ],
+  "height": 352,
+  "area": 41750,
+  "size": 204.3281674170255,
+  "top12pctWidth": 53,
+  "headWidthRatio": 0.15056818181818182,
+  "edgeInk": 0,
+  "warmRedDominantInk": 0,
+  "corners": [
+    0,
+    0,
+    0,
+    0
+  ]
+}

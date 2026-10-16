@@ -1,0 +1,220 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "cycle_ms": 640,
+   "direction": 1,
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "walk-right-first-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "walk-right-first-f01.png",
+     "frame": 1,
+     "position": [
+      6245.8349609375,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "walk-right-first-f02.png",
+     "frame": 2,
+     "position": [
+      6251.669921875,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.241666666666667,
+     "file": "walk-right-first-f03.png",
+     "frame": 3,
+     "position": [
+      6256.92138671875,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.325,
+     "file": "walk-right-first-f04.png",
+     "frame": 4,
+     "position": [
+      6262.75634765625,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.4,
+     "file": "walk-right-first-f05.png",
+     "frame": 5,
+     "position": [
+      6268.0078125,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.483333333333334,
+     "file": "walk-right-first-f06.png",
+     "frame": 6,
+     "position": [
+      6273.8427734375,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.566666666666667,
+     "file": "walk-right-first-f07.png",
+     "frame": 7,
+     "position": [
+      6279.677734375,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.641666666666667,
+     "file": "walk-right-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      6284.92919921875,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": true
+    }
+   ],
+   "speed": 70
+  },
+  {
+   "cycle_ms": 640,
+   "direction": -1,
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "walk-left-first-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.0833333333333333,
+     "file": "walk-left-first-f01.png",
+     "frame": 1,
+     "position": [
+      6234.1650390625,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.166666666666667,
+     "file": "walk-left-first-f02.png",
+     "frame": 2,
+     "position": [
+      6228.330078125,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.241666666666667,
+     "file": "walk-left-first-f03.png",
+     "frame": 3,
+     "position": [
+      6223.07861328125,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.325,
+     "file": "walk-left-first-f04.png",
+     "frame": 4,
+     "position": [
+      6217.24365234375,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.4,
+     "file": "walk-left-first-f05.png",
+     "frame": 5,
+     "position": [
+      6211.9921875,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.483333333333334,
+     "file": "walk-left-first-f06.png",
+     "frame": 6,
+     "position": [
+      6206.1572265625,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.566666666666667,
+     "file": "walk-left-first-f07.png",
+     "frame": 7,
+     "position": [
+      6200.322265625,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.641666666666667,
+     "file": "walk-left-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      6195.07080078125,
+      560.0
+     ],
+     "state": "walk",
+     "wrap": true
+    }
+   ],
+   "speed": 70
+  }
+ ],
+ "viewport": "(852, 393)"
+}

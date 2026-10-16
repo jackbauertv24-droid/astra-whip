@@ -94,3 +94,5 @@ A soft final ash blur can pass an audit yet read as a smudge against actual maso
 ### Dynamic draw evidence and coordinate precision
 
 A testing-mode world can return before its normal redraw queue while logical projectile age/position still advances. Explicitly queue the world draw before capturing a dynamic projectile; counts/clock assertions alone do not prove current artwork rendered. Also distinguish float32Vector2 accumulation from a speed defect: the long-flight fixture measured0.0444u rounding over637u; its0.1u tolerance remains below one source pixel and leaves gameplay values unchanged.
+
+- Boss walk: reject generated cell sheets before delivery when actor height requires correction outside G-03; equal cropping is not registration. Flat stance boots retreat11.2sourcepx per80ms at70u/s. Sprite2D pivot fixtures must flip the authored anchor before adding the already mirrored offset; flipping both creates a test-only80u error for asymmetric pivots. Retain negative dispatch proof separately from fixture diagnostics.

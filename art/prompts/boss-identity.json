@@ -1,0 +1,12 @@
+{
+  "id": "boss-identity-r01",
+  "prompt": "Create ONE original tall revenant warden game-sprite neutral construction key on actual transparent background. Reference1 is512x576alignment guide ONLY (remove every line): exact footgroundy512, authored rootx176, standing crown/headtop y160, bodyheight352sourcepx. Leave the large upper160px region empty for future raised-arm tells. References2/3 supply matte hand-painted gothic material/edge style ONLY; do not copy hunter costume or pursuer anatomy. Full boss from helmet to TWO CLEAR PLATED BOOTS, right-facing three-quarter side view, both hips/thighs/knees/shins/ankles/feet readable. Tall shrouded revenant in corroded ceremonial iron plate: Cold Slate #4C5866 armor, scarce Slate Edge #77838F wear, dark muted corpse-cloth/DecayGreen #5F6B45 shroud, restrained Pallid Flesh/Bone details. Closed shadowed helm~60pxhigh within352pxfigure; concealed face, no glowing eyes. Broad breastplate/pauldrons but visible two-part legs, rear shroud split above knees/calves so it cannot fake a legless torso. Standing boots atx~140and210, both soles exactlyy512, body mass centered~176. ONE oversized striking arm on forward/right side: shoulder around(230,245), elbow(255,330), long heavily plated forearm/huge closed gauntlet hanging low near(280,435), bottomabove475; it must be articulated and capable of lifting above head in future, not a separate floating weapon. Opposite rear arm smaller, attached shoulder/elbow/ordinary closed gauntlet. Exactly two arms/twohands/twolegs/twofeet; no sword, shield, whip, staff or extra limbs. Heavy balanced neutral supported stance, small front-to-back foot stagger, coherent hip/knee joints. No orange/ochre/red accents, phosphor, magic, gore, wounds, franchise symbols, heroic costume, ground shadow, scenery, labels, guides or border. Whole figure contained at the specified lower-canvas scale; no enlarge-to-fill, crop, pixel-art grid, shiny plastic or anime. Original dread by concealed identity and worn mass.",
+  "references": [
+    "art/guides/boss.png",
+    "art/candidates/style_hero_attack_key.png",
+    "art/candidates/style_enemy_pursuer.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-2070db2a-9faa-4fc8-ba94-b29f3432154a.png"
+}

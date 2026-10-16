@@ -1,0 +1,10 @@
+{
+  "id": "boss-walk-sheet-r01",
+  "prompt": "Animate the supplied approved revenant warden key into EIGHT distinct sequential right-facing heavy WALK frames, seamless loop. Deliver a transparent 2048x1152 spritesheet arranged exactly FOUR columns TWO rows, equal 512x576 cells, ordered left-to-right top then bottom. Preserve identity, armor, shroud, head size, limb lengths, two complete legs and two attached arms. Every cell has the SAME authored root (176,512), foot floor y512 and crown near y160, standing height352. Do not center the figure in each cell: root is left of cell center to leave arm reach space. No cell borders, labels, shadows or scenery. Actual alternating leg motion, planted soles move backward 11.2px per frame to cancel forward travel; swing boots lift clearly 18-24px before landing. One full two-step cycle in eight frames, opposite legs half a cycle apart. Heavy short-stride walk, small weight-transfer bob, articulated knees, flat supported soles, subtle cloak and gauntlet counter-motion. Keep exactly two legs/two feet and two arms/two hands, one oversized front gauntlet, no weapons. Palette and hand-painted matte corroded metal match key exactly, no glow/red/warm colors. Keep all eight figures the same scale and root registration, no duplicates, no whole-body scaling, no hidden or clipped boots. Actual alpha transparency.",
+  "references": [
+    "art/production-candidates/boss-identity-r01/key.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-walk-sheet-r01/raw.png"
+}

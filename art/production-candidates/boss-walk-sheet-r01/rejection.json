@@ -1,0 +1,86 @@
+{
+  "status": "rejected_before_delivery",
+  "reason": "Equal cells enlarge standing height well beyond352px and change registration; correcting would exceed bounded normalization. Not approved as gait.",
+  "frames": [
+    {
+      "frame": 0,
+      "bbox": [
+        30,
+        55,
+        423,
+        557
+      ],
+      "height": 503
+    },
+    {
+      "frame": 1,
+      "bbox": [
+        43,
+        60,
+        415,
+        557
+      ],
+      "height": 498
+    },
+    {
+      "frame": 2,
+      "bbox": [
+        38,
+        66,
+        427,
+        559
+      ],
+      "height": 494
+    },
+    {
+      "frame": 3,
+      "bbox": [
+        49,
+        70,
+        425,
+        559
+      ],
+      "height": 490
+    },
+    {
+      "frame": 4,
+      "bbox": [
+        29,
+        33,
+        420,
+        522
+      ],
+      "height": 490
+    },
+    {
+      "frame": 5,
+      "bbox": [
+        44,
+        35,
+        425,
+        521
+      ],
+      "height": 487
+    },
+    {
+      "frame": 6,
+      "bbox": [
+        35,
+        37,
+        431,
+        521
+      ],
+      "height": 485
+    },
+    {
+      "frame": 7,
+      "bbox": [
+        34,
+        32,
+        425,
+        522
+      ],
+      "height": 491
+    }
+  ]
+}

@@ -466,5 +466,14 @@
     ],
     "method": "Reuse accepted impact key; generated halfway slump bridge; generated limp supported slump with fixed original post/base; local8px further sag; seeded soft erosion, then isolated generated painted ash allocated as a local effect at0.46scale about source(128,346) to target(128,323). This is intentional effect sizing, not actor normalization. No global scale or per-frame recentering; source291px post-to-base normalization is recorded separately.",
     "reason": "Generated full six-frame sheet changed post/root registration and base proportions across equal tiles; retained raw/crops/metrics/rejection. D23 local/reused sequence with painted intermediate replaces the rejected stretched bridge and preserves fixed construction and requires fresh full-action/runtime review; scripted quality debt remains."
+  },
+  "boss_walk": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/boss-identity-r01/key.png",
+      "tools/prepare-boss-walk.mjs"
+    ],
+    "method": "Two connected plated-leg bone rigs with fixed-length upper/lower segments, flat translated boots, alternating60% stance,22px swing clearance,89.6px stride, small weight/shroud response; no global scale or per-frame recenter.",
+    "reason": "Generated eight-frame sheet enlarged actors to485–503px versus352px and changed root registration; retained raw/equal crops/rejection. D23 local rig requires fresh full gait/runtime review and remains scripted animation quality debt."
   }
 }

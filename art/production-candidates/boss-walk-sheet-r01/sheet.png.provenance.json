@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/boss-walk-sheet-r01/raw.png",
+  "source_canvas": [
+    1672,
+    941
+  ],
+  "export_canvas": [
+    2048,
+    1152
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

@@ -298,3 +298,7 @@ Fresh `/root/projectile_grave_shot_review_r01` saved blind tile descriptions bef
 | projectile_grave_shot | PASS | None | Open four-point phosphor diamond with coherent80ms phases/240msloop, matching charge/socket, phone-readable in both facings | None |
 
 Zero audit defects/flags. Full verdict: `art/review-projectile-grave-shot-r01/review_verdict.md`. Measured source extents51/56/51px fit60px maximum; no guide or rectangle residue. Actual muzzle/phase/wrap/280u/s/640u, standing non-displacing hit and crouch clearance pass. Combined inventory verifies6body clips/31frames plus3projectile frames, exact runtime bytes, scoped approvals and allframes bothfacings/native+phone (`evidence/ranged-complete-inventory.json`). Projectile frames are directly generated; prior body D23 debt and physical-device/player gates remain disclosed.
+
+## Boss walk reference — 2026-10-16
+
+Fresh `/root/boss_walk_review_r01` saved and reread blind lineup/strip observations before intent, then inspected all8native tiles/onions, five style references, derivation and all36actual captures. `boss_walk`: PASS, no failing frames, zero audit defects/flags. Full verdict: `art/review-boss-walk-r01/review_verdict.md`. Alternating support/swing,640ms seam,70u/s stance travel and both-facing phone read pass. Quiet upper body and crowded mid-stride ankles are accepted quality limits; D23 debt remains. This approves8/70boss frames only; other actions and handoffs remain pending.

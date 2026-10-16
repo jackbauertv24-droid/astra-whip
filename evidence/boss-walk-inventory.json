@@ -1,0 +1,14 @@
+{
+  "actor": "boss",
+  "clip": "boss_walk",
+  "frames": 8,
+  "review": "art/review-boss-walk-r01/review_verdict.md",
+  "captures": [
+    "evidence/boss-walk-native/capture.json",
+    "evidence/boss-walk-phone/capture.json"
+  ],
+  "all_frames_both_facings_native_and_phone": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "remaining_boss_clips_unapproved": 10
+}
