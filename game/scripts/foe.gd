@@ -12,6 +12,7 @@ var world: Node2D
 var visual: ActorVisual
 var hazard_x = 0.0
 var cycles = 0
+var recovery_start_y = 0.0
 var shot = false
 var history: Dictionary = {}
 func _ready() -> void:
@@ -22,6 +23,7 @@ func _ready() -> void:
  spawn = position
  enter("perch_idle" if kind == "swooper" else "idle")
 func enter(next: String) -> void:
+ if next == "recovery_climb": recovery_start_y = position.y
  state = next
  elapsed = 0
  history[next] = true
@@ -102,7 +104,7 @@ func simulate(dt: float) -> void:
      position.y = lerpf(floor_y - 182.5, floor_y - 64, minf(1,elapsed/0.12))
      if elapsed >= 0.24: enter("recovery_climb")
     "recovery_climb":
-     position.y = lerpf(floor_y-64,floor_y-182.5,minf(1,elapsed/0.9))
+     position.y = lerpf(recovery_start_y,floor_y-182.5,minf(1,elapsed/0.9))
      if elapsed >= 0.9: enter("cruise")
     "hurt":
      if elapsed >= 0.18: enter("recovery_climb")

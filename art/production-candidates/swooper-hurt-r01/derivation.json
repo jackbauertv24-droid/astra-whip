@@ -1,0 +1,6 @@
+{
+  "source": "art/frames/swooper_cruise/f002.png",
+  "method": "Frame0:10px rigid-region hood recoil with blended neck and3px cloth response over approved articulated wings. Frame1:new painted stagger. Frame2:approved banked recovery start reused exactly. Torso anchor unchanged, no global scale/translation.",
+  "painted_frame": "art/production-candidates/swooper-hurt-stagger-r01/key.png",
+  "reused_frame": "art/frames/swooper_recovery_climb/f000.png"
+}

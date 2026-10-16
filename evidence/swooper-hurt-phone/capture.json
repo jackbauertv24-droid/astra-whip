@@ -1,0 +1,150 @@
+{
+ "conditional_nonlethal_fixture": true,
+ "normal_lethal_hp": 0,
+ "normal_lethal_state": "death_fall",
+ "normal_production_hp": 1,
+ "physical_device": false,
+ "records": [
+  {
+   "before": "before-cruise-right.png",
+   "direction": 1,
+   "first_recovery_delta": 0.014923095703125,
+   "fixture_hp": 2,
+   "hp_after_hit": 1,
+   "hurt_duration": 0.183333333333333,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "hurt-right-f00.png",
+     "frame": 0,
+     "position": [
+      1807.04113769531,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-right-f01.png",
+     "frame": 1,
+     "position": [
+      1807.04113769531,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-right-f02.png",
+     "frame": 2,
+     "position": [
+      1807.04113769531,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-right-f00.png",
+     "frame": 0,
+     "position": [
+      1807.04113769531,
+      379.1123046875
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.00833333333333333,
+     "file": "recovery-first-step-right.png",
+     "frame": 0,
+     "position": [
+      1807.04113769531,
+      379.097381591797
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0,
+     "file": "after-cruise-right.png",
+     "frame": 0,
+     "position": [
+      1807.04113769531,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ]
+  },
+  {
+   "before": "before-cruise-left.png",
+   "direction": -1,
+   "first_recovery_delta": 0.014923095703125,
+   "fixture_hp": 2,
+   "hp_after_hit": 1,
+   "hurt_duration": 0.183333333333333,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "hurt-left-f00.png",
+     "frame": 0,
+     "position": [
+      1792.95886230469,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-left-f01.png",
+     "frame": 1,
+     "position": [
+      1792.95886230469,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-left-f02.png",
+     "frame": 2,
+     "position": [
+      1792.95886230469,
+      379.1123046875
+     ],
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "recovery_climb-left-f00.png",
+     "frame": 0,
+     "position": [
+      1792.95886230469,
+      379.1123046875
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0.00833333333333333,
+     "file": "recovery-first-step-left.png",
+     "frame": 0,
+     "position": [
+      1792.95886230469,
+      379.097381591797
+     ],
+     "state": "recovery_climb"
+    },
+    {
+     "elapsed": 0,
+     "file": "after-cruise-left.png",
+     "frame": 0,
+     "position": [
+      1792.95886230469,
+      377.5
+     ],
+     "state": "cruise"
+    }
+   ]
+  }
+ ],
+ "viewport": "(852, 393)"
+}

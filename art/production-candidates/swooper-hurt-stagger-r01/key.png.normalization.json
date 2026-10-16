@@ -1,0 +1,16 @@
+{
+  "source": "art/production-candidates/swooper-hurt-stagger-r01/delivery.png",
+  "corrective_normalization": 0.8629441624365483,
+  "source_pivot": [
+    204,
+    128
+  ],
+  "delivery_pivot": [
+    192,
+    128
+  ],
+  "target_height": 170,
+  "method": "One bounded uniform normalization about authored horizontal origin and measured vertical envelope center; static key only, not per-animation recentering.",
+  "removed_alpha_at_most": 4,
+  "removed_pixels": 687
+}

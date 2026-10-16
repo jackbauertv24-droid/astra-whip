@@ -60,3 +60,7 @@ The renderer reused the pursuer offset for every non-hero actor. Full-canvas spr
 ### Circle collisions require rectangle-to-circle distance
 
 The swooper's declared circle was approximated by a 60-unit distance to the hunter's center, which missed real contact near the top and bottom of the hunter. Whip hits used the circle's bounding square and could hit empty corners, consuming the target's once-per-attack slot. A 32-case engine regression reproduces 12 failures in the previous implementation across both facings and standing/crouched bodies. It exercises actual damage and attack deduplication, not just a standalone math helper. The repair measures distance from the circle center to the closest point of each body/attack rectangle, using the authoritative 40-unit radius. `tools/test-game.sh` now includes this suite and the actor-pivot regression. Pixel art audits do not establish runtime collision geometry.
+
+### Recovery interpolation must start at the actual entry altitude
+
+The swooper climb assumed every entry came from the 64-unit low pass. Its conditional nonlethal hurt branch also entered that state after damage at patrol or mid-climb altitude, causing an immediate downward teleport. Capture the actual y position on recovery entry and interpolate from there. Normal dive entry remains at 64 units and keeps the identical path. `swooper_recovery_entry.gd` reproduces six old-code failures and passes all 17 checks after the fix, using explicit test-only 2 HP foes; normal basic HP remains 1. The default test runner includes this regression.

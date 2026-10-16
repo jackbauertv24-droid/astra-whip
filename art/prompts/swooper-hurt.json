@@ -1,0 +1,14 @@
+[
+  {
+    "key": "stagger-r01",
+    "prompt": "Use case: identity-preserve. ONE transparent full-body game enemy HIT-STAGGER key, middle frame of a short hurt reaction. Image1 approved swooper identity and physical scale; image2 approved banked catch as next-pose bracket; image3 required384x256guide; image4 game style. SAME complete small hooded wraith with two jointed Ash Grey membrane wings and long ragged shroud. Body center192128 stays fixed. A whip impact has twisted the wraith sideways: body halfway between upright image1 and banked image2, about40degrees clockwise from upright. Hood still points RIGHT, recoils/tucks into collar rather than stretching forward; hood near235112, tail streams left/down near115178. Wings flinch and brace ASYMMETRICALLY: near wing opens down-left to aboutx70y210, far wing lifts up-right to aboutx320y45. Both full wing chains and broad membrane panels remain attached and retain SAME physical size and material, not new or broken limbs. This is a startled off-balance stagger, not a serene cruise or deliberate folded dive. Raised shoulder/hood tuck conveys being hit, with no wound or gore. Whole actor withinx42..342,y43..213 on384x256equivalent canvas: keep43px top and42px bottom EMPTY transparent margins, subject66% canvas height. Exact same head width and wrapped torso mass as image1; do not enlarge body when opening wings. Original rag pattern/cloth identity, matte Ash Grey#6E6A61, narrow Crypt Violet shadows, slate struts, pale upper-left wear. Clean actual transparency; no backdrop/ground/shadow/glow/dust, impact spark, lettering/guides, feathers, feet or gore. Single detailed illustration frame, not sheet.",
+    "tool": "built-in image_gen",
+    "source": [
+      "art/production-candidates/swooper-identity-r02/key.png",
+      "art/production-candidates/swooper-recovery-catch-r01/key.png",
+      "art/guides/swooper.png",
+      "art/candidates/style_enemy_pursuer.png"
+    ],
+    "raw": "art/production-candidates/swooper-hurt-stagger-r01/raw.png"
+  }
+]

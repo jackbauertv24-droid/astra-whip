@@ -6,7 +6,7 @@ mkdir -p evidence
 "$GODOT_BIN" --headless --path game --editor --import --quit > evidence/import.log 2>&1
 "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/run.gd > evidence/gameplay.log 2>&1
 cat evidence/gameplay.log
-for regression in actor_pivot swooper_collision; do
+for regression in actor_pivot swooper_collision swooper_recovery_entry; do
  "$GODOT_BIN" --headless --path game --script "res://tests/$regression.gd" > "evidence/$regression.log" 2>&1
  cat "evidence/$regression.log"
 done

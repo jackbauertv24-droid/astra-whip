@@ -1,0 +1,42 @@
+{
+  "result": "PASS",
+  "source_runtime_snapshot_identical": true,
+  "terminal_hurt_matches_recovery_start": true,
+  "unrelated_metadata_unchanged": true,
+  "conditional_fixture_hp": 2,
+  "production_hp": 1,
+  "production_lethal_state": "death_fall",
+  "captures": {
+    "native": {
+      "viewport": "(1280, 720)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.183333333333333,
+        0.183333333333333
+      ],
+      "recovery_first_step_deltas": [
+        0.014923095703125,
+        0.014923095703125
+      ]
+    },
+    "phone": {
+      "viewport": "(852, 393)",
+      "directions": [
+        1,
+        -1
+      ],
+      "durations": [
+        0.183333333333333,
+        0.183333333333333
+      ],
+      "recovery_first_step_deltas": [
+        0.014923095703125,
+        0.014923095703125
+      ]
+    }
+  },
+  "physical_device": false
+}

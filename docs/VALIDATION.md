@@ -59,3 +59,5 @@ Record gate ID, revision/build, method, device/tool details, expected result, ob
 ## Implementation regressions: authored pivots and flight collision
 
 The implementation's `tools/test-game.sh` runs the canonical T01–T09 suite, `game/tests/actor_pivot.gd` and `game/tests/swooper_collision.gd`. The latter fixtures verify all five actor pivots in both facings and exercise actual swooper contact/whip damage against the specified circle, including corner misses and once-per-attack target accounting. Archived failures prove these tests reject the pre-fix renderer/collision implementations. See `../evidence/actor-pivot-fix.md` and `../evidence/swooper-circle-fix.md`. These automated engine checks do not replace physical-device or unfamiliar-player testing.
+
+The default engine runner additionally executes `game/tests/swooper_recovery_entry.gd`: 17 checks of nonlethal damage from cruise, warning and mid-climb, recovery-entry continuity and unchanged normal low-pass recovery. Fixtures explicitly use 2 HP only to exercise the conditional branch; production basic HP remains 1.

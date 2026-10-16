@@ -806,5 +806,23 @@
       "method": "Painted bank/catch and righting frames0/1;55degree articulated wing power strokes frames2/4, approved full upstroke reused frames3/5. Ending equals cruise frame0. No global scaling in the rig.",
       "reason": "Labelled D23 rig/reuse for stronger repeat strokes preserves accepted wide-wing paint; generated righting draft r01 exceeded intended normalization bounds and was regenerated r02. Entire action requires fresh independent review."
     }
+  },
+  "swooper_hurt": {
+    "ms": [
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/swooper_cruise/f002.png",
+        "art/production-candidates/swooper-hurt-stagger-r01/key.png",
+        "art/frames/swooper_recovery_climb/f000.png"
+      ],
+      "method": "Local10px hood recoil over approved articulated wings; newly painted asymmetric stagger; exact approved bank/catch pose for recovery handoff. No global scale/translation in rig.",
+      "reason": "D23 local rig and reuse preserve the approved identity, with one newly painted stagger. Explicit conditional nonlethal2HP fixture; normal1HP damage enters death_fall."
+    }
   }
 }

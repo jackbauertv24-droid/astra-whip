@@ -125,3 +125,7 @@ Read each actor's canvas and pivot from the existing runtime art contract and mi
 ## Swooper circle collision repair — 2026-10-15
 
 Apply the existing ASSET_BRIEFS radius of 40 units to both contact and whip intersection, with a closest-point rectangle/circle test. Store the radius in Rules, shared by the bounding envelope and exact narrow phase. Preserve all other enemy rectangle geometry, attack timing and hit deduplication. The default engine test runner now includes the actual-damage collision regression and the existing actor-pivot regression. See `../evidence/swooper-circle-fix.md`.
+
+## Swooper hurt recovery continuity — 2026-10-15
+
+Store the current altitude when entering recovery_climb and use it as the interpolation origin. Preserve normal dive timing/altitudes and the 900 ms recovery duration. This repairs conditional nonlethal hurt at higher altitudes without changing production basic HP of 1. The hurt artwork is tested through a declared 2 HP fixture, while normal 1 HP damage is verified to enter death_fall. See `../evidence/swooper-hurt-fix.md`.
