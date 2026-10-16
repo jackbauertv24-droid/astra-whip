@@ -1,0 +1,11 @@
+{
+  "id": "ranged-death-sheet-r01",
+  "prompt": "Create a clean transparent SIX-FRAME painted sprite sheet, exactly THREE columns and TWO rows, equal tiles, no text/grid/borders. Total aspect768:704, each tile256:352. Reference1 is the exact original hooded rooted game enemy; reference2 is its collapsed posture. Frames read left-to-right top row0,1,2 then bottom3,4,5. Same one enemy and SAME post/base size/location in each tile, authored root(128,320) in every tile. 0: first lethal hit, upper body flinches, one arm curls defensively, hood still high. 1: shoulders/body sag halfway down post, same-sized hood drops about40px, arm begins hanging. 2: reach the exact limp collapsed posture in reference2, hood nowtop~95px, pale hand~240px. 3: deeper slack settle, no bracing, post fixed. 4: body and post visibly erode into pale ash, ragged dissolve, no gore, some opaque cloth fragments remain. 5: only a readable irregular grey ash pile/few soft drifting flecks at tilebasey305, no body, hand, hood or standing post. Keep stone base until erosion, fixedcaparound(113,30), fixedgroundy320, no walking, lateral full-length fall, body enlargement or global shrinking. Same concealed face and one exposed thin arm, long muted corpsecloth, matte painterly dark-gothic palette. No red wounds, blood, glows/diamonds, rounded spell balls, new creatures, extra limbs, smoke rectangles, shadows, labels or floor lines. All six frames fully contained, isolated on actual transparent background. Motion should read as a fast480ms supported collapse and ash death. Frame4→5 ash must remain readable at half-size on dark masonry, not almost invisible single specks. Respect exact 3x2 equal cells and eachtile root placement.",
+  "references": [
+    "art/frames/ranged_idle/f000.png",
+    "art/production-candidates/ranged-death-slump-key-r01/key.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-dee21937-5118-495e-b98a-4cce0fb4bd2d.png"
+}

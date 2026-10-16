@@ -13,7 +13,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 7 | Air attack articulation | DONE; independent r01 PASS; airborne body/whip sequence, mirrored sockets and active landing handoffs verified |
 | 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
-| 10 | Ranged enemy supported action clips | PARTIAL: idle6+aim6+fire3+recover7+hurt3frames independent PASS; native/phone action handoffs and real first/second-whip2HP sequence validated; death and projectile pending |
+| 10 | Ranged enemy supported action clips | PARTIAL: all6body clips/31frames independent PASS, exact runtime bytes and both-facing native/phone coverage verified; actual2HP hurt/death path; projectile3frames pending |
 | 11 | Boss supported action clips | Engine silhouette in preview |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |

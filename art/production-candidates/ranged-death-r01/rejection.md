@@ -1,0 +1,1 @@
+Builder rejected f001's uneven lateral influence on the hood/back fold and f005's too-flat low-contrast ash smudge. Preserve other frames unchanged. Tighten the bridge's post/body boundary so the hood drops coherently and enlarge only the final irregular ash pile above the ground edge. Audit numeric flag retained; no independent approval claimed.

@@ -1,0 +1,10 @@
+{
+  "id": "ranged-death-slump-key-r01",
+  "prompt": "Edit this approved transparent 2D gothic game enemy into ONE late death-collapse key. It is a legless rooted hooded body bound to a standing funerary post: corpse slumps DOWN IN PLACE against the post, no horizontal full-length fall. Keep original post shaft and cap fixed at same x~112 and y~30, rooted weathered base exactly y320, root128 on256x352 proportioned canvas. Keep SAME HEAD SIZE, arm thickness, material scale and original anatomy: hood/head drops from topy21 to abouty100 (hood still~75px long), shoulders sag to y155, one pale arm hangs limp with elbow near(146,192), hand near(153,244). Hood conceals entire face and droops downward; NOT a tiny head, torso miniature, kneeling live caster, crouched hero or merely an idle pose. Upper body folds, corpse cloth bunches around lower post/base, no separate legs exposed. Whole body remains within canvas, post visible behind the sagged head. This is dead weight: relaxed fingers, collapsed shoulder, no bracing hand or raised attack. Preserve muted matte decay-green cloth, bone pale flesh and worn stone style. NO gore, red wound, skeleton replacement, phosphor glow, sparks, magic diamond, projectile, smoke, ash or text in this key. Transparent background; complete rooted post and base remain in image. No camera, crop, actor enlargement or global shrink.",
+  "references": [
+    "art/frames/ranged_idle/f000.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-848e4839-06d5-446f-b975-204da28f255a.png"
+}

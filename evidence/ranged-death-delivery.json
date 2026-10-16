@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "frame": 0,
+      "identical_delivery": true,
+      "fixed_post_base_checked": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 1,
+      "identical_delivery": true,
+      "fixed_post_base_checked": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 2,
+      "identical_delivery": true,
+      "fixed_post_base_checked": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 3,
+      "identical_delivery": true,
+      "fixed_post_base_checked": true,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 4,
+      "identical_delivery": true,
+      "fixed_post_base_checked": false,
+      "fixed_region_changed_pixels": 0
+    },
+    {
+      "frame": 5,
+      "identical_delivery": true,
+      "fixed_post_base_checked": false,
+      "fixed_region_changed_pixels": 0
+    }
+  ],
+  "reused_impact_frame": true,
+  "unrelated_metadata_unchanged": true
+}

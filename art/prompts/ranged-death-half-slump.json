@@ -1,0 +1,11 @@
+{
+  "id": "ranged-death-half-slump-key-r01",
+  "prompt": "Edit reference1 late collapsed hooded enemy into ONE intermediate halfway collapse key for the same rooted gothic creature (reference2 neutral identity). Keep the funerary post, cap and stone root base at exactly same position and size; root128320 on256352 canvas, capx~113 y~30. Raise ONLY the collapsed body's hood/head, shoulder and limp arm about35source pixels from reference1: hood point nowtop~55 instead of90; same75px hood/head size, exposed shoulder near(130,90), elbow near(145,155), limp hand near(155,205). This pose is midway between upright and fully slumped, still dead weight, not recovering, casting or standing alert. Keep a clearly connected pale shoulder/upper arm/elbow/forearm/one hanging hand. Same body size; torso cloth folds/bunches locally rather than global resizing. No stretchy hood spike alongside post, no new straps, missing limb or second hand. Original post remains straight/fixed behind it, fully intact base at y320, full sprite contained. Exact same matte painted decaygreen cloth, hidden face and pallid flesh as references. No blood/red wound, glow, particles/ash, smoke, projectile, text, floor or guides. Transparent background.",
+  "references": [
+    "art/production-candidates/ranged-death-slump-key-r01/key.png",
+    "art/frames/ranged_idle/f000.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-55bd7dfe-102a-4090-9e64-d426f38fa095.png"
+}

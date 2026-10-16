@@ -276,3 +276,15 @@ Fresh `/root/ranged_hurt_review_r01` saved blind observations before intent and 
 | ranged_hurt | PASS | None | Protective connected arm fold, small upper recoil and exact idle finish | None |
 
 Zero audit defects/flags. Full verdict: `art/review-ranged-hurt-r01/review_verdict.md`. Real player input verifies the first whip interrupts aim at2HP→1HP without a shot, three60ms frames/180ms return, and second whip0HP/death. Phone read relies chiefly on the arm fold. D23 scripted debt remains; death art/projectile/device gates remain unapproved.
+
+## Ranged supported death follow-up — 2026-10-16
+
+Generated sheet registration drift, stretched local bridge and faint/floating ash drafts remain preserved. Fresh `/root/ranged_death_review_r05` saved blind descriptions before intent, then inspected all15native tiles/onions/seam, five style locks, painted intermediate/slump/ash sources and all40runtime captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | Coherent rooted reference | None |
+| ranged_hurt | PASS | None | Connected protective fold/release | None |
+| ranged_death | PASS | None | Progressive supported limp collapse, erosion and grounded painted ash visible at phone onset in both facings | None |
+
+A11f005 accepted as intentional eroded-body→ash completion. Full verdict: `art/review-ranged-death-r05/review_verdict.md`. Late fade/cleanup were inspected, distinct from onset visibility. All6body clips/31frames now have exact runtime bytes, scoped approvals and both-facing native/phone frame coverage (`evidence/ranged-inventory.json`). Actual two-whip production2HP lethal path, final hold/cleanup and no dead contact pass. D23 debt, projectile art and physical-device/player gates remain explicitly pending.

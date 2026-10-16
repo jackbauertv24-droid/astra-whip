@@ -91,3 +91,7 @@ Seven100ms recovery frames passed fresh independent review, returning the clean 
 ## Follow-up fix 10f: ranged hurt
 
 Three60ms protective-flinch frames passed fresh independent review. Actual whip input interrupts aiming on the production2HP enemy, shows hurt at1HP without firing, returns to idle and enters death on the second hit. Native/phone captures cover both facings; fixed post/base, delivery bytes, gameplay/tools/export and isolated browser smoke pass. D23 debt, death/projectile art and external-device gates remain pending. See `evidence/ranged-hurt-fix.md`.
+
+## Follow-up fix 10g: ranged death and complete body inventory
+
+Six80ms death frames passed fresh independent review, including the dissolve-size flag, after a painted halfway slump replaced a stretched bridge and grounded painted ash replaced a faint blur. Actual two-whip production2HP captures verify both facings/sizes, allframes, late fade/cleanup and no dead contact. All6body clips/31frames now pass exact runtime/approval/capture inventory. Gameplay, tools, export, browser smoke and the failing-before/passing-after ash-opacity tripwire pass. D23 debt and separate projectile/device/player gates remain pending. See `evidence/ranged-death-fix.md` and `evidence/ranged-inventory.json`.

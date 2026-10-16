@@ -1,0 +1,1 @@
+A09 rejected final f005: measured ink baseline7px above pivot. Native capture completed, combined wrapper then interrupted; no complete phone pass claimed. Move only the allocated final ash effect down7px to the authored ground line; preserve f000–f004.

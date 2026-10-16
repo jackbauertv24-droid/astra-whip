@@ -1,0 +1,45 @@
+#!/usr/bin/env node
+import{readPNG,writePNG,blank}from'./lib/png.mjs';
+import{meshWarp,clamp}from'./lib/deform.mjs';
+import{mkdirSync,copyFileSync,readFileSync,writeFileSync}from'node:fs';
+if(!readFileSync('art/review-ranged-hurt-r01/review_verdict.md','utf8').trimEnd().endsWith('REVIEW: PASS'))throw Error('Unapproved hit source');
+const idle=readPNG('art/frames/ranged_idle/f000.png'),hit=readPNG('art/frames/ranged_hurt/f001.png'),source='art/production-candidates/ranged-death-slump-key-r01/key.png',slump=readPNG(source);
+const smooth=(a,b,x)=>{const t=clamp((x-a)/(b-a));return t*t*(3-2*t);};
+const post=(x,y)=>(x<=124&&y<50)||(x<=116&&y<92)||(x<=108&&y<140);
+function restore(img){for(let y=0;y<352;y++)for(let x=0;x<256;x++){const k=(y*256+x)*4;if(post(x,y)||y>=300)img.data.set(idle.data.subarray(k,k+4),k);if(img.data[k+3]<=4)img.data.fill(0,k,k+4);}return img;}
+const xs=[0,60,80,95,105,115,125,135,145,160,180,200,220,256],ys=[0,15,25,40,60,80,100,120,140,160,180,200,220,240,260,280,300,320,352];
+const dir='art/production-candidates/ranged-death-r04';mkdirSync(dir,{recursive:true});
+copyFileSync('art/frames/ranged_hurt/f001.png',dir+'/f000.png');
+const halfSource='art/production-candidates/ranged-death-half-slump-key-r01/key.png';
+const bridge=restore(readPNG(halfSource));writePNG(dir+'/f001.png',bridge);
+restore(slump);writePNG(dir+'/slump-source.png',slump);writePNG(dir+'/f002.png',slump);
+const settled=restore(meshWarp(slump,xs,ys,(x,y)=>{const w=smooth(70,105,y)*(1-smooth(200,295,y))*smooth(108,135,x);return[x-2*w,y+8*w];}));writePNG(dir+'/f003.png',settled);
+let seed=734195;const random=()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296;};
+const ink=[];for(let y=30;y<320;y++)for(let x=60;x<210;x++)if(settled.data[(y*256+x)*4+3]>180)ink.push([x,y]);
+const holes=Array.from({length:30},()=>{const [x,y]=ink[Math.floor(random()*ink.length)];return{x,y,r:3+random()*5};});
+const flecks=Array.from({length:18},()=>({x:128+(random()-.5)*94,y:240+random()*65,r:.8+random()*1.7}));
+const pile=[{x:110,y:310,r:7},{x:119,y:307,r:9},{x:128,y:306,r:10},{x:138,y:308,r:8},{x:147,y:310,r:7},{x:156,y:312,r:5}];
+const finalPile=[{x:110,y:308,r:8},{x:120,y:304,r:12},{x:132,y:303,r:14},{x:145,y:307,r:10},{x:156,y:310,r:7}];
+for(let stage=0;stage<2;stage++){
+ const output=blank(256,352);
+ if(stage===0)for(let y=0;y<352;y++)for(let x=0;x<256;x++){
+  const k=(y*256+x)*4;if(!settled.data[k+3])continue;let mask=1;for(const h of holes){const d=Math.hypot(x-h.x,y-h.y);mask*=clamp((d-h.r*.4)/(h.r*.6));}
+  for(let c=0;c<3;c++)output.data[k+c]=Math.round(settled.data[k+c]*.4+[132,127,116][c]*.6);
+  output.data[k+3]=Math.round(settled.data[k+3]*.68*mask);
+ }
+ const particles=[...flecks.map(p=>({...p,y:stage===0?p.y-20:p.y})),...(stage===0?pile:finalPile).map(p=>({...p,pile:true,r:p.r*(stage===0?.65:1)}))];
+ for(const p of particles)for(let y=Math.floor(p.y-p.r*2);y<=Math.ceil(p.y+p.r*2);y++)for(let x=Math.floor(p.x-p.r*2);x<=Math.ceil(p.x+p.r*2);x++){
+  if(x<0||x>=256||y<0||y>=352)continue;const d=Math.hypot(x-p.x,(y-p.y)*(p.pile?(stage===0?1.8:1.4):1))/p.r;if(d>=1.6)continue;
+  const grain=.85+.15*Math.sin(x*1.7+y*2.3),a=(p.pile?245:190)*clamp(1-d/1.6)*grain/255,k=(y*256+x)*4,b=output.data[k+3]/255,t=a+b*(1-a),col=p.pile?[165,158,145]:[143,137,126];
+  if(!t)continue;for(let c=0;c<3;c++)output.data[k+c]=Math.round((col[c]*a+output.data[k+c]*b*(1-a))/t);output.data[k+3]=Math.round(t*255);
+ }
+ for(let k=0;k<output.data.length;k+=4)if(output.data[k+3]<=4)output.data.fill(0,k,k+4);
+ writePNG(`${dir}/f00${stage+4}.png`,output);
+}
+const ashSource='art/production-candidates/ranged-death-sheet-r01/f005.png';
+const paintedAsh=meshWarp(readPNG(ashSource),[0,256],[0,352],(x,y)=>[128+(x-128)*.46,316+(y-346)*.46]);
+for(let k=0;k<paintedAsh.data.length;k+=4)if(paintedAsh.data[k+3]<=4)paintedAsh.data.fill(0,k,k+4);
+writePNG(dir+'/f005.png',paintedAsh);
+const derivation={kind:'scripted_fallback',source:['art/frames/ranged_hurt/f001.png',source,halfSource,ashSource,'art/frames/ranged_idle/f000.png','tools/prepare-ranged-death.mjs'],method:'Reuse accepted impact key; generated halfway slump bridge; generated limp supported slump with fixed original post/base; local8px further sag; seeded soft erosion, then isolated generated painted ash allocated as a local effect at0.46scale about source(128,346) to target(128,316). This is intentional effect sizing, not actor normalization. No global scale or per-frame recentering; source291px post-to-base normalization is recorded separately.',reason:'Generated full six-frame sheet changed post/root registration and base proportions across equal tiles; retained raw/crops/metrics/rejection. D23 local/reused sequence with painted intermediate replaces the rejected stretched bridge and preserves fixed construction and requires fresh full-action/runtime review; scripted quality debt remains.',seed:734195,holes,flecks,pile,finalPile,painted_ash_effect:{source:ashSource,source_anchor:[128,346],target_anchor:[128,316],scale:.46}};
+writeFileSync(dir+'/derivation.json',JSON.stringify(derivation,null,2)+'\n');
+for(const path of ['art/frames/clips.json','art/frames/derivations.json']){const d=JSON.parse(readFileSync(path)),r={kind:derivation.kind,source:derivation.source,method:derivation.method,reason:derivation.reason};if(path.endsWith('clips.json'))d.ranged_death={ms:Array(6).fill(80),loop:false,derivation:r};else d.ranged_death=r;writeFileSync(path,JSON.stringify(d,null,2)+'\n');}

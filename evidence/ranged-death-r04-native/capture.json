@@ -1,0 +1,208 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "cleanup_seconds": 1.2,
+   "dead_contact_damage": false,
+   "direction": 1,
+   "first_actual_hit_hp": 1,
+   "nominal_clip_seconds": 0.48,
+   "production_start_hp": 2,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "elapsed": 0,
+     "file": "death-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.916666686534882,
+     "elapsed": 0.0833333333333333,
+     "file": "death-right-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.833333313465118,
+     "elapsed": 0.166666666666667,
+     "file": "death-right-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.758333325386047,
+     "elapsed": 0.241666666666667,
+     "file": "death-right-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.675000011920929,
+     "elapsed": 0.325,
+     "file": "death-right-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.600000023841858,
+     "elapsed": 0.4,
+     "file": "death-right-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.349999994039536,
+     "elapsed": 0.65,
+     "file": "hold-right-0650.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.100000001490116,
+     "elapsed": 1.00833333333333,
+     "file": "hold-right-1000.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.100000001490116,
+     "elapsed": 1.23333333333333,
+     "file": "hold-right-1225.png",
+     "frame": 5,
+     "state": "death",
+     "visible": false
+    }
+   ],
+   "second_actual_hit_hp": 0
+  },
+  {
+   "cleanup_seconds": 1.2,
+   "dead_contact_damage": false,
+   "direction": -1,
+   "first_actual_hit_hp": 1,
+   "nominal_clip_seconds": 0.48,
+   "production_start_hp": 2,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "elapsed": 0,
+     "file": "death-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.916666686534882,
+     "elapsed": 0.0833333333333333,
+     "file": "death-left-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.833333313465118,
+     "elapsed": 0.166666666666667,
+     "file": "death-left-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.758333325386047,
+     "elapsed": 0.241666666666667,
+     "file": "death-left-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.675000011920929,
+     "elapsed": 0.325,
+     "file": "death-left-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.600000023841858,
+     "elapsed": 0.4,
+     "file": "death-left-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "state": "death"
+    },
+    {
+     "alpha": 0.349999994039536,
+     "elapsed": 0.65,
+     "file": "hold-left-0650.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.100000001490116,
+     "elapsed": 1.00833333333333,
+     "file": "hold-left-1000.png",
+     "frame": 5,
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.100000001490116,
+     "elapsed": 1.23333333333333,
+     "file": "hold-left-1225.png",
+     "frame": 5,
+     "state": "death",
+     "visible": false
+    }
+   ],
+   "second_actual_hit_hp": 0
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

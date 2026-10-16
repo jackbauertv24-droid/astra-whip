@@ -1,0 +1,1 @@
+Builder rejected f001: the scripted bridge still stretches the post-adjacent cloth into a spike. Retain the other five frames, including the improved final ash, unchanged. Replace f001 only with a newly painted halfway slump, preserving fixed post/base registration.

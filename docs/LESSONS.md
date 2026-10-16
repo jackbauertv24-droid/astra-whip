@@ -84,3 +84,9 @@ An enemy-root reference shortened a forward-offset shot's specified flight by it
 ### Effect extraction must remove the effect from the body
 
 The first ranged firing derivation removed its separate charge layer, but bright charge pixels retained around the painted fingers created an apparent rebound in the final frame. A zero opacity field does not prove an effect is gone. Inspect the correctly composited body-only hand and the final runtime pose; preserve the failed frames/review and correct only the local source region before rederiving affected frames.
+
+### Rooted collapse and ash need separate evidence
+
+The ranged generated cycle drifted its fixed post center117→96→90px across equal tiles. Do not disguise that drift with per-frame recentering. Reuse the accepted impact pose and paint intermediate supported slumps while preserving fixed construction; a large local warp can stretch post-adjacent cloth into a spike. Record and replace that named bridge.
+
+A soft final ash blur can pass an audit yet read as a smudge against actual masonry. Retain the runtime failure and inspect a textured painted replacement on the stage. The scoped opacity tripwire reproduces the faint-core failure; it supplements rather than approves readability. A09 separately caught an effect allocation7px above ground, corrected by moving only the ash effect to the pivot line.

@@ -1,0 +1,65 @@
+{
+  "method": "equal3x2tile extraction after uniform resolution conversion; no per-frame corrective pose edits",
+  "records": [
+    {
+      "frame": 0,
+      "ink_bounds": [
+        62,
+        15,
+        229,
+        349
+      ],
+      "top_band_center": 117
+    },
+    {
+      "frame": 1,
+      "ink_bounds": [
+        42,
+        15,
+        213,
+        348
+      ],
+      "top_band_center": 96
+    },
+    {
+      "frame": 2,
+      "ink_bounds": [
+        34,
+        16,
+        202,
+        348
+      ],
+      "top_band_center": 90
+    },
+    {
+      "frame": 3,
+      "ink_bounds": [
+        48,
+        9,
+        246,
+        340
+      ],
+      "top_band_center": 115.5
+    },
+    {
+      "frame": 4,
+      "ink_bounds": [
+        40,
+        8,
+        255,
+        339
+      ],
+      "top_band_center": 106.5
+    },
+    {
+      "frame": 5,
+      "ink_bounds": [
+        0,
+        178,
+        227,
+        340
+      ],
+      "top_band_center": 124
+    }
+  ]
+}

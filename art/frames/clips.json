@@ -948,5 +948,29 @@
       "method": "Generated inward protective arm/torso key patched above fixed idle lower robe/base; restore fixed rear post; local upper-body recoil increases from60%to100%, then exact idle endpoint. No global scale or recentering.",
       "reason": "Generated key supplied the connected defensive fold but leaned toward the incoming hit and repainted stationary construction. Local correction restores fixed idle post/base and adds bounded away-from-hit upper recoil. Fresh full-action/source review required; D23 scripted quality debt retained."
     }
+  },
+  "ranged_death": {
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/ranged_hurt/f001.png",
+        "art/production-candidates/ranged-death-slump-key-r01/key.png",
+        "art/production-candidates/ranged-death-half-slump-key-r01/key.png",
+        "art/production-candidates/ranged-death-sheet-r01/f005.png",
+        "art/frames/ranged_idle/f000.png",
+        "tools/prepare-ranged-death.mjs"
+      ],
+      "method": "Reuse accepted impact key; generated halfway slump bridge; generated limp supported slump with fixed original post/base; local8px further sag; seeded soft erosion, then isolated generated painted ash allocated as a local effect at0.46scale about source(128,346) to target(128,323). This is intentional effect sizing, not actor normalization. No global scale or per-frame recentering; source291px post-to-base normalization is recorded separately.",
+      "reason": "Generated full six-frame sheet changed post/root registration and base proportions across equal tiles; retained raw/crops/metrics/rejection. D23 local/reused sequence with painted intermediate replaces the rejected stretched bridge and preserves fixed construction and requires fresh full-action/runtime review; scripted quality debt remains."
+    }
   }
 }
