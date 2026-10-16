@@ -1,0 +1,124 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "death_art_approved": false,
+   "direction": 1,
+   "duration": 0.183333333333333,
+   "first_whip_hp": 1,
+   "production_start_hp": 2,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "hurt-right-f00.png",
+     "frame": 0,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-right-f01.png",
+     "frame": 1,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-right-f02.png",
+     "frame": 2,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "idle-right-f00.png",
+     "frame": 0,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "idle"
+    }
+   ],
+   "second_whip_hp": 0,
+   "second_whip_state": "death"
+  },
+  {
+   "death_art_approved": false,
+   "direction": -1,
+   "duration": 0.183333333333333,
+   "first_whip_hp": 1,
+   "production_start_hp": 2,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "hurt-left-f00.png",
+     "frame": 0,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.0666666666666667,
+     "file": "hurt-left-f01.png",
+     "frame": 1,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.125,
+     "file": "hurt-left-f02.png",
+     "frame": 2,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "idle-left-f00.png",
+     "frame": 0,
+     "hp": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectiles": 0,
+     "state": "idle"
+    }
+   ],
+   "second_whip_hp": 0,
+   "second_whip_state": "death"
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

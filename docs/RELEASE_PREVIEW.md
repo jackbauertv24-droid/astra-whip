@@ -87,3 +87,7 @@ Three50/50/100ms frames passed fresh independent review after a local hand corre
 ## Follow-up fix 10e: ranged recovery
 
 Seven100ms recovery frames passed fresh independent review, returning the clean firing arm to idle with exact accepted endpoint reuse. Actual native/phone captures verify every frame, both facings,700ms timing, fixed root and no extra shot. Byte/identity checks, gameplay/tools/export and browser smoke pass. D23 debt and remaining hurt/death/projectile/device gates stay pending. See `evidence/ranged-recover-fix.md`.
+
+## Follow-up fix 10f: ranged hurt
+
+Three60ms protective-flinch frames passed fresh independent review. Actual whip input interrupts aiming on the production2HP enemy, shows hurt at1HP without firing, returns to idle and enters death on the second hit. Native/phone captures cover both facings; fixed post/base, delivery bytes, gameplay/tools/export and isolated browser smoke pass. D23 debt, death/projectile art and external-device gates remain pending. See `evidence/ranged-hurt-fix.md`.

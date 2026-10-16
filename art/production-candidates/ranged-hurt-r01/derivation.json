@@ -1,0 +1,36 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/production-candidates/ranged-hurt-key-r01/key.png",
+    "art/frames/ranged_idle/f000.png",
+    "tools/prepare-ranged-hurt.mjs"
+  ],
+  "method": "Generated inward protective arm/torso key patched above fixed idle lower robe/base; restore fixed rear post; local upper-body recoil increases from60%to100%, then exact idle endpoint. No global scale or recentering.",
+  "reason": "Generated key supplied the connected defensive fold but leaned toward the incoming hit and repainted stationary construction. Local correction restores fixed idle post/base and adds bounded away-from-hit upper recoil. Fresh full-action/source review required; D23 scripted quality debt retained.",
+  "records": [
+    {
+      "frame": 0,
+      "upper_body_recoil_amount": 0.6,
+      "hood_max_translation": [
+        -4.8,
+        2.4
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 276
+    },
+    {
+      "frame": 1,
+      "upper_body_recoil_amount": 1,
+      "hood_max_translation": [
+        -8,
+        4
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 259
+    },
+    {
+      "frame": 2,
+      "reuse": "art/frames/ranged_idle/f000.png"
+    }
+  ]
+}

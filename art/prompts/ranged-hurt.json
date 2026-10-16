@@ -1,0 +1,10 @@
+{
+  "id": "ranged-hurt-key-r01",
+  "prompt": "Edit the supplied approved transparent 2D gothic game sprite into ONE restrained hurt/flinch peak key. Same whole hooded bound creature and matte painted identity, full rooted stone slab and rear funerary post fixed exactly. ONLY the body recoils: its concealed hood/upper chest lean backward/left about8source pixels against the post, hood point remains highest; the ONE exposed long pale arm bends inward, elbow still attached, hand pulls up toward the chest around source(145,140) instead of hanging down at(160,180). Clearly connected shoulder/upper arm/elbow/forearm/one hand with curled long fingers; no other exposed arm, no duplicate hanging hand. Figure is bound and cannot step, fall, detach or shrink. Torso/cloth compresses modestly above fixed hips; rooted lower robe/base remains planted, unchanged. Keep exact canvas proportions and registration of reference256x352, basey320 rootx128 hood aroundy21. No gore, red marks, flash, phosphor, charge, magic, weapon, projectile, hit sparks, guides, text or borders. Muted bone flesh and decay-green cloth only. Complete figure, transparent background. This is a visible short nonlethal recoil pose, not attacking, casting, reaching, crouching or dying.",
+  "references": [
+    "art/frames/ranged_idle/f000.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-7abbd3b2-0b37-4e3a-ba12-ea99f43913e0.png"
+}

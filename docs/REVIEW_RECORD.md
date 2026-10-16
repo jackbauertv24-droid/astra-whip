@@ -264,3 +264,15 @@ Fresh `/root/ranged_recover_review_r01` saved blind descriptions first, then ins
 | ranged_recover | PASS | None | Progressive connected arm lowering and plausible final settle, exact incoming/outgoing endpoint reuse | None |
 
 Zero audit defects/flags. Full verdict: `art/review-ranged-recover-r01/review_verdict.md`. Actual700ms recovery, seven frames, bothfacings/sizes, fixed root and no extra shot pass. D23 local scripted/reused debt remains; hurt/death/projectile and external-device gates remain pending.
+
+## Ranged nonlethal hurt follow-up — 2026-10-16
+
+Fresh `/root/ranged_hurt_review_r01` saved blind observations before intent and inspected all15native tiles/onions, five style references, generated/corrected sources and all20runtime captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | Coherent rooted reference | None |
+| ranged_aim | PASS | None | Continuous arm and diamond cue | None |
+| ranged_hurt | PASS | None | Protective connected arm fold, small upper recoil and exact idle finish | None |
+
+Zero audit defects/flags. Full verdict: `art/review-ranged-hurt-r01/review_verdict.md`. Real player input verifies the first whip interrupts aim at2HP→1HP without a shot, three60ms frames/180ms return, and second whip0HP/death. Phone read relies chiefly on the arm fold. D23 scripted debt remains; death art/projectile/device gates remain unapproved.

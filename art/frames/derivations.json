@@ -443,5 +443,15 @@
     ],
     "method": "Reuse exact recoil and idle endpoints; reverse the approved elbow-lift articulation over five effect-free clean-hand poses using foreground arm occlusion. Fixed hood/post/base; no actor scaling or recentering.",
     "reason": "D23 reuse/reversal of accepted action construction, with local scripted in-betweens from corrected generated hand. Earlier generated arm construction/recoil changed anatomy or firing lane; preserved failures motivate the local rig. Requires fresh recovery/runtime review and remains scripted quality debt."
+  },
+  "ranged_hurt": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/ranged-hurt-key-r01/key.png",
+      "art/frames/ranged_idle/f000.png",
+      "tools/prepare-ranged-hurt.mjs"
+    ],
+    "method": "Generated inward protective arm/torso key patched above fixed idle lower robe/base; restore fixed rear post; local upper-body recoil increases from60%to100%, then exact idle endpoint. No global scale or recentering.",
+    "reason": "Generated key supplied the connected defensive fold but leaned toward the incoming hit and repainted stationary construction. Local correction restores fixed idle post/base and adds bounded away-from-hit upper recoil. Fresh full-action/source review required; D23 scripted quality debt retained."
   }
 }
