@@ -252,3 +252,15 @@ Fresh full review r02 rejected charge pixels embedded in the body-only hand. A l
 | ranged_fire | PASS | None | Exact incoming endpoint, charge contraction/disappearance and connected local recoil | None |
 
 Zero audit defects/flags. Full verdict: `art/review-ranged-fire-r02/review_verdict.md`. Actual native/phone captures verify all3frames, bothfacings, fixed root, frame1shot and200ms handoff within a120Hz tick. D23 scripted debt remains. Recovery/projectile graphics and physical-device gates remain unapproved.
+
+## Ranged recovery follow-up — 2026-10-16
+
+Fresh `/root/ranged_recover_review_r01` saved blind descriptions first, then inspected all16native tiles/onions/seam, five style references, sources/derivation and all36actual captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| ranged_idle | PASS | None | Rooted breathing reference | None |
+| ranged_fire | PASS | None | Clean connected recoil endpoint | None |
+| ranged_recover | PASS | None | Progressive connected arm lowering and plausible final settle, exact incoming/outgoing endpoint reuse | None |
+
+Zero audit defects/flags. Full verdict: `art/review-ranged-recover-r01/review_verdict.md`. Actual700ms recovery, seven frames, bothfacings/sizes, fixed root and no extra shot pass. D23 local scripted/reused debt remains; hurt/death/projectile and external-device gates remain pending.

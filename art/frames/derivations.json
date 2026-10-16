@@ -432,5 +432,16 @@
     ],
     "method": "Exact aim endpoint reuse, painted diamond contraction/fade on50ms release, local six-degree forearm recoil and six-pixel retraction after release with foreground occlusion; local generated hand correction removes embedded charge; fixed approved identity, no global scale/recenter.",
     "reason": "Generated recoil key lifted the hand out of the muzzle neighborhood and introduced a red wrist remnant; retained rejected source/prompt. D23 fallback requires fresh motion/runtime review and remains quality debt."
+  },
+  "ranged_recover": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/ranged_fire/f002.png",
+      "art/frames/ranged_idle/f000.png",
+      "art/production-candidates/ranged-fire-r02/clean-body-source.png",
+      "tools/prepare-ranged-recover.mjs"
+    ],
+    "method": "Reuse exact recoil and idle endpoints; reverse the approved elbow-lift articulation over five effect-free clean-hand poses using foreground arm occlusion. Fixed hood/post/base; no actor scaling or recentering.",
+    "reason": "D23 reuse/reversal of accepted action construction, with local scripted in-betweens from corrected generated hand. Earlier generated arm construction/recoil changed anatomy or firing lane; preserved failures motivate the local rig. Requires fresh recovery/runtime review and remains scripted quality debt."
   }
 }

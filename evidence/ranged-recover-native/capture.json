@@ -1,0 +1,198 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "duration": 0.7,
+   "outgoing_idle_art_approved": true,
+   "projectile_art_approved": false,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "recover-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "recover-right-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.208333333333333,
+     "file": "recover-right-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recover-right-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.4,
+     "file": "recover-right-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.500000000000001,
+     "file": "recover-right-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "recover-right-f06.png",
+     "frame": 6,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0,
+     "file": "idle-right-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "idle"
+    }
+   ]
+  },
+  {
+   "direction": -1,
+   "duration": 0.7,
+   "outgoing_idle_art_approved": true,
+   "projectile_art_approved": false,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "recover-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.108333333333333,
+     "file": "recover-left-f01.png",
+     "frame": 1,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.208333333333333,
+     "file": "recover-left-f02.png",
+     "frame": 2,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.3,
+     "file": "recover-left-f03.png",
+     "frame": 3,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.4,
+     "file": "recover-left-f04.png",
+     "frame": 4,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.500000000000001,
+     "file": "recover-left-f05.png",
+     "frame": 5,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0.6,
+     "file": "recover-left-f06.png",
+     "frame": 6,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "recover"
+    },
+    {
+     "elapsed": 0,
+     "file": "idle-left-f00.png",
+     "frame": 0,
+     "position": [
+      4608.0,
+      432.0
+     ],
+     "projectile_count": 1,
+     "state": "idle"
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

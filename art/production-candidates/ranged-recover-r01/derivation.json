@@ -1,0 +1,51 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/ranged_fire/f002.png",
+    "art/frames/ranged_idle/f000.png",
+    "art/production-candidates/ranged-fire-r02/clean-body-source.png",
+    "tools/prepare-ranged-recover.mjs"
+  ],
+  "method": "Reuse exact recoil and idle endpoints; reverse the approved elbow-lift articulation over five effect-free clean-hand poses using foreground arm occlusion. Fixed hood/post/base; no actor scaling or recentering.",
+  "reason": "D23 reuse/reversal of accepted action construction, with local scripted in-betweens from corrected generated hand. Earlier generated arm construction/recoil changed anatomy or firing lane; preserved failures motivate the local rig. Requires fresh recovery/runtime review and remains scripted quality debt.",
+  "records": [
+    {
+      "frame": 0,
+      "reuse": "art/frames/ranged_fire/f002.png"
+    },
+    {
+      "frame": 1,
+      "forearm_down_angle_degrees": 0,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 120
+    },
+    {
+      "frame": 2,
+      "forearm_down_angle_degrees": 12,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 120
+    },
+    {
+      "frame": 3,
+      "forearm_down_angle_degrees": 25,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 111
+    },
+    {
+      "frame": 4,
+      "forearm_down_angle_degrees": 40,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 81
+    },
+    {
+      "frame": 5,
+      "forearm_down_angle_degrees": 55,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 56
+    },
+    {
+      "frame": 6,
+      "reuse": "art/frames/ranged_idle/f000.png"
+    }
+  ]
+}

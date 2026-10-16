@@ -83,3 +83,7 @@ Projectile expiry now measures640u from its muzzle, correcting the previous600u 
 ## Follow-up fix 10d: ranged firing
 
 Three50/50/100ms frames passed fresh independent review after a local hand correction removed embedded charge paint. The action reuses the exact aim endpoint, contracts the painted diamond at release and adds a small connected recoil. Engine captures validate both facings/sizes, fixed registration and frame1shot. Byte/identity checks, failing-before/passing-after final-charge regression, gameplay/tools/export and browser smoke pass. D23 debt and remaining recovery/hurt/death/projectile/device gates stay pending. See `evidence/ranged-fire-fix.md`.
+
+## Follow-up fix 10e: ranged recovery
+
+Seven100ms recovery frames passed fresh independent review, returning the clean firing arm to idle with exact accepted endpoint reuse. Actual native/phone captures verify every frame, both facings,700ms timing, fixed root and no extra shot. Byte/identity checks, gameplay/tools/export and browser smoke pass. D23 debt and remaining hurt/death/projectile/device gates stay pending. See `evidence/ranged-recover-fix.md`.
