@@ -22,4 +22,4 @@ Each completed fix gets its own validated commit and push, as requested by the u
 
 Production music/SFX remain explicitly deferred by the specification.
 
-Projectile follow-up to verify with its own regression/fix: `fire` spawns40u from the enemy root, but records the root as projectile `start`; the current640u expiry check therefore allows only600u of actual travel. Keep this separate from the current aim-art fix.
+Projectile range follow-up: fixed separately after aiming. Spawn remains40u from the enemy root; expiry now measures640u from the actual muzzle. Both-facing regression22checks, old4failures→0; see `evidence/ranged-projectile-fix.md`.

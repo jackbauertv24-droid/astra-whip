@@ -76,3 +76,7 @@ The first ranged identity tightly bound the upper arm that its later aim must ra
 ### Foreground arm occlusion and transparent RGB (ranged aim)
 
 A locally folded mesh can let later transparent source triangles overwrite an already transformed hand. The first ranged aiming rig produced a detached fragment and failed A04. Preserve that failure; use a separate rigid foreground forearm layer for the robe crossing, leaving a blended attached elbow on the body. Source identity and motion still need fresh independent review. Also assess color on correctly alpha-composited images: hidden saturated RGB at alpha1 can look vivid in some previews while contributing essentially nothing to the displayed pixel. Record cleanup thresholds instead of inferring a palette defect from hidden RGB.
+
+### Measure projectile travel from projectile birth
+
+An enemy-root reference shortened a forward-offset shot's specified flight by its40u muzzle offset. Store the projectile's actual spawn coordinate for its range limit. The ranged projectile regression fails at639u before the fix in both directions and passes afterward while preserving timing, speed and crouch clearance.

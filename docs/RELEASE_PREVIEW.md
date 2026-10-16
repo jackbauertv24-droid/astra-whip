@@ -75,3 +75,7 @@ Six150ms frames passed a fresh independent review, with local chest/arm/cloth mo
 ## Follow-up fix 10b: ranged aim
 
 Six150ms aiming frames passed fresh independent r04 review after preserving the idle painting across the stationary hood/post/robe/base. Actual native/phone captures verify the900ms warning in both facings, fixed root, no early shot and unchanged muzzle. The growing painted diamond provides a shape cue. Retained failed source/rig/repaint evidence and a failing-before/passing-after identity regression document the corrections. Gameplay, art tools, export and browser smoke pass. D23 rig debt, later ranged clips/projectile and external device/player gates remain pending. See `evidence/ranged-aim-fix.md`.
+
+## Follow-up fix 10c: projectile range origin
+
+Projectile expiry now measures640u from its muzzle, correcting the previous600u actual flight caused by the40u spawn offset. Both-facing actual-engine checks fail before the change and pass afterward; warning/shot timing, speed, collision band and crouch dodge remain intact. This separate code fix adds no projectile-art approval. See `evidence/ranged-projectile-fix.md`.

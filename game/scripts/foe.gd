@@ -119,7 +119,8 @@ func simulate(dt: float) -> void:
     "fire":
      if elapsed >= 0.05 and not shot:
       shot = true
-      world.projectiles.append({"pos":position+Vector2(facing*40,-82.5),"start":position.x,"dir":facing})
+      var muzzle = position+Vector2(facing*40,-82.5)
+      world.projectiles.append({"pos":muzzle,"start":muzzle.x,"dir":facing})
      if elapsed >= 0.2: enter("recover")
     "recover":
      if elapsed >= 0.7: enter("idle")
