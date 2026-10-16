@@ -972,5 +972,18 @@
       "method": "Reuse accepted impact key; generated halfway slump bridge; generated limp supported slump with fixed original post/base; local8px further sag; seeded soft erosion, then isolated generated painted ash allocated as a local effect at0.46scale about source(128,346) to target(128,323). This is intentional effect sizing, not actor normalization. No global scale or per-frame recentering; source291px post-to-base normalization is recorded separately.",
       "reason": "Generated full six-frame sheet changed post/root registration and base proportions across equal tiles; retained raw/crops/metrics/rejection. D23 local/reused sequence with painted intermediate replaces the rejected stretched bridge and preserves fixed construction and requires fresh full-action/runtime review; scripted quality debt remains."
     }
+  },
+  "projectile_grave_shot": {
+    "ms": [
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "generation": {
+      "prompt_record": "art/prompts/projectile-grave-shot.json",
+      "source": "art/production-candidates/projectile-grave-shot-sheet-r01/sheet.png",
+      "provenance": "art/production-candidates/projectile-grave-shot-r01/provenance.json"
+    }
   }
 }

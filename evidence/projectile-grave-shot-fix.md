@@ -1,0 +1,13 @@
+# Painted Grave Phosphor projectile
+
+Three directly generated64×64frames use the contract's center(32,32),80ms exposures and240msloop. The generated strip is uniformly converted and split into equal cells; only alpha≤4is zeroed with counts recorded. No pose/effect resizing or arbitrary color replacement occurs. Source/raw/prompt/provenance and exact runtime/review frame bytes are retained.
+
+Each shot now stores age0at actual fire-frame1birth. World.step advances age with movement; rendering selects the contract frame and draws it at2sourcepx/u centered on the logical shot, mirrored for leftward travel. Existing280u/s speed,640u muzzle-based range and25u collision square/yband remain unchanged. The old flat polygon remains only the partial-delivery preview fallback; all3textures are required for painted rendering.
+
+A meaningful new regression first fails on the old missing painted clock/resource feature, then passes28checks for delivery, contract anchors,80ms phases/240mswrap and actual shot age/movement in both directions. It joins the default gameplay runner. Existing22range/collision checks remain. Actual native/phone captures cover muzzle birth,all3frames,loopwrap,long flight/expiry,standing non-displacing hit and crouch clearance in both facings. They explicitly isolate one AI firing cycle; collision fixtures use the same elevated platform. World draw is explicitly queued by the testing harness so screenshots include current projectile rendering.
+
+The first long-flight fixture used a0.02u tolerance and failed on0.0444u of accumulated Vector2float32rounding over637u. The diagnostic source/output are preserved; corrected0.1u tolerance is below one source pixel and does not change game speed/range. Native and phone fixtures then pass. These are desktop viewport captures, not physical-phone evidence.
+
+Scoped audit0DEFECT/0FLAG; exact delivery checks; contract;25tool defect cases;1213gameplay assertions; actor pivots,32collision,17recovery-entry,22projectile-range and28projectile-art checks; release export are recorded. Independent review/browser smoke and combined34frame ranged inventory are separately recorded. The prior death build e3b079d was live-hash verified before this fix. Body D23 quality debt persists; the new projectile frames are directly generated.
+
+Fresh independent review returned REVIEW: PASS; full output `art/review-projectile-grave-shot-r01/review_verdict.md`. All40PNGcaptures were opened, including grayscale/alpha shape checks and loop seam. Browser smoke completes exit0/Chromium156 with no errors. `tools/check-ranged-complete.mjs` passes all34frames, exact delivery, scoped approvals and bothfacing/native+phone coverage. Body D23 debt and physical-device/player limitations remain.

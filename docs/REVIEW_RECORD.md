@@ -288,3 +288,13 @@ Generated sheet registration drift, stretched local bridge and faint/floating as
 | ranged_death | PASS | None | Progressive supported limp collapse, erosion and grounded painted ash visible at phone onset in both facings | None |
 
 A11f005 accepted as intentional eroded-body→ash completion. Full verdict: `art/review-ranged-death-r05/review_verdict.md`. Late fade/cleanup were inspected, distinct from onset visibility. All6body clips/31frames now have exact runtime bytes, scoped approvals and both-facing native/phone frame coverage (`evidence/ranged-inventory.json`). Actual two-whip production2HP lethal path, final hold/cleanup and no dead contact pass. D23 debt, projectile art and physical-device/player gates remain explicitly pending.
+
+## Ranged projectile and complete ranged inventory — 2026-10-16
+
+Fresh `/root/projectile_grave_shot_review_r01` saved blind tile descriptions before intent, opened all3native frames/onion including seam, five style locks, charge/fire/source references and all40actual captures.
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| projectile_grave_shot | PASS | None | Open four-point phosphor diamond with coherent80ms phases/240msloop, matching charge/socket, phone-readable in both facings | None |
+
+Zero audit defects/flags. Full verdict: `art/review-projectile-grave-shot-r01/review_verdict.md`. Measured source extents51/56/51px fit60px maximum; no guide or rectangle residue. Actual muzzle/phase/wrap/280u/s/640u, standing non-displacing hit and crouch clearance pass. Combined inventory verifies6body clips/31frames plus3projectile frames, exact runtime bytes, scoped approvals and allframes bothfacings/native+phone (`evidence/ranged-complete-inventory.json`). Projectile frames are directly generated; prior body D23 debt and physical-device/player gates remain disclosed.

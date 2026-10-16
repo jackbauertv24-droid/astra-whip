@@ -120,7 +120,7 @@ func simulate(dt: float) -> void:
      if elapsed >= 0.05 and not shot:
       shot = true
       var muzzle = position+Vector2(facing*40,-82.5)
-      world.projectiles.append({"pos":muzzle,"start":muzzle.x,"dir":facing})
+      world.projectiles.append({"pos":muzzle,"start":muzzle.x,"dir":facing,"age":0.0})
      if elapsed >= 0.2: enter("recover")
     "recover":
      if elapsed >= 0.7: enter("idle")

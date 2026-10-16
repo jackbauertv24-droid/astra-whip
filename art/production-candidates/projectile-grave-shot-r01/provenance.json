@@ -1,0 +1,40 @@
+{
+  "source": "art/production-candidates/projectile-grave-shot-sheet-r01/sheet.png",
+  "prompt_record": "art/prompts/projectile-grave-shot.json",
+  "method": "Uniform source resolution conversion recorded on sheet, equal-cell crop, zero alpha≤4 only; no corrective scale/translation or new painted pixels",
+  "records": [
+    {
+      "frame": 0,
+      "source_rect": [
+        0,
+        0,
+        64,
+        64
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 175
+    },
+    {
+      "frame": 1,
+      "source_rect": [
+        64,
+        0,
+        64,
+        64
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 198
+    },
+    {
+      "frame": 2,
+      "source_rect": [
+        128,
+        0,
+        64,
+        64
+      ],
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 163
+    }
+  ]
+}

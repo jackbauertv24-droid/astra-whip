@@ -1,0 +1,41 @@
+{
+  "actor": "ranged",
+  "body_clips": 6,
+  "body_frames": 31,
+  "projectile_clips": 1,
+  "projectile_frames": 3,
+  "total_frames": 34,
+  "all_scoped_reviews_pass": true,
+  "all_frames_both_facings_native_and_phone": true,
+  "physical_device_tested": false,
+  "scripted_body_quality_debt": true,
+  "directly_generated_projectile": true,
+  "body_report": "evidence/ranged-inventory.json",
+  "projectile": {
+    "id": "projectile_grave_shot",
+    "ms": [
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "canvas": [
+      64,
+      64
+    ],
+    "anchor": [
+      32,
+      32
+    ],
+    "review": "art/review-projectile-grave-shot-r01/review_verdict.md",
+    "captures": [
+      "evidence/projectile-grave-shot-native/capture.json",
+      "evidence/projectile-grave-shot-phone/capture.json"
+    ],
+    "generation": {
+      "prompt_record": "art/prompts/projectile-grave-shot.json",
+      "source": "art/production-candidates/projectile-grave-shot-sheet-r01/sheet.png",
+      "provenance": "art/production-candidates/projectile-grave-shot-r01/provenance.json"
+    }
+  }
+}

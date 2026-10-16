@@ -95,3 +95,7 @@ Three60ms protective-flinch frames passed fresh independent review. Actual whip 
 ## Follow-up fix 10g: ranged death and complete body inventory
 
 Six80ms death frames passed fresh independent review, including the dissolve-size flag, after a painted halfway slump replaced a stretched bridge and grounded painted ash replaced a faint blur. Actual two-whip production2HP captures verify both facings/sizes, allframes, late fade/cleanup and no dead contact. All6body clips/31frames now pass exact runtime/approval/capture inventory. Gameplay, tools, export, browser smoke and the failing-before/passing-after ash-opacity tripwire pass. D23 debt and separate projectile/device/player gates remain pending. See `evidence/ranged-death-fix.md` and `evidence/ranged-inventory.json`.
+
+## Follow-up fix 10h: painted projectile and complete ranged inventory
+
+Three directly generated64pxdiamond frames passed fresh independent review, including phone readability and240msloop seam. Shots now render from contract timings/center pivot and per-shot age, replacing the flat polygon when allframes load. Actual both-facing/native/phone captures verify birth,loop,long flight,expiry,standing non-displacing hit and crouch dodge;28new clock/resource checks and existing gameplay/regressions/tools/export/browser smoke pass. All34ranged body/projectile frames now have scoped approval and exact runtime/capture inventory. Body D23 debt and external device/player gates remain. See `evidence/projectile-grave-shot-fix.md` and `evidence/ranged-complete-inventory.json`.

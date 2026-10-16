@@ -1,0 +1,31 @@
+{
+  "frames": 3,
+  "ms": [
+    80,
+    80,
+    80
+  ],
+  "loop": true,
+  "canvas": [
+    64,
+    64
+  ],
+  "anchor": [
+    32,
+    32
+  ],
+  "records": [
+    {
+      "frame": 0,
+      "source_runtime_review_identical": true
+    },
+    {
+      "frame": 1,
+      "source_runtime_review_identical": true
+    },
+    {
+      "frame": 2,
+      "source_runtime_review_identical": true
+    }
+  ]
+}

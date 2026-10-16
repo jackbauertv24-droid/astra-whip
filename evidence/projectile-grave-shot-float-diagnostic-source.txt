@@ -1,0 +1,14 @@
+extends SceneTree
+func _initialize() -> void:
+ call_deferred("run")
+func run() -> void:
+ var world=load("res://main.tscn").instantiate()
+ world.testing=true
+ root.add_child(world)
+ world.simulate_enemies=false
+ world.hero.reset_at(Vector2(4958,Rules.GROUND))
+ world.projectiles.append({"pos":Vector2(4648,349.5),"start":4648.0,"dir":1,"age":0.0})
+ for n in 273: world.step(1.0/120)
+ var shot: Dictionary=world.projectiles[0]
+ print("Vector2 float accumulation diagnostic: age=",shot.age," actual_distance=",shot.pos.x-4648," expected_distance=",280*shot.age," delta=",shot.pos.x-4648-280*shot.age)
+ quit()

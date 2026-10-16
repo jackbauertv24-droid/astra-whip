@@ -90,3 +90,7 @@ The first ranged firing derivation removed its separate charge layer, but bright
 The ranged generated cycle drifted its fixed post center117→96→90px across equal tiles. Do not disguise that drift with per-frame recentering. Reuse the accepted impact pose and paint intermediate supported slumps while preserving fixed construction; a large local warp can stretch post-adjacent cloth into a spike. Record and replace that named bridge.
 
 A soft final ash blur can pass an audit yet read as a smudge against actual masonry. Retain the runtime failure and inspect a textured painted replacement on the stage. The scoped opacity tripwire reproduces the faint-core failure; it supplements rather than approves readability. A09 separately caught an effect allocation7px above ground, corrected by moving only the ash effect to the pivot line.
+
+### Dynamic draw evidence and coordinate precision
+
+A testing-mode world can return before its normal redraw queue while logical projectile age/position still advances. Explicitly queue the world draw before capturing a dynamic projectile; counts/clock assertions alone do not prove current artwork rendered. Also distinguish float32Vector2 accumulation from a speed defect: the long-flight fixture measured0.0444u rounding over637u; its0.1u tolerance remains below one source pixel and leaves gameplay values unchanged.

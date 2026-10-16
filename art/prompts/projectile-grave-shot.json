@@ -1,0 +1,11 @@
+{
+  "id": "projectile-grave-shot-sheet-r01",
+  "prompt": "Generate a THREE-FRAME isolated painted gothic spell-projectile loop on a transparent wide3:1sheet. Reference1 is alignment guide ONLY: exactly3equal squarecells, finalnativeeach64x64, centers(32,32),(96,32),(160,32); erase every cyan cross/border. Reference2 gives the approved green diamond spell shape in the creature's hand: extract that phosphor visual language, but NO body, hand, fingers, cloth, post or backdrop. All3frames show one free-flying hollow four-point DIAMOND of Grave Phosphor #8CC084 with pale desaturated bone/green highlights and muted green shadows; never a sphere, bullet, arrow or solid round orb. Clearly pointed top/bottom/left/right and open dark/transparent center. Core diamond~42x42sourcepx, painted wispy fringe totalextent atmost54px, >=5px transparent margin inside each64tile. Keep exact center and approximate size acrossframes. F0: thin angular diamond with two wisps curling inward; F1: brighter thickened diamond with small outward curling wisps at four points; F2: calmer diamond with wisps curling back, close to F0 for a smooth240msloop (80ms/frame). Distinct painted changes in wisp/edge texture, not only flat opacity changes. Matte painterly restrained supernatural phosphor, readable in grayscale at half-size on dark slate masonry. No warm yellow/ochre/red light, colored sparks outside tile, blue neon fringe, lensglow, rectangle backing, text, grid, shadow or floor. Actual alpha transparency; three complete separated shapes evenly spaced, same sourcecenters, no clipping or diagonal tilt. Preserve 3:1widecanvas.",
+  "references": [
+    "art/guides/projectile-grave-shot.png",
+    "art/frames/ranged_aim/f005.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "/config/.codex/generated_images/01a13335-708d-76c3-b61f-26c0726fc913/exec-0c03e4a3-e30b-48a1-97ca-69c5a7d6ac80.png"
+}

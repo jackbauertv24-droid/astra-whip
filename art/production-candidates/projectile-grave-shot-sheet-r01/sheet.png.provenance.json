@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/projectile-grave-shot-sheet-r01/raw.png",
+  "source_canvas": [
+    2172,
+    724
+  ],
+  "export_canvas": [
+    192,
+    64
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

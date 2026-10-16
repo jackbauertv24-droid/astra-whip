@@ -1,0 +1,196 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "birth": [
+    4648.0,
+    349.5
+   ],
+   "collision_fixtures": [
+    {
+     "crouched": true,
+     "file": "crouch-clear-right.png",
+     "health": 5,
+     "non_displacing": true,
+     "remaining_shots": 1,
+     "state": "crouch_idle"
+    },
+    {
+     "crouched": false,
+     "file": "standing-hit-right.png",
+     "health": 4,
+     "non_displacing": true,
+     "remaining_shots": 0,
+     "state": "hurt_recoil"
+    }
+   ],
+   "direction": 1,
+   "expired_at640u": true,
+   "isolated_one_firing_cycle": true,
+   "samples": [
+    {
+     "age": 0.0,
+     "distance": 0.0,
+     "file": "flight-right-0000-f0.png",
+     "frame": 0,
+     "position": [
+      4648.0,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.0833333333333333,
+     "distance": 23.3349609375,
+     "file": "flight-right-0080-f1.png",
+     "frame": 1,
+     "position": [
+      4671.3349609375,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.166666666666667,
+     "distance": 46.669921875,
+     "file": "flight-right-0160-f2.png",
+     "frame": 2,
+     "position": [
+      4694.669921875,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.241666666666667,
+     "distance": 67.67138671875,
+     "file": "flight-right-0240-f0.png",
+     "frame": 0,
+     "position": [
+      4715.67138671875,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.899999999999999,
+     "distance": 252.017578125,
+     "file": "flight-right-0900-f2.png",
+     "frame": 2,
+     "position": [
+      4900.017578125,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 2.27499999999999,
+     "distance": 637.04443359375,
+     "file": "flight-right-2275-f1.png",
+     "frame": 1,
+     "position": [
+      5285.04443359375,
+      349.5
+     ],
+     "state": "projectile"
+    }
+   ]
+  },
+  {
+   "birth": [
+    4568.0,
+    349.5
+   ],
+   "collision_fixtures": [
+    {
+     "crouched": true,
+     "file": "crouch-clear-left.png",
+     "health": 5,
+     "non_displacing": true,
+     "remaining_shots": 1,
+     "state": "crouch_idle"
+    },
+    {
+     "crouched": false,
+     "file": "standing-hit-left.png",
+     "health": 4,
+     "non_displacing": true,
+     "remaining_shots": 0,
+     "state": "hurt_recoil"
+    }
+   ],
+   "direction": -1,
+   "expired_at640u": true,
+   "isolated_one_firing_cycle": true,
+   "samples": [
+    {
+     "age": 0.0,
+     "distance": 0.0,
+     "file": "flight-left-0000-f0.png",
+     "frame": 0,
+     "position": [
+      4568.0,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.0833333333333333,
+     "distance": 23.3349609375,
+     "file": "flight-left-0080-f1.png",
+     "frame": 1,
+     "position": [
+      4544.6650390625,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.166666666666667,
+     "distance": 46.669921875,
+     "file": "flight-left-0160-f2.png",
+     "frame": 2,
+     "position": [
+      4521.330078125,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.241666666666667,
+     "distance": 67.67138671875,
+     "file": "flight-left-0240-f0.png",
+     "frame": 0,
+     "position": [
+      4500.32861328125,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 0.899999999999999,
+     "distance": 252.017578125,
+     "file": "flight-left-0900-f2.png",
+     "frame": 2,
+     "position": [
+      4315.982421875,
+      349.5
+     ],
+     "state": "projectile"
+    },
+    {
+     "age": 2.27499999999999,
+     "distance": 637.027099609375,
+     "file": "flight-left-2275-f1.png",
+     "frame": 1,
+     "position": [
+      3930.97290039062,
+      349.5
+     ],
+     "state": "projectile"
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

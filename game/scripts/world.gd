@@ -3,6 +3,10 @@ var hero: Hunter
 var surfaces: Array = []
 var foes: Array = []
 var projectiles: Array = []
+var projectile_frames: Array[Texture2D] = []
+var projectile_durations: Array = []
+var projectile_canvas = Vector2.ZERO
+var projectile_anchor = Vector2.ZERO
 var respawn = Vector2(160, Rules.GROUND)
 var checkpoint = false
 var exit_unlocked = false
@@ -26,7 +30,25 @@ var reduced_effects = false
 var touch_buttons: Dictionary = {}
 var backdrop: Texture2D = preload("res://assets/style/background.png")
 var masonry: Texture2D = preload("res://assets/style/terrain.png")
+func load_projectile_art() -> void:
+ var spec: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json")).clips.projectile_grave_shot
+ projectile_durations = spec.ms
+ projectile_canvas = Vector2(spec.canvas[0],spec.canvas[1])
+ projectile_anchor = Vector2(spec.anchor[0],spec.anchor[1])
+ projectile_frames.clear()
+ for frame in spec.ms.size():
+  var path = "res://assets/vfx/projectile_grave_shot/f%03d.png"%frame
+  if ResourceLoader.exists(path): projectile_frames.append(load(path))
+func projectile_frame_at(age: float) -> int:
+ var duration = 0.0
+ for ms in projectile_durations: duration += float(ms)
+ var time = fposmod(age*1000,duration)
+ for frame in projectile_durations.size():
+  if time < float(projectile_durations[frame]): return frame
+  time -= float(projectile_durations[frame])
+ return projectile_durations.size()-1
 func _ready() -> void:
+ load_projectile_art()
  for row in Stage.SURFACES:
   add_surface(Rect2(float(row[0])*64,Rules.GROUND-float(row[2])*64,float(row[1]-row[0])*64,float(row[4])),row[3])
  add_surface(Rect2(-32,-1000,32,2200),"solid")
@@ -122,6 +144,7 @@ func step(dt: float) -> void:
  for index in range(projectiles.size()-1,-1,-1):
   var shot: Dictionary = projectiles[index]
   shot.pos.x += shot.dir * 280 * dt
+  shot.age = float(shot.get("age",0.0)) + dt
   if Rect2(shot.pos-Vector2(12.5,12.5),Vector2(25,25)).intersects(hero.body_rect()):
    hero.damage("projectile",shot.pos.x)
    projectiles.remove_at(index)
@@ -257,5 +280,10 @@ func _draw() -> void:
  if effigy: draw_rect(Rect2(400,Rules.GROUND-90,32,70),Color("9c9077"))
  for shot in projectiles:
   var p: Vector2 = shot.pos
-  draw_colored_polygon(PackedVector2Array([p+Vector2(0,-12.5),p+Vector2(12.5,0),p+Vector2(0,12.5),p+Vector2(-12.5,0)]),Color("8cc084"))
+  if projectile_frames.size() == projectile_durations.size():
+   draw_set_transform(p,0,Vector2(float(shot.dir),1))
+   draw_texture_rect(projectile_frames[projectile_frame_at(float(shot.get("age",0.0)))],Rect2(-projectile_anchor*.5,projectile_canvas*.5),false)
+   draw_set_transform(Vector2.ZERO)
+  else:
+   draw_colored_polygon(PackedVector2Array([p+Vector2(0,-12.5),p+Vector2(12.5,0),p+Vector2(0,12.5),p+Vector2(-12.5,0)]),Color("8cc084"))
  if pit_timer >= 0: draw_rect(Rect2(camera_x-640,-360,1280,1440),Color(0.05,0.03,0.08,minf(1,pit_timer/0.8)))
