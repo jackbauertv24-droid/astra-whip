@@ -1,0 +1,15 @@
+{
+  "actor": "boss",
+  "clip": "boss_idle",
+  "frames": 8,
+  "review": "art/review-boss-idle-r01/review_verdict.md",
+  "captures": [
+    "evidence/boss-idle-native/capture.json",
+    "evidence/boss-idle-phone/capture.json"
+  ],
+  "all_frames_both_facings_native_and_phone": true,
+  "actual_wait_loop_and_arena_activation": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "remaining_boss_clips_unapproved": 9
+}

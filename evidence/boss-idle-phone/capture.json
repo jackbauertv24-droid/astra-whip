@@ -1,0 +1,224 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "arena_active_outgoing_state": "walk",
+   "arena_inactive_during_idle": true,
+   "cycle_ms": 1000,
+   "direction": 1,
+   "outgoing_file": "after-walk-right.png",
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "idle-right-first-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.133333333333333,
+     "file": "idle-right-first-f01.png",
+     "frame": 1,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.258333333333333,
+     "file": "idle-right-first-f02.png",
+     "frame": 2,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.375,
+     "file": "idle-right-first-f03.png",
+     "frame": 3,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.500000000000001,
+     "file": "idle-right-first-f04.png",
+     "frame": 4,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.625,
+     "file": "idle-right-first-f05.png",
+     "frame": 5,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "idle-right-first-f06.png",
+     "frame": 6,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.883333333333333,
+     "file": "idle-right-first-f07.png",
+     "frame": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 1.00833333333333,
+     "file": "idle-right-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": true
+    }
+   ]
+  },
+  {
+   "arena_active_outgoing_state": "walk",
+   "arena_inactive_during_idle": true,
+   "cycle_ms": 1000,
+   "direction": -1,
+   "outgoing_file": "after-walk-left.png",
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "idle-left-first-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.133333333333333,
+     "file": "idle-left-first-f01.png",
+     "frame": 1,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.258333333333333,
+     "file": "idle-left-first-f02.png",
+     "frame": 2,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.375,
+     "file": "idle-left-first-f03.png",
+     "frame": 3,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.500000000000001,
+     "file": "idle-left-first-f04.png",
+     "frame": 4,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.625,
+     "file": "idle-left-first-f05.png",
+     "frame": 5,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.758333333333333,
+     "file": "idle-left-first-f06.png",
+     "frame": 6,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 0.883333333333333,
+     "file": "idle-left-first-f07.png",
+     "frame": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": false
+    },
+    {
+     "elapsed": 1.00833333333333,
+     "file": "idle-left-wrap-f00.png",
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "wrap": true
+    }
+   ]
+  }
+ ],
+ "viewport": "(852, 393)"
+}

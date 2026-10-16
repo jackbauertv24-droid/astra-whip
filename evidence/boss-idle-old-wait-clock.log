@@ -1,0 +1,19 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL boss waiting animation: inactive arena advances idle frame1
+FAIL boss waiting animation: inactive arena advances idle frame2
+FAIL boss waiting animation: inactive arena advances idle frame3
+FAIL boss waiting animation: inactive arena advances idle frame4
+FAIL boss waiting animation: inactive arena advances idle frame5
+FAIL boss waiting animation: inactive arena advances idle frame6
+FAIL boss waiting animation: inactive arena advances idle frame7
+FAIL boss waiting animation: waiting facing follows actor
+FAIL boss waiting animation: inactive arena advances idle frame1
+FAIL boss waiting animation: inactive arena advances idle frame2
+FAIL boss waiting animation: inactive arena advances idle frame3
+FAIL boss waiting animation: inactive arena advances idle frame4
+FAIL boss waiting animation: inactive arena advances idle frame5
+FAIL boss waiting animation: inactive arena advances idle frame6
+FAIL boss waiting animation: inactive arena advances idle frame7
+FAIL boss waiting animation: waiting facing follows actor
+RESULT boss waiting animation: 26 checks, 16 failures

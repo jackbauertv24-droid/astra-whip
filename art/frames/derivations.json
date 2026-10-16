@@ -475,5 +475,14 @@
     ],
     "method": "Two connected plated-leg bone rigs with fixed-length upper/lower segments, flat translated boots, alternating60% stance,22px swing clearance,89.6px stride, small weight/shroud response; no global scale or per-frame recenter.",
     "reason": "Generated eight-frame sheet enlarged actors to485–503px versus352px and changed root registration; retained raw/equal crops/rejection. D23 local rig requires fresh full gait/runtime review and remains scripted animation quality debt."
+  },
+  "boss_idle": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_walk/f000.png",
+      "tools/prepare-boss-idle.mjs"
+    ],
+    "method": "Reuse accepted walk neutral support, local0–2px inhale above hips,0.6px shroud sway,unchanged boots/pivot and no actor scale. Eight125ms samples complete a1s loop.",
+    "reason": "D23 continuation from approved boss construction after generated sheet failed actor scale/registration; local idle requires fresh motion/runtime review. Scripted animation remains quality debt."
   }
 }

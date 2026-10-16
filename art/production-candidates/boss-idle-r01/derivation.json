@@ -1,0 +1,67 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_walk/f000.png",
+    "tools/prepare-boss-idle.mjs"
+  ],
+  "method": "Reuse accepted walk neutral support, local0–2px inhale above hips,0.6px shroud sway,unchanged boots/pivot and no actor scale. Eight125ms samples complete a1s loop.",
+  "reason": "D23 continuation from approved boss construction after generated sheet failed actor scale/registration; local idle requires fresh motion/runtime review. Scripted animation remains quality debt.",
+  "records": [
+    {
+      "frame": 0,
+      "head_inhale_pixels": 0,
+      "cloth_sway_pixels": 0,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 0
+    },
+    {
+      "frame": 1,
+      "head_inhale_pixels": 0.2928932188134524,
+      "cloth_sway_pixels": 0.42426406871192845,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 452
+    },
+    {
+      "frame": 2,
+      "head_inhale_pixels": 0.9999999999999999,
+      "cloth_sway_pixels": 0.6,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 341
+    },
+    {
+      "frame": 3,
+      "head_inhale_pixels": 1.7071067811865475,
+      "cloth_sway_pixels": 0.4242640687119285,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 415
+    },
+    {
+      "frame": 4,
+      "head_inhale_pixels": 2,
+      "cloth_sway_pixels": 7.347880794884119e-17,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 93
+    },
+    {
+      "frame": 5,
+      "head_inhale_pixels": 1.7071067811865477,
+      "cloth_sway_pixels": -0.42426406871192845,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 406
+    },
+    {
+      "frame": 6,
+      "head_inhale_pixels": 1.0000000000000002,
+      "cloth_sway_pixels": -0.6,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 334
+    },
+    {
+      "frame": 7,
+      "head_inhale_pixels": 0.29289321881345265,
+      "cloth_sway_pixels": -0.4242640687119286,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 431
+    }
+  ]
+}

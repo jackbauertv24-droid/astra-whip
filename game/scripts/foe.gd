@@ -127,7 +127,10 @@ func simulate(dt: float) -> void:
     "hurt":
      if elapsed >= 0.18: enter("idle")
   "boss":
-   if not world.arena_active: return
+   if not world.arena_active:
+    visual.follow(state,elapsed)
+    queue_redraw()
+    return
    match state:
     "idle":
      if elapsed >= 1: enter("walk")

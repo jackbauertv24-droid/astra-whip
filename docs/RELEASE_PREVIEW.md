@@ -103,3 +103,7 @@ Three directly generated64pxdiamond frames passed fresh independent review, incl
 ## Follow-up fix 11a: boss walk reference
 
 Eight80ms painted walk frames passed fresh independent review. Actual boss AI captures verify70u/s,640ms loop,bothfacings/native+phone,pivot and original palette. Old silhouette dispatch fails the new fixture; corrected runtime passes. Generated oversized sheet and earlier sole/fixture errors are retained. Contract/tools/gameplay/focused regressions,export and browser boot/input smoke pass. D23 articulated fallback remains quality debt; ten other boss actions, remaining inventory and external device/player gates stay pending. See `evidence/boss-walk-fix.md` and `evidence/boss-walk-inventory.json`.
+
+## Follow-up fix 11b: boss waiting idle
+
+Eight125ms idle frames passed fresh independent review. Inactive-arena code now advances animation without running boss behavior; the new26check regression fails16checks on the old branch and passes after correction. Both-facing native/phone captures verify1s wrap,fixed root,production8HP and actual activation→walk. Tools/gameplay/focused regressions/export/browser smoke pass. Phone PNGs are698×393 despite852×393viewport metadata; exact-width/device validation remains pending. D23 debt,nine remaining boss clips and broader inventory/device/player gates stay disclosed. See `evidence/boss-idle-fix.md`.

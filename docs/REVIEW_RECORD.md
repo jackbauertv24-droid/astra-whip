@@ -302,3 +302,7 @@ Zero audit defects/flags. Full verdict: `art/review-projectile-grave-shot-r01/re
 ## Boss walk reference — 2026-10-16
 
 Fresh `/root/boss_walk_review_r01` saved and reread blind lineup/strip observations before intent, then inspected all8native tiles/onions, five style references, derivation and all36actual captures. `boss_walk`: PASS, no failing frames, zero audit defects/flags. Full verdict: `art/review-boss-walk-r01/review_verdict.md`. Alternating support/swing,640ms seam,70u/s stance travel and both-facing phone read pass. Quiet upper body and crowded mid-stride ankles are accepted quality limits; D23 debt remains. This approves8/70boss frames only; other actions and handoffs remain pending.
+
+## Boss waiting idle — 2026-10-16
+
+Fresh `/root/boss_idle_review_r01` saved/reread blind lineup and both strip descriptions before intent, then inspected16native frames/onions, five style references and all40actual captures. `boss_idle`: PASS; `boss_walk`: PASS as scoped support/handoff reference. No failing frames or audit defects/flags. Full verdict: `art/review-boss-idle-r01/review_verdict.md`. Grounded1s breathing loop and activation→walk pass. Phone PNGs are698×393 despite852×393viewport metadata: readability approved only at actual image size; exact output-width/device validation remains pending. D23 debt remains; nine other boss clips unapproved.
