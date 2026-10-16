@@ -1,0 +1,226 @@
+{
+ "cleanup_after_seconds": 1.2,
+ "clip_duration_ms": 350,
+ "fall_speed": 180,
+ "normal_production_hp": 1,
+ "physical_device": false,
+ "records": [
+  {
+   "before": "before-cruise-right.png",
+   "direction": 1,
+   "hp_after_hit": 0,
+   "origin": [
+    1807.04113769531,
+    379.1123046875
+   ],
+   "production_hp": 1,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "death_fall-right-f00.png",
+     "frame": 0,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      379.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.075,
+     "file": "death_fall-right-f01.png",
+     "frame": 1,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      392.6123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.141666666666667,
+     "file": "death_fall-right-f02.png",
+     "frame": 2,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      404.6123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.216666666666667,
+     "file": "death_fall-right-f03.png",
+     "frame": 3,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      418.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.283333333333333,
+     "file": "death_fall-right-f04.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      430.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.35,
+     "file": "hold350ms-right.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      442.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 1.04166666666667,
+     "file": "ground-settle-right.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      560.0
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 1.25833333333333,
+     "file": "cleanup-right.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1807.04113769531,
+      560.0
+     ],
+     "state": "death_fall",
+     "visible": false
+    }
+   ]
+  },
+  {
+   "before": "before-cruise-left.png",
+   "direction": -1,
+   "hp_after_hit": 0,
+   "origin": [
+    1792.95886230469,
+    379.1123046875
+   ],
+   "production_hp": 1,
+   "samples": [
+    {
+     "elapsed": 0.0,
+     "file": "death_fall-left-f00.png",
+     "frame": 0,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      379.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.075,
+     "file": "death_fall-left-f01.png",
+     "frame": 1,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      392.6123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.141666666666667,
+     "file": "death_fall-left-f02.png",
+     "frame": 2,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      404.6123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.216666666666667,
+     "file": "death_fall-left-f03.png",
+     "frame": 3,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      418.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.283333333333333,
+     "file": "death_fall-left-f04.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      430.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 0.35,
+     "file": "hold350ms-left.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      442.1123046875
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 1.04166666666667,
+     "file": "ground-settle-left.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      560.0
+     ],
+     "state": "death_fall",
+     "visible": true
+    },
+    {
+     "elapsed": 1.25833333333333,
+     "file": "cleanup-left.png",
+     "frame": 4,
+     "hero_hp": 5,
+     "position": [
+      1792.95886230469,
+      560.0
+     ],
+     "state": "death_fall",
+     "visible": false
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

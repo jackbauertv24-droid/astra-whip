@@ -1,0 +1,1 @@
+Builder correction before independent r02 review: soft pile centered on the bright floor edge was too thin at phone scale. Lift/expand irregular ash above its anchored resting origin, preserving the pivot tolerance.

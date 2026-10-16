@@ -824,5 +824,24 @@
       "method": "Local10px hood recoil over approved articulated wings; newly painted asymmetric stagger; exact approved bank/catch pose for recovery handoff. No global scale/translation in rig.",
       "reason": "D23 local rig and reuse preserve the approved identity, with one newly painted stagger. Explicit conditional nonlethal2HP fixture; normal1HP damage enters death_fall."
     }
+  },
+  "swooper_death_fall": {
+    "ms": [
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/swooper_hurt/f001.png",
+        "art/production-candidates/swooper-death-collapse-r05/key.png"
+      ],
+      "method": "Reused banking interruption, independently accepted painted limp-folded wings, local5px sag and3px hood droop, two soft seeded Ash Grey erosion/fleck stages. Actual180u/s falling root; no global animation scaling or per-frame recentering. Final held frame has an irregular soft ash cluster; runtime alpha stays visible through arrival and fades over final100ms before1.2s cleanup.",
+      "reason": "Four prior generated/derived collapse drafts retained active supported wing fans and are archived with rejections. D23 reuse/local rig/soft erosion bridges accepted painted folded pose into ash; separate full motion review required. Full motion review r01 rejected unreadable ground ash; revision preserves frames0–3 and strengthens only final ash/visibility."
+    }
   }
 }

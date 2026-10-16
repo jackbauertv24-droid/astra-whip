@@ -1,0 +1,41 @@
+[
+  {
+    "prompt": "Use case: identity-preserve. Asset: ONE transparent painted game enemy death-collapse key. Image1 approved small swooper identity; image2 banked anatomy reference; image3 384x256 registration guide. Preserve same Ash Grey hooded wraith, wrapped slim torso, long ragged shroud, two jointed bat membrane wings, physical size and upper-left matte light. Show loss of wing support while falling: hood droops RIGHT near220115, torso slumps diagonally from200115 to155160, shroud hangs to130205; both wings buckle limply at elbows, left wing drapes toward85180 and right wing hangs toward290185, thin tips and ragged membranes intact. No active soaring or symmetrical display. Entire subject withinx60..325,y43..213, centered body192128, generous transparent padding; subject only about66 percent canvas height. Retain full wing bones and membrane area folded/occluded naturally, no severed anatomy. Dark gothic muted taupe/ash/slate material with fine pale worn edges. One detailed complete actor illustration. Actual transparent background, no floor, shadows, scenery, lettering, guide lines, glow, particles, blood or gore.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-recovery-catch-r01/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/swooper.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/swooper-death-collapse-r01/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. Correct ONLY the death pose in image1; image2 approved swooper identity, image3 registration guide. Keep same small hooded wraith, slim wrapped torso and ragged shroud, TWO attached full bat membrane wings, same physical lengths/materials/head size. Both wings have LOST ALL MUSCLE SUPPORT: eliminate the high left arch. Shoulder roots remain attached near body; upper wing bones droop sideways and DOWN, wrists below shoulders, outer thin fingers all hang downward with soft slack wrinkled membrane folds. Like a broken umbrella folding limp on both sides, NO raised elbow or taut sail fan, NO soaring gesture, NO perched pose. Hood flops forward/down RIGHT, dark opening tilts downward. Body tilted/slumped, cloth trails, no ground contact. Entire creature complete in384x256 canvas, centered near192128, ends withinx55..330,y45..212, generous transparent margin. Same creature scale as identity, do not stretch body to fill height or shrink the whole actor. Broad hanging membrane panels retain surface area and attached fingers; don't substitute tiny scraps or amputate wings. Ash Grey taupe/slate matte gothic worn edges, upper-left lighting, original painted detail. Actual transparent background, no scenery/ground/shadow/glow/sparks/particles/gore/text/guide lines. ONE full-body collapsed falling creature only.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-death-collapse-r01/key.png",
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/swooper.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/swooper-death-collapse-r02/raw.png"
+  },
+  {
+    "prompt": "Use case: precise-object-edit. ONE corrected death pose, actual transparency. Image1 is rejected death draft: its LEFT wing is STILL RAISED. REPAINT THIS ANATOMY decisively: wing root at(190,110), LEFT elbow MUST be at(125,145), BELOW root, never at(145,50). Left fingers hang toward(85,210),(115,205),(155,200). RIGHT root(220,110), right elbow at(270,150), fingers droop to(300,210),(275,215),(245,200). Thus BOTH WING ELBOWS AND ALL FINGERTIPS BELOW THEIR ROOTS. NO WING PIXELS ABOVE y105. The only highest part is small hood at(220,80). Hood bends down and right, torso slack at(195,125), old ragged shroud to(140,210). Keep COMPLETE two wings with broad slack membrane surfaces, same lengths, same creature physical proportions as image2 identity. Do not retain the old high arch or taut triangular sail. This is limp falling collapse, like two umbrellas hanging from shoulders, not flight. Whole subject in384x256 canvas at x70..320 y75..215, 140px high because wings sag rather than shrink. Do not enlarge body to fill space. Preserve detailed matte Ash Grey/taupe/slate leathery cloth and pale worn edges, dark gothic painting, upper-left light. Image3 guide only; do not paint guides. No ground, shadow, scenery, dust, effects, text, blood/gore, extra wings or severed parts.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-death-collapse-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/swooper.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/swooper-death-collapse-r03/raw.png"
+  },
+  {
+    "prompt": "Use case: identity-preserve. A single complete transparent game sprite of the SAME hooded winged wraith as image1, in DEAD LIMP FALL pose. Image2 is only placement guide384x256. Both bat wings have COLLAPSED CLOSED: their elbows bend alongside the torso, long finger bones hang ALMOST VERTICALLY DOWN, close together, with overlapping soft slack membrane folds draped like two heavy wet umbrellas closed at its sides. ZERO open wing fans, ZERO outstretched flight cross, ZERO raised wing arch. Do not preserve flight pose. Hood flops down and RIGHT against chest, neck slack, shoulder asymmetry and bent shroud. Whole shrouded ghost body remains complete, no human feet/legs; cloth tails hang and twist below. Keep all long wing bones physically intact but folded/occluded, same small pointed hood and narrow body size/material as image1. Silhouette should be narrow ~130px wide and ~155px high on384x256 equivalent canvas, centered192128; top50 bottom207, sideedgesx120..270. Narrowing must come from folding not shrinking. Matte worn Ash Grey and taupe grey wings, slate struts, ragged grey cloth, restrained Crypt Violet shadows, soft upperleft pale wear. Painterly dark gothic game art. Truly transparent empty backdrop, no ground or scenery, no shadow/glow/floating fragments/gore/text/guides. One full creature, no sheet. Convey unmistakably powerless slack dead weight, no active dive or serene hover.",
+    "refs": [
+      "/config/codex-workspace/astra-whip/art/production-candidates/swooper-identity-r02/key.png",
+      "/config/codex-workspace/astra-whip/art/guides/swooper.png"
+    ],
+    "tool": "built-in image_gen",
+    "raw": "art/production-candidates/swooper-death-collapse-r05/raw.png"
+  }
+]

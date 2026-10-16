@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/swooper-death-collapse-r01/raw.png",
+  "source_canvas": [
+    1536,
+    1024
+  ],
+  "export_canvas": [
+    384,
+    256
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

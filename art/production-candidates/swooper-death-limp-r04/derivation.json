@@ -1,0 +1,91 @@
+{
+  "kind": "scripted_fallback",
+  "source": "art/production-candidates/swooper-identity-r02/key.png",
+  "reason": "Three generated death corrections retained active supported wing arches; independent r01/r03 keys rejected. Reuse approved paint with actual shoulder articulation.",
+  "method": "Separate complete wing layers rotated78degrees downward about blended attached shoulder roots, local30degree hood droop. Static key envelope registered once by uniform factor1 with vertical translation; no size scaling.",
+  "polygons": [
+    [
+      [
+        0,
+        0
+      ],
+      [
+        160,
+        0
+      ],
+      [
+        175,
+        98
+      ],
+      [
+        161,
+        120
+      ],
+      [
+        144,
+        136
+      ],
+      [
+        134,
+        150
+      ],
+      [
+        107,
+        155
+      ],
+      [
+        0,
+        160
+      ]
+    ],
+    [
+      [
+        215,
+        0
+      ],
+      [
+        384,
+        0
+      ],
+      [
+        384,
+        170
+      ],
+      [
+        246,
+        157
+      ],
+      [
+        225,
+        136
+      ],
+      [
+        215,
+        104
+      ]
+    ]
+  ],
+  "shoulders": [
+    [
+      175,
+      100
+    ],
+    [
+      215,
+      104
+    ]
+  ],
+  "wing_rotation_degrees": [
+    -78,
+    78
+  ],
+  "static_registration_translation": [
+    0,
+    -19
+  ],
+  "source_envelope": [
+    75,
+    219
+  ],
+  "corrective_normalization": 1
+}

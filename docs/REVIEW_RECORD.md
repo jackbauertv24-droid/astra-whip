@@ -208,3 +208,14 @@ Fresh `/root/swooper_recovery_review_r01` reviewed blind sheets, all 18 source t
 ## Swooper conditional hurt follow-up — 2026-10-15
 
 Fresh `/root/swooper_hurt_review_r01` reviewed all 17 source tiles, sheets, painted keys, five style references and all 28 native/phone captures. `swooper_hurt | PASS | no failing frames | hood recoil, asymmetric banking stagger and exact recovery handoff`; cruise/recovery references also PASS. All five A11 flags were accepted as articulation and projected area changes. Review-order deviations are explicitly disclosed in the full verdict, `art/review-swooper-hurt-r01/review_verdict.md`. Approval covers the conditional test-only 2 HP nonlethal branch; normal production 1 HP still enters death_fall. Scripted quality debt, missing death art and physical-device gates remain unapproved.
+
+## Swooper lethal fall follow-up — 2026-10-15
+
+Fresh static reviewer r05 accepted the folded death key after rejected drafts were retained. Full motion r01 rejected unreadable final ash; r02 independently inspected all13 native source tiles, every sheet/onion/seam, five style references and all36 actual captures, then returned:
+
+| Clip | Result | Failing frames | Finding | Correction |
+|---|---|---|---|---|
+| swooper_cruise | PASS | None | Connected articulated wingbeat and continuous seam | None |
+| swooper_death_fall | PASS | None | Banking collapse, folded limp body, erosion and visible falling/settling ash in both facings/sizes | None |
+
+Both A11 flags (folded membrane area12.6%; dissolve70.8%) were visually accepted. Full verdict: `art/review-swooper-death-r02/review_verdict.md`. All7clips/36frames now have exact runtime bytes, scoped approval and both-face native/phone coverage (`evidence/swooper-inventory.json`). D23 scripted/reused quality debt remains disclosed. This does not approve physical devices or other actors/inventory.

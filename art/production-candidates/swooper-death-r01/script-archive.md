@@ -1,0 +1,1 @@
+Exact original tools/prepare-swooper-death.mjs source retained before the ash revision. Imports and repository-relative paths refer to its original tools location. The current root tool generates revised r02 candidates.

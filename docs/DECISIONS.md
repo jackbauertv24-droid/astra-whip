@@ -129,3 +129,7 @@ Apply the existing ASSET_BRIEFS radius of 40 units to both contact and whip inte
 ## Swooper hurt recovery continuity — 2026-10-15
 
 Store the current altitude when entering recovery_climb and use it as the interpolation origin. Preserve normal dive timing/altitudes and the 900 ms recovery duration. This repairs conditional nonlethal hurt at higher altitudes without changing production basic HP of 1. The hurt artwork is tested through a declared 2 HP fixture, while normal 1 HP damage is verified to enter death_fall. See `../evidence/swooper-hurt-fix.md`.
+
+### 2026-10-15 — visible swooper ash arrival
+
+The 350 ms death clip finishes well before a swooper falling from patrol altitude reaches ground. Keep its final soft ash frame readable while the existing 180 u/s root falls and clamps to ground; fade the actor over 1.1–1.2 s before the existing cleanup. The first motion review rejected the earlier double fade because it hid ash arrival. Preserve the accepted collapse frames, production 1 HP, clip duration and collision behavior. The capture harness now rejects premature alpha loss at ground settle.

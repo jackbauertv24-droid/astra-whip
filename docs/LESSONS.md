@@ -64,3 +64,7 @@ The swooper's declared circle was approximated by a 60-unit distance to the hunt
 ### Recovery interpolation must start at the actual entry altitude
 
 The swooper climb assumed every entry came from the 64-unit low pass. Its conditional nonlethal hurt branch also entered that state after damage at patrol or mid-climb altitude, causing an immediate downward teleport. Capture the actual y position on recovery entry and interpolate from there. Normal dive entry remains at 64 units and keeps the identical path. `swooper_recovery_entry.gd` reproduces six old-code failures and passes all 17 checks after the fix, using explicit test-only 2 HP foes; normal basic HP remains 1. The default test runner includes this regression.
+
+### Lowered wings can still read as active flight
+
+Three painted death drafts and a derived shoulder rotation retained broad supported wing fans. Repeated coordinate instructions and downward rotations did not establish loss of lift. Fresh static reviewers rejected those poses despite intact anatomy and valid measurements. A new painted pose folded the wing fingers and slack membranes alongside the body, with a drooping hood; it passed the separate static gate. Keep rejected drafts and judge the resulting action before deriving an entire clip from a source key.

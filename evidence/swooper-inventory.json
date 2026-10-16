@@ -1,0 +1,193 @@
+{
+  "actor": "swooper",
+  "clips": 7,
+  "frames": 36,
+  "all_scoped_reviews_pass": true,
+  "all_frames_both_facings_native_and_phone": true,
+  "conditional_hurt_only": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "reports": [
+    {
+      "id": "swooper_perch_idle",
+      "frames": 6,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-idle-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-idle-native/capture.json",
+        "evidence/swooper-idle-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "reused",
+        "source": "swooper_cruise",
+        "method": "Exact approved frame reuse in order [0,1,2,3,6,7], each150ms: slower900ms hovering beat, omitting the deepest cruise downstroke; root stationary through idle and source frame1 approaches frame0 at cruise handoff.",
+        "reason": "ART_CONTRACT §11 permits reused frames. Idle still requires its own independent acting/timing/handoff review."
+      }
+    },
+    {
+      "id": "swooper_cruise",
+      "frames": 8,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-cruise-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-cruise-native/capture.json",
+        "evidence/swooper-cruise-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": "art/production-candidates/swooper-identity-r02/key.png",
+        "method": "Separate articulated wing meshes with fixed shoulder roots, elbow flexion and phase-lagged membrane camber; unchanged torso, no global scaling. See tools/prepare-swooper-cruise.mjs and rig.json.",
+        "reason": "Painted opposite-pose generation moved and changed the central hood/body instead of preserving the flight pivot (art/production-candidates/swooper-downstroke-r01). Static source key independently accepted; derived animation requires separate review."
+      }
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "frames": 4,
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-telegraph-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-telegraph-native/capture.json",
+        "evidence/swooper-telegraph-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": "art/production-candidates/swooper-fold-r01/key.png",
+        "method": "Painted folded key held from frame0 through600ms, with local membrane tightening, small hood anticipation and cloth-tip quiver. No global scaling or translation. See tools/prepare-swooper-telegraph.mjs.",
+        "reason": "Declared D23 local rig acting from independently accepted painted pose; earlier generated opposite wing pose changed central body/pivot, so follow-up motion preserves accepted body paint rather than regenerating its identity."
+      }
+    },
+    {
+      "id": "swooper_dive",
+      "frames": 4,
+      "ms": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-dive-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-dive-native/capture.json",
+        "evidence/swooper-dive-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": "art/production-candidates/swooper-fold-r01/key.png",
+        "method": "Body-center pitch20/40/80/80degrees plus independently flexed folded wing struts and streaming cloth. No scaling/recentering. See tools/prepare-swooper-dive.mjs.",
+        "reason": "D23 articulated fallback preserves accepted painted folded identity after the generated opposite wing pose changed the central body. Separate review required for active dive and outgoing handoff."
+      }
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frames": 6,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-recovery-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-recovery-native/capture.json",
+        "evidence/swooper-recovery-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/production-candidates/swooper-recovery-catch-r01/key.png",
+          "art/production-candidates/swooper-recovery-right-r02/key.png",
+          "art/production-candidates/swooper-identity-r02/key.png"
+        ],
+        "method": "Painted bank/catch and righting frames0/1;55degree articulated wing power strokes frames2/4, approved full upstroke reused frames3/5. Ending equals cruise frame0. No global scaling in the rig.",
+        "reason": "Labelled D23 rig/reuse for stronger repeat strokes preserves accepted wide-wing paint; generated righting draft r01 exceeded intended normalization bounds and was regenerated r02. Entire action requires fresh independent review."
+      }
+    },
+    {
+      "id": "swooper_hurt",
+      "frames": 3,
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "normal_one_hp_path": false,
+      "conditional_note": "Test-only2HP nonlethal fixture; production1HP goes directly to death_fall.",
+      "review": "art/review-swooper-hurt-r01/review_verdict.md",
+      "captures": [
+        "evidence/swooper-hurt-native/capture.json",
+        "evidence/swooper-hurt-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/frames/swooper_cruise/f002.png",
+          "art/production-candidates/swooper-hurt-stagger-r01/key.png",
+          "art/frames/swooper_recovery_climb/f000.png"
+        ],
+        "method": "Local10px hood recoil over approved articulated wings; newly painted asymmetric stagger; exact approved bank/catch pose for recovery handoff. No global scale/translation in rig.",
+        "reason": "D23 local rig and reuse preserve the approved identity, with one newly painted stagger. Explicit conditional nonlethal2HP fixture; normal1HP damage enters death_fall."
+      }
+    },
+    {
+      "id": "swooper_death_fall",
+      "frames": 5,
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "normal_one_hp_path": true,
+      "review": "art/review-swooper-death-r02/review_verdict.md",
+      "captures": [
+        "evidence/swooper-death-native/capture.json",
+        "evidence/swooper-death-phone/capture.json"
+      ],
+      "derivation": {
+        "kind": "scripted_fallback",
+        "source": [
+          "art/frames/swooper_hurt/f001.png",
+          "art/production-candidates/swooper-death-collapse-r05/key.png"
+        ],
+        "method": "Reused banking interruption, independently accepted painted limp-folded wings, local5px sag and3px hood droop, two soft seeded Ash Grey erosion/fleck stages. Actual180u/s falling root; no global animation scaling or per-frame recentering. Final held frame has an irregular soft ash cluster; runtime alpha stays visible through arrival and fades over final100ms before1.2s cleanup.",
+        "reason": "Four prior generated/derived collapse drafts retained active supported wing fans and are archived with rejections. D23 reuse/local rig/soft erosion bridges accepted painted folded pose into ash; separate full motion review required. Full motion review r01 rejected unreadable ground ash; revision preserves frames0–3 and strengthens only final ash/visibility."
+      }
+    }
+  ]
+}

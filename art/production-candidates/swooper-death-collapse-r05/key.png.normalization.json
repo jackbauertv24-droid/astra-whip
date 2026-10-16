@@ -1,0 +1,16 @@
+{
+  "source": "art/production-candidates/swooper-death-collapse-r05/delivery.png",
+  "corrective_normalization": 1.0126582278481013,
+  "source_pivot": [
+    192,
+    139.5
+  ],
+  "delivery_pivot": [
+    192,
+    128
+  ],
+  "target_height": 160,
+  "method": "One bounded uniform normalization about authored horizontal origin and measured vertical envelope center; static key only, not per-animation recentering.",
+  "removed_alpha_at_most": 4,
+  "removed_pixels": 366
+}

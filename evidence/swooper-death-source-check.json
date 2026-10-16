@@ -1,0 +1,12 @@
+{
+  "pass": true,
+  "frames": 5,
+  "source_candidate_runtime_review_byte_identical": true,
+  "accepted_frames_0_to_3_unchanged_from_r01": true,
+  "other_clip_metadata_unchanged": true,
+  "all_five_frames_both_facings_native_phone": true,
+  "ground_settle_opacity_at_least_point8": true,
+  "static_source_review": "art/review-swooper-death-key-r05/review_verdict.md",
+  "full_motion_review": "art/review-swooper-death-r02/review_verdict.md",
+  "scripted_animation_quality_debt": true
+}

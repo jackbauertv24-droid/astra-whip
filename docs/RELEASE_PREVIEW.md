@@ -6,7 +6,7 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. Other enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer and seven swooper action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. The swooper has all36 required frames, including a normal one-HP falling collapse and readable ash settle; conditional hurt uses an explicit test-only2HP fixture. Ranged and boss enemies use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
 
 Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
 
@@ -63,3 +63,7 @@ Three articulated recoil frames passed fresh independent r02 review with station
 ## Follow-up fix 8f: pursuer death and complete actor inventory
 
 Six collapse/ash frames passed fresh independent r01 review, including both numeric flags. Actual normal one-HP death captures verify complete grounded collapse, final hold, cleanup and no dead contact damage in both facings. The complete pursuer inventory now passes: nine clips, 46 frames, exact runtime files, scoped approvals and all frames in both-facing native/phone captures. Gameplay, contract, art tools and browser regression passed. Scripted-animation quality debt and external physical-device/player studies remain explicitly disclosed. See `evidence/pursuer-death-fix.md` and `evidence/pursuer-inventory.json`.
+
+## Follow-up fix 9: complete swooper action set
+
+All seven clips and36frames have fresh scoped independent PASS verdicts and actual native/phone frame coverage in both facings. The final death revision preserves the accepted collapse keys, keeps falling ash readable through ground arrival and fades before cleanup. Retained failed source/motion reviews show the corrections. Exact runtime delivery and conditional hurt disclosure are checked by `tools/check-swooper-inventory.mjs`. Reused/local mesh/erosion frames remain D23 quality debt; this is not physical-device or complete-production-inventory approval. See `evidence/swooper-death-fix.md`.

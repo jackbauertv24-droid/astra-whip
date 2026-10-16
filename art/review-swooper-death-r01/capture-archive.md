@@ -1,0 +1,1 @@
+The rejected r01 review inspected the then-current evidence/swooper-death-native and phone folders. Exact copies of those captures are retained as evidence/swooper-death-r01-native and phone before revision. This pack retains all original frame PNGs and its full independent FAIL verdict.
