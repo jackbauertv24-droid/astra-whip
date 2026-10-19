@@ -1,0 +1,8 @@
+{
+  "unreviewed_strike_art_excluded": true,
+  "clips": [
+    "boss_strike_windup",
+    "boss_strike_execute",
+    "boss_strike_recover"
+  ]
+}

@@ -1,0 +1,7 @@
+# Preserve boss recovery through nonlethal flinch
+
+A hit during strike/hazard recovery previously entered200ms hurt and then walk, allowing a new attack before the intended1100/900ms recovery ended. Boss hurt now remembers the interrupted recovery and elapsed time, includes time spent flinching, and resumes only the remaining recovery. A late flinch that outlasts the recovery returns directly to walk. Live-strike noninterruption and ordinary hurt routing remain intact.
+
+The new actual-engine regression fails12of40checks on the old code and passes40of40afterward, both facings. Its strike branch naturally triggers the700ms tell and200ms attack at145u spacing, then lands two real whip attacks8HP→6HP and completes both500ms commitments inside recovery. The hazard branch is an explicit recovery-clock fixture (one real whip8HP→7HP), not a full hazard-encounter approval. No early movement/anticipation occurs; outgoing walk is observed at1108.33/908.33ms, within one120Hz step of the nominal deadlines. Root and hunter health stay fixed/safe.
+
+Contract,25tool selftest fixtures,1213gameplay assertions,pivot/swooper/projectile/boss-wait regressions and new40check recovery regression pass. Export and browser boot/input smoke are scoped to this code fix. Unreviewed strike-art directories were held outside the game during export; pack-scope assertions confirm none of the three new strike-clip frame paths appears in the shippedPCK. They remain local candidates for a separate art fix. This change grants no new art approval or physical-device/player evidence.

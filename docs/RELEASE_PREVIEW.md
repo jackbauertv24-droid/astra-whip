@@ -115,3 +115,7 @@ Three70/70/60ms recoil frames passed fresh independent review, with supported le
 ## Follow-up fix 11d: boss telegraphed turn
 
 Four75ms frames passed fresh independent review through actual both-direction captures. Painted frontal inward-arm midpoint plus neutral endpoint reuse supply chest/hip rotation and a continuous gauntlet path across the existing150ms facing flip. Natural walk mismatch enters turn; fixedroot/pivot/8HP and300ms walk return pass. Failed generation/normalization/head/mass audits remain retained. Tools/gameplay/focused regressions/export/browser smoke pass. Phone evidence is content-sized desktop capture,not physical-device/exact-window validation. Seven other boss clips,broader inventory and external-device/player gates remain pending. See `evidence/boss-turn-fix.md`.
+
+## Follow-up fix 11e: boss recovery clock
+
+Nonlethal flinch preserves the remaining strike/hazard recovery and counts time spent hurt, preventing an early next attack. Both-facing engine regression fails12checks before and passes40after: actual two500ms whip commitments fit the1100ms strike window; explicit hazard-recovery fixture preserves900ms. Gameplay/tools/focused regressions,export/browser smoke pass. Unreviewed strike artwork is excluded from this shippedPCK and remains a separate pending fix. No new art/device/player approval. See `evidence/boss-recovery-window-fix.md`.

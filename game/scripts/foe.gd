@@ -13,6 +13,8 @@ var visual: ActorVisual
 var hazard_x = 0.0
 var cycles = 0
 var recovery_start_y = 0.0
+var hurt_resume_state = ""
+var hurt_resume_elapsed = 0.0
 var shot = false
 var history: Dictionary = {}
 func _ready() -> void:
@@ -43,7 +45,17 @@ func take_hit() -> void:
  hp -= 1
  if hp <= 0:
   enter("death_fall" if kind == "swooper" else "death")
- elif kind != "boss" or state != "strike_execute": enter("hurt")
+ elif kind != "boss" or state != "strike_execute":
+  if kind == "boss":
+   if state in ["strike_recover","hazard_recover"]:
+    hurt_resume_state = state
+    hurt_resume_elapsed = elapsed
+   elif state == "hurt" and hurt_resume_state != "":
+    hurt_resume_elapsed += elapsed
+   else:
+    hurt_resume_state = ""
+    hurt_resume_elapsed = 0.0
+  enter("hurt")
 func simulate(dt: float) -> void:
  elapsed += dt
  var h: Hunter = world.hero
@@ -168,7 +180,16 @@ func simulate(dt: float) -> void:
     "hazard_recover":
      if elapsed >= 0.9: enter("walk")
     "hurt":
-     if elapsed >= 0.2: enter("walk")
+     if elapsed >= 0.2:
+      var resume = hurt_resume_state
+      var resume_elapsed = hurt_resume_elapsed + elapsed
+      hurt_resume_state = ""
+      hurt_resume_elapsed = 0.0
+      var deadline = 1.1 if resume == "strike_recover" else 0.9
+      if resume != "" and resume_elapsed < deadline:
+       enter(resume)
+       elapsed = resume_elapsed
+      else: enter("walk")
    position.x = clampf(position.x, 5700, 6460)
  if overlaps_rect(h.body_rect()):
   h.damage("contact", position.x)
