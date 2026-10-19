@@ -111,3 +111,7 @@ Eight125ms idle frames passed fresh independent review. Inactive-arena code now 
 ## Follow-up fix 11c: boss brief hurt
 
 Three70/70/60ms recoil frames passed fresh independent review, with supported legs,connected upper release and exact neutral endpoint. Actual whip reduces production8HP→7HP,returns to walk after200ms; a separate explicit live-strike fixture takes another real hit without interruption. Bothfacings/native/actual698×393phone captures,tools/gameplay/focused regressions,export/browser smoke pass. D23 motion debt and phone-width metadata limitation remain; eight other boss actions and broader inventory/device/player gates are pending. See `evidence/boss-hurt-fix.md`.
+
+## Follow-up fix 11d: boss telegraphed turn
+
+Four75ms frames passed fresh independent review through actual both-direction captures. Painted frontal inward-arm midpoint plus neutral endpoint reuse supply chest/hip rotation and a continuous gauntlet path across the existing150ms facing flip. Natural walk mismatch enters turn; fixedroot/pivot/8HP and300ms walk return pass. Failed generation/normalization/head/mass audits remain retained. Tools/gameplay/focused regressions/export/browser smoke pass. Phone evidence is content-sized desktop capture,not physical-device/exact-window validation. Seven other boss clips,broader inventory and external-device/player gates remain pending. See `evidence/boss-turn-fix.md`.

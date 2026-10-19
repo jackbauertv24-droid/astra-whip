@@ -1,0 +1,4 @@
+{
+  "status": "not_selected_for_turn_midpoint",
+  "reason": "Key retains forward head offset and too much side pose; not suitable for a continuous facing-flip midpoint. Not a general anatomy failure."
+}

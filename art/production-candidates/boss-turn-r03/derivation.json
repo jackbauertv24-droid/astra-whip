@@ -1,0 +1,40 @@
+{
+  "kind": "reused",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "art/production-candidates/boss-turn-key-r06/key.png",
+    "tools/prepare-boss-turn.mjs"
+  ],
+  "method": "Accepted neutral endpoints plus generated frontal inward-arm midpoint onframes1–2. Existing150ms facing event mirrors the midpoint, then the outgoing neutral. No per-frame recenter/scale; source-key bounded normalization recorded separately.",
+  "reason": "D23 neutral reuse and painted midpoint hold for a300ms telegraphed body turn. Earlier side-biased/oversized/wide-arm drafts retained. New generated midpoint and full actual flip require fresh independent action review.",
+  "records": [
+    {
+      "frame": 0,
+      "source": "art/frames/boss_idle/f000.png",
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 0,
+      "runtime_facing": "incoming"
+    },
+    {
+      "frame": 1,
+      "source": "art/production-candidates/boss-turn-key-r06/key.png",
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 1548,
+      "runtime_facing": "incoming"
+    },
+    {
+      "frame": 2,
+      "source": "art/production-candidates/boss-turn-key-r06/key.png",
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 1548,
+      "runtime_facing": "outgoing"
+    },
+    {
+      "frame": 3,
+      "source": "art/frames/boss_idle/f000.png",
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 0,
+      "runtime_facing": "outgoing"
+    }
+  ]
+}

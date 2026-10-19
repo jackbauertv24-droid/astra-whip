@@ -1,0 +1,11 @@
+{
+  "id": "boss-turn-key-r06",
+  "prompt": "Edit reference1 only: preserve the exact frontal body pose,canvas,figure352pxheight,two plantedboots,allarmor/shroud and bentoversizedarm. The crown/helmet is now56pxwide, slightlytoo wide compared to reference2 samecharacter53px. Make onlythe closedcrownedhelmet about5% narrower horizontally, final crown/helmwidth53px, centerx179.5, topy160, without changing its height,neckorbody. Preserve crownpointdesign,concealedface,connectiontoneck,softpaint/coldmattepalette. Do not enlarge/shrink/recenterwholefigure or change ANY otherbodypart. Reference2 supplies physicalhelmetwidthandidentity only, notsidepose. Reference1 remains fullfrontal withfoldedhangingoversizedgauntlet. Actual512x576transparentcanvas,root176512,solesy512,emptyupper160px. No words/guides/shadow/glow/gore.",
+  "references": [
+    "art/production-candidates/boss-turn-key-r05/key.png",
+    "art/frames/boss_idle/f000.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r06/raw.png"
+}

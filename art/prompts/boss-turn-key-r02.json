@@ -1,0 +1,11 @@
+{
+  "id": "boss-turn-key-r02",
+  "prompt": "Edit reference1 into a CLEAR FULL FRONTAL VIEW of the exact same crowned armored revenant. Reference2 alignment guide only. This is a turn midpoint: CROWN/HELM CENTER DIRECTLY ABOVE BELT AND ROOT x176, no forward or sideways lean, no side-profile head, no rightward nose projection. Both shoulders equally frontal, breastplate fully facing viewer, hips square, both knees and two complete flat boots. Crown/helm narrow same physical width53px as source; concealed closed face no eyes glow. Head top y160 and solesy512, standing height352 within512x576 canvas; keep upper160px EMPTY, do not fill canvas. Roots and pelviscenterx176, boots atx145 and208, bothsolesy512. Preserve identical armor/shroud/large gauntlet on viewer right and smaller viewerleft fist, corroded coldgray matte plates, raggedmutedolivecloth, soft painted upper-left light. No head growing, extra limb, new shoulderornament, weapon, warm highlight, light/glow/gore, text or guide. Exactly2arms2hands2legs2feet. Fullbody fromcrownthroughsoles. A full front-view TURN MIDPOINT, not the original side pose. Transparent actual alpha, no floor shadow. Oneframe only.",
+  "references": [
+    "art/production-candidates/boss-turn-key-r01/key.png",
+    "art/guides/boss.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r02/raw.png"
+}

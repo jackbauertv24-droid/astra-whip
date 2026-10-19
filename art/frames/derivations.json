@@ -493,5 +493,15 @@
     ],
     "method": "Small connected4° upper-body recoil easing through hips to fixed legs/soles,2° release and exact neutral endpoint. No global scaling or actor recentering.",
     "reason": "D23 continuation from approved boss construction after retained generated sheet failed scale/registration; brief local hurt must pass fresh action/runtime review. Scripted motion remains quality debt."
+  },
+  "boss_turn": {
+    "kind": "reused",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "art/production-candidates/boss-turn-key-r07/key.png",
+      "tools/prepare-boss-turn.mjs"
+    ],
+    "method": "Accepted neutral endpoints plus generated frontal inward-arm midpoint onframes1–2. Existing150ms facing event mirrors the midpoint, then the outgoing neutral. No per-frame recenter/scale; source-key bounded normalization recorded separately.",
+    "reason": "D23 neutral reuse and painted midpoint hold for a300ms telegraphed body turn. Earlier side-biased/oversized/wide-arm drafts retained. New generated midpoint and full actual flip require fresh independent action review."
   }
 }

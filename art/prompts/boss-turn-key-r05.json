@@ -1,0 +1,10 @@
+{
+  "id": "boss-turn-key-r05",
+  "prompt": "Edit ONLY the crowned HELMET/HEAD in this exact frontal revenant sprite; keep all body, arms, shoulders, gauntlets, shroud, legs, boots, colors, placement and352pxfullstandingheight unchanged. Current frontal crown/helmet is too narrow: make its horizontal width exactly15% of standingheight (53px for352pxfigure), instead of current42px. Widen the SAME closed crowned helmet naturally for frontal view: outerbounds aboutx151..204, topy160, head/neck remains60pxhigh, headcenter177.5. Same crownpoints, corrodedslateiron, concealedface, no eyes/glow/newornaments. Head must look like SAME physicalhelmet as right-facing original seen fromfront, not tiny/tall/newhat. Neck connected underjaw; do not enlarge headheight or shoulders. All else unchanged including inward folded oversizedgauntletcenter~220390 and fixedtwofeetsoley512. Full512x576canvas, root176512, upper160pxempty, no whole-body scale/zoom/crop/recenter. Actualtransparentbackground, no guides/labels/shadow.",
+  "references": [
+    "art/production-candidates/boss-turn-key-r04/key.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r05/raw.png"
+}

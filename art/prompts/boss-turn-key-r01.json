@@ -1,0 +1,11 @@
+{
+  "id": "boss-turn-key-r01",
+  "prompt": "Edit reference1 into ONE intermediate body-turn sprite of exactly the SAME crowned armored revenant warden. Reference2 is alignment guide ONLY; do not retain lines. Preserve 512x576 canvas, floor y512, rootx176, crown topy160, standing height352px, armor/clothing colors, head/limb sizes and oversized striking gauntlet. DO NOT enlarge to fill canvas: empty upper160px reserved for future raised arm. Change pose from right-facing three-quarter side stance toward FRONT facing viewer, body midway through turning to left: chest visibly more frontal, helm mostly frontal with slight rightward profile, hips rotate, two plated knees/boots support turn in a compact stance aroundroot176. Show BOTH shoulders, arms, complete legs/boots; one attached oversized gauntlet on viewer right, smaller rear fist viewer left. Planted feet centers near(150,512),(202,512); no crossed/missing/extra limbs. Turn through chest/hips with small weight transfer; no attack gesture, raised hand, magic, glow, weapon or new ornament. Crown/helm remains narrow same physical size; concealed face. Same cold corroded matte iron armor, muted olive ragged cloth, soft upper-left hand-painted light, fine restrained highlights. Gauntlet hangs nearupperthigh, not unjointed club. Entire full body from crown through two soles included with exact source-style proportions. No ground shadow, floor, words, labels, guides, frame, opaque background, warm trim, gore, pixel-art grid or franchise motifs. Actual transparent background. One frame only, not sheet.",
+  "references": [
+    "art/frames/boss_idle/f000.png",
+    "art/guides/boss.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r01/raw.png"
+}

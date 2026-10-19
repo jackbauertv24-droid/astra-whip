@@ -1,0 +1,10 @@
+{
+  "id": "boss-turn-key-r04",
+  "prompt": "Edit this exact512x576 frontal revenant key. KEEP exact crown/neck/torso/hips/legs/boots/shroud/canvas/palette/scale/root unchanged, crown y160 solesy512 root176. Change ONLY oversized arm viewerRIGHT: articulate elbow inward so the heavy gauntlet hangs closer to body center, gauntletcenterx220,y390 (currently~260,390). Right shoulder remains around(225,250), elbow around(230,315), forearm bends diagonally inward to wrist(216,365), closed gauntlet(220,390). Natural connected fixed-length upper/lower arm, iron plates remain samepaint/size, no shortened limb or extra fist, no floating hand. The arm is turning toward camera and slightly foreshortened, not attacking, crossing whole body or raising overhead. Smaller viewerleft arm remains unchanged. This is the frontal midpoint of a300ms body turn; inward gauntlet projection allows a smooth path between side silhouettes. Same fullbody352px standingheight andheadwidth, no enlarge/crop/recenter, upper160px empty, actualtransparentbackground. Preserve all other painted identity exactly. No outlines, words, guides, shadow, glow or gore.",
+  "references": [
+    "art/production-candidates/boss-turn-key-r03/key.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r04/raw.png"
+}

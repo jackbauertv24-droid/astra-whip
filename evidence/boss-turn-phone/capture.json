@@ -1,0 +1,150 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "before_file": "before-walk-to-right.png",
+   "direction": 1,
+   "facing_flips": 1,
+   "first_facing_flip_ms": 150.0,
+   "natural_walk_entry": true,
+   "outgoing_state": "walk",
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0,
+     "facing": -1,
+     "file": "turn-to-right-f00.png",
+     "flipped": true,
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.075,
+     "facing": -1,
+     "file": "turn-to-right-f01.png",
+     "flipped": true,
+     "frame": 1,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.15,
+     "facing": 1,
+     "file": "turn-to-right-f02.png",
+     "flipped": false,
+     "frame": 2,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.233333333333333,
+     "facing": 1,
+     "file": "turn-to-right-f03.png",
+     "flipped": false,
+     "frame": 3,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0,
+     "facing": 1,
+     "file": "walk-to-right-f00.png",
+     "flipped": false,
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "walk"
+    }
+   ],
+   "turn_ms": 300.0
+  },
+  {
+   "before_file": "before-walk-to-left.png",
+   "direction": -1,
+   "facing_flips": 1,
+   "first_facing_flip_ms": 150.0,
+   "natural_walk_entry": true,
+   "outgoing_state": "walk",
+   "production_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0,
+     "facing": 1,
+     "file": "turn-to-left-f00.png",
+     "flipped": false,
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.075,
+     "facing": 1,
+     "file": "turn-to-left-f01.png",
+     "flipped": false,
+     "frame": 1,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.15,
+     "facing": -1,
+     "file": "turn-to-left-f02.png",
+     "flipped": true,
+     "frame": 2,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0.233333333333333,
+     "facing": -1,
+     "file": "turn-to-left-f03.png",
+     "flipped": true,
+     "frame": 3,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "turn"
+    },
+    {
+     "elapsed": 0,
+     "facing": -1,
+     "file": "walk-to-left-f00.png",
+     "flipped": true,
+     "frame": 0,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "walk"
+    }
+   ],
+   "turn_ms": 300.0
+  }
+ ],
+ "viewport": "(852, 393)"
+}

@@ -1,0 +1,4 @@
+{
+  "status": "rejected_before_delivery",
+  "reason": "G-03 standing height440 requires0.8 normalization to352, outside0.85–1.18; regenerate, do not silently shrink."
+}

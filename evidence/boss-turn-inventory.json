@@ -1,0 +1,15 @@
+{
+  "actor": "boss",
+  "clip": "boss_turn",
+  "frames": 4,
+  "review": "art/review-boss-turn-r04/review_verdict.md",
+  "captures": [
+    "evidence/boss-turn-native/capture.json",
+    "evidence/boss-turn-phone/capture.json"
+  ],
+  "all_frames_both_directions_native_and_phone": true,
+  "natural_walk_entry_and_single150ms_flip": true,
+  "physical_device_tested": false,
+  "reused_neutral_and_midpoint": true,
+  "remaining_boss_clips_unapproved": 7
+}

@@ -1,0 +1,10 @@
+{
+  "id": "boss-turn-key-r07",
+  "prompt": "Precisely edit ONLY the crowned helmet outline in this frontal armored revenant. Keep EVERY other pixel of body,hips,arms,gauntlet,cloth,legs,boots and canvas unchanged. Current helmet width56px. Narrow its crown/helmet by only TWO sourcepixels total, onepixel eachside: target54pxwidth, sameheight,center anddesign. A very small correction, not redesign. Fullfigure remains352pxtall, same512x576canvas,root176512,solesy512,crowny160. Keep fullfrontalfaceconcealed helmet, broadpointscorrodedmatteiron,coldpalette. Do NOT alterbodywidthorclothmass,regeneratecostume,zoom,rescaleortranslatefigure. Keep identical connectedhead/neck. Only a tinywidthcorrection to existingcrown/helmet. Actualtransparentbackground,no markings/glow/shadow/gore.",
+  "references": [
+    "art/production-candidates/boss-turn-key-r05/key.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r07/raw.png"
+}

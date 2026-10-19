@@ -310,3 +310,7 @@ Fresh `/root/boss_idle_review_r01` saved/reread blind lineup and both strip desc
 ## Boss brief hurt — 2026-10-19
 
 Fresh `/root/boss_hurt_review_r02` saved/reread blind lineup/strip observations before intent, then inspected19native tiles/onions, five style references and all20actual captures. `boss_hurt`: PASS; idle/walk reference compatibility PASS. Zero audit defects/flags. Full verdict: `art/review-boss-hurt-r01/review_verdict.md`. Three70/70/60ms grounded recoil frames,exact neutral finish,bothfaces and actual698×393phone-pixel read pass. Actual whip8HP→7HP/200ms walk return and separate explicit strike fixture6HP/noninterruption pass; strike art not approved. Phone width metadata limitation,D23 debt and eight other boss clips remain pending.
+
+## Boss telegraphed turn — 2026-10-19
+
+Fresh `/root/boss_turn_review_r02` saved/reread blind lineup/strip notes before intent, then inspected20native tiles/onions,five style references and all24actual captures. `boss_turn`: PASS with idle/walk references. Full verdict: `art/review-boss-turn-r04/review_verdict.md`. Frontal chest/hip rotation,inward gauntlet path and exact neutral handoffs read as a supported four-key turn; runtime single150ms facing event/300ms return pass in both directions. Current audit0defects/flags; failed head/mass drafts and aborted service-error review remain retained. Reused midpoint relies on the actual runtime flip. D23 and physical-device/phone-width limits remain; seven boss clips are pending.

@@ -1,0 +1,11 @@
+{
+  "id": "boss-turn-key-r03",
+  "prompt": "Create ONE full frontal TURN MIDPOINT sprite of reference2 armored revenant using reference1 skeleton/height guide EXACTLY. Guide is512x576: bluecrownliney160, redfloorliney512, cyanrootx176. All paint ONLY betweeny160and512. Upper160px MUST remain EMPTY transparent. Head bounds150..202x160..220. Pelviscenter176365. Two soles near145512 and207512. These are full-canvas coordinates not crop coordinates. Preserve entire512x576 canvas and large transparent margins; do not zoom tofill. New front-facing pose of same boss, both shoulders and chest frontal, neck/head centered overbelt/root176, no sidewayslean/profile. Exactlytwoarms/twohands/twoplatedlegs/twocompleteflatboots. Oversized articulatedgauntlet viewer right, smallerfist viewerleft, bothhanging. Same narrow concealed crownedhelmet53pxwidth, same corroded ceremonialcoldgraymatteplate, mutedolivetornshroud, broadupperleftpaintedlight. Source physicalproportions352pxtotalheight. No newornaments/weapons, magic,warmcolor, glow,gore, shadows/floor/text/guide/rulers/frame. Guide informs skeleton ONLY removeallcoloredlines. One front midpointpose, notsheet, actualtransparentalpha.",
+  "references": [
+    "art/guides/boss-front.png",
+    "art/frames/boss_idle/f000.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-turn-key-r03/raw.png"
+}

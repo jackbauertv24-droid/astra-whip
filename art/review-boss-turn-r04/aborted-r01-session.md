@@ -1,0 +1,1 @@
+Independent reviewer /root/boss_turn_review_r01 ended with service error {"detail":"Bad Request"} before a verdict. Its blind notes are retained separately; there is no completed approval from that session. A fresh reviewer must start blind without reading these notes.

@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/boss-turn-key-r07/delivery.png",
+  "corrective_normalization": 1.110410094637224,
+  "source_pivot": [
+    173,
+    456
+  ],
+  "delivery_pivot": [
+    176,
+    512
+  ],
+  "target_height": 352,
+  "method": "uniform bounded scale about measured foot pivot, registration at contract pivot",
+  "debris_removed": 0
+}
