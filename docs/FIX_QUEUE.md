@@ -27,3 +27,5 @@ Projectile range follow-up: fixed separately after aiming. Spawn remains40u from
 Boss recovery-clock follow-up: nonlethal flinch now resumes the remaining1100/900ms recovery instead of granting an early new attack. Real-whip regression40checks,old12failures→0; art inventory remains23/70boss frames. See `evidence/boss-recovery-window-fix.md`.
 
 Phone pause-target follow-up: pause/resume now retains64×64rendered pixels after viewport scaling and resize. Four-size16check GUI regression and actual browser lower-edge touch pass. Portrait/menu/safe-area/art/device gates remain pending. See evidence/pause-touch-target-fix.md.
+
+Portrait follow-up: actual-window orientation detection, rotate prompt, cleared held input and explicit landscape resume pass18engine checks and two-size browser captures. Painted UI graphic, menu/safe-area and physical-device gates remain pending. See evidence/portrait-pause-fix.md.

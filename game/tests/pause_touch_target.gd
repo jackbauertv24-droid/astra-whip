@@ -38,7 +38,7 @@ func run():
    event.pressed=false
    root.push_input(event,true)
    await process_frame
-   check(world.paused!=paused,"lower-edge GUI click toggles pause/resume "+str(size))
+   check(world.paused if size.y>size.x else world.paused!=paused,"lower-edge GUI click respects orientation/pause "+str(size))
   records.append({"window":[size.x,size.y],"scale":[scale.x,scale.y],"target_px":[pixels.x,pixels.y]})
  print("PAUSE_TARGET_SAMPLES ",JSON.stringify(records))
  print("RESULT pause touch target: %d checks, %d failures"%[checks,failures])

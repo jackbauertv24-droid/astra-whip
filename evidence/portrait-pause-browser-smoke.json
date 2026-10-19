@@ -1,0 +1,28 @@
+{
+  "browser": "156.0.8078.4",
+  "viewports": [
+    [
+      852,
+      393
+    ],
+    [
+      393,
+      852
+    ],
+    [
+      375,
+      667
+    ]
+  ],
+  "device_scale_factor": 1,
+  "physical_device": false,
+  "actions": [
+    "resume landscape",
+    "hold right through orientation change",
+    "portrait prompt",
+    "Escape remains paused",
+    "rotate back waits for resume",
+    "explicit touch resumes"
+  ],
+  "errors": []
+}

@@ -127,3 +127,7 @@ Seven windup, four execution and six recovery frames passed fresh isolated indep
 ## Follow-up fix: phone pause touch target
 
 Pause/resume now retains at least64×64rendered pixels after viewport scaling. Four-size GUI regression fails4checks before and passes16after; browser phone emulation confirms a touch below the old edge resumes and pauses. Gameplay/tools/export pass; portrait handling and other UI/device gates remain pending. See evidence/pause-touch-target-fix.md.
+
+## Follow-up fix: portrait pause and rotate prompt
+
+Actual window rotation now pauses gameplay,clears input and shows live rotate/pause text. Portrait cannot resume; landscape return waits for an explicit action. Regression18checks,old12failures→0; two browser portrait sizes and unchanged-after-Escape PNGs verify behavior. Gameplay/tools/export/browser pass. Painted UI inventory,safe-area and physical-device gates remain pending. See evidence/portrait-pause-fix.md.

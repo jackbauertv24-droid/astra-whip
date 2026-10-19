@@ -23,6 +23,8 @@ var hud: CanvasLayer
 var status: Label
 var menu: VBoxContainer
 var menu_back: Panel
+var rotate_prompt: Label
+var rotate_back: Panel
 var pause_button: Button
 var gates: Array = []
 var effigy = true
@@ -118,16 +120,32 @@ func pit_fall() -> void:
 func capture_checkpoint() -> void:
  checkpoint = true
  respawn = Vector2(4128,Rules.GROUND)
+func is_portrait() -> bool:
+ var window_size=get_window().size
+ return window_size.y>window_size.x
 func set_pause(value: bool) -> void:
- paused = value
+ paused = value or is_portrait()
  hero.controls.clear()
- menu.visible = paused or complete
- pause_button.text = "RESUME" if paused else "PAUSE"
+ update_orientation_ui()
+func update_orientation_ui() -> void:
+ if not is_instance_valid(rotate_prompt): return
+ var portrait=is_portrait()
+ if portrait:
+  paused=true
+  hero.controls.clear()
+ menu.visible=(paused or complete) and not portrait
+ menu_back.visible=menu.visible
+ rotate_prompt.visible=portrait
+ rotate_back.visible=portrait
+ status.visible=not portrait
+ for action in touch_buttons: touch_buttons[action].visible=not portrait
+ pause_button.disabled=portrait
+ pause_button.text="PAUSED" if portrait else ("RESUME" if paused else "PAUSE")
 func _notification(what: int) -> void:
  if what == NOTIFICATION_APPLICATION_FOCUS_OUT and is_instance_valid(hero): set_pause(true)
 func _physics_process(dt: float) -> void:
  if testing: return
- if get_viewport_rect().size.y > get_viewport_rect().size.x and not paused: set_pause(true)
+ if is_portrait() and not paused: set_pause(true)
  if not paused and not complete: step(dt)
  status.text = "ASTRA WHIP   |   HEALTH %d/5" % maxi(0,hero.health) + ("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
  if complete: status.text = "THE WARDEN HAS FALLEN — THE WAY IS OPEN"
@@ -234,8 +252,31 @@ func build_ui() -> void:
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
  # Keep pause/resume usable after the game viewport is downscaled on phones.
- get_viewport().size_changed.connect(update_pause_target)
+ rotate_back=Panel.new()
+ rotate_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
+ var rotate_style=StyleBoxFlat.new()
+ rotate_style.bg_color=Color(.05,.03,.08,.94)
+ rotate_back.add_theme_stylebox_override("panel",rotate_style)
+ hud.add_child(rotate_back)
+ hud.move_child(rotate_back,0)
+ rotate_prompt=Label.new()
+ rotate_prompt.text="Rotate to landscape\nGame paused"
+ rotate_prompt.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
+ rotate_prompt.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
+ rotate_prompt.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
+ rotate_prompt.mouse_filter=Control.MOUSE_FILTER_IGNORE
+ hud.add_child(rotate_prompt)
+ get_viewport().size_changed.connect(update_ui_layout)
+ update_ui_layout()
+func update_ui_layout() -> void:
  update_pause_target()
+ var view=get_viewport_rect().size
+ rotate_back.size=view
+ rotate_prompt.position=Vector2(80,view.y*.5-120)
+ rotate_prompt.size=Vector2(view.x-160,240)
+ var scale_y=get_viewport().get_stretch_transform().get_scale().y
+ rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale_y,.001))))
+ update_orientation_ui()
 func update_pause_target() -> void:
  var pixels_per_unit=get_viewport().get_stretch_transform().get_scale().abs()
  pause_button.size=Vector2(maxf(130,64/maxf(pixels_per_unit.x,.001)),maxf(60,64/maxf(pixels_per_unit.y,.001)))
