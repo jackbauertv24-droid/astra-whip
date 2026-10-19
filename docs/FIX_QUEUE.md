@@ -16,7 +16,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 10 | Ranged enemy supported action clips | DONE: all6body clips/31frames +3projectile frames independent PASS; exact runtime, full both-facing native/phone coverage, actual2HP hurt/death path, shot loop/flight/standing/crouch verified |
 | 11 | Boss supported action clips | PARTIAL: idle+walk+hurt+turn+strike cycle40/70mandatory frames independent PASS, plus9supplemental recovery-hurt frames; hazard3clips and death remain previews |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
-| 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |
+| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current302frames: lossless four-page runtime atlas,83.94MiB conservative inventory;105.22MiB measured art allocation; future inventory/device profiling remain |
 | 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; playfield thumb clearance,timed reels and device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
@@ -41,3 +41,5 @@ Gameplay action-target follow-up: all five controls now retain64CSS-pixel target
 Touch-cancellation follow-up: canceled events clear all held sources and buffered edges, while ordinary releases preserve other fingers/keyboard.11checks,4before failures→0. See evidence/touch-cancellation-fix.md.
 
 Pressed-feedback follow-up: gameplay buttons display the shared held state across keyboard/touch/drag/release/pause.25checks,12before failures→0; actual browser held/released captures retained. Painted UI inventory remains pending. See evidence/touch-feedback-fix.md.
+
+Atlas follow-up:302RGBA roundtrips and1815export-runtime checks pass;550both-facing engine samples differ by only one channel value in one shader-edge pixel. Current measured art allocation105.22MiB; no physical-device claim. See evidence/atlas-fix.md.

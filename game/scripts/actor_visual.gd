@@ -39,8 +39,8 @@ func configure(kind: String) -> void:
    var ms = spec.ms[i]
    var path = "res://assets/" + actor + "/" + id + "/f%03d.png" % i
    var texture: Texture2D
-   if ResourceLoader.exists(path):
-    texture = load(path)
+   if PackedArt.exists(path):
+    texture = PackedArt.texture(path)
     if texture != null: delivered += 1
    elif actor == "hero" and id == "hero_attack_ground":
     var keys = ["rest","windup","strike","strike","follow","follow","rest","rest"]
@@ -70,7 +70,7 @@ func configure(kind: String) -> void:
    for i in entry.ms.size():
     var path = "res://assets/boss/"+id+"/f%03d.png" % i
     var texture: Texture2D
-    if ResourceLoader.exists(path): texture = load(path)
+    if PackedArt.exists(path): texture = PackedArt.texture(path)
     if texture != null: delivered += 1
     var placeholder = PlaceholderTexture2D.new()
     placeholder.size = Vector2.ONE
@@ -83,7 +83,7 @@ func configure(kind: String) -> void:
   weapon = Sprite2D.new()
   weapon.centered = false
   var shader = Shader.new()
-  shader.code = "shader_type canvas_item; uniform vec2 hand_socket; void fragment(){ COLOR.a *= smoothstep(7.5, 8.5, distance(UV * vec2(768.0, 512.0), hand_socket)); }"
+  shader.code = "shader_type canvas_item; uniform vec2 hand_socket; uniform vec2 texture_origin; void fragment(){ COLOR.a *= smoothstep(7.5, 8.5, distance(UV / TEXTURE_PIXEL_SIZE - texture_origin, hand_socket)); }"
   var material_instance = ShaderMaterial.new()
   material_instance.shader = shader
   weapon.material = material_instance
@@ -94,7 +94,7 @@ func configure(kind: String) -> void:
    var textures: Array[Texture2D] = []
    for i in specs["hero_" + state].ms.size():
     var path = "res://assets/hero/whip_" + state + "/f%03d.png" % i
-    if ResourceLoader.exists(path): textures.append(load(path))
+    if PackedArt.exists(path): textures.append(PackedArt.texture(path))
    weapon_sets[state] = textures
  follow("idle", 0)
 func clip_id(state: String) -> String:
@@ -135,4 +135,7 @@ func follow(state: String, elapsed: float) -> void:
    weapon.texture = weapon_frames[index]
    weapon.position = Vector2(256 if flip_h else -256, -448)
    weapon.scale = Vector2(-1 if flip_h else 1, 1)
+   var texture_origin=Vector2.ZERO
+   if weapon.texture is AtlasTexture: texture_origin=weapon.texture.region.position-weapon.texture.margin.position
+   weapon.material.set_shader_parameter("texture_origin",texture_origin)
    weapon.material.set_shader_parameter("hand_socket", Vector2(hand_sockets[index][0], hand_sockets[index][1]))

@@ -1,0 +1,12 @@
+extends SceneTree
+func _initialize():
+ var path="res://assets/hero/hero_walk/f001.png"
+ var original=load(path).get_image()
+ var atlas=PackedArt.texture(path)
+ var imported=atlas.atlas.get_image().get_region(atlas.region)
+ var entry=PackedArt.manifest.frames[path]
+ var source=original.get_region(Rect2i(entry.trim[0],entry.trim[1],entry.region[2],entry.region[3]))
+ source.save_png("/tmp/astra-source-import.png")
+ imported.save_png("/tmp/astra-packed-import.png")
+ print("source format ",source.get_format()," atlas format ",imported.get_format())
+ quit()

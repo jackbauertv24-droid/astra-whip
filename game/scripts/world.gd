@@ -46,7 +46,7 @@ func load_projectile_art() -> void:
  projectile_frames.clear()
  for frame in spec.ms.size():
   var path = "res://assets/vfx/projectile_grave_shot/f%03d.png"%frame
-  if ResourceLoader.exists(path): projectile_frames.append(load(path))
+  if PackedArt.exists(path): projectile_frames.append(PackedArt.texture(path))
 func projectile_frame_at(age: float) -> int:
  var duration = 0.0
  for ms in projectile_durations: duration += float(ms)
