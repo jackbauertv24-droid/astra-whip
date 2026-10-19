@@ -31,3 +31,5 @@ Phone pause-target follow-up: pause/resume now retains64×64rendered pixels afte
 Portrait follow-up: actual-window orientation detection, rotate prompt, cleared held input and explicit landscape resume pass18engine checks and two-size browser captures. Painted UI graphic, menu/safe-area and physical-device gates remain pending. See evidence/portrait-pause-fix.md.
 
 Density follow-up: UI scaling now uses CSS pixels rather than backing pixels; real device-scale2/3 lower-edge touch passes after failing before. Rotate startup box and high-density text centering pass9engine checks and image-based242→6.5px offset check. Other menu/safe-area/device gates remain pending. See evidence/pause-density-fix.md.
+
+Menu follow-up:64CSS-pixel buttons/toggle/sliders,readable labels and bounded touch-scroll menu pass60engine checks and density1/2actual swipe/adjust/resume browser captures. Safe-area,painted inventory and device gates remain pending. See evidence/menu-touch-targets-fix.md.

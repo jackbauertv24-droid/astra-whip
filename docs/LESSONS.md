@@ -106,3 +106,7 @@ A testing-mode world can return before its normal redraw queue while logical pro
 ## Boss strike cross-clip arc — implementation follow-up 2026-10-19
 
 A scoped zero-defect audit did not catch a held overhead fist jumping258px into a chest-level execution key, followed by a16degree whole-body stoop in the final50ms step. Independent review rejected the handoffs. The replacement keeps the first arm step below175source pixels and torso-loading steps at most6degrees; retained before geometry fails both checks. See tools/check-boss-strike-arc.mjs and evidence/boss-strike-arc-*. These are geometry tripwires, not motion approval: native/phone cross-clip seams still require a fresh independent review.
+
+## Menu pan is not a touch-drag proof — 2026-10-19
+
+Native pan gestures reached the menu ScrollContainer while real browser pointer drags over child buttons did not. Keep the browser swipe fixture in addition to GUI hit/size checks. Children must let pointer events reach the scroller; drag-start notification then cancels an in-progress button press. Verify that swipes reveal lower controls and never substitute an unrelated changed screenshot for scroll evidence.

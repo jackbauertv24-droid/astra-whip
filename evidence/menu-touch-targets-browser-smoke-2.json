@@ -1,0 +1,14 @@
+{
+  "physical_device": false,
+  "records": [
+    {
+      "device_scale_factor": 2,
+      "viewport": [
+        852,
+        393
+      ],
+      "touch_scroll_changes_png": true,
+      "errors": []
+    }
+  ]
+}

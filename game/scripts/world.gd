@@ -21,6 +21,7 @@ var camera_x = 640.0
 var camera: Camera2D
 var hud: CanvasLayer
 var status: Label
+var menu_scroll: ScrollContainer
 var menu: VBoxContainer
 var menu_back: Panel
 var rotate_prompt: Label
@@ -135,6 +136,7 @@ func update_orientation_ui() -> void:
   hero.controls.clear()
  menu.visible=(paused or complete) and not portrait
  menu_back.visible=menu.visible
+ menu_scroll.visible=menu.visible
  rotate_prompt.visible=portrait
  rotate_back.visible=portrait
  status.visible=not portrait
@@ -204,19 +206,24 @@ func build_ui() -> void:
  pause_button.pressed.connect(func():
   started = true
   set_pause(not paused))
+ menu_scroll=ScrollContainer.new()
+ menu_scroll.horizontal_scroll_mode=ScrollContainer.SCROLL_MODE_DISABLED
+ menu_scroll.follow_focus=true
+ hud.add_child(menu_scroll)
  menu = VBoxContainer.new()
- menu.position = Vector2(420,190)
- menu.size = Vector2(440,320)
- menu.add_theme_constant_override("separation",18)
- hud.add_child(menu)
+ menu.size_flags_horizontal=Control.SIZE_EXPAND_FILL
+ menu.mouse_filter=Control.MOUSE_FILTER_PASS
+ menu_scroll.add_child(menu)
  var title = Label.new()
  title.text = "ASTRA WHIP\nThe Ashen Threshold · Preview"
  title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+ title.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
  title.add_theme_font_size_override("font_size",28)
  menu.add_child(title)
  var intro = Label.new()
  intro.text = "A deliberate gothic passage.\nMove · read the tell · commit to the whip.\nA/D or arrows · Space jump · J whip · S crouch"
  intro.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+ intro.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
  menu.add_child(intro)
  var start = Button.new()
  start.text = "ENTER / RESUME"
@@ -239,12 +246,15 @@ func build_ui() -> void:
   var bus = AudioServer.bus_count
   AudioServer.add_bus()
   AudioServer.set_bus_name(bus,bus_name)
+  var volume_label=Label.new()
+  volume_label.text="Music volume" if bus_name=="Music" else "Sound effects volume"
+  menu.add_child(volume_label)
   var slider = HSlider.new()
   slider.min_value = 0
   slider.max_value = 1
   slider.step = 0.05
   slider.value = 0.7
-  slider.tooltip_text = bus_name + " volume (audio production deferred by spec)"
+  slider.tooltip_text = volume_label.text
   slider.value_changed.connect(func(value): AudioServer.set_bus_volume_db(bus,linear_to_db(maxf(value,0.001))))
   menu.add_child(slider)
  for entry in [["left","LEFT",Vector2(24,590)],["right","RIGHT",Vector2(154,590)],["crouch","CROUCH",Vector2(840,590)],["jump","JUMP",Vector2(975,540)],["whip","WHIP",Vector2(1110,590)]]:
@@ -270,6 +280,7 @@ func build_ui() -> void:
  update_ui_layout()
 func update_ui_layout() -> void:
  update_pause_target()
+ update_menu_targets()
  var view=get_viewport_rect().size
  rotate_back.size=view
  var scale_y=ui_units_to_css_pixels().y
@@ -277,6 +288,28 @@ func update_ui_layout() -> void:
  rotate_prompt.position=Vector2(80,0)
  rotate_prompt.size=Vector2(view.x-160,view.y)
  update_orientation_ui()
+func update_menu_targets() -> void:
+ var scale=ui_units_to_css_pixels()
+ var label_index=0
+ for control in menu.get_children():
+  if control is Label:
+   var target=20 if label_index==0 else 14
+   control.add_theme_font_size_override("font_size",ceili(target/scale.y))
+   label_index+=1
+  elif control is BaseButton or control is Range:
+   control.mouse_filter=Control.MOUSE_FILTER_PASS
+   control.custom_minimum_size.y=64/scale.y
+   if control is BaseButton: control.add_theme_font_size_override("font_size",ceili(16/scale.y))
+ var view=get_viewport_rect().size
+ var margin=Vector2(16,16)/scale
+ var panel_size=Vector2(minf(480/scale.x,view.x-margin.x*2),minf(485/scale.y,view.y-margin.y*2))
+ menu_back.position=(view-panel_size)*.5
+ menu_back.size=panel_size
+ menu_scroll.position=menu_back.position+margin
+ # Theme changes invalidate cached minimum widths; size after they settle.
+ menu_scroll.set_deferred("size",panel_size-margin*2)
+ menu.add_theme_constant_override("separation",ceili(8/scale.y))
+ menu_scroll.scroll_deadzone=ceili(8/scale.y)
 func ui_units_to_css_pixels() -> Vector2:
  var scale=get_viewport().get_stretch_transform().get_scale().abs()
  if OS.has_feature("web"):

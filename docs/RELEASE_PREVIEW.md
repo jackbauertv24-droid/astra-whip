@@ -135,3 +135,7 @@ Actual window rotation now pauses gameplay,clears input and shows live rotate/pa
 ## Follow-up fix: CSS density and rotate startup layout
 
 Pause targets and rotate typography now account for the backing-to-CSS canvas ratio. Browser device scales2/3 reproduce lower-edge touch failure before and resume correctly after. The fixed two-line prompt also avoids a cached wrap-height startup overflow;9new layout checks and real high-density image centering pass. Native pause/orientation,tools/export pass. Menu/safe-area/art/device gates remain pending. See evidence/pause-density-fix.md.
+
+## Follow-up fix: reachable phone menu targets
+
+Menu controls retain64CSS-pixel heights and readable labels inside a bounded vertical scroll area. Pointer events reach the scroller,so real touch swipes expose both volume controls without activating buttons. Expanded60check GUI regression,full gameplay/tools/export and isolated density1/2browser runs pass. Physical-device,safe-area and painted inventory gates remain pending. See evidence/menu-touch-targets-fix.md.

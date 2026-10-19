@@ -1,0 +1,37 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL menu touch targets: scroll container exists (1280, 720)
+FAIL menu touch targets: 64px control Button at (1280, 720) got (440.0, 60.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control Button at (1280, 720) got (440.0, 48.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control CheckButton at (1280, 720) got (440.0, 31.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (1280, 720) got (440.0, 16.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (1280, 720) got (440.0, 16.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: scroll container exists (852, 393)
+FAIL menu touch targets: 64px control Button at (852, 393) got (239.9375, 32.75)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control Button at (852, 393) got (239.9375, 26.2)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control CheckButton at (852, 393) got (239.9375, 16.92083)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (852, 393) got (239.9375, 8.733334)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (852, 393) got (239.9375, 8.733334)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: scroll container exists (667, 375)
+FAIL menu touch targets: 64px control Button at (667, 375) got (228.9375, 31.25)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control Button at (667, 375) got (228.9375, 25.0)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control CheckButton at (667, 375) got (228.9375, 16.14583)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (667, 375) got (228.9375, 8.333333)
+FAIL menu touch targets: full target scrolls into view
+FAIL menu touch targets: 64px control HSlider at (667, 375) got (228.9375, 8.333333)
+FAIL menu touch targets: full target scrolls into view
+MENU_TARGET_SAMPLES [{"control":"Button","target_pixels":[440.0,60.0],"window":[1280,720]},{"control":"Button","target_pixels":[440.0,48.0],"window":[1280,720]},{"control":"CheckButton","target_pixels":[440.0,31.0],"window":[1280,720]},{"control":"HSlider","target_pixels":[440.0,16.0],"window":[1280,720]},{"control":"HSlider","target_pixels":[440.0,16.0],"window":[1280,720]},{"control":"Button","target_pixels":[239.937515258789,32.75],"window":[852,393]},{"control":"Button","target_pixels":[239.937515258789,26.2000007629395],"window":[852,393]},{"control":"CheckButton","target_pixels":[239.937515258789,16.9208335876465],"window":[852,393]},{"control":"HSlider","target_pixels":[239.937515258789,8.73333358764648],"window":[852,393]},{"control":"HSlider","target_pixels":[239.937515258789,8.73333358764648],"window":[852,393]},{"control":"Button","target_pixels":[228.9375,31.2499980926514],"window":[667,375]},{"control":"Button","target_pixels":[228.9375,25.0],"window":[667,375]},{"control":"CheckButton","target_pixels":[228.9375,16.1458320617676],"window":[667,375]},{"control":"HSlider","target_pixels":[228.9375,8.33333301544189],"window":[667,375]},{"control":"HSlider","target_pixels":[228.9375,8.33333301544189],"window":[667,375]}]
+RESULT menu touch targets: 51 checks, 33 failures
