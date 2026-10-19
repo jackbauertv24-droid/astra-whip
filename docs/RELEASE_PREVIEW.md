@@ -123,3 +123,7 @@ Nonlethal flinch preserves the remaining strike/hazard recovery and counts time 
 ## Follow-up fix 11f: complete boss strike cycle
 
 Seven windup, four execution and six recovery frames passed fresh isolated independent review after correcting weak recovery acting and a discontinuous arm/body handoff. Nine supplemental hurt frames preserve the supported posture during punish hits. Actual both-facing/native/phone captures cover every frame, two full500ms whips and late hurt;1234gameplay assertions plus focused contact/context/recovery checks, contract/tools, export and browser smoke pass. Before/after geometry regression rejects the retained arm/body jumps. Boss art now40/70mandatory frames; hazard/death, broader inventory and external device/player gates remain pending. D23 quality debt stays disclosed. See evidence/boss-strike-fix.md.
+
+## Follow-up fix: phone pause touch target
+
+Pause/resume now retains at least64×64rendered pixels after viewport scaling. Four-size GUI regression fails4checks before and passes16after; browser phone emulation confirms a touch below the old edge resumes and pauses. Gameplay/tools/export pass; portrait handling and other UI/device gates remain pending. See evidence/pause-touch-target-fix.md.

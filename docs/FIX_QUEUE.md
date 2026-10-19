@@ -25,3 +25,5 @@ Production music/SFX remain explicitly deferred by the specification.
 Projectile range follow-up: fixed separately after aiming. Spawn remains40u from the enemy root; expiry now measures640u from the actual muzzle. Both-facing regression22checks, old4failures→0; see `evidence/ranged-projectile-fix.md`.
 
 Boss recovery-clock follow-up: nonlethal flinch now resumes the remaining1100/900ms recovery instead of granting an early new attack. Real-whip regression40checks,old12failures→0; art inventory remains23/70boss frames. See `evidence/boss-recovery-window-fix.md`.
+
+Phone pause-target follow-up: pause/resume now retains64×64rendered pixels after viewport scaling and resize. Four-size16check GUI regression and actual browser lower-edge touch pass. Portrait/menu/safe-area/art/device gates remain pending. See evidence/pause-touch-target-fix.md.

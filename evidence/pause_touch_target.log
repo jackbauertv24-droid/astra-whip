@@ -1,0 +1,4 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PAUSE_TARGET_SAMPLES [{"scale":[1.0,1.0],"target_px":[130.0,64.0],"window":[1280,720]},{"scale":[0.545312523841858,0.545833349227905],"target_px":[70.890625,64.0],"window":[852,393]},{"scale":[0.520312488079071,0.520833313465118],"target_px":[67.640625,64.0],"window":[667,375]},{"scale":[0.307031244039536,0.30694442987442],"target_px":[64.0000076293945,63.9999961853027],"window":[393,852]}]
+RESULT pause touch target: 16 checks, 0 failures

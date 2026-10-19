@@ -233,6 +233,13 @@ func build_ui() -> void:
   var b = button(entry[1],entry[2],Vector2(116,104))
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
+ # Keep pause/resume usable after the game viewport is downscaled on phones.
+ get_viewport().size_changed.connect(update_pause_target)
+ update_pause_target()
+func update_pause_target() -> void:
+ var pixels_per_unit=get_viewport().get_stretch_transform().get_scale().abs()
+ pause_button.size=Vector2(maxf(130,64/maxf(pixels_per_unit.x,.001)),maxf(60,64/maxf(pixels_per_unit.y,.001)))
+ pause_button.position=Vector2(1250-pause_button.size.x,15)
 func button(text: String, pos: Vector2, size: Vector2) -> Button:
  var b = Button.new()
  b.text = text
