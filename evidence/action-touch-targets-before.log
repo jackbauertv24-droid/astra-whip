@@ -1,0 +1,47 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL action touch targets: 64CSS target left [(852, 393), 1.0] got (63.25625, 56.76667)
+FAIL action touch targets: 16CSS label left
+FAIL action touch targets: 64CSS target right [(852, 393), 1.0] got (63.25625, 56.76667)
+FAIL action touch targets: 16CSS label right
+FAIL action touch targets: 64CSS target crouch [(852, 393), 1.0] got (63.25625, 56.76667)
+FAIL action touch targets: 16CSS label crouch
+FAIL action touch targets: 64CSS target jump [(852, 393), 1.0] got (63.25625, 56.76667)
+FAIL action touch targets: 16CSS label jump
+FAIL action touch targets: 64CSS target whip [(852, 393), 1.0] got (63.25625, 56.76667)
+FAIL action touch targets: 16CSS label whip
+FAIL action touch targets: pause label reads at16CSS pixels
+FAIL action touch targets: 64CSS target left [(667, 375), 1.0] got (60.35625, 54.16666)
+FAIL action touch targets: 16CSS label left
+FAIL action touch targets: 64CSS target right [(667, 375), 1.0] got (60.35625, 54.16666)
+FAIL action touch targets: 16CSS label right
+FAIL action touch targets: 64CSS target crouch [(667, 375), 1.0] got (60.35625, 54.16666)
+FAIL action touch targets: 16CSS label crouch
+FAIL action touch targets: 64CSS target jump [(667, 375), 1.0] got (60.35625, 54.16666)
+FAIL action touch targets: 16CSS label jump
+FAIL action touch targets: 64CSS target whip [(667, 375), 1.0] got (60.35625, 54.16666)
+FAIL action touch targets: 16CSS label whip
+FAIL action touch targets: pause label reads at16CSS pixels
+FAIL action touch targets: 64CSS target left [(568, 320), 1.0] got (51.475, 46.07778)
+FAIL action touch targets: 16CSS label left
+FAIL action touch targets: 64CSS target right [(568, 320), 1.0] got (51.475, 46.07778)
+FAIL action touch targets: 16CSS label right
+FAIL action touch targets: 64CSS target crouch [(568, 320), 1.0] got (51.475, 46.07778)
+FAIL action touch targets: 16CSS label crouch
+FAIL action touch targets: 64CSS target jump [(568, 320), 1.0] got (51.475, 46.07778)
+FAIL action touch targets: 16CSS label jump
+FAIL action touch targets: 64CSS target whip [(568, 320), 1.0] got (51.475, 46.07778)
+FAIL action touch targets: 16CSS label whip
+FAIL action touch targets: pause label reads at16CSS pixels
+FAIL action touch targets: 64CSS target left [(1704, 786), 2.0] got (63.30156, 56.76667)
+FAIL action touch targets: 16CSS label left
+FAIL action touch targets: 64CSS target right [(1704, 786), 2.0] got (63.30156, 56.76667)
+FAIL action touch targets: 16CSS label right
+FAIL action touch targets: 64CSS target crouch [(1704, 786), 2.0] got (63.30156, 56.76667)
+FAIL action touch targets: 16CSS label crouch
+FAIL action touch targets: 64CSS target jump [(1704, 786), 2.0] got (63.30156, 56.76667)
+FAIL action touch targets: 16CSS label jump
+FAIL action touch targets: 64CSS target whip [(1704, 786), 2.0] got (63.30156, 56.76667)
+FAIL action touch targets: 16CSS label whip
+FAIL action touch targets: pause label reads at16CSS pixels
+RESULT action touch targets: 180 checks, 44 failures

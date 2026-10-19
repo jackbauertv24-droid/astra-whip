@@ -1,4 +1,6 @@
 extends Node2D
+const TOUCH_TARGET_CSS=64.0
+const TOUCH_BASE_SIZE=Vector2(116,104)
 var hero: Hunter
 var surfaces: Array = []
 var foes: Array = []
@@ -261,7 +263,7 @@ func build_ui() -> void:
   slider.value_changed.connect(func(value): AudioServer.set_bus_volume_db(bus,linear_to_db(maxf(value,0.001))))
   menu.add_child(slider)
  for entry in [["left","LEFT",Vector2(24,590)],["right","RIGHT",Vector2(154,590)],["crouch","CROUCH",Vector2(840,590)],["jump","JUMP",Vector2(975,540)],["whip","WHIP",Vector2(1110,590)]]:
-  var b = button(entry[1],entry[2],Vector2(116,104))
+  var b = button(entry[1],entry[2],TOUCH_BASE_SIZE)
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
   touch_button_origins[entry[0]]=entry[2]
@@ -280,6 +282,7 @@ func build_ui() -> void:
  rotate_prompt.autowrap_mode=TextServer.AUTOWRAP_OFF
  rotate_prompt.mouse_filter=Control.MOUSE_FILTER_IGNORE
  hud.add_child(rotate_prompt)
+ hud.move_child(pause_button,hud.get_child_count()-1)
  get_viewport().size_changed.connect(update_ui_layout)
  update_ui_layout()
 func update_ui_layout() -> void:
@@ -310,16 +313,28 @@ func layout_ui_for_insets(insets: Vector4,density: float) -> void:
  rotate_prompt.position=ui_safe_rect.position+Vector2(80,0)
  rotate_prompt.size=Vector2(ui_safe_rect.size.x-160,ui_safe_rect.size.y)
  update_orientation_ui()
+func button_label_width(control: Button,font_size: int,text: String) -> float:
+ return control.get_theme_font("font").get_string_size(text,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x+control.get_theme_stylebox("normal").get_minimum_size().x
 func update_touch_targets() -> void:
  var scale=ui_units_to_css_pixels()
- var left_shift=maxf(0,ui_safe_rect.position.x+8/scale.x-24)
- var right_shift=minf(0,ui_safe_rect.end.x-8/scale.x-1226)
+ var font_size=ceili(16/scale.y)
+ var target_size=Vector2(maxf(TOUCH_BASE_SIZE.x,TOUCH_TARGET_CSS/scale.x),maxf(TOUCH_BASE_SIZE.y,TOUCH_TARGET_CSS/scale.y))
+ for control in touch_buttons.values():
+  control.add_theme_font_size_override("font_size",font_size)
+  target_size.x=maxf(target_size.x,button_label_width(control,font_size,control.text))
+ var left_gap=maxf(touch_button_origins.right.x-touch_button_origins.left.x-TOUCH_BASE_SIZE.x,8/scale.x)
+ var right_gap=maxf(touch_button_origins.whip.x-touch_button_origins.jump.x-TOUCH_BASE_SIZE.x,8/scale.x)
+ var left=maxf(touch_button_origins.left.x,ui_safe_rect.position.x+8/scale.x)
+ var right=minf(touch_button_origins.whip.x+TOUCH_BASE_SIZE.x,ui_safe_rect.end.x-8/scale.x)
+ var floor_y=clampf(touch_button_origins.whip.y,ui_safe_rect.position.y+8/scale.y,ui_safe_rect.end.y-8/scale.y-target_size.y)
+ # Use a shared baseline for all five gameplay controls.
+ var jump_y=floor_y
+ var positions={"left":Vector2(left,floor_y),"right":Vector2(left+target_size.x+left_gap,floor_y),"whip":Vector2(right-target_size.x,floor_y),"jump":Vector2(right-target_size.x*2-right_gap,jump_y),"crouch":Vector2(right-target_size.x*3-right_gap*2,floor_y)}
  for action in touch_buttons:
   var control=touch_buttons[action]
-  var button_position: Vector2=touch_button_origins[action]
-  button_position.x+=left_shift if action in ["left","right"] else right_shift
-  button_position.y=clampf(button_position.y,ui_safe_rect.position.y+8/scale.y,ui_safe_rect.end.y-8/scale.y-control.size.y)
-  control.position=button_position
+  control.custom_minimum_size=target_size
+  control.set_deferred("size",target_size)
+  control.position=positions[action]
 func update_menu_targets() -> void:
  var scale=ui_units_to_css_pixels()
  var label_index=0
@@ -330,7 +345,7 @@ func update_menu_targets() -> void:
    label_index+=1
   elif control is BaseButton or control is Range:
    control.mouse_filter=Control.MOUSE_FILTER_PASS
-   control.custom_minimum_size.y=64/scale.y
+   control.custom_minimum_size.y=TOUCH_TARGET_CSS/scale.y
    if control is BaseButton: control.add_theme_font_size_override("font_size",ceili(16/scale.y))
  var margin=Vector2(16,16)/scale
  var panel_size=Vector2(minf(480/scale.x,ui_safe_rect.size.x-margin.x*2),minf(485/scale.y,ui_safe_rect.size.y-margin.y*2))
@@ -344,9 +359,13 @@ func update_menu_targets() -> void:
 func ui_units_to_css_pixels() -> Vector2:
  return get_viewport().get_stretch_transform().get_scale().abs()/ui_backing_ratio
 func update_pause_target() -> void:
- var pixels_per_unit=ui_units_to_css_pixels()
- pause_button.size=Vector2(maxf(130,64/maxf(pixels_per_unit.x,.001)),maxf(60,64/maxf(pixels_per_unit.y,.001)))
- pause_button.position=Vector2(minf(1250-pause_button.size.x,ui_safe_rect.end.x-8/pixels_per_unit.x-pause_button.size.x),maxf(15,ui_safe_rect.position.y+8/pixels_per_unit.y))
+ var scale=ui_units_to_css_pixels()
+ var font_size=ceili(16/scale.y)
+ pause_button.add_theme_font_size_override("font_size",font_size)
+ var size=Vector2(maxf(130,TOUCH_TARGET_CSS/maxf(scale.x,.001)),maxf(60,TOUCH_TARGET_CSS/maxf(scale.y,.001)))
+ for text in ["RESUME","PAUSED","PAUSE"]: size.x=maxf(size.x,button_label_width(pause_button,font_size,text))
+ pause_button.set_deferred("size",size)
+ pause_button.position=Vector2(minf(1250-size.x,ui_safe_rect.end.x-8/scale.x-size.x),maxf(15,ui_safe_rect.position.y+8/scale.y))
 func button(text: String, pos: Vector2, size: Vector2) -> Button:
  var b = Button.new()
  b.text = text
