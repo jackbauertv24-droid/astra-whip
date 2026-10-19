@@ -1,0 +1,42 @@
+{
+  "physical_device": false,
+  "device_scale_factor": 2,
+  "requested_insets": {
+    "left": 44,
+    "top": 0,
+    "right": 44,
+    "bottom": 21
+  },
+  "whip_upper_edge_touch_css": [
+    712,
+    311
+  ],
+  "unsafe_bands_are_test_overlay": true,
+  "metrics": {
+    "safe_insets_css": [
+      44,
+      0,
+      44,
+      21
+    ],
+    "viewport_tags": 1,
+    "viewport_content": "width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover",
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 852,
+      "height": 393,
+      "backing": [
+        1704,
+        786
+      ]
+    },
+    "body_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ]
+  },
+  "errors": []
+}

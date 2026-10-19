@@ -1,0 +1,8 @@
+{
+  "source": "Godot4.7.2-stable installed web_release.zip/godot.html",
+  "original_sha256": "3a5f265e788646513c32494fc0faead64c6b7f92ef005bf475da0c622bd481f4",
+  "changes": [
+    "single viewport declaration includes viewport-fit=cover",
+    "Abyss Violet body background; safe area handled by Godot UI rather than body padding"
+  ]
+}

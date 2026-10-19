@@ -1,0 +1,47 @@
+{
+  "physical_device": false,
+  "device_scale_factor": 2,
+  "requested_insets": {
+    "left": 100,
+    "top": 24,
+    "right": 100,
+    "bottom": 32
+  },
+  "whip_upper_edge_touch_css": [
+    712,
+    300
+  ],
+  "unsafe_bands_are_test_overlay": true,
+  "metrics": {
+    "safe_insets_css": [
+      100,
+      24,
+      100,
+      32
+    ],
+    "viewport_tags": 1,
+    "viewport_content": "width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover",
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 852,
+      "height": 393,
+      "backing": [
+        1704,
+        786
+      ]
+    },
+    "body_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ]
+  },
+  "errors": [],
+  "logs": [
+    "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+    "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support."
+  ]
+}

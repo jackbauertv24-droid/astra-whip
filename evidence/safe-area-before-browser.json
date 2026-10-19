@@ -1,0 +1,23 @@
+{
+  "window": [
+    852,
+    393
+  ],
+  "density": 2,
+  "canvas": {
+    "x": 0,
+    "y": 0,
+    "width": 852,
+    "height": 393,
+    "backing": [
+      1704,
+      786
+    ]
+  },
+  "body_padding": [
+    "24px",
+    "100px",
+    "32px",
+    "100px"
+  ]
+}

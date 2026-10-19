@@ -1,0 +1,18 @@
+{
+  "files": [
+    "evidence/safe-area-browser-wide-whip-f0.png",
+    "evidence/safe-area-browser-wide-whip-f1.png",
+    "evidence/safe-area-browser-wide-whip-f2.png",
+    "evidence/safe-area-browser-wide-whip-f3.png",
+    "evidence/safe-area-browser-wide-whip-f4.png",
+    "evidence/safe-area-browser-wide-whip-f5.png"
+  ],
+  "source_rect": [
+    250,
+    400,
+    350,
+    240
+  ],
+  "scale": 1,
+  "timing": "sequential screenshots;60ms requested wall wait between,not gameplay-clock timings"
+}

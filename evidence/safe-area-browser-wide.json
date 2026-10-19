@@ -1,0 +1,55 @@
+{
+  "physical_device": false,
+  "device_scale_factor": 2,
+  "requested_insets": {
+    "left": 100,
+    "top": 24,
+    "right": 100,
+    "bottom": 32
+  },
+  "whip_upper_edge_touch_css": [
+    712,
+    300
+  ],
+  "unsafe_bands_are_test_overlay": true,
+  "metrics": {
+    "safe_insets_css": [
+      100,
+      24,
+      100,
+      32
+    ],
+    "viewport_tags": 1,
+    "viewport_content": "width=device-width, user-scalable=no, initial-scale=1.0, viewport-fit=cover",
+    "canvas": {
+      "x": 0,
+      "y": 0,
+      "width": 852,
+      "height": 393,
+      "backing": [
+        1704,
+        786
+      ]
+    },
+    "body_padding": [
+      "0px",
+      "0px",
+      "0px",
+      "0px"
+    ]
+  },
+  "errors": [],
+  "logs": [
+    "Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org",
+    "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "SAFE_TOUCH (1185.626, 128.2443) down=true paused=true whip=[P: (1106.276, 542.7176), S: (116.0, 104.0)] held={  } edges={  } state=idle attack=-1.0 history={  } ticks=8367",
+    "SAFE_AFTER {  } edges={  }",
+    "SAFE_TOUCH (1185.626, 128.2443) down=false paused=false whip=[P: (1106.276, 542.7176), S: (116.0, 104.0)] held={  } edges={  } state=idle attack=-1.0 history={  } ticks=8655",
+    "SAFE_AFTER {  } edges={  }",
+    "SAFE_TOUCH (1163.636, 549.6183) down=true paused=false whip=[P: (1106.276, 542.7176), S: (116.0, 104.0)] held={  } edges={  } state=idle attack=-1.0 history={ \"jump_apex\": true, \"land\": true, \"idle\": true } ticks=12374",
+    "SAFE_AFTER { \"touch0:whip\": \"whip\" } edges={ \"whip\": true }",
+    "SAFE_TOUCH (1163.636, 549.6183) down=false paused=false whip=[P: (1106.276, 542.7176), S: (116.0, 104.0)] held={ \"touch0:whip\": \"whip\" } edges={  } state=attack_ground attack=0.19166666666667 history={ \"jump_apex\": true, \"land\": true, \"idle\": true, \"attack_ground\": true } ticks=12753",
+    "SAFE_AFTER {  } edges={  }"
+  ]
+}

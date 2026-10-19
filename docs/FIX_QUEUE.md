@@ -17,7 +17,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 11 | Boss supported action clips | PARTIAL: idle+walk+hurt+turn+strike cycle40/70mandatory frames independent PASS, plus9supplemental recovery-hurt frames; hazard3clips and death remain previews |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | Not completed |
-| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Basic touch controls; further validation pending |
+| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; playfield thumb clearance,timed reels and device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.
@@ -33,3 +33,5 @@ Portrait follow-up: actual-window orientation detection, rotate prompt, cleared 
 Density follow-up: UI scaling now uses CSS pixels rather than backing pixels; real device-scale2/3 lower-edge touch passes after failing before. Rotate startup box and high-density text centering pass9engine checks and image-based242→6.5px offset check. Other menu/safe-area/device gates remain pending. See evidence/pause-density-fix.md.
 
 Menu follow-up:64CSS-pixel buttons/toggle/sliders,readable labels and bounded touch-scroll menu pass60engine checks and density1/2actual swipe/adjust/resume browser captures. Safe-area,painted inventory and device gates remain pending. See evidence/menu-touch-targets-fix.md.
+
+Safe-area follow-up:actual CSS insets and letterboxing/density projection now constrain HUD,pause,menu and grouped actions.150checks and two browser inset profiles pass; final shell has one viewport tag. Phone playfield clearance and painted UI/device gates remain pending. See evidence/safe-area-fix.md.

@@ -31,6 +31,9 @@ var gates: Array = []
 var effigy = true
 var reduced_effects = false
 var touch_buttons: Dictionary = {}
+var touch_button_origins: Dictionary = {}
+var ui_backing_ratio=1.0
+var ui_safe_rect=Rect2(0,0,1280,720)
 var backdrop: Texture2D = preload("res://assets/style/background.png")
 var masonry: Texture2D = preload("res://assets/style/terrain.png")
 func load_projectile_art() -> void:
@@ -261,6 +264,7 @@ func build_ui() -> void:
   var b = button(entry[1],entry[2],Vector2(116,104))
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
+  touch_button_origins[entry[0]]=entry[2]
  # Keep pause/resume usable after the game viewport is downscaled on phones.
  rotate_back=Panel.new()
  rotate_back.mouse_filter=Control.MOUSE_FILTER_IGNORE
@@ -279,15 +283,43 @@ func build_ui() -> void:
  get_viewport().size_changed.connect(update_ui_layout)
  update_ui_layout()
 func update_ui_layout() -> void:
+ var insets=Vector4.ZERO
+ var density=1.0
+ if OS.has_feature("web"):
+  var raw=JavaScriptBridge.eval("""(function(){var e=document.createElement('div');e.style.cssText='position:fixed;visibility:hidden;pointer-events:none;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)';document.body.appendChild(e);var s=getComputedStyle(e),v=[parseFloat(s.paddingLeft)||0,parseFloat(s.paddingTop)||0,parseFloat(s.paddingRight)||0,parseFloat(s.paddingBottom)||0];e.remove();var c=document.getElementById('canvas'),r=c.getBoundingClientRect();return JSON.stringify({insets:[Math.max(0,v[0]-r.left),Math.max(0,v[1]-r.top),Math.max(0,v[2]-(innerWidth-r.right)),Math.max(0,v[3]-(innerHeight-r.bottom))],density:r.width&&r.height?Math.max(c.width/r.width,c.height/r.height):1});})()""")
+  if raw!=null:
+   var data=JSON.parse_string(str(raw))
+   if data is Dictionary:
+    insets=Vector4(data.insets[0],data.insets[1],data.insets[2],data.insets[3])
+    density=float(data.density)
+ layout_ui_for_insets(insets,density)
+func layout_ui_for_insets(insets: Vector4,density: float) -> void:
+ ui_backing_ratio=maxf(density,.001)
+ var view=get_viewport_rect()
+ var inverse=get_viewport().get_final_transform().affine_inverse()
+ var first=inverse*(Vector2(insets.x,insets.y)*ui_backing_ratio)
+ var last=inverse*(Vector2(get_window().size)-Vector2(insets.z,insets.w)*ui_backing_ratio)
+ ui_safe_rect=Rect2(first,last-first).intersection(view)
  update_pause_target()
  update_menu_targets()
- var view=get_viewport_rect().size
- rotate_back.size=view
- var scale_y=ui_units_to_css_pixels().y
- rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale_y,.001))))
- rotate_prompt.position=Vector2(80,0)
- rotate_prompt.size=Vector2(view.x-160,view.y)
+ update_touch_targets()
+ var scale=ui_units_to_css_pixels()
+ status.position=Vector2(maxf(30,ui_safe_rect.position.x+8/scale.x),maxf(22,ui_safe_rect.position.y+8/scale.y))
+ rotate_back.size=view.size
+ rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale.y,.001))))
+ rotate_prompt.position=ui_safe_rect.position+Vector2(80,0)
+ rotate_prompt.size=Vector2(ui_safe_rect.size.x-160,ui_safe_rect.size.y)
  update_orientation_ui()
+func update_touch_targets() -> void:
+ var scale=ui_units_to_css_pixels()
+ var left_shift=maxf(0,ui_safe_rect.position.x+8/scale.x-24)
+ var right_shift=minf(0,ui_safe_rect.end.x-8/scale.x-1226)
+ for action in touch_buttons:
+  var control=touch_buttons[action]
+  var button_position: Vector2=touch_button_origins[action]
+  button_position.x+=left_shift if action in ["left","right"] else right_shift
+  button_position.y=clampf(button_position.y,ui_safe_rect.position.y+8/scale.y,ui_safe_rect.end.y-8/scale.y-control.size.y)
+  control.position=button_position
 func update_menu_targets() -> void:
  var scale=ui_units_to_css_pixels()
  var label_index=0
@@ -300,10 +332,9 @@ func update_menu_targets() -> void:
    control.mouse_filter=Control.MOUSE_FILTER_PASS
    control.custom_minimum_size.y=64/scale.y
    if control is BaseButton: control.add_theme_font_size_override("font_size",ceili(16/scale.y))
- var view=get_viewport_rect().size
  var margin=Vector2(16,16)/scale
- var panel_size=Vector2(minf(480/scale.x,view.x-margin.x*2),minf(485/scale.y,view.y-margin.y*2))
- menu_back.position=(view-panel_size)*.5
+ var panel_size=Vector2(minf(480/scale.x,ui_safe_rect.size.x-margin.x*2),minf(485/scale.y,ui_safe_rect.size.y-margin.y*2))
+ menu_back.position=ui_safe_rect.position+(ui_safe_rect.size-panel_size)*.5
  menu_back.size=panel_size
  menu_scroll.position=menu_back.position+margin
  # Theme changes invalidate cached minimum widths; size after they settle.
@@ -311,16 +342,11 @@ func update_menu_targets() -> void:
  menu.add_theme_constant_override("separation",ceili(8/scale.y))
  menu_scroll.scroll_deadzone=ceili(8/scale.y)
 func ui_units_to_css_pixels() -> Vector2:
- var scale=get_viewport().get_stretch_transform().get_scale().abs()
- if OS.has_feature("web"):
-  # The backing canvas grows with device density; touch targets use CSS pixels.
-  var ratio=JavaScriptBridge.eval("(function(){var c=document.getElementById('canvas');if(!c)return 1;var r=c.getBoundingClientRect();return r.width&&r.height?Math.max(c.width/r.width,c.height/r.height):1;})()")
-  if ratio!=null: scale/=maxf(float(ratio),.001)
- return scale
+ return get_viewport().get_stretch_transform().get_scale().abs()/ui_backing_ratio
 func update_pause_target() -> void:
  var pixels_per_unit=ui_units_to_css_pixels()
  pause_button.size=Vector2(maxf(130,64/maxf(pixels_per_unit.x,.001)),maxf(60,64/maxf(pixels_per_unit.y,.001)))
- pause_button.position=Vector2(1250-pause_button.size.x,15)
+ pause_button.position=Vector2(minf(1250-pause_button.size.x,ui_safe_rect.end.x-8/pixels_per_unit.x-pause_button.size.x),maxf(15,ui_safe_rect.position.y+8/pixels_per_unit.y))
 func button(text: String, pos: Vector2, size: Vector2) -> Button:
  var b = Button.new()
  b.text = text

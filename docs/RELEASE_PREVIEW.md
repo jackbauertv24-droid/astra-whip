@@ -139,3 +139,7 @@ Pause targets and rotate typography now account for the backing-to-CSS canvas ra
 ## Follow-up fix: reachable phone menu targets
 
 Menu controls retain64CSS-pixel heights and readable labels inside a bounded vertical scroll area. Pointer events reach the scroller,so real touch swipes expose both volume controls without activating buttons. Expanded60check GUI regression,full gameplay/tools/export and isolated density1/2browser runs pass. Physical-device,safe-area and painted inventory gates remain pending. See evidence/menu-touch-targets-fix.md.
+
+## Follow-up fix: web safe-area layout
+
+HUD,pause,menu and grouped touch controls now stay inside reported safe-area bounds after density/letterbox conversion. A single-viewport custom shell replaces ineffective body padding. Expanded150check regression,full gameplay/tools/export and browser inset emulation pass. Logging-only evidence verifies relocated whip input; final release has no probe logging. Physical devices,thumb-clear playfield framing and painted inventory remain pending. See evidence/safe-area-fix.md.

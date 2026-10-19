@@ -1,0 +1,13 @@
+{
+  "source": "safe-area-browser-wide.json",
+  "instrumented": true,
+  "temporary_logging_only": true,
+  "actual_touch_css": [
+    712,
+    300
+  ],
+  "attack_clock_seconds": 0.19166666666667,
+  "within_live_whip_window": true,
+  "physical_device": false,
+  "touch_release_observed_state": "attack_ground"
+}

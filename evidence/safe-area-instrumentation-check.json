@@ -1,0 +1,6 @@
+{
+  "logging_only": true,
+  "release_source_sha256": "95f6d34e61e7439392f5959cbe31dd93dcc8a3775d422fc809f67aa88c284370",
+  "instrumented_source_sha256": "9c9feb017b2b7fd97811738c9488df842fbb03084f6a9e94a515d3de54ff6a1d",
+  "release_source_has_probe_logging": false
+}
