@@ -1,0 +1,15 @@
+{
+  "actor": "boss",
+  "clip": "boss_hurt",
+  "frames": 3,
+  "review": "art/review-boss-hurt-r01/review_verdict.md",
+  "captures": [
+    "evidence/boss-hurt-native/capture.json",
+    "evidence/boss-hurt-phone/capture.json"
+  ],
+  "all_frames_both_facings_native_and_phone": true,
+  "actual_nonlethal_whip_and_separate_live_strike_fixture": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "remaining_boss_clips_unapproved": 8
+}

@@ -1,0 +1,128 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "duration": 0.208333333333333,
+   "first_whip_hp": 7,
+   "live_strike_fixture_explicit": true,
+   "live_strike_state": "strike_execute",
+   "live_strike_whip_hp": 6,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "hurt-right-f00.png",
+     "frame": 0,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.075,
+     "file": "hurt-right-f01.png",
+     "frame": 1,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.141666666666667,
+     "file": "hurt-right-f02.png",
+     "frame": 2,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "walk-right-f00.png",
+     "frame": 0,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "walk"
+    }
+   ],
+   "strike_art_approved": false
+  },
+  {
+   "direction": -1,
+   "duration": 0.208333333333333,
+   "first_whip_hp": 7,
+   "live_strike_fixture_explicit": true,
+   "live_strike_state": "strike_execute",
+   "live_strike_whip_hp": 6,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "elapsed": 0,
+     "file": "hurt-left-f00.png",
+     "frame": 0,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.075,
+     "file": "hurt-left-f01.png",
+     "frame": 1,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0.141666666666667,
+     "file": "hurt-left-f02.png",
+     "frame": 2,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "hurt"
+    },
+    {
+     "elapsed": 0,
+     "file": "walk-left-f00.png",
+     "frame": 0,
+     "hp": 7,
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "projectiles": 0,
+     "state": "walk"
+    }
+   ],
+   "strike_art_approved": false
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

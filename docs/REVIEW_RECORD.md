@@ -306,3 +306,7 @@ Fresh `/root/boss_walk_review_r01` saved and reread blind lineup/strip observati
 ## Boss waiting idle — 2026-10-16
 
 Fresh `/root/boss_idle_review_r01` saved/reread blind lineup and both strip descriptions before intent, then inspected16native frames/onions, five style references and all40actual captures. `boss_idle`: PASS; `boss_walk`: PASS as scoped support/handoff reference. No failing frames or audit defects/flags. Full verdict: `art/review-boss-idle-r01/review_verdict.md`. Grounded1s breathing loop and activation→walk pass. Phone PNGs are698×393 despite852×393viewport metadata: readability approved only at actual image size; exact output-width/device validation remains pending. D23 debt remains; nine other boss clips unapproved.
+
+## Boss brief hurt — 2026-10-19
+
+Fresh `/root/boss_hurt_review_r02` saved/reread blind lineup/strip observations before intent, then inspected19native tiles/onions, five style references and all20actual captures. `boss_hurt`: PASS; idle/walk reference compatibility PASS. Zero audit defects/flags. Full verdict: `art/review-boss-hurt-r01/review_verdict.md`. Three70/70/60ms grounded recoil frames,exact neutral finish,bothfaces and actual698×393phone-pixel read pass. Actual whip8HP→7HP/200ms walk return and separate explicit strike fixture6HP/noninterruption pass; strike art not approved. Phone width metadata limitation,D23 debt and eight other boss clips remain pending.

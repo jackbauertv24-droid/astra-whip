@@ -1,0 +1,31 @@
+# Independent boss hurt review
+
+Reviewer: fresh delegated agent /root/boss_hurt_review_r02. Scope: boss_hurt, with boss_idle and boss_walk as identity, size, entry and exit references. No art or code changed. Blind observations were written to blind_observations.md and read back before opening contracts, intended poses, audit or derivation records. No previous review verdict was read.
+
+Inspected lineup and all three strips first; then all 19 native frame PNGs, all three onions (including idle and walk loop seams), ART_CONTRACT including §9 and §11, ART_BIBLE including boss and style rules, ASSET_BRIEFS §7, machine boss actor/clip contract, pack clip/derivation records and scoped audit. Opened all five images named by style-lock.json. Opened every PNG in both evidence/boss-hurt-native and evidence/boss-hurt-phone (ten each), and both capture.json records. A Node RGBA alpha-over-checker composite of idle0 and all hurt frames was also inspected; RGB was multiplied by actual alpha, rather than replacing transparent RGB or inferring transparency from the image viewer's black background.
+
+## Per-clip findings
+
+boss_hurt — PASS, frames 0–2. Full crowned head, neck, shoulder armor, chest/hip junction, two arms with connected hands, two plated legs and separate boots remain present. The shroud does not substitute for the lower anatomy. The oversized hanging gauntlet, layered corroded armor, crown and olive torn shroud remain the same character throughout. No clipped extremity, detached limb, duplicate fist, opaque rectangle or distracting edge fringe appears. Source faces right and mirrored runtime anatomy is plausible.
+
+The upper body is displaced away from the forward/right-facing target on frame0, releases halfway on frame1, and restores neutral on frame2. This is a small immediate recoil followed by release, rather than a new anticipation then impact. The head, shoulders and arms move together around the upper hip region; legs and soles remain registered. The onions show narrow continuous upper silhouette offsets and coincident lower support, without torso/leg disconnect or shrinking. Frame2 is byte-identical to idle frame0 (independently checked), so the outgoing walk frame0/idle neutral handoff restores the existing construction exactly. The initial recoil is a deliberate hit snap; the subsequent two steps release it without a new body pose pop.
+
+boss_idle — PASS as reference within this review. All eight tiles retain complete anatomy and grounded boots. Local breathing remains restrained, costume details stay fixed and the 7→0 onion seam has only a small upper-body offset. Its scale and neutral support match hurt's endpoint. This does not reauthorize unrelated boss actions.
+
+boss_walk — PASS as reference and hurt exit within this review. All eight tiles preserve the same upper-body identity while alternating plated leg support and swing. Crossing cloth partly occludes the legs, but the knees, shins and boots remain intelligible. The 7→0 onion seam completes the alternating step rather than swapping identity or scale. The supplied runtime evidence shows outgoing frame0 only; this review does not claim a new complete locomotion travel/contact test.
+
+## Style, size and runtime
+
+Painted soft-edged material handling, upper-left armor highlights, restrained olive decay and cold metal agree with the five style-lock images. Boss is taller and heavier than the hunter and retains the specified asymmetrical striking arm. No gore, bright decorative signal or visible pixel-art treatment appears. Scoped audit reports zero defects and zero flags across these three clips. Hurt measurements are heights354/353/352px, S203.558/203.426/202.598, head widths51/52/53px and foot row512 in each frame: small acting variation consistent with the native visual comparison, without normalization shrink. The actual clip contract is three nonlooping samples70/70/60ms totaling200ms; no looping hurt seam is required.
+
+Both facing sequences were inspected at the actual supplied phone image pixels as well as native1280×720. Crown, shoulders, large gauntlet and both grounded boots remain distinguishable against the tree/stone scene. Recoil is subtle at phone scale but discernible in the upper head/shoulder silhouette compared with before-idle and the restored frame2; it fits the explicitly small brief flinch. It does not read as a step, fall or size change. The larger native captures confirm connected upper-body release where phone detail is compressed.
+
+Both capture records report production start8HP, first real whip7HP, all three hurt frames at elapsed0/75/141.667ms, no spawned projectiles, unchanged root(6240,560), and outgoing walk. Observed sampled state duration208.333ms is within one 120Hz simulation sample of the200ms contract. This quantization is not extra animation duration. The separate explicitly staged live-strike fixture records damage to6HP while state remains strike_execute, supporting noninterruption. These are supplied harness records and screenshots, not an independently replayed interactive session or physical-device test; HP and separate strike fixture are established by the records, not visible HUD evidence in the screenshots.
+
+## Evidence limits and scope
+
+Phone capture.json labels viewport(852,393), but actual PNG files are698×393. Therefore phone readability above is evaluated at698×393 actual pixels; the metadata does not prove an852px-wide rendered capture. physical_device is false in both records. Static images/onions plus durations support the short recoil assessment, but do not substitute for a continuous recorded movie or touch-device test. Audit metrics are guardrails and were not treated as anatomy approval.
+
+The declared D23 scripted fallback uses bounded upper-body4°/2° articulation from neutral and exact source reuse at the endpoint. That method is permitted and this instance reads as the intended action; scripted animation quality debt remains. Approval covers only boss_hurt and the supplied idle/walk reference compatibility. It does not approve boss strike art, turn, wind-up, hazard, recover, death, or full boss production readiness. The staged live-strike rule fixture grants no visual approval to strike_execute.
+
+REVIEW: PASS

@@ -1,0 +1,27 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "tools/prepare-boss-hurt.mjs"
+  ],
+  "method": "Small connected4° upper-body recoil easing through hips to fixed legs/soles,2° release and exact neutral endpoint. No global scaling or actor recentering.",
+  "reason": "D23 continuation from approved boss construction after retained generated sheet failed scale/registration; brief local hurt must pass fresh action/runtime review. Scripted motion remains quality debt.",
+  "records": [
+    {
+      "frame": 0,
+      "upper_recoil_degrees": -4,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 349
+    },
+    {
+      "frame": 1,
+      "upper_recoil_degrees": -2,
+      "removed_alpha_at_most": 4,
+      "removed_low_alpha_pixels": 325
+    },
+    {
+      "frame": 2,
+      "reuse": "art/frames/boss_idle/f000.png"
+    }
+  ]
+}

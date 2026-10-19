@@ -1,0 +1,9 @@
+# Boss brief hurt response
+
+Scope: boss_hurt, three70/70/60ms frames (200ms). D23 local4° upper recoil,2° release and exact approved idle neutral endpoint preserve supported lower legs and soles. Connected upper-body motion eases out through the hips; no global scale or actor recentering. The earlier generated boss sheet failed scale/registration and remains retained. Local scripted motion remains quality debt.
+
+Actual player whip damages production8HP→7HP and enters hurt, shows all three frames with fixed root, then returns to walk. Both facings and native/phone captures include before-idle,threehurtframes,outgoingwalk:20PNGs total. A second explicit fixture starts strike_execute once another real player whip becomes live, then confirms damage to6HP without interrupting the strike. This isolates the noninterrupt rule; it is not a natural whole-encounter/tell sequence or strike-art approval. Earlier fixture source with the strike clock held during startup remains retained; current fixture starts the strike only at the live hit.
+
+Automated scoped art audit has zero defects/flags. Contract,25defect art-tool fixtures,1213gameplay assertions and focused pivot/swooper/projectile/boss-wait regressions pass, as do native/phone capture and Web export. Browser smoke covers boot/start/pause; native captures provide action evidence. Physical iPhone/player tests remain unperformed. Phone captures are actual698×393images despite852×393viewport metadata; exact-width validation remains pending.
+
+Fresh independent scoped PASS: `art/review-boss-hurt-r01/review_verdict.md` by `/root/boss_hurt_review_r02`. All19native tiles and20runtime PNGs inspected; idle/walk compatibility passes. Recoil is deliberately subtle at phone scale. No strike-art or release-wide approval. Exact runtime/capture inventory: `evidence/boss-hurt-inventory.json`. Browser smoke reports zero errors.
