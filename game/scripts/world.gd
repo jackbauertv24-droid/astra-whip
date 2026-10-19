@@ -150,6 +150,9 @@ func update_orientation_ui() -> void:
  pause_button.text="PAUSED" if portrait else ("RESUME" if paused else "PAUSE")
 func _notification(what: int) -> void:
  if what == NOTIFICATION_APPLICATION_FOCUS_OUT and is_instance_valid(hero): set_pause(true)
+func _process(_dt: float) -> void:
+ for action in touch_buttons:
+  touch_buttons[action].set_pressed_no_signal(not paused and not complete and hero.controls.is_held(action))
 func _physics_process(dt: float) -> void:
  if testing: return
  if is_portrait() and not paused: set_pause(true)
@@ -264,6 +267,7 @@ func build_ui() -> void:
   menu.add_child(slider)
  for entry in [["left","LEFT",Vector2(24,590)],["right","RIGHT",Vector2(154,590)],["crouch","CROUCH",Vector2(840,590)],["jump","JUMP",Vector2(975,540)],["whip","WHIP",Vector2(1110,590)]]:
   var b = button(entry[1],entry[2],TOUCH_BASE_SIZE)
+  b.toggle_mode = true
   b.mouse_filter = Control.MOUSE_FILTER_IGNORE
   touch_buttons[entry[0]] = b
   touch_button_origins[entry[0]]=entry[2]
