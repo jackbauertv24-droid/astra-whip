@@ -1,0 +1,16 @@
+{
+  "fixture": "evidence/pause-density-portrait-3.png",
+  "image_size": [
+    1179,
+    2556
+  ],
+  "prompt_ink_y": [
+    1212,
+    1357
+  ],
+  "ink_pixels": 14209,
+  "center_offset_backing_px": 6.5,
+  "maximum_offset_px": 30,
+  "pass": true,
+  "physical_device": false
+}

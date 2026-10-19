@@ -1,0 +1,16 @@
+{
+  "fixture": "evidence/pause-density-before-centering-portrait-3.png",
+  "image_size": [
+    1179,
+    2556
+  ],
+  "prompt_ink_y": [
+    1447,
+    1593
+  ],
+  "ink_pixels": 14220,
+  "center_offset_backing_px": 242,
+  "maximum_offset_px": 30,
+  "pass": false,
+  "physical_device": false
+}

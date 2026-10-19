@@ -1,0 +1,9 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL portrait prompt layout: startup text box fits (1280, 720) got [P: (80.0, 0.0), S: (1120.0, 1215.0)]
+FAIL portrait prompt layout: startup text box centered (1280, 720)
+FAIL portrait prompt layout: startup text box fits (393, 852) got [P: (80.0, 0.0), S: (1120.0, 2723.0)]
+FAIL portrait prompt layout: startup text box centered (393, 852)
+FAIL portrait prompt layout: startup text box fits (375, 667) got [P: (80.0, 0.0), S: (1120.0, 2839.0)]
+FAIL portrait prompt layout: startup text box centered (375, 667)
+RESULT portrait prompt layout: 9 checks, 6 failures

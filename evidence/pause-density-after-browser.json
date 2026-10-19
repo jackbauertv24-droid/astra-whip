@@ -1,0 +1,39 @@
+{
+  "physical_device": false,
+  "records": [
+    {
+      "devicePixelRatio": 2,
+      "backing": [
+        1704,
+        786
+      ],
+      "css": [
+        852,
+        393
+      ],
+      "touch_css": [
+        724,
+        70
+      ],
+      "screenshot_unchanged": false,
+      "errors": []
+    },
+    {
+      "devicePixelRatio": 3,
+      "backing": [
+        2556,
+        1179
+      ],
+      "css": [
+        852,
+        393
+      ],
+      "touch_css": [
+        724,
+        70
+      ],
+      "screenshot_unchanged": false,
+      "errors": []
+    }
+  ]
+}

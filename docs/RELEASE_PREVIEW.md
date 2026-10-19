@@ -131,3 +131,7 @@ Pause/resume now retains at least64×64rendered pixels after viewport scaling. F
 ## Follow-up fix: portrait pause and rotate prompt
 
 Actual window rotation now pauses gameplay,clears input and shows live rotate/pause text. Portrait cannot resume; landscape return waits for an explicit action. Regression18checks,old12failures→0; two browser portrait sizes and unchanged-after-Escape PNGs verify behavior. Gameplay/tools/export/browser pass. Painted UI inventory,safe-area and physical-device gates remain pending. See evidence/portrait-pause-fix.md.
+
+## Follow-up fix: CSS density and rotate startup layout
+
+Pause targets and rotate typography now account for the backing-to-CSS canvas ratio. Browser device scales2/3 reproduce lower-edge touch failure before and resume correctly after. The fixed two-line prompt also avoids a cached wrap-height startup overflow;9new layout checks and real high-density image centering pass. Native pause/orientation,tools/export pass. Menu/safe-area/art/device gates remain pending. See evidence/pause-density-fix.md.

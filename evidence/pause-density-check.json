@@ -1,0 +1,11 @@
+{
+  "densities": [
+    2,
+    3
+  ],
+  "same_lower_edge_touch_fails_before_and_changes_view_after": true,
+  "after_screenshots_inspected_show_resumed_gameplay": true,
+  "native_pause_checks": 16,
+  "native_portrait_checks": 18,
+  "physical_device": false
+}

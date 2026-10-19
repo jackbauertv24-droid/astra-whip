@@ -263,7 +263,7 @@ func build_ui() -> void:
  rotate_prompt.text="Rotate to landscape\nGame paused"
  rotate_prompt.horizontal_alignment=HORIZONTAL_ALIGNMENT_CENTER
  rotate_prompt.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
- rotate_prompt.autowrap_mode=TextServer.AUTOWRAP_WORD_SMART
+ rotate_prompt.autowrap_mode=TextServer.AUTOWRAP_OFF
  rotate_prompt.mouse_filter=Control.MOUSE_FILTER_IGNORE
  hud.add_child(rotate_prompt)
  get_viewport().size_changed.connect(update_ui_layout)
@@ -272,13 +272,20 @@ func update_ui_layout() -> void:
  update_pause_target()
  var view=get_viewport_rect().size
  rotate_back.size=view
- rotate_prompt.position=Vector2(80,view.y*.5-120)
- rotate_prompt.size=Vector2(view.x-160,240)
- var scale_y=get_viewport().get_stretch_transform().get_scale().y
+ var scale_y=ui_units_to_css_pixels().y
  rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale_y,.001))))
+ rotate_prompt.position=Vector2(80,0)
+ rotate_prompt.size=Vector2(view.x-160,view.y)
  update_orientation_ui()
+func ui_units_to_css_pixels() -> Vector2:
+ var scale=get_viewport().get_stretch_transform().get_scale().abs()
+ if OS.has_feature("web"):
+  # The backing canvas grows with device density; touch targets use CSS pixels.
+  var ratio=JavaScriptBridge.eval("(function(){var c=document.getElementById('canvas');if(!c)return 1;var r=c.getBoundingClientRect();return r.width&&r.height?Math.max(c.width/r.width,c.height/r.height):1;})()")
+  if ratio!=null: scale/=maxf(float(ratio),.001)
+ return scale
 func update_pause_target() -> void:
- var pixels_per_unit=get_viewport().get_stretch_transform().get_scale().abs()
+ var pixels_per_unit=ui_units_to_css_pixels()
  pause_button.size=Vector2(maxf(130,64/maxf(pixels_per_unit.x,.001)),maxf(60,64/maxf(pixels_per_unit.y,.001)))
  pause_button.position=Vector2(1250-pause_button.size.x,15)
 func button(text: String, pos: Vector2, size: Vector2) -> Button:
