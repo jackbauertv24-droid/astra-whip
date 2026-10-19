@@ -383,13 +383,18 @@ func _input(event: InputEvent) -> void:
   var mapping = {KEY_A:"left",KEY_LEFT:"left",KEY_D:"right",KEY_RIGHT:"right",KEY_SPACE:"jump",KEY_J:"whip",KEY_S:"crouch",KEY_DOWN:"crouch"}
   if mapping.has(event.keycode): hero.controls.set_action(mapping[event.keycode],event.pressed,str(event.keycode))
  if event is InputEventScreenTouch:
+  if event.canceled:
+   hero.controls.clear()
+   return
   var source = "touch"+str(event.index)
-  if not event.pressed or event.canceled:
+  if not event.pressed:
+   hero.controls.touches.erase(event.index)
    for action in touch_buttons: hero.controls.set_action(action,false,source)
   elif not paused and not complete:
+   hero.controls.touches[event.index]=true
    for action in touch_buttons:
     if touch_buttons[action].get_global_rect().has_point(event.position): hero.controls.set_action(action,true,source)
- if event is InputEventScreenDrag and not paused:
+ if event is InputEventScreenDrag and not paused and not complete and hero.controls.touches.has(event.index):
   var source = "touch"+str(event.index)
   for action in touch_buttons:
    hero.controls.set_action(action,touch_buttons[action].get_global_rect().has_point(event.position),source)

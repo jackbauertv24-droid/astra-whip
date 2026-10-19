@@ -37,3 +37,5 @@ Menu follow-up:64CSS-pixel buttons/toggle/sliders,readable labels and bounded to
 Safe-area follow-up:actual CSS insets and letterboxing/density projection now constrain HUD,pause,menu and grouped actions.150checks and two browser inset profiles pass; final shell has one viewport tag. Phone playfield clearance and painted UI/device gates remain pending. See evidence/safe-area-fix.md.
 
 Gameplay action-target follow-up: all five controls now retain64CSS-pixel targets and16CSS-pixel labels, safe bounds and gaps; compact pause corner interception fixed.190engine checks and density2 compact browser touch/capture pass. See evidence/action-touch-targets-fix.md.
+
+Touch-cancellation follow-up: canceled events clear all held sources and buffered edges, while ordinary releases preserve other fingers/keyboard.11checks,4before failures→0. See evidence/touch-cancellation-fix.md.
