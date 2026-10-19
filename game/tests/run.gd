@@ -231,6 +231,17 @@ func run() -> void:
    foe.enter(state)
    foe.visual.follow(state,0)
    check(foe.visual.animation==foe.kind+"_"+state,"enemy mapped clip "+foe.kind+"_"+state)
+ # Contextual recovery reactions are selected through the real hit handler.
+ for foe in world.foes:
+  if foe.kind!="boss": continue
+  for pair in [[.15,"stooped"],[.67,"rising"],[.82,"half_stoop"]]:
+   foe.hp=8
+   foe.enter("strike_recover")
+   foe.elapsed=pair[0]
+   foe.take_hit()
+   foe.visual.follow(foe.state,0)
+   check(foe.visual.animation=="boss_hurt_"+pair[1],"recovery hit selects context "+pair[1])
+  foe.enter("walk")
  for actor in [h]+world.foes:
   var v: ActorVisual=actor.visual
   for id in v.sprite_frames.get_animation_names():

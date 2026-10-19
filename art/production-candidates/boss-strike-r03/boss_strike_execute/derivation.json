@@ -1,0 +1,185 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "tools/prepare-boss-strike.mjs"
+  ],
+  "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bowed-torso recovery; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
+  "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains.",
+  "records": [
+    {
+      "frame": 0,
+      "source_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          240,
+          308
+        ],
+        [
+          267,
+          371
+        ],
+        [
+          271,
+          400
+        ]
+      ],
+      "target_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          265.4224950781798,
+          293.88983486667485
+        ],
+        [
+          325,
+          260
+        ],
+        [
+          339.63728116830447,
+          285.3525146681744
+        ]
+      ],
+      "reuse_neutral": false
+    },
+    {
+      "frame": 1,
+      "source_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          240,
+          308
+        ],
+        [
+          267,
+          371
+        ],
+        [
+          271,
+          400
+        ]
+      ],
+      "target_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          281.47178174740776,
+          275.7960539223535
+        ],
+        [
+          343,
+          306
+        ],
+        [
+          347,
+          335
+        ]
+      ],
+      "reuse_neutral": false
+    },
+    {
+      "frame": 2,
+      "source_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          240,
+          308
+        ],
+        [
+          267,
+          371
+        ],
+        [
+          271,
+          400
+        ]
+      ],
+      "target_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          237.57328352987457,
+          308.7657367856995
+        ],
+        [
+          293.6,
+          348.25
+        ],
+        [
+          297.6,
+          377.25
+        ]
+      ],
+      "reuse_neutral": false
+    },
+    {
+      "frame": 3,
+      "source_joints": [
+        [
+          215,
+          233
+        ],
+        [
+          240,
+          308
+        ],
+        [
+          267,
+          371
+        ],
+        [
+          271,
+          400
+        ]
+      ],
+      "target_joints": {
+        "bow": 4
+      },
+      "reuse_neutral": false
+    }
+  ],
+  "removed_body_components": [
+    {
+      "pixels": 367,
+      "bbox": [
+        252,
+        301,
+        292,
+        379
+      ]
+    },
+    {
+      "pixels": 28,
+      "bbox": [
+        259,
+        414,
+        271,
+        417
+      ]
+    },
+    {
+      "pixels": 1,
+      "bbox": [
+        258,
+        413,
+        258,
+        413
+      ]
+    }
+  ]
+}

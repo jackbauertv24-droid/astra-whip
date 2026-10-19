@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+// Numeric tell tripwire; independent visual acceptance remains mandatory.
+import{readPNG}from'./lib/png.mjs';
+import{readFileSync,writeFileSync}from'node:fs';
+function bounds(im,region=[0,0,im.width-1,im.height-1]){let top=im.height,foot=-1;for(let y=region[1];y<=region[3];y++)for(let x=region[0];x<=region[2];x++)if(im.data[(y*im.width+x)*4+3]>=40){top=Math.min(top,y);foot=Math.max(foot,y);}return{top,foot,height:foot-top+1};}
+const before=process.argv.includes('--before');
+if(before){const source='art/production-candidates/boss-strike-raised-key-r01/delivery.png',im=readPNG(source),full=bounds(im),crown=bounds(im,[195,110,240,190]),standing=full.foot-crown.top+1,ratio=full.height/standing,failed=ratio<4/3;console.log(`${failed?'FAIL':'PASS'} generated boss tell: full${full.height}/standing-body${standing}=${ratio.toFixed(4)},required>=1.3333`);process.exitCode=failed?1:0;}
+else{const reference=bounds(readPNG('art/frames/boss_idle/f000.png')),rows=[];for(const frame of[4,5,6]){const path=`art/frames/boss_strike_windup/f00${frame}.png`,im=readPNG(path),b=bounds(im),ratio=b.height/reference.height;rows.push({frame,...b,ratio,pass:ratio>=4/3&&b.foot===512&&b.top>=2});}const held=[5,6].every(f=>readFileSync('art/frames/boss_strike_windup/f004.png').equals(readFileSync(`art/frames/boss_strike_windup/f00${f}.png`))),pass=rows.every(r=>r.pass)&&held;writeFileSync('evidence/boss-strike-tell.json',JSON.stringify({reference_height:reference.height,minimum_height_ratio:4/3,hold_ms:300,stable_hold:held,rows,pass,visual_approval:false},null,2)+'\n');console.log(`${pass?'PASS':'FAIL'} boss tell: ${rows.map(r=>r.height).join('/')}px vs${reference.height}px,stable300ms hold; numeric tripwire only`);process.exitCode=pass?0:1;}

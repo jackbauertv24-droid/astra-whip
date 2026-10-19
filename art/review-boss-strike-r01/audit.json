@@ -1,0 +1,588 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-boss-strike-r01/frames",
+ "defects": 0,
+ "flags": 0,
+ "clips_audited": 5,
+ "references": {
+  "boss": {
+   "size": 197.38423761007624,
+   "height": 350,
+   "head": 53
+  }
+ },
+ "findings": [],
+ "metrics": {
+  "boss_idle": [
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41046,
+    "size": 202.598,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.513,
+    "legDip": 0.354
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41404,
+    "size": 203.48,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.516,
+    "legDip": 0.354
+   },
+   {
+    "bbox": [
+     73,
+     160,
+     293,
+     512
+    ],
+    "height": 353,
+    "width": 221,
+    "area": 41533,
+    "size": 203.796,
+    "top": 160,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.515,
+    "legDip": 0.357
+   },
+   {
+    "bbox": [
+     73,
+     159,
+     293,
+     512
+    ],
+    "height": 354,
+    "width": 221,
+    "area": 41639,
+    "size": 204.056,
+    "top": 159,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.513,
+    "legDip": 0.352
+   },
+   {
+    "bbox": [
+     73,
+     159,
+     293,
+     512
+    ],
+    "height": 354,
+    "width": 221,
+    "area": 41420,
+    "size": 203.519,
+    "top": 159,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.51,
+    "legDip": 0.352
+   },
+   {
+    "bbox": [
+     72,
+     159,
+     292,
+     512
+    ],
+    "height": 354,
+    "width": 221,
+    "area": 41661,
+    "size": 204.11,
+    "top": 159,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.515,
+    "legDip": 0.363
+   },
+   {
+    "bbox": [
+     72,
+     160,
+     292,
+     512
+    ],
+    "height": 353,
+    "width": 221,
+    "area": 41543,
+    "size": 203.821,
+    "top": 160,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.516,
+    "legDip": 0.352
+   },
+   {
+    "bbox": [
+     72,
+     161,
+     292,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41429,
+    "size": 203.541,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.512,
+    "legDip": 0.361
+   }
+  ],
+  "boss_walk": [
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41046,
+    "size": 202.598,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.513,
+    "legDip": 0.354
+   },
+   {
+    "bbox": [
+     74,
+     163,
+     293,
+     512
+    ],
+    "height": 350,
+    "width": 220,
+    "area": 39643,
+    "size": 199.105,
+    "top": 163,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.535,
+    "legDip": 0.367
+   },
+   {
+    "bbox": [
+     74,
+     165,
+     293,
+     512
+    ],
+    "height": 348,
+    "width": 220,
+    "area": 38284,
+    "size": 195.663,
+    "top": 165,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.405,
+    "legDip": 0.485
+   },
+   {
+    "bbox": [
+     74,
+     163,
+     293,
+     512
+    ],
+    "height": 350,
+    "width": 220,
+    "area": 37898,
+    "size": 194.674,
+    "top": 163,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.344,
+    "legDip": 0.297
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 37006,
+    "size": 192.369,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.333,
+    "legDip": 0.209
+   },
+   {
+    "bbox": [
+     72,
+     163,
+     292,
+     512
+    ],
+    "height": 350,
+    "width": 221,
+    "area": 37563,
+    "size": 193.812,
+    "top": 163,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.345,
+    "legDip": 0.23
+   },
+   {
+    "bbox": [
+     71,
+     165,
+     292,
+     512
+    ],
+    "height": 348,
+    "width": 222,
+    "area": 40365,
+    "size": 200.91,
+    "top": 165,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.292,
+    "legDip": 0.412
+   },
+   {
+    "bbox": [
+     72,
+     163,
+     292,
+     512
+    ],
+    "height": 350,
+    "width": 221,
+    "area": 40626,
+    "size": 201.559,
+    "top": 163,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.327,
+    "legDip": 0.486
+   }
+  ],
+  "boss_strike_windup": [
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41046,
+    "size": 202.598,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.513,
+    "legDip": 0.354
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     382,
+     512
+    ],
+    "height": 352,
+    "width": 310,
+    "area": 41730,
+    "size": 204.279,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.432,
+    "legDip": 0.298
+   },
+   {
+    "bbox": [
+     73,
+     155,
+     398,
+     512
+    ],
+    "height": 358,
+    "width": 326,
+    "area": 41939,
+    "size": 204.79,
+    "top": 155,
+    "foot": 512,
+    "headWidth": 154,
+    "bootRatio": 0.503,
+    "legDip": 0.35
+   },
+   {
+    "bbox": [
+     73,
+     58,
+     312,
+     512
+    ],
+    "height": 455,
+    "width": 240,
+    "area": 41660,
+    "size": 204.108,
+    "top": 58,
+    "foot": 512,
+    "headWidth": 52,
+    "bootRatio": 0.563,
+    "legDip": 0.416
+   },
+   {
+    "bbox": [
+     73,
+     41,
+     262,
+     512
+    ],
+    "height": 472,
+    "width": 190,
+    "area": 40850,
+    "size": 202.114,
+    "top": 41,
+    "foot": 512,
+    "headWidth": 48,
+    "bootRatio": 0.558,
+    "legDip": 0.416
+   },
+   {
+    "bbox": [
+     73,
+     41,
+     262,
+     512
+    ],
+    "height": 472,
+    "width": 190,
+    "area": 40850,
+    "size": 202.114,
+    "top": 41,
+    "foot": 512,
+    "headWidth": 48,
+    "bootRatio": 0.558,
+    "legDip": 0.416
+   },
+   {
+    "bbox": [
+     73,
+     41,
+     262,
+     512
+    ],
+    "height": 472,
+    "width": 190,
+    "area": 40850,
+    "size": 202.114,
+    "top": 41,
+    "foot": 512,
+    "headWidth": 48,
+    "bootRatio": 0.558,
+    "legDip": 0.416
+   }
+  ],
+  "boss_strike_execute": [
+   {
+    "bbox": [
+     73,
+     161,
+     359,
+     512
+    ],
+    "height": 352,
+    "width": 287,
+    "area": 40884,
+    "size": 202.198,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.367,
+    "legDip": 0.253
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     369,
+     512
+    ],
+    "height": 352,
+    "width": 297,
+    "area": 41544,
+    "size": 203.823,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.432,
+    "legDip": 0.298
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     369,
+     512
+    ],
+    "height": 352,
+    "width": 297,
+    "area": 41544,
+    "size": 203.823,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.432,
+    "legDip": 0.298
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     359,
+     512
+    ],
+    "height": 352,
+    "width": 287,
+    "area": 41187,
+    "size": 202.946,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.449,
+    "legDip": 0.309
+   }
+  ],
+  "boss_strike_recover": [
+   {
+    "bbox": [
+     73,
+     161,
+     359,
+     512
+    ],
+    "height": 352,
+    "width": 287,
+    "area": 41187,
+    "size": 202.946,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.449,
+    "legDip": 0.309
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     350,
+     512
+    ],
+    "height": 352,
+    "width": 278,
+    "area": 40947,
+    "size": 202.354,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.455,
+    "legDip": 0.314
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     334,
+     512
+    ],
+    "height": 352,
+    "width": 262,
+    "area": 40733,
+    "size": 201.824,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.484,
+    "legDip": 0.333
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     315,
+     512
+    ],
+    "height": 352,
+    "width": 243,
+    "area": 40607,
+    "size": 201.512,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.51,
+    "legDip": 0.352
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     300,
+     512
+    ],
+    "height": 352,
+    "width": 228,
+    "area": 40496,
+    "size": 201.236,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.534,
+    "legDip": 0.368
+   },
+   {
+    "bbox": [
+     73,
+     161,
+     293,
+     512
+    ],
+    "height": 352,
+    "width": 221,
+    "area": 41046,
+    "size": 202.598,
+    "top": 161,
+    "foot": 512,
+    "headWidth": 53,
+    "bootRatio": 0.513,
+    "legDip": 0.354
+   }
+  ]
+ }
+}

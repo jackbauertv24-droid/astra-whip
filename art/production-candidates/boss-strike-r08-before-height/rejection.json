@@ -1,0 +1,12 @@
+{
+  "rule": "A-05",
+  "clip": "boss_strike_execute",
+  "frame": 0,
+  "measured_height_px": 446,
+  "permitted_height": [
+    316.8,
+    422.4
+  ],
+  "correction": "Arm descent first key from -135 to -120degrees; no global actor scaling.",
+  "review": "r05 interrupted before blind record or verdict; numerical correction before fresh r06 review"
+}

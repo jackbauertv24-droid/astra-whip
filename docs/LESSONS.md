@@ -102,3 +102,7 @@ A testing-mode world can return before its normal redraw queue while logical pro
 - Boss turn: review actual direction-event captures in addition to source onions. A repeated frontal source can represent opposite runtime orientations at the150ms flip. An inward articulated gauntlet projection spreads its path across the turn; a wide hanging frontal arm concentrates displacement at the flip. Keep failed head-size and frontal-mass audits; preserve the standing reference tolerances.
 
 - Boss punish windows need hit-interruption tests, not only untouched timing tests. Returning from hurt directly to walk can cancel a guaranteed recovery even while all nominal clip durations are correct. Preserve the interrupted recovery clock, counting flinch time, and exercise real full whip commitments. Export gameplay fixes separately from pending unreviewed art; assert pack scope.
+
+## Boss strike cross-clip arc — implementation follow-up 2026-10-19
+
+A scoped zero-defect audit did not catch a held overhead fist jumping258px into a chest-level execution key, followed by a16degree whole-body stoop in the final50ms step. Independent review rejected the handoffs. The replacement keeps the first arm step below175source pixels and torso-loading steps at most6degrees; retained before geometry fails both checks. See tools/check-boss-strike-arc.mjs and evidence/boss-strike-arc-*. These are geometry tripwires, not motion approval: native/phone cross-clip seams still require a fresh independent review.

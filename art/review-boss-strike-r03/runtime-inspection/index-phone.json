@@ -1,0 +1,694 @@
+[
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-0.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 0,
+    "direction": 1,
+    "branch": "full_cycle",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "cycle-right-strike_windup-f00.png",
+        "state": "strike_windup",
+        "frame": 0,
+        "animation": "boss_strike_windup",
+        "time": 0
+      },
+      {
+        "tile": 1,
+        "file": "cycle-right-strike_windup-f01.png",
+        "state": "strike_windup",
+        "frame": 1,
+        "animation": "boss_strike_windup",
+        "time": 0.108333333333333
+      },
+      {
+        "tile": 2,
+        "file": "cycle-right-strike_windup-f02.png",
+        "state": "strike_windup",
+        "frame": 2,
+        "animation": "boss_strike_windup",
+        "time": 0.208333333333333
+      },
+      {
+        "tile": 3,
+        "file": "cycle-right-strike_windup-f03.png",
+        "state": "strike_windup",
+        "frame": 3,
+        "animation": "boss_strike_windup",
+        "time": 0.3
+      },
+      {
+        "tile": 4,
+        "file": "cycle-right-strike_windup-f04.png",
+        "state": "strike_windup",
+        "frame": 4,
+        "animation": "boss_strike_windup",
+        "time": 0.4
+      },
+      {
+        "tile": 5,
+        "file": "cycle-right-strike_windup-f05.png",
+        "state": "strike_windup",
+        "frame": 5,
+        "animation": "boss_strike_windup",
+        "time": 0.5
+      },
+      {
+        "tile": 6,
+        "file": "cycle-right-strike_windup-f06.png",
+        "state": "strike_windup",
+        "frame": 6,
+        "animation": "boss_strike_windup",
+        "time": 0.6
+      },
+      {
+        "tile": 7,
+        "file": "cycle-right-strike_execute-f00.png",
+        "state": "strike_execute",
+        "frame": 0,
+        "animation": "boss_strike_execute",
+        "time": 0.7
+      },
+      {
+        "tile": 8,
+        "file": "cycle-right-strike_execute-f01.png",
+        "state": "strike_execute",
+        "frame": 1,
+        "animation": "boss_strike_execute",
+        "time": 0.758333333333333
+      },
+      {
+        "tile": 9,
+        "file": "cycle-right-strike_execute-f02.png",
+        "state": "strike_execute",
+        "frame": 2,
+        "animation": "boss_strike_execute",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 10,
+        "file": "cycle-right-strike_execute-f03.png",
+        "state": "strike_execute",
+        "frame": 3,
+        "animation": "boss_strike_execute",
+        "time": 0.85
+      },
+      {
+        "tile": 11,
+        "file": "cycle-right-strike_recover-f00.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0.908333333333333
+      },
+      {
+        "tile": 12,
+        "file": "cycle-right-strike_recover-f01.png",
+        "state": "strike_recover",
+        "frame": 1,
+        "animation": "boss_strike_recover",
+        "time": 1.11666666666667
+      },
+      {
+        "tile": 13,
+        "file": "cycle-right-strike_recover-f02.png",
+        "state": "strike_recover",
+        "frame": 2,
+        "animation": "boss_strike_recover",
+        "time": 1.30833333333333
+      },
+      {
+        "tile": 14,
+        "file": "cycle-right-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 1.50833333333333
+      },
+      {
+        "tile": 15,
+        "file": "cycle-right-strike_recover-f04.png",
+        "state": "strike_recover",
+        "frame": 4,
+        "animation": "boss_strike_recover",
+        "time": 1.71666666666667
+      },
+      {
+        "tile": 16,
+        "file": "cycle-right-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 1.86666666666667
+      },
+      {
+        "tile": 17,
+        "file": "cycle-right-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 2.01666666666667
+      }
+    ]
+  },
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-1.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 1,
+    "direction": 1,
+    "branch": "two_whip_punish",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "punish-right-before.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0
+      },
+      {
+        "tile": 1,
+        "file": "punish-right-h0-strike_recover-f00.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0.00833333333333333
+      },
+      {
+        "tile": 2,
+        "file": "punish-right-h1-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_stooped",
+        "time": 0.158333333333333
+      },
+      {
+        "tile": 3,
+        "file": "punish-right-h1-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_stooped",
+        "time": 0.233333333333333
+      },
+      {
+        "tile": 4,
+        "file": "punish-right-h1-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_stooped",
+        "time": 0.3
+      },
+      {
+        "tile": 5,
+        "file": "punish-right-h1-strike_recover-f01.png",
+        "state": "strike_recover",
+        "frame": 1,
+        "animation": "boss_strike_recover",
+        "time": 0.366666666666667
+      },
+      {
+        "tile": 6,
+        "file": "punish-right-h1-strike_recover-f02.png",
+        "state": "strike_recover",
+        "frame": 2,
+        "animation": "boss_strike_recover",
+        "time": 0.4
+      },
+      {
+        "tile": 7,
+        "file": "punish-right-h1-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 0.6
+      },
+      {
+        "tile": 8,
+        "file": "punish-right-h2-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_rising",
+        "time": 0.666666666666667
+      },
+      {
+        "tile": 9,
+        "file": "punish-right-h2-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_rising",
+        "time": 0.741666666666666
+      },
+      {
+        "tile": 10,
+        "file": "punish-right-h2-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_rising",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 11,
+        "file": "punish-right-h2-strike_recover-f04.png",
+        "state": "strike_recover",
+        "frame": 4,
+        "animation": "boss_strike_recover",
+        "time": 0.874999999999999
+      },
+      {
+        "tile": 12,
+        "file": "punish-right-h2-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 0.958333333333332
+      },
+      {
+        "tile": 13,
+        "file": "punish-right-h2-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 1.10833333333333
+      }
+    ]
+  },
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-2.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 2,
+    "direction": 1,
+    "branch": "late_hurt_context",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "late-right-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 0.658333333333333
+      },
+      {
+        "tile": 1,
+        "file": "late-right-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 2,
+        "file": "late-right-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.883333333333333
+      },
+      {
+        "tile": 3,
+        "file": "late-right-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.95
+      },
+      {
+        "tile": 4,
+        "file": "late-right-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 1.01666666666667
+      },
+      {
+        "tile": 5,
+        "file": "late-right-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 1.10833333333333
+      }
+    ]
+  },
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-3.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 3,
+    "direction": -1,
+    "branch": "full_cycle",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "cycle-left-strike_windup-f00.png",
+        "state": "strike_windup",
+        "frame": 0,
+        "animation": "boss_strike_windup",
+        "time": 0
+      },
+      {
+        "tile": 1,
+        "file": "cycle-left-strike_windup-f01.png",
+        "state": "strike_windup",
+        "frame": 1,
+        "animation": "boss_strike_windup",
+        "time": 0.108333333333333
+      },
+      {
+        "tile": 2,
+        "file": "cycle-left-strike_windup-f02.png",
+        "state": "strike_windup",
+        "frame": 2,
+        "animation": "boss_strike_windup",
+        "time": 0.208333333333333
+      },
+      {
+        "tile": 3,
+        "file": "cycle-left-strike_windup-f03.png",
+        "state": "strike_windup",
+        "frame": 3,
+        "animation": "boss_strike_windup",
+        "time": 0.3
+      },
+      {
+        "tile": 4,
+        "file": "cycle-left-strike_windup-f04.png",
+        "state": "strike_windup",
+        "frame": 4,
+        "animation": "boss_strike_windup",
+        "time": 0.4
+      },
+      {
+        "tile": 5,
+        "file": "cycle-left-strike_windup-f05.png",
+        "state": "strike_windup",
+        "frame": 5,
+        "animation": "boss_strike_windup",
+        "time": 0.5
+      },
+      {
+        "tile": 6,
+        "file": "cycle-left-strike_windup-f06.png",
+        "state": "strike_windup",
+        "frame": 6,
+        "animation": "boss_strike_windup",
+        "time": 0.6
+      },
+      {
+        "tile": 7,
+        "file": "cycle-left-strike_execute-f00.png",
+        "state": "strike_execute",
+        "frame": 0,
+        "animation": "boss_strike_execute",
+        "time": 0.7
+      },
+      {
+        "tile": 8,
+        "file": "cycle-left-strike_execute-f01.png",
+        "state": "strike_execute",
+        "frame": 1,
+        "animation": "boss_strike_execute",
+        "time": 0.758333333333333
+      },
+      {
+        "tile": 9,
+        "file": "cycle-left-strike_execute-f02.png",
+        "state": "strike_execute",
+        "frame": 2,
+        "animation": "boss_strike_execute",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 10,
+        "file": "cycle-left-strike_execute-f03.png",
+        "state": "strike_execute",
+        "frame": 3,
+        "animation": "boss_strike_execute",
+        "time": 0.85
+      },
+      {
+        "tile": 11,
+        "file": "cycle-left-strike_recover-f00.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0.908333333333333
+      },
+      {
+        "tile": 12,
+        "file": "cycle-left-strike_recover-f01.png",
+        "state": "strike_recover",
+        "frame": 1,
+        "animation": "boss_strike_recover",
+        "time": 1.11666666666667
+      },
+      {
+        "tile": 13,
+        "file": "cycle-left-strike_recover-f02.png",
+        "state": "strike_recover",
+        "frame": 2,
+        "animation": "boss_strike_recover",
+        "time": 1.30833333333333
+      },
+      {
+        "tile": 14,
+        "file": "cycle-left-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 1.50833333333333
+      },
+      {
+        "tile": 15,
+        "file": "cycle-left-strike_recover-f04.png",
+        "state": "strike_recover",
+        "frame": 4,
+        "animation": "boss_strike_recover",
+        "time": 1.71666666666667
+      },
+      {
+        "tile": 16,
+        "file": "cycle-left-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 1.86666666666667
+      },
+      {
+        "tile": 17,
+        "file": "cycle-left-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 2.01666666666667
+      }
+    ]
+  },
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-4.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 4,
+    "direction": -1,
+    "branch": "two_whip_punish",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "punish-left-before.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0
+      },
+      {
+        "tile": 1,
+        "file": "punish-left-h0-strike_recover-f00.png",
+        "state": "strike_recover",
+        "frame": 0,
+        "animation": "boss_strike_recover",
+        "time": 0.00833333333333333
+      },
+      {
+        "tile": 2,
+        "file": "punish-left-h1-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_stooped",
+        "time": 0.158333333333333
+      },
+      {
+        "tile": 3,
+        "file": "punish-left-h1-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_stooped",
+        "time": 0.233333333333333
+      },
+      {
+        "tile": 4,
+        "file": "punish-left-h1-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_stooped",
+        "time": 0.3
+      },
+      {
+        "tile": 5,
+        "file": "punish-left-h1-strike_recover-f01.png",
+        "state": "strike_recover",
+        "frame": 1,
+        "animation": "boss_strike_recover",
+        "time": 0.366666666666667
+      },
+      {
+        "tile": 6,
+        "file": "punish-left-h1-strike_recover-f02.png",
+        "state": "strike_recover",
+        "frame": 2,
+        "animation": "boss_strike_recover",
+        "time": 0.4
+      },
+      {
+        "tile": 7,
+        "file": "punish-left-h1-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 0.6
+      },
+      {
+        "tile": 8,
+        "file": "punish-left-h2-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_rising",
+        "time": 0.666666666666667
+      },
+      {
+        "tile": 9,
+        "file": "punish-left-h2-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_rising",
+        "time": 0.741666666666666
+      },
+      {
+        "tile": 10,
+        "file": "punish-left-h2-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_rising",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 11,
+        "file": "punish-left-h2-strike_recover-f04.png",
+        "state": "strike_recover",
+        "frame": 4,
+        "animation": "boss_strike_recover",
+        "time": 0.874999999999999
+      },
+      {
+        "tile": 12,
+        "file": "punish-left-h2-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 0.958333333333332
+      },
+      {
+        "tile": 13,
+        "file": "punish-left-h2-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 1.10833333333333
+      }
+    ]
+  },
+  {
+    "path": "art/review-boss-strike-r03/runtime-inspection/phone-5.png",
+    "rect": [
+      240,
+      160,
+      225,
+      150
+    ],
+    "record": 5,
+    "direction": -1,
+    "branch": "late_hurt_context",
+    "tiles": [
+      {
+        "tile": 0,
+        "file": "late-left-strike_recover-f03.png",
+        "state": "strike_recover",
+        "frame": 3,
+        "animation": "boss_strike_recover",
+        "time": 0.658333333333333
+      },
+      {
+        "tile": 1,
+        "file": "late-left-hurt-f00.png",
+        "state": "hurt",
+        "frame": 0,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.808333333333333
+      },
+      {
+        "tile": 2,
+        "file": "late-left-hurt-f01.png",
+        "state": "hurt",
+        "frame": 1,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.883333333333333
+      },
+      {
+        "tile": 3,
+        "file": "late-left-hurt-f02.png",
+        "state": "hurt",
+        "frame": 2,
+        "animation": "boss_hurt_half_stoop",
+        "time": 0.95
+      },
+      {
+        "tile": 4,
+        "file": "late-left-strike_recover-f05.png",
+        "state": "strike_recover",
+        "frame": 5,
+        "animation": "boss_strike_recover",
+        "time": 1.01666666666667
+      },
+      {
+        "tile": 5,
+        "file": "late-left-walk-f00.png",
+        "state": "walk",
+        "frame": 0,
+        "animation": "boss_walk",
+        "time": 1.10833333333333
+      }
+    ]
+  }
+]

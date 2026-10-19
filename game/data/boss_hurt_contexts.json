@@ -1,0 +1,29 @@
+{
+  "stooped": {
+    "id": "boss_hurt_stooped",
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  },
+  "rising": {
+    "id": "boss_hurt_rising",
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  },
+  "half_stoop": {
+    "id": "boss_hurt_half_stoop",
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "reference_height": 352,
+  "minimum_height_ratio": 1.3333333333333333,
+  "hold_ms": 300,
+  "stable_hold": true,
+  "rows": [
+    {
+      "frame": 4,
+      "top": 41,
+      "foot": 512,
+      "height": 472,
+      "ratio": 1.3409090909090908,
+      "pass": true
+    },
+    {
+      "frame": 5,
+      "top": 41,
+      "foot": 512,
+      "height": 472,
+      "ratio": 1.3409090909090908,
+      "pass": true
+    },
+    {
+      "frame": 6,
+      "top": 41,
+      "foot": 512,
+      "height": 472,
+      "ratio": 1.3409090909090908,
+      "pass": true
+    }
+  ],
+  "pass": true,
+  "visual_approval": false
+}

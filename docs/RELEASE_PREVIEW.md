@@ -119,3 +119,7 @@ Four75ms frames passed fresh independent review through actual both-direction ca
 ## Follow-up fix 11e: boss recovery clock
 
 Nonlethal flinch preserves the remaining strike/hazard recovery and counts time spent hurt, preventing an early next attack. Both-facing engine regression fails12checks before and passes40after: actual two500ms whip commitments fit the1100ms strike window; explicit hazard-recovery fixture preserves900ms. Gameplay/tools/focused regressions,export/browser smoke pass. Unreviewed strike artwork is excluded from this shippedPCK and remains a separate pending fix. No new art/device/player approval. See `evidence/boss-recovery-window-fix.md`.
+
+## Follow-up fix 11f: complete boss strike cycle
+
+Seven windup, four execution and six recovery frames passed fresh isolated independent review after correcting weak recovery acting and a discontinuous arm/body handoff. Nine supplemental hurt frames preserve the supported posture during punish hits. Actual both-facing/native/phone captures cover every frame, two full500ms whips and late hurt;1234gameplay assertions plus focused contact/context/recovery checks, contract/tools, export and browser smoke pass. Before/after geometry regression rejects the retained arm/body jumps. Boss art now40/70mandatory frames; hazard/death, broader inventory and external device/player gates remain pending. D23 quality debt stays disclosed. See evidence/boss-strike-fix.md.

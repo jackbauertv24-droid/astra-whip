@@ -1,0 +1,17 @@
+{
+  "status": "rejected_before_delivery",
+  "reason": "Raised-arm key enlarges the standing-body baseline and provides less than the specified silhouette+one-third after body calibration; do not normalize the raised full bbox to standing height.",
+  "source_crown_region": [
+    195,
+    110,
+    240,
+    190
+  ],
+  "measured_crown_top": 126,
+  "measured_sole": 523,
+  "full_top": 23,
+  "standing_body_height": 398,
+  "raised_silhouette_height": 501,
+  "raised_to_standing_ratio": 1.2587939698492463,
+  "body_uniform_calibration_to352": 0.8844221105527639
+}

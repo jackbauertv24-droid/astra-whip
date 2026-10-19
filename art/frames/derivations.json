@@ -503,5 +503,35 @@
     ],
     "method": "Accepted neutral endpoints plus generated frontal inward-arm midpoint onframes1–2. Existing150ms facing event mirrors the midpoint, then the outgoing neutral. No per-frame recenter/scale; source-key bounded normalization recorded separately.",
     "reason": "D23 neutral reuse and painted midpoint hold for a300ms telegraphed body turn. Earlier side-biased/oversized/wide-arm drafts retained. New generated midpoint and full actual flip require fresh independent action review."
+  },
+  "boss_strike_windup": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bent-knee,gauntlet-on-knee stoop with upright counterrotating head and a progressive rise; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
+    "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains."
+  },
+  "boss_strike_execute": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bent-knee,gauntlet-on-knee stoop with upright counterrotating head and a progressive rise; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
+    "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains."
+  },
+  "boss_strike_recover": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bent-knee,gauntlet-on-knee stoop with upright counterrotating head and a progressive rise; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
+    "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains."
   }
 }

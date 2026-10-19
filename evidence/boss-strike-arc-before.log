@@ -1,0 +1,16 @@
+{
+  "source": "art/production-candidates/boss-strike-r07",
+  "held_to_first_fist_step_px": 258.1017308658112,
+  "max_first_step_px": 175,
+  "torso_angles": [
+    0,
+    0,
+    0,
+    0,
+    16
+  ],
+  "max_torso_step_degrees": 16,
+  "allowed_torso_step_degrees": 6,
+  "pass": false,
+  "visual_approval": false
+}

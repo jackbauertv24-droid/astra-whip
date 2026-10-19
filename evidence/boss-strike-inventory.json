@@ -1,0 +1,26 @@
+{
+  "actor": "boss",
+  "clips": 3,
+  "frames": 17,
+  "supplemental_hurt_frames": 9,
+  "review": "art/review-boss-strike-r04/review_verdict.md",
+  "captures": [
+    {
+      "path": "evidence/boss-strike-native/capture.json",
+      "actual_image_sizes": [
+        "1280x720"
+      ]
+    },
+    {
+      "path": "evidence/boss-strike-phone/capture.json",
+      "actual_image_sizes": [
+        "698x393"
+      ]
+    }
+  ],
+  "all_frames_both_facings_native_and_phone": true,
+  "actual_full_cycle_and_two_whip_punish": true,
+  "physical_device_tested": false,
+  "scripted_animation_quality_debt": true,
+  "remaining_boss_clips_unapproved": 4
+}

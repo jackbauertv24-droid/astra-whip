@@ -1,0 +1,25 @@
+// D23 supported stoop from the approved neutral. Rigid plated-leg pieces,
+// fixed soles, pelvis rotation/drop and an upright counter-rotating head.
+import{blank}from'./png.mjs';
+import{meshWarp,clamp}from'./deform.mjs';
+import{readFileSync}from'node:fs';
+const W=512,H=576;
+function inside(x,y,ps){let on=false;for(let i=0,j=ps.length-1;i<ps.length;j=i++)if((ps[i][1]>y)!==(ps[j][1]>y)&&x<(ps[j][0]-ps[i][0])*(y-ps[i][1])/(ps[j][1]-ps[i][1])+ps[i][0])on=!on;return on;}
+function over(dst,im){for(let j=0;j<im.data.length;j+=4){const a=im.data[j+3]/255,b=dst.data[j+3]/255,t=a+b*(1-a);if(!a)continue;for(let c=0;c<3;c++)dst.data[j+c]=Math.round((im.data[j+c]*a+dst.data[j+c]*b*(1-a))/t);dst.data[j+3]=Math.round(t*255);}}
+function projection(p,a,b){const dx=b[0]-a[0],dy=b[1]-a[1],t=clamp(((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(dx*dx+dy*dy));return Math.hypot(p[0]-a[0]-t*dx,p[1]-a[1]-t*dy);}
+function smooth(a,b,x){const t=clamp((x-a)/(b-a));return t*t*(3-2*t);}
+export function makeBossSupportRenderer(src){
+ const approved=JSON.parse(readFileSync('art/production-candidates/boss-walk-r01/derivation.json')).records[0].legs;
+ const legs=[{id:'far',points:approved[0].target_joints,polygon:[[191,338],[215,342],[223,365],[225,390],[224,422],[222,453],[226,478],[238,486],[268,493],[272,516],[179,516],[179,489],[188,473],[188,450],[189,421],[189,392],[186,370]]},{id:'near',points:approved[1].target_joints,polygon:[[160,338],[186,344],[184,373],[174,402],[168,432],[154,462],[148,483],[160,501],[161,516],[108,517],[107,490],[116,471],[115,450],[122,425],[133,402],[144,380],[151,355]]}];
+ // Use the visible far ankle collar, not the gait's lower registration handle.
+ legs[0].points=legs[0].points.map(p=>[...p]);legs[0].points[2]=[211,486];
+ const body={...src,data:Buffer.from(src.data)},pieces=legs.map(()=>blank(W,H));
+ for(let y=0;y<H;y++)for(let x=0;x<W;x++){let owner=-1;for(let k=0;k<2;k++)if(inside(x+.5,y+.5,legs[k].polygon))owner=k;if(owner<0)continue;const j=(y*W+x)*4;pieces[owner].data.set(src.data.subarray(j,j+4),j);body.data.fill(0,j,j+4);}
+ const seen=new Uint8Array(W*H),components=[];for(let p=0;p<seen.length;p++){if(seen[p]||body.data[p*4+3]<5)continue;const q=[p];seen[p]=1;for(let k=0;k<q.length;k++){const v=q[k],x=v%W,y=Math.floor(v/W);for(const[dx,dy]of[[1,0],[-1,0],[0,1],[0,-1]]){const X=x+dx,Y=y+dy,n=Y*W+X;if(X<0||X>=W||Y<0||Y>=H||seen[n]||body.data[n*4+3]<5)continue;seen[n]=1;q.push(n);}}components.push(q);}components.sort((a,b)=>b.length-a.length);const removedComponents=components.slice(1).map(q=>q.length);for(const q of components.slice(1))for(const p of q)body.data.fill(0,p*4,p*4+4);
+ const bones=legs.map((leg,k)=>{const ps=leg.points,parts=[blank(W,H),blank(W,H),blank(W,H)];for(let y=0;y<H;y++)for(let x=0;x<W;x++){const j=(y*W+x)*4;if(!pieces[k].data[j+3])continue;const ds=ps.slice(0,-1).map((p,n)=>projection([x,y],p,ps[n+1])),owner=ds.indexOf(Math.min(...ds));for(let n=0;n<3;n++)if(n===owner||n<2&&Math.hypot(x-ps[n+1][0],y-ps[n+1][1])<8||n>0&&Math.hypot(x-ps[n][0],y-ps[n][1])<8)parts[n].data.set(pieces[k].data.subarray(j,j+4),j);}return parts;});
+ function ik(ps,S,T){const a=Math.hypot(ps[1][0]-ps[0][0],ps[1][1]-ps[0][1]),b=Math.hypot(ps[2][0]-ps[1][0],ps[2][1]-ps[1][1]),dx=T[0]-S[0],dy=T[1]-S[1],dist=Math.hypot(dx,dy),d=Math.min(a+b-.001,Math.max(Math.abs(a-b)+.001,dist)),along=(a*a-b*b+d*d)/(2*d),h=Math.sqrt(Math.max(0,a*a-along*along)),sign=((ps[2][0]-ps[0][0])*(ps[1][1]-ps[0][1])-(ps[2][1]-ps[0][1])*(ps[1][0]-ps[0][0]))>=0?1:-1;return[S[0]+dx/dist*along-dy/dist*h*sign,S[1]+dy/dist*along+dx/dist*h*sign];}
+ return function render(angleDegrees,drop){const angle=angleDegrees*Math.PI/180,cs=Math.cos(angle),sn=Math.sin(angle),torso=(x,y)=>[176+(x-176)*cs-(y-350)*sn,350+(x-176)*sn+(y-350)*cs+drop],neck=torso(208,235),headDelta=[Math.round(neck[0]-208),Math.round(neck[1]-235)],out=blank(W,H),records=[];
+  for(let k=0;k<2;k++){const ps=legs[k].points,S=torso(...ps[0]),T=ps[2],E=ik(ps,S,T),targets=[S,E,T,ps[3]],im=blank(W,H);for(let n=0;n<3;n++){const a=ps[n],b=ps[n+1],ta=targets[n],tb=targets[n+1],rotation=n===2?0:Math.atan2(tb[1]-ta[1],tb[0]-ta[0])-Math.atan2(b[1]-a[1],b[0]-a[0]);over(im,meshWarp(bones[k][n],[0,W],[0,H],(x,y)=>[ta[0]+(x-a[0])*Math.cos(rotation)-(y-a[1])*Math.sin(rotation),ta[1]+(x-a[0])*Math.sin(rotation)+(y-a[1])*Math.cos(rotation)]));}over(out,im);records.push({id:legs[k].id,source_joints:ps,target_joints:targets});}
+  const transformed=meshWarp(body,[0,70,110,140,160,176,190,208,220,240,270,300,512],[0,160,190,210,215,225,235,245,255,270,300,330,350,380,410,450,490,512,576],(x,y)=>{const p=torso(x,y),w=1-smooth(215,255,y);return[p[0]*(1-w)+(x+headDelta[0])*w,p[1]*(1-w)+(y+headDelta[1])*w];});over(out,transformed);let removed=0;for(let j=0;j<out.data.length;j+=4)if(out.data[j+3]<=4){if(out.data[j+3])removed++;out.data.fill(0,j,j+4);}return{image:out,record:{angle_degrees:angleDegrees,pelvis_drop_pixels:drop,head_counterrotation_translation:headDelta,legs:records,removed_body_components_pixels:removedComponents,removed_low_alpha_pixels:removed}};
+ };
+}

@@ -1,0 +1,11 @@
+{
+  "id": "boss-strike-raised-key-r01",
+  "prompt": "Edit reference1 into ONE right-facing overhead STRIKE WINDUP apex key of the SAME armored revenant warden. Reference2 guide only: redfloor512,bluecrown160,cyanroot176 andraisedarmpath. Keep original head/neck/chest/hips/TWOLEGS/TWOBOOTS and smallreararm EXACT scale/identity/pose, source512x576canvas,root176512,helmettop160,standingbody352pxtall. Change ONLY oversizedforwardstrikingarm: lift shoulder and rotate articulatedupperarm to elbow~260145,forearmtowrist~27080,hugeclosedgauntlet raised abovehead withtop~y25,center27045. Shoulder staysattachednear225225, supportedneckandtorso, no extraarm, no weapon. Raisedarm silhouette reachesabout1.38xstandingheight (floor512 tohandtop25); avoidclip atcanvasborder. Upperarm/forearm/gauntlet length/thickness remain SAME physicalconstruction, jointsplausible, no stretchyarm. Heavy poisedoverheadtell, fist/forearmheldclear ofhelmet, stillfacingright, bothbootsgroundedunchanged. Samecorrodedcoldslatematteplate,mutedoliveraggedshroud,paleedgelightsoftpaint. No enlargedhelmet, newornament/weapon/magic/warmglow, gore, groundshadow, labels, guides or opaquebackground. Fullbody andraisedfistvisible on actualtransparentalpha. Do notshrinkthebodytofit: uppercanvaswasreservedforthisarm.",
+  "references": [
+    "art/frames/boss_idle/f000.png",
+    "art/guides/boss-strike-raised.png"
+  ],
+  "transparent_background": true,
+  "generation_status": "complete",
+  "raw_path": "art/production-candidates/boss-strike-raised-key-r01/raw.png"
+}

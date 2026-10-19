@@ -13,6 +13,7 @@ var visual: ActorVisual
 var hazard_x = 0.0
 var cycles = 0
 var recovery_start_y = 0.0
+var hurt_pose_context = ""
 var hurt_resume_state = ""
 var hurt_resume_elapsed = 0.0
 var shot = false
@@ -25,6 +26,7 @@ func _ready() -> void:
  spawn = position
  enter("perch_idle" if kind == "swooper" else "idle")
 func enter(next: String) -> void:
+ if next != "hurt": hurt_pose_context = ""
  if next == "recovery_climb": recovery_start_y = position.y
  state = next
  elapsed = 0
@@ -47,6 +49,9 @@ func take_hit() -> void:
   enter("death_fall" if kind == "swooper" else "death")
  elif kind != "boss" or state != "strike_execute":
   if kind == "boss":
+   if state == "strike_recover":
+    hurt_pose_context = "stooped" if elapsed < 0.59 else ("rising" if elapsed < 0.8 else ("half_stoop" if elapsed < 0.95 else ""))
+   elif state != "hurt": hurt_pose_context = ""
    if state in ["strike_recover","hazard_recover"]:
     hurt_resume_state = state
     hurt_resume_elapsed = elapsed

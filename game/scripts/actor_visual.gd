@@ -57,6 +57,25 @@ func configure(kind: String) -> void:
    placeholder.size = Vector2(1, 1)
    sprite_frames.add_frame(id, texture if texture else placeholder, maxf(1, float(ms)))
   body_clips[id] = delivered == spec.ms.size()
+ if actor == "boss" and FileAccess.file_exists("res://data/boss_hurt_contexts.json"):
+  var contexts: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/boss_hurt_contexts.json"))
+  for context in contexts:
+   var entry: Dictionary = contexts[context]
+   var id: String = entry.id
+   specs[id] = {"ms":entry.ms,"loop":false}
+   sprite_frames.add_animation(id)
+   sprite_frames.set_animation_loop(id,false)
+   sprite_frames.set_animation_speed(id,1000)
+   var delivered = 0
+   for i in entry.ms.size():
+    var path = "res://assets/boss/"+id+"/f%03d.png" % i
+    var texture: Texture2D
+    if ResourceLoader.exists(path): texture = load(path)
+    if texture != null: delivered += 1
+    var placeholder = PlaceholderTexture2D.new()
+    placeholder.size = Vector2.ONE
+    sprite_frames.add_frame(id,texture if texture else placeholder,float(entry.ms[i]))
+   body_clips[id] = delivered == entry.ms.size()
  visible = actor in ["hero", "pursuer"]
  scale = Vector2(0.5, 0.5)
  offset = pivot_offset
@@ -78,15 +97,20 @@ func configure(kind: String) -> void:
     if ResourceLoader.exists(path): textures.append(load(path))
    weapon_sets[state] = textures
  follow("idle", 0)
+func clip_id(state: String) -> String:
+ if actor == "boss" and state == "hurt":
+  var context = get_parent().get("hurt_pose_context")
+  if context != null and context != "": return "boss_hurt_"+str(context)
+ return actor+"_"+state
 func has_body_layer(state: String) -> bool:
- return body_clips.get(actor+"_"+state,false)
+ return body_clips.get(clip_id(state),false)
 func has_weapon_layer(state: String) -> bool:
  return actor == "hero" and weapon_sets.has(state) and weapon_sets[state].size() == specs["hero_" + state].ms.size() and socket_sets.get("hero_" + state, []).size() == specs["hero_" + state].ms.size()
 func playback_rate(state: String) -> float:
  if actor == "pursuer" and state == "approach_walk": return approach_cadence
  return WALK_CADENCE if actor == "hero" and state == "walk" else 1.0
 func follow(state: String, elapsed: float) -> void:
- var id = actor + "_" + state
+ var id = clip_id(state)
  if not sprite_frames.has_animation(id): return
  played[id] = true
  if animation != id: animation = id
