@@ -329,3 +329,13 @@ Fresh independent reviewer: `/root/checkpoint_review_r01`; full verdict `art/rev
 | vfx_checkpoint_activate | PASS | None | None required |
 
 All10delivered frames, both onion sheets, five style references and56actual engine images inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS. This approves these two assets only; other inventory/device/player gates remain pending.
+
+## Implementation tutorial target —2026-10-20
+
+Fresh independent `/root/effigy_review_r01`: full verdict `art/review-effigy-r01/review_verdict.md`.
+
+| Clip | Result | Failing frames | Correction |
+|---|---|---|---|
+| prop_effigy | PASS | None | None required |
+
+Single delivered frame, five style references and36actual native/phone PNGs inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS, limited to this prop.

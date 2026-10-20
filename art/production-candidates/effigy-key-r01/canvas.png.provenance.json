@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/effigy-key-r01/raw.png",
+  "source_canvas": [
+    887,
+    1774
+  ],
+  "export_canvas": [
+    128,
+    256
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

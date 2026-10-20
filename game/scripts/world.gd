@@ -35,6 +35,8 @@ var rotate_prompt: Label
 var rotate_back: Panel
 var pause_button: Button
 var gates: Array = []
+var effigy_texture: Texture2D
+var effigy_spec: Dictionary
 var effigy = true
 var reduced_effects = false
 var touch_buttons: Dictionary = {}
@@ -62,7 +64,10 @@ func projectile_frame_at(age: float) -> int:
  return projectile_durations.size()-1
 func _ready() -> void:
  load_projectile_art()
- checkpoint_spec=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json")).prop_checkpoint
+ var static_art:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
+ checkpoint_spec=static_art.prop_checkpoint
+ effigy_spec=static_art.prop_effigy
+ effigy_texture=PackedArt.texture("res://assets/props/prop_effigy/f000.png")
  for frame in checkpoint_spec.frames:
   checkpoint_frames.append(PackedArt.texture("res://assets/props/prop_checkpoint/f%03d.png"%frame))
  checkpoint_layer=WhipImpactLayer.new()
@@ -450,7 +455,10 @@ func _draw() -> void:
  var marker_size=Vector2(checkpoint_spec.canvas[0],checkpoint_spec.canvas[1])
  draw_texture_rect(checkpoint_frames[1 if checkpoint else 0],Rect2(Vector2(4128,Rules.GROUND)-marker_anchor*.5,marker_size*.5),false)
  draw_rect(Rect2(6585,Rules.GROUND-160,55,160),Color("e3a34a") if exit_unlocked else Color("3b2d20"))
- if effigy: draw_rect(Rect2(400,Rules.GROUND-90,32,70),Color("9c9077"))
+ if effigy:
+  var effigy_anchor=Vector2(effigy_spec.anchor[0],effigy_spec.anchor[1])
+  var effigy_size=Vector2(effigy_spec.canvas[0],effigy_spec.canvas[1])
+  draw_texture_rect(effigy_texture,Rect2(Vector2(416,Rules.GROUND)-effigy_anchor*.5,effigy_size*.5),false)
  for shot in projectiles:
   var p: Vector2 = shot.pos
   if projectile_frames.size() == projectile_durations.size():

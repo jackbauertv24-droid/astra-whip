@@ -1,0 +1,11 @@
+# Painted tutorial effigy
+
+The tutorial target's rectangle is replaced by a complete128×256 bound-cloth practice target on a grounded stake, at its64,224 floor pivot. Rendering uses the shared static-art manifest and lossless atlas. The existing whip overlap rectangle, one-hit break, contact effect and restart restoration are unchanged.
+
+Generated original, exact prompt, canvas provenance and registration data remain under `art/production-candidates/effigy-*`. Preparation performs full-canvas resolution conversion and integer base registration only, removing alpha≤8 extraction remnants. No shape deformation or scale normalization. Scoped audit has0defects/flags. The scoped non-character vfx audit entry is only for static canvas/base/border measurements; ms0 means an intact static state. Original mandatory animation contract is unchanged.
+
+Actual-whip captures:18native and18phone-size PNGs, both facings, before, all six contact-impact phases, expiry and restart restoration. The sample checker verifies actual break state, contact point, removal and restoration. These are isolated controller captures, not physical-device or full traversal evidence. Independent review is saved under `art/review-effigy-r01/review_verdict.md`.
+
+Existing gameplay and whip-impact regressions cover the unchanged behavior; no redundant new unit test was added for the static paint. Atlas/render/export/browser results are retained alongside this record. Remaining stage props,terrain,backgrounds,UI and external device/player validation remain pending; music/SFX remain deferred.
+
+Fresh independent REVIEW: PASS for the delivered frame, five style references and all36actual images; reviewed/canonical/runtime bytes match. Full gameplay suite1241main assertions and1851source atlas checks pass; exported whip regression100checks passes. Contract check and25defect selftests pass.370exactRGBA roundtrips and2223exported atlas checks pass;692rendered samples/116pages differ by one pixel/one channel value within the unchanged gate. Fivepages,99.9375MiB conservative inventory,132703404bytes (126.56MiB) observed software-renderer art allocation. Product browser boot/resume/touch smoke568×320CSS,DPR2,safe44/44/21has0errors. The timed animation inventory remains68/68complete; this static prop does not change clip timing.

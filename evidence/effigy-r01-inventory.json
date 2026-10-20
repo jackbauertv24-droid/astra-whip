@@ -1,0 +1,9 @@
+{
+  "mandatory": [
+    "prop_effigy"
+  ],
+  "source_frames": 1,
+  "actual_capture_samples": 36,
+  "physical_device": false,
+  "failures": []
+}

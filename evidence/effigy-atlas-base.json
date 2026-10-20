@@ -1,0 +1,6683 @@
+{
+  "version": 1,
+  "rotation": false,
+  "padding": 2,
+  "filter": "nearest",
+  "mipmaps": false,
+  "pages": [
+    {
+      "path": "res://assets/atlas/page-00.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
+    },
+    {
+      "path": "res://assets/atlas/page-01.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
+    },
+    {
+      "path": "res://assets/atlas/page-02.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
+    },
+    {
+      "path": "res://assets/atlas/page-03.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
+    },
+    {
+      "path": "res://assets/atlas/page-04.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
+    }
+  ],
+  "frames": {
+    "res://assets/boss/boss_death/f000.png": {
+      "page": 3,
+      "region": [
+        1459,
+        1668,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_death/f001.png": {
+      "page": 3,
+      "region": [
+        1717,
+        150,
+        244,
+        330
+      ],
+      "trim": [
+        41,
+        186
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e558cba37af8056c8124030d7cda8cf0d37baab2334d0b4d11ef10c4525d57f8"
+    },
+    "res://assets/boss/boss_death/f002.png": {
+      "page": 4,
+      "region": [
+        2,
+        288,
+        255,
+        313
+      ],
+      "trim": [
+        25,
+        203
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "85f6eb2273eb55b7b6e7ccdb3913212fe8c4900d0065c0084d9035c53ec22634"
+    },
+    "res://assets/boss/boss_death/f003.png": {
+      "page": 4,
+      "region": [
+        2,
+        605,
+        279,
+        281
+      ],
+      "trim": [
+        62,
+        234
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0044a1a5bbe74246617e82c13edaf2dc3a3bfb0d463807915bc7831df5a30268"
+    },
+    "res://assets/boss/boss_death/f004.png": {
+      "page": 4,
+      "region": [
+        2,
+        2,
+        317,
+        282
+      ],
+      "trim": [
+        40,
+        233
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "ec65351e9ad8bfd22754f4ea952649205bf032e867999d97522e31ec3d02d710"
+    },
+    "res://assets/boss/boss_death/f005.png": {
+      "page": 3,
+      "region": [
+        1689,
+        1668,
+        353,
+        238
+      ],
+      "trim": [
+        33,
+        277
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "aeb477abd380b8358daa75407c05a654faa496669eca6950a1da3adc4c5cc296"
+    },
+    "res://assets/boss/boss_death/f006.png": {
+      "page": 3,
+      "region": [
+        1577,
+        782,
+        343,
+        218
+      ],
+      "trim": [
+        47,
+        295
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "97855ea10319a016d4d9f7f5d6bd4d0240a3eefff32d7bbe9038179280293765"
+    },
+    "res://assets/boss/boss_death/f007.png": {
+      "page": 3,
+      "region": [
+        1427,
+        1506,
+        400,
+        158
+      ],
+      "trim": [
+        18,
+        359
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "428f8faffbb6f9548eb91f743707342baa69b029156df1c47cc1d54df3585ebc"
+    },
+    "res://assets/boss/boss_death/f008.png": {
+      "page": 3,
+      "region": [
+        1457,
+        1330,
+        400,
+        158
+      ],
+      "trim": [
+        18,
+        359
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "428f8faffbb6f9548eb91f743707342baa69b029156df1c47cc1d54df3585ebc"
+    },
+    "res://assets/boss/boss_death/f009.png": {
+      "page": 3,
+      "region": [
+        1577,
+        628,
+        387,
+        150
+      ],
+      "trim": [
+        23,
+        364
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "82a730571a59e9821863fe0cc7bc93a0ef192b6355c4f76913fa02103d8a9629"
+    },
+    "res://assets/boss/boss_death/f010.png": {
+      "page": 3,
+      "region": [
+        1483,
+        1177,
+        360,
+        139
+      ],
+      "trim": [
+        43,
+        375
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "4856cfa0e5bb8d29edd54f9f85d3ee5a22be130c757b3e5dc2b2df96c64e7d2f"
+    },
+    "res://assets/boss/boss_death/f011.png": {
+      "page": 3,
+      "region": [
+        1689,
+        1910,
+        263,
+        115
+      ],
+      "trim": [
+        94,
+        399
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "3f351a67ea97a3da24e07db13977a7b8135f6812c0e05405210ddb57bf837e2e"
+    },
+    "res://assets/boss/boss_hazard_execute/f000.png": {
+      "page": 0,
+      "region": [
+        252,
+        1694,
+        325,
+        351
+      ],
+      "trim": [
+        59,
+        165
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "5db1ecab26464234ab71aea9553890aa8a16b92c7d54d0bbd0eb970d7feb0e29"
+    },
+    "res://assets/boss/boss_hazard_execute/f001.png": {
+      "page": 1,
+      "region": [
+        1079,
+        2,
+        305,
+        346
+      ],
+      "trim": [
+        53,
+        170
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "fd73a8cd141c468fd673f6605ae86c954ce486e0f331e766bf58540ef38f177b"
+    },
+    "res://assets/boss/boss_hazard_execute/f002.png": {
+      "page": 1,
+      "region": [
+        947,
+        1067,
+        254,
+        340
+      ],
+      "trim": [
+        46,
+        176
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "c9a6d912fbf17b42846c2bd501992ad47e499882078f2da9e015e5970be2daf5"
+    },
+    "res://assets/boss/boss_hazard_execute/f003.png": {
+      "page": 1,
+      "region": [
+        1634,
+        340,
+        245,
+        332
+      ],
+      "trim": [
+        39,
+        184
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
+    },
+    "res://assets/boss/boss_hazard_recover/f000.png": {
+      "page": 1,
+      "region": [
+        1554,
+        676,
+        245,
+        332
+      ],
+      "trim": [
+        39,
+        184
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
+    },
+    "res://assets/boss/boss_hazard_recover/f001.png": {
+      "page": 1,
+      "region": [
+        1678,
+        1348,
+        248,
+        331
+      ],
+      "trim": [
+        32,
+        185
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "5893cfff0017e93c64e86a343e8386a9e9df14bfc68dfc6ae7e33a312834c986"
+    },
+    "res://assets/boss/boss_hazard_recover/f002.png": {
+      "page": 2,
+      "region": [
+        2,
+        2,
+        246,
+        331
+      ],
+      "trim": [
+        36,
+        185
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0c22fe526542f99b6c813dee549e482638c27f04c1136c09a44651e8c47b6587"
+    },
+    "res://assets/boss/boss_hazard_recover/f003.png": {
+      "page": 1,
+      "region": [
+        1205,
+        1053,
+        243,
+        338
+      ],
+      "trim": [
+        43,
+        178
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "1fb120410d77cc5030d3c04fe4a645a8709e536277124b67db7f06eb9f89f085"
+    },
+    "res://assets/boss/boss_hazard_recover/f004.png": {
+      "page": 1,
+      "region": [
+        698,
+        1428,
+        238,
+        347
+      ],
+      "trim": [
+        53,
+        169
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "dd420e6891d570159bd38cd6d66ee01a6c2d1c8cd485ac1f3f346ad0c9eadab8"
+    },
+    "res://assets/boss/boss_hazard_recover/f005.png": {
+      "page": 0,
+      "region": [
+        1373,
+        2,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_hazard_windup/f000.png": {
+      "page": 0,
+      "region": [
+        1320,
+        1508,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_hazard_windup/f001.png": {
+      "page": 0,
+      "region": [
+        1269,
+        364,
+        252,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "604a75d7d1e2a2b8e009a3f847012338db4124eb5629f212637263b2b0d2a4f1"
+    },
+    "res://assets/boss/boss_hazard_windup/f002.png": {
+      "page": 1,
+      "region": [
+        232,
+        2,
+        279,
+        355
+      ],
+      "trim": [
+        68,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e3cd9d5224450ff9e9dc73d58a2db63d743525faec6d2c6a5b2e1ab3a9970134"
+    },
+    "res://assets/boss/boss_hazard_windup/f003.png": {
+      "page": 1,
+      "region": [
+        2,
+        363,
+        313,
+        355
+      ],
+      "trim": [
+        65,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "69a17671c62b6089e8a1446ab5e843f5bf16ec4bc1026c0e855085568bcda7f5"
+    },
+    "res://assets/boss/boss_hazard_windup/f004.png": {
+      "page": 1,
+      "region": [
+        319,
+        361,
+        328,
+        353
+      ],
+      "trim": [
+        63,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "dc2931bd83095953543865bad0681bd67f4638d52bcdec44cbcf4caa2495103b"
+    },
+    "res://assets/boss/boss_hazard_windup/f005.png": {
+      "page": 1,
+      "region": [
+        515,
+        2,
+        328,
+        353
+      ],
+      "trim": [
+        63,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e494348f39229b736da89affff4a81c68b400a72bcc46844df092590199915a3"
+    },
+    "res://assets/boss/boss_hazard_windup/f006.png": {
+      "page": 1,
+      "region": [
+        464,
+        718,
+        328,
+        353
+      ],
+      "trim": [
+        63,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "9c54d84b33b1a53bacfd33ffe1fa198e30c4ec9169eede251bf5f61649848205"
+    },
+    "res://assets/boss/boss_hazard_windup/f007.png": {
+      "page": 1,
+      "region": [
+        651,
+        359,
+        328,
+        353
+      ],
+      "trim": [
+        63,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "9c54d84b33b1a53bacfd33ffe1fa198e30c4ec9169eede251bf5f61649848205"
+    },
+    "res://assets/boss/boss_hurt_half_stoop/f000.png": {
+      "page": 1,
+      "region": [
+        462,
+        1439,
+        232,
+        350
+      ],
+      "trim": [
+        61,
+        166
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "2e2c15a7b1ce7fd9c2cf3203826ededf052b016164514d664b2f0c90bf1097d6"
+    },
+    "res://assets/boss/boss_hurt_half_stoop/f001.png": {
+      "page": 1,
+      "region": [
+        232,
+        1081,
+        230,
+        354
+      ],
+      "trim": [
+        65,
+        162
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "1b2f4f318853e082da81136ad66fc3c2cd42f2e7446e3eb9806521efec864a3c"
+    },
+    "res://assets/boss/boss_hurt_half_stoop/f002.png": {
+      "page": 0,
+      "region": [
+        1321,
+        1088,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_hurt_hazard_late/f000.png": {
+      "page": 1,
+      "region": [
+        1183,
+        1411,
+        242,
+        340
+      ],
+      "trim": [
+        46,
+        176
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e18ea5ed6d028bad8e90e59a8ce4190ef78514a6ffbaf80b324c204630127c81"
+    },
+    "res://assets/boss/boss_hurt_hazard_late/f001.png": {
+      "page": 1,
+      "region": [
+        466,
+        1075,
+        235,
+        349
+      ],
+      "trim": [
+        57,
+        167
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "583fe78b76685790ecb227acf8e39dd5b6d36253a405b03f5c243e5ce73f2da0"
+    },
+    "res://assets/boss/boss_hurt_hazard_late/f002.png": {
+      "page": 0,
+      "region": [
+        1491,
+        725,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_hurt_rising/f000.png": {
+      "page": 1,
+      "region": [
+        1308,
+        352,
+        242,
+        336
+      ],
+      "trim": [
+        46,
+        180
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0a23e75c6794deff968263107f2fe0746d14cefd40da18d493d33b340e74b7d0"
+    },
+    "res://assets/boss/boss_hurt_rising/f001.png": {
+      "page": 1,
+      "region": [
+        940,
+        1426,
+        239,
+        342
+      ],
+      "trim": [
+        50,
+        174
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "45d8db7d102d757685e6f791ae82dd3cb44f741ece0cad67959eaba1ac475a78"
+    },
+    "res://assets/boss/boss_hurt_rising/f002.png": {
+      "page": 1,
+      "region": [
+        705,
+        1075,
+        238,
+        347
+      ],
+      "trim": [
+        53,
+        169
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "dd420e6891d570159bd38cd6d66ee01a6c2d1c8cd485ac1f3f346ad0c9eadab8"
+    },
+    "res://assets/boss/boss_hurt_stooped/f000.png": {
+      "page": 1,
+      "region": [
+        1388,
+        2,
+        242,
+        336
+      ],
+      "trim": [
+        46,
+        180
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0a23e75c6794deff968263107f2fe0746d14cefd40da18d493d33b340e74b7d0"
+    },
+    "res://assets/boss/boss_hurt_stooped/f001.png": {
+      "page": 1,
+      "region": [
+        1634,
+        2,
+        243,
+        334
+      ],
+      "trim": [
+        43,
+        182
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "c09e4752dd0879ab1bb9338cd1b403078a82c4fb6c7d6bf0dcbe6cccaf9fa8f9"
+    },
+    "res://assets/boss/boss_hurt_stooped/f002.png": {
+      "page": 1,
+      "region": [
+        1533,
+        1012,
+        245,
+        332
+      ],
+      "trim": [
+        39,
+        184
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
+    },
+    "res://assets/boss/boss_hurt/f000.png": {
+      "page": 0,
+      "region": [
+        807,
+        421,
+        227,
+        359
+      ],
+      "trim": [
+        70,
+        157
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "7a67b11c63f039e8b6610c3b107cff03333d9b6131efe9aa0440ad617aee641e"
+    },
+    "res://assets/boss/boss_hurt/f001.png": {
+      "page": 0,
+      "region": [
+        940,
+        784,
+        227,
+        358
+      ],
+      "trim": [
+        70,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "beee3dd744bb62328ed0fe81af6e8c715b7a03adccbff430f38f69c20c85123b"
+    },
+    "res://assets/boss/boss_hurt/f002.png": {
+      "page": 0,
+      "region": [
+        1525,
+        363,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_idle/f000.png": {
+      "page": 0,
+      "region": [
+        1603,
+        2,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_idle/f001.png": {
+      "page": 0,
+      "region": [
+        1038,
+        365,
+        227,
+        358
+      ],
+      "trim": [
+        70,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a362bff25472e42dd45bd3b0947d9b916851eb671bbecca4a5aa83c7322c290c"
+    },
+    "res://assets/boss/boss_idle/f002.png": {
+      "page": 0,
+      "region": [
+        1142,
+        2,
+        227,
+        358
+      ],
+      "trim": [
+        70,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "c3f1d4827e2757565a45a403306d3ca2f0a1b434e0929da6c84df073602c7f29"
+    },
+    "res://assets/boss/boss_idle/f003.png": {
+      "page": 0,
+      "region": [
+        911,
+        2,
+        227,
+        359
+      ],
+      "trim": [
+        70,
+        157
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "ba75188d6bc201aab8b94c8358f8754f406f9fc101d29c42071cf30a798a8ed4"
+    },
+    "res://assets/boss/boss_idle/f004.png": {
+      "page": 0,
+      "region": [
+        656,
+        1571,
+        226,
+        359
+      ],
+      "trim": [
+        70,
+        157
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "f118fbad856e41ab30808c3920af4cffe3dfe5a0212c2e4cef16e47f72c48181"
+    },
+    "res://assets/boss/boss_idle/f005.png": {
+      "page": 0,
+      "region": [
+        656,
+        1208,
+        227,
+        359
+      ],
+      "trim": [
+        69,
+        157
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "4c2d637f8fe3e8f6aa09f47f256fe2e8057fbec83651afdd81dd8a1f8b7e006d"
+    },
+    "res://assets/boss/boss_idle/f006.png": {
+      "page": 0,
+      "region": [
+        1089,
+        1571,
+        227,
+        358
+      ],
+      "trim": [
+        69,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "28b22f3a87fb8cd8350264e2f98d3f2d5cbe9e802df63d3749fe0673aeb45245"
+    },
+    "res://assets/boss/boss_idle/f007.png": {
+      "page": 0,
+      "region": [
+        1090,
+        1146,
+        227,
+        358
+      ],
+      "trim": [
+        69,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "4901cef40671cd3d45939272789932e6e0b17a731cd37d1206d7d575ec8a59ab"
+    },
+    "res://assets/boss/boss_strike_execute/f000.png": {
+      "page": 0,
+      "region": [
+        201,
+        2,
+        302,
+        426
+      ],
+      "trim": [
+        63,
+        90
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "f3fab46355dab2159cf7573c64f11a353d0144409cd8a33bc2176f91d5e781bc"
+    },
+    "res://assets/boss/boss_strike_execute/f001.png": {
+      "page": 1,
+      "region": [
+        983,
+        359,
+        321,
+        346
+      ],
+      "trim": [
+        53,
+        170
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e393aef6136f579ed56d487b9df38db2421e6505c15443d093f800a87105f893"
+    },
+    "res://assets/boss/boss_strike_execute/f002.png": {
+      "page": 1,
+      "region": [
+        1038,
+        709,
+        244,
+        340
+      ],
+      "trim": [
+        46,
+        176
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "9024c77624c88e336ea07a5df8b5fc23a9de1aac15579aa1b414873eae65231f"
+    },
+    "res://assets/boss/boss_strike_execute/f003.png": {
+      "page": 1,
+      "region": [
+        1782,
+        1012,
+        245,
+        332
+      ],
+      "trim": [
+        39,
+        184
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
+    },
+    "res://assets/boss/boss_strike_recover/f000.png": {
+      "page": 1,
+      "region": [
+        1429,
+        1395,
+        245,
+        332
+      ],
+      "trim": [
+        39,
+        184
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
+    },
+    "res://assets/boss/boss_strike_recover/f001.png": {
+      "page": 1,
+      "region": [
+        1678,
+        1683,
+        248,
+        331
+      ],
+      "trim": [
+        32,
+        185
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "5893cfff0017e93c64e86a343e8386a9e9df14bfc68dfc6ae7e33a312834c986"
+    },
+    "res://assets/boss/boss_strike_recover/f002.png": {
+      "page": 2,
+      "region": [
+        2,
+        337,
+        246,
+        331
+      ],
+      "trim": [
+        36,
+        185
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0c22fe526542f99b6c813dee549e482638c27f04c1136c09a44651e8c47b6587"
+    },
+    "res://assets/boss/boss_strike_recover/f003.png": {
+      "page": 1,
+      "region": [
+        1286,
+        709,
+        243,
+        338
+      ],
+      "trim": [
+        43,
+        178
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "1fb120410d77cc5030d3c04fe4a645a8709e536277124b67db7f06eb9f89f085"
+    },
+    "res://assets/boss/boss_strike_recover/f004.png": {
+      "page": 1,
+      "region": [
+        796,
+        716,
+        238,
+        347
+      ],
+      "trim": [
+        53,
+        169
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "dd420e6891d570159bd38cd6d66ee01a6c2d1c8cd485ac1f3f346ad0c9eadab8"
+    },
+    "res://assets/boss/boss_strike_recover/f005.png": {
+      "page": 0,
+      "region": [
+        1755,
+        363,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_strike_windup/f000.png": {
+      "page": 0,
+      "region": [
+        1721,
+        724,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_strike_windup/f001.png": {
+      "page": 0,
+      "region": [
+        1171,
+        727,
+        316,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e5ee75c13db4cb0b558e11bbf4405b443c73933c3a8c7ac39b3b8afbdd74dfe0"
+    },
+    "res://assets/boss/boss_strike_windup/f002.png": {
+      "page": 0,
+      "region": [
+        605,
+        841,
+        331,
+        363
+      ],
+      "trim": [
+        70,
+        153
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "2ae136c7187c39fbb1721ad10954baa22b24349118ae1ec7d492b99c2b5bd7a1"
+    },
+    "res://assets/boss/boss_strike_windup/f003.png": {
+      "page": 0,
+      "region": [
+        2,
+        1448,
+        246,
+        460
+      ],
+      "trim": [
+        70,
+        56
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a42f3e2e6896d22619998e42960cb76a3f147f14f55d2880b46d59a3e8f6dca9"
+    },
+    "res://assets/boss/boss_strike_windup/f004.png": {
+      "page": 0,
+      "region": [
+        2,
+        2,
+        195,
+        478
+      ],
+      "trim": [
+        70,
+        38
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "06164a484ae6ec0fb42175b1d19ca3f52103767d0691bd298dc62f2bbfac27d1"
+    },
+    "res://assets/boss/boss_strike_windup/f005.png": {
+      "page": 0,
+      "region": [
+        2,
+        484,
+        195,
+        478
+      ],
+      "trim": [
+        70,
+        38
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "06164a484ae6ec0fb42175b1d19ca3f52103767d0691bd298dc62f2bbfac27d1"
+    },
+    "res://assets/boss/boss_strike_windup/f006.png": {
+      "page": 0,
+      "region": [
+        2,
+        966,
+        195,
+        478
+      ],
+      "trim": [
+        70,
+        38
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "06164a484ae6ec0fb42175b1d19ca3f52103767d0691bd298dc62f2bbfac27d1"
+    },
+    "res://assets/boss/boss_turn/f000.png": {
+      "page": 0,
+      "region": [
+        1721,
+        1085,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_turn/f001.png": {
+      "page": 0,
+      "region": [
+        886,
+        1571,
+        199,
+        359
+      ],
+      "trim": [
+        77,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "25a66b645ce871771208daa5aa7ed3ae3499c7ddddc471a6597fe3b4c6b1e5db"
+    },
+    "res://assets/boss/boss_turn/f002.png": {
+      "page": 0,
+      "region": [
+        887,
+        1208,
+        199,
+        359
+      ],
+      "trim": [
+        77,
+        158
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "25a66b645ce871771208daa5aa7ed3ae3499c7ddddc471a6597fe3b4c6b1e5db"
+    },
+    "res://assets/boss/boss_turn/f003.png": {
+      "page": 0,
+      "region": [
+        1550,
+        1449,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_walk/f000.png": {
+      "page": 0,
+      "region": [
+        1780,
+        1446,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_walk/f001.png": {
+      "page": 1,
+      "region": [
+        2,
+        1081,
+        226,
+        355
+      ],
+      "trim": [
+        71,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "cb6d37cb1c4e42ed56c3cfe5cc70ae386905275038ba26efa90b8a6eed50a3cc"
+    },
+    "res://assets/boss/boss_walk/f002.png": {
+      "page": 1,
+      "region": [
+        232,
+        1439,
+        226,
+        353
+      ],
+      "trim": [
+        71,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "d7b50aa1aee24c5364aa03ab19cdd129bf4b7b968b9b4395bfcb1e50e67eae02"
+    },
+    "res://assets/boss/boss_walk/f003.png": {
+      "page": 1,
+      "region": [
+        2,
+        1440,
+        226,
+        355
+      ],
+      "trim": [
+        71,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "544f17c4c7924b9d12a3825e871fd2594169b6e8e73f394827e094f01cde5b19"
+    },
+    "res://assets/boss/boss_walk/f004.png": {
+      "page": 1,
+      "region": [
+        2,
+        2,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0ef6dc45b670100784504887797ed911cd2d5b9a2d02e018561c9e4d1ad0be65"
+    },
+    "res://assets/boss/boss_walk/f005.png": {
+      "page": 1,
+      "region": [
+        233,
+        722,
+        227,
+        354
+      ],
+      "trim": [
+        69,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "532713a91b67052d041bbbe28d5d995526fda02b883cfa4410474bae06d80852"
+    },
+    "res://assets/boss/boss_walk/f006.png": {
+      "page": 1,
+      "region": [
+        847,
+        2,
+        228,
+        353
+      ],
+      "trim": [
+        68,
+        163
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "7b29452548732de45d829da1d3498a019ebce33c9fa7a5a6b118921c2b65f315"
+    },
+    "res://assets/boss/boss_walk/f007.png": {
+      "page": 1,
+      "region": [
+        2,
+        722,
+        227,
+        355
+      ],
+      "trim": [
+        69,
+        161
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "daa290f7d2518a60d51d800c0521b0774369e5080b37565fb6243cba0c5fb42c"
+    },
+    "res://assets/hero/hero_attack_air/f000.png": {
+      "page": 3,
+      "region": [
+        566,
+        442,
+        176,
+        213
+      ],
+      "trim": [
+        181,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "a3387306756cf4c32f3564e8d641d6f34cdd788117cba69821527c9cbae27722"
+    },
+    "res://assets/hero/hero_attack_air/f001.png": {
+      "page": 3,
+      "region": [
+        749,
+        2,
+        144,
+        213
+      ],
+      "trim": [
+        176,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "6ce74d8ae28abe6413402adfb46a9b7bc56b283478396dc951d4005e5fcf2d55"
+    },
+    "res://assets/hero/hero_attack_air/f002.png": {
+      "page": 3,
+      "region": [
+        456,
+        669,
+        179,
+        213
+      ],
+      "trim": [
+        170,
+        239
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e66243c7367a6415148ed4fcac49e14bb8b22ba9e61a8a54ef9dd7d220e23f5f"
+    },
+    "res://assets/hero/hero_attack_air/f003.png": {
+      "page": 3,
+      "region": [
+        566,
+        2,
+        179,
+        214
+      ],
+      "trim": [
+        172,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "8497f9e0a55f620b2d77e770e8b709940dc0db6eed197350fc0dfde67a484049"
+    },
+    "res://assets/hero/hero_attack_air/f004.png": {
+      "page": 3,
+      "region": [
+        332,
+        899,
+        155,
+        214
+      ],
+      "trim": [
+        175,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "6d781425d256c0323347ff71f7d7025859bb32461d2f41a3431e15f4408883b2"
+    },
+    "res://assets/hero/hero_attack_air/f005.png": {
+      "page": 3,
+      "region": [
+        281,
+        1127,
+        174,
+        214
+      ],
+      "trim": [
+        176,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "138b5c7029797d6f5629ae0cd54c1b930f6bb5d32fc13956ab8e864d9cd0c00b"
+    },
+    "res://assets/hero/hero_attack_air/f006.png": {
+      "page": 3,
+      "region": [
+        142,
+        1357,
+        176,
+        214
+      ],
+      "trim": [
+        176,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "84ebce21d5b425e65b1cf9e1f9299e535feb2acb3d70ea455324060e669d7ad7"
+    },
+    "res://assets/hero/hero_attack_air/f007.png": {
+      "page": 3,
+      "region": [
+        602,
+        220,
+        176,
+        213
+      ],
+      "trim": [
+        181,
+        238
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "a3387306756cf4c32f3564e8d641d6f34cdd788117cba69821527c9cbae27722"
+    },
+    "res://assets/hero/hero_attack_crouch/f000.png": {
+      "page": 3,
+      "region": [
+        1772,
+        2,
+        124,
+        144
+      ],
+      "trim": [
+        200,
+        307
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ede7eca5a60ec2e9930bf99949cd7e03ea7f778bb894fa7d3d726cb073130e84"
+    },
+    "res://assets/hero/hero_attack_crouch/f001.png": {
+      "page": 3,
+      "region": [
+        1640,
+        2,
+        128,
+        144
+      ],
+      "trim": [
+        197,
+        307
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2a44011244d85a0fda352920f88dae528699960ba38cfcac900f1d408e874e39"
+    },
+    "res://assets/hero/hero_attack_crouch/f002.png": {
+      "page": 3,
+      "region": [
+        1066,
+        886,
+        173,
+        145
+      ],
+      "trim": [
+        195,
+        306
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4f175e4cc06ee655007266bed41641021c6b5297ec3d62462f4cd4c64fde7927"
+    },
+    "res://assets/hero/hero_attack_crouch/f003.png": {
+      "page": 3,
+      "region": [
+        1066,
+        1035,
+        173,
+        143
+      ],
+      "trim": [
+        193,
+        309
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "0a7eeea7ea40fa8afe518c8dd63c4e3dbd50699e7a3d46f9a3727b989a91a820"
+    },
+    "res://assets/hero/hero_attack_crouch/f004.png": {
+      "page": 3,
+      "region": [
+        1454,
+        642,
+        119,
+        146
+      ],
+      "trim": [
+        202,
+        306
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "916f267ac54e4e0bd8087b8ffc64ba49c0b0a3af80dbfb6195d5895963df58b3"
+    },
+    "res://assets/hero/hero_attack_crouch/f005.png": {
+      "page": 3,
+      "region": [
+        1540,
+        478,
+        119,
+        146
+      ],
+      "trim": [
+        202,
+        306
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e2b22327f36b185a69462cbfdb0dc9690eb3ae29414b29985e6c8cca5a1ffe4d"
+    },
+    "res://assets/hero/hero_attack_crouch/f006.png": {
+      "page": 3,
+      "region": [
+        1592,
+        284,
+        121,
+        145
+      ],
+      "trim": [
+        201,
+        306
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "fdd6b6354a69a501f465685523149c7d64432dc9378d3cbba433747def00c96f"
+    },
+    "res://assets/hero/hero_attack_crouch/f007.png": {
+      "page": 3,
+      "region": [
+        1900,
+        2,
+        124,
+        144
+      ],
+      "trim": [
+        200,
+        307
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ede7eca5a60ec2e9930bf99949cd7e03ea7f778bb894fa7d3d726cb073130e84"
+    },
+    "res://assets/hero/hero_attack_ground/f000.png": {
+      "page": 2,
+      "region": [
+        1851,
+        965,
+        107,
+        228
+      ],
+      "trim": [
+        195,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "b1a9ca824ea22bd7350b655074580e9309757461f1013b61aae59e51ac562647"
+    },
+    "res://assets/hero/hero_attack_ground/f001.png": {
+      "page": 3,
+      "region": [
+        150,
+        683,
+        135,
+        221
+      ],
+      "trim": [
+        189,
+        230
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "5c18377b62102a7c1498a33d4255e088a3d1a48d58282441d3f25f1e2c41ed4d"
+    },
+    "res://assets/hero/hero_attack_ground/f002.png": {
+      "page": 3,
+      "region": [
+        2,
+        911,
+        159,
+        221
+      ],
+      "trim": [
+        189,
+        230
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "925b4ae4d847d56626b9f717bc69f10b9e61b5509dd15041e797ad2fd89c108b"
+    },
+    "res://assets/hero/hero_attack_ground/f003.png": {
+      "page": 3,
+      "region": [
+        267,
+        229,
+        164,
+        217
+      ],
+      "trim": [
+        190,
+        234
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "bf4d4b154bae878315c53201df23b95700f1983842fd28ae3d338ad17611502f"
+    },
+    "res://assets/hero/hero_attack_ground/f004.png": {
+      "page": 3,
+      "region": [
+        2,
+        458,
+        131,
+        223
+      ],
+      "trim": [
+        190,
+        229
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "459567ced5d0b9c41674bf256182f14e6df1d11e6fa374126c9204dea6f38cde"
+    },
+    "res://assets/hero/hero_attack_ground/f005.png": {
+      "page": 3,
+      "region": [
+        137,
+        457,
+        120,
+        222
+      ],
+      "trim": [
+        194,
+        229
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1db88b242d8781da1653a36bb492d8e906b0b75117bddcbcd90ab26d294d9e5c"
+    },
+    "res://assets/hero/hero_attack_ground/f006.png": {
+      "page": 2,
+      "region": [
+        1502,
+        1615,
+        117,
+        226
+      ],
+      "trim": [
+        204,
+        225
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "f44286c9d2fd09ec84cc3ed1587fc9609fb06925abfe069905f72b46459c4879"
+    },
+    "res://assets/hero/hero_attack_ground/f007.png": {
+      "page": 2,
+      "region": [
+        1738,
+        965,
+        109,
+        228
+      ],
+      "trim": [
+        202,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "b90f5750c8b7507466d8a730bbb87333989b2ea3d9438bebb95bd73d6838b21c"
+    },
+    "res://assets/hero/hero_crouch_enter/f000.png": {
+      "page": 1,
+      "region": [
+        1930,
+        1582,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_crouch_enter/f001.png": {
+      "page": 3,
+      "region": [
+        1112,
+        354,
+        114,
+        196
+      ],
+      "trim": [
+        195,
+        256
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "550986a39a22adf607ec84c886b72127347e5bc9893993cfed45018e43f68d7e"
+    },
+    "res://assets/hero/hero_crouch_enter/f002.png": {
+      "page": 3,
+      "region": [
+        1348,
+        326,
+        111,
+        160
+      ],
+      "trim": [
+        193,
+        291
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "dca166e158fc12b67ded0b757042ba586507f36fe9230e39d3032d73bdc07dd1"
+    },
+    "res://assets/hero/hero_crouch_enter/f003.png": {
+      "page": 3,
+      "region": [
+        1392,
+        846,
+        125,
+        148
+      ],
+      "trim": [
+        200,
+        304
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
+    },
+    "res://assets/hero/hero_crouch_exit/f000.png": {
+      "page": 3,
+      "region": [
+        1411,
+        490,
+        125,
+        148
+      ],
+      "trim": [
+        200,
+        304
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
+    },
+    "res://assets/hero/hero_crouch_exit/f001.png": {
+      "page": 3,
+      "region": [
+        1312,
+        1506,
+        111,
+        160
+      ],
+      "trim": [
+        193,
+        291
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "dca166e158fc12b67ded0b757042ba586507f36fe9230e39d3032d73bdc07dd1"
+    },
+    "res://assets/hero/hero_crouch_exit/f002.png": {
+      "page": 3,
+      "region": [
+        1230,
+        354,
+        114,
+        196
+      ],
+      "trim": [
+        195,
+        256
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "550986a39a22adf607ec84c886b72127347e5bc9893993cfed45018e43f68d7e"
+    },
+    "res://assets/hero/hero_crouch_exit/f003.png": {
+      "page": 1,
+      "region": [
+        1930,
+        1816,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_crouch_idle/f000.png": {
+      "page": 3,
+      "region": [
+        1463,
+        326,
+        125,
+        148
+      ],
+      "trim": [
+        200,
+        304
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
+    },
+    "res://assets/hero/hero_crouch_idle/f001.png": {
+      "page": 3,
+      "region": [
+        1243,
+        1024,
+        125,
+        149
+      ],
+      "trim": [
+        200,
+        303
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "de07bd32bb84054064cf384d36320fbca810dce682736212b4895cf9236d97b6"
+    },
+    "res://assets/hero/hero_crouch_idle/f002.png": {
+      "page": 3,
+      "region": [
+        1325,
+        693,
+        125,
+        149
+      ],
+      "trim": [
+        200,
+        303
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e7a3cf8ffc4cad238fb086797877dcc09db8ea59824c67f2f5526270adb59a04"
+    },
+    "res://assets/hero/hero_crouch_idle/f003.png": {
+      "page": 3,
+      "region": [
+        1354,
+        1177,
+        125,
+        149
+      ],
+      "trim": [
+        200,
+        303
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e7a3cf8ffc4cad238fb086797877dcc09db8ea59824c67f2f5526270adb59a04"
+    },
+    "res://assets/hero/hero_crouch_idle/f004.png": {
+      "page": 3,
+      "region": [
+        1372,
+        1024,
+        125,
+        149
+      ],
+      "trim": [
+        200,
+        303
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "de07bd32bb84054064cf384d36320fbca810dce682736212b4895cf9236d97b6"
+    },
+    "res://assets/hero/hero_crouch_idle/f005.png": {
+      "page": 3,
+      "region": [
+        1511,
+        132,
+        125,
+        148
+      ],
+      "trim": [
+        200,
+        304
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
+    },
+    "res://assets/hero/hero_death/f000.png": {
+      "page": 3,
+      "region": [
+        2,
+        1136,
+        136,
+        217
+      ],
+      "trim": [
+        186,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ba732bf46127b087f29c33186febcd2b2dc8977709dcac2891ae8a2b5f36d1aa"
+    },
+    "res://assets/hero/hero_death/f001.png": {
+      "page": 2,
+      "region": [
+        1510,
+        159,
+        249,
+        162
+      ],
+      "trim": [
+        136,
+        289
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32d66c5e63d9626feea3b5b0a47e00d1dd79631de7b211c2b3246ceb3c835610"
+    },
+    "res://assets/hero/hero_death/f002.png": {
+      "page": 2,
+      "region": [
+        1763,
+        168,
+        249,
+        161
+      ],
+      "trim": [
+        136,
+        290
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "6eb3471621c72b8d5f5fd1a41482a0bf1b52708bd76f72257b13267519abb79c"
+    },
+    "res://assets/hero/hero_death/f003.png": {
+      "page": 2,
+      "region": [
+        993,
+        1232,
+        262,
+        110
+      ],
+      "trim": [
+        136,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "27b972552252fd749b75200223fb908678396252501dc0701a080635052ad31e"
+    },
+    "res://assets/hero/hero_death/f004.png": {
+      "page": 2,
+      "region": [
+        996,
+        718,
+        262,
+        110
+      ],
+      "trim": [
+        138,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9d3ed23f2cff25ef19a20ae024da1c92e7b68bdb9d6c709118976fad03daa753"
+    },
+    "res://assets/hero/hero_death/f005.png": {
+      "page": 2,
+      "region": [
+        713,
+        799,
+        276,
+        75
+      ],
+      "trim": [
+        104,
+        376
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e77f2a9ea6e30a5f03b37fd281b79c878e821def4fdb199655a12bc445dbbd28"
+    },
+    "res://assets/hero/hero_death/f006.png": {
+      "page": 2,
+      "region": [
+        1238,
+        81,
+        276,
+        74
+      ],
+      "trim": [
+        104,
+        377
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "aacfc099eeb4210cd738d7f177d0b05d91b979e42641a7dae15e8dade8de7402"
+    },
+    "res://assets/hero/hero_death/f007.png": {
+      "page": 2,
+      "region": [
+        958,
+        2,
+        276,
+        75
+      ],
+      "trim": [
+        104,
+        376
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "63f94519d2f0254307dcc161828458396172f8c5ab9290e0fbd38b8a54138788"
+    },
+    "res://assets/hero/hero_death/f008.png": {
+      "page": 2,
+      "region": [
+        958,
+        81,
+        276,
+        75
+      ],
+      "trim": [
+        104,
+        376
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9631e363f6adeedeb7ae47bf3a64de8b2afbce04651405d9173556d9cbc5d4cf"
+    },
+    "res://assets/hero/hero_death/f009.png": {
+      "page": 2,
+      "region": [
+        1238,
+        2,
+        276,
+        75
+      ],
+      "trim": [
+        104,
+        376
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "e77f2a9ea6e30a5f03b37fd281b79c878e821def4fdb199655a12bc445dbbd28"
+    },
+    "res://assets/hero/hero_fall/f000.png": {
+      "page": 2,
+      "region": [
+        1623,
+        1428,
+        155,
+        224
+      ],
+      "trim": [
+        180,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2eb7e03776b2b32740b1d0582e9127be14d9e57b25067b80d941cb2eaa5b8415"
+    },
+    "res://assets/hero/hero_fall/f001.png": {
+      "page": 2,
+      "region": [
+        1782,
+        1428,
+        155,
+        224
+      ],
+      "trim": [
+        180,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "908256e556b0a38338c93d1a909b06dda25e66a98e66c5ba48366b8a5775739b"
+    },
+    "res://assets/hero/hero_fall/f002.png": {
+      "page": 3,
+      "region": [
+        2,
+        2,
+        154,
+        224
+      ],
+      "trim": [
+        181,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "7c912a7d7d02a0f27eb07b4eb14740f46351e8666049d49ea0abfcb2ff5e3048"
+    },
+    "res://assets/hero/hero_fall/f003.png": {
+      "page": 2,
+      "region": [
+        1623,
+        1656,
+        155,
+        224
+      ],
+      "trim": [
+        180,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "d99cd34628d60aa51c702665cde99384e78f294368e15a12f5e1d8cd32e9b811"
+    },
+    "res://assets/hero/hero_get_up/f000.png": {
+      "page": 2,
+      "region": [
+        1118,
+        832,
+        262,
+        110
+      ],
+      "trim": [
+        138,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9d3ed23f2cff25ef19a20ae024da1c92e7b68bdb9d6c709118976fad03daa753"
+    },
+    "res://assets/hero/hero_get_up/f001.png": {
+      "page": 3,
+      "region": [
+        1312,
+        202,
+        195,
+        120
+      ],
+      "trim": [
+        164,
+        331
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2778db6395f8fcaa7b8ceec4bff31ad413a5780df726a406ef67b9d82c435255"
+    },
+    "res://assets/hero/hero_get_up/f002.png": {
+      "page": 3,
+      "region": [
+        1245,
+        554,
+        162,
+        135
+      ],
+      "trim": [
+        184,
+        316
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4d95c5e34ed14e18557849842f5de3531d193db6591ef6652a7975a5d82e65a8"
+    },
+    "res://assets/hero/hero_get_up/f003.png": {
+      "page": 3,
+      "region": [
+        1286,
+        1356,
+        167,
+        146
+      ],
+      "trim": [
+        179,
+        306
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "78aace26afe722b8ea4942b9e3ae0bcdd8606f2cff6bcb4174f99e7deebc8000"
+    },
+    "res://assets/hero/hero_get_up/f004.png": {
+      "page": 3,
+      "region": [
+        1127,
+        1402,
+        155,
+        180
+      ],
+      "trim": [
+        187,
+        271
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2122d162eb194a43218de024b5f9a2be5284377f335a5e1d7049bca56908c7df"
+    },
+    "res://assets/hero/hero_get_up/f005.png": {
+      "page": 2,
+      "region": [
+        1536,
+        450,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_hurt_recoil/f000.png": {
+      "page": 2,
+      "region": [
+        1644,
+        450,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_hurt_recoil/f001.png": {
+      "page": 3,
+      "region": [
+        2,
+        1357,
+        136,
+        217
+      ],
+      "trim": [
+        186,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ba732bf46127b087f29c33186febcd2b2dc8977709dcac2891ae8a2b5f36d1aa"
+    },
+    "res://assets/hero/hero_hurt_recoil/f002.png": {
+      "page": 3,
+      "region": [
+        142,
+        1136,
+        135,
+        217
+      ],
+      "trim": [
+        189,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "f6bc9cb46b5820375b7a65800e26b52783c7a93c3f70e5f3fe439fee30bd6693"
+    },
+    "res://assets/hero/hero_hurt_recoil/f003.png": {
+      "page": 1,
+      "region": [
+        1930,
+        1348,
+        105,
+        230
+      ],
+      "trim": [
+        196,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "432c0689f031f86398d5c7c11dac12f42dab4db21cd220212235b7c7709aa572"
+    },
+    "res://assets/hero/hero_idle/f000.png": {
+      "page": 0,
+      "region": [
+        454,
+        1272,
+        198,
+        415
+      ],
+      "trim": [
+        195,
+        40
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "456b942d178c794a4c3330d2b5b37d7eab64d4355b0598dbba6ab95e6f8997fe"
+    },
+    "res://assets/hero/hero_idle/f001.png": {
+      "page": 0,
+      "region": [
+        252,
+        1274,
+        198,
+        416
+      ],
+      "trim": [
+        195,
+        39
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "425a9abeee1d5400b40d6554c085ce6463b125ffcb855b0e130f6a402fe79614"
+    },
+    "res://assets/hero/hero_idle/f002.png": {
+      "page": 0,
+      "region": [
+        403,
+        432,
+        198,
+        416
+      ],
+      "trim": [
+        195,
+        39
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "31dd288e24dd2879135836c573b768694ca063d3967231ccbe3e65455b607f2f"
+    },
+    "res://assets/hero/hero_idle/f003.png": {
+      "page": 0,
+      "region": [
+        201,
+        432,
+        198,
+        417
+      ],
+      "trim": [
+        195,
+        38
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "66d1c4b01d2f0d1c39e4bff203c84595e362d07d057b1aa5f40c755893a14bef"
+    },
+    "res://assets/hero/hero_idle/f004.png": {
+      "page": 0,
+      "region": [
+        201,
+        853,
+        198,
+        417
+      ],
+      "trim": [
+        195,
+        38
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "66d1c4b01d2f0d1c39e4bff203c84595e362d07d057b1aa5f40c755893a14bef"
+    },
+    "res://assets/hero/hero_idle/f005.png": {
+      "page": 0,
+      "region": [
+        403,
+        852,
+        198,
+        416
+      ],
+      "trim": [
+        195,
+        39
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "31dd288e24dd2879135836c573b768694ca063d3967231ccbe3e65455b607f2f"
+    },
+    "res://assets/hero/hero_idle/f006.png": {
+      "page": 0,
+      "region": [
+        507,
+        2,
+        198,
+        416
+      ],
+      "trim": [
+        195,
+        39
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "425a9abeee1d5400b40d6554c085ce6463b125ffcb855b0e130f6a402fe79614"
+    },
+    "res://assets/hero/hero_idle/f007.png": {
+      "page": 0,
+      "region": [
+        605,
+        422,
+        198,
+        415
+      ],
+      "trim": [
+        195,
+        40
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "456b942d178c794a4c3330d2b5b37d7eab64d4355b0598dbba6ab95e6f8997fe"
+    },
+    "res://assets/hero/hero_jump_apex/f000.png": {
+      "page": 3,
+      "region": [
+        945,
+        1681,
+        175,
+        187
+      ],
+      "trim": [
+        181,
+        265
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "46dbc4f0d93fa680c4ad6fff005dbb76acf92bc995f1f2dcb903343408ba09fa"
+    },
+    "res://assets/hero/hero_jump_apex/f001.png": {
+      "page": 3,
+      "region": [
+        165,
+        908,
+        163,
+        215
+      ],
+      "trim": [
+        178,
+        237
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
+    },
+    "res://assets/hero/hero_jump_apex/f002.png": {
+      "page": 2,
+      "region": [
+        1782,
+        1656,
+        155,
+        224
+      ],
+      "trim": [
+        180,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "2eb7e03776b2b32740b1d0582e9127be14d9e57b25067b80d941cb2eaa5b8415"
+    },
+    "res://assets/hero/hero_jump_rise/f000.png": {
+      "page": 3,
+      "region": [
+        289,
+        680,
+        163,
+        215
+      ],
+      "trim": [
+        178,
+        237
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
+    },
+    "res://assets/hero/hero_jump_rise/f001.png": {
+      "page": 3,
+      "region": [
+        746,
+        437,
+        162,
+        201
+      ],
+      "trim": [
+        179,
+        251
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "cc5222a0e008bc826130b0cf9de5e97b357e53d227d8f5233598aafef351e59a"
+    },
+    "res://assets/hero/hero_jump_rise/f002.png": {
+      "page": 3,
+      "region": [
+        952,
+        1211,
+        173,
+        187
+      ],
+      "trim": [
+        183,
+        265
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "97cbd10c12ccf3eadd15184569e9769dae0709d1291e7227a34d09b0ee10b9fb"
+    },
+    "res://assets/hero/hero_jump_rise/f003.png": {
+      "page": 3,
+      "region": [
+        948,
+        1439,
+        175,
+        187
+      ],
+      "trim": [
+        181,
+        265
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "46dbc4f0d93fa680c4ad6fff005dbb76acf92bc995f1f2dcb903343408ba09fa"
+    },
+    "res://assets/hero/hero_jump_takeoff/f000.png": {
+      "page": 2,
+      "region": [
+        1264,
+        946,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_jump_takeoff/f001.png": {
+      "page": 3,
+      "region": [
+        1187,
+        2,
+        114,
+        196
+      ],
+      "trim": [
+        195,
+        256
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "550986a39a22adf607ec84c886b72127347e5bc9893993cfed45018e43f68d7e"
+    },
+    "res://assets/hero/hero_jump_takeoff/f002.png": {
+      "page": 3,
+      "region": [
+        399,
+        450,
+        163,
+        215
+      ],
+      "trim": [
+        178,
+        237
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
+    },
+    "res://assets/hero/hero_knockback/f000.png": {
+      "page": 2,
+      "region": [
+        1938,
+        732,
+        105,
+        229
+      ],
+      "trim": [
+        196,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1655b008e855b3c245d7efa084210d377ca282b761a04a8c5904dbbf5a9dd879"
+    },
+    "res://assets/hero/hero_knockback/f001.png": {
+      "page": 3,
+      "region": [
+        2,
+        1578,
+        136,
+        217
+      ],
+      "trim": [
+        186,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ba732bf46127b087f29c33186febcd2b2dc8977709dcac2891ae8a2b5f36d1aa"
+    },
+    "res://assets/hero/hero_knockback/f002.png": {
+      "page": 3,
+      "region": [
+        423,
+        2,
+        139,
+        217
+      ],
+      "trim": [
+        182,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "bd9cdeaa2343dfd27cb5164bc03bb406b7bcf99caccf48ae3905eea20498ed4e"
+    },
+    "res://assets/hero/hero_knockback/f003.png": {
+      "page": 3,
+      "region": [
+        277,
+        2,
+        142,
+        217
+      ],
+      "trim": [
+        178,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "10016a0255788154b57cf457ee94ca89f46674e0ec577b225a0166fad25aa73b"
+    },
+    "res://assets/hero/hero_knockdown/f000.png": {
+      "page": 3,
+      "region": [
+        2,
+        1799,
+        136,
+        217
+      ],
+      "trim": [
+        186,
+        235
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ba732bf46127b087f29c33186febcd2b2dc8977709dcac2891ae8a2b5f36d1aa"
+    },
+    "res://assets/hero/hero_knockdown/f001.png": {
+      "page": 2,
+      "region": [
+        1767,
+        2,
+        249,
+        162
+      ],
+      "trim": [
+        136,
+        289
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32d66c5e63d9626feea3b5b0a47e00d1dd79631de7b211c2b3246ceb3c835610"
+    },
+    "res://assets/hero/hero_knockdown/f002.png": {
+      "page": 2,
+      "region": [
+        1767,
+        333,
+        249,
+        161
+      ],
+      "trim": [
+        136,
+        290
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "6eb3471621c72b8d5f5fd1a41482a0bf1b52708bd76f72257b13267519abb79c"
+    },
+    "res://assets/hero/hero_knockdown/f003.png": {
+      "page": 2,
+      "region": [
+        1262,
+        716,
+        262,
+        110
+      ],
+      "trim": [
+        136,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "27b972552252fd749b75200223fb908678396252501dc0701a080635052ad31e"
+    },
+    "res://assets/hero/hero_knockdown/f004.png": {
+      "page": 2,
+      "region": [
+        1270,
+        537,
+        262,
+        110
+      ],
+      "trim": [
+        137,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1347dcb5bba1bcff0c015e678b7bd4b926fa85d3830903d7bca10c3d3bba4b36"
+    },
+    "res://assets/hero/hero_knockdown/f005.png": {
+      "page": 2,
+      "region": [
+        1501,
+        336,
+        262,
+        110
+      ],
+      "trim": [
+        138,
+        341
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "9d3ed23f2cff25ef19a20ae024da1c92e7b68bdb9d6c709118976fad03daa753"
+    },
+    "res://assets/hero/hero_land/f000.png": {
+      "page": 3,
+      "region": [
+        435,
+        223,
+        163,
+        215
+      ],
+      "trim": [
+        178,
+        237
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
+    },
+    "res://assets/hero/hero_land/f001.png": {
+      "page": 3,
+      "region": [
+        1305,
+        2,
+        114,
+        196
+      ],
+      "trim": [
+        195,
+        256
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "550986a39a22adf607ec84c886b72127347e5bc9893993cfed45018e43f68d7e"
+    },
+    "res://assets/hero/hero_land/f002.png": {
+      "page": 2,
+      "region": [
+        1618,
+        1198,
+        114,
+        201
+      ],
+      "trim": [
+        195,
+        251
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "91c2e0115fc11703afdebc4ee87ba14ffe100be29817c99c5fe8700d6f592c03"
+    },
+    "res://assets/hero/hero_land/f003.png": {
+      "page": 2,
+      "region": [
+        1372,
+        946,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_start_move/f000.png": {
+      "page": 0,
+      "region": [
+        709,
+        2,
+        198,
+        415
+      ],
+      "trim": [
+        195,
+        40
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "456b942d178c794a4c3330d2b5b37d7eab64d4355b0598dbba6ab95e6f8997fe"
+    },
+    "res://assets/hero/hero_start_move/f001.png": {
+      "page": 2,
+      "region": [
+        1480,
+        917,
+        136,
+        229
+      ],
+      "trim": [
+        179,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "fe6063db32d7d7118ea44d8baa9b229127085228211a8851ad82acaf5f9c3fc0"
+    },
+    "res://assets/hero/hero_start_move/f002.png": {
+      "page": 2,
+      "region": [
+        564,
+        603,
+        145,
+        289
+      ],
+      "trim": [
+        184,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "b0cefe06cc59d1664733d9f2d5b5035e46a3bcc78812e75e79e0f369993a81f0"
+    },
+    "res://assets/hero/hero_stop_move/f000.png": {
+      "page": 2,
+      "region": [
+        1738,
+        1197,
+        141,
+        227
+      ],
+      "trim": [
+        186,
+        224
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "fb8dde37f7e7fb1da6f4b90ee58e5cc2b1d266531a2b4234cf9af5b8f927540b"
+    },
+    "res://assets/hero/hero_stop_move/f001.png": {
+      "page": 3,
+      "region": [
+        135,
+        230,
+        128,
+        223
+      ],
+      "trim": [
+        198,
+        229
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "1f9cedc7e866f73133509088027ae500a621651d9547681551323ce66f88279e"
+    },
+    "res://assets/hero/hero_stop_move/f002.png": {
+      "page": 2,
+      "region": [
+        1752,
+        498,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_turn/f000.png": {
+      "page": 2,
+      "region": [
+        1502,
+        1150,
+        104,
+        229
+      ],
+      "trim": [
+        197,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "86f7003710dd6b791d40aee02a601f20d250cfd7a62b104603d962b672eb344d"
+    },
+    "res://assets/hero/hero_turn/f001.png": {
+      "page": 3,
+      "region": [
+        261,
+        457,
+        134,
+        219
+      ],
+      "trim": [
+        189,
+        232
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "c8ea06f5b09994b5cd8c413c8822aa906274786af3400e32d2082f9b78db6de1"
+    },
+    "res://assets/hero/hero_turn/f002.png": {
+      "page": 2,
+      "region": [
+        1860,
+        498,
+        104,
+        230
+      ],
+      "trim": [
+        197,
+        222
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
+    },
+    "res://assets/hero/hero_walk/f000.png": {
+      "page": 2,
+      "region": [
+        698,
+        896,
+        145,
+        289
+      ],
+      "trim": [
+        184,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "395c3612efe5104e72c2f9ceea6fed34c74fbc7ff8f59c872d641849fb58490e"
+    },
+    "res://assets/hero/hero_walk/f001.png": {
+      "page": 2,
+      "region": [
+        1497,
+        1383,
+        117,
+        228
+      ],
+      "trim": [
+        192,
+        224
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "7c92d0b4498c861a60aa7f1ecf8e71aac5b13031eea92e8c7be5e08b059faa01"
+    },
+    "res://assets/hero/hero_walk/f002.png": {
+      "page": 3,
+      "region": [
+        160,
+        2,
+        113,
+        223
+      ],
+      "trim": [
+        199,
+        229
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "fa708d40cd71049cc15cdcb63154228955311aa78ad1c0b22da5dc88efefbf59"
+    },
+    "res://assets/hero/hero_walk/f003.png": {
+      "page": 3,
+      "region": [
+        2,
+        685,
+        144,
+        222
+      ],
+      "trim": [
+        193,
+        229
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "bc581bc35cc86c9aea4537446a6c98fe8d5dfac0485e8e9af6d15e5d45538f92"
+    },
+    "res://assets/hero/hero_walk/f004.png": {
+      "page": 3,
+      "region": [
+        2,
+        230,
+        129,
+        224
+      ],
+      "trim": [
+        182,
+        228
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "089e67c0dae5f390bc6cb30169c3534fd20e2d1e78912dc89b65141ff6af9abc"
+    },
+    "res://assets/hero/hero_walk/f005.png": {
+      "page": 2,
+      "region": [
+        1620,
+        965,
+        114,
+        229
+      ],
+      "trim": [
+        191,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "ed80357a03908f81dc7919cc4f8851fb2738a5799525093c3842649273c62833"
+    },
+    "res://assets/hero/hero_walk/f006.png": {
+      "page": 2,
+      "region": [
+        1814,
+        732,
+        120,
+        229
+      ],
+      "trim": [
+        191,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "b0f706ddd7b22a9bc4318ae3d49f99d496129a0d15c0b4d3fbe7e4498980503b"
+    },
+    "res://assets/hero/hero_walk/f007.png": {
+      "page": 2,
+      "region": [
+        1674,
+        732,
+        136,
+        229
+      ],
+      "trim": [
+        187,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "44c805ffecf0125cca3d1a327fb4ae53abfb79c6ed3e86590ecc2ed34f9fed58"
+    },
+    "res://assets/hero/hero_walk/f008.png": {
+      "page": 2,
+      "region": [
+        1528,
+        684,
+        142,
+        229
+      ],
+      "trim": [
+        183,
+        223
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "c81802fa22cd9821158dd3cf5b3436b1582546c3baf43f6779fdcb6fa42d6207"
+    },
+    "res://assets/hero/hero_walk/f009.png": {
+      "page": 2,
+      "region": [
+        1883,
+        1197,
+        137,
+        227
+      ],
+      "trim": [
+        190,
+        225
+      ],
+      "canvas": [
+        512,
+        512
+      ],
+      "rgba_sha256": "72a603dc443b44b85da449348c0f4c016dd941735494f11fae958efd7c92aaca"
+    },
+    "res://assets/hero/whip_attack_air/f000.png": {
+      "page": 2,
+      "region": [
+        1438,
+        1981,
+        39,
+        65
+      ],
+      "trim": [
+        205,
+        326
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "671be32d09ef944f0d677b977f8adaab216a8d776d1413a8db403cd2da435592"
+    },
+    "res://assets/hero/whip_attack_air/f001.png": {
+      "page": 3,
+      "region": [
+        897,
+        886,
+        164,
+        57
+      ],
+      "trim": [
+        54,
+        211
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "8e52a9c2cf32f5ef5c6bac8b2ed94532d57b076f3c735c23b677d56128c0c51e"
+    },
+    "res://assets/hero/whip_attack_air/f002.png": {
+      "page": 1,
+      "region": [
+        2,
+        1945,
+        291,
+        59
+      ],
+      "trim": [
+        312,
+        274
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "96d0a31b908ad410809306d0b47e48c0f026b6a15d484506d9058eac4d088b79"
+    },
+    "res://assets/hero/whip_attack_air/f003.png": {
+      "page": 0,
+      "region": [
+        1644,
+        1970,
+        301,
+        62
+      ],
+      "trim": [
+        312,
+        276
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "8ea5c3f34f4e6b916d2a116fdb1bdd3ad03afa9efd72f34587c6d55a7bbec076"
+    },
+    "res://assets/hero/whip_attack_air/f004.png": {
+      "page": 2,
+      "region": [
+        1518,
+        2,
+        213,
+        90
+      ],
+      "trim": [
+        261,
+        315
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "aba7b452889e2eb5ab9c0cc21b5593c0042082f6ad00e9f1372cbd88c4dc0b7a"
+    },
+    "res://assets/hero/whip_attack_air/f005.png": {
+      "page": 3,
+      "region": [
+        987,
+        232,
+        120,
+        86
+      ],
+      "trim": [
+        259,
+        312
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "da8b1ab1070d501e86f90d80bd8386378666413187bbd93c9bc32c4ed3ce6368"
+    },
+    "res://assets/hero/whip_attack_air/f006.png": {
+      "page": 0,
+      "region": [
+        581,
+        1777,
+        66,
+        77
+      ],
+      "trim": [
+        206,
+        327
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "dc8f7541b0de1b907bf322a54ecc15f3ae2368d3661e1de64e6ed8cf037d1837"
+    },
+    "res://assets/hero/whip_attack_air/f007.png": {
+      "page": 2,
+      "region": [
+        1481,
+        1981,
+        39,
+        65
+      ],
+      "trim": [
+        205,
+        326
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "671be32d09ef944f0d677b977f8adaab216a8d776d1413a8db403cd2da435592"
+    },
+    "res://assets/hero/whip_attack_crouch/f000.png": {
+      "page": 0,
+      "region": [
+        605,
+        1208,
+        47,
+        53
+      ],
+      "trim": [
+        191,
+        394
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "9eb80b3f0cba061d8e57dadf4235599537911a0220292e748b60ee371a272b83"
+    },
+    "res://assets/hero/whip_attack_crouch/f001.png": {
+      "page": 1,
+      "region": [
+        1298,
+        1837,
+        159,
+        60
+      ],
+      "trim": [
+        74,
+        269
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "06e1d346122b2821dd53ca1cf2b8e0361a5a8a5e9c0f7ccaf5a0a5ac34e4acbd"
+    },
+    "res://assets/hero/whip_attack_crouch/f002.png": {
+      "page": 2,
+      "region": [
+        2,
+        1990,
+        277,
+        51
+      ],
+      "trim": [
+        326,
+        342
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "c10c68d4fd1ede20e538b087e806848fbe03a080d161a9bf2a9fd64d38556bb4"
+    },
+    "res://assets/hero/whip_attack_crouch/f003.png": {
+      "page": 2,
+      "region": [
+        719,
+        1920,
+        287,
+        50
+      ],
+      "trim": [
+        326,
+        347
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "64e965e3f7c1b3011c5379b1321b14e6022057c1286aa8a45112cdcab2b5aef5"
+    },
+    "res://assets/hero/whip_attack_crouch/f004.png": {
+      "page": 2,
+      "region": [
+        719,
+        1974,
+        219,
+        72
+      ],
+      "trim": [
+        264,
+        369
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "72b93cce7d73f27df33e126a1468fa3af0e7f64d21742d1a515176439f27ae1f"
+    },
+    "res://assets/hero/whip_attack_crouch/f005.png": {
+      "page": 3,
+      "region": [
+        1312,
+        1670,
+        143,
+        67
+      ],
+      "trim": [
+        254,
+        378
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "7ed2ff8baa090756d3666816037da5b7e40ad56227fe260653d32825aed784b4"
+    },
+    "res://assets/hero/whip_attack_crouch/f006.png": {
+      "page": 0,
+      "region": [
+        1252,
+        1508,
+        52,
+        59
+      ],
+      "trim": [
+        206,
+        391
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "0f35585bbe7f665dd140a5bc373368d0cc24ae1d9bf4950070918eb1b2b775b5"
+    },
+    "res://assets/hero/whip_attack_crouch/f007.png": {
+      "page": 0,
+      "region": [
+        1038,
+        727,
+        47,
+        53
+      ],
+      "trim": [
+        191,
+        394
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "9eb80b3f0cba061d8e57dadf4235599537911a0220292e748b60ee371a272b83"
+    },
+    "res://assets/hero/whip_attack_ground/f000.png": {
+      "page": 2,
+      "region": [
+        942,
+        1974,
+        38,
+        71
+      ],
+      "trim": [
+        213,
+        326
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "cebfa9b7b0170b2213c15efdbc165c2c32c12ef2552eb95cc209c9db49ea80d5"
+    },
+    "res://assets/hero/whip_attack_ground/f001.png": {
+      "page": 0,
+      "region": [
+        1090,
+        1508,
+        158,
+        57
+      ],
+      "trim": [
+        70,
+        189
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "29018cd1c4df1e81948e6b72fa39292f3055365f809766aae49cc34afbf3d64a"
+    },
+    "res://assets/hero/whip_attack_ground/f002.png": {
+      "page": 0,
+      "region": [
+        904,
+        1934,
+        287,
+        74
+      ],
+      "trim": [
+        316,
+        258
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "1af59ae7cc6610863b66e43aef1b704da2cb12b8239484287db9434f94a4f75d"
+    },
+    "res://assets/hero/whip_attack_ground/f003.png": {
+      "page": 1,
+      "region": [
+        326,
+        1936,
+        293,
+        73
+      ],
+      "trim": [
+        320,
+        264
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "60ecdb58f7a23696da72d6ed2fb056496a4686c21018c6e280478d2a85b8de44"
+    },
+    "res://assets/hero/whip_attack_ground/f004.png": {
+      "page": 3,
+      "region": [
+        552,
+        1559,
+        191,
+        80
+      ],
+      "trim": [
+        277,
+        326
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "510ab40dc65dd19f38dd1504ab259c32ee7ef71a1871c2076235f88b08a458dc"
+    },
+    "res://assets/hero/whip_attack_ground/f005.png": {
+      "page": 3,
+      "region": [
+        697,
+        967,
+        145,
+        78
+      ],
+      "trim": [
+        213,
+        334
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "4b882101028346c3c4361284612f98867d0c08d92c47941a6432233155341290"
+    },
+    "res://assets/hero/whip_attack_ground/f006.png": {
+      "page": 0,
+      "region": [
+        581,
+        1691,
+        67,
+        82
+      ],
+      "trim": [
+        210,
+        332
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "a2036517c5d719493690043ace90817aa5107a4a2f60e72730e5277eb5310d08"
+    },
+    "res://assets/hero/whip_attack_ground/f007.png": {
+      "page": 0,
+      "region": [
+        581,
+        1858,
+        38,
+        71
+      ],
+      "trim": [
+        212,
+        330
+      ],
+      "canvas": [
+        768,
+        512
+      ],
+      "rgba_sha256": "3126b3b6e2ecc3a6886d6608e865fab147a4ee7f93fbec9c871309cc7289c0d4"
+    },
+    "res://assets/props/prop_checkpoint/f000.png": {
+      "page": 4,
+      "region": [
+        2,
+        1249,
+        165,
+        252
+      ],
+      "trim": [
+        14,
+        39
+      ],
+      "canvas": [
+        192,
+        320
+      ],
+      "rgba_sha256": "aaee1a88b723113750355b528539c321afa975343c0d87caf58de642ba2c78d8"
+    },
+    "res://assets/props/prop_checkpoint/f001.png": {
+      "page": 4,
+      "region": [
+        323,
+        2,
+        165,
+        253
+      ],
+      "trim": [
+        14,
+        39
+      ],
+      "canvas": [
+        192,
+        320
+      ],
+      "rgba_sha256": "7cb6ce79ee7b6da263b3898de34aaaac2c4154fa367b4f7a3ce2e0a388454091"
+    },
+    "res://assets/pursuer/pursuer_alert/f000.png": {
+      "page": 2,
+      "region": [
+        1853,
+        1884,
+        191,
+        128
+      ],
+      "trim": [
+        87,
+        100
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "edcd64e6fc1b89b42185e22a38e9e97340fd0e25ab67ad6af14f668369746239"
+    },
+    "res://assets/pursuer/pursuer_alert/f001.png": {
+      "page": 3,
+      "region": [
+        1135,
+        1772,
+        176,
+        157
+      ],
+      "trim": [
+        93,
+        71
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "897048778233820277e8a98c6b9fdedd41104d0c9d6fc2a29370e3b4c766a783"
+    },
+    "res://assets/pursuer/pursuer_alert/f002.png": {
+      "page": 3,
+      "region": [
+        1124,
+        1630,
+        184,
+        138
+      ],
+      "trim": [
+        89,
+        90
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "e39b984b28dcc6e86eb0be0fc662ba3243efb2767cd3790d6df1244128bfd529"
+    },
+    "res://assets/pursuer/pursuer_alert/f003.png": {
+      "page": 3,
+      "region": [
+        845,
+        642,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f000.png": {
+      "page": 3,
+      "region": [
+        745,
+        1788,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f001.png": {
+      "page": 3,
+      "region": [
+        142,
+        1698,
+        199,
+        118
+      ],
+      "trim": [
+        82,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "2ad27366c46c84f0dedf8efea3fcd8c9ee754d7b8cab8fc80fd18eb8a3ef870a"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f002.png": {
+      "page": 2,
+      "region": [
+        1010,
+        1886,
+        210,
+        118
+      ],
+      "trim": [
+        71,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "b4819603a81283a059210b6e30ed29a71596ce45ab611e9b989bf59b17138761"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f003.png": {
+      "page": 2,
+      "region": [
+        1646,
+        1884,
+        203,
+        119
+      ],
+      "trim": [
+        78,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "58afdbd6bcd7906a3b58dbe388b709bf759b9a140594c266cfa22a669fa64ed7"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f004.png": {
+      "page": 3,
+      "region": [
+        745,
+        1910,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "fa557d3f2f00d055c27027331c30f4fb88010ceaa619b94b8a7935808ed2e10e"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f005.png": {
+      "page": 3,
+      "region": [
+        748,
+        1559,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "fc8d38cc23808ea7d704f749e1b6a7dd19484f3ceeb40fb80cdf176bc761bd69"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f006.png": {
+      "page": 3,
+      "region": [
+        752,
+        1317,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "eaab3708338cb91f55b531512dc120cfc23bd4a480dee0d3701e5a5eb5d20f54"
+    },
+    "res://assets/pursuer/pursuer_approach_walk/f007.png": {
+      "page": 3,
+      "region": [
+        552,
+        1436,
+        196,
+        119
+      ],
+      "trim": [
+        85,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "3912607106e274800bf1cd9e4afabf4e755eda8eb79eb64feae43be33b4d6926"
+    },
+    "res://assets/pursuer/pursuer_death/f000.png": {
+      "page": 3,
+      "region": [
+        349,
+        1550,
+        199,
+        109
+      ],
+      "trim": [
+        84,
+        119
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "b7ec62b1f8c54a00f323938961f7ba5f26cc25224958a2600ec7867ad7bd1c2d"
+    },
+    "res://assets/pursuer/pursuer_death/f001.png": {
+      "page": 0,
+      "region": [
+        2,
+        1912,
+        213,
+        104
+      ],
+      "trim": [
+        70,
+        123
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "ec6c0ba5c17ec8f1a3da5fd7da89d6bf0389653ce34d1eed8ae4f7a9916af915"
+    },
+    "res://assets/pursuer/pursuer_death/f002.png": {
+      "page": 2,
+      "region": [
+        1259,
+        1232,
+        216,
+        103
+      ],
+      "trim": [
+        72,
+        124
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "04cca3f8331c33412f97cb46d11cd826f7efef4399e2cc903c4ecce5b08288fc"
+    },
+    "res://assets/pursuer/pursuer_death/f003.png": {
+      "page": 2,
+      "region": [
+        2,
+        1908,
+        280,
+        78
+      ],
+      "trim": [
+        27,
+        149
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "3faf6a08fd2fc146929f942521d79d616dab2387edba940611913bcce4dc87df"
+    },
+    "res://assets/pursuer/pursuer_death/f004.png": {
+      "page": 1,
+      "region": [
+        1298,
+        1755,
+        280,
+        78
+      ],
+      "trim": [
+        27,
+        149
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "d6f77e19023ddf26d1b6fe0686056bb1166c729a67b3b0b3cbb95ee40dea3e1f"
+    },
+    "res://assets/pursuer/pursuer_death/f005.png": {
+      "page": 2,
+      "region": [
+        713,
+        718,
+        279,
+        77
+      ],
+      "trim": [
+        28,
+        150
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "5c295ecf129d43ac3be31b1787dd1a78ebacc33f1630a5d4f6b6af610f2bd41e"
+    },
+    "res://assets/pursuer/pursuer_hurt/f000.png": {
+      "page": 3,
+      "region": [
+        945,
+        1872,
+        186,
+        133
+      ],
+      "trim": [
+        83,
+        95
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "c43384bff51afbf837d557bbcaa951a09c447e547e4dd1e3d21f9bcc7f535a7f"
+    },
+    "res://assets/pursuer/pursuer_hurt/f001.png": {
+      "page": 3,
+      "region": [
+        1423,
+        2,
+        191,
+        126
+      ],
+      "trim": [
+        84,
+        102
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "6b71d2e82ff2b088b55391a8c4e0c5fddb30f532bb01070149ceb9bfeffe08f5"
+    },
+    "res://assets/pursuer/pursuer_hurt/f002.png": {
+      "page": 3,
+      "region": [
+        912,
+        330,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_idle/f000.png": {
+      "page": 3,
+      "region": [
+        912,
+        452,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_idle/f001.png": {
+      "page": 3,
+      "region": [
+        666,
+        1071,
+        196,
+        119
+      ],
+      "trim": [
+        85,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "39fc1fa68909a32df75910cbbc219ad2d2db9551172026555d6bf0da9bb64e4a"
+    },
+    "res://assets/pursuer/pursuer_idle/f002.png": {
+      "page": 3,
+      "region": [
+        345,
+        1814,
+        196,
+        121
+      ],
+      "trim": [
+        85,
+        107
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "03f65647193207170f97c8d592188a6bcec13fb60f732daf1917b39915f081d6"
+    },
+    "res://assets/pursuer/pursuer_idle/f003.png": {
+      "page": 3,
+      "region": [
+        545,
+        1814,
+        196,
+        121
+      ],
+      "trim": [
+        85,
+        107
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "f4e52db6a89726781f27dddffef33539418ab8aef26ec16e52ed30ce23d14df8"
+    },
+    "res://assets/pursuer/pursuer_idle/f004.png": {
+      "page": 3,
+      "region": [
+        548,
+        1663,
+        196,
+        121
+      ],
+      "trim": [
+        85,
+        107
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "92e2e1d4b8f3d25e7b525bb7005215f4ece426c128017612d60d9d4e82ce074e"
+    },
+    "res://assets/pursuer/pursuer_idle/f005.png": {
+      "page": 3,
+      "region": [
+        666,
+        1194,
+        196,
+        119
+      ],
+      "trim": [
+        85,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "bdf216658c0e80f9a20062e26d9b4fb54d2c0d61adfc730c8dfe6abd043c07e3"
+    },
+    "res://assets/pursuer/pursuer_lunge_windup/f000.png": {
+      "page": 3,
+      "region": [
+        987,
+        110,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_lunge_windup/f001.png": {
+      "page": 3,
+      "region": [
+        529,
+        1323,
+        199,
+        109
+      ],
+      "trim": [
+        84,
+        119
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "b7ec62b1f8c54a00f323938961f7ba5f26cc25224958a2600ec7867ad7bd1c2d"
+    },
+    "res://assets/pursuer/pursuer_lunge_windup/f002.png": {
+      "page": 3,
+      "region": [
+        459,
+        1117,
+        203,
+        97
+      ],
+      "trim": [
+        82,
+        131
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "d8cbd36500d25d351cc80b1e92e292dd90724fb63d265b090eefbc6828da6ba4"
+    },
+    "res://assets/pursuer/pursuer_lunge_windup/f003.png": {
+      "page": 2,
+      "region": [
+        1438,
+        1885,
+        204,
+        92
+      ],
+      "trim": [
+        82,
+        136
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "8f98da63d6a7992571b8ac5f40123fb5d02659d7a66b44d68e8e5acfb5bac486"
+    },
+    "res://assets/pursuer/pursuer_lunge/f000.png": {
+      "page": 3,
+      "region": [
+        459,
+        1218,
+        202,
+        101
+      ],
+      "trim": [
+        83,
+        127
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "ccb40a8d1ea6829c245cb83b0db0a1af88afc3392ddb6c01958cc7653c82d4b8"
+    },
+    "res://assets/pursuer/pursuer_lunge/f001.png": {
+      "page": 3,
+      "region": [
+        782,
+        219,
+        201,
+        107
+      ],
+      "trim": [
+        83,
+        120
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "7b388d1d36e9f4c55feb5f9760f54e3336f9b0d770a46bd7b2e3b716b594e0ff"
+    },
+    "res://assets/pursuer/pursuer_lunge/f002.png": {
+      "page": 3,
+      "region": [
+        322,
+        1448,
+        203,
+        98
+      ],
+      "trim": [
+        84,
+        130
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "8d531c425b14f5c4183d79162778e828dd679ea3d50d837637f432965872be25"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f000.png": {
+      "page": 3,
+      "region": [
+        866,
+        967,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f001.png": {
+      "page": 3,
+      "region": [
+        142,
+        1820,
+        199,
+        118
+      ],
+      "trim": [
+        82,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "2ad27366c46c84f0dedf8efea3fcd8c9ee754d7b8cab8fc80fd18eb8a3ef870a"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f002.png": {
+      "page": 2,
+      "region": [
+        1224,
+        1886,
+        210,
+        118
+      ],
+      "trim": [
+        71,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "b4819603a81283a059210b6e30ed29a71596ce45ab611e9b989bf59b17138761"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f003.png": {
+      "page": 3,
+      "region": [
+        142,
+        1575,
+        203,
+        119
+      ],
+      "trim": [
+        78,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "58afdbd6bcd7906a3b58dbe388b709bf759b9a140594c266cfa22a669fa64ed7"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f004.png": {
+      "page": 3,
+      "region": [
+        897,
+        764,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "fa557d3f2f00d055c27027331c30f4fb88010ceaa619b94b8a7935808ed2e10e"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f005.png": {
+      "page": 3,
+      "region": [
+        1045,
+        574,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "fc8d38cc23808ea7d704f749e1b6a7dd19484f3ceeb40fb80cdf176bc761bd69"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f006.png": {
+      "page": 3,
+      "region": [
+        866,
+        1089,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "eaab3708338cb91f55b531512dc120cfc23bd4a480dee0d3701e5a5eb5d20f54"
+    },
+    "res://assets/pursuer/pursuer_patrol_walk/f007.png": {
+      "page": 3,
+      "region": [
+        697,
+        844,
+        196,
+        119
+      ],
+      "trim": [
+        85,
+        109
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "3912607106e274800bf1cd9e4afabf4e755eda8eb79eb64feae43be33b4d6926"
+    },
+    "res://assets/pursuer/pursuer_recovery/f000.png": {
+      "page": 3,
+      "region": [
+        322,
+        1345,
+        203,
+        99
+      ],
+      "trim": [
+        82,
+        130
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "d70742e2cc06777ccda0d8007baadabcaf659604ef6f943fe17ff580a7570da2"
+    },
+    "res://assets/pursuer/pursuer_recovery/f001.png": {
+      "page": 3,
+      "region": [
+        897,
+        2,
+        201,
+        104
+      ],
+      "trim": [
+        83,
+        123
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "b090270cc0d48d357a0f3a7f086c9b862af048e78115cb0bc0bfcd550d1d52a1"
+    },
+    "res://assets/pursuer/pursuer_recovery/f002.png": {
+      "page": 3,
+      "region": [
+        345,
+        1698,
+        199,
+        112
+      ],
+      "trim": [
+        84,
+        116
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "534e824162edfff325aa8e195e73c5e610e3f1a01934de97a460e2a7689b017b"
+    },
+    "res://assets/pursuer/pursuer_recovery/f003.png": {
+      "page": 3,
+      "region": [
+        1112,
+        232,
+        196,
+        118
+      ],
+      "trim": [
+        85,
+        110
+      ],
+      "canvas": [
+        320,
+        256
+      ],
+      "rgba_sha256": "510453f19a845c9b69055e953b59563e550e6c7083a8db3b7e2e09bdca84f831"
+    },
+    "res://assets/ranged/ranged_aim/f000.png": {
+      "page": 2,
+      "region": [
+        150,
+        981,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "ec5ca02849c686361e45a6bc16ca7053e178467623b6a67aaa5c87c80c79901c"
+    },
+    "res://assets/ranged/ranged_aim/f001.png": {
+      "page": 2,
+      "region": [
+        153,
+        672,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "676f7ac1eba44b6ec7dfcf637663db14d9964bacfacd54c3d3ec6326aafadc6c"
+    },
+    "res://assets/ranged/ranged_aim/f002.png": {
+      "page": 2,
+      "region": [
+        147,
+        1599,
+        140,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "38daf0fc4268401d576685412e14e5b224c1960538dcf46c732e25f674f43dcc"
+    },
+    "res://assets/ranged/ranged_aim/f003.png": {
+      "page": 0,
+      "region": [
+        1551,
+        1086,
+        153,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "de084531ed091b32b74c3dd9bd52b9519f9b438a2c7ae9afe6c0b4e74a8243f5"
+    },
+    "res://assets/ranged/ranged_aim/f004.png": {
+      "page": 1,
+      "region": [
+        1883,
+        2,
+        163,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "5e581966268c522bf96bbe2022b10bffc9492119adf6117c383697b419f9b12e"
+    },
+    "res://assets/ranged/ranged_aim/f005.png": {
+      "page": 1,
+      "region": [
+        1803,
+        676,
+        167,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2a2acaab5c3dbd33d00ffaa87fd1181fcd4451b2c56938b22876fb5cf939fc2d"
+    },
+    "res://assets/ranged/ranged_death/f000.png": {
+      "page": 2,
+      "region": [
+        428,
+        1546,
+        133,
+        302
+      ],
+      "trim": [
+        67,
+        22
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "29dd93fc6419ca8aab9b279334dc7406117b56f8b303303ec916a98393be4dbf"
+    },
+    "res://assets/ranged/ranged_death/f001.png": {
+      "page": 2,
+      "region": [
+        561,
+        1235,
+        137,
+        297
+      ],
+      "trim": [
+        67,
+        27
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "e08b89046cfd5c6d109acb91347ec6e7f4e52b6894e3ab6fe59589455f31d973"
+    },
+    "res://assets/ranged/ranged_death/f002.png": {
+      "page": 2,
+      "region": [
+        565,
+        1536,
+        137,
+        297
+      ],
+      "trim": [
+        67,
+        27
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "172b21480505691a3cb390648ecd9184e7012dac831b95641d245d0b97707558"
+    },
+    "res://assets/ranged/ranged_death/f003.png": {
+      "page": 2,
+      "region": [
+        526,
+        2,
+        137,
+        297
+      ],
+      "trim": [
+        67,
+        27
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "0e63785f4077f47297dd160515ed59a6bf1f9c452197c4a00c75904460c8fdf8"
+    },
+    "res://assets/ranged/ranged_death/f004.png": {
+      "page": 2,
+      "region": [
+        526,
+        303,
+        137,
+        296
+      ],
+      "trim": [
+        67,
+        27
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "c05a255c038dfcc2d5689bd2a2d030e45b9cf34a20f18cb2a3fc66c273428cda"
+    },
+    "res://assets/ranged/ranged_death/f005.png": {
+      "page": 2,
+      "region": [
+        1384,
+        830,
+        108,
+        79
+      ],
+      "trim": [
+        68,
+        244
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "3fb2c02e1e64ef8c4ffd7cc8198a31690473cd2cb3416a4e8f449ff6272e8bc1"
+    },
+    "res://assets/ranged/ranged_fire/f000.png": {
+      "page": 0,
+      "region": [
+        1833,
+        2,
+        167,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2a2acaab5c3dbd33d00ffaa87fd1181fcd4451b2c56938b22876fb5cf939fc2d"
+    },
+    "res://assets/ranged/ranged_fire/f001.png": {
+      "page": 1,
+      "region": [
+        1883,
+        311,
+        158,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "92f472f1b726e5f0749a9961305fc82eeb878cdc4e72a3d15a45a0e6a6071e9e"
+    },
+    "res://assets/ranged/ranged_fire/f002.png": {
+      "page": 2,
+      "region": [
+        2,
+        981,
+        144,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "ac487d367dd34271a53fe9287d1d98a52ef4c09997cd22c52cb17975accabcde"
+    },
+    "res://assets/ranged/ranged_hurt/f000.png": {
+      "page": 2,
+      "region": [
+        424,
+        1238,
+        133,
+        304
+      ],
+      "trim": [
+        67,
+        20
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "b0b9a5e7f3f3533c39b3ad70bf0b6a3a638fdd1d1a8b7bf939450feea675a52c"
+    },
+    "res://assets/ranged/ranged_hurt/f001.png": {
+      "page": 2,
+      "region": [
+        561,
+        929,
+        133,
+        302
+      ],
+      "trim": [
+        67,
+        22
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "29dd93fc6419ca8aab9b279334dc7406117b56f8b303303ec916a98393be4dbf"
+    },
+    "res://assets/ranged/ranged_hurt/f002.png": {
+      "page": 2,
+      "region": [
+        150,
+        1290,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2e21abee14b6dee7f72bcf891a883c96c9e16b73e7737fbc818a2f64947ac42d"
+    },
+    "res://assets/ranged/ranged_idle/f000.png": {
+      "page": 2,
+      "region": [
+        287,
+        981,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2e21abee14b6dee7f72bcf891a883c96c9e16b73e7737fbc818a2f64947ac42d"
+    },
+    "res://assets/ranged/ranged_idle/f001.png": {
+      "page": 2,
+      "region": [
+        287,
+        1290,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "cf4df9f0a50b53f5385869fd49c51d82dcb3021f5a98652fdafe60fdcec6bf0b"
+    },
+    "res://assets/ranged/ranged_idle/f002.png": {
+      "page": 2,
+      "region": [
+        291,
+        1599,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "9f905df056a2daf31177d5ec29a6495976dca62cdbb6ca46ee5553d75788700d"
+    },
+    "res://assets/ranged/ranged_idle/f003.png": {
+      "page": 2,
+      "region": [
+        252,
+        2,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "126753ff20c2619001c0c6f92313f51ce7e386e4750c56c839d4782e95c0d492"
+    },
+    "res://assets/ranged/ranged_idle/f004.png": {
+      "page": 2,
+      "region": [
+        252,
+        311,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "39e7a91064180a4e3c899362790e4de39d271131a8aff3536de856c4eb1e2db7"
+    },
+    "res://assets/ranged/ranged_idle/f005.png": {
+      "page": 2,
+      "region": [
+        290,
+        620,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "8e3a6352018c788abcaee7ee3231f0b461573cc627aede8df5e82607dfd5ea83"
+    },
+    "res://assets/ranged/ranged_recover/f000.png": {
+      "page": 2,
+      "region": [
+        2,
+        1290,
+        144,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "ac487d367dd34271a53fe9287d1d98a52ef4c09997cd22c52cb17975accabcde"
+    },
+    "res://assets/ranged/ranged_recover/f001.png": {
+      "page": 2,
+      "region": [
+        2,
+        672,
+        147,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "7c3c13a83c2a365b91376d5946ff309174853c02d33c9b8990c6c39281f94697"
+    },
+    "res://assets/ranged/ranged_recover/f002.png": {
+      "page": 2,
+      "region": [
+        2,
+        1599,
+        141,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "e9a2ccb4b17adc8ca0681930c6e7ccca0524cf9b36ea5ebf0e10f1d909a5b186"
+    },
+    "res://assets/ranged/ranged_recover/f003.png": {
+      "page": 2,
+      "region": [
+        389,
+        2,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "34f8ecd13c12fb76a01469b4f79aaffc03ed55bc912727ca48e6a7b3228a0016"
+    },
+    "res://assets/ranged/ranged_recover/f004.png": {
+      "page": 2,
+      "region": [
+        389,
+        311,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "832276dce0be25a8a56d4076df18de0abdf0a552ed4adc1bd2ede6c19b818c20"
+    },
+    "res://assets/ranged/ranged_recover/f005.png": {
+      "page": 2,
+      "region": [
+        424,
+        929,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2f028ecfc6a6d7c4930ce69242d6d8c07c29a87ceb62f430fe2bf4743a93e726"
+    },
+    "res://assets/ranged/ranged_recover/f006.png": {
+      "page": 2,
+      "region": [
+        427,
+        620,
+        133,
+        305
+      ],
+      "trim": [
+        67,
+        19
+      ],
+      "canvas": [
+        256,
+        352
+      ],
+      "rgba_sha256": "2e21abee14b6dee7f72bcf891a883c96c9e16b73e7737fbc818a2f64947ac42d"
+    },
+    "res://assets/swooper/swooper_cruise/f000.png": {
+      "page": 2,
+      "region": [
+        706,
+        1383,
+        287,
+        175
+      ],
+      "trim": [
+        51,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
+    },
+    "res://assets/swooper/swooper_cruise/f001.png": {
+      "page": 2,
+      "region": [
+        667,
+        181,
+        282,
+        175
+      ],
+      "trim": [
+        53,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "2911a572820a0e6b6592b1bc7aaffdc1f39c912c41a26673e7f95d348e877501"
+    },
+    "res://assets/swooper/swooper_cruise/f002.png": {
+      "page": 2,
+      "region": [
+        847,
+        878,
+        267,
+        173
+      ],
+      "trim": [
+        60,
+        43
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "9be577dcabb77e79ca817ff3089c86f048b0011e8ddf88f6394436ecf484fe6c"
+    },
+    "res://assets/swooper/swooper_cruise/f003.png": {
+      "page": 2,
+      "region": [
+        997,
+        1346,
+        247,
+        176
+      ],
+      "trim": [
+        70,
+        40
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "84debf0732b1421b5f80071cd0b07c7176473af770c32235646619925fa66a11"
+    },
+    "res://assets/swooper/swooper_cruise/f004.png": {
+      "page": 2,
+      "region": [
+        1261,
+        1704,
+        237,
+        177
+      ],
+      "trim": [
+        75,
+        39
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "beb89118ca939c39c77ed58075165cfba98aacb74932a73f5ef185f14cae99c1"
+    },
+    "res://assets/swooper/swooper_cruise/f005.png": {
+      "page": 2,
+      "region": [
+        997,
+        1526,
+        247,
+        176
+      ],
+      "trim": [
+        70,
+        40
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "87a54816a2229b7357a26478cae3fd5a9898efb1f9c6e5ede2a3c94852323da7"
+    },
+    "res://assets/swooper/swooper_cruise/f006.png": {
+      "page": 2,
+      "region": [
+        993,
+        1055,
+        267,
+        173
+      ],
+      "trim": [
+        60,
+        43
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "b80f79408588a6eb5468a17671321a92db4ceb09f76b608e4f842b9c7a2a084b"
+    },
+    "res://assets/swooper/swooper_cruise/f007.png": {
+      "page": 2,
+      "region": [
+        667,
+        360,
+        282,
+        175
+      ],
+      "trim": [
+        53,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "48eb7376459bf4515473973694eaa96140c9fc3708f273a5305eea54d0449f63"
+    },
+    "res://assets/swooper/swooper_death_fall/f000.png": {
+      "page": 2,
+      "region": [
+        1248,
+        1346,
+        245,
+        175
+      ],
+      "trim": [
+        79,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "717220481f74ada65e7aa78cc87669fc1fc39d4a905fb4ba4fea9644ebf6e488"
+    },
+    "res://assets/swooper/swooper_death_fall/f001.png": {
+      "page": 1,
+      "region": [
+        1582,
+        1731,
+        92,
+        166
+      ],
+      "trim": [
+        147,
+        45
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "2d5316a6e3c67a3af42581dc51e8d1ec266d6b36fcf0e6ce41827b7afaf0dddc"
+    },
+    "res://assets/swooper/swooper_death_fall/f002.png": {
+      "page": 0,
+      "region": [
+        1951,
+        724,
+        92,
+        166
+      ],
+      "trim": [
+        147,
+        45
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "51827ae2fffe54f5eb9a9bef14b1f25caa039847c4f0e69ccfeb3ff65c460b2b"
+    },
+    "res://assets/swooper/swooper_death_fall/f003.png": {
+      "page": 0,
+      "region": [
+        1951,
+        894,
+        91,
+        165
+      ],
+      "trim": [
+        148,
+        46
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "221a9acbcbfccc2fccff539fd6bdbb3d30c89e074b6cd11c320036f51fb9881d"
+    },
+    "res://assets/swooper/swooper_death_fall/f004.png": {
+      "page": 0,
+      "region": [
+        1951,
+        1063,
+        90,
+        164
+      ],
+      "trim": [
+        148,
+        46
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "4f4e112dc389765d58e7edda860a313d42839988f6755b5ce23aad6abb91874c"
+    },
+    "res://assets/swooper/swooper_dive_telegraph/f000.png": {
+      "page": 3,
+      "region": [
+        1242,
+        1182,
+        108,
+        170
+      ],
+      "trim": [
+        135,
+        44
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "f9ce665ed648ee38f7e279c99d7aa8d70baded352d5db15a5f9f2274e126df06"
+    },
+    "res://assets/swooper/swooper_dive_telegraph/f001.png": {
+      "page": 3,
+      "region": [
+        1129,
+        1182,
+        109,
+        170
+      ],
+      "trim": [
+        135,
+        44
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "b88a2c5a8051c85b7bc183094c3b7ae5c4df41cb2f2d926f69cf2bd9f9482f2b"
+    },
+    "res://assets/swooper/swooper_dive_telegraph/f002.png": {
+      "page": 3,
+      "region": [
+        1097,
+        696,
+        110,
+        170
+      ],
+      "trim": [
+        135,
+        44
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "6f776e66b1cfd2c28f80b250ab9813ad57f407def2b95feae3cf866f6b6653fb"
+    },
+    "res://assets/swooper/swooper_dive_telegraph/f003.png": {
+      "page": 3,
+      "region": [
+        1211,
+        696,
+        110,
+        170
+      ],
+      "trim": [
+        135,
+        44
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "90270a51c1d7a1328d62ca5843849663e01f3d3e2672d681f29e0df6da5bf141"
+    },
+    "res://assets/swooper/swooper_dive/f000.png": {
+      "page": 3,
+      "region": [
+        1243,
+        870,
+        145,
+        150
+      ],
+      "trim": [
+        114,
+        52
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "6c24f790a1d2df033f6ff60bce47f344f4645f07611f37bc4aa3ae6e1772c071"
+    },
+    "res://assets/swooper/swooper_dive/f001.png": {
+      "page": 3,
+      "region": [
+        1135,
+        1933,
+        164,
+        111
+      ],
+      "trim": [
+        102,
+        72
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "e314fe1a46fab0efcdccb0fcc1c55e105a3dd8a76e329b2a298fb92d9e1c2a15"
+    },
+    "res://assets/swooper/swooper_dive/f002.png": {
+      "page": 3,
+      "region": [
+        142,
+        1942,
+        169,
+        86
+      ],
+      "trim": [
+        106,
+        84
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "293a508d8d91f16152fe8664b62fd5734b36421142f785c11cdaa70594c4d06a"
+    },
+    "res://assets/swooper/swooper_dive/f003.png": {
+      "page": 3,
+      "region": [
+        748,
+        1681,
+        172,
+        87
+      ],
+      "trim": [
+        106,
+        83
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "692d1155916882a88157887f1761c5bcee6d0721620efb71ef8d8c92c1212ceb"
+    },
+    "res://assets/swooper/swooper_hurt/f000.png": {
+      "page": 2,
+      "region": [
+        999,
+        539,
+        267,
+        173
+      ],
+      "trim": [
+        60,
+        43
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "d861780bd693e5ac4f5d9e57b6a996888d92891657b1bd1e9525f65f24933c36"
+    },
+    "res://assets/swooper/swooper_hurt/f001.png": {
+      "page": 2,
+      "region": [
+        1248,
+        1525,
+        245,
+        175
+      ],
+      "trim": [
+        79,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "717220481f74ada65e7aa78cc87669fc1fc39d4a905fb4ba4fea9644ebf6e488"
+    },
+    "res://assets/swooper/swooper_hurt/f002.png": {
+      "page": 2,
+      "region": [
+        428,
+        1852,
+        287,
+        190
+      ],
+      "trim": [
+        50,
+        34
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "ae7c2579b12c886a6f717abb8d202373fe505e9cf51eeb20af852fc302c6b4c3"
+    },
+    "res://assets/swooper/swooper_perch_idle/f000.png": {
+      "page": 2,
+      "region": [
+        706,
+        1562,
+        287,
+        175
+      ],
+      "trim": [
+        51,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
+    },
+    "res://assets/swooper/swooper_perch_idle/f001.png": {
+      "page": 2,
+      "region": [
+        713,
+        539,
+        282,
+        175
+      ],
+      "trim": [
+        53,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "2911a572820a0e6b6592b1bc7aaffdc1f39c912c41a26673e7f95d348e877501"
+    },
+    "res://assets/swooper/swooper_perch_idle/f002.png": {
+      "page": 2,
+      "region": [
+        1230,
+        360,
+        267,
+        173
+      ],
+      "trim": [
+        60,
+        43
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "9be577dcabb77e79ca817ff3089c86f048b0011e8ddf88f6394436ecf484fe6c"
+    },
+    "res://assets/swooper/swooper_perch_idle/f003.png": {
+      "page": 2,
+      "region": [
+        1010,
+        1706,
+        247,
+        176
+      ],
+      "trim": [
+        70,
+        40
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "84debf0732b1421b5f80071cd0b07c7176473af770c32235646619925fa66a11"
+    },
+    "res://assets/swooper/swooper_perch_idle/f004.png": {
+      "page": 2,
+      "region": [
+        1239,
+        159,
+        267,
+        173
+      ],
+      "trim": [
+        60,
+        43
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "b80f79408588a6eb5468a17671321a92db4ceb09f76b608e4f842b9c7a2a084b"
+    },
+    "res://assets/swooper/swooper_perch_idle/f005.png": {
+      "page": 2,
+      "region": [
+        953,
+        181,
+        282,
+        175
+      ],
+      "trim": [
+        53,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "48eb7376459bf4515473973694eaa96140c9fc3708f273a5305eea54d0449f63"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f000.png": {
+      "page": 2,
+      "region": [
+        702,
+        1189,
+        287,
+        190
+      ],
+      "trim": [
+        50,
+        34
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "ae7c2579b12c886a6f717abb8d202373fe505e9cf51eeb20af852fc302c6b4c3"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f001.png": {
+      "page": 2,
+      "region": [
+        953,
+        360,
+        273,
+        175
+      ],
+      "trim": [
+        50,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "831642e9fb22b8eb3af21c4e1b71255b8c527e9fd77de6ba9cd7213ff7676e23"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f002.png": {
+      "page": 3,
+      "region": [
+        491,
+        886,
+        202,
+        181
+      ],
+      "trim": [
+        95,
+        35
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "dbd64fb88573ba60aeb208a654c1f9c837a1f1565d078f01a2b73b0573e1d341"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f003.png": {
+      "page": 2,
+      "region": [
+        719,
+        1741,
+        287,
+        175
+      ],
+      "trim": [
+        51,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f004.png": {
+      "page": 3,
+      "region": [
+        639,
+        659,
+        202,
+        181
+      ],
+      "trim": [
+        95,
+        35
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "524535d5bb5ff732228a6291a07b64ef63dd9015d009913bb85e3b15a8535922"
+    },
+    "res://assets/swooper/swooper_recovery_climb/f005.png": {
+      "page": 2,
+      "region": [
+        667,
+        2,
+        287,
+        175
+      ],
+      "trim": [
+        51,
+        41
+      ],
+      "canvas": [
+        384,
+        256
+      ],
+      "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
+    },
+    "res://assets/vfx/projectile_grave_shot/f000.png": {
+      "page": 2,
+      "region": [
+        283,
+        1990,
+        58,
+        56
+      ],
+      "trim": [
+        3,
+        4
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "rgba_sha256": "9888d44e05369c762acf090a1806629f923b345f4fdb31108532dcae0f7ac552"
+    },
+    "res://assets/vfx/projectile_grave_shot/f001.png": {
+      "page": 2,
+      "region": [
+        1270,
+        651,
+        60,
+        61
+      ],
+      "trim": [
+        2,
+        0
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "rgba_sha256": "2643f63ac82c9458d245d90d41c60e1802145ba458dcbf124b562b2d8ced12ee"
+    },
+    "res://assets/vfx/projectile_grave_shot/f002.png": {
+      "page": 0,
+      "region": [
+        1550,
+        1810,
+        58,
+        55
+      ],
+      "trim": [
+        3,
+        4
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "rgba_sha256": "a08dc77a78793a175d9024eb5d7325adbec11e68c484d600374af7609735e81b"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f000.png": {
+      "page": 3,
+      "region": [
+        1501,
+        998,
+        67,
+        68
+      ],
+      "trim": [
+        92,
+        288
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "256639a69e1f29db665266ac5e1bb001d8876b64280f115fb86893e606a49081"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f001.png": {
+      "page": 2,
+      "region": [
+        1118,
+        946,
+        84,
+        105
+      ],
+      "trim": [
+        88,
+        251
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "da29359545cc9647415333d7ddaa5479a5a1006608f6c818cd7ade2a6eacc720"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f002.png": {
+      "page": 0,
+      "region": [
+        1951,
+        1231,
+        86,
+        207
+      ],
+      "trim": [
+        85,
+        149
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "4437f90f0f24d57c5e0dd4201020ed39bec91efc8833b2fec58c1a065f384523"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f003.png": {
+      "page": 4,
+      "region": [
+        2,
+        890,
+        117,
+        355
+      ],
+      "trim": [
+        70,
+        1
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "4c7101c6e9f087b815404b1c6ac6d3ab352f9c8d6abfbe4790ce53c4199e6fd9"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f004.png": {
+      "page": 2,
+      "region": [
+        1941,
+        1578,
+        101,
+        249
+      ],
+      "trim": [
+        78,
+        107
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "0447eec52b3a5b5bf34cd46910d2aeedd08f6eaa43fde289e26f7edd30590fed"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f005.png": {
+      "page": 3,
+      "region": [
+        1924,
+        782,
+        93,
+        203
+      ],
+      "trim": [
+        84,
+        152
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "f431c3254a1f73bd2a2773296e4d1c120a15628aa3face05f1792a5c117e9613"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f006.png": {
+      "page": 3,
+      "region": [
+        1663,
+        484,
+        91,
+        119
+      ],
+      "trim": [
+        76,
+        237
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "9501906b7ddde7b6ab16f7cdbbe2ed795b0b0fde3158fa378f9e3c027e04d7fc"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f007.png": {
+      "page": 1,
+      "region": [
+        1461,
+        1837,
+        87,
+        60
+      ],
+      "trim": [
+        75,
+        296
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "ed2adba68f86553f45b590da0533583017a24b02c6833d42fde842f4c3d42082"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f000.png": {
+      "page": 3,
+      "region": [
+        897,
+        110,
+        86,
+        88
+      ],
+      "trim": [
+        86,
+        84
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "e1f57656bd0885a8d34f2fe4e948e93f2ef60e24105bdd9721c347650fdf0907"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f001.png": {
+      "page": 2,
+      "region": [
+        847,
+        1055,
+        123,
+        120
+      ],
+      "trim": [
+        68,
+        68
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "71a04a326899d8a247556c92aa732b27d8b7610873c772129c8d768e755e8fdf"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f002.png": {
+      "page": 3,
+      "region": [
+        1861,
+        1230,
+        168,
+        199
+      ],
+      "trim": [
+        45,
+        28
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "0f422e0e17b8509a54b94be9f939577b15f7e7420a5590cc02d23d53c8552400"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f003.png": {
+      "page": 4,
+      "region": [
+        261,
+        288,
+        217,
+        246
+      ],
+      "trim": [
+        20,
+        5
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "ae6378bb9173e068bffb9bb1eb37a19e09cb6a83e1203b935aa899955f4abc48"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f004.png": {
+      "page": 3,
+      "region": [
+        1847,
+        1004,
+        191,
+        222
+      ],
+      "trim": [
+        34,
+        18
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "41f444111b59553bc5e4c9e5c1607b296c53b3475da9a230de233bcb38d4a321"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f005.png": {
+      "page": 3,
+      "region": [
+        1861,
+        1433,
+        154,
+        186
+      ],
+      "trim": [
+        52,
+        35
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "e5fa0b2e9a1ba28a76b7094ee5f9c4b5f95915e6573c3a9b9779a025f746bd93"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f006.png": {
+      "page": 2,
+      "region": [
+        1941,
+        1428,
+        104,
+        146
+      ],
+      "trim": [
+        77,
+        55
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "2d72a93e2895fc7ee7fb1824684a2e37347d9eb3d5dcb035e4843c2ca50e6b76"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f007.png": {
+      "page": 3,
+      "region": [
+        866,
+        1211,
+        56,
+        99
+      ],
+      "trim": [
+        101,
+        78
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "158a4fb49893b83026c6dd4df9810ee786c5e3c06d12f2b7b680bac9fce79112"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f000.png": {
+      "page": 1,
+      "region": [
+        2,
+        1799,
+        320,
+        142
+      ],
+      "trim": [
+        0,
+        46
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "31edfa7540eaa1e3d6d759d7c156c4da1c805c6dbe9d8cc8f63223626eecd18e"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f001.png": {
+      "page": 0,
+      "region": [
+        1320,
+        1869,
+        320,
+        160
+      ],
+      "trim": [
+        0,
+        28
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "d2551f4025ffdfda8532b716ddea68eb28ea53aec9bedf7105f720ddebb2d227"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f002.png": {
+      "page": 0,
+      "region": [
+        1644,
+        1810,
+        320,
+        156
+      ],
+      "trim": [
+        0,
+        32
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "45d9d219004694c521dad4abe729b9e459d94653830301c1b0502909fc975738"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f003.png": {
+      "page": 1,
+      "region": [
+        650,
+        1793,
+        320,
+        128
+      ],
+      "trim": [
+        0,
+        60
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "cde141449676208c39e3f5d92bb7e5eab5feb2928a7abc5d8ca6d9b356d24392"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f004.png": {
+      "page": 1,
+      "region": [
+        326,
+        1796,
+        320,
+        136
+      ],
+      "trim": [
+        0,
+        52
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "3e988b5ad2960a1979836f9e06b5758650a13b58c6e1e14df925e3ca304a1689"
+    },
+    "res://assets/vfx/vfx_hazard_eruption/f005.png": {
+      "page": 1,
+      "region": [
+        974,
+        1772,
+        320,
+        125
+      ],
+      "trim": [
+        0,
+        63
+      ],
+      "canvas": [
+        320,
+        192
+      ],
+      "rgba_sha256": "5a6a3eb29abfdeb14448ab24a1014ff15095822e28d0bfce801001960bb13e11"
+    },
+    "res://assets/vfx/vfx_hazard_telegraph/f000.png": {
+      "page": 1,
+      "region": [
+        974,
+        1901,
+        319,
+        128
+      ],
+      "trim": [
+        1,
+        0
+      ],
+      "canvas": [
+        320,
+        128
+      ],
+      "rgba_sha256": "3d8365454276b847a710776f36169ab5dbf2cb7d775d25c5d191596b28487dd9"
+    },
+    "res://assets/vfx/vfx_hazard_telegraph/f001.png": {
+      "page": 1,
+      "region": [
+        1297,
+        1901,
+        318,
+        119
+      ],
+      "trim": [
+        0,
+        7
+      ],
+      "canvas": [
+        320,
+        128
+      ],
+      "rgba_sha256": "59090ecd7b6458781eeaa1722b8af73239b55c664dbb1e9190ca933f9f6ba6c1"
+    },
+    "res://assets/vfx/vfx_hazard_telegraph/f002.png": {
+      "page": 0,
+      "region": [
+        581,
+        1934,
+        319,
+        112
+      ],
+      "trim": [
+        1,
+        6
+      ],
+      "canvas": [
+        320,
+        128
+      ],
+      "rgba_sha256": "3f2f881166a9d6fecfef124cab37525cdea819519fa535db963666110859e131"
+    },
+    "res://assets/vfx/vfx_hazard_telegraph/f003.png": {
+      "page": 1,
+      "region": [
+        650,
+        1925,
+        320,
+        115
+      ],
+      "trim": [
+        0,
+        9
+      ],
+      "canvas": [
+        320,
+        128
+      ],
+      "rgba_sha256": "533717607b810ffe9a542f14b4fedeeed3fdf9fc6cf0ad944c0c5afe12d385f4"
+    },
+    "res://assets/vfx/vfx_whip_impact/f000.png": {
+      "page": 3,
+      "region": [
+        1411,
+        642,
+        39,
+        37
+      ],
+      "trim": [
+        77,
+        79
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "e9619467f4a5d402e107942d16d41e200d35808d5422dc2f5d6d79d67f591544"
+    },
+    "res://assets/vfx/vfx_whip_impact/f001.png": {
+      "page": 0,
+      "region": [
+        1949,
+        1970,
+        67,
+        74
+      ],
+      "trim": [
+        63,
+        60
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "d59e7128ab3a2c1e6e16e9437a02913d3bb58d7983054b3a5cb84adc9d3c070f"
+    },
+    "res://assets/vfx/vfx_whip_impact/f002.png": {
+      "page": 3,
+      "region": [
+        1315,
+        1741,
+        139,
+        135
+      ],
+      "trim": [
+        28,
+        29
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "0b90754761dd1f769eb4b8fc3c32877d98157ffc8e648436e03d55efcd375118"
+    },
+    "res://assets/vfx/vfx_whip_impact/f003.png": {
+      "page": 3,
+      "region": [
+        782,
+        330,
+        92,
+        103
+      ],
+      "trim": [
+        50,
+        44
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "c888eff954097acf8795b9c27d0f512e3bfb326a5467537375b480c9bfc934c0"
+    },
+    "res://assets/vfx/vfx_whip_impact/f004.png": {
+      "page": 1,
+      "region": [
+        1619,
+        1901,
+        55,
+        63
+      ],
+      "trim": [
+        69,
+        64
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "d975166b82c0d1950881b62006027d1f5510ea2024fc4841d22ab1bde3834f7d"
+    },
+    "res://assets/vfx/vfx_whip_impact/f005.png": {
+      "page": 2,
+      "region": [
+        993,
+        832,
+        35,
+        42
+      ],
+      "trim": [
+        79,
+        75
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "c274ee10397e3f70589e3119b3dd39e320d3823a77d6589ddfaafe22316e63d4"
+    }
+  }
+}

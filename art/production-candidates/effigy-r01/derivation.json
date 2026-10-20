@@ -1,0 +1,24 @@
+{
+  "kind": "generated_key",
+  "source": [
+    "art/production-candidates/effigy-key-r01/raw.png",
+    "art/production-candidates/effigy-key-r01/canvas.png",
+    "art/production-candidates/effigy-key-r01/prompt.txt",
+    "tools/prepare-effigy.mjs"
+  ],
+  "method": "Uniform full-canvas resolution conversion followed by integer ink-centre/base registration. No scaling or deformation. Remove only alpha<=8 extraction remnants.",
+  "source_ink_bbox": [
+    40,
+    32,
+    88,
+    219
+  ],
+  "translation": [
+    0,
+    5
+  ],
+  "corrective_normalization": 1,
+  "removed_low_alpha_pixels": 308,
+  "debris_removed": 0,
+  "visual_approval": false
+}

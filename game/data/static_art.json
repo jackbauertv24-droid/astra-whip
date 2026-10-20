@@ -15,5 +15,21 @@
       "active"
     ],
     "brief": "ASSET_BRIEFS §9"
+  },
+  "prop_effigy": {
+    "category": "props",
+    "canvas": [
+      128,
+      256
+    ],
+    "anchor": [
+      64,
+      224
+    ],
+    "frames": 1,
+    "states": [
+      "intact"
+    ],
+    "brief": "ASSET_BRIEFS §9"
   }
 }

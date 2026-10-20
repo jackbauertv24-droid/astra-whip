@@ -1,0 +1,540 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "samples": [
+    {
+     "attack_time": -1,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": true,
+     "file": "before-right.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "land",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.15,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f00.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.191666666666667,
+     "burst_count": 1,
+     "effect_age": 0.0416666666666667,
+     "effect_frame": 1,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f01.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0416666666666667,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.233333333333333,
+     "burst_count": 1,
+     "effect_age": 0.0833333333333333,
+     "effect_frame": 2,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f02.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0833333333333333,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.275,
+     "burst_count": 1,
+     "effect_age": 0.125,
+     "effect_frame": 3,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f03.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.125,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.325,
+     "burst_count": 1,
+     "effect_age": 0.175,
+     "effect_frame": 4,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f04.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.175,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.375,
+     "burst_count": 1,
+     "effect_age": 0.225,
+     "effect_frame": 5,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-right-f05.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.225,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.433333333333334,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": false,
+     "file": "expired-right.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "target_hp": -1
+    },
+    {
+     "attack_time": -1,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": true,
+     "file": "restored-right.png",
+     "hero_position": [
+      304.0,
+      560.0
+     ],
+     "hero_state": "idle",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "target_hp": -1
+    }
+   ],
+   "target_kind": "effigy"
+  },
+  {
+   "direction": -1,
+   "samples": [
+    {
+     "attack_time": -1,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": true,
+     "file": "before-left.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "idle",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.15,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f00.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.191666666666667,
+     "burst_count": 1,
+     "effect_age": 0.0416666666666667,
+     "effect_frame": 1,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f01.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0416666666666667,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.233333333333333,
+     "burst_count": 1,
+     "effect_age": 0.0833333333333333,
+     "effect_frame": 2,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f02.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0833333333333333,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.275,
+     "burst_count": 1,
+     "effect_age": 0.125,
+     "effect_frame": 3,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f03.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.125,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.325,
+     "burst_count": 1,
+     "effect_age": 0.175,
+     "effect_frame": 4,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f04.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.175,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.375,
+     "burst_count": 1,
+     "effect_age": 0.225,
+     "effect_frame": 5,
+     "effect_image_point": [
+      226.733333333333,
+      270.733333333333
+     ],
+     "effect_position": [
+      416.0,
+      496.0
+     ],
+     "effigy_alive": false,
+     "file": "impact-left-f05.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.225,
+     "target_hp": -1
+    },
+    {
+     "attack_time": 0.433333333333334,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": false,
+     "file": "expired-left.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "attack_ground",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "target_hp": -1
+    },
+    {
+     "attack_time": -1,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -0.333333333333314,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "effigy_alive": true,
+     "file": "restored-left.png",
+     "hero_position": [
+      528.0,
+      560.0
+     ],
+     "hero_state": "idle",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "target_hp": -1
+    }
+   ],
+   "target_kind": "effigy"
+  }
+ ],
+ "viewport": "(852, 393)"
+}

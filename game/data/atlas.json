@@ -4015,6 +4015,24 @@
       ],
       "rgba_sha256": "7cb6ce79ee7b6da263b3898de34aaaac2c4154fa367b4f7a3ce2e0a388454091"
     },
+    "res://assets/props/prop_effigy/f000.png": {
+      "page": 0,
+      "region": [
+        1985,
+        311,
+        54,
+        192
+      ],
+      "trim": [
+        38,
+        35
+      ],
+      "canvas": [
+        128,
+        256
+      ],
+      "rgba_sha256": "9cb534fb0bca4a7e8470ac82788da52afbb03146b834e82a2c7a881e3fd3de5b"
+    },
     "res://assets/pursuer/pursuer_alert/f000.png": {
       "page": 2,
       "region": [

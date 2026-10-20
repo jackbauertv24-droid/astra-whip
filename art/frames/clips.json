@@ -1962,5 +1962,11 @@
       0
     ],
     "loop": false
+  },
+  "prop_effigy": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }
