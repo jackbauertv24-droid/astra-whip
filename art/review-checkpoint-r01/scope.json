@@ -1,0 +1,15 @@
+{
+  "mandatory": [
+    "prop_checkpoint",
+    "vfx_checkpoint_activate"
+  ],
+  "original_contract": "contract/art_contract.json",
+  "static_spec": "game/data/static_art.json",
+  "brief": "/config/codex-workspace/gothic-whip-spec/docs/ASSET_BRIEFS.md §9/11",
+  "style_lock_manifest": "art/style-lock.json",
+  "engine_captures": [
+    "evidence/checkpoint-r01-native/capture.json",
+    "evidence/checkpoint-r01-phone/capture.json"
+  ],
+  "visual_approval": false
+}

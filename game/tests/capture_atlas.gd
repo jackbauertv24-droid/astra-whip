@@ -45,6 +45,11 @@ func run():
   if not complete: continue
   for frame in spec.ms.size():
    for facing in [1,-1]: entries.append({"kind":"vfx","id":id,"frame":frame,"facing":facing,"elapsed":0.0})
+ var static_art: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
+ for id in static_art:
+  var spec: Dictionary=static_art[id]
+  for frame in int(spec.frames):
+   for facing in [1,-1]: entries.append({"kind":"static","id":id,"frame":frame,"facing":facing,"elapsed":0.0})
  var cells=[]
  for i in 6:
   var parent=PoseActor.new()
@@ -60,11 +65,12 @@ func run():
    var parent=cells[i]
    parent.facing=entry.facing
    parent.position=Vector2((i%3)*426+(160 if entry.facing==1 else 260),(i/3)*360+300)
-   if entry.kind=="vfx":
+   if entry.kind in ["vfx","static"]:
     var sprite=Sprite2D.new()
     parent.add_child(sprite)
-    var spec: Dictionary=contract.clips[entry.id]
-    sprite.texture=PackedArt.texture("res://assets/vfx/"+entry.id+"/f%03d.png"%entry.frame)
+    var spec: Dictionary=static_art[entry.id] if entry.kind=="static" else contract.clips[entry.id]
+    var category:String=spec.category if entry.kind=="static" else "vfx"
+    sprite.texture=PackedArt.texture("res://assets/"+category+"/"+entry.id+"/f%03d.png"%entry.frame)
     sprite.scale=Vector2(.5,.5)
     sprite.flip_h=entry.facing<0
     sprite.offset=Vector2(spec.canvas[0],spec.canvas[1])*.5-Vector2(spec.anchor[0],spec.anchor[1])

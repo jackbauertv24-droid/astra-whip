@@ -5,6 +5,9 @@ var hero: Hunter
 var surfaces: Array = []
 var foes: Array = []
 var projectiles: Array = []
+var checkpoint_layer: WhipImpactLayer
+var checkpoint_frames: Array[Texture2D] = []
+var checkpoint_spec: Dictionary
 var defeat_layer: WhipImpactLayer
 var impact_layer: WhipImpactLayer
 var projectile_frames: Array[Texture2D] = []
@@ -59,6 +62,12 @@ func projectile_frame_at(age: float) -> int:
  return projectile_durations.size()-1
 func _ready() -> void:
  load_projectile_art()
+ checkpoint_spec=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json")).prop_checkpoint
+ for frame in checkpoint_spec.frames:
+  checkpoint_frames.append(PackedArt.texture("res://assets/props/prop_checkpoint/f%03d.png"%frame))
+ checkpoint_layer=WhipImpactLayer.new()
+ checkpoint_layer.clip_id="vfx_checkpoint_activate"
+ add_child(checkpoint_layer)
  defeat_layer=WhipImpactLayer.new()
  defeat_layer.clip_id="vfx_enemy_defeat"
  add_child(defeat_layer)
@@ -125,6 +134,7 @@ func restart() -> void:
  projectiles.clear()
  impact_layer.clear()
  defeat_layer.clear()
+ checkpoint_layer.clear()
  effigy = true
  set_gate(false)
  hero.reset_at(respawn)
@@ -133,6 +143,8 @@ func restart() -> void:
 func pit_fall() -> void:
  if pit_timer < 0: pit_timer = 0
 func capture_checkpoint() -> void:
+ if checkpoint: return
+ checkpoint_layer.spawn_at(Vector2(4128,Rules.GROUND))
  checkpoint = true
  respawn = Vector2(4128,Rules.GROUND)
 func is_portrait() -> bool:
@@ -171,6 +183,8 @@ func _physics_process(dt: float) -> void:
  menu_back.visible = menu.visible
  queue_redraw()
 func step(dt: float) -> void:
+ checkpoint_layer.reduced=reduced_effects
+ checkpoint_layer.advance(dt)
  defeat_layer.reduced=reduced_effects
  defeat_layer.advance(dt)
  impact_layer.reduced=reduced_effects
@@ -432,7 +446,9 @@ func _draw() -> void:
      var source_y = 0 if y == int(surface.rect.position.y) else 128
      draw_texture_rect_region(masonry,Rect2(x,y,64,height),Rect2(128,source_y,128,height*2))
   draw_line(surface.rect.position,surface.rect.position+Vector2(surface.rect.size.x,0),Color("77838f"),3)
- draw_rect(Rect2(4112,Rules.GROUND-120,32,120),Color("e3a34a") if checkpoint else Color("6e6a61"))
+ var marker_anchor=Vector2(checkpoint_spec.anchor[0],checkpoint_spec.anchor[1])
+ var marker_size=Vector2(checkpoint_spec.canvas[0],checkpoint_spec.canvas[1])
+ draw_texture_rect(checkpoint_frames[1 if checkpoint else 0],Rect2(Vector2(4128,Rules.GROUND)-marker_anchor*.5,marker_size*.5),false)
  draw_rect(Rect2(6585,Rules.GROUND-160,55,160),Color("e3a34a") if exit_unlocked else Color("3b2d20"))
  if effigy: draw_rect(Rect2(400,Rules.GROUND-90,32,70),Color("9c9077"))
  for shot in projectiles:

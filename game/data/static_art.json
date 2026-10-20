@@ -1,0 +1,19 @@
+{
+  "prop_checkpoint": {
+    "category": "props",
+    "canvas": [
+      192,
+      320
+    ],
+    "anchor": [
+      96,
+      288
+    ],
+    "frames": 2,
+    "states": [
+      "inactive",
+      "active"
+    ],
+    "brief": "ASSET_BRIEFS §9"
+  }
+}

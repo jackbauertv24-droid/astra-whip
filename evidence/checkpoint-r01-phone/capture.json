@@ -1,0 +1,776 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "direction": 1,
+   "samples": [
+    {
+     "burst_count": 0,
+     "checkpoint": false,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "before-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4048.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 0,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      160.0,
+      560.0
+     ],
+     "sequence_elapsed": -1
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f00.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.0916666666666667,
+     "effect_frame": 1,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f01.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0916666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.183333333333333,
+     "effect_frame": 2,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f02.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.183333333333333
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.275,
+     "effect_frame": 3,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f03.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.275
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.275,
+     "effect_frame": 3,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "reduced-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": true,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.275
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.366666666666667,
+     "effect_frame": 4,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f04.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.366666666666667,
+     "effect_frame": 4,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "paused-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": true,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.450000000000001,
+     "effect_frame": 5,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f05.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.541666666666667,
+     "effect_frame": 6,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f06.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.541666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.633333333333334,
+     "effect_frame": 7,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-right-f07.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.633333333333334
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": true,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "expired-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4094.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": true,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "retry-active-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4128.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": false,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "completion-reset-right.png",
+     "hero_health": 5,
+     "hero_position": [
+      4048.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 0,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      160.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    }
+   ]
+  },
+  {
+   "direction": -1,
+   "samples": [
+    {
+     "burst_count": 0,
+     "checkpoint": false,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "before-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4208.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 0,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      160.0,
+      560.0
+     ],
+     "sequence_elapsed": -1
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f00.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.0916666666666667,
+     "effect_frame": 1,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f01.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0916666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.183333333333333,
+     "effect_frame": 2,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f02.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.183333333333333
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.275,
+     "effect_frame": 3,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f03.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.275
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.275,
+     "effect_frame": 3,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "reduced-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": true,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.275
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.366666666666667,
+     "effect_frame": 4,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f04.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.366666666666667,
+     "effect_frame": 4,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "paused-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": true,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.450000000000001,
+     "effect_frame": 5,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f05.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.541666666666667,
+     "effect_frame": 6,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f06.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.541666666666667
+    },
+    {
+     "burst_count": 1,
+     "checkpoint": true,
+     "effect_age": 0.633333333333334,
+     "effect_frame": 7,
+     "effect_position": [
+      4128.0,
+      560.0
+     ],
+     "file": "activation-left-f07.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.633333333333334
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": true,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "expired-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4162.0,
+      559.962036132812
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": true,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "retry-active-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4128.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 1,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      4128.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    },
+    {
+     "burst_count": 0,
+     "checkpoint": false,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_position": [],
+     "file": "completion-reset-left.png",
+     "hero_health": 5,
+     "hero_position": [
+      4048.0,
+      560.0
+     ],
+     "image_size": [
+      698,
+      393
+     ],
+     "marker_state": 0,
+     "paused": false,
+     "reduced_effects": false,
+     "respawn": [
+      160.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.725
+    }
+   ]
+  }
+ ],
+ "viewport": "(852, 393)"
+}

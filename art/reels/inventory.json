@@ -2058,14 +2058,14 @@
         352
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/vfx/vfx_checkpoint_activate/f000.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f001.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f002.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f003.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f004.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f005.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f006.png",
+        "../../game/assets/vfx/vfx_checkpoint_activate/f007.png"
       ],
       "weapon": null,
       "sockets": null,

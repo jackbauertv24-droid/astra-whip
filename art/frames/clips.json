@@ -1942,5 +1942,25 @@
       70
     ],
     "loop": false
+  },
+  "vfx_checkpoint_activate": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": false
+  },
+  "prop_checkpoint": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
   }
 }

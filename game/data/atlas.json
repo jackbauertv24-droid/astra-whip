@@ -3979,6 +3979,42 @@
       ],
       "rgba_sha256": "3126b3b6e2ecc3a6886d6608e865fab147a4ee7f93fbec9c871309cc7289c0d4"
     },
+    "res://assets/props/prop_checkpoint/f000.png": {
+      "page": 4,
+      "region": [
+        2,
+        1249,
+        165,
+        252
+      ],
+      "trim": [
+        14,
+        39
+      ],
+      "canvas": [
+        192,
+        320
+      ],
+      "rgba_sha256": "aaee1a88b723113750355b528539c321afa975343c0d87caf58de642ba2c78d8"
+    },
+    "res://assets/props/prop_checkpoint/f001.png": {
+      "page": 4,
+      "region": [
+        323,
+        2,
+        165,
+        253
+      ],
+      "trim": [
+        14,
+        39
+      ],
+      "canvas": [
+        192,
+        320
+      ],
+      "rgba_sha256": "7cb6ce79ee7b6da263b3898de34aaaac2c4154fa367b4f7a3ce2e0a388454091"
+    },
     "res://assets/pursuer/pursuer_alert/f000.png": {
       "page": 2,
       "region": [
@@ -6066,6 +6102,150 @@
         64
       ],
       "rgba_sha256": "a08dc77a78793a175d9024eb5d7325adbec11e68c484d600374af7609735e81b"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f000.png": {
+      "page": 3,
+      "region": [
+        1501,
+        998,
+        67,
+        68
+      ],
+      "trim": [
+        92,
+        288
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "256639a69e1f29db665266ac5e1bb001d8876b64280f115fb86893e606a49081"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f001.png": {
+      "page": 2,
+      "region": [
+        1118,
+        946,
+        84,
+        105
+      ],
+      "trim": [
+        88,
+        251
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "da29359545cc9647415333d7ddaa5479a5a1006608f6c818cd7ade2a6eacc720"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f002.png": {
+      "page": 0,
+      "region": [
+        1951,
+        1231,
+        86,
+        207
+      ],
+      "trim": [
+        85,
+        149
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "4437f90f0f24d57c5e0dd4201020ed39bec91efc8833b2fec58c1a065f384523"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f003.png": {
+      "page": 4,
+      "region": [
+        2,
+        890,
+        117,
+        355
+      ],
+      "trim": [
+        70,
+        1
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "4c7101c6e9f087b815404b1c6ac6d3ab352f9c8d6abfbe4790ce53c4199e6fd9"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f004.png": {
+      "page": 2,
+      "region": [
+        1941,
+        1578,
+        101,
+        249
+      ],
+      "trim": [
+        78,
+        107
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "0447eec52b3a5b5bf34cd46910d2aeedd08f6eaa43fde289e26f7edd30590fed"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f005.png": {
+      "page": 3,
+      "region": [
+        1924,
+        782,
+        93,
+        203
+      ],
+      "trim": [
+        84,
+        152
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "f431c3254a1f73bd2a2773296e4d1c120a15628aa3face05f1792a5c117e9613"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f006.png": {
+      "page": 3,
+      "region": [
+        1663,
+        484,
+        91,
+        119
+      ],
+      "trim": [
+        76,
+        237
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "9501906b7ddde7b6ab16f7cdbbe2ed795b0b0fde3158fa378f9e3c027e04d7fc"
+    },
+    "res://assets/vfx/vfx_checkpoint_activate/f007.png": {
+      "page": 1,
+      "region": [
+        1461,
+        1837,
+        87,
+        60
+      ],
+      "trim": [
+        75,
+        296
+      ],
+      "canvas": [
+        256,
+        384
+      ],
+      "rgba_sha256": "ed2adba68f86553f45b590da0533583017a24b02c6833d42fde842f4c3d42082"
     },
     "res://assets/vfx/vfx_enemy_defeat/f000.png": {
       "page": 3,

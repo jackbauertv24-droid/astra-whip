@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/checkpoint-marker-sheet-r01/raw.png",
+  "source_canvas": [
+    1374,
+    1145
+  ],
+  "export_canvas": [
+    384,
+    320
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

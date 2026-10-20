@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/checkpoint-effect-sheet-r01/raw.png",
+  "source_canvas": [
+    1448,
+    1086
+  ],
+  "export_canvas": [
+    1024,
+    768
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

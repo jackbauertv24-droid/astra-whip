@@ -318,3 +318,14 @@ Fresh `/root/boss_turn_review_r02` saved/reread blind lineup/strip notes before 
 ## Boss complete strike cycle — 2026-10-19
 
 Fresh isolated /root/boss_strike_review_r06 saved/read blind observations before intent, then inspected all45native tiles, nine onions, five style locks, provenance and all152actual runtime captures. Windup7frames,execute4,recover6 and9supplemental posture-hurt frames PASS. Full verdict: art/review-boss-strike-r04/review_verdict.md. Earlier weak recovery and discontinuous execution FAIL verdicts/captures remain retained. Four50ms execution keys now descend into progressive knee loading; recovery remains supported. The optional contextual strike classification is narrowly accepted by direct head/anatomy inspection; mandatory contract unchanged. Scripted rigidity and angular armor remain D23 quality debt. Phone images698×393,not physical-device evidence. Mandatory boss inventory40/70; hazard/death remain pending.
+
+## Implementation checkpoint presentation —2026-10-20
+
+Fresh independent reviewer: `/root/checkpoint_review_r01`; full verdict `art/review-checkpoint-r01/review_verdict.md`.
+
+| Clip | Result | Failing frames | Correction |
+|---|---|---|---|
+| prop_checkpoint | PASS | None | None required |
+| vfx_checkpoint_activate | PASS | None | None required |
+
+All10delivered frames, both onion sheets, five style references and56actual engine images inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS. This approves these two assets only; other inventory/device/player gates remain pending.
