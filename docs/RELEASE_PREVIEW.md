@@ -147,3 +147,7 @@ HUD,pause,menu and grouped touch controls now stay inside reported safe-area bou
 ## Follow-up fix 11g: synchronized boss hazard cycle
 
 Three boss clips (18frames), paired ring/eruption (10frames) and a late recovery hurt context (3frames) passed fresh independent review. An earlier review correctly blocked release because painted body dispatch hid the floor signal; the draw order and capture stage redraw were corrected, with the failed evidence retained. Actual alternating AI, all body/effect frames in both facings/native+phone, real punish hits and900ms recovery pass.236focused gameplay checks,333exactRGBA roundtrips,2001exported atlas checks and575reel checks pass. The618sample packing comparison differs in one pixel by one channel value. D23body-motion debt and remaining boss death/broader art/device/player gates are explicit. See evidence/boss-hazard-fix.md.
+
+## Follow-up fix: complete painted terrain kit
+
+All14briefed terrain roles now render from independently approved128×128painted sources: caps, sides, fill, bottoms, concavities and platform ends/middle. Thin platforms crop the top32source pixels; single-cell spans join endpoint halves. Existing continuous landing-edge stroke and collision geometry remain unchanged. Five repeat samples and20actual native/phone images passed review, including one accepted masonry-joint seam diagnostic. Exact sourceRGBA round trips and packed/unpacked board rendering pass. Background/UI inventory, playfield thumb clearance and external device/player gates remain pending. See `evidence/terrain-fix.md`.

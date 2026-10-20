@@ -1,0 +1,25 @@
+{
+  "mandatory": [
+    "terrain_cap_left",
+    "terrain_cap_mid",
+    "terrain_cap_right",
+    "terrain_side_left",
+    "terrain_side_right",
+    "terrain_fill_center",
+    "terrain_bottom_left",
+    "terrain_bottom_mid",
+    "terrain_bottom_right",
+    "terrain_inner_left",
+    "terrain_inner_right",
+    "terrain_plat_end_left",
+    "terrain_plat_mid",
+    "terrain_plat_end_right"
+  ],
+  "style_lock_manifest": "art/style-lock.json",
+  "static_spec": "game/data/static_art.json",
+  "engine_captures": [
+    "evidence/terrain-r01-native/capture.json",
+    "evidence/terrain-r01-phone/capture.json"
+  ],
+  "visual_approval": false
+}

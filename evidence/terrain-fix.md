@@ -1,0 +1,11 @@
+# Complete painted terrain kit
+
+Fourteen briefed opaque128×128tiles replace the single repeated masonry patch. Exact unedited cells are cropped from one generated sheet after uniform whole-sheet resolution conversion. Prompt, raw generation, guide, conversion and per-cell provenance are retained. No seam repaint, per-tile normalization or collision change. Thin one-way16u platforms crop the top32source pixels; single-cell spans join endpoint halves. Existing3u landing-edge stroke remains.
+
+Fresh independent REVIEW: PASS in art/review-terrain-r01/review_verdict.md covers14raw tiles/strips, five style references, five repeat patches and20actual engine PNGs. Custom opaque-static audit0DEFECT/1FLAG; side_left vertical repeat was independently accepted as a masonry joint. Original animation contract unchanged. Negative opacity and seam controls confirm detection. Initial import parse error is retained; final import/captures/full suites contain no script errors.
+
+Board fixtures select all14roles and overlay unchanged collision boundaries; eight fixed stage views per resolution show actual terrain integration. These are inspection views, not traversal or physical-device proof. Native1280×720 and actual phone698×393 PNG dimensions are recorded. Stage/rules hashes remain identical to the published base.
+
+Final checks:14reviewed/canonical/runtime frame bytes match;20captures validated;386exactRGBA atlas roundtrips plus corruption control; existing372placements preserved; five2048²pages/80MiB and99.9375MiB conservative inventory. Packed/unpacked terrain boards match exactly; generic724samples/121pages differ by one pixel/one channel value within unchanged gate. Full source suite1241main assertions and1931atlas checks pass; exported gameplay1241 and atlas2319checks pass. Measured software-renderer art allocation131916980bytes/125.81MiB. Contract and25defect selftests pass. Browser568×320CSS,DPR2,safe44/44/21boot/resume/touch smoke has0errors.
+
+An initial exported main test omitted fixed-fps and was terminated after slow progress, then rerun to completion with the standard120fixed-fps option. No source mutation remains. Background/UI inventory, playfield thumb clearance and external iPhone/player gates remain pending; audio remains deferred.

@@ -1,0 +1,43 @@
+{
+  "scope": "Opaque static terrain; original animation contract unchanged",
+  "defects": 1,
+  "flags": 1,
+  "reference_seam_mean": 27.897569444444443,
+  "seam_diagnostic_limit": 41.846354166666664,
+  "metrics": {
+    "cap_left→cap_mid:x": 4.9921875,
+    "cap_mid→cap_mid:x": 4.447916666666667,
+    "cap_mid→cap_right:x": 5.463541666666667,
+    "side_left→fill_center:x": 3.96875,
+    "fill_center→fill_center:x": 3.453125,
+    "fill_center→side_right:x": 5.830729166666667,
+    "bottom_left→bottom_mid:x": 6.458333333333333,
+    "bottom_mid→bottom_mid:x": 4.3515625,
+    "bottom_mid→bottom_right:x": 5.908854166666667,
+    "plat_end_left→plat_mid:x": 6.015625,
+    "plat_mid→plat_mid:x": 7.932291666666667,
+    "plat_mid→plat_end_right:x": 4.578125,
+    "inner_left→cap_mid:x": 3.9166666666666665,
+    "cap_mid→inner_right:x": 5.653645833333333,
+    "cap_mid→fill_center:y": 7.4921875,
+    "fill_center→fill_center:y": 7.669270833333333,
+    "fill_center→bottom_mid:y": 8.9296875,
+    "side_left→side_left:y": 55.268229166666664,
+    "side_right→side_right:y": 5.479166666666667
+  },
+  "findings": [
+    {
+      "rule": "TILE-OPAQUE",
+      "severity": "DEFECT",
+      "id": "terrain_fill_center",
+      "message": "1nonopaque pixels"
+    },
+    {
+      "rule": "TILE-SEAM",
+      "severity": "FLAG",
+      "id": "side_left→side_left:y",
+      "message": "edge RGB mean 55.27 exceeds reference-calibrated diagnostic 41.85"
+    }
+  ],
+  "visual_approval": false
+}

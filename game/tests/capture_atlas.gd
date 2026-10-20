@@ -65,6 +65,7 @@ func run():
    var parent=cells[i]
    parent.facing=entry.facing
    parent.position=Vector2((i%3)*426+(160 if entry.facing==1 else 260),(i/3)*360+300)
+   if entry.kind=="static" and static_art[entry.id].category=="terrain":parent.position.y-=64
    if entry.kind in ["vfx","static"]:
     var sprite=Sprite2D.new()
     parent.add_child(sprite)

@@ -6103,6 +6103,258 @@
       ],
       "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
     },
+    "res://assets/terrain/terrain_bottom_left/f000.png": {
+      "page": 3,
+      "region": [
+        1315,
+        1880,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "6e706ba2df07d3cd1b980f4be2eae4dc335601758c64f3008eade255f4ecd561"
+    },
+    "res://assets/terrain/terrain_bottom_mid/f000.png": {
+      "page": 3,
+      "region": [
+        1758,
+        484,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "e4fb7ef4d77b092c093a082185b6fee63fbd98f0f6dfb684e08119b59791669a"
+    },
+    "res://assets/terrain/terrain_bottom_right/f000.png": {
+      "page": 3,
+      "region": [
+        1890,
+        484,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "09b4441baef7e6c73fa0ca2136a99bdfb860d2914a476497569d9b93ae989960"
+    },
+    "res://assets/terrain/terrain_cap_left/f000.png": {
+      "page": 3,
+      "region": [
+        1572,
+        1004,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "97f99b9b0f3b3ea9f2f962f4106945ff9154c2a1b028db769022d44389c44b68"
+    },
+    "res://assets/terrain/terrain_cap_mid/f000.png": {
+      "page": 3,
+      "region": [
+        1704,
+        1004,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "663d4ee3f7d5d11e11494922114fc7bd55280248da6049751897f7aa4ed21462"
+    },
+    "res://assets/terrain/terrain_cap_right/f000.png": {
+      "page": 4,
+      "region": [
+        2,
+        1795,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "40cf943764b93dc44a11cc41e0c18f7dfb0592a8816c4f170abda6e77ff07091"
+    },
+    "res://assets/terrain/terrain_fill_center/f000.png": {
+      "page": 4,
+      "region": [
+        134,
+        1795,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "6f04bad0335e703d26bbdc8fd6023f652bfd21d0f3b2be01b7340f90273c34b5"
+    },
+    "res://assets/terrain/terrain_inner_left/f000.png": {
+      "page": 4,
+      "region": [
+        168,
+        1505,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "0c45f1e1667f5618a45c846e256db054f4cb655ba515eff2d6e545e51ccdd8af"
+    },
+    "res://assets/terrain/terrain_inner_right/f000.png": {
+      "page": 4,
+      "region": [
+        168,
+        1637,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "d2d41094be3a7a8954a396a15a4704a1dda4ef33f1067028811db56e16c98a00"
+    },
+    "res://assets/terrain/terrain_plat_end_left/f000.png": {
+      "page": 4,
+      "region": [
+        266,
+        1769,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "e19afc4c1ba3719ea1b571fdf174144daa0d571f93ddf816c90b9cc08cd4699d"
+    },
+    "res://assets/terrain/terrain_plat_end_right/f000.png": {
+      "page": 4,
+      "region": [
+        266,
+        1901,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "d4b4fa0908e4a0f94b787fdbd5f924485f7463f433b3d177b29048e161c3588a"
+    },
+    "res://assets/terrain/terrain_plat_mid/f000.png": {
+      "page": 4,
+      "region": [
+        171,
+        1162,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "c7ff41c2991d7f5a97665de0b325310b51a671a65980090423fc1810405a4b78"
+    },
+    "res://assets/terrain/terrain_side_left/f000.png": {
+      "page": 4,
+      "region": [
+        171,
+        1294,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "e662600607baa5aeb7e1e9190fb260355d8c6372494225553aaf0a00590cabcf"
+    },
+    "res://assets/terrain/terrain_side_right/f000.png": {
+      "page": 4,
+      "region": [
+        239,
+        890,
+        128,
+        128
+      ],
+      "trim": [
+        0,
+        0
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "c19815e1565ce37c5b8b360512875e92dcc60d92c1a1163bc9da8939bcdb378b"
+    },
     "res://assets/vfx/projectile_grave_shot/f000.png": {
       "page": 2,
       "region": [

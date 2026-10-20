@@ -1,0 +1,7 @@
+{
+  "base_commit": "89c0ac96bb2f990b695446e32b4b16e06802c8e4",
+  "sha256": {
+    "game/scripts/stage.gd": "b5f87bda4bc839ca885e409d4aae4bdc66ba6fdbec014997972d664e465fe249",
+    "game/scripts/rules.gd": "0a46ead8920fd89dd555cc2b53240bc29e13fd5c4c74dac225ac6a61342bd3e3"
+  }
+}

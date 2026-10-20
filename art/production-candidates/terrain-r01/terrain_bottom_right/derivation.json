@@ -1,0 +1,20 @@
+{
+  "kind": "generated_sheet",
+  "source": [
+    "art/production-candidates/terrain-sheet-r01/raw.png",
+    "art/production-candidates/terrain-sheet-r01/canvas.png",
+    "art/production-candidates/terrain-sheet-r01/prompt.txt",
+    "art/production-candidates/terrain-sheet-r01/guide.png",
+    "tools/prepare-terrain.mjs"
+  ],
+  "method": "Direct painted128px tile cell, uniform whole-sheet resolution conversion, exact unedited crop. No seam repaint, normalization or deformation.",
+  "source_cell": [
+    0,
+    256,
+    128,
+    128
+  ],
+  "corrective_normalization": 1,
+  "debris_removed": 0,
+  "visual_approval": false
+}

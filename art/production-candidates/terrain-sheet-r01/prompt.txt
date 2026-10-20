@@ -1,0 +1,19 @@
+Create one original gothic game TERRAIN KIT sprite sheet: EXACT512×512 canvas,4columns×4rows of128×128 equal OPAQUE tiles, no gutters, labels, borders or text. Reference1 is the approved stone material/style; reference2 is ONLY a role/layout guide (do NOT paint its colored lines or labels). All tiles share Cold Slate matte masonry, violet shadow, Slate Edge/Old Bone worn WALKABLE edges, flat orthographic side-view, not isometric, not perspective. Painted detailed stone, no visible pixel art. No crosses, skulls, lettering, franchise marks, warm Ember, green glow or plants. Plain stones, restrained fine irregular cracks that never cross/break a walkable top edge. Maintain identical module/grid scale and upper-left diffuse lighting across ALL tiles. All source pixels OPAQUE, no transparent/empty tile or backgrounds. Left/right/bottom border mortar bands agree with their neighbors; repeats should show natural masonry, no abrupt color seam. Only one tiny original thorn-knot carving in SPARE cell14, NEVER in repeating fill.
+Reading order, each slot occupies its ENTIRE128×128 cell:
+0 CAP LEFT: continuous pale wear line at EXACTcell y0, plain stone below, darker exposed left vertical edge.
+1 CAP MID: continuous pale walkable wear line EXACTy0 spanning full128width, repeatable plain stone below; matching left/right borders.
+2 CAP RIGHT: same continuous top line, darker exposed right edge.
+3 SIDE LEFT: exposed left vertical edge, plain stone face, no bright horizontal walkable stripe inside cell.
+4 SIDE RIGHT: exposed right vertical edge, plain stone face.
+5 FILL CENTER: plain repeatable stone, no carving, no bright horizontal stripe, matching allfour mortar borders.
+6 BOTTOM LEFT: left and bottom exposed dark/chipped edges, NO walkable bright line inside.
+7 BOTTOM MID: repeatable underside/bottom edge with dark worn trim.
+8 BOTTOM RIGHT: right and bottom exposed edges.
+9 INNER LEFT: continuous wear line EXACTy0 and a small concave wrap only at upper-left corner; no deep notch or fake collision opening.
+10 INNER RIGHT: mirror role of9, same top wear line.
+11 PLATFORM LEFT: TOP32pixels form a thin stone ledge with continuous wear line EXACTy0, exposed left end and underside trim at y28–31; lower96pixels plain dark masonry filler (renderer crops them away for16unit platforms).
+12 PLATFORM MID: same top32pixel thin ledge and underside at28–31, repeatable left/right, lower96plain masonry.
+13 PLATFORM RIGHT: same top32pixel thin ledge with exposed right end, lower96plain masonry.
+14 SPARE: plain block with ONE tiny thorn-knot carving, no symbols; not part mandatorykit.
+15 SPARE: plain uncarved fill.
+The surfaces are game collision boundaries: pale walking edge EXACTy0 on caps/inner/platform tiles and nowhere inside those tiles. No floating 3D blocks, detached shadows, bevel perspective or background margins. Match reference material and restrained contrast. All cells fill their exact grid slot; no extra panels.

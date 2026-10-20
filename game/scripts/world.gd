@@ -50,7 +50,7 @@ var touch_button_origins: Dictionary = {}
 var ui_backing_ratio=1.0
 var ui_safe_rect=Rect2(0,0,1280,720)
 var backdrop: Texture2D = preload("res://assets/style/background.png")
-var masonry: Texture2D = preload("res://assets/style/terrain.png")
+var terrain_art=TerrainArt.new()
 func load_projectile_art() -> void:
  var spec: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json")).clips.projectile_grave_shot
  projectile_durations = spec.ms
@@ -69,6 +69,7 @@ func projectile_frame_at(age: float) -> int:
   time -= float(projectile_durations[frame])
  return projectile_durations.size()-1
 func _ready() -> void:
+ terrain_art.configure()
  load_projectile_art()
  var static_art:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
  var exit_spec:Dictionary=static_art.prop_exit
@@ -467,16 +468,9 @@ func _draw() -> void:
  var background_x = floorf((camera_x * 0.2 - 640) / 1280) * 1280 - camera_x * 0.2 + camera_x
  for i in range(-1, 3):
   draw_texture_rect(backdrop,Rect2(background_x + i * 1280,0,1280,720),false)
- for surface in surfaces:
-  if surface in gates: continue
-  draw_rect(surface.rect, Color("4c5866"))
-  if surface.rect.size.x >= 64:
-   for x in range(int(surface.rect.position.x),int(surface.rect.end.x),64):
-    if absf(x-camera_x) > 760: continue
-    for y in range(int(surface.rect.position.y),int(surface.rect.end.y),64):
-     var height = minf(64,surface.rect.end.y-y)
-     var source_y = 0 if y == int(surface.rect.position.y) else 128
-     draw_texture_rect_region(masonry,Rect2(x,y,64,height),Rect2(128,source_y,128,height*2))
+ var terrain_shapes=surfaces.filter(func(surface):return not surface in gates)
+ for surface in terrain_shapes:
+  terrain_art.draw_surface(self,surface,terrain_shapes,camera_x)
   draw_line(surface.rect.position,surface.rect.position+Vector2(surface.rect.size.x,0),Color("77838f"),3)
  if gate_open_fraction<1.0:
   var gate_size=Vector2(gate_spec.canvas[0],gate_spec.canvas[1])

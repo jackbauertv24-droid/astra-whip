@@ -1980,5 +1980,89 @@
       0
     ],
     "loop": false
+  },
+  "terrain_cap_left": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_cap_mid": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_cap_right": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_side_left": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_side_right": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_fill_center": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_bottom_left": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_bottom_mid": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_bottom_right": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_inner_left": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_inner_right": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_plat_end_left": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_plat_mid": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "terrain_plat_end_right": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }
