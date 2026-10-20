@@ -1,0 +1,3 @@
+# Background review
+
+Blind first: lineup and all four strips; save/read observations before intent/metadata. Four static backgrounds, no character anatomy or transparent-VFX border rules. Inspect each raw frame, both full triple repeats, both wrap-edge crops, both reflected midpoint crops, all five style references and every supplied actual native/phone stage image. Opaque source panels remain standalone lossless textures; top/bottom engine fades join only background layers behind the play plane. Foreground framing is sparse alpha and non-tiled, enabled by level-data segments; inspect for interference with landings or tells. No physical-device or traversal claims. Original animation contract unchanged.

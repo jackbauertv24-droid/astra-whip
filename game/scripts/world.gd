@@ -49,7 +49,7 @@ var touch_buttons: Dictionary = {}
 var touch_button_origins: Dictionary = {}
 var ui_backing_ratio=1.0
 var ui_safe_rect=Rect2(0,0,1280,720)
-var backdrop: Texture2D = preload("res://assets/style/background.png")
+var background_art:BackgroundArt
 var terrain_art=TerrainArt.new()
 func load_projectile_art() -> void:
  var spec: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json")).clips.projectile_grave_shot
@@ -117,6 +117,9 @@ func _ready() -> void:
   gates.append(gate)
  build_ui()
  camera.position.y=playfield_camera_target()
+ background_art=BackgroundArt.new()
+ add_child(background_art)
+ background_art.configure(self)
 func add_surface(rect: Rect2, kind: String, enabled: bool = true) -> Dictionary:
  var body = StaticBody2D.new()
  body.collision_layer = 1 if enabled else 0
@@ -170,6 +173,7 @@ func restart() -> void:
  hero.reset_at(respawn)
  camera_x=clampf(hero.position.x+hero.facing*100,640,Rules.WIDTH-640)
  camera.position=Vector2(camera_x,playfield_camera_target())
+ background_art.update_camera()
  build_enemies()
  if not testing: set_pause(false)
 func pit_fall() -> void:
@@ -260,6 +264,7 @@ func step(dt: float) -> void:
  # Keep the required landing visible when entering a lower encounter or resizing.
  # Upward reframing can smooth; downward safety cannot wait behind the controls.
  camera.position.y=maxf(camera.position.y,vertical_target)
+ background_art.update_camera()
 func playfield_camera_target() -> float:
  # Lock to the lowest required landing in each authored encounter, including
  # the first bridge's lower return and the high route's ground fallback.
@@ -484,10 +489,6 @@ func _input(event: InputEvent) -> void:
   for action in touch_buttons:
    hero.controls.set_action(action,touch_buttons[action].get_global_rect().has_point(event.position),source)
 func _draw() -> void:
- draw_rect(Rect2(camera_x-1000,-600,2200,1800),Color("171221"))
- var background_x = floorf((camera_x * 0.2 - 640) / 1280) * 1280 - camera_x * 0.2 + camera_x
- for i in range(-1, 3):
-  draw_texture_rect(backdrop,Rect2(background_x + i * 1280,0,1280,720),false)
  var terrain_shapes=surfaces.filter(func(surface):return not surface in gates)
  for surface in terrain_shapes:
   terrain_art.draw_surface(self,surface,terrain_shapes,camera_x)

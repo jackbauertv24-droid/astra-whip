@@ -122,3 +122,7 @@ A transparent character/effect audit cannot validate opaque terrain: its border-
 ### Landing clearance must be measured after CSS scaling
 
 An unchanged landing collider can still disappear below phone controls. Test the actual input-driven lower return and its two jumps at safe-area/density variants, measure the landing against the control baseline in CSS pixels, and frame encounters for their lowest required landing. Desktop geometry checks alone missed this presentation defect.
+
+### Art captures must reset encounter locks before teleporting actors
+
+Moving a hunter from arena to tutorial coordinates left the horizontal boss lock active, yielding attack screenshots with no hunter. A fresh reviewer caught it despite successful screenshot writes. Restart the fixture state and camera, settle the actor visual after resets, reject samples with off-screen subjects or inactive declared attacks, and retain the rejected evidence. The injected distant-camera control must fail before a PNG is accepted.

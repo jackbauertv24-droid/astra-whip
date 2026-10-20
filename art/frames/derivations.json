@@ -2107,5 +2107,51 @@
     "corrective_normalization": 1,
     "debris_removed": 0,
     "visual_approval": false
+  },
+  "bg_sky": {
+    "kind": "generated_background",
+    "source": [
+      "art/production-candidates/background-r01/bg_sky/raw.png",
+      "art/production-candidates/background-r01/bg_sky/prompt.txt",
+      "art/production-candidates/background-r01/bg_sky/canvas.png.provenance.json",
+      "art/production-candidates/background-r01/bg_sky/raw-r02.png",
+      "art/production-candidates/background-r01/bg_sky/edit-prompt-r02.txt"
+    ],
+    "method": "Uniform whole-canvas resolution conversion only.",
+    "corrective_normalization": 1,
+    "visual_approval": false
+  },
+  "bg_distant_silhouette": {
+    "kind": "generated_background",
+    "source": [
+      "art/production-candidates/background-r01/bg_distant_silhouette/raw.png",
+      "art/production-candidates/background-r01/bg_distant_silhouette/prompt.txt",
+      "art/production-candidates/background-r01/bg_distant_silhouette/half.png.provenance.json"
+    ],
+    "method": "Uniform half-module resolution conversion followed by exact horizontal reflection; centre and wrap edge RGBA match. No seam repaint or deformation.",
+    "corrective_normalization": 1,
+    "visual_approval": false
+  },
+  "bg_midground_arch": {
+    "kind": "generated_background",
+    "source": [
+      "art/production-candidates/background-r01/bg_midground_arch/raw.png",
+      "art/production-candidates/background-r01/bg_midground_arch/prompt.txt",
+      "art/production-candidates/background-r01/bg_midground_arch/half.png.provenance.json"
+    ],
+    "method": "Uniform half-module resolution conversion followed by exact horizontal reflection; centre and wrap edge RGBA match. No seam repaint or deformation.",
+    "corrective_normalization": 1,
+    "visual_approval": false
+  },
+  "bg_foreground_frame": {
+    "kind": "generated_background",
+    "source": [
+      "art/production-candidates/background-r01/bg_foreground_frame/raw.png",
+      "art/production-candidates/background-r01/bg_foreground_frame/prompt.txt",
+      "art/production-candidates/background-r01/bg_foreground_frame/canvas.png.provenance.json"
+    ],
+    "method": "Exact source left/right half extraction; separate uniform256px whole-half conversions; placed at opposite ends of2048x256transparent strip. No stretching or repaint.",
+    "corrective_normalization": 1,
+    "visual_approval": false
   }
 }

@@ -387,3 +387,17 @@ Scoped opaque-static audit0DEFECT/1FLAG. The side_left vertical repeat diagnosti
 ## Implementation camera and phone landing clearance —2026-10-20
 
 Initial fresh r01 review FAILED distant-camera retry entry and ground fallback beneath controls. Both corrected with regression coverage. Fresh `/root/playfield_review_r02` saved/read blind notes, inspected all20actual native/phone PNGs and all five style references. Full verdict `art/review-playfield-r02/review_verdict.md`: REVIEW: PASS for camera presentation; no failing scoped samples. Existing animation approvals and physical-device/player gates remain independent.
+
+## Implementation four background panels —2026-10-20
+
+Initial r01review failed missing-subject attack evidence; corrected fixtures are independently re-reviewed. Fresh `/root/background_review_r02` full verdict `art/review-background-r02/review_verdict.md`: REVIEW: PASS. All4raw frames/strips,5style references,2triple repeats,4seam/midpoint crops and30actual stage/attack/boss-fixture PNGs inspected.
+
+| Asset | Verdict | Findings | Failing images |
+|---|---|---|---|
+| bg_sky | PASS | Dark violet painted cloud field matches the environment reference, stays behind all play information, and has no stars, warm distraction, pixel grid or photorealistic mismatch. Opaque static texture is appropriate. | None |
+| bg_distant_silhouette | PASS | Teal mist and repeated spires establish distance with lower contrast than near masonry. Both wrap and midpoint join continue clouds, mist and silhouettes without a hard rectangular or material seam. Bilateral motifs are discernible when deliberately studied in the wide repeat, but remain plausible ruined-city rhythm and do not become a distracting joint in supplied stage captures. | None |
+| bg_midground_arch | PASS | Matte charcoal/violet stone, pointed arches and tracery match the locked mockup and terrain family. Full strip/repeat clearly exposes reflected architecture; this is visible reuse, not an invisible organic panorama. The midpoint is a coherent broken central pier and the wrap forms a coherent paired-arch pier: no split blocks, lighting jump, clipped contour, material discontinuity or bright vertical seam. Its repetition is noticeable in the scene but does not impair depth or play readability. | None |
+| bg_foreground_frame | PASS | Sparse near-black violet branch corners with a genuinely open transparent center, no opaque backing or visible extraction halo. Mirroring is apparent but harmless for corner framing. Visible segments remain high at screen edges, away from actors, landing lines and tells. | None |
+
+
+Noticeable mirrored scenery remains an accepted quality limitation. No actor animation or physical-device approval inferred.

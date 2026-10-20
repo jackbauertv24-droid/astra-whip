@@ -12,6 +12,8 @@ for regression in actor_pivot swooper_collision swooper_recovery_entry ranged_pr
 done
 "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/playfield_clearance.gd > evidence/playfield_clearance.log 2>&1
 cat evidence/playfield_clearance.log
+"$GODOT_BIN" --headless --path game --script res://tests/background_art.gd > evidence/background_art.log 2>&1
+cat evidence/background_art.log
 if [[ "${1:-}" == "--mutations" ]]; then
  for id in T-01 T-02 T-03 T-04 T-05 T-06 T-07 T-08 T-09; do
   if ASTRA_MUTATION="$id" "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/run.gd > "evidence/mutation-$id.log" 2>&1; then

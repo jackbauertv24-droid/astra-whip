@@ -2064,5 +2064,29 @@
       0
     ],
     "loop": false
+  },
+  "bg_sky": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "bg_distant_silhouette": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "bg_midground_arch": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "bg_foreground_frame": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

@@ -1,0 +1,17 @@
+[
+  {
+    "name": "opaque panel alpha",
+    "rule": "BG-OPAQUE",
+    "detected": true
+  },
+  {
+    "name": "wrapped edge corruption",
+    "rule": "BG-SEAM",
+    "detected": true
+  },
+  {
+    "name": "foreground painted backing",
+    "rule": "BG-ALPHA",
+    "detected": true
+  }
+]

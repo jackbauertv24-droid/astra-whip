@@ -1,0 +1,19 @@
+{
+  "assets": 4,
+  "standalone_frames": 4,
+  "actual_capture_samples": 30,
+  "source_audit": {
+    "defects": 0,
+    "flags": 0,
+    "findings": [],
+    "visual_approval": false
+  },
+  "sha256": {
+    "bg_sky": "b3b438bb63e9f16597ad55c351cb4d3863d7625812696c60e5542d86c5573965",
+    "bg_distant_silhouette": "dfa36e91b18c67f2f27af3403ab488a496090e0547de27194a27a1b2465cb78f",
+    "bg_midground_arch": "c7acc5439d858a0fff1987810777be2323d9ebe14c3ed119a07d06c69f355352",
+    "bg_foreground_frame": "616c5e1b3daeb5077b866c3ee2809218633aa3c9694b41a3e8a10ab4d14cc590"
+  },
+  "physical_device": false,
+  "errors": []
+}

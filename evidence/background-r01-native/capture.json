@@ -1,0 +1,260 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "camera": [
+    640.0,
+    488.0
+   ],
+   "file": "threshold.png",
+   "framing_visible": true,
+   "hero": [
+    160.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    640.0,
+    488.0
+   ],
+   "file": "bridge.png",
+   "framing_visible": true,
+   "hero": [
+    480.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    800.0,
+    488.0
+   ],
+   "file": "lower-return.png",
+   "framing_visible": true,
+   "hero": [
+    700.0,
+    688.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    1700.0,
+    360.0
+   ],
+   "file": "court.png",
+   "framing_visible": false,
+   "hero": [
+    1600.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    2980.0,
+    360.0
+   ],
+   "file": "stairs.png",
+   "framing_visible": false,
+   "hero": [
+    2880.0,
+    432.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    3364.0,
+    360.0
+   ],
+   "file": "upper-platforms.png",
+   "framing_visible": false,
+   "hero": [
+    3264.0,
+    432.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    3620.0,
+    360.0
+   ],
+   "file": "fallback.png",
+   "framing_visible": false,
+   "hero": [
+    3520.0,
+    496.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    4100.0,
+    360.0
+   ],
+   "file": "checkpoint.png",
+   "framing_visible": false,
+   "hero": [
+    4000.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    4900.0,
+    360.0
+   ],
+   "file": "mixed.png",
+   "framing_visible": true,
+   "hero": [
+    4800.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    6000.0,
+    360.0
+   ],
+   "file": "arena.png",
+   "framing_visible": false,
+   "hero": [
+    5900.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "fixed stage inspection, not traversal"
+  },
+  {
+   "camera": [
+    4919.078125,
+    488.0
+   ],
+   "file": "ground-whip.png",
+   "framing_visible": true,
+   "hero": [
+    160.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "actual input-driven active whip"
+  },
+  {
+   "camera": [
+    6066.84228515625,
+    488.0
+   ],
+   "file": "air-whip.png",
+   "framing_visible": true,
+   "hero": [
+    160.0,
+    434.703002929688
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "actual jump plus active air whip"
+  },
+  {
+   "camera": [
+    6016.0,
+    360.0
+   ],
+   "file": "strike_windup.png",
+   "framing_visible": false,
+   "hero": [
+    6000.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "explicit boss state fixture; production8HP, not AI traversal"
+  },
+  {
+   "camera": [
+    6016.0,
+    360.0
+   ],
+   "file": "hazard_windup.png",
+   "framing_visible": false,
+   "hero": [
+    6000.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "explicit boss state fixture; production8HP, not AI traversal"
+  },
+  {
+   "camera": [
+    6016.0,
+    360.0
+   ],
+   "file": "hazard_execute.png",
+   "framing_visible": false,
+   "hero": [
+    6000.0,
+    560.0
+   ],
+   "image_size": [
+    1280,
+    720
+   ],
+   "kind": "explicit boss state fixture; production8HP, not AI traversal"
+  }
+ ]
+}

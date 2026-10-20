@@ -1,0 +1,8 @@
+{
+  "source": "art/production-candidates/background-r01/bg_foreground_frame/raw.png",
+  "method": "Exact left/right half extraction, separate uniform whole-half256px export conversions, placed at opposite ends of2048x256transparent canvas. No stretching, repaint or seam repair.",
+  "corner_provenance": [
+    "art/production-candidates/background-r01/bg_foreground_frame/left.png.provenance.json",
+    "art/production-candidates/background-r01/bg_foreground_frame/right.png.provenance.json"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "scope": "current delivered inventory; future art requires repacking/rebudgeting; no physical-device profiling",
+  "visual_approval": false,
+  "roundtrips": 386,
+  "negative_control": true,
+  "source_rgba_bytes": 303628288,
+  "atlas_rgba_bytes": 83886080,
+  "unpacked_rgba_bytes": 36634624,
+  "conservative_rgba_bytes": 120520704,
+  "conservative_mib": 114.9375,
+  "mipmaps": false,
+  "unpacked": [
+    {
+      "path": "res://assets/background/bg_distant_silhouette/panel.png",
+      "width": 2048,
+      "height": 384,
+      "rgba_bytes": 3145728
+    },
+    {
+      "path": "res://assets/background/bg_foreground_frame/panel.png",
+      "width": 2048,
+      "height": 256,
+      "rgba_bytes": 2097152
+    },
+    {
+      "path": "res://assets/background/bg_midground_arch/panel.png",
+      "width": 2048,
+      "height": 768,
+      "rgba_bytes": 6291456
+    },
+    {
+      "path": "res://assets/background/bg_sky/panel.png",
+      "width": 1024,
+      "height": 1024,
+      "rgba_bytes": 4194304
+    },
+    {
+      "path": "res://assets/hero/attack_follow.png",
+      "width": 512,
+      "height": 512,
+      "rgba_bytes": 1048576
+    },
+    {
+      "path": "res://assets/hero/attack_rest.png",
+      "width": 512,
+      "height": 512,
+      "rgba_bytes": 1048576
+    },
+    {
+      "path": "res://assets/hero/attack_strike.png",
+      "width": 512,
+      "height": 512,
+      "rgba_bytes": 1048576
+    },
+    {
+      "path": "res://assets/hero/attack_windup.png",
+      "width": 512,
+      "height": 512,
+      "rgba_bytes": 1048576
+    },
+    {
+      "path": "res://assets/hero/neutral.png",
+      "width": 512,
+      "height": 512,
+      "rgba_bytes": 1048576
+    },
+    {
+      "path": "res://assets/style/background.png",
+      "width": 2560,
+      "height": 1440,
+      "rgba_bytes": 14745600
+    },
+    {
+      "path": "res://assets/style/pursuer.png",
+      "width": 320,
+      "height": 256,
+      "rgba_bytes": 327680
+    },
+    {
+      "path": "res://assets/style/terrain.png",
+      "width": 384,
+      "height": 384,
+      "rgba_bytes": 589824
+    }
+  ],
+  "failures": []
+}

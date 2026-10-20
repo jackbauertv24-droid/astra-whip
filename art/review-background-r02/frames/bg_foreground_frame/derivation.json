@@ -1,0 +1,11 @@
+{
+  "kind": "generated_background",
+  "source": [
+    "art/production-candidates/background-r01/bg_foreground_frame/raw.png",
+    "art/production-candidates/background-r01/bg_foreground_frame/prompt.txt",
+    "art/production-candidates/background-r01/bg_foreground_frame/canvas.png.provenance.json"
+  ],
+  "method": "Exact source left/right half extraction; separate uniform256px whole-half conversions; placed at opposite ends of2048x256transparent strip. No stretching or repaint.",
+  "corrective_normalization": 1,
+  "visual_approval": false
+}

@@ -155,3 +155,7 @@ All14briefed terrain roles now render from independently approved128×128painted
 ## Follow-up fix: camera framing above phone controls
 
 The opening bridge encounter now frames its688u lower return; other encounters include their560u ground fallback. A16CSS-pixel clearance above controls accounts for density and safe areas. Retry immediately returns the camera to the respawned hunter. The356check regression covers actual approach/fall/two-jump return and fixed ordinary/raised/fallback/checkpoint/arena views across four viewport/density configurations. Final source/export gameplay checks pass. See `evidence/playfield-fix.md` for review and capture evidence; physical-device/player gates remain external.
+
+## Follow-up fix: complete painted background depth stack
+
+All four briefed backgrounds passed fresh independent r02review, including repeat/seam/midpoint samples and30actual native/phone captures. The scene now uses separate sky, distant silhouette, midground masonry and sparse level-data framing; panels remain standalone with386unchanged atlas placements. Three source-audit negative controls and an off-screen capture guard reject invalid evidence. Main1241assertions, camera356checks, action targets190, source/export background42, exported atlas2319 and contract/25defect selftests pass. Art allocation127.06MiB measured on desktop software renderer. Mirrored scenery repetition remains visible quality debt; UI inventory and external-device/player gates are pending. See evidence/background-fix.md.

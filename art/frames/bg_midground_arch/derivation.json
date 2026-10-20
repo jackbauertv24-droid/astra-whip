@@ -1,0 +1,11 @@
+{
+  "kind": "generated_background",
+  "source": [
+    "art/production-candidates/background-r01/bg_midground_arch/raw.png",
+    "art/production-candidates/background-r01/bg_midground_arch/prompt.txt",
+    "art/production-candidates/background-r01/bg_midground_arch/half.png.provenance.json"
+  ],
+  "method": "Uniform half-module resolution conversion followed by exact horizontal reflection; centre and wrap edge RGBA match. No seam repaint or deformation.",
+  "corrective_normalization": 1,
+  "visual_approval": false
+}
