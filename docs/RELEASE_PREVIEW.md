@@ -171,3 +171,7 @@ Six normal/pressed buttons now follow shared keyboard/touch held state with live
 ## Follow-up fix: checkpoint HUD
 
 Painted hollow/filled checkpoint indicator now follows activation, death/retry and completion reset beside five health pips. Live HUD text fits whole phrases. Fresh review passes2sources,21engine and4browser views.232source/export checks,1241gameplay assertions and focused regressions pass.402packed frames, exactRGBA and756renderer samples;127.06MiB measured art allocation.3UIassets/3frames and external acceptance gates remain pending. See evidence/ui-checkpoint-fix.md.
+
+## Follow-up fix: completion menu and icons
+
+Completion now reveals its scroll container through shared menu visibility, making retry clickable. Gameplay controls hide during menus and return on resume. Painted retry/victory icons with live wording pass fresh review across21engine and5browser views.75source/export checks,1241gameplay assertions and menu/input/portrait/health/exit regressions pass.404packed frames, exactRGBA/760renderer comparisons and127.06MiB measured art allocation. Only rotate graphic remains in UI inventory; external gates pending. See evidence/ui-completion-fix.md.

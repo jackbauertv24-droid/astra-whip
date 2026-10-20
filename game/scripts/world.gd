@@ -52,6 +52,10 @@ var ui_safe_rect=Rect2(0,0,1280,720)
 var health_pips:Array[TextureRect]=[]
 var health_full:Texture2D
 var health_empty:Texture2D
+var retry_button:Button
+var victory_row:HBoxContainer
+var victory_icon:TextureRect
+var victory_caption:Label
 var checkpoint_icon:TextureRect
 var checkpoint_ui_frames:Array[Texture2D]=[]
 var painted_controls=PaintedControls.new()
@@ -212,7 +216,7 @@ func update_orientation_ui() -> void:
  status.visible=not portrait
  for pip in health_pips:pip.visible=not portrait
  checkpoint_icon.visible=not portrait
- for action in touch_buttons: touch_buttons[action].visible=not portrait
+ for action in touch_buttons: touch_buttons[action].visible=not portrait and not menu.visible
  pause_button.disabled=portrait
  pause_button.text="PAUSED" if portrait else ("RESUME" if paused else "PAUSE")
 func _notification(what: int) -> void:
@@ -222,6 +226,7 @@ func _process(_dt: float) -> void:
  for action in touch_buttons:
   touch_buttons[action].set_pressed_no_signal(not paused and not complete and hero.controls.is_held(action))
  painted_controls.refresh()
+ victory_row.visible=complete
 func _physics_process(dt: float) -> void:
  if testing: return
  if is_portrait() and not paused: set_pause(true)
@@ -236,7 +241,7 @@ func update_health_hud():
  var detail="   |   CHECKPOINT LIT" if checkpoint else "   |   ASTRA WHIP"
  var font=status.get_theme_font("font")
  status.text=health_text+detail if font.get_string_size(health_text+detail,HORIZONTAL_ALIGNMENT_LEFT,-1,status.get_theme_font_size("font_size")).x<=status.size.x else health_text
- if complete:status.text="THE WARDEN HAS FALLEN — THE WAY IS OPEN"
+ if complete:status.text="STAGE CLEAR"
 func step(dt: float) -> void:
  checkpoint_layer.reduced=reduced_effects
  checkpoint_layer.advance(dt)
@@ -270,7 +275,7 @@ func step(dt: float) -> void:
  if exit_unlocked and hero.position.x > 6600:
   complete = true
   hero.controls.clear()
-  menu.visible = true
+  update_orientation_ui()
  if effigy and hero.active() and hero.whip_rect().intersects(Rect2(400,Rules.GROUND-90,32,70)):
   impact_layer.spawn_at(hero.whip_rect().intersection(Rect2(400,Rules.GROUND-90,32,70)).get_center())
   effigy = false
@@ -345,6 +350,21 @@ func build_ui() -> void:
  menu.size_flags_horizontal=Control.SIZE_EXPAND_FILL
  menu.mouse_filter=Control.MOUSE_FILTER_PASS
  menu_scroll.add_child(menu)
+ victory_row=HBoxContainer.new()
+ victory_row.alignment=BoxContainer.ALIGNMENT_CENTER
+ victory_row.visible=false
+ menu.add_child(victory_row)
+ victory_icon=TextureRect.new()
+ victory_icon.texture=PackedArt.texture("res://assets/ui/ui_victory/f000.png")
+ victory_icon.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+ victory_icon.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+ victory_icon.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ victory_icon.mouse_filter=Control.MOUSE_FILTER_IGNORE
+ victory_row.add_child(victory_icon)
+ victory_caption=Label.new()
+ victory_caption.text="STAGE CLEAR"
+ victory_caption.vertical_alignment=VERTICAL_ALIGNMENT_CENTER
+ victory_row.add_child(victory_caption)
  var title = Label.new()
  title.text = "ASTRA WHIP\nThe Ashen Threshold · Preview"
  title.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
@@ -364,11 +384,14 @@ func build_ui() -> void:
   if complete: restart()
   set_pause(false))
  menu.add_child(start)
- var retry = Button.new()
- retry.text = "RETRY FROM CHECKPOINT"
- retry.custom_minimum_size.y = 48
- retry.pressed.connect(restart)
- menu.add_child(retry)
+ retry_button = Button.new()
+ retry_button.text = "RETRY FROM CHECKPOINT"
+ retry_button.icon=PackedArt.texture("res://assets/ui/ui_retry/f000.png")
+ retry_button.expand_icon=true
+ retry_button.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ retry_button.custom_minimum_size.y = 48
+ retry_button.pressed.connect(restart)
+ menu.add_child(retry_button)
  var effects = CheckButton.new()
  effects.text = "Reduced effects"
  effects.toggled.connect(func(value): reduced_effects = value)
@@ -475,6 +498,10 @@ func update_touch_targets() -> void:
   control.position=positions[action]
 func update_menu_targets() -> void:
  var scale=ui_units_to_css_pixels()
+ retry_button.add_theme_constant_override("icon_max_width",ceili(32/scale.x))
+ victory_icon.custom_minimum_size=Vector2(48/scale.x,48/scale.y)
+ victory_caption.add_theme_font_size_override("font_size",ceili(20/scale.y))
+ victory_row.add_theme_constant_override("separation",ceili(8/scale.x))
  var label_index=0
  for control in menu.get_children():
   if control is Label:

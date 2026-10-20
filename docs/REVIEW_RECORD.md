@@ -420,3 +420,7 @@ Fresh `/root/ui_controls_review_r01`: REVIEW: PASS for all six assets/twelve sta
 ## Checkpoint HUD r01
 
 Fresh `/root/ui_checkpoint_review_r01`: REVIEW: PASS for off/on icons. Both raw and delivered frames,5style references,21engine views and4browser PNGs individually inspected after saved/read blind observations. Hollow/filled32x24CSS distinction, actual state mapping, whole text, safe spacing and portrait hiding pass. No unresolved flags. Full verdict: art/review-ui-checkpoint-r01/review_verdict.md.
+
+## Completion UI r01
+
+Fresh `/root/ui_completion_review_r01`: REVIEW: PASS for retry/victory and supplied menu integration. Both raw/delivered frames,5references,21engine and5browser views individually inspected after saved/read blind phase.32CSS retry,48CSS crown/laurel, live captions, scrolling, actual clicks/reset and hidden competing controls pass. No unresolved flags. Full verdict: art/review-ui-completion-r01/review_verdict.md.

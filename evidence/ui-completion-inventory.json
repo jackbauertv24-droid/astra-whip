@@ -1,0 +1,14 @@
+{
+  "assets": [
+    "ui_retry",
+    "ui_victory"
+  ],
+  "source_frames": 2,
+  "actual_capture_samples": 21,
+  "sha256": {
+    "ui_retry": "684efcfad7b15eca85b0e49b94682ff3f9efe5ea7af613145819c15e97b4348b",
+    "ui_victory": "25a8e093fe864387dd9ae4a631c602c8c49267581f31f009ba8221cd36e587d4"
+  },
+  "physical_device": false,
+  "errors": []
+}

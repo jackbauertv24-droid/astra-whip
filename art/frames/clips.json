@@ -2154,5 +2154,17 @@
       0
     ],
     "loop": false
+  },
+  "ui_retry": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "ui_victory": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

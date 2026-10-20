@@ -1,0 +1,279 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "native-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "native-checkpoint-retried.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "native-victory-top.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "native-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "density": 1.0,
+   "file": "native-completion-retried.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "phone-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "phone-checkpoint-retried.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "phone-victory-top.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "phone-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "density": 1.0,
+   "file": "phone-completion-retried.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "compact-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 1.0,
+   "file": "compact-checkpoint-retried.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "compact-victory-top.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 1.0,
+   "file": "compact-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "density": 1.0,
+   "file": "compact-completion-retried.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 2.0,
+   "file": "density2-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "density": 2.0,
+   "file": "density2-checkpoint-retried.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 2.0,
+   "file": "density2-victory-top.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "density": 2.0,
+   "file": "density2-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "victory_visible": true
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "density": 2.0,
+   "file": "density2-completion-retried.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  },
+  {
+   "checkpoint": false,
+   "complete": true,
+   "density": 1.0,
+   "file": "portrait-hidden.png",
+   "health": 5,
+   "image_size": [
+    393,
+    221
+   ],
+   "physical_device": false,
+   "victory_visible": false
+  }
+ ],
+ "source": "unlocked-exit/menu UI fixture, not full boss traversal"
+}

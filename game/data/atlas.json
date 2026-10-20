@@ -6643,6 +6643,42 @@
       ],
       "rgba_sha256": "da5344aeacd9eaeb09ff6d970d45eb5572b0d48745a2dfdb24ea3a607cb19889"
     },
+    "res://assets/ui/ui_retry/f000.png": {
+      "page": 4,
+      "region": [
+        303,
+        1236,
+        100,
+        111
+      ],
+      "trim": [
+        14,
+        8
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "b3a2581cf4703dad1b13717adc20c38a8ca39fa2986ac820839b61ad4d07c9b7"
+    },
+    "res://assets/ui/ui_victory/f000.png": {
+      "page": 4,
+      "region": [
+        349,
+        1022,
+        110,
+        90
+      ],
+      "trim": [
+        9,
+        16
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "eed7eb1cbab25ad0b35de55b028693f365c29ec51f944d663f13263921a94681"
+    },
     "res://assets/vfx/projectile_grave_shot/f000.png": {
       "page": 2,
       "region": [

@@ -449,5 +449,35 @@
     "opaque": false,
     "collision": "none",
     "coordinate_space": "UI;32x24CSS"
+  },
+  "ui_retry": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI;retry32CSS/victory48CSS"
+  },
+  "ui_victory": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI;retry32CSS/victory48CSS"
   }
 }
