@@ -1127,5 +1127,484 @@
       "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bent-knee,gauntlet-on-knee stoop with upright counterrotating head and a progressive rise; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
       "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains."
     }
+  },
+  "boss_hazard_windup": {
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "art/production-candidates/boss-hazard-key-r01/registered.png",
+        "art/production-candidates/boss-hazard-key-r01/raw.png",
+        "tools/prepare-boss-hazard.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+      "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+      "hand_polygon": [
+        [
+          310,
+          346
+        ],
+        [
+          342,
+          346
+        ],
+        [
+          364,
+          357
+        ],
+        [
+          390,
+          372
+        ],
+        [
+          405,
+          389
+        ],
+        [
+          405,
+          416
+        ],
+        [
+          385,
+          421
+        ],
+        [
+          365,
+          409
+        ],
+        [
+          345,
+          403
+        ],
+        [
+          326,
+          405
+        ],
+        [
+          312,
+          389
+        ]
+      ],
+      "hand_wrist": [
+        330,
+        365
+      ],
+      "hand_scale": 0.65,
+      "hand_rotation_radians": 0.9397887835651278,
+      "visual_approval": false
+    }
+  },
+  "boss_hazard_execute": {
+    "ms": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "art/production-candidates/boss-hazard-key-r01/registered.png",
+        "art/production-candidates/boss-hazard-key-r01/raw.png",
+        "tools/prepare-boss-hazard.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+      "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+      "hand_polygon": [
+        [
+          310,
+          346
+        ],
+        [
+          342,
+          346
+        ],
+        [
+          364,
+          357
+        ],
+        [
+          390,
+          372
+        ],
+        [
+          405,
+          389
+        ],
+        [
+          405,
+          416
+        ],
+        [
+          385,
+          421
+        ],
+        [
+          365,
+          409
+        ],
+        [
+          345,
+          403
+        ],
+        [
+          326,
+          405
+        ],
+        [
+          312,
+          389
+        ]
+      ],
+      "hand_wrist": [
+        330,
+        365
+      ],
+      "hand_scale": 0.65,
+      "hand_rotation_radians": 0.9397887835651278,
+      "visual_approval": false
+    }
+  },
+  "boss_hazard_recover": {
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "art/production-candidates/boss-hazard-key-r01/registered.png",
+        "art/production-candidates/boss-hazard-key-r01/raw.png",
+        "tools/prepare-boss-hazard.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+      "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+      "hand_polygon": [
+        [
+          310,
+          346
+        ],
+        [
+          342,
+          346
+        ],
+        [
+          364,
+          357
+        ],
+        [
+          390,
+          372
+        ],
+        [
+          405,
+          389
+        ],
+        [
+          405,
+          416
+        ],
+        [
+          385,
+          421
+        ],
+        [
+          365,
+          409
+        ],
+        [
+          345,
+          403
+        ],
+        [
+          326,
+          405
+        ],
+        [
+          312,
+          389
+        ]
+      ],
+      "hand_wrist": [
+        330,
+        365
+      ],
+      "hand_scale": 0.65,
+      "hand_rotation_radians": 0.9397887835651278,
+      "visual_approval": false
+    }
+  },
+  "vfx_hazard_telegraph": {
+    "ms": [
+      300,
+      300,
+      300,
+      300
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "generated_sheet",
+      "source": [
+        "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-corrected-raw.png",
+        "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-correction-prompt-r02.txt"
+      ],
+      "method": "Four directly painted sustained warning frames, uniform canvas-resolution conversion, then base-anchor registration only. No scripted animation or global size curve.",
+      "reason": "Paired floor signal required for the boss hazard tell.",
+      "records": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            7,
+            47,
+            315,
+            112
+          ],
+          "source_pivot": [
+            161,
+            112
+          ],
+          "delivery_anchor": [
+            160,
+            112
+          ],
+          "corrective_normalization": 1,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            7,
+            42,
+            315,
+            112
+          ],
+          "source_pivot": [
+            161,
+            112
+          ],
+          "delivery_anchor": [
+            160,
+            112
+          ],
+          "corrective_normalization": 1,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            7,
+            33,
+            315,
+            104
+          ],
+          "source_pivot": [
+            161,
+            104
+          ],
+          "delivery_anchor": [
+            160,
+            112
+          ],
+          "corrective_normalization": 1,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            6,
+            30,
+            315,
+            105
+          ],
+          "source_pivot": [
+            160.5,
+            105
+          ],
+          "delivery_anchor": [
+            160,
+            112
+          ],
+          "corrective_normalization": 1,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0
+        }
+      ],
+      "visual_approval": false
+    }
+  },
+  "vfx_hazard_eruption": {
+    "ms": [
+      60,
+      60,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "reused",
+      "source": [
+        "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-raw.png",
+        "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-prompt.txt",
+        "art/frames/vfx_hazard_telegraph/f003.png"
+      ],
+      "method": "Six directly painted eruption frames share one bounded uniform0.8518518518518519 scale to honor the46u height ceiling, base-anchor registration and the reused full-width warning gutter. Fire motion is directly painted; no procedural animation or phase interpolation.",
+      "reason": "The generated peak measured108sourcepixels; shared92/108 normalization preserves relative phase sizes. A persistent full-width gutter marks the complete dangerous zone throughout the400ms eruption.",
+      "records": [
+        {
+          "frame": 0,
+          "source_bbox": [
+            10,
+            122,
+            312,
+            178
+          ],
+          "source_pivot": [
+            161,
+            178
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        },
+        {
+          "frame": 1,
+          "source_bbox": [
+            10,
+            96,
+            311,
+            178
+          ],
+          "source_pivot": [
+            160.5,
+            178
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        },
+        {
+          "frame": 2,
+          "source_bbox": [
+            8,
+            71,
+            313,
+            178
+          ],
+          "source_pivot": [
+            160.5,
+            178
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        },
+        {
+          "frame": 3,
+          "source_bbox": [
+            9,
+            68,
+            312,
+            159
+          ],
+          "source_pivot": [
+            160.5,
+            159
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        },
+        {
+          "frame": 4,
+          "source_bbox": [
+            9,
+            77,
+            311,
+            159
+          ],
+          "source_pivot": [
+            160,
+            159
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        },
+        {
+          "frame": 5,
+          "source_bbox": [
+            8,
+            107,
+            313,
+            158
+          ],
+          "source_pivot": [
+            160.5,
+            158
+          ],
+          "delivery_anchor": [
+            160,
+            176
+          ],
+          "corrective_normalization": 0.8518518518518519,
+          "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+          "debris_removed": 0,
+          "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+        }
+      ],
+      "visual_approval": false
+    }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "mandatory_clips": 5,
+  "mandatory_frames": 28,
+  "supplemental_hurt_frames": 3,
+  "review": "art/review-boss-hazard-r02/review_verdict.md",
+  "captures": [
+    {
+      "path": "evidence/boss-hazard-r02-native/capture.json",
+      "samples": 104,
+      "image_sizes": [
+        "1280x720"
+      ]
+    },
+    {
+      "path": "evidence/boss-hazard-r02-phone/capture.json",
+      "samples": 104,
+      "image_sizes": [
+        "698x393"
+      ]
+    }
+  ],
+  "all_frames_both_facings_native_phone": true,
+  "natural_alternation_and_real_whip_punish": true,
+  "max_eruption_height_world": 45.5,
+  "remaining_boss_mandatory_frames": 12,
+  "physical_device_tested": false,
+  "scripted_body_motion_quality_debt": true,
+  "capture_wrapper_exit": 143,
+  "capture_script_completed_and_all_images_validated": true
+}

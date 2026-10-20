@@ -2,6 +2,7 @@
 import {readFileSync,readdirSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {readPNG} from './lib/png.mjs';
+const args=process.argv.slice(2),output=args.includes('--out')?args[args.indexOf('--out')+1]:'evidence/atlas-roundtrip.json';
 const manifest=JSON.parse(readFileSync('game/data/atlas.json'));
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const pages=manifest.pages.map(p=>readPNG(p.path.replace('res://','game/')));
@@ -29,4 +30,4 @@ const total=atlasBytes+unpackedBytes;
 if(total>128*1048576)failures.push('conservative resident inventory exceeds 128MiB');
 if(!negativeControl)failures.push('one-byte negative control not detected');
 const result={scope:'current delivered inventory; future art requires repacking/rebudgeting; no physical-device profiling',visual_approval:false,roundtrips,negative_control:negativeControl,source_rgba_bytes:sourceBytes,atlas_rgba_bytes:atlasBytes,unpacked_rgba_bytes:unpackedBytes,conservative_rgba_bytes:total,conservative_mib:total/1048576,mipmaps:false,unpacked,failures};
-writeFileSync('evidence/atlas-roundtrip.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({roundtrips,negativeControl,conservative_mib:total/1048576,failures}));if(failures.length)process.exit(1);
+writeFileSync(output,JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({roundtrips,negativeControl,conservative_mib:total/1048576,failures}));if(failures.length)process.exit(1);

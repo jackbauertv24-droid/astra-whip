@@ -1,0 +1,2392 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "branch": "full_cycle",
+   "direction": 1,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0,
+     "file": "cycle-right-hazard_windup-f00.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.15,
+     "file": "cycle-right-hazard_windup-f01.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.15,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.3,
+     "file": "cycle-right-hazard_windup-f02.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.450000000000001,
+     "file": "cycle-right-hazard_windup-f03.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.45,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.6,
+     "file": "cycle-right-hazard_windup-f04.png",
+     "frame": 4,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.758333333333333,
+     "file": "cycle-right-hazard_windup-f05.png",
+     "frame": 5,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.758333333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.908333333333333,
+     "file": "cycle-right-hazard_windup-f06.png",
+     "frame": 6,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 1.05833333333333,
+     "file": "cycle-right-hazard_windup-f07.png",
+     "frame": 7,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      521.258544921875
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.05833333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0,
+     "file": "cycle-right-hazard_execute-f00.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      460.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.20833333333333,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.108333333333333,
+     "file": "cycle-right-hazard_execute-f01.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      438.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.31666666666667,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.208333333333333,
+     "file": "cycle-right-hazard_execute-f02.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      435.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.41666666666667,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.3,
+     "file": "cycle-right-hazard_execute-f03.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      446.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.50833333333333,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0,
+     "file": "cycle-right-hazard_recover-f00.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      473.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.60833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.15,
+     "file": "cycle-right-hazard_recover-f01.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      544.591918945312
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.75833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.3,
+     "file": "cycle-right-hazard_recover-f02.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.90833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "cycle-right-hazard_recover-f03.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.05833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "cycle-right-hazard_recover-f04.png",
+     "frame": 4,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.20833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.758333333333333,
+     "file": "cycle-right-hazard_recover-f05.png",
+     "frame": 5,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.36666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "cycle-right-walk-f00.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.51666666666667,
+     "state": "walk"
+    }
+   ],
+   "transitions": [
+    {
+     "duration_ms": 1208.33333333333,
+     "from": "hazard_windup",
+     "to": "hazard_execute"
+    },
+    {
+     "duration_ms": 400.0,
+     "from": "hazard_execute",
+     "to": "hazard_recover"
+    },
+    {
+     "duration_ms": 908.333333333333,
+     "from": "hazard_recover",
+     "to": "walk"
+    }
+   ]
+  },
+  {
+   "branch": "punish_stooped",
+   "direction": 1,
+   "final_hp": 7,
+   "full_commitment_inside_window": true,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0,
+     "file": "punish-right-stooped-before.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      473.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.00833333333333333,
+     "file": "punish-right-stooped-hazard_recover-f00-h8.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      476.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.00833333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.15,
+     "file": "punish-right-stooped-hazard_recover-f01-h8.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      544.591918945312
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.15,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0,
+     "file": "punish-right-stooped-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      549.591918945312
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.158333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0.075,
+     "file": "punish-right-stooped-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.233333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0.141666666666667,
+     "file": "punish-right-stooped-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.366666666666667,
+     "file": "punish-right-stooped-hazard_recover-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.45,
+     "file": "punish-right-stooped-hazard_recover-f03-h7.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "punish-right-stooped-hazard_recover-f04-h7.png",
+     "frame": 4,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.758333333333333,
+     "file": "punish-right-stooped-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.758333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-right-stooped-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.0
+  },
+  {
+   "branch": "punish_rising",
+   "direction": 1,
+   "final_hp": 7,
+   "full_commitment_inside_window": true,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.3,
+     "file": "punish-right-rising-before.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.308333333333333,
+     "file": "punish-right-rising-hazard_recover-f02-h8.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.308333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "punish-right-rising-hazard_recover-f03-h8.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0,
+     "file": "punish-right-rising-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.458333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0.075,
+     "file": "punish-right-rising-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.533333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0.141666666666667,
+     "file": "punish-right-rising-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.666666666666667,
+     "file": "punish-right-rising-hazard_recover-f04-h7.png",
+     "frame": 4,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.666666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.75,
+     "file": "punish-right-rising-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.75,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-right-rising-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.3
+  },
+  {
+   "branch": "punish_hazard_late",
+   "direction": 1,
+   "final_hp": 7,
+   "full_commitment_inside_window": false,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "punish-right-hazard_late-before.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.458333333333334,
+     "file": "punish-right-hazard_late-hazard_recover-f03-h8.png",
+     "frame": 3,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.458333333333334,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "punish-right-hazard_late-hazard_recover-f04-h8.png",
+     "frame": 4,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0,
+     "file": "punish-right-hazard_late-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.608333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0.075,
+     "file": "punish-right-hazard_late-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.683333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0.141666666666667,
+     "file": "punish-right-hazard_late-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.75,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.816666666666667,
+     "file": "punish-right-hazard_late-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.816666666666666,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-right-hazard_late-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6385.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6385.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.45
+  },
+  {
+   "branch": "full_cycle",
+   "direction": -1,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0,
+     "file": "cycle-left-hazard_windup-f00.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.15,
+     "file": "cycle-left-hazard_windup-f01.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.15,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.3,
+     "file": "cycle-left-hazard_windup-f02.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.450000000000001,
+     "file": "cycle-left-hazard_windup-f03.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.45,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.6,
+     "file": "cycle-left-hazard_windup-f04.png",
+     "frame": 4,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.758333333333333,
+     "file": "cycle-left-hazard_windup-f05.png",
+     "frame": 5,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.758333333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 0.908333333333333,
+     "file": "cycle-left-hazard_windup-f06.png",
+     "frame": 6,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      560.0
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_windup",
+     "elapsed": 1.05833333333333,
+     "file": "cycle-left-hazard_windup-f07.png",
+     "frame": 7,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      521.258544921875
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.05833333333333,
+     "state": "hazard_windup"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0,
+     "file": "cycle-left-hazard_execute-f00.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      460.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.20833333333333,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.108333333333333,
+     "file": "cycle-left-hazard_execute-f01.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      438.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.31666666666667,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.208333333333333,
+     "file": "cycle-left-hazard_execute-f02.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      435.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.41666666666667,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_execute",
+     "elapsed": 0.3,
+     "file": "cycle-left-hazard_execute-f03.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      446.258575439453
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.50833333333333,
+     "state": "hazard_execute"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0,
+     "file": "cycle-left-hazard_recover-f00.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      473.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.60833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.15,
+     "file": "cycle-left-hazard_recover-f01.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      544.591918945312
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.75833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.3,
+     "file": "cycle-left-hazard_recover-f02.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 1.90833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "cycle-left-hazard_recover-f03.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.05833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "cycle-left-hazard_recover-f04.png",
+     "frame": 4,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.20833333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.758333333333333,
+     "file": "cycle-left-hazard_recover-f05.png",
+     "frame": 5,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.36666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "cycle-left-walk-f00.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 2.51666666666667,
+     "state": "walk"
+    }
+   ],
+   "transitions": [
+    {
+     "duration_ms": 1208.33333333333,
+     "from": "hazard_windup",
+     "to": "hazard_execute"
+    },
+    {
+     "duration_ms": 400.0,
+     "from": "hazard_execute",
+     "to": "hazard_recover"
+    },
+    {
+     "duration_ms": 908.333333333333,
+     "from": "hazard_recover",
+     "to": "walk"
+    }
+   ]
+  },
+  {
+   "branch": "punish_stooped",
+   "direction": -1,
+   "final_hp": 7,
+   "full_commitment_inside_window": true,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0,
+     "file": "punish-left-stooped-before.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      473.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.0,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.00833333333333333,
+     "file": "punish-left-stooped-hazard_recover-f00-h8.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      476.591888427734
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.00833333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.15,
+     "file": "punish-left-stooped-hazard_recover-f01-h8.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      544.591918945312
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.15,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0,
+     "file": "punish-left-stooped-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      549.591918945312
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.158333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0.075,
+     "file": "punish-left-stooped-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.233333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_stooped",
+     "elapsed": 0.141666666666667,
+     "file": "punish-left-stooped-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "stooped",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.366666666666667,
+     "file": "punish-left-stooped-hazard_recover-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.366666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.45,
+     "file": "punish-left-stooped-hazard_recover-f03-h7.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "punish-left-stooped-hazard_recover-f04-h7.png",
+     "frame": 4,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.758333333333333,
+     "file": "punish-left-stooped-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.758333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-left-stooped-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.0
+  },
+  {
+   "branch": "punish_rising",
+   "direction": -1,
+   "final_hp": 7,
+   "full_commitment_inside_window": true,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.3,
+     "file": "punish-left-rising-before.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.3,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.308333333333333,
+     "file": "punish-left-rising-hazard_recover-f02-h8.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.308333333333333,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "punish-left-rising-hazard_recover-f03-h8.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0,
+     "file": "punish-left-rising-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.458333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0.075,
+     "file": "punish-left-rising-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.533333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_rising",
+     "elapsed": 0.141666666666667,
+     "file": "punish-left-rising-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "rising",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.666666666666667,
+     "file": "punish-left-rising-hazard_recover-f04-h7.png",
+     "frame": 4,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.666666666666667,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.75,
+     "file": "punish-left-rising-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.75,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-left-rising-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.3
+  },
+  {
+   "branch": "punish_hazard_late",
+   "direction": -1,
+   "final_hp": 7,
+   "full_commitment_inside_window": false,
+   "natural_alternation_after_strike": true,
+   "outgoing_state": "walk",
+   "production_start_hp": 8,
+   "recovery_ms": 908.333333333333,
+   "samples": [
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.450000000000001,
+     "file": "punish-left-hazard_late-before.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.450000000000001,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.458333333333334,
+     "file": "punish-left-hazard_late-hazard_recover-f03-h8.png",
+     "frame": 3,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.458333333333334,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.6,
+     "file": "punish-left-hazard_late-hazard_recover-f04-h8.png",
+     "frame": 4,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 8,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.6,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0,
+     "file": "punish-left-hazard_late-hurt-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.608333333333334,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0.075,
+     "file": "punish-left-hazard_late-hurt-f01-h7.png",
+     "frame": 1,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.683333333333333,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hurt_hazard_late",
+     "elapsed": 0.141666666666667,
+     "file": "punish-left-hazard_late-hurt-f02-h7.png",
+     "frame": 2,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "hazard_late",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.75,
+     "state": "hurt"
+    },
+    {
+     "animation": "boss_hazard_recover",
+     "elapsed": 0.816666666666667,
+     "file": "punish-left-hazard_late-hazard_recover-f05-h7.png",
+     "frame": 5,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.816666666666666,
+     "state": "hazard_recover"
+    },
+    {
+     "animation": "boss_walk",
+     "elapsed": 0,
+     "file": "punish-left-hazard_late-walk-f00-h7.png",
+     "frame": 0,
+     "hazard_x": 6095.0,
+     "hero_hp": 5,
+     "hero_position": [
+      6095.0,
+      559.925231933594
+     ],
+     "hp": 7,
+     "hurt_pose_context": "",
+     "image_size": [
+      698,
+      393
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "sequence_elapsed": 0.908333333333333,
+     "state": "walk"
+    }
+   ],
+   "whip_start_recovery_seconds": 0.45
+  }
+ ],
+ "window_size": "(852, 393)"
+}

@@ -1,0 +1,777 @@
+{
+  "visual_approval": false,
+  "scope": "temporary engine hazard visibility only; painted VFX remain pending",
+  "pass": false,
+  "samples": [
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f00.png",
+      "state": "hazard_windup",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f01.png",
+      "state": "hazard_windup",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f02.png",
+      "state": "hazard_windup",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f03.png",
+      "state": "hazard_windup",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f04.png",
+      "state": "hazard_windup",
+      "frame": 4,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f05.png",
+      "state": "hazard_windup",
+      "frame": 5,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f06.png",
+      "state": "hazard_windup",
+      "frame": 6,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f07.png",
+      "state": "hazard_windup",
+      "frame": 7,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        703,
+        552,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f00.png",
+      "state": "hazard_execute",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        703,
+        512,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f01.png",
+      "state": "hazard_execute",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        703,
+        512,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f02.png",
+      "state": "hazard_execute",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        703,
+        512,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f03.png",
+      "state": "hazard_execute",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        703,
+        512,
+        867,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f00.png",
+      "state": "hazard_windup",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f01.png",
+      "state": "hazard_windup",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f02.png",
+      "state": "hazard_windup",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f03.png",
+      "state": "hazard_windup",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f04.png",
+      "state": "hazard_windup",
+      "frame": 4,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f05.png",
+      "state": "hazard_windup",
+      "frame": 5,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f06.png",
+      "state": "hazard_windup",
+      "frame": 6,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f07.png",
+      "state": "hazard_windup",
+      "frame": 7,
+      "warm_pixels": 0,
+      "minimum": 150,
+      "bounds": [
+        413,
+        552,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f00.png",
+      "state": "hazard_execute",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        413,
+        512,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f01.png",
+      "state": "hazard_execute",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        413,
+        512,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f02.png",
+      "state": "hazard_execute",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        413,
+        512,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "native",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f03.png",
+      "state": "hazard_execute",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 2000,
+      "bounds": [
+        413,
+        512,
+        577,
+        562
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f00.png",
+      "state": "hazard_windup",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f01.png",
+      "state": "hazard_windup",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f02.png",
+      "state": "hazard_windup",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f03.png",
+      "state": "hazard_windup",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f04.png",
+      "state": "hazard_windup",
+      "frame": 4,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f05.png",
+      "state": "hazard_windup",
+      "frame": 5,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f06.png",
+      "state": "hazard_windup",
+      "frame": 6,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_windup-f07.png",
+      "state": "hazard_windup",
+      "frame": 7,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        383,
+        301,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f00.png",
+      "state": "hazard_execute",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        383,
+        279,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f01.png",
+      "state": "hazard_execute",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        383,
+        279,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f02.png",
+      "state": "hazard_execute",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        383,
+        279,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": 1,
+      "file": "cycle-right-hazard_execute-f03.png",
+      "state": "hazard_execute",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        383,
+        279,
+        473,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f00.png",
+      "state": "hazard_windup",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f01.png",
+      "state": "hazard_windup",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f02.png",
+      "state": "hazard_windup",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f03.png",
+      "state": "hazard_windup",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f04.png",
+      "state": "hazard_windup",
+      "frame": 4,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f05.png",
+      "state": "hazard_windup",
+      "frame": 5,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f06.png",
+      "state": "hazard_windup",
+      "frame": 6,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_windup-f07.png",
+      "state": "hazard_windup",
+      "frame": 7,
+      "warm_pixels": 0,
+      "minimum": 44,
+      "bounds": [
+        225,
+        301,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f00.png",
+      "state": "hazard_execute",
+      "frame": 0,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        225,
+        279,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f01.png",
+      "state": "hazard_execute",
+      "frame": 1,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        225,
+        279,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f02.png",
+      "state": "hazard_execute",
+      "frame": 2,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        225,
+        279,
+        315,
+        307
+      ]
+    },
+    {
+      "size": "phone",
+      "direction": -1,
+      "file": "cycle-left-hazard_execute-f03.png",
+      "state": "hazard_execute",
+      "frame": 3,
+      "warm_pixels": 0,
+      "minimum": 595,
+      "bounds": [
+        225,
+        279,
+        315,
+        307
+      ]
+    }
+  ],
+  "failures": [
+    "native cycle-right-hazard_windup-f00.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f01.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f02.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f03.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f04.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f05.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f06.png hazard warning hidden",
+    "native cycle-right-hazard_windup-f07.png hazard warning hidden",
+    "native cycle-right-hazard_execute-f00.png hazard warning hidden",
+    "native cycle-right-hazard_execute-f01.png hazard warning hidden",
+    "native cycle-right-hazard_execute-f02.png hazard warning hidden",
+    "native cycle-right-hazard_execute-f03.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f00.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f01.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f02.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f03.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f04.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f05.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f06.png hazard warning hidden",
+    "native cycle-left-hazard_windup-f07.png hazard warning hidden",
+    "native cycle-left-hazard_execute-f00.png hazard warning hidden",
+    "native cycle-left-hazard_execute-f01.png hazard warning hidden",
+    "native cycle-left-hazard_execute-f02.png hazard warning hidden",
+    "native cycle-left-hazard_execute-f03.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f00.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f01.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f02.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f03.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f04.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f05.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f06.png hazard warning hidden",
+    "phone cycle-right-hazard_windup-f07.png hazard warning hidden",
+    "phone cycle-right-hazard_execute-f00.png hazard warning hidden",
+    "phone cycle-right-hazard_execute-f01.png hazard warning hidden",
+    "phone cycle-right-hazard_execute-f02.png hazard warning hidden",
+    "phone cycle-right-hazard_execute-f03.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f00.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f01.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f02.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f03.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f04.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f05.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f06.png hazard warning hidden",
+    "phone cycle-left-hazard_windup-f07.png hazard warning hidden",
+    "phone cycle-left-hazard_execute-f00.png hazard warning hidden",
+    "phone cycle-left-hazard_execute-f01.png hazard warning hidden",
+    "phone cycle-left-hazard_execute-f02.png hazard warning hidden",
+    "phone cycle-left-hazard_execute-f03.png hazard warning hidden"
+  ]
+}

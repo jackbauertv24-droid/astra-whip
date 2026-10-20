@@ -1,0 +1,90 @@
+{
+  "previous_commit": "ad0c88d44182af040a7d341961198a52f94c6f35",
+  "missing": 21,
+  "paths": [
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f000.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f001.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f002.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f003.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f004.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f005.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f006.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_windup/f007.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_execute/f000.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_execute/f001.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_execute/f002.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_execute/f003.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f000.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f001.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f002.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f003.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f004.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hazard_recover/f005.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hurt_hazard_late/f000.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hurt_hazard_late/f001.png",
+      "existed_in_previous_commit": false
+    },
+    {
+      "path": "game/assets/boss/boss_hurt_hazard_late/f002.png",
+      "existed_in_previous_commit": false
+    }
+  ]
+}

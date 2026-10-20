@@ -1,0 +1,19 @@
+{
+  "raw_canvas": [
+    1619,
+    971
+  ],
+  "source_bbox": [
+    4,
+    104,
+    315,
+    184
+  ],
+  "translation": [
+    1,
+    -8
+  ],
+  "corrective_normalization": 1,
+  "debris_removed": 0,
+  "method": "integer registration to contract base anchor; no scaling"
+}

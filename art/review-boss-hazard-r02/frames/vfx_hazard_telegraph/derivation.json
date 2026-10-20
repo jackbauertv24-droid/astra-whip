@@ -1,0 +1,92 @@
+{
+  "kind": "generated_sheet",
+  "source": [
+    "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-corrected-raw.png",
+    "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-correction-prompt-r02.txt"
+  ],
+  "method": "Four directly painted sustained warning frames, uniform canvas-resolution conversion, then base-anchor registration only. No scripted animation or global size curve.",
+  "reason": "Paired floor signal required for the boss hazard tell.",
+  "records": [
+    {
+      "frame": 0,
+      "source_bbox": [
+        7,
+        47,
+        315,
+        112
+      ],
+      "source_pivot": [
+        161,
+        112
+      ],
+      "delivery_anchor": [
+        160,
+        112
+      ],
+      "corrective_normalization": 1,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0
+    },
+    {
+      "frame": 1,
+      "source_bbox": [
+        7,
+        42,
+        315,
+        112
+      ],
+      "source_pivot": [
+        161,
+        112
+      ],
+      "delivery_anchor": [
+        160,
+        112
+      ],
+      "corrective_normalization": 1,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0
+    },
+    {
+      "frame": 2,
+      "source_bbox": [
+        7,
+        33,
+        315,
+        104
+      ],
+      "source_pivot": [
+        161,
+        104
+      ],
+      "delivery_anchor": [
+        160,
+        112
+      ],
+      "corrective_normalization": 1,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0
+    },
+    {
+      "frame": 3,
+      "source_bbox": [
+        6,
+        30,
+        315,
+        105
+      ],
+      "source_pivot": [
+        160.5,
+        105
+      ],
+      "delivery_anchor": [
+        160,
+        112
+      ],
+      "corrective_normalization": 1,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0
+    }
+  ],
+  "visual_approval": false
+}

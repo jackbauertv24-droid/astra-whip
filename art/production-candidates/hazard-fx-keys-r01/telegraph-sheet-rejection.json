@@ -1,0 +1,7 @@
+{
+  "red_patch_pixels": 0,
+  "cell_border_pixels": 0,
+  "visual_approval": false,
+  "accepted": false,
+  "reason": "Flat neon red interior patches and cell-edge contact require regeneration; do not repair by clipping or inpainting with code."
+}

@@ -1,0 +1,1315 @@
+{
+  "boss_hazard_windup": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "art/production-candidates/boss-hazard-key-r01/registered.png",
+      "art/production-candidates/boss-hazard-key-r01/raw.png",
+      "tools/prepare-boss-hazard.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+    "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+    "hand_polygon": [
+      [
+        310,
+        346
+      ],
+      [
+        342,
+        346
+      ],
+      [
+        364,
+        357
+      ],
+      [
+        390,
+        372
+      ],
+      [
+        405,
+        389
+      ],
+      [
+        405,
+        416
+      ],
+      [
+        385,
+        421
+      ],
+      [
+        365,
+        409
+      ],
+      [
+        345,
+        403
+      ],
+      [
+        326,
+        405
+      ],
+      [
+        312,
+        389
+      ]
+    ],
+    "hand_wrist": [
+      330,
+      365
+    ],
+    "hand_scale": 0.65,
+    "hand_rotation_radians": 0.9397887835651278,
+    "visual_approval": false
+  },
+  "boss_hazard_execute": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "art/production-candidates/boss-hazard-key-r01/registered.png",
+      "art/production-candidates/boss-hazard-key-r01/raw.png",
+      "tools/prepare-boss-hazard.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+    "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+    "hand_polygon": [
+      [
+        310,
+        346
+      ],
+      [
+        342,
+        346
+      ],
+      [
+        364,
+        357
+      ],
+      [
+        390,
+        372
+      ],
+      [
+        405,
+        389
+      ],
+      [
+        405,
+        416
+      ],
+      [
+        385,
+        421
+      ],
+      [
+        365,
+        409
+      ],
+      [
+        345,
+        403
+      ],
+      [
+        326,
+        405
+      ],
+      [
+        312,
+        389
+      ]
+    ],
+    "hand_wrist": [
+      330,
+      365
+    ],
+    "hand_scale": 0.65,
+    "hand_rotation_radians": 0.9397887835651278,
+    "visual_approval": false
+  },
+  "boss_hazard_recover": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "art/production-candidates/boss-hazard-key-r01/registered.png",
+      "art/production-candidates/boss-hazard-key-r01/raw.png",
+      "tools/prepare-boss-hazard.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+    "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+    "hand_polygon": [
+      [
+        310,
+        346
+      ],
+      [
+        342,
+        346
+      ],
+      [
+        364,
+        357
+      ],
+      [
+        390,
+        372
+      ],
+      [
+        405,
+        389
+      ],
+      [
+        405,
+        416
+      ],
+      [
+        385,
+        421
+      ],
+      [
+        365,
+        409
+      ],
+      [
+        345,
+        403
+      ],
+      [
+        326,
+        405
+      ],
+      [
+        312,
+        389
+      ]
+    ],
+    "hand_wrist": [
+      330,
+      365
+    ],
+    "hand_scale": 0.65,
+    "hand_rotation_radians": 0.9397887835651278,
+    "visual_approval": false
+  },
+  "boss_idle": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_walk/f000.png",
+      "tools/prepare-boss-idle.mjs"
+    ],
+    "method": "Reuse accepted walk neutral support, local0–2px inhale above hips,0.6px shroud sway,unchanged boots/pivot and no actor scale. Eight125ms samples complete a1s loop.",
+    "reason": "D23 continuation from approved boss construction after generated sheet failed actor scale/registration; local idle requires fresh motion/runtime review. Scripted animation remains quality debt."
+  },
+  "boss_walk": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/production-candidates/boss-identity-r01/key.png",
+      "tools/prepare-boss-walk.mjs"
+    ],
+    "method": "Two connected plated-leg bone rigs with fixed-length upper/lower segments, flat translated boots, alternating60% stance,22px swing clearance,89.6px stride, small weight/shroud response; no global scale or per-frame recenter.",
+    "reason": "Generated eight-frame sheet enlarged actors to485–503px versus352px and changed root registration; retained raw/equal crops/rejection. D23 local rig requires fresh full gait/runtime review and remains scripted animation quality debt."
+  },
+  "boss_hurt": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-hurt.mjs"
+    ],
+    "method": "Small connected4° upper-body recoil easing through hips to fixed legs/soles,2° release and exact neutral endpoint. No global scaling or actor recentering.",
+    "reason": "D23 continuation from approved boss construction after retained generated sheet failed scale/registration; brief local hurt must pass fresh action/runtime review. Scripted motion remains quality debt."
+  },
+  "boss_hurt_stooped": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Posture-aware70/70/60ms flinch from the same supported leg/torso rig; fixed soles,rigid upright head and connected counter-recoil. Late variants release toward the pose due after the200ms interruption.",
+    "reason": "A neutral standing hurt would pop out of a supported recovery. Supplemental context poses preserve the stance and handoff without changing mandatory timings or AI clocks.",
+    "records": [
+      {
+        "frame": 0,
+        "angle_degrees": 12,
+        "pelvis_drop_pixels": 12,
+        "head_counterrotation_translation": [
+          23,
+          21
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                200.80810254662566,
+                370.34014676346317
+              ],
+              [
+                239.0667354058541,
+                435.64923504176306
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.16835323672896,
+                365.9125904029352
+              ],
+              [
+                123.52523113814959,
+                426.1038517280747
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 387
+      },
+      {
+        "frame": 1,
+        "angle_degrees": 14,
+        "pelvis_drop_pixels": 12,
+        "head_counterrotation_translation": [
+          27,
+          23
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                200.5019231963769,
+                371.20085646441936
+              ],
+              [
+                239.65159868180749,
+                435.9797334953272
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.03231241760133,
+                365.88118290510397
+              ],
+              [
+                123.43810536780883,
+                426.1143780627838
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 380
+      },
+      {
+        "frame": 2,
+        "angle_degrees": 16,
+        "pelvis_drop_pixels": 12,
+        "head_counterrotation_translation": [
+          30,
+          25
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                200.1658920269453,
+                372.0503563390569
+              ],
+              [
+                240.19052571191767,
+                436.29231068653746
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                174.897450576732,
+                365.8450467837533
+              ],
+              [
+                123.35704122836958,
+                426.1242820493341
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 379
+      }
+    ]
+  },
+  "boss_hurt_rising": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Posture-aware70/70/60ms flinch from the same supported leg/torso rig; fixed soles,rigid upright head and connected counter-recoil. Late variants release toward the pose due after the200ms interruption.",
+    "reason": "A neutral standing hurt would pop out of a supported recovery. Supplemental context poses preserve the stance and handoff without changing mandatory timings or AI clocks.",
+    "records": [
+      {
+        "frame": 0,
+        "angle_degrees": 12,
+        "pelvis_drop_pixels": 12,
+        "head_counterrotation_translation": [
+          23,
+          21
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                200.80810254662566,
+                370.34014676346317
+              ],
+              [
+                239.0667354058541,
+                435.64923504176306
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.16835323672896,
+                365.9125904029352
+              ],
+              [
+                123.52523113814959,
+                426.1038517280747
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 387
+      },
+      {
+        "frame": 1,
+        "angle_degrees": 10,
+        "pelvis_drop_pixels": 8,
+        "head_counterrotation_translation": [
+          19,
+          15
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                201.0840570453166,
+                365.4692758783768
+              ],
+              [
+                234.52246954454728,
+                433.3726820486956
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.30540728933227,
+                361.9392310120488
+              ],
+              [
+                128.16558885594438,
+                425.71883212453014
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 388
+      },
+      {
+        "frame": 2,
+        "angle_degrees": 8,
+        "pelvis_drop_pixels": 4,
+        "head_counterrotation_translation": [
+          16,
+          10
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                201.3294504844006,
+                360.58930483118644
+              ],
+              [
+                228.72484870161338,
+                431.1477356280823
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.44330759615974,
+                357.9610722749663
+              ],
+              [
+                134.24560928328594,
+                425.7309007661278
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 410
+      }
+    ]
+  },
+  "boss_hurt_half_stoop": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-strike.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Posture-aware70/70/60ms flinch from the same supported leg/torso rig; fixed soles,rigid upright head and connected counter-recoil. Late variants release toward the pose due after the200ms interruption.",
+    "reason": "A neutral standing hurt would pop out of a supported recovery. Supplemental context poses preserve the stance and handoff without changing mandatory timings or AI clocks.",
+    "records": [
+      {
+        "frame": 0,
+        "angle_degrees": 4,
+        "pelvis_drop_pixels": 4,
+        "head_counterrotation_translation": [
+          8,
+          7
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                201.72739588552307,
+                358.80636046812674
+              ],
+              [
+                226.25824980297486,
+                430.41108940470355
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.7209741050235,
+                357.9902562010393
+              ],
+              [
+                134.49677480842377,
+                425.74396748207715
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 433
+      },
+      {
+        "frame": 1,
+        "angle_degrees": 2,
+        "pelvis_drop_pixels": 2,
+        "head_counterrotation_translation": [
+          4,
+          3
+        ],
+        "legs": [
+          {
+            "id": "far",
+            "source_joints": [
+              [
+                202,
+                353
+              ],
+              [
+                208.52924103252195,
+                428.4080168917021
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                201.87946301238898,
+                355.9055593953223
+              ],
+              [
+                220.79669436928418,
+                429.1936099751386
+              ],
+              [
+                211,
+                486
+              ],
+              [
+                228.88,
+                512
+              ]
+            ]
+          },
+          {
+            "id": "near",
+            "source_joints": [
+              [
+                176,
+                354
+              ],
+              [
+                146.10457302330633,
+                427.45926385338464
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ],
+            "target_joints": [
+              [
+                175.86040201319,
+                355.9975633080764
+              ],
+              [
+                138.8207387096614,
+                426.126468492467
+              ],
+              [
+                131.07999999999998,
+                489
+              ],
+              [
+                135.07999999999998,
+                512
+              ]
+            ]
+          }
+        ],
+        "removed_body_components_pixels": [
+          68,
+          9,
+          8,
+          1,
+          1,
+          1
+        ],
+        "removed_low_alpha_pixels": 463
+      },
+      {
+        "frame": 2,
+        "reuse": "art/frames/boss_idle/f000.png"
+      }
+    ]
+  },
+  "boss_hurt_hazard_late": {
+    "kind": "scripted_fallback",
+    "source": [
+      "art/frames/boss_idle/f000.png",
+      "tools/prepare-boss-hazard.mjs",
+      "tools/lib/boss-supported-pose.mjs"
+    ],
+    "method": "Fixed-sole supported12→6→0degree release over70/70/60ms. This supplemental flinch finishes at the neutral pose due after a late hazard-recovery hit.",
+    "reason": "The900ms hazard recovery reaches neutral sooner than the1100ms strike recovery.",
+    "records": [
+      {
+        "frame": 0,
+        "supported": [
+          12,
+          8
+        ],
+        "reuse_neutral": false
+      },
+      {
+        "frame": 1,
+        "supported": [
+          6,
+          4
+        ],
+        "reuse_neutral": false
+      },
+      {
+        "frame": 2,
+        "supported": [
+          0,
+          0
+        ],
+        "reuse_neutral": true
+      }
+    ]
+  },
+  "vfx_hazard_telegraph": {
+    "kind": "generated_sheet",
+    "source": [
+      "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-corrected-raw.png",
+      "art/production-candidates/hazard-fx-keys-r01/telegraph-sheet-correction-prompt-r02.txt"
+    ],
+    "method": "Four directly painted sustained warning frames, uniform canvas-resolution conversion, then base-anchor registration only. No scripted animation or global size curve.",
+    "reason": "Paired floor signal required for the boss hazard tell.",
+    "records": [
+      {
+        "frame": 0,
+        "source_bbox": [
+          7,
+          47,
+          315,
+          112
+        ],
+        "source_pivot": [
+          161,
+          112
+        ],
+        "delivery_anchor": [
+          160,
+          112
+        ],
+        "corrective_normalization": 1,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0
+      },
+      {
+        "frame": 1,
+        "source_bbox": [
+          7,
+          42,
+          315,
+          112
+        ],
+        "source_pivot": [
+          161,
+          112
+        ],
+        "delivery_anchor": [
+          160,
+          112
+        ],
+        "corrective_normalization": 1,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0
+      },
+      {
+        "frame": 2,
+        "source_bbox": [
+          7,
+          33,
+          315,
+          104
+        ],
+        "source_pivot": [
+          161,
+          104
+        ],
+        "delivery_anchor": [
+          160,
+          112
+        ],
+        "corrective_normalization": 1,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0
+      },
+      {
+        "frame": 3,
+        "source_bbox": [
+          6,
+          30,
+          315,
+          105
+        ],
+        "source_pivot": [
+          160.5,
+          105
+        ],
+        "delivery_anchor": [
+          160,
+          112
+        ],
+        "corrective_normalization": 1,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0
+      }
+    ],
+    "visual_approval": false
+  },
+  "vfx_hazard_eruption": {
+    "kind": "reused",
+    "source": [
+      "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-raw.png",
+      "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-prompt.txt",
+      "art/frames/vfx_hazard_telegraph/f003.png"
+    ],
+    "method": "Six directly painted eruption frames share one bounded uniform0.8518518518518519 scale to honor the46u height ceiling, base-anchor registration and the reused full-width warning gutter. Fire motion is directly painted; no procedural animation or phase interpolation.",
+    "reason": "The generated peak measured108sourcepixels; shared92/108 normalization preserves relative phase sizes. A persistent full-width gutter marks the complete dangerous zone throughout the400ms eruption.",
+    "records": [
+      {
+        "frame": 0,
+        "source_bbox": [
+          10,
+          122,
+          312,
+          178
+        ],
+        "source_pivot": [
+          161,
+          178
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      },
+      {
+        "frame": 1,
+        "source_bbox": [
+          10,
+          96,
+          311,
+          178
+        ],
+        "source_pivot": [
+          160.5,
+          178
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      },
+      {
+        "frame": 2,
+        "source_bbox": [
+          8,
+          71,
+          313,
+          178
+        ],
+        "source_pivot": [
+          160.5,
+          178
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      },
+      {
+        "frame": 3,
+        "source_bbox": [
+          9,
+          68,
+          312,
+          159
+        ],
+        "source_pivot": [
+          160.5,
+          159
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      },
+      {
+        "frame": 4,
+        "source_bbox": [
+          9,
+          77,
+          311,
+          159
+        ],
+        "source_pivot": [
+          160,
+          159
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      },
+      {
+        "frame": 5,
+        "source_bbox": [
+          8,
+          107,
+          313,
+          158
+        ],
+        "source_pivot": [
+          160.5,
+          158
+        ],
+        "delivery_anchor": [
+          160,
+          176
+        ],
+        "corrective_normalization": 0.8518518518518519,
+        "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+        "debris_removed": 0,
+        "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+      }
+    ],
+    "visual_approval": false
+  }
+}

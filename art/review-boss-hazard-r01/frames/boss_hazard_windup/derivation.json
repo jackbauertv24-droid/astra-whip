@@ -1,0 +1,277 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "art/production-candidates/boss-hazard-key-r01/registered.png",
+    "art/production-candidates/boss-hazard-key-r01/raw.png",
+    "tools/prepare-boss-hazard.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+  "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+  "hand_polygon": [
+    [
+      310,
+      346
+    ],
+    [
+      342,
+      346
+    ],
+    [
+      364,
+      357
+    ],
+    [
+      390,
+      372
+    ],
+    [
+      405,
+      389
+    ],
+    [
+      405,
+      416
+    ],
+    [
+      385,
+      421
+    ],
+    [
+      365,
+      409
+    ],
+    [
+      345,
+      403
+    ],
+    [
+      326,
+      405
+    ],
+    [
+      312,
+      389
+    ]
+  ],
+  "hand_wrist": [
+    330,
+    365
+  ],
+  "hand_scale": 0.65,
+  "hand_rotation_radians": 0.9397887835651278,
+  "visual_approval": false,
+  "records": [
+    {
+      "frame": 0,
+      "target": {
+        "neutral": true
+      },
+      "reuse_neutral": true
+    },
+    {
+      "frame": 1,
+      "target": {
+        "stroke": {
+          "angle": 0,
+          "drop": 0,
+          "open": false,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              230.71882467213936,
+              310.478503798967
+            ],
+            [
+              286,
+              351
+            ],
+            [
+              298.3719646479174,
+              377.53176380775847
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 2,
+      "target": {
+        "stroke": {
+          "angle": 1,
+          "drop": 1,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              244.27877108781774,
+              306.43536997651177
+            ],
+            [
+              309,
+              329
+            ],
+            [
+              327.8173259489684,
+              351.4256158026994
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 3,
+      "target": {
+        "stroke": {
+          "angle": 2,
+          "drop": 1,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              265.0065387867069,
+              294.2319040907073
+            ],
+            [
+              330,
+              316
+            ],
+            [
+              356.53176380775847,
+              328.3719646479174
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 4,
+      "target": {
+        "stroke": {
+          "angle": 3,
+          "drop": 2,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              273.28801742467857,
+              286.4088665363754
+            ],
+            [
+              338,
+              309
+            ],
+            [
+              366.8298159551316,
+              314.0834744017491
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 5,
+      "target": {
+        "stroke": {
+          "angle": 3,
+          "drop": 2,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              271.8931796284092,
+              287.89231377678993
+            ],
+            [
+              338,
+              306
+            ],
+            [
+              366.98966430832843,
+              310.0742316196346
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 6,
+      "target": {
+        "stroke": {
+          "angle": 3,
+          "drop": 2,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              271.53282750428565,
+              288.26336412462314
+            ],
+            [
+              338,
+              305
+            ],
+            [
+              366.98966430832843,
+              309.0742316196346
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 7,
+      "target": {
+        "stroke": {
+          "angle": 3,
+          "drop": 2,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              271.53282750428565,
+              288.26336412462314
+            ],
+            [
+              338,
+              305
+            ],
+            [
+              366.98966430832843,
+              309.0742316196346
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    }
+  ]
+}

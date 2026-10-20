@@ -1,0 +1,164 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "art/production-candidates/boss-hazard-key-r01/registered.png",
+    "art/production-candidates/boss-hazard-key-r01/raw.png",
+    "tools/prepare-boss-hazard.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Generated articulated open palm, cropped by recorded polygon and attached to the approved three-piece front-arm rig. Original helmet,body,small rear arm,plated legs and fixed soles are preserved. Supported torso loading and closed-gauntlet stoop return use the approved support rig. Windup opens forward below shoulder height; execution presses down and releases to the knee; recovery returns to exact neutral. Low-alpha resampling cleanup is explicit in the rig source.",
+  "reason": "The full generated key changes the approved boot placement and stance width; reuse only its new hand paint to preserve planted-foot continuity.",
+  "hand_polygon": [
+    [
+      310,
+      346
+    ],
+    [
+      342,
+      346
+    ],
+    [
+      364,
+      357
+    ],
+    [
+      390,
+      372
+    ],
+    [
+      405,
+      389
+    ],
+    [
+      405,
+      416
+    ],
+    [
+      385,
+      421
+    ],
+    [
+      365,
+      409
+    ],
+    [
+      345,
+      403
+    ],
+    [
+      326,
+      405
+    ],
+    [
+      312,
+      389
+    ]
+  ],
+  "hand_wrist": [
+    330,
+    365
+  ],
+  "hand_scale": 0.65,
+  "hand_rotation_radians": 0.9397887835651278,
+  "visual_approval": false,
+  "records": [
+    {
+      "frame": 0,
+      "target": {
+        "stroke": {
+          "angle": 5,
+          "drop": 3,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              270.43091097042753,
+              289.36855603072104
+            ],
+            [
+              334,
+              315
+            ],
+            [
+              361.84176327192057,
+              324.0463372649009
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 1,
+      "target": {
+        "stroke": {
+          "angle": 8,
+          "drop": 5,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              255.41519066250083,
+              300.9456574308742
+            ],
+            [
+              316,
+              333
+            ],
+            [
+              339.9803175836987,
+              349.7911991407687
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 2,
+      "target": {
+        "stroke": {
+          "angle": 12,
+          "drop": 8,
+          "open": true,
+          "joints": [
+            [
+              215,
+              233
+            ],
+            [
+              251.58048606940045,
+              303.0847204383837
+            ],
+            [
+              285,
+              366
+            ],
+            [
+              292.57681426975535,
+              394.27705581423976
+            ]
+          ]
+        }
+      },
+      "reuse_neutral": false
+    },
+    {
+      "frame": 3,
+      "target": {
+        "supported": [
+          16,
+          12
+        ]
+      },
+      "reuse_neutral": false
+    }
+  ]
+}

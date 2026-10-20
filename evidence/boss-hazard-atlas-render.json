@@ -1,0 +1,527 @@
+{
+  "samples": 618,
+  "pages": 103,
+  "changed_pixels": 1,
+  "maximum_difference": 1,
+  "exact": false,
+  "tolerance": "At most one pixel, at most one 8-bit channel value across the complete fixture; raw RGBA roundtrip remains exact",
+  "pass": true,
+  "visual_approval": false,
+  "details": [
+    {
+      "file": "page-000.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-001.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-002.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-003.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-004.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-005.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-006.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-007.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-008.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-009.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-010.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-011.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-012.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-013.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-014.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-015.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-016.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-017.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-018.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-019.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-020.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-021.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-022.png",
+      "changed_pixels": 1,
+      "maximum_difference": 1
+    },
+    {
+      "file": "page-023.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-024.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-025.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-026.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-027.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-028.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-029.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-030.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-031.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-032.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-033.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-034.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-035.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-036.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-037.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-038.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-039.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-040.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-041.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-042.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-043.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-044.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-045.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-046.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-047.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-048.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-049.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-050.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-051.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-052.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-053.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-054.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-055.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-056.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-057.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-058.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-059.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-060.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-061.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-062.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-063.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-064.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-065.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-066.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-067.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-068.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-069.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-070.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-071.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-072.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-073.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-074.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-075.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-076.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-077.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-078.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-079.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-080.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-081.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-082.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-083.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-084.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-085.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-086.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-087.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-088.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-089.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-090.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-091.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-092.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-093.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-094.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-095.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-096.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-097.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-098.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-099.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-100.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-101.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "page-102.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    }
+  ]
+}

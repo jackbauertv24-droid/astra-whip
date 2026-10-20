@@ -11,6 +11,7 @@ var spawn = Vector2.ZERO
 var world: Node2D
 var visual: ActorVisual
 var hazard_x = 0.0
+var hazard_art: Dictionary = {}
 var cycles = 0
 var recovery_start_y = 0.0
 var hurt_pose_context = ""
@@ -19,6 +20,7 @@ var hurt_resume_elapsed = 0.0
 var shot = false
 var history: Dictionary = {}
 func _ready() -> void:
+ if kind=="boss": load_hazard_art()
  visual = ActorVisual.new()
  add_child(visual)
  visual.configure(kind)
@@ -51,6 +53,8 @@ func take_hit() -> void:
   if kind == "boss":
    if state == "strike_recover":
     hurt_pose_context = "stooped" if elapsed < 0.59 else ("rising" if elapsed < 0.8 else ("half_stoop" if elapsed < 0.95 else ""))
+   elif state == "hazard_recover":
+    hurt_pose_context = "stooped" if elapsed < 0.4 else ("rising" if elapsed < 0.55 else ("hazard_late" if elapsed < 0.75 else ""))
    elif state != "hurt": hurt_pose_context = ""
    if state in ["strike_recover","hazard_recover"]:
     hurt_resume_state = state
@@ -201,10 +205,41 @@ func simulate(dt: float) -> void:
  if h.active() and overlaps_rect(h.whip_rect()) and h.hit_target(get_instance_id()): take_hit()
  visual.follow(state,elapsed)
  queue_redraw()
+func load_hazard_art() -> void:
+ var contract: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
+ for id in ["vfx_hazard_telegraph","vfx_hazard_eruption"]:
+  var spec: Dictionary=contract.clips[id]
+  var frames: Array[Texture2D]=[]
+  for frame in spec.ms.size():
+   var path="res://assets/vfx/"+id+"/f%03d.png"%frame
+   if PackedArt.exists(path): frames.append(PackedArt.texture(path))
+  hazard_art[id]={"frames":frames,"ms":spec.ms,"canvas":Vector2(spec.canvas[0],spec.canvas[1]),"anchor":Vector2(spec.anchor[0],spec.anchor[1]),"complete":frames.size()==spec.ms.size()}
+func hazard_effect_id() -> String:
+ return "vfx_hazard_telegraph" if state=="hazard_windup" else ("vfx_hazard_eruption" if state=="hazard_execute" else "")
+func hazard_effect_frame() -> int:
+ var id=hazard_effect_id()
+ if id=="" or not hazard_art.has(id) or not hazard_art[id].complete: return -1
+ var time=elapsed*1000
+ for frame in hazard_art[id].ms.size():
+  if time<float(hazard_art[id].ms[frame]): return frame
+  time-=float(hazard_art[id].ms[frame])
+ return hazard_art[id].ms.size()-1
+func draw_hazard_effect() -> void:
+ if kind!="boss" or state not in ["hazard_windup","hazard_execute"]: return
+ var frame=hazard_effect_frame()
+ if frame>=0:
+  var spec: Dictionary=hazard_art[hazard_effect_id()]
+  var location=Vector2(hazard_x-position.x,floor_y-position.y)-spec.anchor*.5
+  draw_texture_rect(spec.frames[frame],Rect2(location,spec.canvas*.5),false)
+ else:
+  # A missing source asset must never hide the dangerous zone behind body art.
+  var height=46 if state=="hazard_execute" else 6
+  draw_rect(Rect2(Vector2(hazard_x-position.x-80,floor_y-position.y-height),Vector2(160,height)),Color("e3a34a"),state=="hazard_execute",3)
 func _draw() -> void:
  if hp <= 0 and elapsed > 1.2:
   visual.visible = false
   return
+ draw_hazard_effect()
  var color = Color("8cc084") if kind == "ranged" else Color("a9a491")
  if state.contains("windup") or state in ["alert", "aim", "dive_telegraph"]: color = Color("e3a34a")
  if hp <= 0: color.a = maxf(0.1,1-elapsed)
@@ -236,5 +271,3 @@ func _draw() -> void:
   draw_line(Vector2(-8,-145),Vector2(8,-145),Color("e3a34a"),3)
   draw_line(Vector2(facing*35,-95),Vector2(facing*70,-25),color,9)
   draw_line(Vector2(facing*70,-25),Vector2(facing*89,-66),color,12)
- if kind == "boss" and state.begins_with("hazard_") and state != "hazard_recover":
-  draw_rect(Rect2(Vector2(hazard_x-position.x-80,floor_y-position.y- (46 if state == "hazard_execute" else 6)),Vector2(160,46 if state == "hazard_execute" else 6)),Color("e3a34a"),state=="hazard_execute",3)

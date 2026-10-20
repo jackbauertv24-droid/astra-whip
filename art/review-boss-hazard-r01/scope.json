@@ -1,0 +1,25 @@
+{
+  "mandatory": [
+    "boss_hazard_windup",
+    "boss_hazard_execute",
+    "boss_hazard_recover"
+  ],
+  "supplemental": [
+    "boss_hurt_hazard_late"
+  ],
+  "references": [
+    "boss_idle",
+    "boss_walk",
+    "boss_hurt",
+    "boss_hurt_stooped",
+    "boss_hurt_rising",
+    "boss_hurt_half_stoop"
+  ],
+  "engine_captures": [
+    "evidence/boss-hazard-native/capture.json",
+    "evidence/boss-hazard-phone/capture.json"
+  ],
+  "style_lock_manifest": "art/style-lock.json",
+  "original_contract": "contract/art_contract.json",
+  "visual_approval": false
+}

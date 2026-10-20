@@ -14,9 +14,9 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 8 | Pursuer supported action clips | DONE: all9clips/46frames, fresh scoped reviews PASS and full runtime/capture inventory verified; hurt is the explicit conditional nonlethal branch |
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
 | 10 | Ranged enemy supported action clips | DONE: all6body clips/31frames +3projectile frames independent PASS; exact runtime, full both-facing native/phone coverage, actual2HP hurt/death path, shot loop/flight/standing/crouch verified |
-| 11 | Boss supported action clips | PARTIAL: idle+walk+hurt+turn+strike cycle40/70mandatory frames independent PASS, plus9supplemental recovery-hurt frames; hazard3clips and death remain previews |
-| 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
-| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current302frames: lossless four-page runtime atlas,83.94MiB conservative inventory;105.22MiB measured art allocation; future inventory/device profiling remain |
+| 11 | Boss supported action clips | PARTIAL: idle+walk+hurt+turn+strike+hazard58/70mandatory frames independent PASS, plus12supplemental recovery-hurt frames; death12frames remains preview |
+| 12 | Full effects, props, terrain and UI inventory | Hazard telegraph4/eruption6 frames approved; impact/defeat/checkpoint effects and full prop/terrain/background/UI inventory remain pending |
+| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current333frames: lossless five-page runtime atlas,99.94MiB conservative inventory;126.56MiB measured art allocation; future inventory/device profiling remain |
 | 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; playfield thumb clearance, missing sequences and device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
@@ -45,3 +45,5 @@ Pressed-feedback follow-up: gameplay buttons display the shared held state acros
 Atlas follow-up:302RGBA roundtrips and1815export-runtime checks pass;550both-facing engine samples differ by only one channel value in one shader-edge pixel. Current measured art allocation105.22MiB; no physical-device claim. See evidence/atlas-fix.md.
 
 Timed-reel follow-up:67contract/supplemental entries,58complete source sequences,9missing/62frames explicitlyNOT-TESTED;569browser checks cover timing,mirroring and actual phone downscale. Source viewer is not art approval or engine transition evidence. See art/reels/README.md and evidence/clip-reels-fix.md.
+
+Boss hazard follow-up:18body+10painted-effect frames and3late hurt variants passed fresh r02review after r01caught invisible warnings. Natural alternation,allFXframes/bothfacings/native+phone,actualwhip punish and900ms recovery verified.333RGBA roundtrips,2001exported atlas checks and575updated reel checks pass. Death12frames and broader inventory/device/player gates remain. See evidence/boss-hazard-fix.md.

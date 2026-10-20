@@ -1,0 +1,7 @@
+{
+  "visible_red_patch_pixels": 0,
+  "near_transparent_red_pixels": 838,
+  "initial_preview_suspicion": "Transparent image preview appeared to show flat red fills and clipped cell edges.",
+  "measured_result": "No red patches at ink alpha40 and no border alpha above8 in the first sheet. Red RGB was at alpha0/1. The initial rejection records an unconfirmed visual suspicion, not a proven numeric defect. Review composited matte preview; do not infer opaque patches from hidden RGB.",
+  "production_choice": "Use the corrected sheet, retaining both original deliveries and all metadata."
+}

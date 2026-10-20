@@ -1,0 +1,36 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "tools/prepare-boss-hazard.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Fixed-sole supported12→6→0degree release over70/70/60ms. This supplemental flinch finishes at the neutral pose due after a late hazard-recovery hit.",
+  "reason": "The900ms hazard recovery reaches neutral sooner than the1100ms strike recovery.",
+  "records": [
+    {
+      "frame": 0,
+      "supported": [
+        12,
+        8
+      ],
+      "reuse_neutral": false
+    },
+    {
+      "frame": 1,
+      "supported": [
+        6,
+        4
+      ],
+      "reuse_neutral": false
+    },
+    {
+      "frame": 2,
+      "supported": [
+        0,
+        0
+      ],
+      "reuse_neutral": true
+    }
+  ]
+}

@@ -1798,14 +1798,14 @@
         512
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/boss/boss_hazard_windup/f000.png",
+        "../../game/assets/boss/boss_hazard_windup/f001.png",
+        "../../game/assets/boss/boss_hazard_windup/f002.png",
+        "../../game/assets/boss/boss_hazard_windup/f003.png",
+        "../../game/assets/boss/boss_hazard_windup/f004.png",
+        "../../game/assets/boss/boss_hazard_windup/f005.png",
+        "../../game/assets/boss/boss_hazard_windup/f006.png",
+        "../../game/assets/boss/boss_hazard_windup/f007.png"
       ],
       "weapon": null,
       "sockets": null,
@@ -1830,10 +1830,10 @@
         512
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/boss/boss_hazard_execute/f000.png",
+        "../../game/assets/boss/boss_hazard_execute/f001.png",
+        "../../game/assets/boss/boss_hazard_execute/f002.png",
+        "../../game/assets/boss/boss_hazard_execute/f003.png"
       ],
       "weapon": null,
       "sockets": null,
@@ -1860,12 +1860,12 @@
         512
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/boss/boss_hazard_recover/f000.png",
+        "../../game/assets/boss/boss_hazard_recover/f001.png",
+        "../../game/assets/boss/boss_hazard_recover/f002.png",
+        "../../game/assets/boss/boss_hazard_recover/f003.png",
+        "../../game/assets/boss/boss_hazard_recover/f004.png",
+        "../../game/assets/boss/boss_hazard_recover/f005.png"
       ],
       "weapon": null,
       "sockets": null,
@@ -2090,10 +2090,10 @@
         112
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/vfx/vfx_hazard_telegraph/f000.png",
+        "../../game/assets/vfx/vfx_hazard_telegraph/f001.png",
+        "../../game/assets/vfx/vfx_hazard_telegraph/f002.png",
+        "../../game/assets/vfx/vfx_hazard_telegraph/f003.png"
       ],
       "weapon": null,
       "sockets": null,
@@ -2120,12 +2120,12 @@
         176
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/vfx/vfx_hazard_eruption/f000.png",
+        "../../game/assets/vfx/vfx_hazard_eruption/f001.png",
+        "../../game/assets/vfx/vfx_hazard_eruption/f002.png",
+        "../../game/assets/vfx/vfx_hazard_eruption/f003.png",
+        "../../game/assets/vfx/vfx_hazard_eruption/f004.png",
+        "../../game/assets/vfx/vfx_hazard_eruption/f005.png"
       ],
       "weapon": null,
       "sockets": null,
@@ -2204,6 +2204,32 @@
         "../../game/assets/boss/boss_hurt_half_stoop/f000.png",
         "../../game/assets/boss/boss_hurt_half_stoop/f001.png",
         "../../game/assets/boss/boss_hurt_half_stoop/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": true
+    },
+    {
+      "id": "boss_hurt_hazard_late",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_hurt_hazard_late/f000.png",
+        "../../game/assets/boss/boss_hurt_hazard_late/f001.png",
+        "../../game/assets/boss/boss_hurt_hazard_late/f002.png"
       ],
       "weapon": null,
       "sockets": null,

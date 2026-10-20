@@ -31,6 +31,16 @@ func run():
     var duration=float(visual.specs[id].ms[frame])/1000
     for facing in [1,-1]: entries.append({"kind":kind,"id":id,"frame":frame,"facing":facing,"elapsed":elapsed+duration*.5})
     elapsed+=duration
+ var contract: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
+ for id in contract.clips:
+  var spec: Dictionary=contract.clips[id]
+  if spec.actor!="vfx": continue
+  var complete=true
+  for frame in spec.ms.size():
+   if not PackedArt.exists("res://assets/vfx/"+id+"/f%03d.png"%frame): complete=false
+  if not complete: continue
+  for frame in spec.ms.size():
+   for facing in [1,-1]: entries.append({"kind":"vfx","id":id,"frame":frame,"facing":facing,"elapsed":0.0})
  var cells=[]
  for i in 6:
   var parent=PoseActor.new()
@@ -46,6 +56,16 @@ func run():
    var parent=cells[i]
    parent.facing=entry.facing
    parent.position=Vector2((i%3)*426+(160 if entry.facing==1 else 260),(i/3)*360+300)
+   if entry.kind=="vfx":
+    var sprite=Sprite2D.new()
+    parent.add_child(sprite)
+    var spec: Dictionary=contract.clips[entry.id]
+    sprite.texture=PackedArt.texture("res://assets/vfx/"+entry.id+"/f%03d.png"%entry.frame)
+    sprite.scale=Vector2(.5,.5)
+    sprite.flip_h=entry.facing<0
+    sprite.offset=Vector2(spec.canvas[0],spec.canvas[1])*.5-Vector2(spec.anchor[0],spec.anchor[1])
+    if sprite.flip_h: sprite.offset.x=-sprite.offset.x
+    continue
    var visual=ActorVisual.new()
    parent.add_child(visual)
    visual.configure(entry.kind)

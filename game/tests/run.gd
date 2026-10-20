@@ -241,6 +241,12 @@ func run() -> void:
    foe.take_hit()
    foe.visual.follow(foe.state,0)
    check(foe.visual.animation=="boss_hurt_"+pair[1],"recovery hit selects context "+pair[1])
+  foe.hp=8
+  foe.enter("hazard_recover")
+  foe.elapsed=.6
+  foe.take_hit()
+  foe.visual.follow(foe.state,0)
+  check(foe.visual.animation=="boss_hurt_hazard_late","hazard recovery hit selects accelerated release")
   foe.enter("walk")
  for actor in [h]+world.foes:
   var v: ActorVisual=actor.visual

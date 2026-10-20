@@ -1,0 +1,306 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "tools/prepare-boss-strike.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Posture-aware70/70/60ms flinch from the same supported leg/torso rig; fixed soles,rigid upright head and connected counter-recoil. Late variants release toward the pose due after the200ms interruption.",
+  "reason": "A neutral standing hurt would pop out of a supported recovery. Supplemental context poses preserve the stance and handoff without changing mandatory timings or AI clocks.",
+  "records": [
+    {
+      "frame": 0,
+      "angle_degrees": 12,
+      "pelvis_drop_pixels": 12,
+      "head_counterrotation_translation": [
+        23,
+        21
+      ],
+      "legs": [
+        {
+          "id": "far",
+          "source_joints": [
+            [
+              202,
+              353
+            ],
+            [
+              208.52924103252195,
+              428.4080168917021
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              200.80810254662566,
+              370.34014676346317
+            ],
+            [
+              239.0667354058541,
+              435.64923504176306
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ]
+        },
+        {
+          "id": "near",
+          "source_joints": [
+            [
+              176,
+              354
+            ],
+            [
+              146.10457302330633,
+              427.45926385338464
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              175.16835323672896,
+              365.9125904029352
+            ],
+            [
+              123.52523113814959,
+              426.1038517280747
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ]
+        }
+      ],
+      "removed_body_components_pixels": [
+        68,
+        9,
+        8,
+        1,
+        1,
+        1
+      ],
+      "removed_low_alpha_pixels": 387
+    },
+    {
+      "frame": 1,
+      "angle_degrees": 10,
+      "pelvis_drop_pixels": 8,
+      "head_counterrotation_translation": [
+        19,
+        15
+      ],
+      "legs": [
+        {
+          "id": "far",
+          "source_joints": [
+            [
+              202,
+              353
+            ],
+            [
+              208.52924103252195,
+              428.4080168917021
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              201.0840570453166,
+              365.4692758783768
+            ],
+            [
+              234.52246954454728,
+              433.3726820486956
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ]
+        },
+        {
+          "id": "near",
+          "source_joints": [
+            [
+              176,
+              354
+            ],
+            [
+              146.10457302330633,
+              427.45926385338464
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              175.30540728933227,
+              361.9392310120488
+            ],
+            [
+              128.16558885594438,
+              425.71883212453014
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ]
+        }
+      ],
+      "removed_body_components_pixels": [
+        68,
+        9,
+        8,
+        1,
+        1,
+        1
+      ],
+      "removed_low_alpha_pixels": 388
+    },
+    {
+      "frame": 2,
+      "angle_degrees": 8,
+      "pelvis_drop_pixels": 4,
+      "head_counterrotation_translation": [
+        16,
+        10
+      ],
+      "legs": [
+        {
+          "id": "far",
+          "source_joints": [
+            [
+              202,
+              353
+            ],
+            [
+              208.52924103252195,
+              428.4080168917021
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              201.3294504844006,
+              360.58930483118644
+            ],
+            [
+              228.72484870161338,
+              431.1477356280823
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ]
+        },
+        {
+          "id": "near",
+          "source_joints": [
+            [
+              176,
+              354
+            ],
+            [
+              146.10457302330633,
+              427.45926385338464
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              175.44330759615974,
+              357.9610722749663
+            ],
+            [
+              134.24560928328594,
+              425.7309007661278
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ]
+        }
+      ],
+      "removed_body_components_pixels": [
+        68,
+        9,
+        8,
+        1,
+        1,
+        1
+      ],
+      "removed_low_alpha_pixels": 410
+    }
+  ]
+}

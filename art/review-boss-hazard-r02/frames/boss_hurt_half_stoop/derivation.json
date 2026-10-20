@@ -1,0 +1,212 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "tools/prepare-boss-strike.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Posture-aware70/70/60ms flinch from the same supported leg/torso rig; fixed soles,rigid upright head and connected counter-recoil. Late variants release toward the pose due after the200ms interruption.",
+  "reason": "A neutral standing hurt would pop out of a supported recovery. Supplemental context poses preserve the stance and handoff without changing mandatory timings or AI clocks.",
+  "records": [
+    {
+      "frame": 0,
+      "angle_degrees": 4,
+      "pelvis_drop_pixels": 4,
+      "head_counterrotation_translation": [
+        8,
+        7
+      ],
+      "legs": [
+        {
+          "id": "far",
+          "source_joints": [
+            [
+              202,
+              353
+            ],
+            [
+              208.52924103252195,
+              428.4080168917021
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              201.72739588552307,
+              358.80636046812674
+            ],
+            [
+              226.25824980297486,
+              430.41108940470355
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ]
+        },
+        {
+          "id": "near",
+          "source_joints": [
+            [
+              176,
+              354
+            ],
+            [
+              146.10457302330633,
+              427.45926385338464
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              175.7209741050235,
+              357.9902562010393
+            ],
+            [
+              134.49677480842377,
+              425.74396748207715
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ]
+        }
+      ],
+      "removed_body_components_pixels": [
+        68,
+        9,
+        8,
+        1,
+        1,
+        1
+      ],
+      "removed_low_alpha_pixels": 433
+    },
+    {
+      "frame": 1,
+      "angle_degrees": 2,
+      "pelvis_drop_pixels": 2,
+      "head_counterrotation_translation": [
+        4,
+        3
+      ],
+      "legs": [
+        {
+          "id": "far",
+          "source_joints": [
+            [
+              202,
+              353
+            ],
+            [
+              208.52924103252195,
+              428.4080168917021
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              201.87946301238898,
+              355.9055593953223
+            ],
+            [
+              220.79669436928418,
+              429.1936099751386
+            ],
+            [
+              211,
+              486
+            ],
+            [
+              228.88,
+              512
+            ]
+          ]
+        },
+        {
+          "id": "near",
+          "source_joints": [
+            [
+              176,
+              354
+            ],
+            [
+              146.10457302330633,
+              427.45926385338464
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ],
+          "target_joints": [
+            [
+              175.86040201319,
+              355.9975633080764
+            ],
+            [
+              138.8207387096614,
+              426.126468492467
+            ],
+            [
+              131.07999999999998,
+              489
+            ],
+            [
+              135.07999999999998,
+              512
+            ]
+          ]
+        }
+      ],
+      "removed_body_components_pixels": [
+        68,
+        9,
+        8,
+        1,
+        1,
+        1
+      ],
+      "removed_low_alpha_pixels": 463
+    },
+    {
+      "frame": 2,
+      "reuse": "art/frames/boss_idle/f000.png"
+    }
+  ]
+}

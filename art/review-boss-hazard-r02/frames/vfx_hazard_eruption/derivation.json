@@ -1,0 +1,139 @@
+{
+  "kind": "reused",
+  "source": [
+    "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-raw.png",
+    "art/production-candidates/hazard-fx-keys-r01/eruption-sheet-prompt.txt",
+    "art/frames/vfx_hazard_telegraph/f003.png"
+  ],
+  "method": "Six directly painted eruption frames share one bounded uniform0.8518518518518519 scale to honor the46u height ceiling, base-anchor registration and the reused full-width warning gutter. Fire motion is directly painted; no procedural animation or phase interpolation.",
+  "reason": "The generated peak measured108sourcepixels; shared92/108 normalization preserves relative phase sizes. A persistent full-width gutter marks the complete dangerous zone throughout the400ms eruption.",
+  "records": [
+    {
+      "frame": 0,
+      "source_bbox": [
+        10,
+        122,
+        312,
+        178
+      ],
+      "source_pivot": [
+        161,
+        178
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    },
+    {
+      "frame": 1,
+      "source_bbox": [
+        10,
+        96,
+        311,
+        178
+      ],
+      "source_pivot": [
+        160.5,
+        178
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    },
+    {
+      "frame": 2,
+      "source_bbox": [
+        8,
+        71,
+        313,
+        178
+      ],
+      "source_pivot": [
+        160.5,
+        178
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    },
+    {
+      "frame": 3,
+      "source_bbox": [
+        9,
+        68,
+        312,
+        159
+      ],
+      "source_pivot": [
+        160.5,
+        159
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    },
+    {
+      "frame": 4,
+      "source_bbox": [
+        9,
+        77,
+        311,
+        159
+      ],
+      "source_pivot": [
+        160,
+        159
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    },
+    {
+      "frame": 5,
+      "source_bbox": [
+        8,
+        107,
+        313,
+        158
+      ],
+      "source_pivot": [
+        160.5,
+        158
+      ],
+      "delivery_anchor": [
+        160,
+        176
+      ],
+      "corrective_normalization": 0.8518518518518519,
+      "method": "uniform bounded scale and base-anchor registration; premultiplied bilinear sampling",
+      "debris_removed": 0,
+      "persistent_zone_gutter": "vfx_hazard_telegraph/f003.png at base anchor160176"
+    }
+  ],
+  "visual_approval": false
+}

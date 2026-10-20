@@ -6,9 +6,9 @@ This preview packages the implemented slice without claiming the remaining upstr
 
 Implemented: deterministic movement and collision, coyote time/jump buffering, crouching, grounded/air attacks, damage/recoil/knockdown/death, checkpoint resets, three enemy types, two boss attacks, arena gates, victory, keyboard/touch controls, pause and focus handling.
 
-The preview integrates painted hunter action frames, synchronized ground/crouch/air attack bodies with separate whip layers, all nine pursuer and seven swooper action clips, background and masonry. The pursuer has all nine required action clips; the nonlethal hurt branch is conditional, while normal one-HP hits enter the complete collapse/ash sequence. The swooper has all36 required frames, including a normal one-HP falling collapse and readable ash settle; conditional hurt uses an explicit test-only2HP fixture. The ranged enemy has a painted rooted idle; its remaining actions and the boss use engine silhouettes. The art is preview quality, not an approved full production inventory. Music/SFX production remains deferred.
+The preview integrates painted hunter actions and separate synchronized whip layers, all46pursuer and36swooper frames, all31ranged body frames plus3projectile frames, and58/70mandatory boss frames. The boss now has painted idle, walk, turn, hurt, strike and hazard cycles, plus12contextual hurt frames; its12death frames remain a preview. The paired hazard ring and low eruption have10painted frames. Full effects/props/terrain/background/UI inventory and complete art acceptance remain pending. Scripted body animation remains disclosed quality debt. Production music/SFX remain deferred by the specification.
 
-Desktop automated gameplay validation and a single-threaded web export are recorded in evidence. Physical iPhone testing and an unfamiliar-player study have not been performed. No on-device performance, final atlas memory budget or complete animation compliance is claimed.
+Desktop gameplay validation and a single-threaded web export are recorded in evidence. Current333animation frames use five lossless atlas pages:99.94MiB conservative RGBA inventory and126.56MiB measured software-renderer art allocation. Future assets require repacking and rebudgeting. Physical iPhone testing and an unfamiliar-player study have not been performed; no complete animation or on-device compliance is claimed.
 
 The full source, generated candidates, rejection evidence and contract tools are included so further work can resume from this checkpoint.
 
@@ -143,3 +143,7 @@ Menu controls retain64CSS-pixel heights and readable labels inside a bounded ver
 ## Follow-up fix: web safe-area layout
 
 HUD,pause,menu and grouped touch controls now stay inside reported safe-area bounds after density/letterbox conversion. A single-viewport custom shell replaces ineffective body padding. Expanded150check regression,full gameplay/tools/export and browser inset emulation pass. Logging-only evidence verifies relocated whip input; final release has no probe logging. Physical devices,thumb-clear playfield framing and painted inventory remain pending. See evidence/safe-area-fix.md.
+
+## Follow-up fix 11g: synchronized boss hazard cycle
+
+Three boss clips (18frames), paired ring/eruption (10frames) and a late recovery hurt context (3frames) passed fresh independent review. An earlier review correctly blocked release because painted body dispatch hid the floor signal; the draw order and capture stage redraw were corrected, with the failed evidence retained. Actual alternating AI, all body/effect frames in both facings/native+phone, real punish hits and900ms recovery pass.236focused gameplay checks,333exactRGBA roundtrips,2001exported atlas checks and575reel checks pass. The618sample packing comparison differs in one pixel by one channel value. D23body-motion debt and remaining boss death/broader art/device/player gates are explicit. See evidence/boss-hazard-fix.md.

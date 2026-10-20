@@ -25,5 +25,14 @@
       60
     ],
     "loop": false
+  },
+  "hazard_late": {
+    "id": "boss_hurt_hazard_late",
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
   }
 }
