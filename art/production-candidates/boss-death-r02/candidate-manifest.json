@@ -1,0 +1,490 @@
+{
+  "boss_death": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "art/production-candidates/boss-death-kneel-r01/canvas.png",
+        "art/production-candidates/boss-death-fold-r01/canvas.png",
+        "art/production-candidates/boss-death-settle-r01/canvas.png",
+        "art/production-candidates/boss-death-ash-r01/canvas.png",
+        "tools/prepare-boss-death.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Approved neutral and fixed-sole articulated loading; generated kneeling, folding and settled keys with integer root/floor registration; one local supported fold between generated keys; two seeded soft ash-erosion frames and newly painted ash final. Bounded uniform physical-size corrections0.95/0.90 are recorded per generated key; collapsed height is never normalized to standing height. No full-length horizontal fall. Final local ash effect sized0.65 about its floor anchor. Low-alpha resampling cleanup<=4 is explicit.",
+      "reason": "D23 candidate continuation; independently generated joint-folded keys retain source detail and require fresh motion/runtime approval. Scripted rig and erosion are declared quality debt.",
+      "registrations": {
+        "kneel": {
+          "source": "art/production-candidates/boss-death-kneel-r01/canvas.png",
+          "translation": [
+            -44,
+            0
+          ],
+          "corrective_normalization": 0.95,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "fold": {
+          "source": "art/production-candidates/boss-death-fold-r01/canvas.png",
+          "translation": [
+            -44,
+            -17
+          ],
+          "corrective_normalization": 0.9,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "settle": {
+          "source": "art/production-candidates/boss-death-settle-r01/canvas.png",
+          "translation": [
+            -44,
+            -22
+          ],
+          "corrective_normalization": 0.9,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        }
+      },
+      "seed": 2973867605,
+      "holes": [
+        {
+          "x": 247,
+          "y": 434,
+          "r": 8.32995776180178
+        },
+        {
+          "x": 72,
+          "y": 492,
+          "r": 19.270382321439683
+        },
+        {
+          "x": 378,
+          "y": 476,
+          "r": 11.543275554664433
+        },
+        {
+          "x": 232,
+          "y": 454,
+          "r": 11.907137441448867
+        },
+        {
+          "x": 154,
+          "y": 500,
+          "r": 11.802492917515337
+        },
+        {
+          "x": 242,
+          "y": 471,
+          "r": 15.483842252753675
+        },
+        {
+          "x": 183,
+          "y": 399,
+          "r": 14.01458750385791
+        },
+        {
+          "x": 216,
+          "y": 411,
+          "r": 14.917415509931743
+        },
+        {
+          "x": 29,
+          "y": 493,
+          "r": 10.909336649812758
+        },
+        {
+          "x": 358,
+          "y": 462,
+          "r": 15.756047329865396
+        },
+        {
+          "x": 398,
+          "y": 489,
+          "r": 17.604502920992672
+        },
+        {
+          "x": 190,
+          "y": 494,
+          "r": 16.945556613616645
+        },
+        {
+          "x": 304,
+          "y": 400,
+          "r": 10.370238409377635
+        },
+        {
+          "x": 204,
+          "y": 511,
+          "r": 17.26371721830219
+        },
+        {
+          "x": 161,
+          "y": 433,
+          "r": 11.280207780189812
+        },
+        {
+          "x": 318,
+          "y": 419,
+          "r": 16.610052878968418
+        },
+        {
+          "x": 204,
+          "y": 425,
+          "r": 11.43693006876856
+        },
+        {
+          "x": 142,
+          "y": 422,
+          "r": 12.338600880466402
+        },
+        {
+          "x": 111,
+          "y": 442,
+          "r": 16.458839227445424
+        },
+        {
+          "x": 333,
+          "y": 438,
+          "r": 17.821144479326904
+        },
+        {
+          "x": 214,
+          "y": 428,
+          "r": 8.91656342241913
+        },
+        {
+          "x": 268,
+          "y": 402,
+          "r": 13.428414075635374
+        },
+        {
+          "x": 58,
+          "y": 492,
+          "r": 9.4059230806306
+        },
+        {
+          "x": 306,
+          "y": 447,
+          "r": 19.116757134906948
+        },
+        {
+          "x": 131,
+          "y": 424,
+          "r": 12.945147686637938
+        },
+        {
+          "x": 366,
+          "y": 483,
+          "r": 12.80777685996145
+        },
+        {
+          "x": 329,
+          "y": 507,
+          "r": 12.383811329491436
+        },
+        {
+          "x": 249,
+          "y": 462,
+          "r": 9.748439612798393
+        },
+        {
+          "x": 253,
+          "y": 376,
+          "r": 11.510986999608576
+        },
+        {
+          "x": 111,
+          "y": 481,
+          "r": 9.039151086471975
+        },
+        {
+          "x": 351,
+          "y": 433,
+          "r": 17.550119635649025
+        },
+        {
+          "x": 364,
+          "y": 432,
+          "r": 8.517301226966083
+        },
+        {
+          "x": 167,
+          "y": 432,
+          "r": 17.72811792138964
+        },
+        {
+          "x": 355,
+          "y": 461,
+          "r": 16.18377790506929
+        },
+        {
+          "x": 158,
+          "y": 456,
+          "r": 19.60616483259946
+        },
+        {
+          "x": 366,
+          "y": 414,
+          "r": 13.359949338249862
+        },
+        {
+          "x": 233,
+          "y": 382,
+          "r": 9.859746933914721
+        },
+        {
+          "x": 306,
+          "y": 459,
+          "r": 19.762615262530744
+        },
+        {
+          "x": 324,
+          "y": 458,
+          "r": 13.195402425713837
+        },
+        {
+          "x": 293,
+          "y": 477,
+          "r": 17.684426854364574
+        },
+        {
+          "x": 264,
+          "y": 400,
+          "r": 16.091687940992415
+        },
+        {
+          "x": 269,
+          "y": 474,
+          "r": 11.467275402508676
+        },
+        {
+          "x": 364,
+          "y": 452,
+          "r": 15.051864092238247
+        },
+        {
+          "x": 321,
+          "y": 422,
+          "r": 9.456149729900062
+        },
+        {
+          "x": 374,
+          "y": 441,
+          "r": 8.055799768306315
+        },
+        {
+          "x": 185,
+          "y": 423,
+          "r": 18.62096236553043
+        },
+        {
+          "x": 118,
+          "y": 439,
+          "r": 14.898595181293786
+        },
+        {
+          "x": 296,
+          "y": 423,
+          "r": 13.03384446632117
+        },
+        {
+          "x": 188,
+          "y": 500,
+          "r": 11.103423663415015
+        },
+        {
+          "x": 245,
+          "y": 449,
+          "r": 8.389409488998353
+        },
+        {
+          "x": 211,
+          "y": 444,
+          "r": 11.096092213876545
+        },
+        {
+          "x": 78,
+          "y": 456,
+          "r": 17.755485611967742
+        },
+        {
+          "x": 280,
+          "y": 481,
+          "r": 11.328820795752108
+        },
+        {
+          "x": 289,
+          "y": 439,
+          "r": 14.741816907189786
+        },
+        {
+          "x": 376,
+          "y": 454,
+          "r": 11.04074038285762
+        },
+        {
+          "x": 157,
+          "y": 470,
+          "r": 9.274233262054622
+        },
+        {
+          "x": 336,
+          "y": 476,
+          "r": 19.34260975662619
+        },
+        {
+          "x": 245,
+          "y": 440,
+          "r": 8.161789051257074
+        },
+        {
+          "x": 308,
+          "y": 387,
+          "r": 8.313251052983105
+        },
+        {
+          "x": 324,
+          "y": 448,
+          "r": 19.644370558671653
+        },
+        {
+          "x": 209,
+          "y": 483,
+          "r": 14.79520405922085
+        },
+        {
+          "x": 370,
+          "y": 492,
+          "r": 12.10827214922756
+        },
+        {
+          "x": 331,
+          "y": 442,
+          "r": 8.577099260874093
+        },
+        {
+          "x": 394,
+          "y": 501,
+          "r": 16.15724119078368
+        },
+        {
+          "x": 322,
+          "y": 465,
+          "r": 11.650249638594687
+        },
+        {
+          "x": 397,
+          "y": 498,
+          "r": 10.226491726003587
+        },
+        {
+          "x": 312,
+          "y": 493,
+          "r": 8.226961215026677
+        },
+        {
+          "x": 285,
+          "y": 400,
+          "r": 12.927186894230545
+        },
+        {
+          "x": 275,
+          "y": 443,
+          "r": 16.208062351681292
+        },
+        {
+          "x": 100,
+          "y": 510,
+          "r": 16.3088901033625
+        }
+      ],
+      "ash_effect": {
+        "source": "art/production-candidates/boss-death-ash-r01/canvas.png",
+        "source_anchor": [
+          256,
+          561
+        ],
+        "target_anchor": [
+          220,
+          512
+        ],
+        "scale": 0.65
+      },
+      "visual_approval": false,
+      "records": [
+        {
+          "frame": 0,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 1,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 2,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 3,
+          "removed_low_alpha_pixels": 2737,
+          "debris_removed": 0
+        },
+        {
+          "frame": 4,
+          "removed_low_alpha_pixels": 2626,
+          "debris_removed": 0
+        },
+        {
+          "frame": 5,
+          "removed_low_alpha_pixels": 2389,
+          "debris_removed": 0
+        },
+        {
+          "frame": 6,
+          "removed_low_alpha_pixels": 2054,
+          "debris_removed": 0
+        },
+        {
+          "frame": 7,
+          "removed_low_alpha_pixels": 1298,
+          "debris_removed": 0
+        },
+        {
+          "frame": 8,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 9,
+          "removed_low_alpha_pixels": 1993,
+          "debris_removed": 0
+        },
+        {
+          "frame": 10,
+          "removed_low_alpha_pixels": 2969,
+          "debris_removed": 0
+        },
+        {
+          "frame": 11,
+          "removed_low_alpha_pixels": 1555,
+          "debris_removed": 0
+        }
+      ]
+    }
+  }
+}

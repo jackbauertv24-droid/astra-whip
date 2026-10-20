@@ -8,6 +8,10 @@ func _initialize(): call_deferred("run")
 func run():
  root.size=Vector2i(1280,720)
  var output=OS.get_cmdline_user_args()[0]
+ if "--unpacked" in OS.get_cmdline_user_args():
+  PackedArt.manifest={"frames":{},"pages":[]}
+  PackedArt.textures.clear()
+  print("ATLAS_CAPTURE_SOURCE_MODE unpacked original textures")
  DirAccess.make_dir_recursive_absolute(output)
  var background=ColorRect.new()
  background.color=Color("272438")

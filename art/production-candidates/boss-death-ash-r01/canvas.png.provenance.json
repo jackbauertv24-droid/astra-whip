@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/boss-death-ash-r01/raw.png",
+  "source_canvas": [
+    1182,
+    1330
+  ],
+  "export_canvas": [
+    512,
+    576
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

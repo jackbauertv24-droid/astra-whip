@@ -1,0 +1,1302 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "actual_whip_hit_hp": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "death_entry_animation": "boss_idle",
+   "death_entry_frame": 1,
+   "direction": 1,
+   "entry_fixture": "idle",
+   "first_frame_preserves_entry": true,
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "animation": "boss_idle",
+     "elapsed": 0.0,
+     "exit_unlocked": false,
+     "file": "before-right-idle.png",
+     "frame": 0,
+     "hp": 1,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f00.png",
+     "frame": 0,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.0916666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f01.png",
+     "frame": 1,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.183333333333333,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f02.png",
+     "frame": 2,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.275,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f03.png",
+     "frame": 3,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.366666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f04.png",
+     "frame": 4,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.450000000000001,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f05.png",
+     "frame": 5,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.541666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f06.png",
+     "frame": 6,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.633333333333334,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f07.png",
+     "frame": 7,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.725,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f08.png",
+     "frame": 8,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.816666666666666,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f09.png",
+     "frame": 9,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.908333333333333,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f10.png",
+     "frame": 10,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.991666666666666,
+     "exit_unlocked": false,
+     "file": "death-right-idle-f11.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.972222208976746,
+     "animation": "boss_death",
+     "elapsed": 1.08333333333333,
+     "exit_unlocked": true,
+     "file": "unlock-right-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.486111104488373,
+     "animation": "boss_death",
+     "elapsed": 1.14166666666667,
+     "exit_unlocked": true,
+     "file": "fade-right-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.0000000000000148029730969801,
+     "animation": "boss_death",
+     "elapsed": 1.20833333333333,
+     "exit_unlocked": true,
+     "file": "cleanup-right-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": false
+    }
+   ]
+  },
+  {
+   "actual_whip_hit_hp": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "death_entry_animation": "boss_strike_recover",
+   "death_entry_frame": 1,
+   "direction": 1,
+   "entry_fixture": "strike_recover",
+   "first_frame_preserves_entry": true,
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "animation": "boss_strike_recover",
+     "elapsed": 0.15,
+     "exit_unlocked": false,
+     "file": "before-right-strike_recover.png",
+     "frame": 0,
+     "hp": 1,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "strike_recover",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f00.png",
+     "frame": 0,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.0916666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f01.png",
+     "frame": 1,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.183333333333333,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f02.png",
+     "frame": 2,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.275,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f03.png",
+     "frame": 3,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.366666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f04.png",
+     "frame": 4,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.450000000000001,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f05.png",
+     "frame": 5,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.541666666666667,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f06.png",
+     "frame": 6,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.633333333333334,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f07.png",
+     "frame": 7,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.725,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f08.png",
+     "frame": 8,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.816666666666666,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f09.png",
+     "frame": 9,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.908333333333333,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f10.png",
+     "frame": 10,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.991666666666666,
+     "exit_unlocked": false,
+     "file": "death-right-strike_recover-f11.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.972222208976746,
+     "animation": "boss_death",
+     "elapsed": 1.08333333333333,
+     "exit_unlocked": true,
+     "file": "unlock-right-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.486111104488373,
+     "animation": "boss_death",
+     "elapsed": 1.14166666666667,
+     "exit_unlocked": true,
+     "file": "fade-right-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.0000000000000148029730969801,
+     "animation": "boss_death",
+     "elapsed": 1.20833333333333,
+     "exit_unlocked": true,
+     "file": "cleanup-right-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": false
+    }
+   ]
+  },
+  {
+   "actual_whip_hit_hp": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "death_entry_animation": "boss_idle",
+   "death_entry_frame": 1,
+   "direction": -1,
+   "entry_fixture": "idle",
+   "first_frame_preserves_entry": true,
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "animation": "boss_idle",
+     "elapsed": 0.0,
+     "exit_unlocked": false,
+     "file": "before-left-idle.png",
+     "frame": 0,
+     "hp": 1,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "idle",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f00.png",
+     "frame": 0,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.0916666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f01.png",
+     "frame": 1,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.183333333333333,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f02.png",
+     "frame": 2,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.275,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f03.png",
+     "frame": 3,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.366666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f04.png",
+     "frame": 4,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.450000000000001,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f05.png",
+     "frame": 5,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.541666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f06.png",
+     "frame": 6,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.633333333333334,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f07.png",
+     "frame": 7,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.725,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f08.png",
+     "frame": 8,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.816666666666666,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f09.png",
+     "frame": 9,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.908333333333333,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f10.png",
+     "frame": 10,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.991666666666666,
+     "exit_unlocked": false,
+     "file": "death-left-idle-f11.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.972222208976746,
+     "animation": "boss_death",
+     "elapsed": 1.08333333333333,
+     "exit_unlocked": true,
+     "file": "unlock-left-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.486111104488373,
+     "animation": "boss_death",
+     "elapsed": 1.14166666666667,
+     "exit_unlocked": true,
+     "file": "fade-left-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.0000000000000148029730969801,
+     "animation": "boss_death",
+     "elapsed": 1.20833333333333,
+     "exit_unlocked": true,
+     "file": "cleanup-left-idle.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": false
+    }
+   ]
+  },
+  {
+   "actual_whip_hit_hp": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "death_entry_animation": "boss_strike_recover",
+   "death_entry_frame": 1,
+   "direction": -1,
+   "entry_fixture": "strike_recover",
+   "first_frame_preserves_entry": true,
+   "production_start_hp": 8,
+   "samples": [
+    {
+     "alpha": 1.0,
+     "animation": "boss_strike_recover",
+     "elapsed": 0.15,
+     "exit_unlocked": false,
+     "file": "before-left-strike_recover.png",
+     "frame": 0,
+     "hp": 1,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "strike_recover",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f00.png",
+     "frame": 0,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.0916666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f01.png",
+     "frame": 1,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.183333333333333,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f02.png",
+     "frame": 2,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.275,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f03.png",
+     "frame": 3,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.366666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f04.png",
+     "frame": 4,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.450000000000001,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f05.png",
+     "frame": 5,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.541666666666667,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f06.png",
+     "frame": 6,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.633333333333334,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f07.png",
+     "frame": 7,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.725,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f08.png",
+     "frame": 8,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.816666666666666,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f09.png",
+     "frame": 9,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.908333333333333,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f10.png",
+     "frame": 10,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 1.0,
+     "animation": "boss_death",
+     "elapsed": 0.991666666666666,
+     "exit_unlocked": false,
+     "file": "death-left-strike_recover-f11.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.972222208976746,
+     "animation": "boss_death",
+     "elapsed": 1.08333333333333,
+     "exit_unlocked": true,
+     "file": "unlock-left-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.486111104488373,
+     "animation": "boss_death",
+     "elapsed": 1.14166666666667,
+     "exit_unlocked": true,
+     "file": "fade-left-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": true
+    },
+    {
+     "alpha": 0.0000000000000148029730969801,
+     "animation": "boss_death",
+     "elapsed": 1.20833333333333,
+     "exit_unlocked": true,
+     "file": "cleanup-left-strike_recover.png",
+     "frame": 11,
+     "hp": 0,
+     "image_size": [
+      1280,
+      720
+     ],
+     "position": [
+      6240.0,
+      560.0
+     ],
+     "state": "death",
+     "visible": false
+    }
+   ]
+  }
+ ],
+ "viewport": "(1280, 720)"
+}

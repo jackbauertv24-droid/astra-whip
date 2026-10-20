@@ -1,0 +1,18 @@
+{
+  "mandatory": [
+    "boss_death"
+  ],
+  "references": [
+    "boss_idle",
+    "boss_walk",
+    "boss_strike_recover"
+  ],
+  "original_contract": "contract/art_contract.json",
+  "engine_captures": [
+    "evidence/boss-death-r03-native/capture.json",
+    "evidence/boss-death-r03-phone/capture.json"
+  ],
+  "style_lock_manifest": "art/style-lock.json",
+  "visual_approval": false,
+  "runtime_entry": "First90ms holds the exact approved body texture visible at lethal contact; common source loading continues at f1."
+}

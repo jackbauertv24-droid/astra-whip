@@ -1,0 +1,233 @@
+{
+  "boss_death": {
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "art/production-candidates/boss-death-kneel-r01/canvas.png",
+        "art/production-candidates/boss-death-fold-r01/canvas.png",
+        "art/production-candidates/boss-death-settle-r01/canvas.png",
+        "art/production-candidates/boss-death-bridge-r01/canvas.png",
+        "art/production-candidates/boss-death-half-kneel-r01/canvas.png",
+        "art/production-candidates/boss-death-ash-r01/canvas.png",
+        "tools/prepare-boss-death.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Approved neutral and fixed-sole articulated loading; generated half-kneeling, kneeling, folding and settled keys with integer root/floor registration; a separately painted supported-hand inbetween; two seeded irregular edge-distance ash-erosion frames and newly painted ash final. Bounded uniform physical-size corrections0.95/0.90 are recorded per generated key; collapsed height is never normalized to standing height. No full-length horizontal fall. Final local ash effect sized0.65 about its floor anchor. Low-alpha resampling cleanup<=4 is explicit.",
+      "reason": "D23 candidate continuation; independently generated joint-folded keys retain source detail and require fresh motion/runtime approval. Scripted rig and erosion are declared quality debt.",
+      "registrations": {
+        "kneel": {
+          "source": "art/production-candidates/boss-death-kneel-r01/canvas.png",
+          "translation": [
+            -44,
+            0
+          ],
+          "corrective_normalization": 0.95,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "fold": {
+          "source": "art/production-candidates/boss-death-fold-r01/canvas.png",
+          "translation": [
+            -44,
+            -17
+          ],
+          "corrective_normalization": 0.9,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "settle": {
+          "source": "art/production-candidates/boss-death-settle-r01/canvas.png",
+          "translation": [
+            -44,
+            -22
+          ],
+          "corrective_normalization": 0.9,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "bridge": {
+          "source": "art/production-candidates/boss-death-bridge-r01/canvas.png",
+          "translation": [
+            0,
+            -17
+          ],
+          "corrective_normalization": 1,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        },
+        "half-kneel": {
+          "source": "art/production-candidates/boss-death-half-kneel-r01/canvas.png",
+          "translation": [
+            0,
+            -8
+          ],
+          "corrective_normalization": 1,
+          "reason": "Bounded uniform correction about common root to physical plate size, never normalize collapsed height to standing height. Floor registration is retained."
+        }
+      },
+      "seed": 730441,
+      "erosion": {
+        "method": "two-pass distance from existing silhouette/cloth edges; seeded2D grain modulates edge retreat, no placed circular holes",
+        "stage_opacity": [
+          0.85,
+          0.25,
+          0
+        ],
+        "maximum_stage0_retreat_pixels": 14
+      },
+      "runtime_entry": "First90ms holds the exact body texture visible at lethal contact; common loading resumes at f1. Runtime snapshots use already delivered approved poses, not new/generated art.",
+      "ash_effect": {
+        "source": "art/production-candidates/boss-death-ash-r01/canvas.png",
+        "source_anchor": [
+          256,
+          561
+        ],
+        "target_anchor": [
+          220,
+          512
+        ],
+        "scale": 0.65
+      },
+      "visual_approval": false,
+      "records": [
+        {
+          "frame": 0,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 1,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 2,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 3,
+          "removed_low_alpha_pixels": 2801,
+          "debris_removed": 0
+        },
+        {
+          "frame": 4,
+          "removed_low_alpha_pixels": 2626,
+          "debris_removed": 0
+        },
+        {
+          "frame": 5,
+          "removed_low_alpha_pixels": 2389,
+          "debris_removed": 0
+        },
+        {
+          "frame": 6,
+          "removed_low_alpha_pixels": 2050,
+          "debris_removed": 0
+        },
+        {
+          "frame": 7,
+          "removed_low_alpha_pixels": 1298,
+          "debris_removed": 0
+        },
+        {
+          "frame": 8,
+          "removed_low_alpha_pixels": 0,
+          "debris_removed": 0
+        },
+        {
+          "frame": 9,
+          "removed_low_alpha_pixels": 297,
+          "debris_removed": 0
+        },
+        {
+          "frame": 10,
+          "removed_low_alpha_pixels": 735,
+          "debris_removed": 0
+        },
+        {
+          "frame": 11,
+          "removed_low_alpha_pixels": 1555,
+          "debris_removed": 0
+        }
+      ]
+    }
+  },
+  "boss_idle": {
+    "ms": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_walk/f000.png",
+        "tools/prepare-boss-idle.mjs"
+      ],
+      "method": "Reuse accepted walk neutral support, local0–2px inhale above hips,0.6px shroud sway,unchanged boots/pivot and no actor scale. Eight125ms samples complete a1s loop.",
+      "reason": "D23 continuation from approved boss construction after generated sheet failed actor scale/registration; local idle requires fresh motion/runtime review. Scripted animation remains quality debt."
+    }
+  },
+  "boss_walk": {
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/production-candidates/boss-identity-r01/key.png",
+        "tools/prepare-boss-walk.mjs"
+      ],
+      "method": "Two connected plated-leg bone rigs with fixed-length upper/lower segments, flat translated boots, alternating60% stance,22px swing clearance,89.6px stride, small weight/shroud response; no global scale or per-frame recenter.",
+      "reason": "Generated eight-frame sheet enlarged actors to485–503px versus352px and changed root registration; retained raw/equal crops/rejection. D23 local rig requires fresh full gait/runtime review and remains scripted animation quality debt."
+    }
+  },
+  "boss_strike_recover": {
+    "ms": [
+      200,
+      200,
+      200,
+      200,
+      150,
+      150
+    ],
+    "loop": false,
+    "derivation": {
+      "kind": "scripted_fallback",
+      "source": [
+        "art/frames/boss_idle/f000.png",
+        "tools/prepare-boss-strike.mjs",
+        "tools/lib/boss-supported-pose.mjs"
+      ],
+      "method": "Connected three-piece arm articulation around a fixed clavicle joint, original torso/legs, held raised silhouette, forward sweep,arm release and supported bent-knee,gauntlet-on-knee stoop with upright counterrotating head and a progressive rise; exact neutral endpoints, no global actor scale/recenter. Original shoulder-cap paint retained behind raised arm.",
+      "reason": "Generated apex enlarged standing-body baseline and reached only1.259×bodyheight. D23 fallback from approved neutral requires fresh anatomy/tell/cycle/runtime review; scripted motion quality debt remains."
+    }
+  }
+}

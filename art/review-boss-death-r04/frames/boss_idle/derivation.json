@@ -1,0 +1,9 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_walk/f000.png",
+    "tools/prepare-boss-idle.mjs"
+  ],
+  "method": "Reuse accepted walk neutral support, local0–2px inhale above hips,0.6px shroud sway,unchanged boots/pivot and no actor scale. Eight125ms samples complete a1s loop.",
+  "reason": "D23 continuation from approved boss construction after generated sheet failed actor scale/registration; local idle requires fresh motion/runtime review. Scripted animation remains quality debt."
+}

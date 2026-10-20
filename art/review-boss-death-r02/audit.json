@@ -1,0 +1,34 @@
+{
+ "defects": 0,
+ "flags": 4,
+ "findings": [
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "boss_death",
+   "frame": 3,
+   "msg": "jump from frame 2: size 13.8%, height 9.1%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "boss_death",
+   "frame": 7,
+   "msg": "jump from frame 6: size 9.0%, height 25.6%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "boss_death",
+   "frame": 10,
+   "msg": "jump from frame 9: size 31.4%, height 1.3%"
+  },
+  {
+   "rule": "A-11",
+   "severity": "FLAG",
+   "clip": "boss_death",
+   "frame": 11,
+   "msg": "jump from frame 10: size 22.9%, height 45.7%"
+  }
+ ]
+}

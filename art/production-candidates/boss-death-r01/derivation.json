@@ -1,0 +1,409 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/frames/boss_idle/f000.png",
+    "art/production-candidates/boss-death-kneel-r01/canvas.png",
+    "art/production-candidates/boss-death-fold-r01/canvas.png",
+    "art/production-candidates/boss-death-settle-r01/canvas.png",
+    "art/production-candidates/boss-death-ash-r01/canvas.png",
+    "tools/prepare-boss-death.mjs",
+    "tools/lib/boss-supported-pose.mjs"
+  ],
+  "method": "Approved neutral and fixed-sole articulated loading; generated kneeling, folding and settled keys with integer root/floor registration; one local supported fold between generated keys; two seeded soft ash-erosion frames and newly painted ash final. No full-actor scale normalization or full-length horizontal fall. Final local ash effect sized0.65 about its floor anchor. Low-alpha resampling cleanup<=4 is explicit.",
+  "reason": "D23 candidate continuation; independently generated joint-folded keys retain source detail and require fresh motion/runtime approval. Scripted rig and erosion are declared quality debt.",
+  "registrations": {
+    "kneel": {
+      "source": "art/production-candidates/boss-death-kneel-r01/canvas.png",
+      "translation": [
+        -44,
+        0
+      ],
+      "corrective_normalization": 1,
+      "reason": "Floor and common root registration only; collapsed height is never normalized to standing height."
+    },
+    "fold": {
+      "source": "art/production-candidates/boss-death-fold-r01/canvas.png",
+      "translation": [
+        -44,
+        -17
+      ],
+      "corrective_normalization": 1,
+      "reason": "Floor and common root registration only; collapsed height is never normalized to standing height."
+    },
+    "settle": {
+      "source": "art/production-candidates/boss-death-settle-r01/canvas.png",
+      "translation": [
+        -44,
+        -22
+      ],
+      "corrective_normalization": 1,
+      "reason": "Floor and common root registration only; collapsed height is never normalized to standing height."
+    }
+  },
+  "seed": 2973867605,
+  "holes": [
+    {
+      "x": 315,
+      "y": 425,
+      "r": 8.32995776180178
+    },
+    {
+      "x": 391,
+      "y": 489,
+      "r": 19.270382321439683
+    },
+    {
+      "x": 414,
+      "y": 472,
+      "r": 11.543275554664433
+    },
+    {
+      "x": 57,
+      "y": 448,
+      "r": 11.907137441448867
+    },
+    {
+      "x": 25,
+      "y": 499,
+      "r": 11.802492917515337
+    },
+    {
+      "x": 416,
+      "y": 466,
+      "r": 15.483842252753675
+    },
+    {
+      "x": 246,
+      "y": 386,
+      "r": 14.01458750385791
+    },
+    {
+      "x": 368,
+      "y": 399,
+      "r": 14.917415509931743
+    },
+    {
+      "x": 388,
+      "y": 490,
+      "r": 10.909336649812758
+    },
+    {
+      "x": 166,
+      "y": 457,
+      "r": 15.756047329865396
+    },
+    {
+      "x": 216,
+      "y": 487,
+      "r": 17.604502920992672
+    },
+    {
+      "x": 205,
+      "y": 492,
+      "r": 16.945556613616645
+    },
+    {
+      "x": 211,
+      "y": 388,
+      "r": 10.370238409377635
+    },
+    {
+      "x": 185,
+      "y": 511,
+      "r": 17.26371721830219
+    },
+    {
+      "x": 177,
+      "y": 424,
+      "r": 11.280207780189812
+    },
+    {
+      "x": 212,
+      "y": 409,
+      "r": 16.610052878968418
+    },
+    {
+      "x": 254,
+      "y": 415,
+      "r": 11.43693006876856
+    },
+    {
+      "x": 348,
+      "y": 411,
+      "r": 12.338600880466402
+    },
+    {
+      "x": 121,
+      "y": 434,
+      "r": 16.458839227445424
+    },
+    {
+      "x": 261,
+      "y": 430,
+      "r": 17.821144479326904
+    },
+    {
+      "x": 366,
+      "y": 418,
+      "r": 8.91656342241913
+    },
+    {
+      "x": 214,
+      "y": 390,
+      "r": 13.428414075635374
+    },
+    {
+      "x": 374,
+      "y": 489,
+      "r": 9.4059230806306
+    },
+    {
+      "x": 232,
+      "y": 440,
+      "r": 19.116757134906948
+    },
+    {
+      "x": 131,
+      "y": 414,
+      "r": 12.945147686637938
+    },
+    {
+      "x": 314,
+      "y": 480,
+      "r": 12.80777685996145
+    },
+    {
+      "x": 193,
+      "y": 507,
+      "r": 12.383811329491436
+    },
+    {
+      "x": 403,
+      "y": 456,
+      "r": 9.748439612798393
+    },
+    {
+      "x": 227,
+      "y": 361,
+      "r": 11.510986999608576
+    },
+    {
+      "x": 322,
+      "y": 477,
+      "r": 9.039151086471975
+    },
+    {
+      "x": 125,
+      "y": 425,
+      "r": 17.550119635649025
+    },
+    {
+      "x": 113,
+      "y": 424,
+      "r": 8.517301226966083
+    },
+    {
+      "x": 153,
+      "y": 423,
+      "r": 17.72811792138964
+    },
+    {
+      "x": 126,
+      "y": 456,
+      "r": 16.18377790506929
+    },
+    {
+      "x": 397,
+      "y": 449,
+      "r": 19.60616483259946
+    },
+    {
+      "x": 388,
+      "y": 403,
+      "r": 13.359949338249862
+    },
+    {
+      "x": 293,
+      "y": 367,
+      "r": 9.859746933914721
+    },
+    {
+      "x": 348,
+      "y": 453,
+      "r": 19.762615262530744
+    },
+    {
+      "x": 329,
+      "y": 452,
+      "r": 13.195402425713837
+    },
+    {
+      "x": 355,
+      "y": 473,
+      "r": 17.684426854364574
+    },
+    {
+      "x": 161,
+      "y": 388,
+      "r": 16.091687940992415
+    },
+    {
+      "x": 186,
+      "y": 470,
+      "r": 11.467275402508676
+    },
+    {
+      "x": 148,
+      "y": 446,
+      "r": 15.051864092238247
+    },
+    {
+      "x": 306,
+      "y": 412,
+      "r": 9.456149729900062
+    },
+    {
+      "x": 116,
+      "y": 434,
+      "r": 8.055799768306315
+    },
+    {
+      "x": 166,
+      "y": 413,
+      "r": 18.62096236553043
+    },
+    {
+      "x": 326,
+      "y": 430,
+      "r": 14.898595181293786
+    },
+    {
+      "x": 304,
+      "y": 413,
+      "r": 13.03384446632117
+    },
+    {
+      "x": 66,
+      "y": 499,
+      "r": 11.103423663415015
+    },
+    {
+      "x": 227,
+      "y": 442,
+      "r": 8.389409488998353
+    },
+    {
+      "x": 315,
+      "y": 436,
+      "r": 11.096092213876545
+    },
+    {
+      "x": 298,
+      "y": 449,
+      "r": 17.755485611967742
+    },
+    {
+      "x": 110,
+      "y": 478,
+      "r": 11.328820795752108
+    },
+    {
+      "x": 240,
+      "y": 431,
+      "r": 14.741816907189786
+    },
+    {
+      "x": 234,
+      "y": 448,
+      "r": 11.04074038285762
+    },
+    {
+      "x": 264,
+      "y": 465,
+      "r": 9.274233262054622
+    },
+    {
+      "x": 362,
+      "y": 472,
+      "r": 19.34260975662619
+    },
+    {
+      "x": 220,
+      "y": 432,
+      "r": 8.161789051257074
+    },
+    {
+      "x": 326,
+      "y": 373,
+      "r": 8.313251052983105
+    },
+    {
+      "x": 289,
+      "y": 441,
+      "r": 19.644370558671653
+    },
+    {
+      "x": 120,
+      "y": 480,
+      "r": 14.79520405922085
+    },
+    {
+      "x": 328,
+      "y": 490,
+      "r": 12.10827214922756
+    },
+    {
+      "x": 393,
+      "y": 434,
+      "r": 8.577099260874093
+    },
+    {
+      "x": 372,
+      "y": 500,
+      "r": 16.15724119078368
+    },
+    {
+      "x": 247,
+      "y": 460,
+      "r": 11.650249638594687
+    },
+    {
+      "x": 224,
+      "y": 497,
+      "r": 10.226491726003587
+    },
+    {
+      "x": 305,
+      "y": 491,
+      "r": 8.226961215026677
+    },
+    {
+      "x": 188,
+      "y": 388,
+      "r": 12.927186894230545
+    },
+    {
+      "x": 358,
+      "y": 435,
+      "r": 16.208062351681292
+    },
+    {
+      "x": 374,
+      "y": 509,
+      "r": 16.3088901033625
+    }
+  ],
+  "ash_effect": {
+    "source": "art/production-candidates/boss-death-ash-r01/canvas.png",
+    "source_anchor": [
+      256,
+      561
+    ],
+    "target_anchor": [
+      220,
+      512
+    ],
+    "scale": 0.65
+  },
+  "visual_approval": false
+}

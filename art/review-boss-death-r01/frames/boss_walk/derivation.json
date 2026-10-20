@@ -1,0 +1,9 @@
+{
+  "kind": "scripted_fallback",
+  "source": [
+    "art/production-candidates/boss-identity-r01/key.png",
+    "tools/prepare-boss-walk.mjs"
+  ],
+  "method": "Two connected plated-leg bone rigs with fixed-length upper/lower segments, flat translated boots, alternating60% stance,22px swing clearance,89.6px stride, small weight/shroud response; no global scale or per-frame recenter.",
+  "reason": "Generated eight-frame sheet enlarged actors to485–503px versus352px and changed root registration; retained raw/equal crops/rejection. D23 local rig requires fresh full gait/runtime review and remains scripted animation quality debt."
+}

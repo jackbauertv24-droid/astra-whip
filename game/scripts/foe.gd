@@ -18,6 +18,8 @@ var hurt_pose_context = ""
 var hurt_resume_state = ""
 var hurt_resume_elapsed = 0.0
 var shot = false
+var death_entry_animation = ""
+var death_entry_frame = -1
 var history: Dictionary = {}
 func _ready() -> void:
  if kind=="boss": load_hazard_art()
@@ -48,6 +50,10 @@ func take_hit() -> void:
  if hp <= 0: return
  hp -= 1
  if hp <= 0:
+  if kind=="boss":
+   death_entry_animation=str(visual.animation)
+   death_entry_frame=visual.frame
+   visual.preserve_death_entry()
   enter("death_fall" if kind == "swooper" else "death")
  elif kind != "boss" or state != "strike_execute":
   if kind == "boss":

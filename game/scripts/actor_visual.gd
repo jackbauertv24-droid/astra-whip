@@ -13,6 +13,13 @@ var socket_sets: Dictionary = {}
 var approach_cadence = 1.0
 var body_clips: Dictionary = {}
 var pivot_offset = Vector2.ZERO
+func preserve_death_entry() -> void:
+ # Keep the exact lethal-contact paint for the first authored90ms. The next
+ # loading frame then carries standing or supported entry into the same fall.
+ if actor!="boss" or not body_clips.get("boss_death",false): return
+ if not body_clips.get(str(animation),false): return
+ var entry=sprite_frames.get_frame_texture(animation,frame)
+ sprite_frames.set_frame("boss_death",0,entry,90)
 func configure(kind: String) -> void:
  actor = kind
  var contract_data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))

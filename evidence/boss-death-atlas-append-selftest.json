@@ -1,0 +1,16 @@
+{
+  "retained_placements": 333,
+  "cases": [
+    {
+      "case": "changed-source",
+      "exit": 1,
+      "rejected": true
+    },
+    {
+      "case": "incompatible-padding",
+      "exit": 1,
+      "rejected": true
+    }
+  ],
+  "pass": true
+}

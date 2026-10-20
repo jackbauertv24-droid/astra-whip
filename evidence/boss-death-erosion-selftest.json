@@ -1,0 +1,20 @@
+{
+  "cases": [
+    {
+      "revision": "r02",
+      "expected_exit": 1,
+      "actual_exit": 1,
+      "solid_interior_samples": 16006,
+      "punched_interior_pixels": 10638
+    },
+    {
+      "revision": "r03",
+      "expected_exit": 0,
+      "actual_exit": 0,
+      "solid_interior_samples": 16006,
+      "punched_interior_pixels": 0
+    }
+  ],
+  "pass": true,
+  "scope": "Retained round-hole defect versus edge-led erosion; independent visual approval is separate."
+}

@@ -1,0 +1,8 @@
+{
+  "defect_cases": 25,
+  "positive_controls": 3,
+  "summary_pass": true,
+  "wrapper_exit": 143,
+  "scope": "Log completeness check; wrapper143 retained, not rewritten as0.",
+  "note": "Prior52.0s run: complete25-case PASS verified, wrapper143. The final separately run67.1s log is boss-death-selftest.log and its actual wrapper exit was0."
+}

@@ -1,0 +1,1 @@
+{"frames_root":"art/production-candidates/boss-death-r02","solid_interior_samples":16006,"punched_interior_pixels":10638,"examples":[[238,381],[239,381],[240,381],[241,381],[244,381],[245,381],[246,381],[247,381],[248,381],[249,381],[250,381],[251,381]],"pass":false,"scope":"Deep opaque31×31 source neighborhoods above ground; an edge-erosion tripwire, not visual approval."}

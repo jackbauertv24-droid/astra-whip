@@ -20,6 +20,8 @@ const items=files.map(file=>{
  return {file,image,x0,y0,w:x1-x0+1,h:y1-y0+1};
 }).sort((a,b)=>Math.max(b.w,b.h)-Math.max(a.w,a.h)||b.w*b.h-a.w*a.h||a.file.localeCompare(b.file));
 const pages=[],frames={};
+const args=process.argv.slice(2),appendIndex=args.indexOf('--append-from');
+const base=appendIndex<0?null:JSON.parse(readFileSync(args[appendIndex+1]));
 function contains(a,b){return a.x<=b.x&&a.y<=b.y&&a.x+a.w>=b.x+b.w&&a.y+a.h>=b.y+b.h}
 function insert(page,rect){
  const next=[];
@@ -32,16 +34,30 @@ function insert(page,rect){
  }
  page.free=next.filter((r,i)=>!next.some((other,j)=>j!==i&&contains(other,r)&&(other.w*other.h>r.w*r.h||j<i)));
 }
+function place(item,best){
+ const w=item.w+padding*2,h=item.h+padding*2;
+ insert(pages[best.p],{x:best.x,y:best.y,w,h});
+ const x=best.x+padding,y=best.y+padding,page=pages[best.p];
+ for(let row=0;row<item.h;row++)page.image.data.set(item.image.data.subarray(((item.y0+row)*item.image.width+item.x0)*4,((item.y0+row)*item.image.width+item.x0+item.w)*4),((y+row)*size+x)*4);
+ frames['res://assets/'+item.file]={page:best.p,region:[x,y,item.w,item.h],trim:[item.x0,item.y0],canvas:[item.image.width,item.image.height],rgba_sha256:hash(item.image.data)};
+}
+if(base){
+ if(base.version!==1||base.padding!==padding||base.rotation||base.mipmaps||base.filter!=='nearest'||base.pages.some(p=>p.width!==size||p.height!==size))throw Error('Incompatible append layout');
+ for(const page of base.pages)pages.push({image:blank(size,size),free:[{x:0,y:0,w:size,h:size}]});
+ for(const[path,entry]of Object.entries(base.frames)){
+  const item=items.find(i=>'res://assets/'+i.file===path);
+  if(!item||hash(item.image.data)!==entry.rgba_sha256||JSON.stringify([item.image.width,item.image.height])!==JSON.stringify(entry.canvas)||JSON.stringify([item.x0,item.y0])!==JSON.stringify(entry.trim)||JSON.stringify([item.w,item.h])!==JSON.stringify(entry.region.slice(2)))throw Error('Append requires unchanged existing source: '+path);
+  place(item,{p:entry.page,x:entry.region[0]-padding,y:entry.region[1]-padding});
+ }
+}
 for(const item of items){
+ if(frames['res://assets/'+item.file])continue;
  const w=item.w+padding*2,h=item.h+padding*2;
  if(w>size||h>size)throw Error('oversized '+item.file);
  let best;
  for(let p=0;p<pages.length;p++)for(const r of pages[p].free)if(r.w>=w&&r.h>=h){const score=[Math.min(r.w-w,r.h-h),Math.max(r.w-w,r.h-h)];if(!best||score[0]<best.score[0]||score[0]===best.score[0]&&score[1]<best.score[1])best={p,x:r.x,y:r.y,score}}
  if(!best){pages.push({image:blank(size,size),free:[{x:0,y:0,w:size,h:size}]});best={p:pages.length-1,x:0,y:0}}
- insert(pages[best.p],{x:best.x,y:best.y,w,h});
- const x=best.x+padding,y=best.y+padding,page=pages[best.p];
- for(let row=0;row<item.h;row++)page.image.data.set(item.image.data.subarray(((item.y0+row)*item.image.width+item.x0)*4,((item.y0+row)*item.image.width+item.x0+item.w)*4),((y+row)*size+x)*4);
- frames['res://assets/'+item.file]={page:best.p,region:[x,y,item.w,item.h],trim:[item.x0,item.y0],canvas:[item.image.width,item.image.height],rgba_sha256:hash(item.image.data)};
+ place(item,best);
 }
 mkdirSync(output,{recursive:true});
 for(const file of readdirSync(output)){const match=/^page-(\d+)\.png(?:\.import)?$/.exec(file);if(match&&Number(match[1])>=pages.length)unlinkSync(output+'/'+file)}
@@ -50,4 +66,4 @@ const manifest={version:1,rotation:false,padding,filter:'nearest',mipmaps:false,
 writeFileSync('game/data/atlas.json',JSON.stringify(manifest,null,2)+'\n');
 const preset='game/export_presets.cfg';
 writeFileSync(preset,readFileSync(preset,'utf8').replace(/exclude_filter="[^"]*"/,'exclude_filter="'+Object.keys(manifest.frames).map(path=>path.replace('res://','')).join(',')+'"'));
-console.log(JSON.stringify({frames:items.length,pages:pages.length,rgba_mib:pages.length*size*size*4/1048576}));
+console.log(JSON.stringify({frames:items.length,preserved_frames:base?Object.keys(base.frames).length:0,pages:pages.length,rgba_mib:pages.length*size*size*4/1048576}));

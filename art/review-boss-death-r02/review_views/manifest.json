@@ -1,0 +1,369 @@
+[
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_death-0.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_death/f000.png",
+      "art/review-boss-death-r02/frames/boss_death/f001.png",
+      "art/review-boss-death-r02/frames/boss_death/f002.png",
+      "art/review-boss-death-r02/frames/boss_death/f003.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_death-4.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_death/f004.png",
+      "art/review-boss-death-r02/frames/boss_death/f005.png",
+      "art/review-boss-death-r02/frames/boss_death/f006.png",
+      "art/review-boss-death-r02/frames/boss_death/f007.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_death-8.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_death/f008.png",
+      "art/review-boss-death-r02/frames/boss_death/f009.png",
+      "art/review-boss-death-r02/frames/boss_death/f010.png",
+      "art/review-boss-death-r02/frames/boss_death/f011.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_idle-0.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_idle/f000.png",
+      "art/review-boss-death-r02/frames/boss_idle/f001.png",
+      "art/review-boss-death-r02/frames/boss_idle/f002.png",
+      "art/review-boss-death-r02/frames/boss_idle/f003.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_idle-4.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_idle/f004.png",
+      "art/review-boss-death-r02/frames/boss_idle/f005.png",
+      "art/review-boss-death-r02/frames/boss_idle/f006.png",
+      "art/review-boss-death-r02/frames/boss_idle/f007.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_walk-0.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_walk/f000.png",
+      "art/review-boss-death-r02/frames/boss_walk/f001.png",
+      "art/review-boss-death-r02/frames/boss_walk/f002.png",
+      "art/review-boss-death-r02/frames/boss_walk/f003.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_walk-4.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_walk/f004.png",
+      "art/review-boss-death-r02/frames/boss_walk/f005.png",
+      "art/review-boss-death-r02/frames/boss_walk/f006.png",
+      "art/review-boss-death-r02/frames/boss_walk/f007.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_strike_recover-0.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_strike_recover/f000.png",
+      "art/review-boss-death-r02/frames/boss_strike_recover/f001.png",
+      "art/review-boss-death-r02/frames/boss_strike_recover/f002.png",
+      "art/review-boss-death-r02/frames/boss_strike_recover/f003.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/boss_strike_recover-4.png",
+    "files": [
+      "art/review-boss-death-r02/frames/boss_strike_recover/f004.png",
+      "art/review-boss-death-r02/frames/boss_strike_recover/f005.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-0.png",
+    "files": [
+      "evidence/boss-death-r02-native/before-right-idle.png",
+      "evidence/boss-death-r02-native/death-right-idle-f00.png",
+      "evidence/boss-death-r02-native/death-right-idle-f01.png",
+      "evidence/boss-death-r02-native/death-right-idle-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-4.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-idle-f03.png",
+      "evidence/boss-death-r02-native/death-right-idle-f04.png",
+      "evidence/boss-death-r02-native/death-right-idle-f05.png",
+      "evidence/boss-death-r02-native/death-right-idle-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-8.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-idle-f07.png",
+      "evidence/boss-death-r02-native/death-right-idle-f08.png",
+      "evidence/boss-death-r02-native/death-right-idle-f09.png",
+      "evidence/boss-death-r02-native/death-right-idle-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-12.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-idle-f11.png",
+      "evidence/boss-death-r02-native/unlock-right-idle.png",
+      "evidence/boss-death-r02-native/fade-right-idle.png",
+      "evidence/boss-death-r02-native/cleanup-right-idle.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-16.png",
+    "files": [
+      "evidence/boss-death-r02-native/before-right-strike_recover.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f00.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f01.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-20.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-strike_recover-f03.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f04.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f05.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-24.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-strike_recover-f07.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f08.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f09.png",
+      "evidence/boss-death-r02-native/death-right-strike_recover-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-28.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-right-strike_recover-f11.png",
+      "evidence/boss-death-r02-native/unlock-right-strike_recover.png",
+      "evidence/boss-death-r02-native/fade-right-strike_recover.png",
+      "evidence/boss-death-r02-native/cleanup-right-strike_recover.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-32.png",
+    "files": [
+      "evidence/boss-death-r02-native/before-left-idle.png",
+      "evidence/boss-death-r02-native/death-left-idle-f00.png",
+      "evidence/boss-death-r02-native/death-left-idle-f01.png",
+      "evidence/boss-death-r02-native/death-left-idle-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-36.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-idle-f03.png",
+      "evidence/boss-death-r02-native/death-left-idle-f04.png",
+      "evidence/boss-death-r02-native/death-left-idle-f05.png",
+      "evidence/boss-death-r02-native/death-left-idle-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-40.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-idle-f07.png",
+      "evidence/boss-death-r02-native/death-left-idle-f08.png",
+      "evidence/boss-death-r02-native/death-left-idle-f09.png",
+      "evidence/boss-death-r02-native/death-left-idle-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-44.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-idle-f11.png",
+      "evidence/boss-death-r02-native/unlock-left-idle.png",
+      "evidence/boss-death-r02-native/fade-left-idle.png",
+      "evidence/boss-death-r02-native/cleanup-left-idle.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-48.png",
+    "files": [
+      "evidence/boss-death-r02-native/before-left-strike_recover.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f00.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f01.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-52.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-strike_recover-f03.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f04.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f05.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-56.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-strike_recover-f07.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f08.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f09.png",
+      "evidence/boss-death-r02-native/death-left-strike_recover-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-native-60.png",
+    "files": [
+      "evidence/boss-death-r02-native/death-left-strike_recover-f11.png",
+      "evidence/boss-death-r02-native/unlock-left-strike_recover.png",
+      "evidence/boss-death-r02-native/fade-left-strike_recover.png",
+      "evidence/boss-death-r02-native/cleanup-left-strike_recover.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-0.png",
+    "files": [
+      "evidence/boss-death-r02-phone/before-right-idle.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f00.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f01.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-4.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-idle-f03.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f04.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f05.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-8.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-idle-f07.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f08.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f09.png",
+      "evidence/boss-death-r02-phone/death-right-idle-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-12.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-idle-f11.png",
+      "evidence/boss-death-r02-phone/unlock-right-idle.png",
+      "evidence/boss-death-r02-phone/fade-right-idle.png",
+      "evidence/boss-death-r02-phone/cleanup-right-idle.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-16.png",
+    "files": [
+      "evidence/boss-death-r02-phone/before-right-strike_recover.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f00.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f01.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-20.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f03.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f04.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f05.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-24.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f07.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f08.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f09.png",
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-28.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-right-strike_recover-f11.png",
+      "evidence/boss-death-r02-phone/unlock-right-strike_recover.png",
+      "evidence/boss-death-r02-phone/fade-right-strike_recover.png",
+      "evidence/boss-death-r02-phone/cleanup-right-strike_recover.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-32.png",
+    "files": [
+      "evidence/boss-death-r02-phone/before-left-idle.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f00.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f01.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-36.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-idle-f03.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f04.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f05.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-40.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-idle-f07.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f08.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f09.png",
+      "evidence/boss-death-r02-phone/death-left-idle-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-44.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-idle-f11.png",
+      "evidence/boss-death-r02-phone/unlock-left-idle.png",
+      "evidence/boss-death-r02-phone/fade-left-idle.png",
+      "evidence/boss-death-r02-phone/cleanup-left-idle.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-48.png",
+    "files": [
+      "evidence/boss-death-r02-phone/before-left-strike_recover.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f00.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f01.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f02.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-52.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f03.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f04.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f05.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f06.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-56.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f07.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f08.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f09.png",
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f10.png"
+    ]
+  },
+  {
+    "dest": "art/review-boss-death-r02/review_views/capture-phone-60.png",
+    "files": [
+      "evidence/boss-death-r02-phone/death-left-strike_recover-f11.png",
+      "evidence/boss-death-r02-phone/unlock-left-strike_recover.png",
+      "evidence/boss-death-r02-phone/fade-left-strike_recover.png",
+      "evidence/boss-death-r02-phone/cleanup-left-strike_recover.png"
+    ]
+  }
+]

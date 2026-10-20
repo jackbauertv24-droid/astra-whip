@@ -110,3 +110,7 @@ A scoped zero-defect audit did not catch a held overhead fist jumping258px into 
 ## Menu pan is not a touch-drag proof — 2026-10-19
 
 Native pan gestures reached the menu ScrollContainer while real browser pointer drags over child buttons did not. Keep the browser swipe fixture in addition to GUI hit/size checks. Children must let pointer events reach the scroller; drag-start notification then cancels an in-progress button press. Verify that swipes reveal lower controls and never substitute an unrelated changed screenshot for scroll evidence.
+
+## Boss death source and runtime seams — implementation follow-up2026-10-20
+
+A zero-defect art audit missed a supported lethal stance resetting to upright, a locally flattened supporting hand, and round punched dissolve holes. Preserve the exact body texture visible at lethal contact for the first90ms, then use the common supported loading frames. The378-check state/facing regression fails54checks when pose preservation is disabled. Repaint the inbetween against both neighbors rather than warping fingers against a fixed floor. Check dissolution in stage composites: tools/check-boss-death-erosion.mjs catches10638 deep-interior missing pixels in the rejected dissolve and none after irregular edge-led erosion. This is a targeted tripwire, not visual approval; actual native/phone handoffs and every audit FLAG still need a fresh independent reviewer. Rejected art, verdict and captures remain archived.

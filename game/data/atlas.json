@@ -28,9 +28,231 @@
       "width": 2048,
       "height": 2048,
       "rgba_bytes": 16777216
+    },
+    {
+      "path": "res://assets/atlas/page-04.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216
     }
   ],
   "frames": {
+    "res://assets/boss/boss_death/f000.png": {
+      "page": 3,
+      "region": [
+        1459,
+        1668,
+        226,
+        357
+      ],
+      "trim": [
+        70,
+        159
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
+    },
+    "res://assets/boss/boss_death/f001.png": {
+      "page": 3,
+      "region": [
+        1717,
+        150,
+        244,
+        330
+      ],
+      "trim": [
+        41,
+        186
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "e558cba37af8056c8124030d7cda8cf0d37baab2334d0b4d11ef10c4525d57f8"
+    },
+    "res://assets/boss/boss_death/f002.png": {
+      "page": 4,
+      "region": [
+        2,
+        288,
+        255,
+        313
+      ],
+      "trim": [
+        25,
+        203
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "85f6eb2273eb55b7b6e7ccdb3913212fe8c4900d0065c0084d9035c53ec22634"
+    },
+    "res://assets/boss/boss_death/f003.png": {
+      "page": 4,
+      "region": [
+        2,
+        605,
+        279,
+        281
+      ],
+      "trim": [
+        62,
+        234
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "0044a1a5bbe74246617e82c13edaf2dc3a3bfb0d463807915bc7831df5a30268"
+    },
+    "res://assets/boss/boss_death/f004.png": {
+      "page": 4,
+      "region": [
+        2,
+        2,
+        317,
+        282
+      ],
+      "trim": [
+        40,
+        233
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "ec65351e9ad8bfd22754f4ea952649205bf032e867999d97522e31ec3d02d710"
+    },
+    "res://assets/boss/boss_death/f005.png": {
+      "page": 3,
+      "region": [
+        1689,
+        1668,
+        353,
+        238
+      ],
+      "trim": [
+        33,
+        277
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "aeb477abd380b8358daa75407c05a654faa496669eca6950a1da3adc4c5cc296"
+    },
+    "res://assets/boss/boss_death/f006.png": {
+      "page": 3,
+      "region": [
+        1577,
+        782,
+        343,
+        218
+      ],
+      "trim": [
+        47,
+        295
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "97855ea10319a016d4d9f7f5d6bd4d0240a3eefff32d7bbe9038179280293765"
+    },
+    "res://assets/boss/boss_death/f007.png": {
+      "page": 3,
+      "region": [
+        1427,
+        1506,
+        400,
+        158
+      ],
+      "trim": [
+        18,
+        359
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "428f8faffbb6f9548eb91f743707342baa69b029156df1c47cc1d54df3585ebc"
+    },
+    "res://assets/boss/boss_death/f008.png": {
+      "page": 3,
+      "region": [
+        1457,
+        1330,
+        400,
+        158
+      ],
+      "trim": [
+        18,
+        359
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "428f8faffbb6f9548eb91f743707342baa69b029156df1c47cc1d54df3585ebc"
+    },
+    "res://assets/boss/boss_death/f009.png": {
+      "page": 3,
+      "region": [
+        1577,
+        628,
+        387,
+        150
+      ],
+      "trim": [
+        23,
+        364
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "82a730571a59e9821863fe0cc7bc93a0ef192b6355c4f76913fa02103d8a9629"
+    },
+    "res://assets/boss/boss_death/f010.png": {
+      "page": 3,
+      "region": [
+        1483,
+        1177,
+        360,
+        139
+      ],
+      "trim": [
+        43,
+        375
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "4856cfa0e5bb8d29edd54f9f85d3ee5a22be130c757b3e5dc2b2df96c64e7d2f"
+    },
+    "res://assets/boss/boss_death/f011.png": {
+      "page": 3,
+      "region": [
+        1689,
+        1910,
+        263,
+        115
+      ],
+      "trim": [
+        94,
+        399
+      ],
+      "canvas": [
+        512,
+        576
+      ],
+      "rgba_sha256": "3f351a67ea97a3da24e07db13977a7b8135f6812c0e05405210ddb57bf837e2e"
+    },
     "res://assets/boss/boss_hazard_execute/f000.png": {
       "page": 0,
       "region": [

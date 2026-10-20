@@ -1,0 +1,7 @@
+{
+  "defect_cases": 25,
+  "positive_controls": 3,
+  "summary_pass": true,
+  "wrapper_exit": 143,
+  "scope": "Log completeness check; wrapper143 retained, not rewritten as0."
+}
