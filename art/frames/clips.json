@@ -2100,5 +2100,47 @@
       0
     ],
     "loop": false
+  },
+  "ui_btn_left": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
+  },
+  "ui_btn_right": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
+  },
+  "ui_btn_jump": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
+  },
+  "ui_btn_whip": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
+  },
+  "ui_btn_crouch": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
+  },
+  "ui_btn_pause": {
+    "ms": [
+      0,
+      0
+    ],
+    "loop": false
   }
 }

@@ -1,0 +1,11 @@
+# Painted touch controls
+
+Six controls now display generated normal and pressed plates: left, right, crouch, jump, whip and pause. Live 16CSS-pixel wording overlays the lower plate. Existing minimum64CSS targets, keyboard/touch aggregation, drag/cancel handling and pause/resume remain authoritative. Painting reads the actual shared Button held state; decorative TextureRects ignore input and draw behind live wording. Portrait hides gameplay controls and dims disabled pause.
+
+Twelve128px static UI sources retain prompts, generated raws and derivations. Uniform whole-sheet conversion and exact cells are followed only by documented integer registration. Counted extraction residue with alpha<=8 can fall outside registration; all visible alpha>8 is retained. No per-state scaling or deformation. These are static UI states, not timed animation; the original animation contract is unchanged.
+
+Runtime and exported checks:306each, zero failures. Frozen painting negative control:52failures. Three source negative controls reject opaque backing, identical states and wrong canvas.19actual engine captures cover native, phone, compact, density2, held/released/cancelled and portrait states. Browser568×320CSS/DPR2/safe44/44/21 captures menu, gameplay, held and released whip with0console/page errors. Initial competing-job browser screenshot timeout was retried successfully; no physical-device claim.
+
+Atlas400frames,388existing placements preserved, five2048-square pages/80MiB. All400RGBA roundtrips and corruption control pass;752renderer samples on126pages match exactly. Exported GPU atlas2403checks pass; measured art133227856bytes/127.06MiB on desktop software renderer, conservative inventory114.9375MiB. Main gameplay1241assertions and focused safe-area, input, portrait, menu and health regressions accompany this fix. Independent visual verdict is retained separately in art/review-ui-controls-r01/review_verdict.md. Remaining UI inventory and external acceptance gates remain pending.
+
+Fresh independent REVIEW: PASS for all six assets/twelve states after all12raw frames,5style references,19engine PNGs and4browser PNGs were inspected. Compact CROUCH label overhang remains legible and separated; accepted in the full verdict. Canonical/runtime bytes match reviewed sources.5UIassets/5frames remain pending.

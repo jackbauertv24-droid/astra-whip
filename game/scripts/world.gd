@@ -52,6 +52,7 @@ var ui_safe_rect=Rect2(0,0,1280,720)
 var health_pips:Array[TextureRect]=[]
 var health_full:Texture2D
 var health_empty:Texture2D
+var painted_controls=PaintedControls.new()
 var background_art:BackgroundArt
 var terrain_art=TerrainArt.new()
 func load_projectile_art() -> void:
@@ -217,6 +218,7 @@ func _process(_dt: float) -> void:
  update_health_hud()
  for action in touch_buttons:
   touch_buttons[action].set_pressed_no_signal(not paused and not complete and hero.controls.is_held(action))
+ painted_controls.refresh()
 func _physics_process(dt: float) -> void:
  if testing: return
  if is_portrait() and not paused: set_pause(true)
@@ -392,6 +394,7 @@ func build_ui() -> void:
  rotate_prompt.mouse_filter=Control.MOUSE_FILTER_IGNORE
  hud.add_child(rotate_prompt)
  hud.move_child(pause_button,hud.get_child_count()-1)
+ painted_controls.configure(self)
  get_viewport().size_changed.connect(update_ui_layout)
  update_ui_layout()
 func update_ui_layout() -> void:
@@ -412,6 +415,7 @@ func layout_ui_for_insets(insets: Vector4,density: float) -> void:
  var first=inverse*(Vector2(insets.x,insets.y)*ui_backing_ratio)
  var last=inverse*(Vector2(get_window().size)-Vector2(insets.z,insets.w)*ui_backing_ratio)
  ui_safe_rect=Rect2(first,last-first).intersection(view)
+ painted_controls.layout(ui_units_to_css_pixels())
  update_pause_target()
  update_menu_targets()
  update_touch_targets()

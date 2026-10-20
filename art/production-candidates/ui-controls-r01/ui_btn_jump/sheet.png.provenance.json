@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/ui-controls-r01/ui_btn_jump/raw.png",
+  "source_canvas": [
+    1774,
+    887
+  ],
+  "export_canvas": [
+    256,
+    128
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

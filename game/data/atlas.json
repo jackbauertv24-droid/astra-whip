@@ -6355,6 +6355,222 @@
       ],
       "rgba_sha256": "c19815e1565ce37c5b8b360512875e92dcc60d92c1a1163bc9da8939bcdb378b"
     },
+    "res://assets/ui/ui_btn_crouch/f000.png": {
+      "page": 0,
+      "region": [
+        1195,
+        1933,
+        106,
+        113
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "ea7abe4a5047edbdfefdbd204c873f7877d1fd268bfdbc231961318096989399"
+    },
+    "res://assets/ui/ui_btn_crouch/f001.png": {
+      "page": 3,
+      "region": [
+        315,
+        1942,
+        107,
+        103
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "2bbd1989e7fbd86ea654b98bd4bd7dd292edf30e29a18d49a81124ead92ee548"
+    },
+    "res://assets/ui/ui_btn_jump/f000.png": {
+      "page": 4,
+      "region": [
+        239,
+        1022,
+        106,
+        103
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "3307136c605764e15add0a25d28bdd1ade3b0766a79709cee65f920a0834b71a"
+    },
+    "res://assets/ui/ui_btn_jump/f001.png": {
+      "page": 4,
+      "region": [
+        300,
+        1426,
+        106,
+        103
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "5f5c0d4ddfb9afda05b1971a083f5bb09cc9ee90f836376b00e57aa4403da0cd"
+    },
+    "res://assets/ui/ui_btn_left/f000.png": {
+      "page": 4,
+      "region": [
+        2,
+        1927,
+        106,
+        115
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "cbbb96bd6085a74a1cde6b55c564a3ae48481e6867e2c1d2aa952eff55098e9b"
+    },
+    "res://assets/ui/ui_btn_left/f001.png": {
+      "page": 3,
+      "region": [
+        752,
+        1439,
+        117,
+        115
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "9159e0abd21d99bd44bf24922014a29e985991e1489c3006931ca9f8ce9146a7"
+    },
+    "res://assets/ui/ui_btn_pause/f000.png": {
+      "page": 3,
+      "region": [
+        426,
+        1939,
+        106,
+        104
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "1db549a0161a1d6808baa71ff07b10dc3e995584c65f421bacd97a4c1f2d139a"
+    },
+    "res://assets/ui/ui_btn_pause/f001.png": {
+      "page": 4,
+      "region": [
+        303,
+        1129,
+        105,
+        103
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "41863055bb251935b3226cb893634a4614d106d8d60a5b40949ee9dcb0f1172e"
+    },
+    "res://assets/ui/ui_btn_right/f000.png": {
+      "page": 4,
+      "region": [
+        112,
+        1927,
+        106,
+        115
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "5b47f5edd8773e4dc0c8974600b283ad33ec38edcc87f55d704919eada4e697a"
+    },
+    "res://assets/ui/ui_btn_right/f001.png": {
+      "page": 3,
+      "region": [
+        536,
+        1939,
+        106,
+        104
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "dd731c7295729be53a4b088ebb6953bf2056832fc187f476d89558a31127cda5"
+    },
+    "res://assets/ui/ui_btn_whip/f000.png": {
+      "page": 4,
+      "region": [
+        300,
+        1533,
+        106,
+        103
+      ],
+      "trim": [
+        11,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "f53931e74268730fd1bff492c7f71133e008372a1512729c50d48f5699db1200"
+    },
+    "res://assets/ui/ui_btn_whip/f001.png": {
+      "page": 4,
+      "region": [
+        300,
+        1640,
+        106,
+        103
+      ],
+      "trim": [
+        12,
+        13
+      ],
+      "canvas": [
+        128,
+        128
+      ],
+      "rgba_sha256": "57573954b490b4c497b967f3c483c07631a4b9786b4425e36b21abc22f85c528"
+    },
     "res://assets/ui/ui_health_empty/f000.png": {
       "page": 0,
       "region": [

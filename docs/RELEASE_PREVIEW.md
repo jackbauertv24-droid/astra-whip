@@ -163,3 +163,7 @@ All four briefed backgrounds passed fresh independent r02review, including repea
 ## Follow-up fix: painted five-pip health HUD
 
 Two64pxfilled/hollow health icons passed fresh independent review across25actual health/portrait captures and3browser images. Five24CSS-pixel pips plus live16CSS-pixel numeric text track damage and retry, stay inside safe bounds and hide in portrait.486source/export checks pass; disabling refresh fails44checks.388RGBAroundtrips and728before/after samples are exact; five atlas pages and127.06MiB measured art allocation remain.11UIassets/17frames and external device/player gates are pending. See evidence/ui-health-fix.md.
+
+## Follow-up fix: painted controls
+
+Six normal/pressed buttons now follow shared keyboard/touch held state with live16CSS labels and64CSS targets. Fresh independent review passes all12sources,19engine and4browser views.306source/export checks,1241gameplay assertions and focused UI regressions pass.400packed frames/5pages, exactRGBA and752renderer comparisons;127.06MiB measured art allocation.5UIassets/5frames and external acceptance gates remain pending. See evidence/ui-controls-fix.md.

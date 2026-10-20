@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL painted controls: held keyboard paints pressed left
+FAIL painted controls: second held source keeps pressed paint left
+FAIL painted controls: held keyboard paints pressed right
+FAIL painted controls: second held source keeps pressed paint right
+FAIL painted controls: held keyboard paints pressed crouch
+FAIL painted controls: second held source keeps pressed paint crouch
+FAIL painted controls: held keyboard paints pressed jump
+FAIL painted controls: second held source keeps pressed paint jump
+FAIL painted controls: held keyboard paints pressed whip
+FAIL painted controls: second held source keeps pressed paint whip
+FAIL painted controls: actual pause mouse-down paints pressed
+FAIL painted controls: actual touch paints left
+FAIL painted controls: drag transfers painted feedback
+FAIL painted controls: held keyboard paints pressed left
+FAIL painted controls: second held source keeps pressed paint left
+FAIL painted controls: held keyboard paints pressed right
+FAIL painted controls: second held source keeps pressed paint right
+FAIL painted controls: held keyboard paints pressed crouch
+FAIL painted controls: second held source keeps pressed paint crouch
+FAIL painted controls: held keyboard paints pressed jump
+FAIL painted controls: second held source keeps pressed paint jump
+FAIL painted controls: held keyboard paints pressed whip
+FAIL painted controls: second held source keeps pressed paint whip
+FAIL painted controls: actual pause mouse-down paints pressed
+FAIL painted controls: actual touch paints left
+FAIL painted controls: drag transfers painted feedback
+FAIL painted controls: held keyboard paints pressed left
+FAIL painted controls: second held source keeps pressed paint left
+FAIL painted controls: held keyboard paints pressed right
+FAIL painted controls: second held source keeps pressed paint right
+FAIL painted controls: held keyboard paints pressed crouch
+FAIL painted controls: second held source keeps pressed paint crouch
+FAIL painted controls: held keyboard paints pressed jump
+FAIL painted controls: second held source keeps pressed paint jump
+FAIL painted controls: held keyboard paints pressed whip
+FAIL painted controls: second held source keeps pressed paint whip
+FAIL painted controls: actual pause mouse-down paints pressed
+FAIL painted controls: actual touch paints left
+FAIL painted controls: drag transfers painted feedback
+FAIL painted controls: held keyboard paints pressed left
+FAIL painted controls: second held source keeps pressed paint left
+FAIL painted controls: held keyboard paints pressed right
+FAIL painted controls: second held source keeps pressed paint right
+FAIL painted controls: held keyboard paints pressed crouch
+FAIL painted controls: second held source keeps pressed paint crouch
+FAIL painted controls: held keyboard paints pressed jump
+FAIL painted controls: second held source keeps pressed paint jump
+FAIL painted controls: held keyboard paints pressed whip
+FAIL painted controls: second held source keeps pressed paint whip
+FAIL painted controls: actual pause mouse-down paints pressed
+FAIL painted controls: actual touch paints left
+FAIL painted controls: drag transfers painted feedback
+RESULT painted controls: 306 checks, 52 failures

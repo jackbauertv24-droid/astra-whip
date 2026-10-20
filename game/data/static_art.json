@@ -305,5 +305,119 @@
     "opaque": false,
     "collision": "none",
     "coordinate_space": "UI CSS pixels; independent of world density"
+  },
+  "ui_btn_left": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_btn_right": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_btn_jump": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_btn_whip": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_btn_crouch": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_btn_pause": {
+    "category": "ui",
+    "canvas": [
+      128,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 2,
+    "opaque": false,
+    "collision": "none",
+    "states": [
+      "normal",
+      "pressed"
+    ],
+    "coordinate_space": "UI;64CSS-pixel minimum live-label target"
   }
 }

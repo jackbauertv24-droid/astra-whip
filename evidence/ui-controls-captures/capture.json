@@ -1,0 +1,785 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "density": 1.0,
+   "file": "native-normal.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-left.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-right.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-crouch.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-jump.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-whip.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": true,
+     "pressed": true
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "native-pressed-pause.png",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-normal.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-left.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-right.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-crouch.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-jump.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-whip.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": true,
+     "pressed": true
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "phone-pressed-pause.png",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "compact-normal.png",
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "compact-all-held.png",
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": true,
+     "pressed": true
+    }
+   }
+  },
+  {
+   "density": 2.0,
+   "file": "density2-normal.png",
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  },
+  {
+   "density": 2.0,
+   "file": "density2-all-held.png",
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "pause": {
+     "live_text": "PAUSE",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": true,
+     "pressed": true
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": true,
+     "pressed": true
+    }
+   }
+  },
+  {
+   "density": 1.0,
+   "file": "portrait-disabled.png",
+   "image_size": [
+    393,
+    221
+   ],
+   "physical_device": false,
+   "states": {
+    "crouch": {
+     "live_text": "CROUCH",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "jump": {
+     "live_text": "JUMP",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "left": {
+     "live_text": "LEFT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "pause": {
+     "live_text": "PAUSED",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "right": {
+     "live_text": "RIGHT",
+     "painted_pressed": false,
+     "pressed": false
+    },
+    "whip": {
+     "live_text": "WHIP",
+     "painted_pressed": false,
+     "pressed": false
+    }
+   }
+  }
+ ],
+ "scope": "UI state/input fixtures; not traversal or physical-device proof"
+}

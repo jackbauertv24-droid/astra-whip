@@ -412,3 +412,7 @@ Fresh `/root/ui_health_review_r01`; complete verdict `art/review-ui-health-r01/r
 | ui_health_empty | PASS | None | None required |
 
 Both raw frames/strips, five style references,25actual fixture PNGs and3browser PNGs individually inspected, including CSS-size reductions. All5→0filled/hollow counts and live health text pass; portrait row hidden. Scoped audit0DEFECT/0FLAG. REVIEW: PASS for health presentation only; physical-device and combat/animation claims excluded.
+
+## Painted controls r01
+
+Fresh `/root/ui_controls_review_r01`: REVIEW: PASS for all six assets/twelve states. All12raw frames,5style references,19engine captures and4browser PNGs inspected after saved/read blind notes. Compact CROUCH plate overhang adjudicated legible and separated. Complete verdict: art/review-ui-controls-r01/review_verdict.md. Static UI only; no device/traversal approval.

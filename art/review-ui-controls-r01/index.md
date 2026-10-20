@@ -1,0 +1,3 @@
+# Control UI review
+
+Blind first: lineup and each of six strips; save/read observations before metadata. Twelve static UI states, not timed character/VFX animation. Inspect all raw frames and five style references. Whole-sheet uniform conversion, exact cells and documented integer plate registration only; no per-state scaling/deformation. Clipped extraction residue, where present, is alpha<=8 and counted; visible ink retained. Live labels draw over the plain lower plate region. Inspect every actual state/input capture, including at64CSS target and16CSS type, normal/pressed distinction, labels, pause/resume, portrait and safe bounds. No physical-device, traversal or animation approval.

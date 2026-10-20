@@ -1,0 +1,66 @@
+{
+  "assets": [
+    "ui_btn_left",
+    "ui_btn_right",
+    "ui_btn_jump",
+    "ui_btn_whip",
+    "ui_btn_crouch",
+    "ui_btn_pause"
+  ],
+  "source_frames": 12,
+  "actual_capture_samples": 19,
+  "sha256": {
+    "ui_btn_left": [
+      "fb8ec3285d8468a581cb4d9cbd8e20e4a46aaf0b7c4dd79a2cd17649de71dc23",
+      "64df723dff067a9e0c73257d5a51a0c54e1d205ff2098c7ac3c7c77a714cac7b"
+    ],
+    "ui_btn_right": [
+      "3bfbeeed6687fd82ff5c65735901fbb839509241e741753c761f12e87a13ff89",
+      "3b11050987f5622cb9823a8e850facc3429f4563f1f8a1b79e925333b00e62ec"
+    ],
+    "ui_btn_jump": [
+      "0b498266e45e46ce570b0888200356e4dc736d04891f1131b0a7cb9939977160",
+      "dbcc36fc6b2d406b93697d1c8d65efa9b6aad2134df950e7b813d8e80cdb2b5c"
+    ],
+    "ui_btn_whip": [
+      "377cdd04b7f29d0131a1e2bcb24b738994b5dd64d2237ec364845da8bec50bba",
+      "95ada064159b58ea1ffe7e171e5fd11f32c61e2b6b7505ea9e48fa71d5c05fbd"
+    ],
+    "ui_btn_crouch": [
+      "55d9845439311219445115f9ad568997dfd80656300064bc7e940bed5fb346e0",
+      "2b57a519bb34832830b5481e35c5257e763d2ea168d6b8a42b845d173a40012a"
+    ],
+    "ui_btn_pause": [
+      "39b8bb29b190427b63a2f6bbc9cae3a2a36fd10e2f14a0f51cecd62e3024a775",
+      "530431ea2b13d9224ed065ee2bb24dda2c31f4a306325ae386f7e9343241fa49"
+    ]
+  },
+  "source_audit": {
+    "defects": 0,
+    "flags": 0,
+    "findings": [],
+    "metrics": {
+      "ui_btn_left": {
+        "changed_fraction": 0.2252197265625
+      },
+      "ui_btn_right": {
+        "changed_fraction": 0.286376953125
+      },
+      "ui_btn_jump": {
+        "changed_fraction": 0.2230224609375
+      },
+      "ui_btn_whip": {
+        "changed_fraction": 0.28057861328125
+      },
+      "ui_btn_crouch": {
+        "changed_fraction": 0.29290771484375
+      },
+      "ui_btn_pause": {
+        "changed_fraction": 0.19635009765625
+      }
+    },
+    "visual_approval": false
+  },
+  "physical_device": false,
+  "errors": []
+}
