@@ -8,7 +8,7 @@ Implemented: deterministic movement and collision, coyote time/jump buffering, c
 
 The preview integrates painted hunter actions and separate synchronized whip layers, all46pursuer and36swooper frames, all31ranged body frames plus3projectile frames, and58/70mandatory boss frames. The boss now has painted idle, walk, turn, hurt, strike and hazard cycles, plus12contextual hurt frames; its12death frames remain a preview. The paired hazard ring and low eruption have10painted frames. Full effects/props/terrain/background/UI inventory and complete art acceptance remain pending. Scripted body animation remains disclosed quality debt. Production music/SFX remain deferred by the specification.
 
-Desktop gameplay validation and a single-threaded web export are recorded in evidence. Current333animation frames use five lossless atlas pages:99.94MiB conservative RGBA inventory and126.56MiB measured software-renderer art allocation. Future assets require repacking and rebudgeting. Physical iPhone testing and an unfamiliar-player study have not been performed; no complete animation or on-device compliance is claimed.
+Desktop gameplay validation and a single-threaded web export are recorded in evidence. Current333animation frames use four lossless atlas pages:83.94MiB conservative RGBA inventory and105.22MiB measured software-renderer art allocation. Future assets require repacking and rebudgeting. Physical iPhone testing and an unfamiliar-player study have not been performed; no complete animation or on-device compliance is claimed.
 
 The full source, generated candidates, rejection evidence and contract tools are included so further work can resume from this checkpoint.
 

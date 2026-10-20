@@ -2,7 +2,11 @@
 import {readdirSync,mkdirSync,writeFileSync,unlinkSync,readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {readPNG,writePNG,blank} from './lib/png.mjs';
-const size=2048,padding=8,output='game/assets/atlas';
+// Two zero source pixels stay inside each region as well as this outer gutter.
+// Preserve that inner border: it keeps the authored geometry sampling identical.
+// With nearest filtering and no mipmaps, a two-pixel outer gutter is sufficient;
+// validate the complete engine fixture whenever packing or import rules change.
+const size=2048,padding=2,output='game/assets/atlas';
 const files=readdirSync('game/assets',{recursive:true}).filter(f=>/\/f\d+\.png$/.test(f)).sort();
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const items=files.map(file=>{

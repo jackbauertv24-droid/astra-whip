@@ -1,7 +1,7 @@
 {
   "version": 1,
   "rotation": false,
-  "padding": 8,
+  "padding": 2,
   "filter": "nearest",
   "mipmaps": false,
   "pages": [
@@ -28,20 +28,14 @@
       "width": 2048,
       "height": 2048,
       "rgba_bytes": 16777216
-    },
-    {
-      "path": "res://assets/atlas/page-04.png",
-      "width": 2048,
-      "height": 2048,
-      "rgba_bytes": 16777216
     }
   ],
   "frames": {
     "res://assets/boss/boss_hazard_execute/f000.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        890,
-        1484,
+        252,
+        1694,
         325,
         351
       ],
@@ -58,8 +52,8 @@
     "res://assets/boss/boss_hazard_execute/f001.png": {
       "page": 1,
       "region": [
-        1066,
-        1102,
+        1079,
+        2,
         305,
         346
       ],
@@ -76,8 +70,8 @@
     "res://assets/boss/boss_hazard_execute/f002.png": {
       "page": 1,
       "region": [
-        1341,
-        370,
+        947,
+        1067,
         254,
         340
       ],
@@ -94,8 +88,8 @@
     "res://assets/boss/boss_hazard_execute/f003.png": {
       "page": 1,
       "region": [
-        1748,
-        1424,
+        1634,
+        340,
         245,
         332
       ],
@@ -110,10 +104,10 @@
       "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
     },
     "res://assets/boss/boss_hazard_recover/f000.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        8,
-        8,
+        1554,
+        676,
         245,
         332
       ],
@@ -128,10 +122,10 @@
       "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
     },
     "res://assets/boss/boss_hazard_recover/f001.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        8,
-        1400,
+        1678,
+        1348,
         248,
         331
       ],
@@ -148,8 +142,8 @@
     "res://assets/boss/boss_hazard_recover/f002.png": {
       "page": 2,
       "region": [
-        269,
-        355,
+        2,
+        2,
         246,
         331
       ],
@@ -166,8 +160,8 @@
     "res://assets/boss/boss_hazard_recover/f003.png": {
       "page": 1,
       "region": [
-        1675,
-        364,
+        1205,
+        1053,
         243,
         338
       ],
@@ -184,8 +178,8 @@
     "res://assets/boss/boss_hazard_recover/f004.png": {
       "page": 1,
       "region": [
-        1084,
-        8,
+        698,
+        1428,
         238,
         347
       ],
@@ -202,8 +196,8 @@
     "res://assets/boss/boss_hazard_recover/f005.png": {
       "page": 0,
       "region": [
-        1451,
-        8,
+        1373,
+        2,
         226,
         357
       ],
@@ -220,8 +214,8 @@
     "res://assets/boss/boss_hazard_windup/f000.png": {
       "page": 0,
       "region": [
-        1398,
-        1562,
+        1320,
+        1508,
         226,
         357
       ],
@@ -238,8 +232,8 @@
     "res://assets/boss/boss_hazard_windup/f001.png": {
       "page": 0,
       "region": [
-        1347,
-        382,
+        1269,
+        364,
         252,
         357
       ],
@@ -256,8 +250,8 @@
     "res://assets/boss/boss_hazard_windup/f002.png": {
       "page": 1,
       "region": [
-        8,
-        1498,
+        232,
+        2,
         279,
         355
       ],
@@ -274,8 +268,8 @@
     "res://assets/boss/boss_hazard_windup/f003.png": {
       "page": 1,
       "region": [
-        8,
-        1127,
+        2,
+        363,
         313,
         355
       ],
@@ -292,8 +286,8 @@
     "res://assets/boss/boss_hazard_windup/f004.png": {
       "page": 1,
       "region": [
-        546,
-        1490,
+        319,
+        361,
         328,
         353
       ],
@@ -310,8 +304,8 @@
     "res://assets/boss/boss_hazard_windup/f005.png": {
       "page": 1,
       "region": [
-        492,
-        8,
+        515,
+        2,
         328,
         353
       ],
@@ -328,8 +322,8 @@
     "res://assets/boss/boss_hazard_windup/f006.png": {
       "page": 1,
       "region": [
-        492,
-        377,
+        464,
+        718,
         328,
         353
       ],
@@ -346,8 +340,8 @@
     "res://assets/boss/boss_hazard_windup/f007.png": {
       "page": 1,
       "region": [
-        496,
-        746,
+        651,
+        359,
         328,
         353
       ],
@@ -364,8 +358,8 @@
     "res://assets/boss/boss_hurt_half_stoop/f000.png": {
       "page": 1,
       "region": [
-        836,
-        8,
+        462,
+        1439,
         232,
         350
       ],
@@ -382,8 +376,8 @@
     "res://assets/boss/boss_hurt_half_stoop/f001.png": {
       "page": 1,
       "region": [
-        250,
-        750,
+        232,
+        1081,
         230,
         354
       ],
@@ -400,8 +394,8 @@
     "res://assets/boss/boss_hurt_half_stoop/f002.png": {
       "page": 0,
       "region": [
-        1399,
-        1130,
+        1321,
+        1088,
         226,
         357
       ],
@@ -418,8 +412,8 @@
     "res://assets/boss/boss_hurt_hazard_late/f000.png": {
       "page": 1,
       "region": [
-        1675,
-        8,
+        1183,
+        1411,
         242,
         340
       ],
@@ -436,8 +430,8 @@
     "res://assets/boss/boss_hurt_hazard_late/f001.png": {
       "page": 1,
       "region": [
-        836,
-        374,
+        466,
+        1075,
         235,
         349
       ],
@@ -454,8 +448,8 @@
     "res://assets/boss/boss_hurt_hazard_late/f002.png": {
       "page": 0,
       "region": [
-        1569,
-        755,
+        1491,
+        725,
         226,
         357
       ],
@@ -472,8 +466,8 @@
     "res://assets/boss/boss_hurt_rising/f000.png": {
       "page": 1,
       "region": [
-        1609,
-        1072,
+        1308,
+        352,
         242,
         336
       ],
@@ -490,8 +484,8 @@
     "res://assets/boss/boss_hurt_rising/f001.png": {
       "page": 1,
       "region": [
-        1094,
-        734,
+        940,
+        1426,
         239,
         342
       ],
@@ -508,8 +502,8 @@
     "res://assets/boss/boss_hurt_rising/f002.png": {
       "page": 1,
       "region": [
-        840,
-        739,
+        705,
+        1075,
         238,
         347
       ],
@@ -526,8 +520,8 @@
     "res://assets/boss/boss_hurt_stooped/f000.png": {
       "page": 1,
       "region": [
-        1231,
-        1464,
+        1388,
+        2,
         242,
         336
       ],
@@ -544,8 +538,8 @@
     "res://assets/boss/boss_hurt_stooped/f001.png": {
       "page": 1,
       "region": [
-        1489,
-        1424,
+        1634,
+        2,
         243,
         334
       ],
@@ -560,10 +554,10 @@
       "rgba_sha256": "c09e4752dd0879ab1bb9338cd1b403078a82c4fb6c7d6bf0dcbe6cccaf9fa8f9"
     },
     "res://assets/boss/boss_hurt_stooped/f002.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        8,
-        356,
+        1533,
+        1012,
         245,
         332
       ],
@@ -580,8 +574,8 @@
     "res://assets/boss/boss_hurt/f000.png": {
       "page": 0,
       "region": [
-        861,
-        439,
+        807,
+        421,
         227,
         359
       ],
@@ -598,8 +592,8 @@
     "res://assets/boss/boss_hurt/f001.png": {
       "page": 0,
       "region": [
-        1155,
-        1625,
+        940,
+        784,
         227,
         358
       ],
@@ -616,8 +610,8 @@
     "res://assets/boss/boss_hurt/f002.png": {
       "page": 0,
       "region": [
-        1615,
-        381,
+        1525,
+        363,
         226,
         357
       ],
@@ -634,8 +628,8 @@
     "res://assets/boss/boss_idle/f000.png": {
       "page": 0,
       "region": [
-        1693,
-        8,
+        1603,
+        2,
         226,
         357
       ],
@@ -652,8 +646,8 @@
     "res://assets/boss/boss_idle/f001.png": {
       "page": 0,
       "region": [
-        994,
-        814,
+        1038,
+        365,
         227,
         358
       ],
@@ -670,8 +664,8 @@
     "res://assets/boss/boss_idle/f002.png": {
       "page": 0,
       "region": [
-        1104,
-        383,
+        1142,
+        2,
         227,
         358
       ],
@@ -688,8 +682,8 @@
     "res://assets/boss/boss_idle/f003.png": {
       "page": 0,
       "region": [
-        965,
-        8,
+        911,
+        2,
         227,
         359
       ],
@@ -706,8 +700,8 @@
     "res://assets/boss/boss_idle/f004.png": {
       "page": 0,
       "region": [
-        698,
-        1625,
+        656,
+        1571,
         226,
         359
       ],
@@ -724,8 +718,8 @@
     "res://assets/boss/boss_idle/f005.png": {
       "page": 0,
       "region": [
-        698,
-        1250,
+        656,
+        1208,
         227,
         359
       ],
@@ -742,8 +736,8 @@
     "res://assets/boss/boss_idle/f006.png": {
       "page": 0,
       "region": [
-        1208,
-        8,
+        1089,
+        1571,
         227,
         358
       ],
@@ -760,8 +754,8 @@
     "res://assets/boss/boss_idle/f007.png": {
       "page": 0,
       "region": [
-        1156,
-        1188,
+        1090,
+        1146,
         227,
         358
       ],
@@ -778,8 +772,8 @@
     "res://assets/boss/boss_strike_execute/f000.png": {
       "page": 0,
       "region": [
-        219,
-        8,
+        201,
+        2,
         302,
         426
       ],
@@ -796,8 +790,8 @@
     "res://assets/boss/boss_strike_execute/f001.png": {
       "page": 1,
       "region": [
-        1338,
-        8,
+        983,
+        359,
         321,
         346
       ],
@@ -814,8 +808,8 @@
     "res://assets/boss/boss_strike_execute/f002.png": {
       "page": 1,
       "region": [
-        1349,
-        726,
+        1038,
+        709,
         244,
         340
       ],
@@ -830,10 +824,10 @@
       "rgba_sha256": "9024c77624c88e336ea07a5df8b5fc23a9de1aac15579aa1b414873eae65231f"
     },
     "res://assets/boss/boss_strike_execute/f003.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        8,
-        704,
+        1782,
+        1012,
         245,
         332
       ],
@@ -848,10 +842,10 @@
       "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
     },
     "res://assets/boss/boss_strike_recover/f000.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        8,
-        1052,
+        1429,
+        1395,
         245,
         332
       ],
@@ -866,10 +860,10 @@
       "rgba_sha256": "86743a0798b6fa2006c84bf373135ddbf5f33a872c139ae422c27ef82ee39473"
     },
     "res://assets/boss/boss_strike_recover/f001.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        269,
-        8,
+        1678,
+        1683,
         248,
         331
       ],
@@ -886,8 +880,8 @@
     "res://assets/boss/boss_strike_recover/f002.png": {
       "page": 2,
       "region": [
-        269,
-        702,
+        2,
+        337,
         246,
         331
       ],
@@ -904,8 +898,8 @@
     "res://assets/boss/boss_strike_recover/f003.png": {
       "page": 1,
       "region": [
-        1611,
-        718,
+        1286,
+        709,
         243,
         338
       ],
@@ -922,8 +916,8 @@
     "res://assets/boss/boss_strike_recover/f004.png": {
       "page": 1,
       "region": [
-        1087,
-        371,
+        796,
+        716,
         238,
         347
       ],
@@ -940,8 +934,8 @@
     "res://assets/boss/boss_strike_recover/f005.png": {
       "page": 0,
       "region": [
-        1811,
-        754,
+        1755,
+        363,
         226,
         357
       ],
@@ -958,8 +952,8 @@
     "res://assets/boss/boss_strike_windup/f000.png": {
       "page": 0,
       "region": [
-        1811,
-        1127,
+        1721,
+        724,
         226,
         357
       ],
@@ -976,8 +970,8 @@
     "res://assets/boss/boss_strike_windup/f001.png": {
       "page": 0,
       "region": [
-        1237,
-        757,
+        1171,
+        727,
         316,
         357
       ],
@@ -994,8 +988,8 @@
     "res://assets/boss/boss_strike_windup/f002.png": {
       "page": 0,
       "region": [
-        647,
-        871,
+        605,
+        841,
         331,
         363
       ],
@@ -1012,8 +1006,8 @@
     "res://assets/boss/boss_strike_windup/f003.png": {
       "page": 0,
       "region": [
-        8,
-        1490,
+        2,
+        1448,
         246,
         460
       ],
@@ -1030,8 +1024,8 @@
     "res://assets/boss/boss_strike_windup/f004.png": {
       "page": 0,
       "region": [
-        8,
-        8,
+        2,
+        2,
         195,
         478
       ],
@@ -1048,8 +1042,8 @@
     "res://assets/boss/boss_strike_windup/f005.png": {
       "page": 0,
       "region": [
-        8,
-        502,
+        2,
+        484,
         195,
         478
       ],
@@ -1066,8 +1060,8 @@
     "res://assets/boss/boss_strike_windup/f006.png": {
       "page": 0,
       "region": [
-        8,
-        996,
+        2,
+        966,
         195,
         478
       ],
@@ -1084,8 +1078,8 @@
     "res://assets/boss/boss_turn/f000.png": {
       "page": 0,
       "region": [
-        1641,
-        1500,
+        1721,
+        1085,
         226,
         357
       ],
@@ -1102,8 +1096,8 @@
     "res://assets/boss/boss_turn/f001.png": {
       "page": 0,
       "region": [
-        940,
-        1625,
+        886,
+        1571,
         199,
         359
       ],
@@ -1120,8 +1114,8 @@
     "res://assets/boss/boss_turn/f002.png": {
       "page": 0,
       "region": [
-        941,
-        1250,
+        887,
+        1208,
         199,
         359
       ],
@@ -1136,10 +1130,10 @@
       "rgba_sha256": "25a66b645ce871771208daa5aa7ed3ae3499c7ddddc471a6597fe3b4c6b1e5db"
     },
     "res://assets/boss/boss_turn/f003.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        8,
-        8,
+        1550,
+        1449,
         226,
         357
       ],
@@ -1154,10 +1148,10 @@
       "rgba_sha256": "a150589ac6abcfd0ca2bb936e213f8e37cd289dc4ed511bc4f26ebbd8a77a7ff"
     },
     "res://assets/boss/boss_walk/f000.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        8,
-        381,
+        1780,
+        1446,
         226,
         357
       ],
@@ -1174,8 +1168,8 @@
     "res://assets/boss/boss_walk/f001.png": {
       "page": 1,
       "region": [
-        250,
-        8,
+        2,
+        1081,
         226,
         355
       ],
@@ -1192,8 +1186,8 @@
     "res://assets/boss/boss_walk/f002.png": {
       "page": 1,
       "region": [
-        824,
-        1115,
+        232,
+        1439,
         226,
         353
       ],
@@ -1210,8 +1204,8 @@
     "res://assets/boss/boss_walk/f003.png": {
       "page": 1,
       "region": [
-        250,
-        379,
+        2,
+        1440,
         226,
         355
       ],
@@ -1228,8 +1222,8 @@
     "res://assets/boss/boss_walk/f004.png": {
       "page": 1,
       "region": [
-        8,
-        754,
+        2,
+        2,
         226,
         357
       ],
@@ -1246,8 +1240,8 @@
     "res://assets/boss/boss_walk/f005.png": {
       "page": 1,
       "region": [
-        337,
-        1120,
+        233,
+        722,
         227,
         354
       ],
@@ -1264,8 +1258,8 @@
     "res://assets/boss/boss_walk/f006.png": {
       "page": 1,
       "region": [
-        580,
-        1115,
+        847,
+        2,
         228,
         353
       ],
@@ -1282,8 +1276,8 @@
     "res://assets/boss/boss_walk/f007.png": {
       "page": 1,
       "region": [
-        303,
-        1498,
+        2,
+        722,
         227,
         355
       ],
@@ -1300,8 +1294,8 @@
     "res://assets/hero/hero_attack_air/f000.png": {
       "page": 3,
       "region": [
-        374,
-        906,
+        566,
+        442,
         176,
         213
       ],
@@ -1318,8 +1312,8 @@
     "res://assets/hero/hero_attack_air/f001.png": {
       "page": 3,
       "region": [
-        8,
-        1069,
+        749,
+        2,
         144,
         213
       ],
@@ -1336,8 +1330,8 @@
     "res://assets/hero/hero_attack_air/f002.png": {
       "page": 3,
       "region": [
-        179,
-        906,
+        456,
+        669,
         179,
         213
       ],
@@ -1354,8 +1348,8 @@
     "res://assets/hero/hero_attack_air/f003.png": {
       "page": 3,
       "region": [
-        338,
-        676,
+        566,
+        2,
         179,
         214
       ],
@@ -1372,8 +1366,8 @@
     "res://assets/hero/hero_attack_air/f004.png": {
       "page": 3,
       "region": [
-        8,
-        839,
+        332,
+        899,
         155,
         214
       ],
@@ -1390,8 +1384,8 @@
     "res://assets/hero/hero_attack_air/f005.png": {
       "page": 3,
       "region": [
-        725,
-        687,
+        281,
+        1127,
         174,
         214
       ],
@@ -1408,8 +1402,8 @@
     "res://assets/hero/hero_attack_air/f006.png": {
       "page": 3,
       "region": [
-        533,
-        676,
+        142,
+        1357,
         176,
         214
       ],
@@ -1426,8 +1420,8 @@
     "res://assets/hero/hero_attack_air/f007.png": {
       "page": 3,
       "region": [
-        566,
-        917,
+        602,
+        220,
         176,
         213
       ],
@@ -1442,10 +1436,10 @@
       "rgba_sha256": "a3387306756cf4c32f3564e8d641d6f34cdd788117cba69821527c9cbae27722"
     },
     "res://assets/hero/hero_attack_crouch/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        656,
-        335,
+        1772,
+        2,
         124,
         144
       ],
@@ -1460,10 +1454,10 @@
       "rgba_sha256": "ede7eca5a60ec2e9930bf99949cd7e03ea7f778bb894fa7d3d726cb073130e84"
     },
     "res://assets/hero/hero_attack_crouch/f001.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        915,
-        184,
+        1640,
+        2,
         128,
         144
       ],
@@ -1478,10 +1472,10 @@
       "rgba_sha256": "2a44011244d85a0fda352920f88dae528699960ba38cfcac900f1d408e874e39"
     },
     "res://assets/hero/hero_attack_crouch/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        8,
-        211,
+        1066,
+        886,
         173,
         145
       ],
@@ -1496,10 +1490,10 @@
       "rgba_sha256": "4f175e4cc06ee655007266bed41641021c6b5297ec3d62462f4cd4c64fde7927"
     },
     "res://assets/hero/hero_attack_crouch/f003.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        599,
-        8,
+        1066,
+        1035,
         173,
         143
       ],
@@ -1514,10 +1508,10 @@
       "rgba_sha256": "0a7eeea7ea40fa8afe518c8dd63c4e3dbd50699e7a3d46f9a3727b989a91a820"
     },
     "res://assets/hero/hero_attack_crouch/f004.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1375,
-        172,
+        1454,
+        642,
         119,
         146
       ],
@@ -1532,10 +1526,10 @@
       "rgba_sha256": "916f267ac54e4e0bd8087b8ffc64ba49c0b0a3af80dbfb6195d5895963df58b3"
     },
     "res://assets/hero/hero_attack_crouch/f005.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1093,
-        173,
+        1540,
+        478,
         119,
         146
       ],
@@ -1550,10 +1544,10 @@
       "rgba_sha256": "e2b22327f36b185a69462cbfdb0dc9690eb3ae29414b29985e6c8cca5a1ffe4d"
     },
     "res://assets/hero/hero_attack_crouch/f006.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1228,
-        173,
+        1592,
+        284,
         121,
         145
       ],
@@ -1568,10 +1562,10 @@
       "rgba_sha256": "fdd6b6354a69a501f465685523149c7d64432dc9378d3cbba433747def00c96f"
     },
     "res://assets/hero/hero_attack_crouch/f007.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1510,
-        172,
+        1900,
+        2,
         124,
         144
       ],
@@ -1586,10 +1580,10 @@
       "rgba_sha256": "ede7eca5a60ec2e9930bf99949cd7e03ea7f778bb894fa7d3d726cb073130e84"
     },
     "res://assets/hero/hero_attack_ground/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1315,
-        201,
+        1851,
+        965,
         107,
         228
       ],
@@ -1606,8 +1600,8 @@
     "res://assets/hero/hero_attack_ground/f001.png": {
       "page": 3,
       "region": [
-        938,
-        686,
+        150,
+        683,
         135,
         221
       ],
@@ -1624,8 +1618,8 @@
     "res://assets/hero/hero_attack_ground/f002.png": {
       "page": 3,
       "region": [
-        1350,
-        685,
+        2,
+        911,
         159,
         221
       ],
@@ -1642,8 +1636,8 @@
     "res://assets/hero/hero_attack_ground/f003.png": {
       "page": 3,
       "region": [
-        1675,
-        733,
+        267,
+        229,
         164,
         217
       ],
@@ -1660,8 +1654,8 @@
     "res://assets/hero/hero_attack_ground/f004.png": {
       "page": 3,
       "region": [
-        1871,
-        493,
+        2,
+        458,
         131,
         223
       ],
@@ -1678,8 +1672,8 @@
     "res://assets/hero/hero_attack_ground/f005.png": {
       "page": 3,
       "region": [
-        1214,
-        685,
+        137,
+        457,
         120,
         222
       ],
@@ -1694,10 +1688,10 @@
       "rgba_sha256": "1db88b242d8781da1653a36bb492d8e906b0b75117bddcbcd90ab26d294d9e5c"
     },
     "res://assets/hero/hero_attack_ground/f006.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1438,
-        201,
+        1502,
+        1615,
         117,
         226
       ],
@@ -1712,10 +1706,10 @@
       "rgba_sha256": "f44286c9d2fd09ec84cc3ed1587fc9609fb06925abfe069905f72b46459c4879"
     },
     "res://assets/hero/hero_attack_ground/f007.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1190,
-        199,
+        1738,
+        965,
         109,
         228
       ],
@@ -1732,8 +1726,8 @@
     "res://assets/hero/hero_crouch_enter/f000.png": {
       "page": 1,
       "region": [
-        1934,
-        8,
+        1930,
+        1582,
         104,
         230
       ],
@@ -1750,8 +1744,8 @@
     "res://assets/hero/hero_crouch_enter/f001.png": {
       "page": 3,
       "region": [
-        1213,
-        923,
+        1112,
+        354,
         114,
         196
       ],
@@ -1766,10 +1760,10 @@
       "rgba_sha256": "550986a39a22adf607ec84c886b72127347e5bc9893993cfed45018e43f68d7e"
     },
     "res://assets/hero/hero_crouch_enter/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        966,
-        8,
+        1348,
+        326,
         111,
         160
       ],
@@ -1784,10 +1778,10 @@
       "rgba_sha256": "dca166e158fc12b67ded0b757042ba586507f36fe9230e39d3032d73bdc07dd1"
     },
     "res://assets/hero/hero_crouch_enter/f003.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1375,
-        8,
+        1392,
+        846,
         125,
         148
       ],
@@ -1802,10 +1796,10 @@
       "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
     },
     "res://assets/hero/hero_crouch_exit/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1516,
-        8,
+        1411,
+        490,
         125,
         148
       ],
@@ -1820,10 +1814,10 @@
       "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
     },
     "res://assets/hero/hero_crouch_exit/f001.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        788,
-        159,
+        1312,
+        1506,
         111,
         160
       ],
@@ -1840,8 +1834,8 @@
     "res://assets/hero/hero_crouch_exit/f002.png": {
       "page": 3,
       "region": [
-        1077,
-        1486,
+        1230,
+        354,
         114,
         196
       ],
@@ -1858,8 +1852,8 @@
     "res://assets/hero/hero_crouch_exit/f003.png": {
       "page": 1,
       "region": [
-        1934,
-        254,
+        1930,
+        1816,
         104,
         230
       ],
@@ -1874,10 +1868,10 @@
       "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
     },
     "res://assets/hero/hero_crouch_idle/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1657,
-        8,
+        1463,
+        326,
         125,
         148
       ],
@@ -1892,10 +1886,10 @@
       "rgba_sha256": "e35bf482e8a1ce500b18381d0af3b80553ac2dc8a61551e9658529bf67938ca7"
     },
     "res://assets/hero/hero_crouch_idle/f001.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        515,
-        333,
+        1243,
+        1024,
         125,
         149
       ],
@@ -1910,10 +1904,10 @@
       "rgba_sha256": "de07bd32bb84054064cf384d36320fbca810dce682736212b4895cf9236d97b6"
     },
     "res://assets/hero/hero_crouch_idle/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        321,
-        348,
+        1325,
+        693,
         125,
         149
       ],
@@ -1928,10 +1922,10 @@
       "rgba_sha256": "e7a3cf8ffc4cad238fb086797877dcc09db8ea59824c67f2f5526270adb59a04"
     },
     "res://assets/hero/hero_crouch_idle/f003.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1093,
-        8,
+        1354,
+        1177,
         125,
         149
       ],
@@ -1946,10 +1940,10 @@
       "rgba_sha256": "e7a3cf8ffc4cad238fb086797877dcc09db8ea59824c67f2f5526270adb59a04"
     },
     "res://assets/hero/hero_crouch_idle/f004.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1234,
-        8,
+        1372,
+        1024,
         125,
         149
       ],
@@ -1964,10 +1958,10 @@
       "rgba_sha256": "de07bd32bb84054064cf384d36320fbca810dce682736212b4895cf9236d97b6"
     },
     "res://assets/hero/hero_crouch_idle/f005.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        1798,
-        8,
+        1511,
+        132,
         125,
         148
       ],
@@ -1984,8 +1978,8 @@
     "res://assets/hero/hero_death/f000.png": {
       "page": 3,
       "region": [
-        1508,
-        968,
+        2,
+        1136,
         136,
         217
       ],
@@ -2002,8 +1996,8 @@
     "res://assets/hero/hero_death/f001.png": {
       "page": 2,
       "region": [
-        1784,
-        1053,
+        1510,
+        159,
         249,
         162
       ],
@@ -2018,10 +2012,10 @@
       "rgba_sha256": "32d66c5e63d9626feea3b5b0a47e00d1dd79631de7b211c2b3246ceb3c835610"
     },
     "res://assets/hero/hero_death/f002.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        8,
-        8,
+        1763,
+        168,
         249,
         161
       ],
@@ -2038,8 +2032,8 @@
     "res://assets/hero/hero_death/f003.png": {
       "page": 2,
       "region": [
-        984,
-        8,
+        993,
+        1232,
         262,
         110
       ],
@@ -2056,8 +2050,8 @@
     "res://assets/hero/hero_death/f004.png": {
       "page": 2,
       "region": [
-        984,
-        134,
+        996,
+        718,
         262,
         110
       ],
@@ -2074,8 +2068,8 @@
     "res://assets/hero/hero_death/f005.png": {
       "page": 2,
       "region": [
-        1492,
-        1053,
+        713,
+        799,
         276,
         75
       ],
@@ -2092,8 +2086,8 @@
     "res://assets/hero/hero_death/f006.png": {
       "page": 2,
       "region": [
-        1634,
-        1417,
+        1238,
+        81,
         276,
         74
       ],
@@ -2110,8 +2104,8 @@
     "res://assets/hero/hero_death/f007.png": {
       "page": 2,
       "region": [
-        1492,
-        1144,
+        958,
+        2,
         276,
         75
       ],
@@ -2128,8 +2122,8 @@
     "res://assets/hero/hero_death/f008.png": {
       "page": 2,
       "region": [
-        1634,
-        1235,
+        958,
+        81,
         276,
         75
       ],
@@ -2146,8 +2140,8 @@
     "res://assets/hero/hero_death/f009.png": {
       "page": 2,
       "region": [
-        1634,
-        1326,
+        1238,
+        2,
         276,
         75
       ],
@@ -2162,10 +2156,10 @@
       "rgba_sha256": "e77f2a9ea6e30a5f03b37fd281b79c878e821def4fdb199655a12bc445dbbd28"
     },
     "res://assets/hero/hero_fall/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1571,
-        253,
+        1623,
+        1428,
         155,
         224
       ],
@@ -2180,10 +2174,10 @@
       "rgba_sha256": "2eb7e03776b2b32740b1d0582e9127be14d9e57b25067b80d941cb2eaa5b8415"
     },
     "res://assets/hero/hero_fall/f001.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1742,
-        253,
+        1782,
+        1428,
         155,
         224
       ],
@@ -2200,8 +2194,8 @@
     "res://assets/hero/hero_fall/f002.png": {
       "page": 3,
       "region": [
-        1556,
-        493,
+        2,
+        2,
         154,
         224
       ],
@@ -2216,10 +2210,10 @@
       "rgba_sha256": "7c912a7d7d02a0f27eb07b4eb14740f46351e8666049d49ea0abfcb2ff5e3048"
     },
     "res://assets/hero/hero_fall/f003.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1214,
-        445,
+        1623,
+        1656,
         155,
         224
       ],
@@ -2236,8 +2230,8 @@
     "res://assets/hero/hero_get_up/f000.png": {
       "page": 2,
       "region": [
-        1487,
-        1887,
+        1118,
+        832,
         262,
         110
       ],
@@ -2254,8 +2248,8 @@
     "res://assets/hero/hero_get_up/f001.png": {
       "page": 3,
       "region": [
-        1280,
-        1586,
+        1312,
+        202,
         195,
         120
       ],
@@ -2270,10 +2264,10 @@
       "rgba_sha256": "2778db6395f8fcaa7b8ceec4bff31ad413a5780df726a406ef67b9d82c435255"
     },
     "res://assets/hero/hero_get_up/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        788,
-        8,
+        1245,
+        554,
         162,
         135
       ],
@@ -2288,10 +2282,10 @@
       "rgba_sha256": "4d95c5e34ed14e18557849842f5de3531d193db6591ef6652a7975a5d82e65a8"
     },
     "res://assets/hero/hero_get_up/f003.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        8,
-        474,
+        1286,
+        1356,
         167,
         146
       ],
@@ -2308,8 +2302,8 @@
     "res://assets/hero/hero_get_up/f004.png": {
       "page": 3,
       "region": [
-        1869,
-        1648,
+        1127,
+        1402,
         155,
         180
       ],
@@ -2326,8 +2320,8 @@
     "res://assets/hero/hero_get_up/f005.png": {
       "page": 2,
       "region": [
-        1932,
-        199,
+        1536,
+        450,
         104,
         230
       ],
@@ -2344,8 +2338,8 @@
     "res://assets/hero/hero_hurt_recoil/f000.png": {
       "page": 2,
       "region": [
-        1932,
-        445,
+        1644,
+        450,
         104,
         230
       ],
@@ -2362,8 +2356,8 @@
     "res://assets/hero/hero_hurt_recoil/f001.png": {
       "page": 3,
       "region": [
-        1830,
-        970,
+        2,
+        1357,
         136,
         217
       ],
@@ -2380,8 +2374,8 @@
     "res://assets/hero/hero_hurt_recoil/f002.png": {
       "page": 3,
       "region": [
-        8,
-        377,
+        142,
+        1136,
         135,
         217
       ],
@@ -2396,10 +2390,10 @@
       "rgba_sha256": "f6bc9cb46b5820375b7a65800e26b52783c7a93c3f70e5f3fe439fee30bd6693"
     },
     "res://assets/hero/hero_hurt_recoil/f003.png": {
-      "page": 0,
+      "page": 1,
       "region": [
-        1935,
-        8,
+        1930,
+        1348,
         105,
         230
       ],
@@ -2416,8 +2410,8 @@
     "res://assets/hero/hero_idle/f000.png": {
       "page": 0,
       "region": [
-        484,
-        1314,
+        454,
+        1272,
         198,
         415
       ],
@@ -2434,8 +2428,8 @@
     "res://assets/hero/hero_idle/f001.png": {
       "page": 0,
       "region": [
-        270,
-        1316,
+        252,
+        1274,
         198,
         416
       ],
@@ -2452,8 +2446,8 @@
     "res://assets/hero/hero_idle/f002.png": {
       "page": 0,
       "region": [
-        433,
-        450,
+        403,
+        432,
         198,
         416
       ],
@@ -2470,8 +2464,8 @@
     "res://assets/hero/hero_idle/f003.png": {
       "page": 0,
       "region": [
-        219,
-        450,
+        201,
+        432,
         198,
         417
       ],
@@ -2488,8 +2482,8 @@
     "res://assets/hero/hero_idle/f004.png": {
       "page": 0,
       "region": [
-        219,
-        883,
+        201,
+        853,
         198,
         417
       ],
@@ -2506,8 +2500,8 @@
     "res://assets/hero/hero_idle/f005.png": {
       "page": 0,
       "region": [
-        433,
-        882,
+        403,
+        852,
         198,
         416
       ],
@@ -2524,8 +2518,8 @@
     "res://assets/hero/hero_idle/f006.png": {
       "page": 0,
       "region": [
-        537,
-        8,
+        507,
+        2,
         198,
         416
       ],
@@ -2542,8 +2536,8 @@
     "res://assets/hero/hero_idle/f007.png": {
       "page": 0,
       "region": [
-        647,
-        440,
+        605,
+        422,
         198,
         415
       ],
@@ -2560,8 +2554,8 @@
     "res://assets/hero/hero_jump_apex/f000.png": {
       "page": 3,
       "region": [
-        1487,
-        1722,
+        945,
+        1681,
         175,
         187
       ],
@@ -2578,8 +2572,8 @@
     "res://assets/hero/hero_jump_apex/f001.png": {
       "page": 3,
       "region": [
-        159,
-        377,
+        165,
+        908,
         163,
         215
       ],
@@ -2594,10 +2588,10 @@
       "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
     },
     "res://assets/hero/hero_jump_apex/f002.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1385,
-        445,
+        1782,
+        1656,
         155,
         224
       ],
@@ -2614,8 +2608,8 @@
     "res://assets/hero/hero_jump_rise/f000.png": {
       "page": 3,
       "region": [
-        338,
-        377,
+        289,
+        680,
         163,
         215
       ],
@@ -2632,8 +2626,8 @@
     "res://assets/hero/hero_jump_rise/f001.png": {
       "page": 3,
       "region": [
-        1052,
-        1269,
+        746,
+        437,
         162,
         201
       ],
@@ -2648,10 +2642,10 @@
       "rgba_sha256": "cc5222a0e008bc826130b0cf9de5e97b357e53d227d8f5233598aafef351e59a"
     },
     "res://assets/hero/hero_jump_rise/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        8,
-        8,
+        952,
+        1211,
         173,
         187
       ],
@@ -2668,8 +2662,8 @@
     "res://assets/hero/hero_jump_rise/f003.png": {
       "page": 3,
       "region": [
-        1678,
-        1708,
+        948,
+        1439,
         175,
         187
       ],
@@ -2686,8 +2680,8 @@
     "res://assets/hero/hero_jump_takeoff/f000.png": {
       "page": 2,
       "region": [
-        1932,
-        691,
+        1264,
+        946,
         104,
         230
       ],
@@ -2704,8 +2698,8 @@
     "res://assets/hero/hero_jump_takeoff/f001.png": {
       "page": 3,
       "region": [
-        8,
-        610,
+        1187,
+        2,
         114,
         196
       ],
@@ -2722,8 +2716,8 @@
     "res://assets/hero/hero_jump_takeoff/f002.png": {
       "page": 3,
       "region": [
-        517,
-        445,
+        399,
+        450,
         163,
         215
       ],
@@ -2738,10 +2732,10 @@
       "rgba_sha256": "32102cf9d770400608f78214f8492d670630b8ea787c69106e6f62b59c07168e"
     },
     "res://assets/hero/hero_knockback/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        664,
-        200,
+        1938,
+        732,
         105,
         229
       ],
@@ -2758,8 +2752,8 @@
     "res://assets/hero/hero_knockback/f001.png": {
       "page": 3,
       "region": [
-        1660,
-        1199,
+        2,
+        1578,
         136,
         217
       ],
@@ -2776,8 +2770,8 @@
     "res://assets/hero/hero_knockback/f002.png": {
       "page": 3,
       "region": [
-        1675,
-        966,
+        423,
+        2,
         139,
         217
       ],
@@ -2794,8 +2788,8 @@
     "res://assets/hero/hero_knockback/f003.png": {
       "page": 3,
       "region": [
-        1350,
-        922,
+        277,
+        2,
         142,
         217
       ],
@@ -2812,8 +2806,8 @@
     "res://assets/hero/hero_knockdown/f000.png": {
       "page": 3,
       "region": [
-        1812,
-        1203,
+        2,
+        1799,
         136,
         217
       ],
@@ -2830,8 +2824,8 @@
     "res://assets/hero/hero_knockdown/f001.png": {
       "page": 2,
       "region": [
-        1265,
-        449,
+        1767,
+        2,
         249,
         162
       ],
@@ -2846,10 +2840,10 @@
       "rgba_sha256": "32d66c5e63d9626feea3b5b0a47e00d1dd79631de7b211c2b3246ceb3c835610"
     },
     "res://assets/hero/hero_knockdown/f002.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        273,
-        8,
+        1767,
+        333,
         249,
         161
       ],
@@ -2866,8 +2860,8 @@
     "res://assets/hero/hero_knockdown/f003.png": {
       "page": 2,
       "region": [
-        1765,
-        1887,
+        1262,
+        716,
         262,
         110
       ],
@@ -2884,8 +2878,8 @@
     "res://assets/hero/hero_knockdown/f004.png": {
       "page": 2,
       "region": [
-        1265,
-        197,
+        1270,
+        537,
         262,
         110
       ],
@@ -2902,8 +2896,8 @@
     "res://assets/hero/hero_knockdown/f005.png": {
       "page": 2,
       "region": [
-        1265,
-        323,
+        1501,
+        336,
         262,
         110
       ],
@@ -2920,8 +2914,8 @@
     "res://assets/hero/hero_land/f000.png": {
       "page": 3,
       "region": [
-        159,
-        608,
+        435,
+        223,
         163,
         215
       ],
@@ -2938,8 +2932,8 @@
     "res://assets/hero/hero_land/f001.png": {
       "page": 3,
       "region": [
-        1866,
-        1436,
+        1305,
+        2,
         114,
         196
       ],
@@ -2956,8 +2950,8 @@
     "res://assets/hero/hero_land/f002.png": {
       "page": 2,
       "region": [
-        1926,
-        1477,
+        1618,
+        1198,
         114,
         201
       ],
@@ -2974,8 +2968,8 @@
     "res://assets/hero/hero_land/f003.png": {
       "page": 2,
       "region": [
-        982,
-        699,
+        1372,
+        946,
         104,
         230
       ],
@@ -2992,8 +2986,8 @@
     "res://assets/hero/hero_start_move/f000.png": {
       "page": 0,
       "region": [
-        751,
-        8,
+        709,
+        2,
         198,
         415
       ],
@@ -3008,10 +3002,10 @@
       "rgba_sha256": "456b942d178c794a4c3330d2b5b37d7eab64d4355b0598dbba6ab95e6f8997fe"
     },
     "res://assets/hero/hero_start_move/f001.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1734,
-        8,
+        1480,
+        917,
         136,
         229
       ],
@@ -3028,8 +3022,8 @@
     "res://assets/hero/hero_start_move/f002.png": {
       "page": 2,
       "region": [
-        8,
-        1747,
+        564,
+        603,
         145,
         289
       ],
@@ -3044,10 +3038,10 @@
       "rgba_sha256": "b0cefe06cc59d1664733d9f2d5b5035e46a3bcc78812e75e79e0f369993a81f0"
     },
     "res://assets/hero/hero_stop_move/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1057,
-        443,
+        1738,
+        1197,
         141,
         227
       ],
@@ -3062,10 +3056,10 @@
       "rgba_sha256": "fb8dde37f7e7fb1da6f4b90ee58e5cc2b1d266531a2b4234cf9af5b8f927540b"
     },
     "res://assets/hero/hero_stop_move/f001.png": {
-      "page": 2,
+      "page": 3,
       "region": [
-        1489,
-        627,
+        135,
+        230,
         128,
         223
       ],
@@ -3082,8 +3076,8 @@
     "res://assets/hero/hero_stop_move/f002.png": {
       "page": 2,
       "region": [
-        1926,
-        1231,
+        1752,
+        498,
         104,
         230
       ],
@@ -3098,10 +3092,10 @@
       "rgba_sha256": "4cb6221bffe8b567fd520dcf33c366d96073b0a58344bcc002b2906729d57cef"
     },
     "res://assets/hero/hero_turn/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        937,
-        199,
+        1502,
+        1150,
         104,
         229
       ],
@@ -3118,8 +3112,8 @@
     "res://assets/hero/hero_turn/f001.png": {
       "page": 3,
       "region": [
-        1525,
-        733,
+        261,
+        457,
         134,
         219
       ],
@@ -3136,8 +3130,8 @@
     "res://assets/hero/hero_turn/f002.png": {
       "page": 2,
       "region": [
-        884,
-        1029,
+        1860,
+        498,
         104,
         230
       ],
@@ -3154,8 +3148,8 @@
     "res://assets/hero/hero_walk/f000.png": {
       "page": 2,
       "region": [
-        1028,
-        1029,
+        698,
+        896,
         145,
         289
       ],
@@ -3170,10 +3164,10 @@
       "rgba_sha256": "395c3612efe5104e72c2f9ceea6fed34c74fbc7ff8f59c872d641849fb58490e"
     },
     "res://assets/hero/hero_walk/f001.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1057,
-        199,
+        1497,
+        1383,
         117,
         228
       ],
@@ -3190,8 +3184,8 @@
     "res://assets/hero/hero_walk/f002.png": {
       "page": 3,
       "region": [
-        1913,
-        253,
+        160,
+        2,
         113,
         223
       ],
@@ -3208,8 +3202,8 @@
     "res://assets/hero/hero_walk/f003.png": {
       "page": 3,
       "region": [
-        1871,
-        732,
+        2,
+        685,
         144,
         222
       ],
@@ -3226,8 +3220,8 @@
     "res://assets/hero/hero_walk/f004.png": {
       "page": 3,
       "region": [
-        1726,
-        493,
+        2,
+        230,
         129,
         224
       ],
@@ -3242,10 +3236,10 @@
       "rgba_sha256": "089e67c0dae5f390bc6cb30169c3534fd20e2d1e78912dc89b65141ff6af9abc"
     },
     "res://assets/hero/hero_walk/f005.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        534,
-        200,
+        1620,
+        965,
         114,
         229
       ],
@@ -3260,10 +3254,10 @@
       "rgba_sha256": "ed80357a03908f81dc7919cc4f8851fb2738a5799525093c3842649273c62833"
     },
     "res://assets/hero/hero_walk/f006.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        801,
-        199,
+        1814,
+        732,
         120,
         229
       ],
@@ -3278,10 +3272,10 @@
       "rgba_sha256": "b0f706ddd7b22a9bc4318ae3d49f99d496129a0d15c0b4d3fbe7e4498980503b"
     },
     "res://assets/hero/hero_walk/f007.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1886,
-        8,
+        1674,
+        732,
         136,
         229
       ],
@@ -3296,10 +3290,10 @@
       "rgba_sha256": "44c805ffecf0125cca3d1a327fb4ae53abfb79c6ed3e86590ecc2ed34f9fed58"
     },
     "res://assets/hero/hero_walk/f008.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1576,
-        8,
+        1528,
+        684,
         142,
         229
       ],
@@ -3314,10 +3308,10 @@
       "rgba_sha256": "c81802fa22cd9821158dd3cf5b3436b1582546c3baf43f6779fdcb6fa42d6207"
     },
     "res://assets/hero/hero_walk/f009.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        785,
-        444,
+        1883,
+        1197,
         137,
         227
       ],
@@ -3332,10 +3326,10 @@
       "rgba_sha256": "72a603dc443b44b85da449348c0f4c016dd941735494f11fae958efd7c92aaca"
     },
     "res://assets/hero/whip_attack_air/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        331,
-        1390,
+        1438,
+        1981,
         39,
         65
       ],
@@ -3352,8 +3346,8 @@
     "res://assets/hero/whip_attack_air/f001.png": {
       "page": 3,
       "region": [
-        8,
-        1977,
+        897,
+        886,
         164,
         57
       ],
@@ -3368,10 +3362,10 @@
       "rgba_sha256": "8e52a9c2cf32f5ef5c6bac8b2ed94532d57b076f3c735c23b677d56128c0c51e"
     },
     "res://assets/hero/whip_attack_air/f002.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        884,
-        954,
+        2,
+        1945,
         291,
         59
       ],
@@ -3386,10 +3380,10 @@
       "rgba_sha256": "96d0a31b908ad410809306d0b47e48c0f026b6a15d484506d9058eac4d088b79"
     },
     "res://assets/hero/whip_attack_air/f003.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1352,
-        1960,
+        1644,
+        1970,
         301,
         62
       ],
@@ -3404,10 +3398,10 @@
       "rgba_sha256": "8ea5c3f34f4e6b916d2a116fdb1bdd3ad03afa9efd72f34587c6d55a7bbec076"
     },
     "res://assets/hero/whip_attack_air/f004.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        758,
-        923,
+        1518,
+        2,
         213,
         90
       ],
@@ -3424,8 +3418,8 @@
     "res://assets/hero/whip_attack_air/f005.png": {
       "page": 3,
       "region": [
-        1667,
-        1925,
+        987,
+        232,
         120,
         86
       ],
@@ -3440,10 +3434,10 @@
       "rgba_sha256": "da8b1ab1070d501e86f90d80bd8386378666413187bbd93c9bc32c4ed3ce6368"
     },
     "res://assets/hero/whip_attack_air/f006.png": {
-      "page": 2,
+      "page": 0,
       "region": [
-        1492,
-        960,
+        581,
+        1777,
         66,
         77
       ],
@@ -3460,8 +3454,8 @@
     "res://assets/hero/whip_attack_air/f007.png": {
       "page": 2,
       "region": [
-        1272,
-        1235,
+        1481,
+        1981,
         39,
         65
       ],
@@ -3476,10 +3470,10 @@
       "rgba_sha256": "671be32d09ef944f0d677b977f8adaab216a8d776d1413a8db403cd2da435592"
     },
     "res://assets/hero/whip_attack_crouch/f000.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1611,
-        370,
+        605,
+        1208,
         47,
         53
       ],
@@ -3494,10 +3488,10 @@
       "rgba_sha256": "9eb80b3f0cba061d8e57dadf4235599537911a0220292e748b60ee371a272b83"
     },
     "res://assets/hero/whip_attack_crouch/f001.png": {
-      "page": 3,
+      "page": 1,
       "region": [
-        188,
-        1977,
+        1298,
+        1837,
         159,
         60
       ],
@@ -3514,8 +3508,8 @@
     "res://assets/hero/whip_attack_crouch/f002.png": {
       "page": 2,
       "region": [
-        1184,
-        1988,
+        2,
+        1990,
         277,
         51
       ],
@@ -3532,8 +3526,8 @@
     "res://assets/hero/whip_attack_crouch/f003.png": {
       "page": 2,
       "region": [
-        1184,
-        1922,
+        719,
+        1920,
         287,
         50
       ],
@@ -3548,10 +3542,10 @@
       "rgba_sha256": "64e965e3f7c1b3011c5379b1321b14e6022057c1286aa8a45112cdcab2b5aef5"
     },
     "res://assets/hero/whip_attack_crouch/f004.png": {
-      "page": 0,
+      "page": 2,
       "region": [
-        8,
-        1966,
+        719,
+        1974,
         219,
         72
       ],
@@ -3568,8 +3562,8 @@
     "res://assets/hero/whip_attack_crouch/f005.png": {
       "page": 3,
       "region": [
-        8,
-        1298,
+        1312,
+        1670,
         143,
         67
       ],
@@ -3584,10 +3578,10 @@
       "rgba_sha256": "7ed2ff8baa090756d3666816037da5b7e40ad56227fe260653d32825aed784b4"
     },
     "res://assets/hero/whip_attack_crouch/f006.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        1207,
-        1586,
+        1252,
+        1508,
         52,
         59
       ],
@@ -3602,10 +3596,10 @@
       "rgba_sha256": "0f35585bbe7f665dd140a5bc373368d0cc24ae1d9bf4950070918eb1b2b775b5"
     },
     "res://assets/hero/whip_attack_crouch/f007.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1611,
-        439,
+        1038,
+        727,
         47,
         53
       ],
@@ -3620,10 +3614,10 @@
       "rgba_sha256": "9eb80b3f0cba061d8e57dadf4235599537911a0220292e748b60ee371a272b83"
     },
     "res://assets/hero/whip_attack_ground/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        223,
-        1390,
+        942,
+        1974,
         38,
         71
       ],
@@ -3638,10 +3632,10 @@
       "rgba_sha256": "cebfa9b7b0170b2213c15efdbc165c2c32c12ef2552eb95cc209c9db49ea80d5"
     },
     "res://assets/hero/whip_attack_ground/f001.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        363,
-        1976,
+        1090,
+        1508,
         158,
         57
       ],
@@ -3656,10 +3650,10 @@
       "rgba_sha256": "29018cd1c4df1e81948e6b72fa39292f3055365f809766aae49cc34afbf3d64a"
     },
     "res://assets/hero/whip_attack_ground/f002.png": {
-      "page": 2,
+      "page": 0,
       "region": [
-        1331,
-        1426,
+        904,
+        1934,
         287,
         74
       ],
@@ -3674,10 +3668,10 @@
       "rgba_sha256": "1af59ae7cc6610863b66e43aef1b704da2cb12b8239484287db9434f94a4f75d"
     },
     "res://assets/hero/whip_attack_ground/f003.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        875,
-        1960,
+        326,
+        1936,
         293,
         73
       ],
@@ -3694,8 +3688,8 @@
     "res://assets/hero/whip_attack_ground/f004.png": {
       "page": 3,
       "region": [
-        223,
-        1606,
+        552,
+        1559,
         191,
         80
       ],
@@ -3712,8 +3706,8 @@
     "res://assets/hero/whip_attack_ground/f005.png": {
       "page": 3,
       "region": [
-        1491,
-        1586,
+        697,
+        967,
         145,
         78
       ],
@@ -3728,10 +3722,10 @@
       "rgba_sha256": "4b882101028346c3c4361284612f98867d0c08d92c47941a6432233155341290"
     },
     "res://assets/hero/whip_attack_ground/f006.png": {
-      "page": 2,
+      "page": 0,
       "region": [
-        1189,
-        1235,
+        581,
+        1691,
         67,
         82
       ],
@@ -3746,10 +3740,10 @@
       "rgba_sha256": "a2036517c5d719493690043ace90817aa5107a4a2f60e72730e5277eb5310d08"
     },
     "res://assets/hero/whip_attack_ground/f007.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        277,
-        1390,
+        581,
+        1858,
         38,
         71
       ],
@@ -3764,10 +3758,10 @@
       "rgba_sha256": "3126b3b6e2ecc3a6886d6608e865fab147a4ee7f93fbec9c871309cc7289c0d4"
     },
     "res://assets/pursuer/pursuer_alert/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1280,
-        1722,
+        1853,
+        1884,
         191,
         128
       ],
@@ -3782,10 +3776,10 @@
       "rgba_sha256": "edcd64e6fc1b89b42185e22a38e9e97340fd0e25ab67ad6af14f668369746239"
     },
     "res://assets/pursuer/pursuer_alert/f001.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        197,
-        157,
+        1135,
+        1772,
         176,
         157
       ],
@@ -3800,10 +3794,10 @@
       "rgba_sha256": "897048778233820277e8a98c6b9fdedd41104d0c9d6fc2a29370e3b4c766a783"
     },
     "res://assets/pursuer/pursuer_alert/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        399,
-        8,
+        1124,
+        1630,
         184,
         138
       ],
@@ -3820,8 +3814,8 @@
     "res://assets/pursuer/pursuer_alert/f003.png": {
       "page": 3,
       "region": [
-        8,
-        1843,
+        845,
+        642,
         196,
         118
       ],
@@ -3838,8 +3832,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f000.png": {
       "page": 3,
       "region": [
-        220,
-        1708,
+        745,
+        1788,
         196,
         118
       ],
@@ -3856,8 +3850,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f001.png": {
       "page": 3,
       "region": [
-        822,
-        1412,
+        142,
+        1698,
         199,
         118
       ],
@@ -3872,10 +3866,10 @@
       "rgba_sha256": "2ad27366c46c84f0dedf8efea3fcd8c9ee754d7b8cab8fc80fd18eb8a3ef870a"
     },
     "res://assets/pursuer/pursuer_approach_walk/f002.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        987,
-        923,
+        1010,
+        1886,
         210,
         118
       ],
@@ -3890,10 +3884,10 @@
       "rgba_sha256": "b4819603a81283a059210b6e30ed29a71596ce45ab611e9b989bf59b17138761"
     },
     "res://assets/pursuer/pursuer_approach_walk/f003.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        397,
-        1146,
+        1646,
+        1884,
         203,
         119
       ],
@@ -3910,8 +3904,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f004.png": {
       "page": 3,
       "region": [
-        220,
-        1842,
+        745,
+        1910,
         196,
         118
       ],
@@ -3928,8 +3922,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f005.png": {
       "page": 3,
       "region": [
-        432,
-        1708,
+        748,
+        1559,
         196,
         118
       ],
@@ -3946,8 +3940,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f006.png": {
       "page": 3,
       "region": [
-        432,
-        1842,
+        752,
+        1317,
         196,
         118
       ],
@@ -3964,8 +3958,8 @@
     "res://assets/pursuer/pursuer_approach_walk/f007.png": {
       "page": 3,
       "region": [
-        1230,
-        1451,
+        552,
+        1436,
         196,
         119
       ],
@@ -3982,8 +3976,8 @@
     "res://assets/pursuer/pursuer_death/f000.png": {
       "page": 3,
       "region": [
-        8,
-        1524,
+        349,
+        1550,
         199,
         109
       ],
@@ -3998,10 +3992,10 @@
       "rgba_sha256": "b7ec62b1f8c54a00f323938961f7ba5f26cc25224958a2600ec7867ad7bd1c2d"
     },
     "res://assets/pursuer/pursuer_death/f001.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        168,
-        1135,
+        2,
+        1912,
         213,
         104
       ],
@@ -4016,10 +4010,10 @@
       "rgba_sha256": "ec6c0ba5c17ec8f1a3da5fd7da89d6bf0389653ce34d1eed8ae4f7a9916af915"
     },
     "res://assets/pursuer/pursuer_death/f002.png": {
-      "page": 0,
+      "page": 2,
       "region": [
-        1398,
-        1935,
+        1259,
+        1232,
         216,
         103
       ],
@@ -4036,8 +4030,8 @@
     "res://assets/pursuer/pursuer_death/f003.png": {
       "page": 2,
       "region": [
-        1634,
-        772,
+        2,
+        1908,
         280,
         78
       ],
@@ -4052,10 +4046,10 @@
       "rgba_sha256": "3faf6a08fd2fc146929f942521d79d616dab2387edba940611913bcce4dc87df"
     },
     "res://assets/pursuer/pursuer_death/f004.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        1489,
-        866,
+        1298,
+        1755,
         280,
         78
       ],
@@ -4072,8 +4066,8 @@
     "res://assets/pursuer/pursuer_death/f005.png": {
       "page": 2,
       "region": [
-        1634,
-        960,
+        713,
+        718,
         279,
         77
       ],
@@ -4088,10 +4082,10 @@
       "rgba_sha256": "5c295ecf129d43ac3be31b1787dd1a78ebacc33f1630a5d4f6b6af610f2bd41e"
     },
     "res://assets/pursuer/pursuer_hurt/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        197,
-        8,
+        945,
+        1872,
         186,
         133
       ],
@@ -4108,8 +4102,8 @@
     "res://assets/pursuer/pursuer_hurt/f001.png": {
       "page": 3,
       "region": [
-        1280,
-        1866,
+        1423,
+        2,
         191,
         126
       ],
@@ -4126,8 +4120,8 @@
     "res://assets/pursuer/pursuer_hurt/f002.png": {
       "page": 3,
       "region": [
-        644,
-        1708,
+        912,
+        330,
         196,
         118
       ],
@@ -4144,8 +4138,8 @@
     "res://assets/pursuer/pursuer_idle/f000.png": {
       "page": 3,
       "region": [
-        653,
-        1546,
+        912,
+        452,
         196,
         118
       ],
@@ -4162,8 +4156,8 @@
     "res://assets/pursuer/pursuer_idle/f001.png": {
       "page": 3,
       "region": [
-        1442,
-        1451,
+        666,
+        1071,
         196,
         119
       ],
@@ -4180,8 +4174,8 @@
     "res://assets/pursuer/pursuer_idle/f002.png": {
       "page": 3,
       "region": [
-        1230,
-        1314,
+        345,
+        1814,
         196,
         121
       ],
@@ -4198,8 +4192,8 @@
     "res://assets/pursuer/pursuer_idle/f003.png": {
       "page": 3,
       "region": [
-        1442,
-        1314,
+        545,
+        1814,
         196,
         121
       ],
@@ -4216,8 +4210,8 @@
     "res://assets/pursuer/pursuer_idle/f004.png": {
       "page": 3,
       "region": [
-        1654,
-        1436,
+        548,
+        1663,
         196,
         121
       ],
@@ -4234,8 +4228,8 @@
     "res://assets/pursuer/pursuer_idle/f005.png": {
       "page": 3,
       "region": [
-        1654,
-        1573,
+        666,
+        1194,
         196,
         119
       ],
@@ -4252,8 +4246,8 @@
     "res://assets/pursuer/pursuer_lunge_windup/f000.png": {
       "page": 3,
       "region": [
-        644,
-        1842,
+        987,
+        110,
         196,
         118
       ],
@@ -4270,8 +4264,8 @@
     "res://assets/pursuer/pursuer_lunge_windup/f001.png": {
       "page": 3,
       "region": [
-        438,
-        1480,
+        529,
+        1323,
         199,
         109
       ],
@@ -4288,8 +4282,8 @@
     "res://assets/pursuer/pursuer_lunge_windup/f002.png": {
       "page": 3,
       "region": [
-        1422,
-        1201,
+        459,
+        1117,
         203,
         97
       ],
@@ -4306,8 +4300,8 @@
     "res://assets/pursuer/pursuer_lunge_windup/f003.png": {
       "page": 2,
       "region": [
-        1265,
-        627,
+        1438,
+        1885,
         204,
         92
       ],
@@ -4324,8 +4318,8 @@
     "res://assets/pursuer/pursuer_lunge/f000.png": {
       "page": 3,
       "region": [
-        834,
-        1172,
+        459,
+        1218,
         202,
         101
       ],
@@ -4342,8 +4336,8 @@
     "res://assets/pursuer/pursuer_lunge/f001.png": {
       "page": 3,
       "region": [
-        834,
-        1289,
+        782,
+        219,
         201,
         107
       ],
@@ -4360,8 +4354,8 @@
     "res://assets/pursuer/pursuer_lunge/f002.png": {
       "page": 3,
       "region": [
-        1203,
-        1155,
+        322,
+        1448,
         203,
         98
       ],
@@ -4378,8 +4372,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f000.png": {
       "page": 3,
       "region": [
-        865,
-        1546,
+        866,
+        967,
         196,
         118
       ],
@@ -4396,8 +4390,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f001.png": {
       "page": 3,
       "region": [
-        8,
-        1390,
+        142,
+        1820,
         199,
         118
       ],
@@ -4412,10 +4406,10 @@
       "rgba_sha256": "2ad27366c46c84f0dedf8efea3fcd8c9ee754d7b8cab8fc80fd18eb8a3ef870a"
     },
     "res://assets/pursuer/pursuer_patrol_walk/f002.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        758,
-        1029,
+        1224,
+        1886,
         210,
         118
       ],
@@ -4432,8 +4426,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f003.png": {
       "page": 3,
       "region": [
-        168,
-        1255,
+        142,
+        1575,
         203,
         119
       ],
@@ -4450,8 +4444,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f004.png": {
       "page": 3,
       "region": [
-        856,
-        1708,
+        897,
+        764,
         196,
         118
       ],
@@ -4468,8 +4462,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f005.png": {
       "page": 3,
       "region": [
-        856,
-        1842,
+        1045,
+        574,
         196,
         118
       ],
@@ -4486,8 +4480,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f006.png": {
       "page": 3,
       "region": [
-        1068,
-        1708,
+        866,
+        1089,
         196,
         118
       ],
@@ -4504,8 +4498,8 @@
     "res://assets/pursuer/pursuer_patrol_walk/f007.png": {
       "page": 3,
       "region": [
-        8,
-        1708,
+        697,
+        844,
         196,
         119
       ],
@@ -4522,8 +4516,8 @@
     "res://assets/pursuer/pursuer_recovery/f000.png": {
       "page": 3,
       "region": [
-        984,
-        1057,
+        322,
+        1345,
         203,
         99
       ],
@@ -4540,8 +4534,8 @@
     "res://assets/pursuer/pursuer_recovery/f001.png": {
       "page": 3,
       "region": [
-        605,
-        1360,
+        897,
+        2,
         201,
         104
       ],
@@ -4558,8 +4552,8 @@
     "res://assets/pursuer/pursuer_recovery/f002.png": {
       "page": 3,
       "region": [
-        223,
-        1478,
+        345,
+        1698,
         199,
         112
       ],
@@ -4576,8 +4570,8 @@
     "res://assets/pursuer/pursuer_recovery/f003.png": {
       "page": 3,
       "region": [
-        1068,
-        1842,
+        1112,
+        232,
         196,
         118
       ],
@@ -4594,8 +4588,8 @@
     "res://assets/ranged/ranged_aim/f000.png": {
       "page": 2,
       "region": [
-        428,
-        1691,
+        150,
+        981,
         133,
         305
       ],
@@ -4612,8 +4606,8 @@
     "res://assets/ranged/ranged_aim/f001.png": {
       "page": 2,
       "region": [
-        432,
-        1370,
+        153,
+        672,
         133,
         305
       ],
@@ -4630,8 +4624,8 @@
     "res://assets/ranged/ranged_aim/f002.png": {
       "page": 2,
       "region": [
-        272,
-        1691,
+        147,
+        1599,
         140,
         305
       ],
@@ -4648,8 +4642,8 @@
     "res://assets/ranged/ranged_aim/f003.png": {
       "page": 0,
       "region": [
-        1641,
-        1128,
+        1551,
+        1086,
         153,
         305
       ],
@@ -4664,10 +4658,10 @@
       "rgba_sha256": "de084531ed091b32b74c3dd9bd52b9519f9b438a2c7ae9afe6c0b4e74a8243f5"
     },
     "res://assets/ranged/ranged_aim/f004.png": {
-      "page": 0,
+      "page": 1,
       "region": [
-        1857,
-        381,
+        1883,
+        2,
         163,
         305
       ],
@@ -4684,8 +4678,8 @@
     "res://assets/ranged/ranged_aim/f005.png": {
       "page": 1,
       "region": [
-        1870,
-        718,
+        1803,
+        676,
         167,
         305
       ],
@@ -4702,8 +4696,8 @@
     "res://assets/ranged/ranged_death/f000.png": {
       "page": 2,
       "region": [
-        735,
-        970,
+        428,
+        1546,
         133,
         302
       ],
@@ -4720,8 +4714,8 @@
     "res://assets/ranged/ranged_death/f001.png": {
       "page": 2,
       "region": [
-        1024,
-        1606,
+        561,
+        1235,
         137,
         297
       ],
@@ -4738,8 +4732,8 @@
     "res://assets/ranged/ranged_death/f002.png": {
       "page": 2,
       "region": [
-        829,
-        329,
+        565,
+        1536,
         137,
         297
       ],
@@ -4756,8 +4750,8 @@
     "res://assets/ranged/ranged_death/f003.png": {
       "page": 2,
       "region": [
-        831,
-        8,
+        526,
+        2,
         137,
         297
       ],
@@ -4774,8 +4768,8 @@
     "res://assets/ranged/ranged_death/f004.png": {
       "page": 2,
       "region": [
-        829,
-        642,
+        526,
+        303,
         137,
         296
       ],
@@ -4790,10 +4784,10 @@
       "rgba_sha256": "c05a255c038dfcc2d5689bd2a2d030e45b9cf34a20f18cb2a3fc66c273428cda"
     },
     "res://assets/ranged/ranged_death/f005.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1052,
-        1172,
+        1384,
+        830,
         108,
         79
       ],
@@ -4808,10 +4802,10 @@
       "rgba_sha256": "3fb2c02e1e64ef8c4ffd7cc8198a31690473cd2cb3416a4e8f449ff6272e8bc1"
     },
     "res://assets/ranged/ranged_fire/f000.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1870,
-        1039,
+        1833,
+        2,
         167,
         305
       ],
@@ -4828,8 +4822,8 @@
     "res://assets/ranged/ranged_fire/f001.png": {
       "page": 1,
       "region": [
-        1387,
-        1082,
+        1883,
+        311,
         158,
         305
       ],
@@ -4846,8 +4840,8 @@
     "res://assets/ranged/ranged_fire/f002.png": {
       "page": 2,
       "region": [
-        269,
-        1049,
+        2,
+        981,
         144,
         305
       ],
@@ -4864,8 +4858,8 @@
     "res://assets/ranged/ranged_hurt/f000.png": {
       "page": 2,
       "region": [
-        680,
-        650,
+        424,
+        1238,
         133,
         304
       ],
@@ -4882,8 +4876,8 @@
     "res://assets/ranged/ranged_hurt/f001.png": {
       "page": 2,
       "region": [
-        879,
-        1288,
+        561,
+        929,
         133,
         302
       ],
@@ -4900,8 +4894,8 @@
     "res://assets/ranged/ranged_hurt/f002.png": {
       "page": 2,
       "region": [
-        577,
-        1691,
+        150,
+        1290,
         133,
         305
       ],
@@ -4918,8 +4912,8 @@
     "res://assets/ranged/ranged_idle/f000.png": {
       "page": 2,
       "region": [
-        581,
-        1370,
+        287,
+        981,
         133,
         305
       ],
@@ -4936,8 +4930,8 @@
     "res://assets/ranged/ranged_idle/f001.png": {
       "page": 2,
       "region": [
-        726,
-        1691,
+        287,
+        1290,
         133,
         305
       ],
@@ -4954,8 +4948,8 @@
     "res://assets/ranged/ranged_idle/f002.png": {
       "page": 2,
       "region": [
-        531,
-        355,
+        291,
+        1599,
         133,
         305
       ],
@@ -4972,8 +4966,8 @@
     "res://assets/ranged/ranged_idle/f003.png": {
       "page": 2,
       "region": [
-        533,
-        8,
+        252,
+        2,
         133,
         305
       ],
@@ -4990,8 +4984,8 @@
     "res://assets/ranged/ranged_idle/f004.png": {
       "page": 2,
       "region": [
-        531,
-        676,
+        252,
+        311,
         133,
         305
       ],
@@ -5008,8 +5002,8 @@
     "res://assets/ranged/ranged_idle/f005.png": {
       "page": 2,
       "region": [
-        586,
-        997,
+        290,
+        620,
         133,
         305
       ],
@@ -5026,8 +5020,8 @@
     "res://assets/ranged/ranged_recover/f000.png": {
       "page": 2,
       "region": [
-        272,
-        1370,
+        2,
+        1290,
         144,
         305
       ],
@@ -5042,10 +5036,10 @@
       "rgba_sha256": "ac487d367dd34271a53fe9287d1d98a52ef4c09997cd22c52cb17975accabcde"
     },
     "res://assets/ranged/ranged_recover/f001.png": {
-      "page": 0,
+      "page": 2,
       "region": [
-        1883,
-        1500,
+        2,
+        672,
         147,
         305
       ],
@@ -5062,8 +5056,8 @@
     "res://assets/ranged/ranged_recover/f002.png": {
       "page": 2,
       "region": [
-        429,
-        1049,
+        2,
+        1599,
         141,
         305
       ],
@@ -5080,8 +5074,8 @@
     "res://assets/ranged/ranged_recover/f003.png": {
       "page": 2,
       "region": [
-        730,
-        1318,
+        389,
+        2,
         133,
         305
       ],
@@ -5098,8 +5092,8 @@
     "res://assets/ranged/ranged_recover/f004.png": {
       "page": 2,
       "region": [
-        875,
-        1639,
+        389,
+        311,
         133,
         305
       ],
@@ -5116,8 +5110,8 @@
     "res://assets/ranged/ranged_recover/f005.png": {
       "page": 2,
       "region": [
-        680,
-        329,
+        424,
+        929,
         133,
         305
       ],
@@ -5134,8 +5128,8 @@
     "res://assets/ranged/ranged_recover/f006.png": {
       "page": 2,
       "region": [
-        682,
-        8,
+        427,
+        620,
         133,
         305
       ],
@@ -5152,8 +5146,8 @@
     "res://assets/swooper/swooper_cruise/f000.png": {
       "page": 2,
       "region": [
-        1177,
-        1540,
+        706,
+        1383,
         287,
         175
       ],
@@ -5170,8 +5164,8 @@
     "res://assets/swooper/swooper_cruise/f001.png": {
       "page": 2,
       "region": [
-        1634,
-        199,
+        667,
+        181,
         282,
         175
       ],
@@ -5188,8 +5182,8 @@
     "res://assets/swooper/swooper_cruise/f002.png": {
       "page": 2,
       "region": [
-        1480,
-        1698,
+        847,
+        878,
         267,
         173
       ],
@@ -5204,10 +5198,10 @@
       "rgba_sha256": "9be577dcabb77e79ca817ff3089c86f048b0011e8ddf88f6394436ecf484fe6c"
     },
     "res://assets/swooper/swooper_cruise/f003.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        538,
-        8,
+        997,
+        1346,
         247,
         176
       ],
@@ -5222,10 +5216,10 @@
       "rgba_sha256": "84debf0732b1421b5f80071cd0b07c7176473af770c32235646619925fa66a11"
     },
     "res://assets/swooper/swooper_cruise/f004.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1323,
-        8,
+        1261,
+        1704,
         237,
         177
       ],
@@ -5240,10 +5234,10 @@
       "rgba_sha256": "beb89118ca939c39c77ed58075165cfba98aacb74932a73f5ef185f14cae99c1"
     },
     "res://assets/swooper/swooper_cruise/f005.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        8,
-        185,
+        997,
+        1526,
         247,
         176
       ],
@@ -5260,8 +5254,8 @@
     "res://assets/swooper/swooper_cruise/f006.png": {
       "page": 2,
       "region": [
-        1763,
-        1698,
+        993,
+        1055,
         267,
         173
       ],
@@ -5278,8 +5272,8 @@
     "res://assets/swooper/swooper_cruise/f007.png": {
       "page": 2,
       "region": [
-        1634,
-        390,
+        667,
+        360,
         282,
         175
       ],
@@ -5294,10 +5288,10 @@
       "rgba_sha256": "48eb7376459bf4515473973694eaa96140c9fc3708f273a5305eea54d0449f63"
     },
     "res://assets/swooper/swooper_death_fall/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        801,
-        8,
+        1248,
+        1346,
         245,
         175
       ],
@@ -5312,10 +5306,10 @@
       "rgba_sha256": "717220481f74ada65e7aa78cc87669fc1fc39d4a905fb4ba4fea9644ebf6e488"
     },
     "res://assets/swooper/swooper_death_fall/f001.png": {
-      "page": 2,
+      "page": 1,
       "region": [
-        1480,
-        1516,
+        1582,
+        1731,
         92,
         166
       ],
@@ -5330,10 +5324,10 @@
       "rgba_sha256": "2d5316a6e3c67a3af42581dc51e8d1ec266d6b36fcf0e6ce41827b7afaf0dddc"
     },
     "res://assets/swooper/swooper_death_fall/f002.png": {
-      "page": 2,
+      "page": 0,
       "region": [
-        1937,
-        8,
+        1951,
+        724,
         92,
         166
       ],
@@ -5348,10 +5342,10 @@
       "rgba_sha256": "51827ae2fffe54f5eb9a9bef14b1f25caa039847c4f0e69ccfeb3ff65c460b2b"
     },
     "res://assets/swooper/swooper_death_fall/f003.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        938,
-        444,
+        1951,
+        894,
         91,
         165
       ],
@@ -5366,10 +5360,10 @@
       "rgba_sha256": "221a9acbcbfccc2fccff539fd6bdbb3d30c89e074b6cd11c320036f51fb9881d"
     },
     "res://assets/swooper/swooper_death_fall/f004.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1934,
-        500,
+        1951,
+        1063,
         90,
         164
       ],
@@ -5384,10 +5378,10 @@
       "rgba_sha256": "4f4e112dc389765d58e7edda860a313d42839988f6755b5ce23aad6abb91874c"
     },
     "res://assets/swooper/swooper_dive_telegraph/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        197,
-        330,
+        1242,
+        1182,
         108,
         170
       ],
@@ -5404,8 +5398,8 @@
     "res://assets/swooper/swooper_dive_telegraph/f001.png": {
       "page": 3,
       "region": [
-        1089,
-        686,
+        1129,
+        1182,
         109,
         170
       ],
@@ -5422,8 +5416,8 @@
     "res://assets/swooper/swooper_dive_telegraph/f002.png": {
       "page": 3,
       "region": [
-        1869,
-        1844,
+        1097,
+        696,
         110,
         170
       ],
@@ -5438,10 +5432,10 @@
       "rgba_sha256": "6f776e66b1cfd2c28f80b250ab9813ad57f407def2b95feae3cf866f6b6653fb"
     },
     "res://assets/swooper/swooper_dive_telegraph/f003.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        389,
-        162,
+        1211,
+        696,
         110,
         170
       ],
@@ -5456,10 +5450,10 @@
       "rgba_sha256": "90270a51c1d7a1328d62ca5843849663e01f3d3e2672d681f29e0df6da5bf141"
     },
     "res://assets/swooper/swooper_dive/f000.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        515,
-        167,
+        1243,
+        870,
         145,
         150
       ],
@@ -5476,8 +5470,8 @@
     "res://assets/swooper/swooper_dive/f001.png": {
       "page": 3,
       "region": [
-        1487,
-        1925,
+        1135,
+        1933,
         164,
         111
       ],
@@ -5492,10 +5486,10 @@
       "rgba_sha256": "e314fe1a46fab0efcdccb0fcc1c55e105a3dd8a76e329b2a298fb92d9e1c2a15"
     },
     "res://assets/swooper/swooper_dive/f002.png": {
-      "page": 4,
+      "page": 3,
       "region": [
-        8,
-        372,
+        142,
+        1942,
         169,
         86
       ],
@@ -5512,8 +5506,8 @@
     "res://assets/swooper/swooper_dive/f003.png": {
       "page": 3,
       "region": [
-        438,
-        1605,
+        748,
+        1681,
         172,
         87
       ],
@@ -5530,8 +5524,8 @@
     "res://assets/swooper/swooper_hurt/f000.png": {
       "page": 2,
       "region": [
-        982,
-        321,
+        999,
+        539,
         267,
         173
       ],
@@ -5546,10 +5540,10 @@
       "rgba_sha256": "d861780bd693e5ac4f5d9e57b6a996888d92891657b1bd1e9525f65f24933c36"
     },
     "res://assets/swooper/swooper_hurt/f001.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1062,
-        8,
+        1248,
+        1525,
         245,
         175
       ],
@@ -5566,8 +5560,8 @@
     "res://assets/swooper/swooper_hurt/f002.png": {
       "page": 2,
       "region": [
-        1028,
-        1334,
+        428,
+        1852,
         287,
         190
       ],
@@ -5584,8 +5578,8 @@
     "res://assets/swooper/swooper_perch_idle/f000.png": {
       "page": 2,
       "region": [
-        1177,
-        1731,
+        706,
+        1562,
         287,
         175
       ],
@@ -5602,8 +5596,8 @@
     "res://assets/swooper/swooper_perch_idle/f001.png": {
       "page": 2,
       "region": [
-        1634,
-        581,
+        713,
+        539,
         282,
         175
       ],
@@ -5620,8 +5614,8 @@
     "res://assets/swooper/swooper_perch_idle/f002.png": {
       "page": 2,
       "region": [
-        982,
-        510,
+        1230,
+        360,
         267,
         173
       ],
@@ -5636,10 +5630,10 @@
       "rgba_sha256": "9be577dcabb77e79ca817ff3089c86f048b0011e8ddf88f6394436ecf484fe6c"
     },
     "res://assets/swooper/swooper_perch_idle/f003.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        271,
-        185,
+        1010,
+        1706,
         247,
         176
       ],
@@ -5656,8 +5650,8 @@
     "res://assets/swooper/swooper_perch_idle/f004.png": {
       "page": 2,
       "region": [
-        1265,
-        8,
+        1239,
+        159,
         267,
         173
       ],
@@ -5674,8 +5668,8 @@
     "res://assets/swooper/swooper_perch_idle/f005.png": {
       "page": 2,
       "region": [
-        1191,
-        772,
+        953,
+        181,
         282,
         175
       ],
@@ -5692,8 +5686,8 @@
     "res://assets/swooper/swooper_recovery_climb/f000.png": {
       "page": 2,
       "region": [
+        702,
         1189,
-        1029,
         287,
         190
       ],
@@ -5710,8 +5704,8 @@
     "res://assets/swooper/swooper_recovery_climb/f001.png": {
       "page": 2,
       "region": [
-        1634,
-        1507,
+        953,
+        360,
         273,
         175
       ],
@@ -5728,8 +5722,8 @@
     "res://assets/swooper/swooper_recovery_climb/f002.png": {
       "page": 3,
       "region": [
-        616,
-        1163,
+        491,
+        886,
         202,
         181
       ],
@@ -5746,8 +5740,8 @@
     "res://assets/swooper/swooper_recovery_climb/f003.png": {
       "page": 2,
       "region": [
-        1331,
-        1235,
+        719,
+        1741,
         287,
         175
       ],
@@ -5764,8 +5758,8 @@
     "res://assets/swooper/swooper_recovery_climb/f004.png": {
       "page": 3,
       "region": [
-        387,
-        1281,
+        639,
+        659,
         202,
         181
       ],
@@ -5782,8 +5776,8 @@
     "res://assets/swooper/swooper_recovery_climb/f005.png": {
       "page": 2,
       "region": [
-        1634,
-        8,
+        667,
+        2,
         287,
         175
       ],
@@ -5798,10 +5792,10 @@
       "rgba_sha256": "45294f5ee4124900004742ed46ab8cf293232b03e5adbe5425c4478ce1e7b645"
     },
     "res://assets/vfx/projectile_grave_shot/f000.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        1982,
-        970,
+        283,
+        1990,
         58,
         56
       ],
@@ -5816,10 +5810,10 @@
       "rgba_sha256": "9888d44e05369c762acf090a1806629f923b345f4fdb31108532dcae0f7ac552"
     },
     "res://assets/vfx/projectile_grave_shot/f001.png": {
-      "page": 3,
+      "page": 2,
       "region": [
-        537,
-        1976,
+        1270,
+        651,
         60,
         61
       ],
@@ -5834,10 +5828,10 @@
       "rgba_sha256": "2643f63ac82c9458d245d90d41c60e1802145ba458dcbf124b562b2d8ced12ee"
     },
     "res://assets/vfx/projectile_grave_shot/f002.png": {
-      "page": 3,
+      "page": 0,
       "region": [
-        1982,
-        1042,
+        1550,
+        1810,
         58,
         55
       ],
@@ -5854,8 +5848,8 @@
     "res://assets/vfx/vfx_hazard_eruption/f000.png": {
       "page": 1,
       "region": [
-        344,
-        1869,
+        2,
+        1799,
         320,
         142
       ],
@@ -5872,8 +5866,8 @@
     "res://assets/vfx/vfx_hazard_eruption/f001.png": {
       "page": 0,
       "region": [
-        1640,
-        1873,
+        1320,
+        1869,
         320,
         160
       ],
@@ -5888,10 +5882,10 @@
       "rgba_sha256": "d2551f4025ffdfda8532b716ddea68eb28ea53aec9bedf7105f720ddebb2d227"
     },
     "res://assets/vfx/vfx_hazard_eruption/f002.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        8,
-        1869,
+        1644,
+        1810,
         320,
         156
       ],
@@ -5908,8 +5902,8 @@
     "res://assets/vfx/vfx_hazard_eruption/f003.png": {
       "page": 1,
       "region": [
-        1016,
-        1851,
+        650,
+        1793,
         320,
         128
       ],
@@ -5926,8 +5920,8 @@
     "res://assets/vfx/vfx_hazard_eruption/f004.png": {
       "page": 1,
       "region": [
-        680,
-        1859,
+        326,
+        1796,
         320,
         136
       ],
@@ -5942,10 +5936,10 @@
       "rgba_sha256": "3e988b5ad2960a1979836f9e06b5758650a13b58c6e1e14df925e3ca304a1689"
     },
     "res://assets/vfx/vfx_hazard_eruption/f005.png": {
-      "page": 0,
+      "page": 1,
       "region": [
-        270,
-        1748,
+        974,
+        1772,
         320,
         125
       ],
@@ -5962,8 +5956,8 @@
     "res://assets/vfx/vfx_hazard_telegraph/f000.png": {
       "page": 1,
       "region": [
-        1352,
-        1816,
+        974,
+        1901,
         319,
         128
       ],
@@ -5980,8 +5974,8 @@
     "res://assets/vfx/vfx_hazard_telegraph/f001.png": {
       "page": 1,
       "region": [
-        1687,
-        1902,
+        1297,
+        1901,
         318,
         119
       ],
@@ -5996,10 +5990,10 @@
       "rgba_sha256": "59090ecd7b6458781eeaa1722b8af73239b55c664dbb1e9190ca933f9f6ba6c1"
     },
     "res://assets/vfx/vfx_hazard_telegraph/f002.png": {
-      "page": 1,
+      "page": 0,
       "region": [
-        1687,
-        1774,
+        581,
+        1934,
         319,
         112
       ],
@@ -6014,10 +6008,10 @@
       "rgba_sha256": "3f2f881166a9d6fecfef124cab37525cdea819519fa535db963666110859e131"
     },
     "res://assets/vfx/vfx_hazard_telegraph/f003.png": {
-      "page": 0,
+      "page": 1,
       "region": [
-        270,
-        1889,
+        650,
+        1925,
         320,
         115
       ],
