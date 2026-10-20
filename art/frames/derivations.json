@@ -2499,5 +2499,25 @@
     ],
     "corrective_normalization": 1,
     "visual_approval": false
+  },
+  "ui_checkpoint_off": {
+    "kind": "generated_static_ui",
+    "source": [
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_off/raw.png",
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_off/prompt.txt",
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_off/f000.png.provenance.json"
+    ],
+    "method": "uniform whole-canvas conversion to128x96; no crop, registration, deformation or repaint",
+    "visual_approval": false
+  },
+  "ui_checkpoint_on": {
+    "kind": "generated_static_ui",
+    "source": [
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_on/raw.png",
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_on/prompt.txt",
+      "art/production-candidates/ui-checkpoint-r01/ui_checkpoint_on/f000.png.provenance.json"
+    ],
+    "method": "uniform whole-canvas conversion to128x96; no crop, registration, deformation or repaint",
+    "visual_approval": false
   }
 }

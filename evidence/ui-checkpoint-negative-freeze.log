@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL checkpoint HUD: live accessible description native-off
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint native-on
+FAIL checkpoint HUD: live accessible description native-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint native-pit-pending
+FAIL checkpoint HUD: live accessible description native-pit-pending
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint native-retry-on
+FAIL checkpoint HUD: live accessible description native-retry-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description native-completion-reset
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description phone-off
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint phone-on
+FAIL checkpoint HUD: live accessible description phone-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint phone-pit-pending
+FAIL checkpoint HUD: live accessible description phone-pit-pending
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint phone-retry-on
+FAIL checkpoint HUD: live accessible description phone-retry-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description phone-completion-reset
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description compact-off
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint compact-on
+FAIL checkpoint HUD: live accessible description compact-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint compact-pit-pending
+FAIL checkpoint HUD: live accessible description compact-pit-pending
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint compact-retry-on
+FAIL checkpoint HUD: live accessible description compact-retry-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description compact-completion-reset
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description density2-off
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint density2-on
+FAIL checkpoint HUD: live accessible description density2-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint density2-pit-pending
+FAIL checkpoint HUD: live accessible description density2-pit-pending
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: paint matches checkpoint density2-retry-on
+FAIL checkpoint HUD: live accessible description density2-retry-on
+FAIL checkpoint HUD: health remains first and complete
+FAIL checkpoint HUD: live accessible description density2-completion-reset
+FAIL checkpoint HUD: health remains first and complete
+RESULT checkpoint HUD: 232 checks, 52 failures

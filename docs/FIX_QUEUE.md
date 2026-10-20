@@ -15,8 +15,8 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
 | 10 | Ranged enemy supported action clips | DONE: all6body clips/31frames +3projectile frames independent PASS; exact runtime, full both-facing native/phone coverage, actual2HP hurt/death path, shot loop/flight/standing/crouch verified |
 | 11 | Boss supported action clips | DONE: all11clips/70mandatory frames independent PASS, plus12supplemental recovery-hurt frames; death12frames includes pose-preserving lethal entry, supported kneel/fold and ash; actual8HP both-facing native/phone captures verified |
-| 12 | Full effects, props, terrain and UI inventory | All briefed effects and4stage props/5frames approved; terrain14tiles approved;all4background panels approved;8UIassets/14frames approved;5UIassets/5frames pending |
-| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current400packed +4standalone background frames: lossless five-page atlas,114.94MiB conservative inventory;127.06MiB measured art allocation; future inventory/device profiling remain |
+| 12 | Full effects, props, terrain and UI inventory | All briefed effects and4stage props/5frames approved; terrain14tiles approved;all4background panels approved;10UIassets/16frames approved;3UIassets/3frames pending |
+| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current402packed +4standalone background frames: lossless five-page atlas,114.94MiB conservative inventory;127.06MiB measured art allocation; future inventory/device profiling remain |
 | 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; opening lower-return/ground-fallback framing and retry validated356checks +fresh r02review PASS; remaining painted inventory/device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
@@ -51,3 +51,5 @@ Boss hazard follow-up:18body+10painted-effect frames and3late hurt variants pass
 Boss death visibility: preserve full opacity throughout1080ms collapse/ash, then fade over the existing120ms cleanup. Regression136checks,30oldfailures→0; exported-PCK checks pass. Source death art remains pending. See evidence/boss-death-visibility-fix.md.
 
 Painted controls follow-up: six normal/pressed controls independently approved,306source/export checks,52freeze-control failures,19engine and4browser captures.400RGBA roundtrips and752renderer samples are exact. See evidence/ui-controls-fix.md.
+
+Checkpoint HUD follow-up: off/on icons independently approved at32x24CSS;232source/export checks, actual capture/pit retry/completion reset and21engine +4browser views.402RGBA roundtrips and756renderer samples exact. See evidence/ui-checkpoint-fix.md.

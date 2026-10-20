@@ -419,5 +419,35 @@
       "pressed"
     ],
     "coordinate_space": "UI;64CSS-pixel minimum live-label target"
+  },
+  "ui_checkpoint_off": {
+    "category": "ui",
+    "canvas": [
+      128,
+      96
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI;32x24CSS"
+  },
+  "ui_checkpoint_on": {
+    "category": "ui",
+    "canvas": [
+      128,
+      96
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI;32x24CSS"
   }
 }

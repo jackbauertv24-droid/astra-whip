@@ -6571,6 +6571,42 @@
       ],
       "rgba_sha256": "57573954b490b4c497b967f3c483c07631a4b9786b4425e36b21abc22f85c528"
     },
+    "res://assets/ui/ui_checkpoint_off/f000.png": {
+      "page": 2,
+      "region": [
+        286,
+        1908,
+        62,
+        76
+      ],
+      "trim": [
+        33,
+        10
+      ],
+      "canvas": [
+        128,
+        96
+      ],
+      "rgba_sha256": "0b386a1bf832092bd892fec9715f78a78a84dbe92c50cde3290b78a6b8645ad0"
+    },
+    "res://assets/ui/ui_checkpoint_on/f000.png": {
+      "page": 3,
+      "region": [
+        1501,
+        1070,
+        62,
+        76
+      ],
+      "trim": [
+        33,
+        10
+      ],
+      "canvas": [
+        128,
+        96
+      ],
+      "rgba_sha256": "aa35195064baa8131fa12b5ebea2ea64397ef904450af6426b956bc048abec3a"
+    },
     "res://assets/ui/ui_health_empty/f000.png": {
       "page": 0,
       "region": [

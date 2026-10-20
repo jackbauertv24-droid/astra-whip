@@ -167,3 +167,7 @@ Two64pxfilled/hollow health icons passed fresh independent review across25actual
 ## Follow-up fix: painted controls
 
 Six normal/pressed buttons now follow shared keyboard/touch held state with live16CSS labels and64CSS targets. Fresh independent review passes all12sources,19engine and4browser views.306source/export checks,1241gameplay assertions and focused UI regressions pass.400packed frames/5pages, exactRGBA and752renderer comparisons;127.06MiB measured art allocation.5UIassets/5frames and external acceptance gates remain pending. See evidence/ui-controls-fix.md.
+
+## Follow-up fix: checkpoint HUD
+
+Painted hollow/filled checkpoint indicator now follows activation, death/retry and completion reset beside five health pips. Live HUD text fits whole phrases. Fresh review passes2sources,21engine and4browser views.232source/export checks,1241gameplay assertions and focused regressions pass.402packed frames, exactRGBA and756renderer samples;127.06MiB measured art allocation.3UIassets/3frames and external acceptance gates remain pending. See evidence/ui-checkpoint-fix.md.

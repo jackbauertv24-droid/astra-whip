@@ -2142,5 +2142,17 @@
       0
     ],
     "loop": false
+  },
+  "ui_checkpoint_off": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "ui_checkpoint_on": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

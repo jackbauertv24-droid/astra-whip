@@ -1,0 +1,236 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "native-off.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "native-on.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "native-pit-pending.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "native-retry-on.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "native-completion-reset.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "phone-off.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "phone-on.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "phone-pit-pending.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "phone-retry-on.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "phone-completion-reset.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "compact-off.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "compact-on.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "compact-pit-pending.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 1.0,
+   "file": "compact-retry-on.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "compact-completion-reset.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 2.0,
+   "file": "density2-off.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 2.0,
+   "file": "density2-on.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 2.0,
+   "file": "density2-pit-pending.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "density": 2.0,
+   "file": "density2-retry-on.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 2.0,
+   "file": "density2-completion-reset.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "density": 1.0,
+   "file": "portrait-hidden.png",
+   "health": 5,
+   "image_size": [
+    393,
+    221
+   ],
+   "physical_device": false
+  }
+ ]
+}

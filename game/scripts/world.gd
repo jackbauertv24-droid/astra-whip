@@ -52,6 +52,8 @@ var ui_safe_rect=Rect2(0,0,1280,720)
 var health_pips:Array[TextureRect]=[]
 var health_full:Texture2D
 var health_empty:Texture2D
+var checkpoint_icon:TextureRect
+var checkpoint_ui_frames:Array[Texture2D]=[]
 var painted_controls=PaintedControls.new()
 var background_art:BackgroundArt
 var terrain_art=TerrainArt.new()
@@ -209,6 +211,7 @@ func update_orientation_ui() -> void:
  rotate_back.visible=portrait
  status.visible=not portrait
  for pip in health_pips:pip.visible=not portrait
+ checkpoint_icon.visible=not portrait
  for action in touch_buttons: touch_buttons[action].visible=not portrait
  pause_button.disabled=portrait
  pause_button.text="PAUSED" if portrait else ("RESUME" if paused else "PAUSE")
@@ -227,7 +230,12 @@ func _physics_process(dt: float) -> void:
  queue_redraw()
 func update_health_hud():
  for i in health_pips.size():health_pips[i].texture=health_full if i<hero.health else health_empty
- status.text="HEALTH %d/5   |   ASTRA WHIP"%maxi(0,hero.health)+("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
+ checkpoint_icon.texture=checkpoint_ui_frames[1 if checkpoint else 0]
+ checkpoint_icon.tooltip_text="Checkpoint lit" if checkpoint else "Checkpoint inactive"
+ var health_text="HEALTH %d/5"%maxi(0,hero.health)
+ var detail="   |   CHECKPOINT LIT" if checkpoint else "   |   ASTRA WHIP"
+ var font=status.get_theme_font("font")
+ status.text=health_text+detail if font.get_string_size(health_text+detail,HORIZONTAL_ALIGNMENT_LEFT,-1,status.get_theme_font_size("font_size")).x<=status.size.x else health_text
  if complete:status.text="THE WARDEN HAS FALLEN — THE WAY IS OPEN"
 func step(dt: float) -> void:
  checkpoint_layer.reduced=reduced_effects
@@ -317,6 +325,14 @@ func build_ui() -> void:
   pip.mouse_filter=Control.MOUSE_FILTER_IGNORE
   hud.add_child(pip)
   health_pips.append(pip)
+ checkpoint_icon=TextureRect.new()
+ checkpoint_icon.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+ checkpoint_icon.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+ checkpoint_icon.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ checkpoint_icon.mouse_filter=Control.MOUSE_FILTER_IGNORE
+ for state in ["off","on"]:checkpoint_ui_frames.append(PackedArt.texture("res://assets/ui/ui_checkpoint_"+state+"/f000.png"))
+ checkpoint_icon.texture=checkpoint_ui_frames[0]
+ hud.add_child(checkpoint_icon)
  pause_button = button("RESUME",Vector2(1120,15),Vector2(130,60))
  pause_button.pressed.connect(func():
   started = true
@@ -425,7 +441,9 @@ func layout_ui_for_insets(insets: Vector4,density: float) -> void:
  for i in health_pips.size():
   health_pips[i].position=health_origin+Vector2(i*28/scale.x,0)
   health_pips[i].size=Vector2(24/scale.x,24/scale.y)
- status.position.x+=(health_pips.size()*28+4)/scale.x
+ checkpoint_icon.position=health_origin+Vector2(health_pips.size()*28/scale.x,0)
+ checkpoint_icon.size=Vector2(32/scale.x,24/scale.y)
+ status.position.x+=(health_pips.size()*28+36)/scale.x
  status.add_theme_font_size_override("font_size",ceili(16/scale.y))
  status.size=Vector2(maxf(0,pause_button.position.x-8/scale.x-status.position.x),24/scale.y)
  rotate_back.size=view.size

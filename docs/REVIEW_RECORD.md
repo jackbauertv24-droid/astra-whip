@@ -416,3 +416,7 @@ Both raw frames/strips, five style references,25actual fixture PNGs and3browser 
 ## Painted controls r01
 
 Fresh `/root/ui_controls_review_r01`: REVIEW: PASS for all six assets/twelve states. All12raw frames,5style references,19engine captures and4browser PNGs inspected after saved/read blind notes. Compact CROUCH plate overhang adjudicated legible and separated. Complete verdict: art/review-ui-controls-r01/review_verdict.md. Static UI only; no device/traversal approval.
+
+## Checkpoint HUD r01
+
+Fresh `/root/ui_checkpoint_review_r01`: REVIEW: PASS for off/on icons. Both raw and delivered frames,5style references,21engine views and4browser PNGs individually inspected after saved/read blind observations. Hollow/filled32x24CSS distinction, actual state mapping, whole text, safe spacing and portrait hiding pass. No unresolved flags. Full verdict: art/review-ui-checkpoint-r01/review_verdict.md.

@@ -1,0 +1,14 @@
+{
+  "assets": [
+    "ui_checkpoint_off",
+    "ui_checkpoint_on"
+  ],
+  "source_frames": 2,
+  "actual_capture_samples": 21,
+  "sha256": {
+    "ui_checkpoint_off": "815b487cc0fed4dd5ce126e5e3c57c40860466a7d2fd21a8be0e9cb1caa1adb5",
+    "ui_checkpoint_on": "c132309988bd4a154eb0110375e63297e07e851c455533d534bf45761a4b25e7"
+  },
+  "physical_device": false,
+  "errors": []
+}

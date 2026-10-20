@@ -1,0 +1,11 @@
+{
+  "scope": "two static checkpoint HUD states",
+  "requirements": [
+    "transparent margins",
+    "same shrine identity/scale",
+    "inactive hollow versus active filled ember",
+    "legible32x24CSS",
+    "live health text fits safe space",
+    "matches checkpoint capture and retry, portrait hidden"
+  ]
+}

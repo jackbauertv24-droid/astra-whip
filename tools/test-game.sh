@@ -18,6 +18,8 @@ cat evidence/background_art.log
 cat evidence/health_hud.log
 "$GODOT_BIN" --headless --path game --script res://tests/control_art.gd > evidence/control_art.log 2>&1
 cat evidence/control_art.log
+"$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/checkpoint_hud.gd > evidence/checkpoint_hud.log 2>&1
+cat evidence/checkpoint_hud.log
 if [[ "${1:-}" == "--mutations" ]]; then
  for id in T-01 T-02 T-03 T-04 T-05 T-06 T-07 T-08 T-09; do
   if ASTRA_MUTATION="$id" "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/run.gd > "evidence/mutation-$id.log" 2>&1; then
