@@ -17,7 +17,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 11 | Boss supported action clips | PARTIAL: idle+walk+hurt+turn+strike cycle40/70mandatory frames independent PASS, plus9supplemental recovery-hurt frames; hazard3clips and death remain previews |
 | 12 | Full effects, props, terrain and UI inventory | Partial preview assets only |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current302frames: lossless four-page runtime atlas,83.94MiB conservative inventory;105.22MiB measured art allocation; future inventory/device profiling remain |
-| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; playfield thumb clearance,timed reels and device validation pending |
+| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; playfield thumb clearance, missing sequences and device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.
@@ -43,3 +43,5 @@ Touch-cancellation follow-up: canceled events clear all held sources and buffere
 Pressed-feedback follow-up: gameplay buttons display the shared held state across keyboard/touch/drag/release/pause.25checks,12before failures→0; actual browser held/released captures retained. Painted UI inventory remains pending. See evidence/touch-feedback-fix.md.
 
 Atlas follow-up:302RGBA roundtrips and1815export-runtime checks pass;550both-facing engine samples differ by only one channel value in one shader-edge pixel. Current measured art allocation105.22MiB; no physical-device claim. See evidence/atlas-fix.md.
+
+Timed-reel follow-up:67contract/supplemental entries,58complete source sequences,9missing/62frames explicitlyNOT-TESTED;569browser checks cover timing,mirroring and actual phone downscale. Source viewer is not art approval or engine transition evidence. See art/reels/README.md and evidence/clip-reels-fix.md.

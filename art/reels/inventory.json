@@ -1,0 +1,2213 @@
+{
+  "scope": "Timed source-art reels. Not visual approval or an in-engine recording.",
+  "preview": {
+    "source_scale": 0.5,
+    "viewport_height": 720,
+    "phone": [
+      698,
+      393
+    ],
+    "compact": [
+      568,
+      320
+    ]
+  },
+  "entries": [
+    {
+      "id": "style_hero_neutral",
+      "runtime_rate": 1,
+      "ms": [
+        0
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../art/frames/style_hero_neutral/f000.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_idle",
+      "runtime_rate": 1,
+      "ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_idle/f000.png",
+        "../../game/assets/hero/hero_idle/f001.png",
+        "../../game/assets/hero/hero_idle/f002.png",
+        "../../game/assets/hero/hero_idle/f003.png",
+        "../../game/assets/hero/hero_idle/f004.png",
+        "../../game/assets/hero/hero_idle/f005.png",
+        "../../game/assets/hero/hero_idle/f006.png",
+        "../../game/assets/hero/hero_idle/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_walk",
+      "runtime_rate": 2,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_walk/f000.png",
+        "../../game/assets/hero/hero_walk/f001.png",
+        "../../game/assets/hero/hero_walk/f002.png",
+        "../../game/assets/hero/hero_walk/f003.png",
+        "../../game/assets/hero/hero_walk/f004.png",
+        "../../game/assets/hero/hero_walk/f005.png",
+        "../../game/assets/hero/hero_walk/f006.png",
+        "../../game/assets/hero/hero_walk/f007.png",
+        "../../game/assets/hero/hero_walk/f008.png",
+        "../../game/assets/hero/hero_walk/f009.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_start_move",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_start_move/f000.png",
+        "../../game/assets/hero/hero_start_move/f001.png",
+        "../../game/assets/hero/hero_start_move/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_stop_move",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_stop_move/f000.png",
+        "../../game/assets/hero/hero_stop_move/f001.png",
+        "../../game/assets/hero/hero_stop_move/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_turn",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_turn/f000.png",
+        "../../game/assets/hero/hero_turn/f001.png",
+        "../../game/assets/hero/hero_turn/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_crouch_enter",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_crouch_enter/f000.png",
+        "../../game/assets/hero/hero_crouch_enter/f001.png",
+        "../../game/assets/hero/hero_crouch_enter/f002.png",
+        "../../game/assets/hero/hero_crouch_enter/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_crouch_idle",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_crouch_idle/f000.png",
+        "../../game/assets/hero/hero_crouch_idle/f001.png",
+        "../../game/assets/hero/hero_crouch_idle/f002.png",
+        "../../game/assets/hero/hero_crouch_idle/f003.png",
+        "../../game/assets/hero/hero_crouch_idle/f004.png",
+        "../../game/assets/hero/hero_crouch_idle/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_crouch_exit",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_crouch_exit/f000.png",
+        "../../game/assets/hero/hero_crouch_exit/f001.png",
+        "../../game/assets/hero/hero_crouch_exit/f002.png",
+        "../../game/assets/hero/hero_crouch_exit/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_jump_takeoff",
+      "runtime_rate": 1,
+      "ms": [
+        40,
+        40,
+        40
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_jump_takeoff/f000.png",
+        "../../game/assets/hero/hero_jump_takeoff/f001.png",
+        "../../game/assets/hero/hero_jump_takeoff/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_jump_rise",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_jump_rise/f000.png",
+        "../../game/assets/hero/hero_jump_rise/f001.png",
+        "../../game/assets/hero/hero_jump_rise/f002.png",
+        "../../game/assets/hero/hero_jump_rise/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_jump_apex",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_jump_apex/f000.png",
+        "../../game/assets/hero/hero_jump_apex/f001.png",
+        "../../game/assets/hero/hero_jump_apex/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_fall",
+      "runtime_rate": 1,
+      "ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_fall/f000.png",
+        "../../game/assets/hero/hero_fall/f001.png",
+        "../../game/assets/hero/hero_fall/f002.png",
+        "../../game/assets/hero/hero_fall/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_land",
+      "runtime_rate": 1,
+      "ms": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_land/f000.png",
+        "../../game/assets/hero/hero_land/f001.png",
+        "../../game/assets/hero/hero_land/f002.png",
+        "../../game/assets/hero/hero_land/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_attack_ground",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_attack_ground/f000.png",
+        "../../game/assets/hero/hero_attack_ground/f001.png",
+        "../../game/assets/hero/hero_attack_ground/f002.png",
+        "../../game/assets/hero/hero_attack_ground/f003.png",
+        "../../game/assets/hero/hero_attack_ground/f004.png",
+        "../../game/assets/hero/hero_attack_ground/f005.png",
+        "../../game/assets/hero/hero_attack_ground/f006.png",
+        "../../game/assets/hero/hero_attack_ground/f007.png"
+      ],
+      "weapon": [
+        "../../game/assets/hero/whip_attack_ground/f000.png",
+        "../../game/assets/hero/whip_attack_ground/f001.png",
+        "../../game/assets/hero/whip_attack_ground/f002.png",
+        "../../game/assets/hero/whip_attack_ground/f003.png",
+        "../../game/assets/hero/whip_attack_ground/f004.png",
+        "../../game/assets/hero/whip_attack_ground/f005.png",
+        "../../game/assets/hero/whip_attack_ground/f006.png",
+        "../../game/assets/hero/whip_attack_ground/f007.png"
+      ],
+      "sockets": [
+        [
+          234,
+          337
+        ],
+        [
+          217,
+          241
+        ],
+        [
+          327,
+          275
+        ],
+        [
+          331,
+          280
+        ],
+        [
+          286,
+          338
+        ],
+        [
+          223,
+          345
+        ],
+        [
+          232,
+          343
+        ],
+        [
+          236,
+          340
+        ]
+      ],
+      "supplemental": false
+    },
+    {
+      "id": "hero_attack_air",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_attack_air/f000.png",
+        "../../game/assets/hero/hero_attack_air/f001.png",
+        "../../game/assets/hero/hero_attack_air/f002.png",
+        "../../game/assets/hero/hero_attack_air/f003.png",
+        "../../game/assets/hero/hero_attack_air/f004.png",
+        "../../game/assets/hero/hero_attack_air/f005.png",
+        "../../game/assets/hero/hero_attack_air/f006.png",
+        "../../game/assets/hero/hero_attack_air/f007.png"
+      ],
+      "weapon": [
+        "../../game/assets/hero/whip_attack_air/f000.png",
+        "../../game/assets/hero/whip_attack_air/f001.png",
+        "../../game/assets/hero/whip_attack_air/f002.png",
+        "../../game/assets/hero/whip_attack_air/f003.png",
+        "../../game/assets/hero/whip_attack_air/f004.png",
+        "../../game/assets/hero/whip_attack_air/f005.png",
+        "../../game/assets/hero/whip_attack_air/f006.png",
+        "../../game/assets/hero/whip_attack_air/f007.png"
+      ],
+      "sockets": [
+        [
+          234,
+          335
+        ],
+        [
+          207,
+          262
+        ],
+        [
+          323,
+          283
+        ],
+        [
+          323,
+          285
+        ],
+        [
+          271,
+          324
+        ],
+        [
+          270,
+          325
+        ],
+        [
+          236,
+          334
+        ],
+        [
+          234,
+          335
+        ]
+      ],
+      "supplemental": false
+    },
+    {
+      "id": "hero_attack_crouch",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_attack_crouch/f000.png",
+        "../../game/assets/hero/hero_attack_crouch/f001.png",
+        "../../game/assets/hero/hero_attack_crouch/f002.png",
+        "../../game/assets/hero/hero_attack_crouch/f003.png",
+        "../../game/assets/hero/hero_attack_crouch/f004.png",
+        "../../game/assets/hero/hero_attack_crouch/f005.png",
+        "../../game/assets/hero/hero_attack_crouch/f006.png",
+        "../../game/assets/hero/hero_attack_crouch/f007.png"
+      ],
+      "weapon": [
+        "../../game/assets/hero/whip_attack_crouch/f000.png",
+        "../../game/assets/hero/whip_attack_crouch/f001.png",
+        "../../game/assets/hero/whip_attack_crouch/f002.png",
+        "../../game/assets/hero/whip_attack_crouch/f003.png",
+        "../../game/assets/hero/whip_attack_crouch/f004.png",
+        "../../game/assets/hero/whip_attack_crouch/f005.png",
+        "../../game/assets/hero/whip_attack_crouch/f006.png",
+        "../../game/assets/hero/whip_attack_crouch/f007.png"
+      ],
+      "sockets": [
+        [
+          228,
+          403
+        ],
+        [
+          222,
+          323
+        ],
+        [
+          337,
+          355
+        ],
+        [
+          337,
+          358
+        ],
+        [
+          273,
+          386
+        ],
+        [
+          273,
+          390
+        ],
+        [
+          236,
+          401
+        ],
+        [
+          228,
+          403
+        ]
+      ],
+      "supplemental": false
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_hurt_recoil/f000.png",
+        "../../game/assets/hero/hero_hurt_recoil/f001.png",
+        "../../game/assets/hero/hero_hurt_recoil/f002.png",
+        "../../game/assets/hero/hero_hurt_recoil/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_knockback",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_knockback/f000.png",
+        "../../game/assets/hero/hero_knockback/f001.png",
+        "../../game/assets/hero/hero_knockback/f002.png",
+        "../../game/assets/hero/hero_knockback/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_knockdown",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_knockdown/f000.png",
+        "../../game/assets/hero/hero_knockdown/f001.png",
+        "../../game/assets/hero/hero_knockdown/f002.png",
+        "../../game/assets/hero/hero_knockdown/f003.png",
+        "../../game/assets/hero/hero_knockdown/f004.png",
+        "../../game/assets/hero/hero_knockdown/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_get_up",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_get_up/f000.png",
+        "../../game/assets/hero/hero_get_up/f001.png",
+        "../../game/assets/hero/hero_get_up/f002.png",
+        "../../game/assets/hero/hero_get_up/f003.png",
+        "../../game/assets/hero/hero_get_up/f004.png",
+        "../../game/assets/hero/hero_get_up/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "hero_death",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/hero_death/f000.png",
+        "../../game/assets/hero/hero_death/f001.png",
+        "../../game/assets/hero/hero_death/f002.png",
+        "../../game/assets/hero/hero_death/f003.png",
+        "../../game/assets/hero/hero_death/f004.png",
+        "../../game/assets/hero/hero_death/f005.png",
+        "../../game/assets/hero/hero_death/f006.png",
+        "../../game/assets/hero/hero_death/f007.png",
+        "../../game/assets/hero/hero_death/f008.png",
+        "../../game/assets/hero/hero_death/f009.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "whip_attack_ground",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        768,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/whip_attack_ground/f000.png",
+        "../../game/assets/hero/whip_attack_ground/f001.png",
+        "../../game/assets/hero/whip_attack_ground/f002.png",
+        "../../game/assets/hero/whip_attack_ground/f003.png",
+        "../../game/assets/hero/whip_attack_ground/f004.png",
+        "../../game/assets/hero/whip_attack_ground/f005.png",
+        "../../game/assets/hero/whip_attack_ground/f006.png",
+        "../../game/assets/hero/whip_attack_ground/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "whip_attack_air",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        768,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/whip_attack_air/f000.png",
+        "../../game/assets/hero/whip_attack_air/f001.png",
+        "../../game/assets/hero/whip_attack_air/f002.png",
+        "../../game/assets/hero/whip_attack_air/f003.png",
+        "../../game/assets/hero/whip_attack_air/f004.png",
+        "../../game/assets/hero/whip_attack_air/f005.png",
+        "../../game/assets/hero/whip_attack_air/f006.png",
+        "../../game/assets/hero/whip_attack_air/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "whip_attack_crouch",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "canvas": [
+        768,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "frames": [
+        "../../game/assets/hero/whip_attack_crouch/f000.png",
+        "../../game/assets/hero/whip_attack_crouch/f001.png",
+        "../../game/assets/hero/whip_attack_crouch/f002.png",
+        "../../game/assets/hero/whip_attack_crouch/f003.png",
+        "../../game/assets/hero/whip_attack_crouch/f004.png",
+        "../../game/assets/hero/whip_attack_crouch/f005.png",
+        "../../game/assets/hero/whip_attack_crouch/f006.png",
+        "../../game/assets/hero/whip_attack_crouch/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_idle",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_idle/f000.png",
+        "../../game/assets/pursuer/pursuer_idle/f001.png",
+        "../../game/assets/pursuer/pursuer_idle/f002.png",
+        "../../game/assets/pursuer/pursuer_idle/f003.png",
+        "../../game/assets/pursuer/pursuer_idle/f004.png",
+        "../../game/assets/pursuer/pursuer_idle/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "runtime_rate": 1,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_patrol_walk/f000.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f001.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f002.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f003.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f004.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f005.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f006.png",
+        "../../game/assets/pursuer/pursuer_patrol_walk/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_alert",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_alert/f000.png",
+        "../../game/assets/pursuer/pursuer_alert/f001.png",
+        "../../game/assets/pursuer/pursuer_alert/f002.png",
+        "../../game/assets/pursuer/pursuer_alert/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "runtime_rate": 1.2962962962962963,
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_approach_walk/f000.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f001.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f002.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f003.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f004.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f005.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f006.png",
+        "../../game/assets/pursuer/pursuer_approach_walk/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "runtime_rate": 1,
+      "ms": [
+        100,
+        100,
+        75,
+        75
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_lunge_windup/f000.png",
+        "../../game/assets/pursuer/pursuer_lunge_windup/f001.png",
+        "../../game/assets/pursuer/pursuer_lunge_windup/f002.png",
+        "../../game/assets/pursuer/pursuer_lunge_windup/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_lunge",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_lunge/f000.png",
+        "../../game/assets/pursuer/pursuer_lunge/f001.png",
+        "../../game/assets/pursuer/pursuer_lunge/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_recovery",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_recovery/f000.png",
+        "../../game/assets/pursuer/pursuer_recovery/f001.png",
+        "../../game/assets/pursuer/pursuer_recovery/f002.png",
+        "../../game/assets/pursuer/pursuer_recovery/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_hurt",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_hurt/f000.png",
+        "../../game/assets/pursuer/pursuer_hurt/f001.png",
+        "../../game/assets/pursuer/pursuer_hurt/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "pursuer_death",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "frames": [
+        "../../game/assets/pursuer/pursuer_death/f000.png",
+        "../../game/assets/pursuer/pursuer_death/f001.png",
+        "../../game/assets/pursuer/pursuer_death/f002.png",
+        "../../game/assets/pursuer/pursuer_death/f003.png",
+        "../../game/assets/pursuer/pursuer_death/f004.png",
+        "../../game/assets/pursuer/pursuer_death/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_perch_idle",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_perch_idle/f000.png",
+        "../../game/assets/swooper/swooper_perch_idle/f001.png",
+        "../../game/assets/swooper/swooper_perch_idle/f002.png",
+        "../../game/assets/swooper/swooper_perch_idle/f003.png",
+        "../../game/assets/swooper/swooper_perch_idle/f004.png",
+        "../../game/assets/swooper/swooper_perch_idle/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_cruise",
+      "runtime_rate": 1,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_cruise/f000.png",
+        "../../game/assets/swooper/swooper_cruise/f001.png",
+        "../../game/assets/swooper/swooper_cruise/f002.png",
+        "../../game/assets/swooper/swooper_cruise/f003.png",
+        "../../game/assets/swooper/swooper_cruise/f004.png",
+        "../../game/assets/swooper/swooper_cruise/f005.png",
+        "../../game/assets/swooper/swooper_cruise/f006.png",
+        "../../game/assets/swooper/swooper_cruise/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_dive_telegraph/f000.png",
+        "../../game/assets/swooper/swooper_dive_telegraph/f001.png",
+        "../../game/assets/swooper/swooper_dive_telegraph/f002.png",
+        "../../game/assets/swooper/swooper_dive_telegraph/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_dive",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_dive/f000.png",
+        "../../game/assets/swooper/swooper_dive/f001.png",
+        "../../game/assets/swooper/swooper_dive/f002.png",
+        "../../game/assets/swooper/swooper_dive/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_recovery_climb/f000.png",
+        "../../game/assets/swooper/swooper_recovery_climb/f001.png",
+        "../../game/assets/swooper/swooper_recovery_climb/f002.png",
+        "../../game/assets/swooper/swooper_recovery_climb/f003.png",
+        "../../game/assets/swooper/swooper_recovery_climb/f004.png",
+        "../../game/assets/swooper/swooper_recovery_climb/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_hurt",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_hurt/f000.png",
+        "../../game/assets/swooper/swooper_hurt/f001.png",
+        "../../game/assets/swooper/swooper_hurt/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "swooper_death_fall",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "frames": [
+        "../../game/assets/swooper/swooper_death_fall/f000.png",
+        "../../game/assets/swooper/swooper_death_fall/f001.png",
+        "../../game/assets/swooper/swooper_death_fall/f002.png",
+        "../../game/assets/swooper/swooper_death_fall/f003.png",
+        "../../game/assets/swooper/swooper_death_fall/f004.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_idle",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_idle/f000.png",
+        "../../game/assets/ranged/ranged_idle/f001.png",
+        "../../game/assets/ranged/ranged_idle/f002.png",
+        "../../game/assets/ranged/ranged_idle/f003.png",
+        "../../game/assets/ranged/ranged_idle/f004.png",
+        "../../game/assets/ranged/ranged_idle/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_aim",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_aim/f000.png",
+        "../../game/assets/ranged/ranged_aim/f001.png",
+        "../../game/assets/ranged/ranged_aim/f002.png",
+        "../../game/assets/ranged/ranged_aim/f003.png",
+        "../../game/assets/ranged/ranged_aim/f004.png",
+        "../../game/assets/ranged/ranged_aim/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_fire",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        100
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_fire/f000.png",
+        "../../game/assets/ranged/ranged_fire/f001.png",
+        "../../game/assets/ranged/ranged_fire/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_recover",
+      "runtime_rate": 1,
+      "ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_recover/f000.png",
+        "../../game/assets/ranged/ranged_recover/f001.png",
+        "../../game/assets/ranged/ranged_recover/f002.png",
+        "../../game/assets/ranged/ranged_recover/f003.png",
+        "../../game/assets/ranged/ranged_recover/f004.png",
+        "../../game/assets/ranged/ranged_recover/f005.png",
+        "../../game/assets/ranged/ranged_recover/f006.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_hurt",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_hurt/f000.png",
+        "../../game/assets/ranged/ranged_hurt/f001.png",
+        "../../game/assets/ranged/ranged_hurt/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "ranged_death",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "frames": [
+        "../../game/assets/ranged/ranged_death/f000.png",
+        "../../game/assets/ranged/ranged_death/f001.png",
+        "../../game/assets/ranged/ranged_death/f002.png",
+        "../../game/assets/ranged/ranged_death/f003.png",
+        "../../game/assets/ranged/ranged_death/f004.png",
+        "../../game/assets/ranged/ranged_death/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_idle",
+      "runtime_rate": 1,
+      "ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_idle/f000.png",
+        "../../game/assets/boss/boss_idle/f001.png",
+        "../../game/assets/boss/boss_idle/f002.png",
+        "../../game/assets/boss/boss_idle/f003.png",
+        "../../game/assets/boss/boss_idle/f004.png",
+        "../../game/assets/boss/boss_idle/f005.png",
+        "../../game/assets/boss/boss_idle/f006.png",
+        "../../game/assets/boss/boss_idle/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_walk",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_walk/f000.png",
+        "../../game/assets/boss/boss_walk/f001.png",
+        "../../game/assets/boss/boss_walk/f002.png",
+        "../../game/assets/boss/boss_walk/f003.png",
+        "../../game/assets/boss/boss_walk/f004.png",
+        "../../game/assets/boss/boss_walk/f005.png",
+        "../../game/assets/boss/boss_walk/f006.png",
+        "../../game/assets/boss/boss_walk/f007.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_turn",
+      "runtime_rate": 1,
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_turn/f000.png",
+        "../../game/assets/boss/boss_turn/f001.png",
+        "../../game/assets/boss/boss_turn/f002.png",
+        "../../game/assets/boss/boss_turn/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_strike_windup",
+      "runtime_rate": 1,
+      "ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_strike_windup/f000.png",
+        "../../game/assets/boss/boss_strike_windup/f001.png",
+        "../../game/assets/boss/boss_strike_windup/f002.png",
+        "../../game/assets/boss/boss_strike_windup/f003.png",
+        "../../game/assets/boss/boss_strike_windup/f004.png",
+        "../../game/assets/boss/boss_strike_windup/f005.png",
+        "../../game/assets/boss/boss_strike_windup/f006.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_strike_execute",
+      "runtime_rate": 1,
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_strike_execute/f000.png",
+        "../../game/assets/boss/boss_strike_execute/f001.png",
+        "../../game/assets/boss/boss_strike_execute/f002.png",
+        "../../game/assets/boss/boss_strike_execute/f003.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_strike_recover",
+      "runtime_rate": 1,
+      "ms": [
+        200,
+        200,
+        200,
+        200,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_strike_recover/f000.png",
+        "../../game/assets/boss/boss_strike_recover/f001.png",
+        "../../game/assets/boss/boss_strike_recover/f002.png",
+        "../../game/assets/boss/boss_strike_recover/f003.png",
+        "../../game/assets/boss/boss_strike_recover/f004.png",
+        "../../game/assets/boss/boss_strike_recover/f005.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_hazard_windup",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_hazard_execute",
+      "runtime_rate": 1,
+      "ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_hazard_recover",
+      "runtime_rate": 1,
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_hurt",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_hurt/f000.png",
+        "../../game/assets/boss/boss_hurt/f001.png",
+        "../../game/assets/boss/boss_hurt/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_death",
+      "runtime_rate": 1,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "projectile_grave_shot",
+      "runtime_rate": 1,
+      "ms": [
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "canvas": [
+        64,
+        64
+      ],
+      "pivot": [
+        32,
+        32
+      ],
+      "frames": [
+        "../../game/assets/vfx/projectile_grave_shot/f000.png",
+        "../../game/assets/vfx/projectile_grave_shot/f001.png",
+        "../../game/assets/vfx/projectile_grave_shot/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "vfx_whip_impact",
+      "runtime_rate": 1,
+      "ms": [
+        40,
+        40,
+        40,
+        50,
+        50,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        192,
+        192
+      ],
+      "pivot": [
+        96,
+        96
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        256
+      ],
+      "pivot": [
+        128,
+        128
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "runtime_rate": 1,
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": false,
+      "canvas": [
+        256,
+        384
+      ],
+      "pivot": [
+        128,
+        352
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "runtime_rate": 1,
+      "ms": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        128
+      ],
+      "pivot": [
+        160,
+        112
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "runtime_rate": 1,
+      "ms": [
+        60,
+        60,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "canvas": [
+        320,
+        192
+      ],
+      "pivot": [
+        160,
+        176
+      ],
+      "frames": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": false
+    },
+    {
+      "id": "boss_hurt_stooped",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_hurt_stooped/f000.png",
+        "../../game/assets/boss/boss_hurt_stooped/f001.png",
+        "../../game/assets/boss/boss_hurt_stooped/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": true
+    },
+    {
+      "id": "boss_hurt_rising",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_hurt_rising/f000.png",
+        "../../game/assets/boss/boss_hurt_rising/f001.png",
+        "../../game/assets/boss/boss_hurt_rising/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": true
+    },
+    {
+      "id": "boss_hurt_half_stoop",
+      "runtime_rate": 1,
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "frames": [
+        "../../game/assets/boss/boss_hurt_half_stoop/f000.png",
+        "../../game/assets/boss/boss_hurt_half_stoop/f001.png",
+        "../../game/assets/boss/boss_hurt_half_stoop/f002.png"
+      ],
+      "weapon": null,
+      "sockets": null,
+      "supplemental": true
+    }
+  ]
+}
