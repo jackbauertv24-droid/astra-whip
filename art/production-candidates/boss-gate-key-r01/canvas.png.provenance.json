@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/boss-gate-key-r01/raw.png",
+  "source_canvas": [
+    793,
+    1983
+  ],
+  "export_canvas": [
+    128,
+    320
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

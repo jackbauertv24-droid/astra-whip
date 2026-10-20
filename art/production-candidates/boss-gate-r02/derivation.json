@@ -1,0 +1,44 @@
+{
+  "kind": "generated_key",
+  "source": [
+    "art/production-candidates/boss-gate-r01/f000.png",
+    "art/production-candidates/boss-gate-ornaments-r02/canvas.png",
+    "art/production-candidates/boss-gate-ornaments-r02/raw.png",
+    "art/production-candidates/boss-gate-ornaments-r02/prompt.txt",
+    "tools/prepare-boss-gate-r02.mjs"
+  ],
+  "method": "Two local generated blind-arch patches only, copied from uniformly converted edit into original panel at its existing integer registration(+1,0). All pixels outside these two rectangles retained exactly. No global resize, shape warp or opacity change.",
+  "source_patch_rectangles": [
+    [
+      23,
+      55,
+      18,
+      24
+    ],
+    [
+      87,
+      55,
+      18,
+      24
+    ]
+  ],
+  "delivery_patch_rectangles": [
+    [
+      24,
+      55,
+      18,
+      24
+    ],
+    [
+      88,
+      55,
+      18,
+      24
+    ]
+  ],
+  "changed_pixels": 861,
+  "removed_low_alpha_pixels": 2,
+  "corrective_normalization": 1,
+  "debris_removed": 0,
+  "visual_approval": false
+}

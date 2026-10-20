@@ -1,0 +1,6 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL boss gate: close is a slide
+FAIL boss gate: closed presentation settles
+FAIL boss gate: unlock raises visible gate
+RESULT boss gate: 20 checks, 3 failures

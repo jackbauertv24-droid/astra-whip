@@ -1,0 +1,47 @@
+{
+  "samples": 14,
+  "pages": 7,
+  "changed_pixels": 0,
+  "maximum_difference": 0,
+  "exact": true,
+  "tolerance": "At most one pixel, at most one 8-bit channel value across the complete fixture; raw RGBA roundtrip remains exact",
+  "pass": true,
+  "visual_approval": false,
+  "details": [
+    {
+      "file": "slice-000.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-125.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-250.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-500.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-750.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-875.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    },
+    {
+      "file": "slice-1000.png",
+      "changed_pixels": 0,
+      "maximum_difference": 0
+    }
+  ]
+}

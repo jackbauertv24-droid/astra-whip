@@ -35,6 +35,10 @@ var rotate_prompt: Label
 var rotate_back: Panel
 var pause_button: Button
 var gates: Array = []
+var gate_texture: Texture2D
+var gate_spec: Dictionary
+var gate_open_fraction=1.0
+var gate_target_open=1.0
 var effigy_texture: Texture2D
 var effigy_spec: Dictionary
 var effigy = true
@@ -65,6 +69,8 @@ func projectile_frame_at(age: float) -> int:
 func _ready() -> void:
  load_projectile_art()
  var static_art:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
+ gate_spec=static_art.prop_boss_gate
+ gate_texture=PackedArt.texture("res://assets/props/prop_boss_gate/f000.png")
  checkpoint_spec=static_art.prop_checkpoint
  effigy_spec=static_art.prop_effigy
  effigy_texture=PackedArt.texture("res://assets/props/prop_effigy/f000.png")
@@ -124,6 +130,7 @@ func build_enemies() -> void:
   add_child(foe)
   foes.append(foe)
 func set_gate(enabled: bool) -> void:
+ gate_target_open=0.0 if enabled else 1.0
  for gate in gates:
   gate.node.collision_layer = 1 if enabled else 0
   if enabled and not gate in surfaces: surfaces.append(gate)
@@ -141,6 +148,7 @@ func restart() -> void:
  defeat_layer.clear()
  checkpoint_layer.clear()
  effigy = true
+ gate_open_fraction=1.0
  set_gate(false)
  hero.reset_at(respawn)
  build_enemies()
@@ -214,6 +222,8 @@ func step(dt: float) -> void:
   arena_active = true
   set_gate(true)
  if exit_unlocked: set_gate(false)
+ gate_open_fraction=move_toward(gate_open_fraction,gate_target_open,dt/(float(gate_spec.slide_ms)/1000.0))
+ if is_equal_approx(gate_open_fraction,gate_target_open): gate_open_fraction=gate_target_open
  if exit_unlocked and hero.position.x > 6600:
   complete = true
   hero.controls.clear()
@@ -442,6 +452,7 @@ func _draw() -> void:
  for i in range(-1, 3):
   draw_texture_rect(backdrop,Rect2(background_x + i * 1280,0,1280,720),false)
  for surface in surfaces:
+  if surface in gates: continue
   draw_rect(surface.rect, Color("4c5866"))
   if surface.rect.size.x >= 64:
    for x in range(int(surface.rect.position.x),int(surface.rect.end.x),64):
@@ -451,6 +462,14 @@ func _draw() -> void:
      var source_y = 0 if y == int(surface.rect.position.y) else 128
      draw_texture_rect_region(masonry,Rect2(x,y,64,height),Rect2(128,source_y,128,height*2))
   draw_line(surface.rect.position,surface.rect.position+Vector2(surface.rect.size.x,0),Color("77838f"),3)
+ if gate_open_fraction<1.0:
+  var gate_size=Vector2(gate_spec.canvas[0],gate_spec.canvas[1])
+  var gate_anchor=Vector2(gate_spec.anchor[0],gate_spec.anchor[1])
+  var hidden=gate_size.y*gate_open_fraction
+  var shown=Vector2(gate_size.x,gate_size.y-hidden)
+  for gate in gates:
+   var base=Vector2(gate.rect.get_center().x,Rules.GROUND)
+   draw_texture_rect_region(gate_texture,Rect2(base-gate_anchor*.5,shown*.5),Rect2(Vector2(0,hidden),shown))
  var marker_anchor=Vector2(checkpoint_spec.anchor[0],checkpoint_spec.anchor[1])
  var marker_size=Vector2(checkpoint_spec.canvas[0],checkpoint_spec.canvas[1])
  draw_texture_rect(checkpoint_frames[1 if checkpoint else 0],Rect2(Vector2(4128,Rules.GROUND)-marker_anchor*.5,marker_size*.5),false)

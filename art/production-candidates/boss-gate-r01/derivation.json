@@ -1,0 +1,24 @@
+{
+  "kind": "generated_key",
+  "source": [
+    "art/production-candidates/boss-gate-key-r01/raw.png",
+    "art/production-candidates/boss-gate-key-r01/canvas.png",
+    "art/production-candidates/boss-gate-key-r01/prompt.txt",
+    "tools/prepare-boss-gate.mjs"
+  ],
+  "method": "Uniform full-canvas resolution conversion followed by integer ink-centre/base registration. No scaling or deformation. Remove only alpha<=8 extraction remnants.",
+  "source_ink_bbox": [
+    10,
+    25,
+    117,
+    288
+  ],
+  "translation": [
+    1,
+    0
+  ],
+  "corrective_normalization": 1,
+  "removed_low_alpha_pixels": 1916,
+  "debris_removed": 0,
+  "visual_approval": false
+}

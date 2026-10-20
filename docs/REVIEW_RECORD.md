@@ -339,3 +339,13 @@ Fresh independent `/root/effigy_review_r01`: full verdict `art/review-effigy-r01
 | prop_effigy | PASS | None | None required |
 
 Single delivered frame, five style references and36actual native/phone PNGs inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS, limited to this prop.
+
+## Implementation boss gates —2026-10-20
+
+Initial fresh r01 reviewer FAILED two cross-shaped spandrel ornaments (ART_BIBLE §5); only those two local patches were changed. Fresh `/root/boss_gate_review_r02` full verdict: `art/review-boss-gate-r02/review_verdict.md`.
+
+| Clip | Result | Failing frames | Correction |
+|---|---|---|---|
+| prop_boss_gate | PASS | None | None required after r02 local ornament edit |
+
+Delivered panel, five style references and38actual native/phone images inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS for this prop/presentation only.

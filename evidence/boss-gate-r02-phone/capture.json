@@ -1,0 +1,435 @@
+{
+ "actual_hits": [
+  7,
+  6,
+  5,
+  4,
+  3,
+  2,
+  1,
+  0
+ ],
+ "fixture": "isolated standing boss contacts, production8HP; actual entry/block/unlock/pass",
+ "physical_device": false,
+ "samples": [
+  {
+   "arena_active": false,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": false,
+   "file": "before-entry.png",
+   "hero_position": [
+    5650.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 1.0,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "closing-04.png",
+   "hero_position": [
+    5656.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.966666666666667,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "closing-03.png",
+   "hero_position": [
+    5656.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.866666666666667,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "closing-02.png",
+   "hero_position": [
+    5656.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.6,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "closing-01.png",
+   "hero_position": [
+    5656.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.366666666666667,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "closing-00.png",
+   "hero_position": [
+    5656.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.1,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "blocked-left.png",
+   "hero_position": [
+    5632.07373046875,
+    559.924682617188
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.0,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "blocked-right.png",
+   "hero_position": [
+    6507.92626953125,
+    559.924682617188
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.0,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.075,
+   "boss_hp": 0,
+   "collision_layers": [
+    1,
+    1
+   ],
+   "exit_unlocked": false,
+   "file": "before-unlock.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.0,
+   "paused": false,
+   "target_open": 0.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.08333333333333,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "opening-00.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.0333333333333333,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.10833333333333,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "opening-01.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.133333333333333,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.175,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "opening-02.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.4,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.175,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "paused-opening.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.4,
+   "paused": true,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.23333333333333,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "opening-03.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.633333333333333,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.3,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "opening-04.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 0.9,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.325,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "fully-open.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 1.0,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 1.825,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "passed-left.png",
+   "hero_position": [
+    5560.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 1.0,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": true,
+   "boss_death_elapsed": 2.32499999999999,
+   "boss_hp": 0,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": true,
+   "file": "passed-right.png",
+   "hero_position": [
+    6580.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 1.0,
+   "paused": false,
+   "target_open": 1.0
+  },
+  {
+   "arena_active": false,
+   "boss_death_elapsed": -1.0,
+   "boss_hp": 8,
+   "collision_layers": [
+    0,
+    0
+   ],
+   "exit_unlocked": false,
+   "file": "restart-raised.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "open_fraction": 1.0,
+   "paused": false,
+   "target_open": 1.0
+  }
+ ],
+ "viewport": "(852, 393)"
+}

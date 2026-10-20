@@ -1,0 +1,5443 @@
+{
+  "pages": [
+    {
+      "entries": [
+        {
+          "elapsed": 0.0625,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0625,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.3125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.3125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_idle",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-000.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.4375,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.4375,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.5625,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.5625,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.6875,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.6875,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_idle",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-001.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.8125,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.8125,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.9375,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.9375,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_walk",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-002.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_walk",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-003.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.36,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.52,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.52,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_walk",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-004.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.6,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.6,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.68,
+          "facing": 1,
+          "frame": 8,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.68,
+          "facing": -1,
+          "frame": 8,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.76,
+          "facing": 1,
+          "frame": 9,
+          "id": "hero_walk",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.76,
+          "facing": -1,
+          "frame": 9,
+          "id": "hero_walk",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-005.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_start_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_start_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_start_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_start_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_start_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_start_move",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-006.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_stop_move",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-007.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_turn",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_turn",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_turn",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_turn",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_turn",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_turn",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-008.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-009.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_crouch_enter",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-010.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-011.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_crouch_idle",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-012.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_crouch_exit",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.02,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.02,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-013.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.06,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.06,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_jump_takeoff",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-014.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.21,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.21,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_jump_rise",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-015.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_jump_apex",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-016.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.05,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_fall",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-017.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.35,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.35,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_fall",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.02,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.02,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.06,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.06,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_land",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-018.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.1,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.14,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.14,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_land",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-019.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-020.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.28125,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28125,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.34375,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.34375,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.40625,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.40625,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-021.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.46875,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.46875,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_attack_ground",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-022.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28125,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28125,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-023.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.34375,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.34375,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.40625,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.40625,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.46875,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.46875,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_attack_air",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-024.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-025.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28125,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28125,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.34375,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.34375,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-026.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.40625,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.40625,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.46875,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.46875,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_attack_crouch",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-027.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_hurt_recoil",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-028.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_knockback",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-029.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.2625,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_knockback",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-030.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.21,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.21,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.27,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.27,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-031.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.33,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.33,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_knockdown",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_get_up",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-032.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.3375,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.3375,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_get_up",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-033.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.4125,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.4125,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_get_up",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "hero_death",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-034.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": 1,
+          "frame": 3,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": -1,
+          "frame": 3,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": 1,
+          "frame": 4,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": -1,
+          "frame": 4,
+          "id": "hero_death",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-035.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.44,
+          "facing": 1,
+          "frame": 5,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": -1,
+          "frame": 5,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.52,
+          "facing": 1,
+          "frame": 6,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.52,
+          "facing": -1,
+          "frame": 6,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.6,
+          "facing": 1,
+          "frame": 7,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.6,
+          "facing": -1,
+          "frame": 7,
+          "id": "hero_death",
+          "kind": "hero"
+        }
+      ],
+      "file": "page-036.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.68,
+          "facing": 1,
+          "frame": 8,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.68,
+          "facing": -1,
+          "frame": 8,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.76,
+          "facing": 1,
+          "frame": 9,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.76,
+          "facing": -1,
+          "frame": 9,
+          "id": "hero_death",
+          "kind": "hero"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-037.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-038.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "pursuer_idle",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.045,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.045,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-039.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.135,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.135,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-040.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.405,
+          "facing": 1,
+          "frame": 4,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.405,
+          "facing": -1,
+          "frame": 4,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": 1,
+          "frame": 5,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": -1,
+          "frame": 5,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.585,
+          "facing": 1,
+          "frame": 6,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.585,
+          "facing": -1,
+          "frame": 6,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-041.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 7,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 7,
+          "id": "pursuer_patrol_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-042.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_alert",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-043.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.245,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.245,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-044.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.315,
+          "facing": 1,
+          "frame": 4,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": -1,
+          "frame": 4,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.385,
+          "facing": 1,
+          "frame": 5,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.385,
+          "facing": -1,
+          "frame": 5,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.455,
+          "facing": 1,
+          "frame": 6,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.455,
+          "facing": -1,
+          "frame": 6,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-045.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 7,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 7,
+          "id": "pursuer_approach_walk",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-046.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.2375,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2375,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.3125,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.3125,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_lunge_windup",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-047.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_lunge",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-048.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_recovery",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-049.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_hurt",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-050.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-051.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.28,
+          "facing": 1,
+          "frame": 3,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": -1,
+          "frame": 3,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": 1,
+          "frame": 4,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": -1,
+          "frame": 4,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": 1,
+          "frame": 5,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": -1,
+          "frame": 5,
+          "id": "pursuer_death",
+          "kind": "pursuer"
+        }
+      ],
+      "file": "page-052.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-053.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "swooper_perch_idle",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-054.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.045,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.045,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.135,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.135,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-055.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.315,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.405,
+          "facing": 1,
+          "frame": 4,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.405,
+          "facing": -1,
+          "frame": 4,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": 1,
+          "frame": 5,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": -1,
+          "frame": 5,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-056.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.585,
+          "facing": 1,
+          "frame": 6,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.585,
+          "facing": -1,
+          "frame": 6,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 7,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 7,
+          "id": "swooper_cruise",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-057.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_dive_telegraph",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-058.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-059.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.21,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.21,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_dive",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-060.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-061.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "swooper_recovery_climb",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-062.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_hurt",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-063.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 2,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 2,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.245,
+          "facing": 1,
+          "frame": 3,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.245,
+          "facing": -1,
+          "frame": 3,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": 1,
+          "frame": 4,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": -1,
+          "frame": 4,
+          "id": "swooper_death_fall",
+          "kind": "swooper"
+        }
+      ],
+      "file": "page-064.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-065.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "ranged_idle",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-066.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-067.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "ranged_aim",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-068.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_fire",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-069.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.05,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-070.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.35,
+          "facing": 1,
+          "frame": 3,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.35,
+          "facing": -1,
+          "frame": 3,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.45,
+          "facing": 1,
+          "frame": 4,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.45,
+          "facing": -1,
+          "frame": 4,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.55,
+          "facing": 1,
+          "frame": 5,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.55,
+          "facing": -1,
+          "frame": 5,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-071.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.65,
+          "facing": 1,
+          "frame": 6,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.65,
+          "facing": -1,
+          "frame": 6,
+          "id": "ranged_recover",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.03,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.09,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-072.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_hurt",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "ranged_death",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-073.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": 1,
+          "frame": 3,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": -1,
+          "frame": 3,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": 1,
+          "frame": 4,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": -1,
+          "frame": 4,
+          "id": "ranged_death",
+          "kind": "ranged"
+        }
+      ],
+      "file": "page-074.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.44,
+          "facing": 1,
+          "frame": 5,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": -1,
+          "frame": 5,
+          "id": "ranged_death",
+          "kind": "ranged"
+        },
+        {
+          "elapsed": 0.0625,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.0625,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_idle",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-075.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.3125,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.3125,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.4375,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.4375,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.5625,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.5625,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_idle",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-076.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.6875,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.6875,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.8125,
+          "facing": 1,
+          "frame": 6,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.8125,
+          "facing": -1,
+          "frame": 6,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.9375,
+          "facing": 1,
+          "frame": 7,
+          "id": "boss_idle",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.9375,
+          "facing": -1,
+          "frame": 7,
+          "id": "boss_idle",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-077.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.04,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.04,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.12,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.2,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_walk",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-078.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.28,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.28,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.36,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.44,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_walk",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-079.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.52,
+          "facing": 1,
+          "frame": 6,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.52,
+          "facing": -1,
+          "frame": 6,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.6,
+          "facing": 1,
+          "frame": 7,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.6,
+          "facing": -1,
+          "frame": 7,
+          "id": "boss_walk",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.0375,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_turn",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-080.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.1125,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1125,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1875,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_turn",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.2625,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_turn",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-081.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.05,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-082.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.35,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.35,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.45,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.45,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.55,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.55,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-083.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.65,
+          "facing": 1,
+          "frame": 6,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.65,
+          "facing": -1,
+          "frame": 6,
+          "id": "boss_strike_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.025,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-084.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.125,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.125,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.175,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_strike_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.1,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-085.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.3,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.3,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.5,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.5,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.7,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.7,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-086.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.875,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.875,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 1.025,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 1.025,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_strike_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-087.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-088.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.975,
+          "facing": 1,
+          "frame": 6,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.975,
+          "facing": -1,
+          "frame": 6,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-089.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 1.125,
+          "facing": 1,
+          "frame": 7,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 1.125,
+          "facing": -1,
+          "frame": 7,
+          "id": "boss_hazard_windup",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.05,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.15,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-090.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.25,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.25,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.35,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.35,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_hazard_execute",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.075,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-091.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.375,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.525,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-092.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.825,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_hazard_recover",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hurt",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hurt",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-093.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hurt",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hurt",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hurt",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hurt",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.045,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.045,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_death",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-094.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.135,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.135,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.225,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": 1,
+          "frame": 3,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.315,
+          "facing": -1,
+          "frame": 3,
+          "id": "boss_death",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-095.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.405,
+          "facing": 1,
+          "frame": 4,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.405,
+          "facing": -1,
+          "frame": 4,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": 1,
+          "frame": 5,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.495,
+          "facing": -1,
+          "frame": 5,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.585,
+          "facing": 1,
+          "frame": 6,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.585,
+          "facing": -1,
+          "frame": 6,
+          "id": "boss_death",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-096.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.675,
+          "facing": 1,
+          "frame": 7,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.675,
+          "facing": -1,
+          "frame": 7,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.765,
+          "facing": 1,
+          "frame": 8,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.765,
+          "facing": -1,
+          "frame": 8,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.855,
+          "facing": 1,
+          "frame": 9,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.855,
+          "facing": -1,
+          "frame": 9,
+          "id": "boss_death",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-097.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.945,
+          "facing": 1,
+          "frame": 10,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.945,
+          "facing": -1,
+          "frame": 10,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 1.035,
+          "facing": 1,
+          "frame": 11,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 1.035,
+          "facing": -1,
+          "frame": 11,
+          "id": "boss_death",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-098.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hurt_stooped",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-099.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hurt_rising",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-100.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hurt_half_stoop",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": 1,
+          "frame": 0,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.035,
+          "facing": -1,
+          "frame": 0,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        }
+      ],
+      "file": "page-101.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.105,
+          "facing": 1,
+          "frame": 1,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.105,
+          "facing": -1,
+          "frame": 1,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": 1,
+          "frame": 2,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.17,
+          "facing": -1,
+          "frame": 2,
+          "id": "boss_hurt_hazard_late",
+          "kind": "boss"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-102.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "projectile_grave_shot",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-103.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 3,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 3,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-104.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 4,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 4,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 5,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 5,
+          "id": "vfx_whip_impact",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-105.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 3,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 3,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-106.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 4,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 4,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 5,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 5,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 6,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 6,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-107.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 7,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 7,
+          "id": "vfx_enemy_defeat",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-108.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 3,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 3,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 4,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 4,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-109.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 5,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 5,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 6,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 6,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 7,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 7,
+          "id": "vfx_checkpoint_activate",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-110.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-111.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 3,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 3,
+          "id": "vfx_hazard_telegraph",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-112.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 2,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 2,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 3,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 3,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 4,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 4,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        }
+      ],
+      "file": "page-113.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 5,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 5,
+          "id": "vfx_hazard_eruption",
+          "kind": "vfx"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "prop_checkpoint",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "prop_checkpoint",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 1,
+          "id": "prop_checkpoint",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 1,
+          "id": "prop_checkpoint",
+          "kind": "static"
+        }
+      ],
+      "file": "page-114.png"
+    },
+    {
+      "entries": [
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "prop_effigy",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "prop_effigy",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": 1,
+          "frame": 0,
+          "id": "prop_boss_gate",
+          "kind": "static"
+        },
+        {
+          "elapsed": 0.0,
+          "facing": -1,
+          "frame": 0,
+          "id": "prop_boss_gate",
+          "kind": "static"
+        }
+      ],
+      "file": "page-115.png"
+    }
+  ],
+  "samples": 694
+}

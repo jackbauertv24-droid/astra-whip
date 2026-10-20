@@ -31,5 +31,22 @@
       "intact"
     ],
     "brief": "ASSET_BRIEFS §9"
+  },
+  "prop_boss_gate": {
+    "category": "props",
+    "canvas": [
+      128,
+      320
+    ],
+    "anchor": [
+      64,
+      288
+    ],
+    "frames": 1,
+    "states": [
+      "panel"
+    ],
+    "slide_ms": 250,
+    "brief": "ASSET_BRIEFS §9;250ms presentation cadence is implementation choice"
   }
 }

@@ -6,7 +6,7 @@ mkdir -p evidence
 "$GODOT_BIN" --headless --path game --editor --import --quit > evidence/import.log 2>&1
 "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/run.gd > evidence/gameplay.log 2>&1
 cat evidence/gameplay.log
-for regression in actor_pivot swooper_collision swooper_recovery_entry ranged_projectile ranged_projectile_art boss_wait_animation boss_recovery_window boss_strike_contact boss_hurt_context boss_hazard boss_death_visibility boss_death_entry whip_impact enemy_defeat checkpoint_art pause_touch_target portrait_pause portrait_prompt_layout menu_touch_targets safe_area_ui action_touch_targets touch_cancellation touch_feedback atlas_runtime; do
+for regression in actor_pivot swooper_collision swooper_recovery_entry ranged_projectile ranged_projectile_art boss_wait_animation boss_recovery_window boss_strike_contact boss_hurt_context boss_hazard boss_death_visibility boss_death_entry whip_impact enemy_defeat checkpoint_art boss_gate pause_touch_target portrait_pause portrait_prompt_layout menu_touch_targets safe_area_ui action_touch_targets touch_cancellation touch_feedback atlas_runtime; do
  "$GODOT_BIN" --headless --path game --script "res://tests/$regression.gd" > "evidence/$regression.log" 2>&1
  cat "evidence/$regression.log"
 done

@@ -3979,6 +3979,24 @@
       ],
       "rgba_sha256": "3126b3b6e2ecc3a6886d6608e865fab147a4ee7f93fbec9c871309cc7289c0d4"
     },
+    "res://assets/props/prop_boss_gate/f000.png": {
+      "page": 4,
+      "region": [
+        123,
+        890,
+        112,
+        268
+      ],
+      "trim": [
+        9,
+        23
+      ],
+      "canvas": [
+        128,
+        320
+      ],
+      "rgba_sha256": "179ee852720b6c7872adfae129647522f5e12bf64e298276a662d29147651e61"
+    },
     "res://assets/props/prop_checkpoint/f000.png": {
       "page": 4,
       "region": [

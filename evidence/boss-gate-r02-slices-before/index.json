@@ -1,0 +1,96 @@
+{
+ "pages": [
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.0
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.0
+    }
+   ],
+   "file": "slice-000.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.125
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.125
+    }
+   ],
+   "file": "slice-125.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.25
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.25
+    }
+   ],
+   "file": "slice-250.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.5
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.5
+    }
+   ],
+   "file": "slice-500.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.75
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.75
+    }
+   ],
+   "file": "slice-750.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 0.875
+    },
+    {
+     "gate": "right",
+     "open_fraction": 0.875
+    }
+   ],
+   "file": "slice-875.png"
+  },
+  {
+   "entries": [
+    {
+     "gate": "left",
+     "open_fraction": 1.0
+    },
+    {
+     "gate": "right",
+     "open_fraction": 1.0
+    }
+   ],
+   "file": "slice-1000.png"
+  }
+ ],
+ "samples": 14
+}
