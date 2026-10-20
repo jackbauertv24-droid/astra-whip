@@ -244,6 +244,9 @@ func _draw() -> void:
  if state.contains("windup") or state in ["alert", "aim", "dive_telegraph"]: color = Color("e3a34a")
  if hp <= 0: color.a = maxf(0.1,1-elapsed)
  if kind in ["swooper","ranged","boss"]:
+  # Boss source frames contain their own collapse/dissolve. Preserve those
+  # phases through exit unlock; cleanup fades only the held final frame.
+  if kind == "boss" and hp <= 0: color.a = clampf((1.2-elapsed)/.12,0.0,1.0)
   # Keep falling ash readable through ground arrival, then fade before cleanup.
   if kind == "swooper" and hp <= 0: color.a = clampf((1.2-elapsed)/0.1,0.0,1.0)
   visual.visible = visual.has_body_layer(state)

@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.09
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.18
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.27
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.36
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.45
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.54
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.63
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.72
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.81
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.9
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.99
+FAIL boss death visibility: full opacity throughout all12 authored frames at1.079
+FAIL boss death visibility: full opacity throughout all12 authored frames at1.08
+FAIL boss death visibility: fade only after completed sequence
+FAIL boss death visibility: fade only after completed sequence
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.09
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.18
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.27
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.36
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.45
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.54
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.63
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.72
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.81
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.9
+FAIL boss death visibility: full opacity throughout all12 authored frames at0.99
+FAIL boss death visibility: full opacity throughout all12 authored frames at1.079
+FAIL boss death visibility: full opacity throughout all12 authored frames at1.08
+FAIL boss death visibility: fade only after completed sequence
+FAIL boss death visibility: fade only after completed sequence
+RESULT boss death visibility: 136 checks, 30 failures

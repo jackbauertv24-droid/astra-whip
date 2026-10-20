@@ -47,3 +47,5 @@ Atlas follow-up:302RGBA roundtrips and1815export-runtime checks pass;550both-fac
 Timed-reel follow-up:67contract/supplemental entries,58complete source sequences,9missing/62frames explicitlyNOT-TESTED;569browser checks cover timing,mirroring and actual phone downscale. Source viewer is not art approval or engine transition evidence. See art/reels/README.md and evidence/clip-reels-fix.md.
 
 Boss hazard follow-up:18body+10painted-effect frames and3late hurt variants passed fresh r02review after r01caught invisible warnings. Natural alternation,allFXframes/bothfacings/native+phone,actualwhip punish and900ms recovery verified.333RGBA roundtrips,2001exported atlas checks and575updated reel checks pass. Death12frames and broader inventory/device/player gates remain. See evidence/boss-hazard-fix.md.
+
+Boss death visibility: preserve full opacity throughout1080ms collapse/ash, then fade over the existing120ms cleanup. Regression136checks,30oldfailures→0; exported-PCK checks pass. Source death art remains pending. See evidence/boss-death-visibility-fix.md.
