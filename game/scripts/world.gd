@@ -5,6 +5,7 @@ var hero: Hunter
 var surfaces: Array = []
 var foes: Array = []
 var projectiles: Array = []
+var impact_layer: WhipImpactLayer
 var projectile_frames: Array[Texture2D] = []
 var projectile_durations: Array = []
 var projectile_canvas = Vector2.ZERO
@@ -57,6 +58,8 @@ func projectile_frame_at(age: float) -> int:
  return projectile_durations.size()-1
 func _ready() -> void:
  load_projectile_art()
+ impact_layer=WhipImpactLayer.new()
+ add_child(impact_layer)
  for row in Stage.SURFACES:
   add_surface(Rect2(float(row[0])*64,Rules.GROUND-float(row[2])*64,float(row[1]-row[0])*64,float(row[4])),row[3])
  add_surface(Rect2(-32,-1000,32,2200),"solid")
@@ -116,6 +119,7 @@ func restart() -> void:
  arena_active = false
  pit_timer = -1
  projectiles.clear()
+ impact_layer.clear()
  effigy = true
  set_gate(false)
  hero.reset_at(respawn)
@@ -162,6 +166,8 @@ func _physics_process(dt: float) -> void:
  menu_back.visible = menu.visible
  queue_redraw()
 func step(dt: float) -> void:
+ impact_layer.reduced=reduced_effects
+ impact_layer.advance(dt)
  if pit_timer >= 0:
   pit_timer += dt
   if pit_timer >= 0.8: restart()
@@ -186,7 +192,9 @@ func step(dt: float) -> void:
   complete = true
   hero.controls.clear()
   menu.visible = true
- if effigy and hero.active() and hero.whip_rect().intersects(Rect2(400,Rules.GROUND-90,32,70)): effigy = false
+ if effigy and hero.active() and hero.whip_rect().intersects(Rect2(400,Rules.GROUND-90,32,70)):
+  impact_layer.spawn_at(hero.whip_rect().intersection(Rect2(400,Rules.GROUND-90,32,70)).get_center())
+  effigy = false
  var target = clampf(hero.position.x+hero.facing*100,640,Rules.WIDTH-640)
  if arena_active and not exit_unlocked: target = 6144
  camera_x = lerpf(camera_x,target,minf(1,dt*7))

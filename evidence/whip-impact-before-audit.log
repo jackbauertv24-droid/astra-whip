@@ -1,0 +1,4 @@
+ART AUDIT: FAIL — 1 clips, 3 DEFECT, 0 FLAG (report: /config/codex-workspace/astra-whip/art/review-whip-impact-before/audit.md)
+  V-02 vfx_whip_impact f0: anchor off by 7.5 px (max 4)
+  V-02 vfx_whip_impact f1: anchor off by 4.0 px (max 4)
+  V-02 vfx_whip_impact f2: anchor off by 11.0 px (max 4)

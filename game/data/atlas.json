@@ -6246,6 +6246,114 @@
         128
       ],
       "rgba_sha256": "533717607b810ffe9a542f14b4fedeeed3fdf9fc6cf0ad944c0c5afe12d385f4"
+    },
+    "res://assets/vfx/vfx_whip_impact/f000.png": {
+      "page": 3,
+      "region": [
+        1411,
+        642,
+        39,
+        37
+      ],
+      "trim": [
+        77,
+        79
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "e9619467f4a5d402e107942d16d41e200d35808d5422dc2f5d6d79d67f591544"
+    },
+    "res://assets/vfx/vfx_whip_impact/f001.png": {
+      "page": 0,
+      "region": [
+        1949,
+        1970,
+        67,
+        74
+      ],
+      "trim": [
+        63,
+        60
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "d59e7128ab3a2c1e6e16e9437a02913d3bb58d7983054b3a5cb84adc9d3c070f"
+    },
+    "res://assets/vfx/vfx_whip_impact/f002.png": {
+      "page": 3,
+      "region": [
+        1315,
+        1741,
+        139,
+        135
+      ],
+      "trim": [
+        28,
+        29
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "0b90754761dd1f769eb4b8fc3c32877d98157ffc8e648436e03d55efcd375118"
+    },
+    "res://assets/vfx/vfx_whip_impact/f003.png": {
+      "page": 3,
+      "region": [
+        782,
+        330,
+        92,
+        103
+      ],
+      "trim": [
+        50,
+        44
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "c888eff954097acf8795b9c27d0f512e3bfb326a5467537375b480c9bfc934c0"
+    },
+    "res://assets/vfx/vfx_whip_impact/f004.png": {
+      "page": 1,
+      "region": [
+        1619,
+        1901,
+        55,
+        63
+      ],
+      "trim": [
+        69,
+        64
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "d975166b82c0d1950881b62006027d1f5510ea2024fc4841d22ab1bde3834f7d"
+    },
+    "res://assets/vfx/vfx_whip_impact/f005.png": {
+      "page": 2,
+      "region": [
+        993,
+        832,
+        35,
+        42
+      ],
+      "trim": [
+        79,
+        75
+      ],
+      "canvas": [
+        192,
+        192
+      ],
+      "rgba_sha256": "c274ee10397e3f70589e3119b3dd39e320d3823a77d6589ddfaafe22316e63d4"
     }
   }
 }

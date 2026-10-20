@@ -1,0 +1,146 @@
+{
+  "kind": "generated_sheet",
+  "source": [
+    "art/production-candidates/whip-impact-sheet-r01/raw.png",
+    "art/production-candidates/whip-impact-sheet-r01/canvas.png",
+    "art/production-candidates/whip-impact-sheet-r01/prompt.txt",
+    "art/production-candidates/whip-impact-sheet-r01/guide.png",
+    "tools/prepare-whip-impact.mjs"
+  ],
+  "method": "Six directly painted equal192px cells, uniform sheet resolution conversion, integer registration of each ink-bbox centre to(96,96), no frame scale or painted content deformation. Remove only alpha<=4 resampling remnants; raw cells and all shifts/counts retained.",
+  "records": [
+    {
+      "frame": 0,
+      "source_cell": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        83,
+        89,
+        109,
+        118
+      ],
+      "translation": [
+        0,
+        -7
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 736,
+      "debris_removed": 0
+    },
+    {
+      "frame": 1,
+      "source_cell": [
+        192,
+        0,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        66,
+        68,
+        122,
+        131
+      ],
+      "translation": [
+        2,
+        -3
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 1622,
+      "debris_removed": 0
+    },
+    {
+      "frame": 2,
+      "source_cell": [
+        384,
+        0,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        24,
+        42,
+        151,
+        164
+      ],
+      "translation": [
+        9,
+        -7
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 4192,
+      "debris_removed": 0
+    },
+    {
+      "frame": 3,
+      "source_cell": [
+        0,
+        192,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        53,
+        51,
+        133,
+        141
+      ],
+      "translation": [
+        3,
+        0
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 2447,
+      "debris_removed": 0
+    },
+    {
+      "frame": 4,
+      "source_cell": [
+        192,
+        192,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        72,
+        69,
+        117,
+        119
+      ],
+      "translation": [
+        2,
+        2
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 1201,
+      "debris_removed": 0
+    },
+    {
+      "frame": 5,
+      "source_cell": [
+        384,
+        192,
+        192,
+        192
+      ],
+      "source_ink_bbox": [
+        83,
+        77,
+        110,
+        109
+      ],
+      "translation": [
+        0,
+        3
+      ],
+      "corrective_normalization": 1,
+      "removed_low_alpha_pixels": 1178,
+      "debris_removed": 0
+    }
+  ],
+  "visual_approval": false
+}

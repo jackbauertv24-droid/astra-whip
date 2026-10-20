@@ -208,7 +208,12 @@ func simulate(dt: float) -> void:
    position.x = clampf(position.x, 5700, 6460)
  if overlaps_rect(h.body_rect()):
   h.damage("contact", position.x)
- if h.active() and overlaps_rect(h.whip_rect()) and h.hit_target(get_instance_id()): take_hit()
+ if h.active() and overlaps_rect(h.whip_rect()) and h.hit_target(get_instance_id()):
+  var whip=h.whip_rect()
+  var contact=contact_rect().intersection(whip).get_center()
+  if kind=="swooper": contact=Vector2(clampf(position.x,whip.position.x,whip.end.x),clampf(position.y,whip.position.y,whip.end.y))
+  world.impact_layer.spawn_at(contact)
+  take_hit()
  visual.follow(state,elapsed)
  queue_redraw()
 func load_hazard_art() -> void:

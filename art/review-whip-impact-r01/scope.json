@@ -1,0 +1,12 @@
+{
+  "mandatory": [
+    "vfx_whip_impact"
+  ],
+  "original_contract": "contract/art_contract.json",
+  "style_lock_manifest": "art/style-lock.json",
+  "engine_captures": [
+    "evidence/whip-impact-r01-native/capture.json",
+    "evidence/whip-impact-r01-phone/capture.json"
+  ],
+  "visual_approval": false
+}

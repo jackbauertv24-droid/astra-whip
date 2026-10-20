@@ -1,0 +1,89 @@
+{
+ "contract_version": "0.2.0",
+ "frames_root": "/config/codex-workspace/astra-whip/art/review-whip-impact-before/frames",
+ "defects": 3,
+ "flags": 0,
+ "clips_audited": 1,
+ "references": {},
+ "findings": [
+  {
+   "rule": "V-02",
+   "severity": "DEFECT",
+   "clip": "vfx_whip_impact",
+   "frame": 0,
+   "msg": "anchor off by 7.5 px (max 4)"
+  },
+  {
+   "rule": "V-02",
+   "severity": "DEFECT",
+   "clip": "vfx_whip_impact",
+   "frame": 1,
+   "msg": "anchor off by 4.0 px (max 4)"
+  },
+  {
+   "rule": "V-02",
+   "severity": "DEFECT",
+   "clip": "vfx_whip_impact",
+   "frame": 2,
+   "msg": "anchor off by 11.0 px (max 4)"
+  }
+ ],
+ "metrics": {
+  "vfx_whip_impact": [
+   {
+    "bbox": [
+     83,
+     89,
+     109,
+     118
+    ],
+    "extent": 30
+   },
+   {
+    "bbox": [
+     66,
+     68,
+     122,
+     131
+    ],
+    "extent": 64
+   },
+   {
+    "bbox": [
+     24,
+     42,
+     151,
+     164
+    ],
+    "extent": 128
+   },
+   {
+    "bbox": [
+     53,
+     51,
+     133,
+     141
+    ],
+    "extent": 91
+   },
+   {
+    "bbox": [
+     72,
+     69,
+     117,
+     119
+    ],
+    "extent": 51
+   },
+   {
+    "bbox": [
+     83,
+     77,
+     110,
+     109
+    ],
+    "extent": 33
+   }
+  ]
+ }
+}

@@ -1988,12 +1988,12 @@
         96
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/vfx/vfx_whip_impact/f000.png",
+        "../../game/assets/vfx/vfx_whip_impact/f001.png",
+        "../../game/assets/vfx/vfx_whip_impact/f002.png",
+        "../../game/assets/vfx/vfx_whip_impact/f003.png",
+        "../../game/assets/vfx/vfx_whip_impact/f004.png",
+        "../../game/assets/vfx/vfx_whip_impact/f005.png"
       ],
       "weapon": null,
       "sockets": null,

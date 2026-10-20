@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL whip impact: one actual impact ground1
+FAIL whip impact: one actual impact crouch1
+FAIL whip impact: one actual impact air1
+FAIL whip impact: one actual impact ground-1
+FAIL whip impact: one actual impact crouch-1
+FAIL whip impact: one actual impact air-1
+FAIL whip impact: circular grazing hit produces one impact
+FAIL whip impact: circular grazing hit produces one impact
+RESULT whip impact: 36 checks, 8 failures
