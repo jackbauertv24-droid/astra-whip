@@ -1,0 +1,13 @@
+# Painted five-pip health HUD
+
+The HUD now shows five painted health icons, choosing the full or hollow source from actual hunter health. Two64×64UI-space sources display in24CSS-pixel boxes with4CSS gaps. All text remains live; numeric health comes first and retains16CSS-pixel type. The row stays inside projected safe bounds, clears pause, hides in portrait and never consumes touch. Gameplay health/damage/retry rules and action-button geometry are unchanged.
+
+Full icon is a generated matte bone-rimmed Ember heart; the empty icon is a saved generative edit retaining the outline with a cool hollow transparent centre. Prompts/raws/provenance retained. Only uniform whole-canvas64px resolution conversion; no trim/deformation/repaint. Static UI audit0DEFECT/0FLAG. Centre alpha diagnostic252.315full versus3.495empty is a tripwire, not art approval. Three negative source fixtures detect opaque backing, identical full/empty and wrong canvas. UI-space icons are not actor/VFX animation frames; original animation contract unchanged.
+
+486check damage-method UI regression covers5→0health, filled/empty count, live text,24CSS size, safe bounds, pause separation, ignored touch, retry5HP and portrait hiding across four viewport/density configurations. Freezing HUD refresh fails44checks and exits1. These fixtures are not combat traversal or animation approval.25actual PNGs record all24health-state views plus portrait. Full browser screenshot evidence uses568×320CSS,DPR2,safe44/44/21with0errors.
+
+The two UI frames append to the existing atlas:388frames,386placements preserved, same five2048²pages/80MiB.388sourceRGBA roundtrips/corruption control pass.728before/after renderer samples on122pages match exactly: new icons were unpacked before and packed after; previously packed samples remain unchanged. Conservative inventory114.9375MiB. Exported atlas2331checks and133227856bytes/127.06MiB measured desktop-software art allocation pass. No physical-device claim.
+
+Full gameplay1241assertions, source/export health486checks, safe area150, portrait18, prompt9, menu60, action targets190 and shared pressed-feedback25checks pass. Contract and25defect selftests pass. Independent art acceptance is recorded separately in art/review-ui-health-r01/review_verdict.md. Remaining UI inventory and external device/player gates stay pending; audio deferred.
+
+Fresh independent REVIEW: PASS for both assets, all25fixture PNGs and3browser captures, including CSS-size reductions. Both raw frames/strips and five style references inspected. Reviewed/canonical/runtime source bytes match. Compact secondary title curtails to available space; five pips and numeric health remain legible.11UIassets/17frames remain pending.

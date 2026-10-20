@@ -2088,5 +2088,17 @@
       0
     ],
     "loop": false
+  },
+  "ui_health_full": {
+    "ms": [
+      0
+    ],
+    "loop": false
+  },
+  "ui_health_empty": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

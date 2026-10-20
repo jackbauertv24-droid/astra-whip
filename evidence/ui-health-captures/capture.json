@@ -1,0 +1,280 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "density": 1.0,
+   "file": "native-health-5.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "native-health-4.png",
+   "health": 4,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "native-health-3.png",
+   "health": 3,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "native-health-2.png",
+   "health": 2,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "native-health-1.png",
+   "health": 1,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "native-health-0.png",
+   "health": 0,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-5.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-4.png",
+   "health": 4,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-3.png",
+   "health": 3,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-2.png",
+   "health": 2,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-1.png",
+   "health": 1,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "phone-health-0.png",
+   "health": 0,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-5.png",
+   "health": 5,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-4.png",
+   "health": 4,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-3.png",
+   "health": 3,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-2.png",
+   "health": 2,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-1.png",
+   "health": 1,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "compact-health-0.png",
+   "health": 0,
+   "image_size": [
+    568,
+    319
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-5.png",
+   "health": 5,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-4.png",
+   "health": 4,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-3.png",
+   "health": 3,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-2.png",
+   "health": 2,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-1.png",
+   "health": 1,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 2.0,
+   "file": "density2-health-0.png",
+   "health": 0,
+   "image_size": [
+    1397,
+    786
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  },
+  {
+   "density": 1.0,
+   "file": "portrait-hidden.png",
+   "health": 5,
+   "image_size": [
+    393,
+    221
+   ],
+   "physical_device": false,
+   "source": "damage-method UI fixture, not combat traversal"
+  }
+ ]
+}

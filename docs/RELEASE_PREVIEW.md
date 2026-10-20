@@ -159,3 +159,7 @@ The opening bridge encounter now frames its688u lower return; other encounters i
 ## Follow-up fix: complete painted background depth stack
 
 All four briefed backgrounds passed fresh independent r02review, including repeat/seam/midpoint samples and30actual native/phone captures. The scene now uses separate sky, distant silhouette, midground masonry and sparse level-data framing; panels remain standalone with386unchanged atlas placements. Three source-audit negative controls and an off-screen capture guard reject invalid evidence. Main1241assertions, camera356checks, action targets190, source/export background42, exported atlas2319 and contract/25defect selftests pass. Art allocation127.06MiB measured on desktop software renderer. Mirrored scenery repetition remains visible quality debt; UI inventory and external-device/player gates are pending. See evidence/background-fix.md.
+
+## Follow-up fix: painted five-pip health HUD
+
+Two64pxfilled/hollow health icons passed fresh independent review across25actual health/portrait captures and3browser images. Five24CSS-pixel pips plus live16CSS-pixel numeric text track damage and retry, stay inside safe bounds and hide in portrait.486source/export checks pass; disabling refresh fails44checks.388RGBAroundtrips and728before/after samples are exact; five atlas pages and127.06MiB measured art allocation remain.11UIassets/17frames and external device/player gates are pending. See evidence/ui-health-fix.md.

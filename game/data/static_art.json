@@ -275,5 +275,35 @@
     "opaque": true,
     "collision": "level-data-owned",
     "brief": "ASSET_BRIEFS §8"
+  },
+  "ui_health_full": {
+    "category": "ui",
+    "canvas": [
+      64,
+      64
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI CSS pixels; independent of world density"
+  },
+  "ui_health_empty": {
+    "category": "ui",
+    "canvas": [
+      64,
+      64
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI CSS pixels; independent of world density"
   }
 }

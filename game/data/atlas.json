@@ -6355,6 +6355,42 @@
       ],
       "rgba_sha256": "c19815e1565ce37c5b8b360512875e92dcc60d92c1a1163bc9da8939bcdb378b"
     },
+    "res://assets/ui/ui_health_empty/f000.png": {
+      "page": 0,
+      "region": [
+        911,
+        365,
+        58,
+        52
+      ],
+      "trim": [
+        3,
+        6
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "rgba_sha256": "f09060d20624b7d26de558ff4d8e3918f7c7a1ab35ebf8eb32ebdad9b9b46123"
+    },
+    "res://assets/ui/ui_health_full/f000.png": {
+      "page": 0,
+      "region": [
+        973,
+        365,
+        58,
+        52
+      ],
+      "trim": [
+        3,
+        6
+      ],
+      "canvas": [
+        64,
+        64
+      ],
+      "rgba_sha256": "da5344aeacd9eaeb09ff6d970d45eb5572b0d48745a2dfdb24ea3a607cb19889"
+    },
     "res://assets/vfx/projectile_grave_shot/f000.png": {
       "page": 2,
       "region": [

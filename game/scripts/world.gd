@@ -49,6 +49,9 @@ var touch_buttons: Dictionary = {}
 var touch_button_origins: Dictionary = {}
 var ui_backing_ratio=1.0
 var ui_safe_rect=Rect2(0,0,1280,720)
+var health_pips:Array[TextureRect]=[]
+var health_full:Texture2D
+var health_empty:Texture2D
 var background_art:BackgroundArt
 var terrain_art=TerrainArt.new()
 func load_projectile_art() -> void:
@@ -72,6 +75,8 @@ func _ready() -> void:
  terrain_art.configure()
  load_projectile_art()
  var static_art:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
+ health_full=PackedArt.texture("res://assets/ui/ui_health_full/f000.png")
+ health_empty=PackedArt.texture("res://assets/ui/ui_health_empty/f000.png")
  var exit_spec:Dictionary=static_art.prop_exit
  exit_marker=Sprite2D.new()
  exit_marker.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
@@ -202,22 +207,26 @@ func update_orientation_ui() -> void:
  rotate_prompt.visible=portrait
  rotate_back.visible=portrait
  status.visible=not portrait
+ for pip in health_pips:pip.visible=not portrait
  for action in touch_buttons: touch_buttons[action].visible=not portrait
  pause_button.disabled=portrait
  pause_button.text="PAUSED" if portrait else ("RESUME" if paused else "PAUSE")
 func _notification(what: int) -> void:
  if what == NOTIFICATION_APPLICATION_FOCUS_OUT and is_instance_valid(hero): set_pause(true)
 func _process(_dt: float) -> void:
+ update_health_hud()
  for action in touch_buttons:
   touch_buttons[action].set_pressed_no_signal(not paused and not complete and hero.controls.is_held(action))
 func _physics_process(dt: float) -> void:
  if testing: return
  if is_portrait() and not paused: set_pause(true)
  if not paused and not complete: step(dt)
- status.text = "ASTRA WHIP   |   HEALTH %d/5" % maxi(0,hero.health) + ("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
- if complete: status.text = "THE WARDEN HAS FALLEN — THE WAY IS OPEN"
  menu_back.visible = menu.visible
  queue_redraw()
+func update_health_hud():
+ for i in health_pips.size():health_pips[i].texture=health_full if i<hero.health else health_empty
+ status.text="HEALTH %d/5   |   ASTRA WHIP"%maxi(0,hero.health)+("   CHECKPOINT LIT" if checkpoint else "   THE ASHEN THRESHOLD")
+ if complete:status.text="THE WARDEN HAS FALLEN — THE WAY IS OPEN"
 func step(dt: float) -> void:
  checkpoint_layer.reduced=reduced_effects
  checkpoint_layer.advance(dt)
@@ -293,9 +302,19 @@ func build_ui() -> void:
  menu_back.add_theme_stylebox_override("panel",panel_style)
  hud.add_child(menu_back)
  status = Label.new()
+ status.clip_text=true
  status.position = Vector2(30,22)
  status.add_theme_font_size_override("font_size",22)
  hud.add_child(status)
+ for i in Rules.HEALTH:
+  var pip=TextureRect.new()
+  pip.texture=health_full
+  pip.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+  pip.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+  pip.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+  pip.mouse_filter=Control.MOUSE_FILTER_IGNORE
+  hud.add_child(pip)
+  health_pips.append(pip)
  pause_button = button("RESUME",Vector2(1120,15),Vector2(130,60))
  pause_button.pressed.connect(func():
   started = true
@@ -398,6 +417,13 @@ func layout_ui_for_insets(insets: Vector4,density: float) -> void:
  update_touch_targets()
  var scale=ui_units_to_css_pixels()
  status.position=Vector2(maxf(30,ui_safe_rect.position.x+8/scale.x),maxf(22,ui_safe_rect.position.y+8/scale.y))
+ var health_origin=status.position
+ for i in health_pips.size():
+  health_pips[i].position=health_origin+Vector2(i*28/scale.x,0)
+  health_pips[i].size=Vector2(24/scale.x,24/scale.y)
+ status.position.x+=(health_pips.size()*28+4)/scale.x
+ status.add_theme_font_size_override("font_size",ceili(16/scale.y))
+ status.size=Vector2(maxf(0,pause_button.position.x-8/scale.x-status.position.x),24/scale.y)
  rotate_back.size=view.size
  rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale.y,.001))))
  rotate_prompt.position=ui_safe_rect.position+Vector2(80,0)

@@ -1,0 +1,25 @@
+{
+  "ui_health_full": {
+    "kind": "generated_ui_icon",
+    "source": [
+      "art/production-candidates/ui-health-r01/full/raw.png",
+      "art/production-candidates/ui-health-r01/full/prompt.txt",
+      "art/production-candidates/ui-health-r01/ui_health_full/f000.png.provenance.json"
+    ],
+    "method": "Uniform whole-canvas source resolution conversion only; no trimming, deformation or repaint.",
+    "corrective_normalization": 1,
+    "visual_approval": false
+  },
+  "ui_health_empty": {
+    "kind": "generated_ui_edit",
+    "source": [
+      "art/production-candidates/ui-health-r01/empty/raw.png",
+      "art/production-candidates/ui-health-r01/empty/prompt.txt",
+      "art/production-candidates/ui-health-r01/ui_health_empty/f000.png.provenance.json",
+      "art/production-candidates/ui-health-r01/full/raw.png"
+    ],
+    "method": "Uniform whole-canvas source resolution conversion only; no trimming, deformation or repaint.",
+    "corrective_normalization": 1,
+    "visual_approval": false
+  }
+}

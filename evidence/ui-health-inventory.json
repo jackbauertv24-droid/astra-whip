@@ -1,0 +1,14 @@
+{
+  "assets": [
+    "ui_health_full",
+    "ui_health_empty"
+  ],
+  "source_frames": 2,
+  "actual_capture_samples": 25,
+  "sha256": {
+    "ui_health_full": "376fcd3fae574d4fff7d21ce67bf69039dcf09e0b55f5a277666a1dcb099e539",
+    "ui_health_empty": "84e4577efe2630c570610b26755c1c28ac3578db105a36cc7ee7170f24292428"
+  },
+  "physical_device": false,
+  "errors": []
+}
