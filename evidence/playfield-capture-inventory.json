@@ -1,0 +1,37 @@
+{
+  "physical_device": false,
+  "capture_samples": 20,
+  "unchanged_geometry": [
+    "game/scripts/stage.gd",
+    "game/scripts/rules.gd"
+  ],
+  "checked_logs": [
+    "playfield-source-final",
+    "playfield-exported-final",
+    "playfield-captures-final",
+    "playfield-contract",
+    "playfield-selftest",
+    "playfield-boss_wait_animation",
+    "playfield-boss_recovery_window",
+    "playfield-boss_strike_contact",
+    "playfield-boss_hurt_context",
+    "playfield-boss_hazard",
+    "playfield-boss_death_visibility",
+    "playfield-boss_death_entry",
+    "playfield-whip_impact",
+    "playfield-enemy_defeat",
+    "playfield-checkpoint_art",
+    "playfield-boss_gate",
+    "playfield-exit_art",
+    "playfield-pause_touch_target",
+    "playfield-portrait_pause",
+    "playfield-portrait_prompt_layout",
+    "playfield-menu_touch_targets",
+    "playfield-safe_area_ui",
+    "playfield-action_touch_targets",
+    "playfield-touch_cancellation",
+    "playfield-touch_feedback",
+    "playfield-atlas_runtime"
+  ],
+  "errors": []
+}

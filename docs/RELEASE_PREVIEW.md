@@ -151,3 +151,7 @@ Three boss clips (18frames), paired ring/eruption (10frames) and a late recovery
 ## Follow-up fix: complete painted terrain kit
 
 All14briefed terrain roles now render from independently approved128×128painted sources: caps, sides, fill, bottoms, concavities and platform ends/middle. Thin platforms crop the top32source pixels; single-cell spans join endpoint halves. Existing continuous landing-edge stroke and collision geometry remain unchanged. Five repeat samples and20actual native/phone images passed review, including one accepted masonry-joint seam diagnostic. Exact sourceRGBA round trips and packed/unpacked board rendering pass. Background/UI inventory, playfield thumb clearance and external device/player gates remain pending. See `evidence/terrain-fix.md`.
+
+## Follow-up fix: camera framing above phone controls
+
+The opening bridge encounter now frames its688u lower return; other encounters include their560u ground fallback. A16CSS-pixel clearance above controls accounts for density and safe areas. Retry immediately returns the camera to the respawned hunter. The356check regression covers actual approach/fall/two-jump return and fixed ordinary/raised/fallback/checkpoint/arena views across four viewport/density configurations. Final source/export gameplay checks pass. See `evidence/playfield-fix.md` for review and capture evidence; physical-device/player gates remain external.

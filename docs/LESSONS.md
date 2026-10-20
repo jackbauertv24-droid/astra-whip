@@ -118,3 +118,7 @@ A zero-defect art audit missed a supported lethal stance resetting to upright, a
 ## Opaque terrain needs a static audit
 
 A transparent character/effect audit cannot validate opaque terrain: its border-alpha rule would reject every valid tile. The terrain kit keeps the original animation contract unchanged and adds direct128×128/opaque/guide-key checks plus reference-calibrated seam contrast flags. Synthetic nonopaque-pixel and broken-seam fixtures verify those diagnostics; every seam flag still needs independent visual adjudication on repeats and actual engine views. The runtime inspection board exercises all14roles, including underside/concave pieces not necessarily exposed by the current camera.
+
+### Landing clearance must be measured after CSS scaling
+
+An unchanged landing collider can still disappear below phone controls. Test the actual input-driven lower return and its two jumps at safe-area/density variants, measure the landing against the control baseline in CSS pixels, and frame encounters for their lowest required landing. Desktop geometry checks alone missed this presentation defect.

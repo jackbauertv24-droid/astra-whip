@@ -17,7 +17,7 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 11 | Boss supported action clips | DONE: all11clips/70mandatory frames independent PASS, plus12supplemental recovery-hurt frames; death12frames includes pose-preserving lethal entry, supported kneel/fold and ash; actual8HP both-facing native/phone captures verified |
 | 12 | Full effects, props, terrain and UI inventory | All briefed effects and4stage props/5frames approved; terrain14tiles approved;4background panels and13UIassets/19frames pending |
 | 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current386frames: lossless five-page runtime atlas,99.94MiB conservative inventory;125.81MiB measured art allocation; future inventory/device profiling remain |
-| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; playfield thumb clearance, missing sequences and device validation pending |
+| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; opening lower-return/ground-fallback framing and retry validated356checks +fresh r02review PASS; remaining painted inventory/device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.

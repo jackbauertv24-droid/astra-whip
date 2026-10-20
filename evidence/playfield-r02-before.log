@@ -1,0 +1,10 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL playfield clearance: authored encounter/ground fallback floor (3520.0, 496.0) gapCSS=-32.6109008789062
+FAIL playfield clearance: retry camera immediately contains respawned hero
+FAIL playfield clearance: authored encounter/ground fallback floor (3520.0, 496.0) gapCSS=-18.1751111554768
+FAIL playfield clearance: retry camera immediately contains respawned hero
+FAIL playfield clearance: authored encounter/ground fallback floor (3520.0, 496.0) gapCSS=-11.7401072654175
+FAIL playfield clearance: retry camera immediately contains respawned hero
+FAIL playfield clearance: authored encounter/ground fallback floor (3520.0, 496.0) gapCSS=-18.1751111554768
+RESULT playfield clearance: 356 checks, 7 failures

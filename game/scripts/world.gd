@@ -116,6 +116,7 @@ func _ready() -> void:
   var gate = add_surface(Rect2(x,-500,16,1060),"solid",false)
   gates.append(gate)
  build_ui()
+ camera.position.y=playfield_camera_target()
 func add_surface(rect: Rect2, kind: String, enabled: bool = true) -> Dictionary:
  var body = StaticBody2D.new()
  body.collision_layer = 1 if enabled else 0
@@ -167,6 +168,8 @@ func restart() -> void:
  gate_open_fraction=1.0
  set_gate(false)
  hero.reset_at(respawn)
+ camera_x=clampf(hero.position.x+hero.facing*100,640,Rules.WIDTH-640)
+ camera.position=Vector2(camera_x,playfield_camera_target())
  build_enemies()
  if not testing: set_pause(false)
 func pit_fall() -> void:
@@ -252,7 +255,24 @@ func step(dt: float) -> void:
  if arena_active and not exit_unlocked: target = 6144
  camera_x = lerpf(camera_x,target,minf(1,dt*7))
  camera.position.x = camera_x
- camera.position.y = lerpf(camera.position.y,296.0 if hero.position.x > 2880 and hero.position.x < 3840 else 360.0,minf(1,dt*5))
+ var vertical_target=playfield_camera_target()
+ camera.position.y=lerpf(camera.position.y,vertical_target,minf(1,dt*5))
+ # Keep the required landing visible when entering a lower encounter or resizing.
+ # Upward reframing can smooth; downward safety cannot wait behind the controls.
+ camera.position.y=maxf(camera.position.y,vertical_target)
+func playfield_camera_target() -> float:
+ # Lock to the lowest required landing in each authored encounter, including
+ # the first bridge's lower return and the high route's ground fallback.
+ var landing=560.0
+ var centre=360.0
+ if hero.position.x<1024:
+  landing=688.0
+  centre=488.0
+ var floor_limit=560.0
+ var css_scale=ui_units_to_css_pixels()
+ for control in touch_buttons.values():
+  floor_limit=minf(floor_limit,control.position.y-16.0/maxf(css_scale.y,.001))
+ return maxf(centre,landing+360.0-floor_limit)
 func build_ui() -> void:
  hud = CanvasLayer.new()
  add_child(hud)

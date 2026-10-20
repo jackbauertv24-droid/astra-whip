@@ -383,3 +383,7 @@ Fresh independent `/root/terrain_review_r01`: full verdict `art/review-terrain-r
 
 
 Scoped opaque-static audit0DEFECT/1FLAG. The side_left vertical repeat diagnostic was independently accepted as a masonry joint after comparison with the approved patch and actual phone images. REVIEW: PASS for these fourteen static assets. Collision/rules source hashes unchanged; physical-device and traversal claims excluded.
+
+## Implementation camera and phone landing clearance —2026-10-20
+
+Initial fresh r01 review FAILED distant-camera retry entry and ground fallback beneath controls. Both corrected with regression coverage. Fresh `/root/playfield_review_r02` saved/read blind notes, inspected all20actual native/phone PNGs and all five style references. Full verdict `art/review-playfield-r02/review_verdict.md`: REVIEW: PASS for camera presentation; no failing scoped samples. Existing animation approvals and physical-device/player gates remain independent.
