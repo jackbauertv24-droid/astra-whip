@@ -1,0 +1,14 @@
+{
+  "mandatory": [
+    "prop_exit"
+  ],
+  "source_frames": 1,
+  "actual_capture_samples": 20,
+  "tint": null,
+  "physical_device": false,
+  "failures": [
+    "fresh independent review",
+    "reviewed bytes art/frames/prop_exit/f000.png",
+    "final shader render evidence"
+  ]
+}

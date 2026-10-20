@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL exit art: death unlock applies Ember immediately
+SCRIPT ERROR: Invalid type in function 'check' in base 'SceneTree (exit_art.gd)'. Cannot convert argument 1 from Nil to bool.
+          at: run (res://tests/exit_art.gd:46)
+          GDScript backtrace (most recent call first):
+              [0] run (res://tests/exit_art.gd:46)
+              [1] advance (res://tests/exit_art.gd:15)

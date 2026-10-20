@@ -1,0 +1,14 @@
+{
+  "mandatory": [
+    "prop_exit"
+  ],
+  "source_frames": 1,
+  "actual_capture_samples": 20,
+  "tint": {
+    "changed_pixels": 8761,
+    "mean_locked_luma": 58.72788318685078,
+    "mean_unlocked_luma": 85.50253140052526
+  },
+  "physical_device": false,
+  "failures": []
+}

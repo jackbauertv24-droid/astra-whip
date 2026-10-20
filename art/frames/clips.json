@@ -1974,5 +1974,11 @@
       0
     ],
     "loop": false
+  },
+  "prop_exit": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

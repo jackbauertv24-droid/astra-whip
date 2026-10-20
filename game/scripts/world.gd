@@ -17,6 +17,8 @@ var projectile_anchor = Vector2.ZERO
 var respawn = Vector2(160, Rules.GROUND)
 var checkpoint = false
 var exit_unlocked = false
+var exit_marker: Sprite2D
+var exit_material: ShaderMaterial
 var arena_active = false
 var complete = false
 var paused = true
@@ -69,6 +71,18 @@ func projectile_frame_at(age: float) -> int:
 func _ready() -> void:
  load_projectile_art()
  var static_art:Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/static_art.json"))
+ var exit_spec:Dictionary=static_art.prop_exit
+ exit_marker=Sprite2D.new()
+ exit_marker.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ exit_marker.texture=PackedArt.texture("res://assets/props/prop_exit/f000.png")
+ exit_marker.scale=Vector2(.5,.5)
+ exit_marker.position=Vector2(6612,Rules.GROUND)
+ exit_marker.offset=Vector2(exit_spec.canvas[0],exit_spec.canvas[1])*.5-Vector2(exit_spec.anchor[0],exit_spec.anchor[1])
+ exit_material=ShaderMaterial.new()
+ exit_material.shader=load("res://shaders/exit.gdshader")
+ exit_material.set_shader_parameter("unlocked",false)
+ exit_marker.material=exit_material
+ add_child(exit_marker)
  gate_spec=static_art.prop_boss_gate
  gate_texture=PackedArt.texture("res://assets/props/prop_boss_gate/f000.png")
  checkpoint_spec=static_art.prop_checkpoint
@@ -141,6 +155,7 @@ func restart() -> void:
   respawn = Vector2(160,Rules.GROUND)
  complete = false
  exit_unlocked = false
+ exit_material.set_shader_parameter("unlocked",false)
  arena_active = false
  pit_timer = -1
  projectiles.clear()
@@ -222,6 +237,7 @@ func step(dt: float) -> void:
   arena_active = true
   set_gate(true)
  if exit_unlocked: set_gate(false)
+ exit_material.set_shader_parameter("unlocked",exit_unlocked)
  gate_open_fraction=move_toward(gate_open_fraction,gate_target_open,dt/(float(gate_spec.slide_ms)/1000.0))
  if is_equal_approx(gate_open_fraction,gate_target_open): gate_open_fraction=gate_target_open
  if exit_unlocked and hero.position.x > 6600:
@@ -473,7 +489,6 @@ func _draw() -> void:
  var marker_anchor=Vector2(checkpoint_spec.anchor[0],checkpoint_spec.anchor[1])
  var marker_size=Vector2(checkpoint_spec.canvas[0],checkpoint_spec.canvas[1])
  draw_texture_rect(checkpoint_frames[1 if checkpoint else 0],Rect2(Vector2(4128,Rules.GROUND)-marker_anchor*.5,marker_size*.5),false)
- draw_rect(Rect2(6585,Rules.GROUND-160,55,160),Color("e3a34a") if exit_unlocked else Color("3b2d20"))
  if effigy:
   var effigy_anchor=Vector2(effigy_spec.anchor[0],effigy_spec.anchor[1])
   var effigy_size=Vector2(effigy_spec.canvas[0],effigy_spec.canvas[1])

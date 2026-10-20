@@ -48,5 +48,22 @@
     ],
     "slide_ms": 250,
     "brief": "ASSET_BRIEFS §9;250ms presentation cadence is implementation choice"
+  },
+  "prop_exit": {
+    "category": "props",
+    "canvas": [
+      192,
+      320
+    ],
+    "anchor": [
+      96,
+      288
+    ],
+    "frames": 1,
+    "states": [
+      "door"
+    ],
+    "presentation": "locked/unlocked Ember tint overlay",
+    "brief": "ASSET_BRIEFS §9"
   }
 }

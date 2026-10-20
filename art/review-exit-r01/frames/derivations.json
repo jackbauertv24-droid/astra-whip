@@ -1,0 +1,32 @@
+{
+  "prop_exit": {
+    "kind": "generated_key",
+    "source": [
+      "art/production-candidates/exit-key-r01/raw.png",
+      "art/production-candidates/exit-key-r01/canvas.png",
+      "art/production-candidates/exit-key-r01/prompt.txt",
+      "tools/prepare-exit.mjs",
+      "tools/normalize-frame.mjs"
+    ],
+    "method": "Uniform full-canvas conversion, remove only alpha<=8 extraction remnants, then one bounded uniform correction to fit the floor anchor with a transparent top margin. No shape deformation or per-state painted changes; active state is the briefed engine Ember tint.",
+    "normalization": {
+      "source": "art/production-candidates/exit-key-r01/clean.png",
+      "corrective_normalization": 0.9368770764119602,
+      "source_pivot": [
+        96,
+        307
+      ],
+      "delivery_pivot": [
+        96,
+        288
+      ],
+      "target_height": 282,
+      "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+      "debris_removed": 0
+    },
+    "corrective_normalization": 0.9368770764119602,
+    "removed_low_alpha_pixels": 433,
+    "debris_removed": 0,
+    "visual_approval": false
+  }
+}

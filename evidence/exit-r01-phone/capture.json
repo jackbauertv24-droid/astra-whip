@@ -1,0 +1,197 @@
+{
+ "actual_hits": [
+  7,
+  6,
+  5,
+  4,
+  3,
+  2,
+  1,
+  0
+ ],
+ "fixture": "isolated standing boss contacts preserving8HP; actual final approach/completion",
+ "physical_device": false,
+ "samples": [
+  {
+   "boss_hp": 1,
+   "complete": false,
+   "death_elapsed": -1.0,
+   "ember_tint": false,
+   "exit_unlocked": false,
+   "facing": 1,
+   "file": "locked-before-lethal.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 1,
+   "complete": false,
+   "death_elapsed": -1.0,
+   "ember_tint": false,
+   "exit_unlocked": false,
+   "facing": -1,
+   "file": "locked-near-left.png",
+   "hero_position": [
+    6564.072265625,
+    559.999816894531
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 0,
+   "ember_tint": false,
+   "exit_unlocked": false,
+   "facing": 1,
+   "file": "death-start-locked.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 1.075,
+   "ember_tint": false,
+   "exit_unlocked": false,
+   "facing": 1,
+   "file": "before-unlock.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 1.08333333333333,
+   "ember_tint": true,
+   "exit_unlocked": true,
+   "facing": 1,
+   "file": "unlocked.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 1.08333333333333,
+   "ember_tint": true,
+   "exit_unlocked": true,
+   "facing": 1,
+   "file": "paused-unlocked.png",
+   "hero_position": [
+    5999.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": true
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 1.11666666666667,
+   "ember_tint": true,
+   "exit_unlocked": true,
+   "facing": 1,
+   "file": "unlocked-near-right.png",
+   "hero_position": [
+    6550.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": false,
+   "death_elapsed": 1.15,
+   "ember_tint": true,
+   "exit_unlocked": true,
+   "facing": -1,
+   "file": "unlocked-near-left.png",
+   "hero_position": [
+    6550.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 0,
+   "complete": true,
+   "death_elapsed": 1.36666666666666,
+   "ember_tint": true,
+   "exit_unlocked": true,
+   "facing": 1,
+   "file": "completed.png",
+   "hero_position": [
+    6602.0,
+    559.962036132812
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  },
+  {
+   "boss_hp": 8,
+   "complete": false,
+   "death_elapsed": -1.0,
+   "ember_tint": false,
+   "exit_unlocked": false,
+   "facing": 1,
+   "file": "retry-relocked.png",
+   "hero_position": [
+    6550.0,
+    560.0
+   ],
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false
+  }
+ ],
+ "viewport": "(852, 393)"
+}

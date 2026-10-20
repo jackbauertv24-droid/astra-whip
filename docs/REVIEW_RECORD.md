@@ -349,3 +349,13 @@ Initial fresh r01 reviewer FAILED two cross-shaped spandrel ornaments (ART_BIBLE
 | prop_boss_gate | PASS | None | None required after r02 local ornament edit |
 
 Delivered panel, five style references and38actual native/phone images inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS for this prop/presentation only.
+
+## Implementation exit door —2026-10-20
+
+Fresh final reviewer `/root/exit_review_r02`; full verdict `art/review-exit-r02/review_verdict.md`. A new review followed the shader sampling correction.
+
+| Clip | Result | Failing frames | Correction |
+|---|---|---|---|
+| prop_exit | PASS | None | None required |
+
+Delivered frame, five style references and20final native/phone PNGs inspected. Scoped audit0DEFECT/0FLAG. REVIEW: PASS for this prop/presentation only.

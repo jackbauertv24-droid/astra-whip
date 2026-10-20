@@ -1,0 +1,22 @@
+{
+  "samples": 2,
+  "pages": 2,
+  "changed_pixels": 17699,
+  "maximum_difference": 135,
+  "exact": false,
+  "tolerance": "At most one pixel, at most one 8-bit channel value across the complete fixture; raw RGBA roundtrip remains exact",
+  "pass": false,
+  "visual_approval": false,
+  "details": [
+    {
+      "file": "locked.png",
+      "changed_pixels": 8895,
+      "maximum_difference": 135
+    },
+    {
+      "file": "unlocked.png",
+      "changed_pixels": 8804,
+      "maximum_difference": 135
+    }
+  ]
+}

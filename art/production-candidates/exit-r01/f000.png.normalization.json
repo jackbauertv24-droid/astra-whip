@@ -1,0 +1,15 @@
+{
+  "source": "art/production-candidates/exit-key-r01/clean.png",
+  "corrective_normalization": 0.9368770764119602,
+  "source_pivot": [
+    96,
+    307
+  ],
+  "delivery_pivot": [
+    96,
+    288
+  ],
+  "target_height": 282,
+  "method": "uniform bounded scale about authored horizontal guide origin and measured baseline; registration at contract pivot",
+  "debris_removed": 0
+}

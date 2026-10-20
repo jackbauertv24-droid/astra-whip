@@ -1,0 +1,23 @@
+{
+ "pages": [
+  {
+   "entries": [
+    {
+     "id": "prop_exit",
+     "unlocked": false
+    }
+   ],
+   "file": "locked.png"
+  },
+  {
+   "entries": [
+    {
+     "id": "prop_exit",
+     "unlocked": true
+    }
+   ],
+   "file": "unlocked.png"
+  }
+ ],
+ "samples": 2
+}
