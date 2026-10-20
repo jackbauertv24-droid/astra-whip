@@ -13,4 +13,4 @@ Choose a clip, facing and display scale. Gameplay cadence derives from ActorVisu
 
 Phone and compact scales include both the runtime 0.5 source scale and the 720-unit viewport downscale. Native source and native game scales are separate options. The source-art viewer does not recreate the stage camera, prove a state transition, replace an engine capture, or grant visual approval.
 
-The inventory currently has68entries,66complete sequences and2missing sequences containing16frames. Missing paint is explicitly NOT-TESTED. New assets require rebuilding the inventory; this file's counts are a dated snapshot, not an acceptance gate.
+The inventory currently has68entries,67complete sequences and1missing sequence containing8frames. Missing paint is explicitly NOT-TESTED. New assets require rebuilding the inventory; this file's counts are a dated snapshot, not an acceptance gate.

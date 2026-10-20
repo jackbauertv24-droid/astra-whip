@@ -50,6 +50,7 @@ func take_hit() -> void:
  if hp <= 0: return
  hp -= 1
  if hp <= 0:
+  world.defeat_layer.spawn_at(contact_rect().get_center())
   if kind=="boss":
    death_entry_animation=str(visual.animation)
    death_entry_frame=visual.frame

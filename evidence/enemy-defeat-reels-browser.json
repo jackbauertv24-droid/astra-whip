@@ -1,0 +1,9 @@
+{
+  "checks": 575,
+  "clips": 68,
+  "failures": [],
+  "errors": [],
+  "physical_device": false,
+  "clock": "controlled requestAnimationFrame and performance.now; midpoint, end/loop and missing-label checks; real Canvas compositing",
+  "visual_approval": false
+}

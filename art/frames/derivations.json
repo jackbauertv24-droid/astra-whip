@@ -1254,5 +1254,194 @@
       }
     ],
     "visual_approval": false
+  },
+  "vfx_enemy_defeat": {
+    "kind": "generated_sheet",
+    "source": [
+      "art/production-candidates/enemy-defeat-sheet-r01/raw.png",
+      "art/production-candidates/enemy-defeat-sheet-r01/canvas.png",
+      "art/production-candidates/enemy-defeat-sheet-r01/prompt.txt",
+      "tools/prepare-enemy-defeat.mjs"
+    ],
+    "method": "Eight directly painted equal256px cells, uniform sheet conversion and integer ink-centre registration to(128,128). Remove only alpha<=8 near-invisible extraction remnants. No scaling, deformation or opacity adjustment. Raw cells and all counts retained.",
+    "records": [
+      {
+        "frame": 0,
+        "source_cell": [
+          0,
+          0,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          84,
+          110,
+          164,
+          192
+        ],
+        "translation": [
+          4,
+          -23
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 3365,
+        "debris_removed": 0
+      },
+      {
+        "frame": 1,
+        "source_cell": [
+          256,
+          0,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          68,
+          88,
+          185,
+          202
+        ],
+        "translation": [
+          2,
+          -17
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 7205,
+        "debris_removed": 0
+      },
+      {
+        "frame": 2,
+        "source_cell": [
+          512,
+          0,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          47,
+          51,
+          208,
+          241
+        ],
+        "translation": [
+          1,
+          -18
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 10558,
+        "debris_removed": 0
+      },
+      {
+        "frame": 3,
+        "source_cell": [
+          768,
+          0,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          14,
+          11,
+          226,
+          249
+        ],
+        "translation": [
+          8,
+          -2
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 14835,
+        "debris_removed": 0
+      },
+      {
+        "frame": 4,
+        "source_cell": [
+          0,
+          256,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          45,
+          21,
+          230,
+          236
+        ],
+        "translation": [
+          -9,
+          0
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 14157,
+        "debris_removed": 0
+      },
+      {
+        "frame": 5,
+        "source_cell": [
+          256,
+          256,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          57,
+          32,
+          206,
+          212
+        ],
+        "translation": [
+          -3,
+          6
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 10136,
+        "debris_removed": 0
+      },
+      {
+        "frame": 6,
+        "source_cell": [
+          512,
+          256,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          80,
+          61,
+          177,
+          201
+        ],
+        "translation": [
+          0,
+          -3
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 6140,
+        "debris_removed": 0
+      },
+      {
+        "frame": 7,
+        "source_cell": [
+          768,
+          256,
+          256,
+          256
+        ],
+        "source_ink_bbox": [
+          99,
+          93,
+          149,
+          183
+        ],
+        "translation": [
+          4,
+          -10
+        ],
+        "corrective_normalization": 1,
+        "removed_low_alpha_pixels": 2876,
+        "debris_removed": 0
+      }
+    ],
+    "visual_approval": false
   }
 }

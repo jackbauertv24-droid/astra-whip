@@ -1,0 +1,18 @@
+{
+  "physical_device": false,
+  "viewport": [
+    568,
+    320
+  ],
+  "device_scale_factor": 2,
+  "safe_insets": {
+    "left": 44,
+    "right": 44,
+    "bottom": 21
+  },
+  "resume_lower_edge_touch_css": [
+    484,
+    68
+  ],
+  "errors": []
+}

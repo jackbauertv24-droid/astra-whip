@@ -1,0 +1,11 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL enemy defeat: exactly one defeat effect pursuer1
+FAIL enemy defeat: exactly one defeat effect swooper1
+FAIL enemy defeat: exactly one defeat effect ranged1
+FAIL enemy defeat: exactly one defeat effect boss1
+FAIL enemy defeat: exactly one defeat effect pursuer-1
+FAIL enemy defeat: exactly one defeat effect swooper-1
+FAIL enemy defeat: exactly one defeat effect ranged-1
+FAIL enemy defeat: exactly one defeat effect boss-1
+RESULT enemy defeat: 69 checks, 8 failures

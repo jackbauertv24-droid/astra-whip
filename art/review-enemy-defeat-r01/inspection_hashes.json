@@ -1,0 +1,962 @@
+[
+  {
+    "mode": "native",
+    "file": "before-right-pursuer.png",
+    "sha256": "2844c0ed3fa723e49effeca3310e175aed7d186461a2cd97523a52d663e8456a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f00.png",
+    "sha256": "46a640e4b28738b76fd263233159264d3ffc6878651148ad6c44024f8d0c66cf"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f01.png",
+    "sha256": "481fde39b4d544068d78343c3571d292e34900c20be2f95d584fa60143ed0f49"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f02.png",
+    "sha256": "d73290cc39bdcadf3ce561f3632394ca977ca7b20fdbe3c19eb9884af65e5e56"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f03.png",
+    "sha256": "91c74279158019392cab87fb98c3257b302c570e5efda7cac6c3f11bafc2b176"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-pursuer.png",
+    "sha256": "f4c21009f5c0ffe078e2526776608521c26a3aa9a1a66d31eb9ff517d7018622"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f04.png",
+    "sha256": "827692a376a334c626dcf6a0ca53ade94c8622bd97d16f59ec94dc555431d1f3"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-pursuer.png",
+    "sha256": "3bc4da515571da768a5c2d15b6dc7a10f30a5ae4f9c56d3232eca454dd17f086"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f05.png",
+    "sha256": "e1942857ef3534d772ee80f04c4e9e7338cb737fefb104d1d5ec9834854152ab"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f06.png",
+    "sha256": "71d2ac6512e7782cc1110fd6d7010b71acb733205d632cbc79a7aed580225c36"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f07.png",
+    "sha256": "89404cce13de66bedded2cebe05b1801d0e511336a24dfdb7793f9ee33fb1f32"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-pursuer.png",
+    "sha256": "b0f91b099d91c9de24a345224f0d8c7f0ea1ebbeeb1ab793a9a5e0ba722bb21c"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-swooper.png",
+    "sha256": "dfcb222ca3447cca91f55a845e9e8dd64a8e7e3bfd0ac66061695a4527d6bccb"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f00.png",
+    "sha256": "c8d89c0b6092a39d4f61068c728b667fb305cc6e91d9d658bd909dd3bb04cb14"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f01.png",
+    "sha256": "5b2d77dcb35fb9833f0ff737306f936d4809ed08874fc8f242ed83d203e96ad2"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f02.png",
+    "sha256": "f192883dbfe98fd2af689fc92eaf2f8b8782166d142ac0f1f58c4bbce5e9fae9"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f03.png",
+    "sha256": "3f87005402255adde812e0f27b3f4c9a7810235e3a00c678dc7fc10ac4c425ae"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-swooper.png",
+    "sha256": "57eb6d7759ed8d5e35a44e59274c22177fe83cda008bf450922d3babddcf199d"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f04.png",
+    "sha256": "d06b2ec868a4429d7f01324029a6f086315ae2845fc26cc3e4f152cf044a7b6f"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-swooper.png",
+    "sha256": "d5467371e0e708aed76bb35ee4c57bab37aec26ccfc67539fa32b74001a7a68f"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f05.png",
+    "sha256": "c6a0fc92bfcff67b0d45d567b88dc868d661eb9b103ef2748150618fbbec108d"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f06.png",
+    "sha256": "53ce88258b0a61c42b91ec29d7f6f1576205ae10e3a70ce3281e9fda1dab2a56"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f07.png",
+    "sha256": "00859018708f6a7ca3b75a34410a0caf45d761f555e990a111bd69973ae8b4cf"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-swooper.png",
+    "sha256": "712ef3f24236e94d465cc82640c9e543465654ce3870b31d525988a21d5371ca"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-ranged.png",
+    "sha256": "1a2ba170ffe731d0e14f65e1ace4d8cefda15ac5f6824e32885d9da2a7f27b4a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f00.png",
+    "sha256": "cc45b75bf37b50786b1e580a075ec8d1b61b336b42343916825c3519f3936b90"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f01.png",
+    "sha256": "8715e4edbfc1f337e39eda6df363c7f0eb9f26591065f7560cd13ca783246234"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f02.png",
+    "sha256": "4530615034a10a7dc7f3fc59c36427960bc5803c472720cfd5ccae4a697e2604"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f03.png",
+    "sha256": "6f9e8cd126203cf4dd5b6957065fd97a0e584490bea38929d4821fd06f42ac7f"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-ranged.png",
+    "sha256": "1f5a64f000ac428f5a864c18461342d577651d6e2929a5ef2c3773c13f462b1a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f04.png",
+    "sha256": "c689028c4cf271bebbb33e93acf84f964fbbbf1f7eb69e77de95853a962b2bf3"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-ranged.png",
+    "sha256": "2d1e457a0491fc2985fd53dd2af58c7e72f775ef2e9921276254a12dcd344475"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f05.png",
+    "sha256": "cb51132f867272661f0822d2501b4e242c0b15dc7e8c69f783f671ce21fb2651"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f06.png",
+    "sha256": "fafe72a39b4d4559acdc2601aca24331a185ff15e2b070256aa0e03e2228d9a9"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f07.png",
+    "sha256": "7f698f4be34fba7ad6a81727d0a1b2bbd85e77ec893ebb7ec135e5b78e9acd5f"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-ranged.png",
+    "sha256": "70f4dd2787f3fe72c6681dc1ff59420651934c82190ea21ccb114d6901c130a7"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-boss.png",
+    "sha256": "a907f40a559b05ccae572ff663990ea28f38534c8147474739b9c9d87e19136b"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f00.png",
+    "sha256": "c2e4d1a03359e609406c0393bbd1471f259907a3c2cd7c338aaecef95a738834"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f01.png",
+    "sha256": "d7aa30b3a4db5828cf83ac49acf7af3bf2ab58e445cb1c037fb8b5af57f82070"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f02.png",
+    "sha256": "6395c40dc6a1990f8cb5320143744ebd4ee1665519ea5c076e4270a601ca4737"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f03.png",
+    "sha256": "7b2bc4dfd569d58efab0b1f8c534805c50944cf60832922466aed31b861ca90d"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-boss.png",
+    "sha256": "a12808f077262f7bfd84fdd2b4d7586823d05dec5b3cadbb5a0cf0814cc5f8ed"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f04.png",
+    "sha256": "f23708db57bc57eef0647f79904831147730e9f8f6860f09f678833cb29bfe76"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-boss.png",
+    "sha256": "7249c18b6b6be59e36bc0f7eaff11d4a2a625d6641cd76db9313d0ac60cd7eaa"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f05.png",
+    "sha256": "52a9997f86d904c0be652eaae3d2b03ec654520ed06d3ed511d1d275e47b1674"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f06.png",
+    "sha256": "429c98889f08e99ba7d0933d006a35e308e126c04179e0879ed1b313bacce034"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f07.png",
+    "sha256": "84b6f972aea40b4a433459a48eb798591699120cf114a0301f599ecf2c06760a"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-boss.png",
+    "sha256": "e60ab8918fe13cba78e7a9627c761a5c6d6e9aca9ec2b265361ab60867356e3c"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-pursuer.png",
+    "sha256": "1821824ad7319a39bdaa64a8c5bba9810999a76bdae300761f86b64340f48f2e"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f00.png",
+    "sha256": "3e0d95fc568d62ee77c53a647baeacd8df133692f627399988e3a34ea6e7c336"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f01.png",
+    "sha256": "fc2a268ce6ef0702d15089e95e5d8c12fea31d0300a8f500eac0b2d7b2a54751"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f02.png",
+    "sha256": "2e0f3faf5d32a4d6a3de43c97284263361c8484cc0924ecff93a42a938676b50"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f03.png",
+    "sha256": "d3deb8dbd5613bb486b7f89e906a7edb31f00edaef2915fe828fea1512220470"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-pursuer.png",
+    "sha256": "bf4c6880cb0d91ab9cbb1eab117a95f0692af51c78ed28ed968c304c61a69c4f"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f04.png",
+    "sha256": "2abd4a4b4abbdbfe546fa07d998d6ebabebb1250cd1276d083f2ed7565577ea2"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-pursuer.png",
+    "sha256": "cbc6f2440fae8aeafe2002b0386f9b0f0b491e0b052434826ec39940b2eb488a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f05.png",
+    "sha256": "912d5f35581c14c4155d506366fc6ce108a985805366be9e46c378cb850c31ae"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f06.png",
+    "sha256": "ae26f123872c6f633a29ac504569519cb02279ca9a818a4b43d252ed1d582295"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f07.png",
+    "sha256": "d5bd5cefe74c515fee2e81cc7579b4604d759195566b1bed4dd749aaae3960d6"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-pursuer.png",
+    "sha256": "3b74c5b0284627a180f77c08a687bfc7b9d3f3e503881531bb27efd9581f0ea5"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-swooper.png",
+    "sha256": "8a73269bbfab7e63cde89ea677e513ada9196d9c36d143702b5b5006d128c238"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f00.png",
+    "sha256": "8de9ba507ef188e078e052196b1bbd8ed6104e5b5a1254256005033db8639e3d"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f01.png",
+    "sha256": "2cae8f0f35d4d1cf16fbfd9f26881020fa8249a7cfee28ce8491e63ad5c3f9aa"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f02.png",
+    "sha256": "5b7445b8761897ccc00ee0b2c3bc483d41718c42ebcc06457145a77c771976e8"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f03.png",
+    "sha256": "dd4acd0f8809810a6ed879c2cc80bf7ae9e13387f063e6614b1b00e5448dd406"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-swooper.png",
+    "sha256": "6d130d92c03466ef4f548c111d3cdac97e8527722794ae790cf251be5a3e04c2"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f04.png",
+    "sha256": "12b7003c06a63e3ccfe291b5f1f79617fe7b5db551f54d538a30d60e26ae5e9f"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-swooper.png",
+    "sha256": "1c893b6890806f34064632a98cfc0d470267643aecfe1b9d8474797d4b5ec0ff"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f05.png",
+    "sha256": "e66e0e5f4df4011b9ba44a73e5429a31d7ce2e6c45e96e4cdfe6cb96e24ad4f2"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f06.png",
+    "sha256": "7f695f7af5a874a28df07f89cb11e622e5bedefdd17ce21fdf31405708635362"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f07.png",
+    "sha256": "700793e61ea4b0bfbc2b1735a5d77a63bd94c6e4ca49277b784c6335999a6deb"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-swooper.png",
+    "sha256": "82e18dafd12c874447dfcfb5026f8d8eb0da13af053ae605a8fd2d2ba93a0d89"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-ranged.png",
+    "sha256": "8f0211978b2b49ca21e13e28973639a97921db0b8a3cab6aeca26a8bbb198d8a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f00.png",
+    "sha256": "436ad52a84bcd1c5d26828744f3a9f597eadea160d39bde61ba3ab1a431f0aa3"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f01.png",
+    "sha256": "0b49746fceb0af5c8c851c13bfe806ae36302de401f6e00fb48f863cf9ab41f3"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f02.png",
+    "sha256": "cb605376c49e87a604c613ec543966347fd545ad5a01509ed611890136e32453"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f03.png",
+    "sha256": "0e4b53d86fc695e33c54f2980888230e86fee8c885241fee4e1d70f30e77f61b"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-ranged.png",
+    "sha256": "3d6635253f87cf9be9355af4bc951f005c3d6378f0fbbdd7f2a953ddd995fcca"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f04.png",
+    "sha256": "ec2d17f7e1fa96ff3553d51fcfc4a0204f97c9818d89d6b8a51a63cc003d5092"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-ranged.png",
+    "sha256": "452a91cabc96fe9d07a927c92f6af3de3836bb865fb3b5ed59930e96a31bbd2a"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f05.png",
+    "sha256": "8c4ebb52bb58dbf304e6ac721229eb9b608b1bc7dcc0075aaedbd82fe2019e27"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f06.png",
+    "sha256": "a222b63cba7c735ddae3be19f80d283b529fd759f496d084497182dc03b451fc"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f07.png",
+    "sha256": "2b90e03a167956cbadb564af3be7b636cfcd638f198b18881002b698f1dbef07"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-ranged.png",
+    "sha256": "e1276293ca7e6cba8d07cb9ad4a1f7f3b5cdd6cb19806b50d2a44a7a289dbca6"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-boss.png",
+    "sha256": "e6eca60b55f2984cfc7069db5efedc4aa452e362df99c4a21df167cbb6ce1dd3"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f00.png",
+    "sha256": "72c4a2c587187835f1ee495c6b507e2b07bade06f40ce68572f196ce4e249aa3"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f01.png",
+    "sha256": "3e57a19a319c2cc5a246fbfd149b8db40740444ea073ee15163a9772058ff849"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f02.png",
+    "sha256": "63db7a32b4cd539d66c174e362c7dc5bc19652f176ebeb039ffb912a385c4399"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f03.png",
+    "sha256": "f2a082d996afa6f32eb59b903f212a28f8e885d8df73bad5abb765ae9e3d216e"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-boss.png",
+    "sha256": "86c2929aabe93f8f95bf619691f790712eae46f223dada01b7df2b4cdddada7e"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f04.png",
+    "sha256": "e14be34f2486e0c7a521ad8640907aa3c9f6f9f01d5e660540dacc24a3027bf0"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-boss.png",
+    "sha256": "65a87256e995c404365a61b6d66c8e05ea787988bbe9501669a143bfbecf32c1"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f05.png",
+    "sha256": "f5dfd11bac5b8529cfbb4552217985cfa3ee59c494f1f70d3f176aa0f82c4c8e"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f06.png",
+    "sha256": "ac9da086e23b6fa4a489fb6367d13c0a40156f353709360d587161ddfd5d543b"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f07.png",
+    "sha256": "0e47eee129771717347fb2dc811f9c62b9b86ee2d6f07cb7221dce47b7dba4d5"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-boss.png",
+    "sha256": "3f6bf5b81272503f2f35ea448786ae125154d044c7347785d9f0fe8fd932bc17"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-pursuer.png",
+    "sha256": "e1f32545ea1ee4bf82e19e34879ab61a01e8a2e657c58b5a7bbee6ff5d293739"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f00.png",
+    "sha256": "359821182e8419bbf8f0893f75bbac9559219f89ccad8ec0fc779c7f3f23f5c4"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f01.png",
+    "sha256": "4ec4dbd3b457b0f051dbe848e8d1a06ff891755cefce5408587f393fc129f490"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f02.png",
+    "sha256": "12e2d3b0bc872a9c23b031eb4930331335509588105f9c4420727c3ebe15b3f3"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f03.png",
+    "sha256": "fb31f64edb86c0031a26974145e7cc977458fe0c4e0a6e3583ffa650911de002"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-pursuer.png",
+    "sha256": "02cfa8488fd0ef1b378625d4c745c3c78f69a311ee553723fac472b1594e421a"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f04.png",
+    "sha256": "e687aa29e67a9392590ca16e52fa9257c5456c244a071077a4aaefeda321c4d4"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-pursuer.png",
+    "sha256": "e529190979f93c31fd069606617045c1fc89f62eed153c0c0ee53825e25ae541"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f05.png",
+    "sha256": "8b3c0647ee868e6f74c9db72da78cd0ddf50b5ec80757459ef8f14b29ef95cae"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f06.png",
+    "sha256": "4f221decf472f30801500def46f024ec1343871f167faf16f85ec5461dfe71a6"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f07.png",
+    "sha256": "aec6725fd53e82814739ba56026c5c09f4e91797149db0063e8a7d6702e61c5c"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-pursuer.png",
+    "sha256": "9a7298dd57dfce4c9a9cc5475bb502c763ebb0c050caddc45db0829efb1635b8"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-swooper.png",
+    "sha256": "a4a53d94efd601a0345a29ad51dd65f11443c4e9bd4ea2d2dac96e1db526ace8"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f00.png",
+    "sha256": "28bb7e74e1eb01ee3612fc44f3ecece410db067b1b92e227f0042c69b10c70a1"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f01.png",
+    "sha256": "97ab3106b7e7b154affdb06a6e0b4b871bb48131c1e85cf71227cd5ce57e207d"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f02.png",
+    "sha256": "b976dfa93673609d8868f0471d5d9c70e957a65553bdf02016df94f6b6b733b6"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f03.png",
+    "sha256": "58ec242d7aa2f66aa4c531a4ce0f7aa1e5a2b2e93a0c9c81f0e0db9be2ff6fa3"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-swooper.png",
+    "sha256": "891f7fe4b7a7fafa3afac38598b683a195a29554a840fea85df47fb73248a270"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f04.png",
+    "sha256": "59864d212ed928426257802700eb4625b57bbe114f2c86c8b9b8810b05917596"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-swooper.png",
+    "sha256": "c62dac4aa51e629a4a2f0f7217478bfdf828b2ae1863bb4ec67557bbd5e270b5"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f05.png",
+    "sha256": "45d685a1dff1051ced5f9ce1e0f64add62f952c1d1390fcca6f4325fcc56e209"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f06.png",
+    "sha256": "3e8f32ee9ec9931fdb6115ed7a3a23357ebca2cf2c26919da07d11ea117c3bec"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f07.png",
+    "sha256": "64db5b9f10948727bf8f9bda0cdaa46b1e9a420fdc7625626f40093d5a980a37"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-swooper.png",
+    "sha256": "d3de0b74b0a13c54a9b1af2f3ecf646f69e3ba9e3c93f23c51eacbba92b1937a"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-ranged.png",
+    "sha256": "c571688dbdf07bae475aa7df86cc5b4595983d6d15d83aec35303449e169bba9"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f00.png",
+    "sha256": "1a6da0e0f4e7d74827b51666ea84a4f84a1c5a018eaf1731dc8a6a5b2403ce07"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f01.png",
+    "sha256": "56a744d9ed015e7bf82406ec31840544d3160ac56fcf7810002f7e2f7963ff4f"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f02.png",
+    "sha256": "c08fd8e854cadc2c91f58af4fd3df2c139212d15485ff849dbcf910d1b6edf20"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f03.png",
+    "sha256": "f770f0c7c4f3d4bc84c5bb00e38ac82e7e8557601bcd461fdfebee1ea25cbc26"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-ranged.png",
+    "sha256": "4954d44340b08e535cb25273b74e4b0f3139f8c5740cd4a2b70e86463141a755"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f04.png",
+    "sha256": "4772a1f1195da6d5d5f05f3571cf84006d402afc51ee3f53968f1ceb405889ae"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-ranged.png",
+    "sha256": "9922499e496dad03fce3e2e988564800e7aba1ceab5864c644e5001febdb6f80"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f05.png",
+    "sha256": "4f25a55453f56151d4205d6251f1acc539da8c268003988add0891c4154c2d83"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f06.png",
+    "sha256": "cfb5c72a04b2f3e0376398b34215b4ba8edda319d09ba47100631ee65959524b"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f07.png",
+    "sha256": "7a47e1aee48ab5be74f6a19e89d067795685470b5b34ef0f334c7e9b87e3571e"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-ranged.png",
+    "sha256": "56dd8d7328f2ad5c08194523e7c1c6e2af01754f95c41a4ef8b938be1111a2ef"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-boss.png",
+    "sha256": "b0cea969c377b94b67591f78a5ff829134ef557484fce6cdac388573fe6415c2"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f00.png",
+    "sha256": "2fbcefc0aa1349e69172c976370a3256a60b89c7f09e31731c99f51088b4d2ed"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f01.png",
+    "sha256": "387cd9b47deac4e3bd3cec98fb34561ccad95f6e2c22121b3af445b47fa81795"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f02.png",
+    "sha256": "e99c56ea86aa38bff0e979ab4b3bd038718d18b866bb598785015d491ecfc31b"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f03.png",
+    "sha256": "04cca673e2c99938b0c8bf02db23bfc6c8044e35249214a20d51da3db9b57aad"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-boss.png",
+    "sha256": "8844110d0ab9e1172eccab2f7eb4e1fa5ccaf6ec60f96b514e7e28e27ae80707"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f04.png",
+    "sha256": "e3c22e534958e0c3223e290f9971d20ca77a837b268d5c01a1ae9a98e78e78c2"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-boss.png",
+    "sha256": "3c528d3d6e585283872d9450a7323f7dc669f1bb8276fa0b50f37e60daf3c7b5"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f05.png",
+    "sha256": "3904157eccaa0a4120850f306b611ca9372108559b37a14e3c42054dddf867cc"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f06.png",
+    "sha256": "fa5b0ca7aa2927fb6e583d1318c13d570f32b81e605f3610c8aa3238f098d8b2"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f07.png",
+    "sha256": "23c27e918c14e06f9a8bb7632d80cf34091c2156e5b2db2e4c8f7dd617ebdb89"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-boss.png",
+    "sha256": "1b2f5a48da7ce5b2482e5750f7165fecb1f5736a8e3386300f790937cf4710cd"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-pursuer.png",
+    "sha256": "c897e5e00da604257a246fc0886258a696dd2a23c85e4ef906d8cdae7ed6adb0"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f00.png",
+    "sha256": "a4b1a922e34786e0837eec66dda82236dd003c0e9a42a9a63989a0db20f5568d"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f01.png",
+    "sha256": "e2acd1acc8854007c84be358a5250abd416c86e267dd0434d7c0a40aaf04aa27"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f02.png",
+    "sha256": "93e19bc275e2f6859f098df0b2e97586cb30da7969d3e33ea01bddffd1bc49d9"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f03.png",
+    "sha256": "502c6ef31ddba92b795216e733105c85ffb504314f2a123adcaba5034278e7e6"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-pursuer.png",
+    "sha256": "a5f04fcc2b2a9528936b43d0df6ba157451fe7a3623b6b7ec89b323cbe952496"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f04.png",
+    "sha256": "19efba79d7341f4eb217b4abc2de2c9e405b2399435d668fbb0302415e3142f1"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-pursuer.png",
+    "sha256": "8ce974f024ad1f823ba3cc6efb08827e2a3c9d5d0e99a97dd6b8323dab70c83a"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f05.png",
+    "sha256": "2798ac1ffd2751edab7a76dc6ba478d7b1e5068e4d535db0a2a7b89d05011007"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f06.png",
+    "sha256": "6a23394aa0b730f4b25febdf306be2a313155ea883bf6ecfb90f32a1061b7da5"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f07.png",
+    "sha256": "c9643712c2de14d44fafc560b57054517ff9c645b7e9c484db79186b73fc2dcb"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-pursuer.png",
+    "sha256": "7658f8a6131092ef2255c7902a961bcdf68e7d5f35ef187e08f70664269e584d"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-swooper.png",
+    "sha256": "7e5a644b7eb6668b8796637772ff8cdbf254496790bbef5ec18b7fecda4f52dd"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f00.png",
+    "sha256": "376583f622377cc744dd3c14022d52d240414791164ed646f3feb626fd69bab2"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f01.png",
+    "sha256": "373f3f9237a21fa4bbf6e8cc4848798d02c2cecabc86a449f7a9e16eea15e4c5"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f02.png",
+    "sha256": "132f9211c0b87bad828f7349234b718e6cd84a8b0009a5c72bac0a6e14511d32"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f03.png",
+    "sha256": "c2b353957852ba01b0f52f61ecbc557548654832e91064eb2d12e70e88bed87f"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-swooper.png",
+    "sha256": "6c64d1bb17b33cfc435cea063dc57c5e0ec46ac92655c729aea34f5e7105c038"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f04.png",
+    "sha256": "759ff60d7d6812e1a1856790b8b802160f6dfc577152ad98dba87b37bffb24ec"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-swooper.png",
+    "sha256": "4c1f61bc1a8148e12dd7631fab6cb64b0beba9955644afc1e3b4901d0d0b0cae"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f05.png",
+    "sha256": "0e215bebd9be2f48ac465d20fbaa7989d76a153aae18df3eee8d5d25e1a6d5ba"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f06.png",
+    "sha256": "d8de9a97c6e5943577843169d2a14815ea078f9a2d75f8725b11bd05898901c5"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f07.png",
+    "sha256": "ff58a95379059d5c578b8dcae4cb196de867a83a35b466be89a8b39da8364674"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-swooper.png",
+    "sha256": "810cc4f834d2ef6b0a7535a92a46286c34ac7c5ece207e1b948a65acfc839df3"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-ranged.png",
+    "sha256": "a5f40c9d6a5cc14d51f0fe2477d083b672fe4f0c9dbf761ad362998d250d807f"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f00.png",
+    "sha256": "661d8cc1e7fa935fc470a91c3074b152e1a147901970dbd38ae4540da4e160fa"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f01.png",
+    "sha256": "b991ee68365acb099e99b995d28dcb94c263b8772812428bf57d6d9933dd1d1b"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f02.png",
+    "sha256": "b9a27e126a08a0546b88129e1d1d8f7210e74ff5b62b4b61d64545d3999c691b"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f03.png",
+    "sha256": "c80bd757985959f0748ffc216a025681a04ba5b734deb0b812339d7b9eca4a6c"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-ranged.png",
+    "sha256": "4088efeffb558e05a1e7efffb276db73fc22cb43518e56f65308af8b9fde4e0c"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f04.png",
+    "sha256": "d342e1c331c90642b3eeb3e3912abc5205e8791769145c2c520e3a3a3a525815"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-ranged.png",
+    "sha256": "451d373bc9ee870a5b5649539f4be0c496e09caa82e8d0f3dbc5303fcb48b497"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f05.png",
+    "sha256": "9d163213122a7678ca984b6b82879e90ef0ade75b1730710371ea00510a5c4c2"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f06.png",
+    "sha256": "9f6330b2c106eb0ddd6a509e4504298df4eb1d980e165c9c873e1a71e95a7919"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f07.png",
+    "sha256": "490ec0c545fc3b5e62f47f823dddb8bcb37c3903ebb0c95ee3aca19f0ec60fd5"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-ranged.png",
+    "sha256": "52dcc18e2cf0f0a349cff20aaa0d606eb430ae87985c2c7f6c952de8ec07651b"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-boss.png",
+    "sha256": "271d0c174a4ca10531e90aff044cbb5a057ac7c80fe1e660f72a740d0c16cf6c"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f00.png",
+    "sha256": "d8b102e0239b8d99dc7fe5b352a94ee203299db8ee60b4bb7dcce7b63a442df1"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f01.png",
+    "sha256": "4bcfa604ecf72a66725e7e0320aacbd81d2c3553bd946715a06949e9f205cbcb"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f02.png",
+    "sha256": "37e876fa4057eadae42b53e636baeddbd7cc9219a8ae22f321e28aa42445c3a7"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f03.png",
+    "sha256": "a1aab49fc3723505cea345e4ff894fa8b059346847865a7db60a8f0618435c14"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-boss.png",
+    "sha256": "e0d7c12a499997b7126607f33345bf41e0e50a0e302baf07bb35c2334f68b2ef"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f04.png",
+    "sha256": "374cd1bc29350de761d74a2514f261e17fc2a5e3159e8c6fd0b64464bb6f134a"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-boss.png",
+    "sha256": "5838e7002c230bd54b0b4d6c6229486dea71b60673c964fb3d6b44b19ddecfed"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f05.png",
+    "sha256": "537b7a1a201cc40782e06334baaa7a12a720f0b9d1502e3b1e61766056ced492"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f06.png",
+    "sha256": "87f494d9e730599542713b7d22cfab155b093734447fd698ce33a0a08b6965bf"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f07.png",
+    "sha256": "ef4f3bf460d2dbfc8f65d86a2b8c61c623a62ad6ab3f6960d6b70ec2469818f1"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-boss.png",
+    "sha256": "7ee13c50048ef0716c80b717e049e05639116f53e97045602d5bdc849010d5e6"
+  }
+]

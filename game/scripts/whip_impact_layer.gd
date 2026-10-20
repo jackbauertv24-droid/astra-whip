@@ -1,5 +1,6 @@
 class_name WhipImpactLayer
 extends Node2D
+var clip_id="vfx_whip_impact"
 var frames: Array[Texture2D] = []
 var durations: Array = []
 var canvas_size=Vector2.ZERO
@@ -10,12 +11,12 @@ func _ready():
  z_index=10
  texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
  var contract: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
- var spec: Dictionary=contract.clips.vfx_whip_impact
+ var spec: Dictionary=contract.clips[clip_id]
  durations=spec.ms
  canvas_size=Vector2(spec.canvas[0],spec.canvas[1])
  anchor=Vector2(spec.anchor[0],spec.anchor[1])
  for frame in durations.size():
-  var path="res://assets/vfx/vfx_whip_impact/f%03d.png"%frame
+  var path="res://assets/vfx/%s/f%03d.png"%[clip_id,frame]
   if PackedArt.exists(path): frames.append(PackedArt.texture(path))
 func frame_at(age: float)->int:
  if age<0: return -1

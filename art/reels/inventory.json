@@ -2022,14 +2022,14 @@
         128
       ],
       "frames": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+        "../../game/assets/vfx/vfx_enemy_defeat/f000.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f001.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f002.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f003.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f004.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f005.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f006.png",
+        "../../game/assets/vfx/vfx_enemy_defeat/f007.png"
       ],
       "weapon": null,
       "sockets": null,

@@ -1,0 +1,2990 @@
+{
+ "physical_device": false,
+ "records": [
+  {
+   "actual_hits": [
+    0
+   ],
+   "direction": 1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 1,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-right-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "idle",
+     "target_hp": 1,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.925000011920929,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.858333349227905,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "reduced-right-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "paused-right-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.649999976158142,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.574999988079071,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.508333325386047,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-right-pursuer-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.433333337306976,
+     "body_frame": 5,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-right-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "pursuer"
+  },
+  {
+   "actual_hits": [
+    0
+   ],
+   "direction": 1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 1,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-right-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "perch_idle",
+     "target_hp": 1,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      496.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      496.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      509.5
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      521.5
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      535.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "reduced-right-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      535.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      547.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "paused-right-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      547.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      559.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-right-swooper-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-right-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "swooper"
+  },
+  {
+   "actual_hits": [
+    1,
+    0
+   ],
+   "direction": 1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 2,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-right-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "aim",
+     "target_hp": 1,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.925000011920929,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.858333349227905,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "reduced-right-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "paused-right-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.649999976158142,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.574999988079071,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.508333325386047,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-right-ranged-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.433333337306976,
+     "body_frame": 5,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-right-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "ranged"
+  },
+  {
+   "actual_hits": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "direction": 1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 8,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-right-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "idle",
+     "target_hp": 1,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "reduced-right-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "paused-right-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-right-boss-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 6,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-right-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "boss"
+  },
+  {
+   "actual_hits": [
+    0
+   ],
+   "direction": -1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 1,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-left-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "idle",
+     "target_hp": 1,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.925000011920929,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.858333349227905,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "reduced-left-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "paused-left-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.649999976158142,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.574999988079071,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.508333325386047,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      291.475
+     ],
+     "effect_position": [
+      6144.0,
+      534.0
+     ],
+     "file": "defeat-left-pursuer-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.433333337306976,
+     "body_frame": 5,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-left-pursuer.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "pursuer",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "pursuer"
+  },
+  {
+   "actual_hits": [
+    0
+   ],
+   "direction": -1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 1,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-left-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "perch_idle",
+     "target_hp": 1,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      496.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      496.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      509.5
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      521.5
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      535.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "reduced-left-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      535.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      547.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "paused-left-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      547.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      559.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      270.733333333333
+     ],
+     "effect_position": [
+      6144.0,
+      496.0
+     ],
+     "file": "defeat-left-swooper-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-left-swooper.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death_fall",
+     "target_hp": 0,
+     "target_kind": "swooper",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "swooper"
+  },
+  {
+   "actual_hits": [
+    1,
+    0
+   ],
+   "direction": -1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 2,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-left-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "aim",
+     "target_hp": 1,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.925000011920929,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.858333349227905,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.783333361148834,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "reduced-left-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.716666638851166,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "paused-left-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.649999976158142,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.574999988079071,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.508333325386047,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      264.729166666667
+     ],
+     "effect_position": [
+      6144.0,
+      485.0
+     ],
+     "file": "defeat-left-ranged-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 0.433333337306976,
+     "body_frame": 5,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-left-ranged.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "ranged",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "ranged"
+  },
+  {
+   "actual_hits": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1,
+    0
+   ],
+   "direction": -1,
+   "fixture": "isolated standing/perch hits; each preserves remaining production HP",
+   "initial_hp": 8,
+   "samples": [
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "before-left-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.0,
+     "state": "idle",
+     "target_hp": 1,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.0,
+     "effect_frame": 0,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f00.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.0,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 0,
+     "burst_count": 1,
+     "effect_age": 0.075,
+     "effect_frame": 1,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f01.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.075,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 1,
+     "burst_count": 1,
+     "effect_age": 0.141666666666667,
+     "effect_frame": 2,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f02.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.141666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f03.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 2,
+     "burst_count": 1,
+     "effect_age": 0.216666666666667,
+     "effect_frame": 3,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "reduced-left-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": true,
+     "sequence_elapsed": 0.216666666666667,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f04.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.283333333333333,
+     "effect_frame": 4,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "paused-left-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": true,
+     "reduced_effects": false,
+     "sequence_elapsed": 0.283333333333334,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 3,
+     "burst_count": 1,
+     "effect_age": 0.35,
+     "effect_frame": 5,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f05.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 4,
+     "burst_count": 1,
+     "effect_age": 0.425,
+     "effect_frame": 6,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f06.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 5,
+     "burst_count": 1,
+     "effect_age": 0.491666666666667,
+     "effect_frame": 7,
+     "effect_image_point": [
+      349.0,
+      257.633333333333
+     ],
+     "effect_position": [
+      6144.0,
+      472.0
+     ],
+     "file": "defeat-left-boss-f07.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    },
+    {
+     "body_alpha": 1.0,
+     "body_frame": 6,
+     "burst_count": 0,
+     "effect_age": -1.0,
+     "effect_frame": -1,
+     "effect_image_point": [
+      -3004.6,
+      0.000000000000028421709430404
+     ],
+     "effect_position": [
+      0.0,
+      0.0
+     ],
+     "file": "expired-left-boss.png",
+     "image_size": [
+      698,
+      393
+     ],
+     "paused": false,
+     "reduced_effects": false,
+     "sequence_elapsed": -1.15,
+     "state": "death",
+     "target_hp": 0,
+     "target_kind": "boss",
+     "target_position": [
+      6144.0,
+      560.0
+     ]
+    }
+   ],
+   "target_kind": "boss"
+  }
+ ],
+ "viewport": "(852, 393)"
+}

@@ -1,0 +1,12 @@
+{
+  "mandatory": [
+    "vfx_enemy_defeat"
+  ],
+  "original_contract": "contract/art_contract.json",
+  "style_lock_manifest": "art/style-lock.json",
+  "engine_captures": [
+    "evidence/enemy-defeat-r01-native/capture.json",
+    "evidence/enemy-defeat-r01-phone/capture.json"
+  ],
+  "visual_approval": false
+}

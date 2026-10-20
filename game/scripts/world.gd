@@ -5,6 +5,7 @@ var hero: Hunter
 var surfaces: Array = []
 var foes: Array = []
 var projectiles: Array = []
+var defeat_layer: WhipImpactLayer
 var impact_layer: WhipImpactLayer
 var projectile_frames: Array[Texture2D] = []
 var projectile_durations: Array = []
@@ -58,6 +59,9 @@ func projectile_frame_at(age: float) -> int:
  return projectile_durations.size()-1
 func _ready() -> void:
  load_projectile_art()
+ defeat_layer=WhipImpactLayer.new()
+ defeat_layer.clip_id="vfx_enemy_defeat"
+ add_child(defeat_layer)
  impact_layer=WhipImpactLayer.new()
  add_child(impact_layer)
  for row in Stage.SURFACES:
@@ -120,6 +124,7 @@ func restart() -> void:
  pit_timer = -1
  projectiles.clear()
  impact_layer.clear()
+ defeat_layer.clear()
  effigy = true
  set_gate(false)
  hero.reset_at(respawn)
@@ -166,6 +171,8 @@ func _physics_process(dt: float) -> void:
  menu_back.visible = menu.visible
  queue_redraw()
 func step(dt: float) -> void:
+ defeat_layer.reduced=reduced_effects
+ defeat_layer.advance(dt)
  impact_layer.reduced=reduced_effects
  impact_layer.advance(dt)
  if pit_timer >= 0:

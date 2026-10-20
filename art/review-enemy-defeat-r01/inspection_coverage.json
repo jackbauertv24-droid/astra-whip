@@ -1,0 +1,2498 @@
+[
+  {
+    "mode": "native",
+    "file": "before-right-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-pursuer-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-0.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-swooper-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-1.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-ranged-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-2.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-right-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-right-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-right-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-right-boss-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-right-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-3.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-pursuer-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-pursuer.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-4.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-swooper-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-swooper.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-5.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-ranged-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-ranged.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-6.png"
+  },
+  {
+    "mode": "native",
+    "file": "before-left-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f00.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f01.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f02.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f03.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "reduced-left-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f04.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "paused-left-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f05.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f06.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "defeat-left-boss-f07.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "native",
+    "file": "expired-left-boss.png",
+    "width": 1280,
+    "height": 720,
+    "crop": [
+      480,
+      355,
+      320,
+      260
+    ],
+    "sheet": "inspection-native-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-pursuer-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-0.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-swooper-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-1.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-ranged-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-2.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-right-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-right-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-right-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-right-boss-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-right-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-3.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-pursuer-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-pursuer.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-4.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-swooper-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-swooper.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-5.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-ranged-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-ranged.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-6.png"
+  },
+  {
+    "mode": "phone",
+    "file": "before-left-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f00.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f01.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f02.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f03.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "reduced-left-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f04.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "paused-left-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f05.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f06.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "defeat-left-boss-f07.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  },
+  {
+    "mode": "phone",
+    "file": "expired-left-boss.png",
+    "width": 698,
+    "height": 393,
+    "crop": [
+      229,
+      165,
+      240,
+      200
+    ],
+    "sheet": "inspection-phone-7.png"
+  }
+]

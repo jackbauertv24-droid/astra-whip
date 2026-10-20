@@ -1,0 +1,346 @@
+{
+  "contract_version": "0.2.0",
+  "authority": "docs/ART_CONTRACT.md (rules), docs/ASSET_BRIEFS.md (inventory, canvases, pivots, durations). tools/contract-check.mjs fails when this file disagrees with ASSET_BRIEFS.md.",
+  "frames_layout": "<frames_root>/<clip_id>/f000.png, f001.png, ... (delivered frames, before atlas packing, contract canvas size)",
+  "hand_sockets_layout": "<frames_root>/hand_sockets.json: { \"<hero attack clip id>\": [[x, y], ...one per frame, source px on the body canvas] }. Body and whip canvases share the foot pivot (256, 448), so the same coordinates locate the socket on the whip canvas.",
+  "measurement": {
+    "ink_alpha": 40,
+    "attach_px": 8,
+    "debris_min_area_px": 24,
+    "edge_px": 2,
+    "head_band": 0.12,
+    "boot_band": 0.08,
+    "leg_zone": [
+      0.55,
+      0.94
+    ],
+    "boot_ratio_max": 0.6,
+    "leg_dip_max": 0.5,
+    "head_tol": 0.05,
+    "pop_size": 0.06,
+    "pop_height": 0.12,
+    "pop_height_classes": [
+      "stand",
+      "stride",
+      "crouch",
+      "creature"
+    ],
+    "clip_consistency": 0.06,
+    "clip_consistency_strict_classes": [
+      "stand",
+      "stride",
+      "crouch"
+    ],
+    "cloth_below_pivot_flag_px": 6,
+    "normalise_scale_range": [
+      0.85,
+      1.18
+    ]
+  },
+  "pose_classes": {
+    "stand": {
+      "height_ref": "design",
+      "height": [
+        0.97,
+        1.03
+      ],
+      "size": [
+        0.92,
+        1.08
+      ],
+      "foot_tol_px": 2,
+      "head": true,
+      "lower_body": true
+    },
+    "stride": {
+      "height_ref": "design",
+      "height": [
+        0.94,
+        1.03
+      ],
+      "size": [
+        0.92,
+        1.08
+      ],
+      "foot_tol_px": 2,
+      "head": true,
+      "lower_body": true
+    },
+    "strike": {
+      "height_ref": "design",
+      "height": [
+        0.9,
+        1.2
+      ],
+      "size": [
+        0.92,
+        1.08
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": true
+    },
+    "crouch": {
+      "height_ref": "crouch",
+      "height": [
+        0.95,
+        1.05
+      ],
+      "size": [
+        0.8,
+        1
+      ],
+      "foot_tol_px": 2,
+      "head": true,
+      "lower_body": false
+    },
+    "crouch_strike": {
+      "height_ref": "crouch",
+      "height": [
+        0.9,
+        1.2
+      ],
+      "size": [
+        0.8,
+        1.05
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": false
+    },
+    "transition": {
+      "height_ref": "range",
+      "height": [
+        "crouch*0.95",
+        "design*1.03"
+      ],
+      "size": [
+        0.8,
+        1.08
+      ],
+      "foot_tol_px": 2,
+      "head": true,
+      "lower_body": false
+    },
+    "air": {
+      "height_ref": "design",
+      "height": [
+        0.7,
+        1.15
+      ],
+      "size": [
+        0.9,
+        1.1
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": false
+    },
+    "impact": {
+      "height_ref": "design",
+      "height": [
+        0.25,
+        1.05
+      ],
+      "size": [
+        0.85,
+        1.12
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": false
+    },
+    "collapse": {
+      "height_ref": "design",
+      "height": [
+        0.15,
+        1.05
+      ],
+      "size": [
+        0.7,
+        1.12
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": false
+    },
+    "dissolve": {
+      "height_ref": null,
+      "height": null,
+      "size": null,
+      "foot_tol_px": 6,
+      "head": false,
+      "lower_body": false
+    },
+    "creature": {
+      "height_ref": "design",
+      "height": [
+        0.85,
+        1.15
+      ],
+      "size": [
+        0.88,
+        1.12
+      ],
+      "foot_tol_px": 2,
+      "head": false,
+      "lower_body": false
+    }
+  },
+  "actors": {
+    "hero": {
+      "canvas": [
+        512,
+        512
+      ],
+      "pivot": [
+        256,
+        448
+      ],
+      "align": "feet",
+      "design_height": 224,
+      "crouch_height": 140,
+      "head_ratio": [
+        0.14,
+        0.2
+      ],
+      "has_legs": true,
+      "reference": {
+        "clip": "style_hero_neutral",
+        "class": "stand"
+      }
+    },
+    "pursuer": {
+      "canvas": [
+        320,
+        256
+      ],
+      "pivot": [
+        128,
+        224
+      ],
+      "align": "feet",
+      "design_height": 112,
+      "head_ratio": null,
+      "has_legs": true,
+      "reference": {
+        "clip": "pursuer_patrol_walk",
+        "class": "creature"
+      }
+    },
+    "swooper": {
+      "canvas": [
+        384,
+        256
+      ],
+      "pivot": [
+        192,
+        128
+      ],
+      "align": "centre",
+      "design_height": 170,
+      "head_ratio": null,
+      "has_legs": false,
+      "reference": {
+        "clip": "swooper_cruise",
+        "class": "creature"
+      }
+    },
+    "ranged": {
+      "canvas": [
+        256,
+        352
+      ],
+      "pivot": [
+        128,
+        320
+      ],
+      "align": "feet",
+      "design_height": 300,
+      "head_ratio": null,
+      "has_legs": false,
+      "reference": {
+        "clip": "ranged_idle",
+        "class": "creature"
+      }
+    },
+    "boss": {
+      "canvas": [
+        512,
+        576
+      ],
+      "pivot": [
+        176,
+        512
+      ],
+      "align": "feet",
+      "design_height": 352,
+      "head_ratio": [
+        0.12,
+        0.22
+      ],
+      "has_legs": true,
+      "reference": {
+        "clip": "boss_walk",
+        "class": "stride"
+      }
+    }
+  },
+  "clips": {
+    "vfx_enemy_defeat": {
+      "actor": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "anchor": [
+        128,
+        128
+      ],
+      "anchor_mode": "centre",
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "size_curve": true,
+      "max_extent_px": 250
+    }
+  },
+  "whip": {
+    "canvas": [
+      768,
+      512
+    ],
+    "pivot": [
+      256,
+      448
+    ],
+    "socket_contact_px": 3,
+    "grip_centre_px": 6,
+    "root_zone_px": [
+      20,
+      60
+    ],
+    "root_thickness_max_px": 12,
+    "tip_zone_px": 20,
+    "tip_thickness_max_px": 5,
+    "coil_max_px": 123,
+    "active_reach_min_px": 336,
+    "progression_tol_px": 4
+  },
+  "vfx": {
+    "border_px": 2,
+    "anchor_tol_px": 4,
+    "wobble": 0.1
+  },
+  "engine_drawn": {
+    "vfx_damage_indicator": "Screen-edge vignette drawn in engine code (ART_CONTRACT V-04). Never generated, never chroma-keyed."
+  }
+}

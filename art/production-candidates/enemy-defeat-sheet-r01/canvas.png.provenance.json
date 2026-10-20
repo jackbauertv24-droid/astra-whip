@@ -1,0 +1,14 @@
+{
+  "source": "art/production-candidates/enemy-defeat-sheet-r01/raw.png",
+  "source_canvas": [
+    1774,
+    887
+  ],
+  "export_canvas": [
+    1024,
+    512
+  ],
+  "method": "uniform canvas resolution conversion, area filter, premultiplied alpha",
+  "corrective_normalization": 1,
+  "debris_removed": 0
+}

@@ -6067,6 +6067,150 @@
       ],
       "rgba_sha256": "a08dc77a78793a175d9024eb5d7325adbec11e68c484d600374af7609735e81b"
     },
+    "res://assets/vfx/vfx_enemy_defeat/f000.png": {
+      "page": 3,
+      "region": [
+        897,
+        110,
+        86,
+        88
+      ],
+      "trim": [
+        86,
+        84
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "e1f57656bd0885a8d34f2fe4e948e93f2ef60e24105bdd9721c347650fdf0907"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f001.png": {
+      "page": 2,
+      "region": [
+        847,
+        1055,
+        123,
+        120
+      ],
+      "trim": [
+        68,
+        68
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "71a04a326899d8a247556c92aa732b27d8b7610873c772129c8d768e755e8fdf"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f002.png": {
+      "page": 3,
+      "region": [
+        1861,
+        1230,
+        168,
+        199
+      ],
+      "trim": [
+        45,
+        28
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "0f422e0e17b8509a54b94be9f939577b15f7e7420a5590cc02d23d53c8552400"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f003.png": {
+      "page": 4,
+      "region": [
+        261,
+        288,
+        217,
+        246
+      ],
+      "trim": [
+        20,
+        5
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "ae6378bb9173e068bffb9bb1eb37a19e09cb6a83e1203b935aa899955f4abc48"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f004.png": {
+      "page": 3,
+      "region": [
+        1847,
+        1004,
+        191,
+        222
+      ],
+      "trim": [
+        34,
+        18
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "41f444111b59553bc5e4c9e5c1607b296c53b3475da9a230de233bcb38d4a321"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f005.png": {
+      "page": 3,
+      "region": [
+        1861,
+        1433,
+        154,
+        186
+      ],
+      "trim": [
+        52,
+        35
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "e5fa0b2e9a1ba28a76b7094ee5f9c4b5f95915e6573c3a9b9779a025f746bd93"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f006.png": {
+      "page": 2,
+      "region": [
+        1941,
+        1428,
+        104,
+        146
+      ],
+      "trim": [
+        77,
+        55
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "2d72a93e2895fc7ee7fb1824684a2e37347d9eb3d5dcb035e4843c2ca50e6b76"
+    },
+    "res://assets/vfx/vfx_enemy_defeat/f007.png": {
+      "page": 3,
+      "region": [
+        866,
+        1211,
+        56,
+        99
+      ],
+      "trim": [
+        101,
+        78
+      ],
+      "canvas": [
+        256,
+        256
+      ],
+      "rgba_sha256": "158a4fb49893b83026c6dd4df9810ee786c5e3c06d12f2b7b680bac9fce79112"
+    },
     "res://assets/vfx/vfx_hazard_eruption/f000.png": {
       "page": 1,
       "region": [
