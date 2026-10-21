@@ -1,0 +1,106 @@
+# Blind observations
+
+Recorded before reading index, scope, audit, intent, review contracts, ART_CONTRACT, ART_BIBLE, or integration instructions. Viewed all five main lineups first, then all main strips, then every static subpack lineup/strip. These are visual descriptions, not verdicts.
+
+Lineups: hero is a complete brown-coated human with coherent head and paired boots; crouches shorten by bent legs and airborne silhouettes retain tucked legs. Boss is a complete tall crowned armored figure with olive tatters, large paired gauntlets and paired boots. Pursuer is a low long-necked clawed creature with pale limbs and olive tatters. Ranged is a tall hooded figure with pale arm, layered olive robe and stone base. Swooper is a hooded winged cloth wraith with paired membranes and trailing lower body.
+
+- boss_death: Armored crowned full body bends through knees, settles on both knees then hands/side, lies down and erodes into ash; shoulder/head remain identifiable.
+- boss_hazard_execute: Open forward hand lowers toward thigh over four full-body frames; both armored boots remain planted.
+- boss_hazard_recover: Bent armored body straightens; crown, paired gauntlets and both boots retained.
+- boss_hazard_windup: Forward arm opens gradually from hanging to extended palm; other fist and both legs remain present.
+- boss_hurt: Small backward shoulder/head recoil with planted boots; face stays dark under crown.
+- boss_idle: Subtle head/cloth/torso changes around an otherwise standing full armored body.
+- boss_strike_execute: Raised gauntlet travels forward/down to low fist; body leans with it, boots support the weight.
+- boss_strike_recover: Forward lean unwinds to upright armored stance; long olive cloth stays behind legs.
+- boss_strike_windup: Large fist lifts through horizontal to overhead; shoulder attachment stays covered by armor.
+- boss_turn: Side stance changes through frontal armored views then side; crown and cloth shape vary with angle.
+- boss_walk: Short alternating armored boot steps with restrained trunk motion; full body retained.
+- hero_attack_air: Brown-coated man keeps tucked airborne legs while right arm cocks and thrusts handle forward, then lowers; face/hair/costume coherent.
+- hero_attack_crouch: Low bent-knee full body cocks and thrusts handle then returns to folded legs; coat trails behind support feet.
+- hero_attack_ground: Standing man spreads stance, cocks arm, extends handle, retracts and settles; rear foot lifts during recovery.
+- hero_crouch_enter: Full man lowers from straight knees into deep squat through two intermediate bent leg poses.
+- hero_crouch_exit: Deep squat rises through half crouch to straight knees; boots remain on common baseline.
+- hero_crouch_idle: Low squat, folded front leg and rear boot retained with slight breathing.
+- hero_death: Backward recoil drops through seated side support to supine full body; final frames retain corpse rather than visibly disappearing.
+- hero_fall: Open downward legs and spread arms remain consistent; subtle coat motion.
+- hero_get_up: Side seated man plants hand, brings knee under trunk and rises through low lunge to standing; all limbs present.
+- hero_hurt_recoil: Standing man recoils backward chest-first then returns upright; boots ground the gesture.
+- hero_idle: Brown leather coat, cream sleeves, dark trousers and paired boots retain stable proportions during small breathing.
+- hero_jump_apex: Tucked legs open toward a falling stance across three poses; coat/head/body remain connected.
+- hero_jump_rise: Airborne knees pull up while torso leans; repeated near poses occur.
+- hero_jump_takeoff: Stand lowers into knee compression then becomes tucked airborne pose.
+- hero_knockback: Stand becomes backward recoil and holds with small changes; no missing limbs.
+- hero_knockdown: Backward recoil drops through floating seated pose into elbow-supported ground sit.
+- hero_land: Tucked pose changes to bent standing legs then upright; boots reestablish support.
+- hero_start_move: Neutral stance opens to forward stride over three poses.
+- hero_stop_move: Stride closes through braking leg pose to neutral, shoulders turn slightly.
+- hero_turn: Neutral right-facing body opens shoulders frontward and returns; head remains right-facing in shown tiles.
+- hero_walk: Alternating boots step across baseline, coat swings; hair and face stay consistent.
+- projectile_grave_shot: Three pale green four-point spectral star shapes with varying inner glow.
+- pursuer_alert: Low olive-shrouded, long-clawed creature lifts skull/neck and elbows then lowers; hind legs support body.
+- pursuer_approach_walk: Eight low quadrupedal/hunched steps alternate feet and claws; pale long limbs and torn covering coherent.
+- pursuer_death: Creature lowers head and elbows into prone splayed body then fades away.
+- pursuer_hurt: Head and shoulder recoil upright then return low; claw and hind foot anatomy retained.
+- pursuer_idle: Low full creature with long neck, hanging torn hood and large claws subtly breathes.
+- pursuer_lunge: Low springing body reaches forward claws then extends hind legs; body remains complete.
+- pursuer_lunge_windup: Creature compresses elbows/legs and lowers head toward a pouncing silhouette.
+- pursuer_patrol_walk: Same low eight-pose gait with alternate ground supports and subtle torn cloth changes.
+- pursuer_recovery: Compressed lunge stance opens and rises back into low neutral stance.
+- ranged_aim: Hooded vertical figure raises skeletal arm as green orb grows at fingers; robe/root-like hem rests on plinth.
+- ranged_death: Figure folds head/arm while remaining tall, fades then leaves small ash mound; plinth disappears late.
+- ranged_fire: Extended skeletal fingers release green star; full robe and post behind hood stay stable.
+- ranged_hurt: Arm folds against chest then lowers; hood and base stay planted.
+- ranged_idle: Tall olive layered hooded figure breathes subtly; one pale arm and stone/root base visible.
+- ranged_recover: Forward fingers draw toward hip, robe/hood/post stay stable.
+- style_hero_neutral: Single complete brown-coated man, cream sleeves, gloves, dark trousers, paired tall boots and coiled belt whip.
+- swooper_cruise: Full hooded wraith with paired membrane wings gently changes wing angles and lower hanging cloth.
+- swooper_death_fall: Banked wraith folds into limp closed wings then fades to tiny cloud.
+- swooper_dive: Narrow folded wings and trailing cloth rotate into forward horizontal dart.
+- swooper_dive_telegraph: Folded upright wing/hood form compresses slightly; no feet or ground support intended by visible form.
+- swooper_hurt: Open-wing wraith rolls strongly sideways while maintaining paired wings and trailing body.
+- swooper_perch_idle: Open paired wings hold near symmetric spread with small angle/cloth changes.
+- swooper_recovery_climb: Banked body opens to broad wings, alternates lift shapes and settles to open silhouette.
+- vfx_checkpoint_activate: Thin amber flame ribbon grows tall then shrinks toward grounded origin.
+- vfx_enemy_defeat: Grey-brown rubble and smoke burst outward then thin away around center.
+- vfx_hazard_eruption: Orange oval fiery ring produces tall central tongues then lowers; broad horizontal footprint.
+- vfx_hazard_telegraph: Thin orange oval ring brightens and fattens slightly over four tiles.
+- vfx_whip_impact: Tiny amber spark grows radial spikes then diminishes.
+- whip_attack_air: Brown braided line uncoils above then extends right, loops back and recoils; no body included.
+- whip_attack_crouch: Low braided coil becomes overhead arc and extended rightward lash then gathers into coil.
+- whip_attack_ground: Brown coil rises behind socket, extends right, sweeps into loop and returns.
+- static/bg_distant_silhouette: Cyan atmospheric city/castle silhouettes in layered mist beneath purple clouds.
+- static/bg_foreground_frame: Sparse near-black thorn branches at upper corners; middle transparent.
+- static/bg_midground_arch: Dark stone Gothic broken arches with cyan city visible through openings.
+- static/bg_sky: Purple storm cloud field, soft painted gradients and no foreground figures.
+- static/prop_boss_gate: Tall narrow iron Gothic gate, paired posts and bottom rail fully visible.
+- static/prop_checkpoint: Full pointed stone shrine on stepped support, dark inset and illuminated amber inset variants.
+- static/vfx_checkpoint_activate: Amber ribbon grows then recedes, with separated sparks.
+- static/prop_effigy: Wrapped wooden training effigy on vertical post and cross foot; fabric and wood readable.
+- static/prop_exit: Complete pointed stone doorway with closed dark double doors and visible lower stone feet.
+- static/terrain_bottom_left: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_bottom_mid: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_bottom_right: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_cap_left: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_cap_mid: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_cap_right: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_fill_center: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_inner_left: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_inner_right: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_plat_end_left: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_plat_end_right: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_plat_mid: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_side_left: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/terrain_side_right: Square cracked dark grey stone face; pale top lip on caps/platform tiles, dark side/bottom edging where named. No figures; texture reads rough and painted.
+- static/ui_checkpoint_off: Small pointed stone shrine icon, dark circular center.
+- static/ui_checkpoint_on: Matching shrine icon, bright amber circular center.
+- static/ui_retry: Curved metal return arrow with pale arrowhead.
+- static/ui_victory: Gold crown above pale laurel leaves.
+- static/ui_btn_crouch: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_btn_jump: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_btn_left: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_btn_pause: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_btn_right: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_btn_whip: Pair of square rough stone buttons with pale action glyph, amber outlined pressed variant; glyph and square framing remain consistent.
+- static/ui_health_empty: Empty dark heart with thin grey metal rim.
+- static/ui_health_full: Gold filled heart with warm shaded center and metal rim.
+- static/ui_rotate_prompt: Portrait and landscape dark phone silhouettes connected by curved gold arrow.

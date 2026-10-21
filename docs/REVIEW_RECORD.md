@@ -436,3 +436,23 @@ Fresh `/root/linear_sampling_review_r01`: REVIEW: PASS for supplied rendering in
 ## Canonical supplemental delivery repair
 
 Twelve restored canonical files match both art/review-boss-hazard-r02/frames and game/assets/boss byte-for-byte. No art/runtime/build bytes changed.409frame inventory and expanded68clip audit pass numeric checks;34flags remain for fresh complete review. Complete r01 pack omitted the four contexts and cannot receive acceptance.
+
+## Final handoff choices and verification — 2026-10-21
+
+The pinned upstream contract stays unchanged. Additional boss hurt contexts retain the previously declared supplemental contract. Static props, opaque terrain/background panels and UI use their own honest scopes rather than weakening timed transparent-sprite rules. The full 409-frame production inventory now checks canonical files, runtime files and packed coverage.
+
+Routine technical choices: Godot 4.7.2 Compatibility, single-threaded web export, five shared lossless atlas pages, no mip chains and linear filtering. Native/phone fixtures and desktop browser emulation are labeled by actual dimensions/density; none substitutes for physical iPhone acceptance. Maximum lossless WebP encoder effort (100) was selected after measuring an oversized cold payload. The export helper invalidates only the nine shipped generated texture caches; all nine decoded RGBA hashes remain identical. Source PNGs, pivots, gameplay constants, hitboxes and timing are unchanged by compression.
+
+The continuous stage acceptance driver reads terrain and live AI, sends ordinary input and reaches the actual unlocked exit. Its early controller failures are retained; the final run does not alter health, enemies or collision. An automated speedrun is not evidence of unfamiliar-player pacing or touch comfort.
+
+All 100 per-asset derivation records, including source/method/reason, are handed off in `evidence/release-derivations.json`; authoritative records remain in `art/frames/derivations.json`. Scripted animation, reversed/reused frames, mirroring and repeated scenery remain explicit quality debt. Existing failed art reviews and raw rejected outputs remain available. Every accepted FLAG requires the final independent review's individual reason.
+
+Measured final public desktop proxy: 28.324 MiB/17.474 seconds, matching local/deployed PCK. Payload hypothesis passes; 12-second readiness hypothesis fails. Physical iPhone/Safari touch and cold/warm performance, plus three unfamiliar players, remain NOT-TESTED under the no-human-interaction instruction. No device approval or full-spec acceptance is inferred. APK and production audio remain deferred.
+
+Same-step damage interruption was subsequently corrected in its own commit: incoming contact/projectile damage now resolves before any outgoing whip hit.64checks (eight old failures), main1,241assertions, continuous completion and12affected regressions pass; current PCK passes64damage/2,433atlas checks and browser smoke. The art files, authored motion timing and supplied independent-review images are unchanged.
+
+## Complete independent art review r02
+
+Fresh `/root/complete_review_r02`: REVIEW: PASS. Saved/read blind descriptions precede metadata. All five actor lineups, 68 main strips, 11 static lineups/36 static strips, 67 main onions, three attack composites, static onions/repeats, five style references and all 70 supplied integration images were inspected. All 68 source-reel entries ran at gameplay cadence; every frame index was observed, and temporal samples were inspected and retained. This includes the four restored supplemental boss hurt contexts.
+
+All 34 main flags plus one terrain seam diagnostic were individually accepted with visual reasons in `art/review-complete-r02/accepted_flags.json`. Per-clip/asset decisions and complete methods are in `review_verdict.md`; playback harness, logs and 68 temporal sheets are retained. No failing frames or further art corrections were named. Scripted/reused methods and repeated scenery remain quality debt. The verdict approves supplied visual evidence only; it excludes gameplay, device/performance, audio, unfamiliar-player and whole-playthrough acceptance. Earlier r01 FAIL remains intact.

@@ -1,0 +1,20 @@
+{
+  "assets": [
+    "ui_checkpoint_off",
+    "ui_checkpoint_on"
+  ],
+  "canvas": [
+    128,
+    96
+  ],
+  "frames_each": 1,
+  "ui_space": true,
+  "render_css": [
+    32,
+    24
+  ],
+  "original_animation_contract": "unchanged",
+  "style_lock": "art/style-lock.json",
+  "engine_captures": "evidence/ui-checkpoint-captures/capture.json",
+  "visual_approval": false
+}

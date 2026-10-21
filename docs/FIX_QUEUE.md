@@ -22,6 +22,8 @@ Each completed fix gets its own validated commit and push, as requested by the u
 
 Production music/SFX remain explicitly deferred by the specification.
 
+Current delivery: all 409 runtime frames are canonical and integrated; fresh complete review r02 passes every clip/static asset and all 70 supplied integration views, with 35 flags individually adjudicated. Continuous production-input spawn→effigy→checkpoint→boss→exit and same-step damage-priority validation pass, and are included in the shared runner. Physical V5/V8 and unfamiliar-player V6 remain unperformed. The public cold-load proxy passes the 30 MiB payload hypothesis at 28.324 MiB but misses the proposed 12-second load hypothesis at 17.474 seconds; no device performance claim is made.
+
 Projectile range follow-up: fixed separately after aiming. Spawn remains40u from the enemy root; expiry now measures640u from the actual muzzle. Both-facing regression22checks, old4failures→0; see `evidence/ranged-projectile-fix.md`.
 
 Boss recovery-clock follow-up: nonlethal flinch now resumes the remaining1100/900ms recovery instead of granting an early new attack. Real-whip regression40checks,old12failures→0; art inventory remains23/70boss frames. See `evidence/boss-recovery-window-fix.md`.
@@ -61,3 +63,11 @@ Rotate UI follow-up: final briefed UI asset independently approved.91source/expo
 Painted sampling follow-up: all explicit background/effect/UI/exit nearest overrides corrected to linear, viewport default linear without mip sampling, exit tint no longer snaps texels.124source/export checks,762source/packed samples within unchanged one-pixel/one-channel-value tolerance, exit2states exact, fresh18engine/8browser scoped review PASS. Final whole-product complete-pack review remains pending. See evidence/linear-sampling-fix.md.
 
 Canonical delivery follow-up: final aggregate review found12supplemental boss-reaction frames absent from art/frames despite shipping in runtime. Exact scoped-reviewed/runtime bytes plus timing/derivation metadata restored.409frame inventory now matches, expanded68clip audit0DEFECT/34FLAG and tools selftest pass. Complete pack r01 stays rejected; fresh r02 required. See evidence/canonical-context-fix.md.
+
+Lossless payload follow-up: maximum WebP lossless encoder effort plus reproducible cache invalidation shrinks the PCK by 1,982,704 bytes. All nine decoded texture hashes remain identical; exported GPU atlas 2,433 checks and sampling 124 checks pass. Public cold trace and local/deployed SHA match are retained. See evidence/lossless-payload-fix.md.
+
+Continuous stage follow-up: production-input automation completes the effigy, lower returns, mixed gap/pursuer, checkpoint, original eight-HP boss and exit with five HP. No teleports, direct damage calls, HP changes or disabled encounters. Earlier controller failures retained; external player/touch gates remain separate. See evidence/stage-playthrough-fix.md.
+
+Damage priority follow-up: all incoming contacts/projectiles now resolve before outgoing whip damage, removing encounter-list order from same-step interruption.64checks,8baseline failures→0; main1,241assertions and continuous stage completion pass. See evidence/damage-priority-fix.md.
+
+Complete acceptance record follow-up: fresh independent r02 REVIEW: PASS after blind inspection, all motion/composites/static repeats, 68 timed source entries with every frame index observed and all 70 integration images. All 35 flags have individual accepted reasons; derivation methods remain disclosed. Build/art/automated integration gates are complete; external device/player acceptance and the missed cold-load readiness hypothesis remain open.

@@ -1,0 +1,197 @@
+[
+  {
+    "id": "swooper_perch_idle",
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 15,
+    "wall_ms": 934.1999999999534
+  },
+  {
+    "id": "swooper_cruise",
+    "ms": [
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90,
+      90
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 15,
+    "wall_ms": 772.5
+  },
+  {
+    "id": "swooper_dive_telegraph",
+    "ms": [
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 17,
+    "wall_ms": 692.6000000000349
+  },
+  {
+    "id": "swooper_dive",
+    "ms": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 17,
+    "wall_ms": 379.4000000000233
+  },
+  {
+    "id": "swooper_recovery_climb",
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 17,
+    "wall_ms": 997.2000000000116
+  },
+  {
+    "id": "swooper_hurt",
+    "ms": [
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 17,
+    "wall_ms": 384.29999999998836
+  },
+  {
+    "id": "swooper_death_fall",
+    "ms": [
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "samples": 17,
+    "wall_ms": 432.19999999995343
+  },
+  {
+    "id": "ranged_idle",
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 16,
+    "wall_ms": 946
+  },
+  {
+    "id": "ranged_aim",
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 16,
+    "wall_ms": 946.0999999999767
+  }
+]

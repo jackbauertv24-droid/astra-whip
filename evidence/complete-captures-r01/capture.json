@@ -1,0 +1,174 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "active": false,
+   "file": "native-standing.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "land",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "native-walking.png",
+   "hero_position": [
+    220.0,
+    559.962036132812
+   ],
+   "hero_state": "walk",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "native-crouching.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "crouch_idle",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": true,
+   "file": "native-mid-strike.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "attack_ground",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "native-mid-air.png",
+   "hero_position": [
+    160.0,
+    462.703033447266
+   ],
+   "hero_state": "jump_rise",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "native-boss.png",
+   "hero_position": [
+    6120.0,
+    560.0
+   ],
+   "hero_state": "idle",
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "phone-standing.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "idle",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "phone-walking.png",
+   "hero_position": [
+    220.0,
+    559.962036132812
+   ],
+   "hero_state": "walk",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "phone-crouching.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "crouch_idle",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "active": true,
+   "file": "phone-mid-strike.png",
+   "hero_position": [
+    160.0,
+    560.0
+   ],
+   "hero_state": "attack_ground",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "phone-mid-air.png",
+   "hero_position": [
+    160.0,
+    462.703033447266
+   ],
+   "hero_state": "jump_rise",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "active": false,
+   "file": "phone-boss.png",
+   "hero_position": [
+    6120.0,
+    560.0
+   ],
+   "hero_state": "idle",
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  }
+ ],
+ "scope": "actual input/AI state snapshots; not full playthrough or physical device"
+}

@@ -1,0 +1,221 @@
+{
+  "kind": "generated_sheet",
+  "source": [
+    "art/production-candidates/checkpoint-effect-sheet-r01/raw.png",
+    "art/production-candidates/checkpoint-effect-sheet-r01/canvas.png",
+    "art/production-candidates/checkpoint-effect-sheet-r01/prompt.txt",
+    "tools/prepare-checkpoint.mjs"
+  ],
+  "method": "Eight directly painted phases; actual generated sheet row split y438 retained in raw cells. One uniform bounded0.85 correction for ALL phases, preserving relative sizes, then base registration. No per-frame size normalization. Remove only alpha<=8 extraction remnants, premultiplied bilinear resampling.",
+  "records": [
+    {
+      "frame": 0,
+      "source_cell": [
+        0,
+        0,
+        256,
+        438
+      ],
+      "source_ink_bbox": [
+        98,
+        354,
+        160,
+        422
+      ],
+      "source_pivot": [
+        129,
+        422
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 7389,
+      "debris_removed": 0
+    },
+    {
+      "frame": 1,
+      "source_cell": [
+        256,
+        0,
+        256,
+        438
+      ],
+      "source_ink_bbox": [
+        87,
+        308,
+        171,
+        422
+      ],
+      "source_pivot": [
+        129,
+        422
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 9068,
+      "debris_removed": 0
+    },
+    {
+      "frame": 2,
+      "source_cell": [
+        512,
+        0,
+        256,
+        438
+      ],
+      "source_ink_bbox": [
+        84,
+        189,
+        176,
+        422
+      ],
+      "source_pivot": [
+        130,
+        422
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 12062,
+      "debris_removed": 0
+    },
+    {
+      "frame": 3,
+      "source_cell": [
+        768,
+        0,
+        256,
+        438
+      ],
+      "source_ink_bbox": [
+        66,
+        16,
+        196,
+        423
+      ],
+      "source_pivot": [
+        131,
+        423
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 17774,
+      "debris_removed": 0
+    },
+    {
+      "frame": 4,
+      "source_cell": [
+        0,
+        438,
+        256,
+        330
+      ],
+      "source_ink_bbox": [
+        78,
+        25,
+        185,
+        304
+      ],
+      "source_pivot": [
+        131.5,
+        304
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 12038,
+      "debris_removed": 0
+    },
+    {
+      "frame": 5,
+      "source_cell": [
+        256,
+        438,
+        256,
+        330
+      ],
+      "source_ink_bbox": [
+        83,
+        74,
+        176,
+        305
+      ],
+      "source_pivot": [
+        129.5,
+        305
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 10595,
+      "debris_removed": 0
+    },
+    {
+      "frame": 6,
+      "source_cell": [
+        512,
+        438,
+        256,
+        330
+      ],
+      "source_ink_bbox": [
+        100,
+        173,
+        179,
+        304
+      ],
+      "source_pivot": [
+        139.5,
+        304
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 8271,
+      "debris_removed": 0
+    },
+    {
+      "frame": 7,
+      "source_cell": [
+        768,
+        438,
+        256,
+        330
+      ],
+      "source_ink_bbox": [
+        112,
+        243,
+        178,
+        304
+      ],
+      "source_pivot": [
+        145,
+        304
+      ],
+      "delivery_pivot": [
+        128,
+        352
+      ],
+      "corrective_normalization": 0.85,
+      "removed_low_alpha_pixels": 6114,
+      "debris_removed": 0
+    }
+  ],
+  "visual_approval": false
+}

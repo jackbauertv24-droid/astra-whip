@@ -1,0 +1,133 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+T-01: PASS
+T-02: PASS
+T-03 reachable standing samples: 229
+T-03: PASS
+T-04 measured rise=125.398559570312 apex=0.39166666666667 travel=192.024963378906
+T-04: PASS
+T-05: PASS
+T-06: PASS
+T-07: PASS
+T-08: PASS
+T-09: PASS
+RESULT 1241 assertions, 0 failures; mutation=
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ACTOR PIVOT: 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SWOOPER COLLISION: 32 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+SWOOPER RECOVERY ENTRY: 17 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RANGED PROJECTILE: 22 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RANGED PROJECTILE ART: 28 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss waiting animation: 26 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+OBSERVED strike_recover direction=1 hp=6 elapsed_ms=1108.33333333333 outgoing=walk early=false resumed=true
+OBSERVED hazard_recover direction=1 hp=7 elapsed_ms=908.333333333333 outgoing=walk early=false resumed=true
+OBSERVED strike_recover direction=-1 hp=6 elapsed_ms=1108.33333333333 outgoing=walk early=false resumed=true
+OBSERVED hazard_recover direction=-1 hp=7 elapsed_ms=908.333333333333 outgoing=walk early=false resumed=true
+RESULT boss recovery window: 40 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss strike contact: 18 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss hurt context: 97 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss hazard: 236 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss death visibility: 136 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss death entry: 378 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT whip impact: 100 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT enemy defeat: 125 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT checkpoint art: 51 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT boss gate: 20 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT exit art: 13 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PAUSE_TARGET_SAMPLES [{"scale":[1.0,1.0],"target_px":[130.0,64.0],"window":[1280,720]},{"scale":[0.545312523841858,0.545833349227905],"target_px":[70.890625,64.0],"window":[852,393]},{"scale":[0.520312488079071,0.520833313465118],"target_px":[67.640625,64.0],"window":[667,375]},{"scale":[0.307031244039536,0.30694442987442],"target_px":[64.4765625,63.9999961853027],"window":[393,852]}]
+RESULT pause touch target: 16 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT portrait pause: 18 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT portrait prompt layout: 9 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+MENU_TARGET_SAMPLES [{"control":"Button","target_pixels":[440.0,64.0],"window":[1280,720]},{"control":"Button","target_pixels":[440.0,64.0],"window":[1280,720]},{"control":"CheckButton","target_pixels":[440.0,64.0],"window":[1280,720]},{"control":"HSlider","target_pixels":[440.0,64.0],"window":[1280,720]},{"control":"HSlider","target_pixels":[440.0,64.0],"window":[1280,720]},{"control":"Button","target_pixels":[443.339080810547,64.408332824707],"window":[852,393]},{"control":"Button","target_pixels":[443.339080810547,64.408332824707],"window":[852,393]},{"control":"CheckButton","target_pixels":[443.339080810547,64.408332824707],"window":[852,393]},{"control":"HSlider","target_pixels":[443.339080810547,64.0],"window":[852,393]},{"control":"HSlider","target_pixels":[443.339080810547,64.0],"window":[852,393]},{"control":"Button","target_pixels":[443.826538085938,64.0625],"window":[667,375]},{"control":"Button","target_pixels":[443.826538085938,64.0625],"window":[667,375]},{"control":"CheckButton","target_pixels":[443.826538085938,64.0625],"window":[667,375]},{"control":"HSlider","target_pixels":[443.826538085938,64.0],"window":[667,375]},{"control":"HSlider","target_pixels":[443.826538085938,64.0],"window":[667,375]}]
+RESULT menu touch targets: 60 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT safe area UI: 150 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT action touch targets: 190 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT touch cancellation: 11 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT touch feedback: 25 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ATLAS_BEFORE_WORLD 0 window (1280, 720)
+ATLAS_MEMORY {"art_delta_bytes":0,"empty_scene_bytes":0,"exported":false,"physical_device":false,"renderer":"","total_bytes":0}
+RESULT atlas runtime: 2026 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT playfield clearance: 356 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT background art: 42 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT health HUD: 486 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT painted controls: 306 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT checkpoint HUD: 232 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT completion UI: 75 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT rotate art: 91 checks, 0 failures
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+RESULT painted sampling: 124 checks, 0 failures
+T-01: expected failure observed
+T-02: expected failure observed
+T-03: expected failure observed
+T-04: expected failure observed
+T-05: expected failure observed
+T-06: expected failure observed
+T-07: expected failure observed
+T-08: expected failure observed
+T-09: expected failure observed

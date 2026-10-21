@@ -1,0 +1,13 @@
+{
+  "mandatory": [
+    "prop_exit"
+  ],
+  "static_spec": "game/data/static_art.json",
+  "original_contract": "contract/art_contract.json",
+  "style_lock_manifest": "art/style-lock.json",
+  "engine_captures": [
+    "evidence/exit-r02-native/capture.json",
+    "evidence/exit-r02-phone/capture.json"
+  ],
+  "visual_approval": false
+}

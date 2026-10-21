@@ -1,5 +1,19 @@
 # Public preview
 
+## Current delivery — 2026-10-21
+
+This section supersedes the historical incremental notes below. All briefed production art is delivered: 409 runtime frames (405 packed plus four backgrounds), including 137 hero/whip, 46 pursuer, 36 swooper, 31 ranged, 82 boss, 35 VFX/projectile, five prop, 14 terrain, 19 UI and four background frames. No production actor depends on the early greybox silhouettes. Fresh complete r02 REVIEW: PASS covers 68 source entries, all static assets and 70 integration images; all 35 flags have individual reasons in `../art/review-complete-r02/accepted_flags.json`. Original contracts, failed reviews and rejected frames remain intact.
+
+The main 1,241 assertions, all 35 existing runtime regressions, all nine deliberate gameplay mutations, contract/tool negative tests and exported 2,433 GPU atlas checks pass. The added continuous production-input run reaches the checkpoint, defeats the eight-HP boss and crosses the exit without teleports, damage calls or HP changes. All fresh capture and regression records are indexed in `IMPLEMENTATION_STATUS.md`.
+
+Lossless compression reduces the PCK from 21,507,696 to 19,524,992 bytes; all nine decoded texture hashes are unchanged. The final damage-priority build including added regression fixtures is 19,530,952 bytes. Deployed/local pack SHA-256 matches. The cold-cache desktop Chromium/SwiftShader proxy transfers 28.324 MiB at 20 Mbps/50 ms and reaches loading-status removal plus two frames in 17.474 seconds. The proposed payload target passes; the proposed 12-second load target fails. Software-renderer art allocation is 127.06 MiB; this is not measured iPhone residency.
+
+Outstanding acceptance: physical iPhone 17/iOS Safari touch and warm/cold performance (V5/V8), and the three-unfamiliar-player study (V6). These were not performed and cannot be replaced by emulation or automated stage completion. Complete specification acceptance is not claimed. APK and production audio are explicitly deferred.
+
+Quality debt: scripted/reused/reversed animation and mirrored/repeated background methods remain disclosed in all 100 per-asset records in `../evidence/release-derivations.json` and the authoritative `../art/frames/derivations.json`. Fresh review must adjudicate every audit flag; numeric acceptance alone is insufficient. Routine implementation choices and scoped evidence are in `REVIEW_RECORD.md` and individual fix records.
+
+## Historical publication and follow-ups
+
 The user authorized a change in priority on 2026-10-14: "just round up the work and push it to repo. relax constrain as the priority now is to get a product out."
 
 This preview packages the implemented slice without claiming the remaining upstream production-art gates passed. The original contract and review evidence remain intact.

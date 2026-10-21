@@ -1,0 +1,10 @@
+{
+  "scope": "one static portrait rotate graphic",
+  "requirements": [
+    "transparent safe margins",
+    "portrait-to-landscape device orientation reads at actual size",
+    "live20CSS wording",
+    "no graphic/text/pause overlap",
+    "portrait-only visibility and landscape resume"
+  ]
+}

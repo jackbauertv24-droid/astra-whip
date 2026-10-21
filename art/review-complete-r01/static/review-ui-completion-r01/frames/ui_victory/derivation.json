@@ -1,0 +1,10 @@
+{
+  "kind": "generated_static_ui",
+  "source": [
+    "art/production-candidates/ui-completion-r01/ui_victory/raw.png",
+    "art/production-candidates/ui-completion-r01/ui_victory/prompt.txt",
+    "art/production-candidates/ui-completion-r01/ui_victory/f000.png.provenance.json"
+  ],
+  "method": "uniform whole-canvas128x128conversion; no crop, registration, deformation or repaint",
+  "visual_approval": false
+}

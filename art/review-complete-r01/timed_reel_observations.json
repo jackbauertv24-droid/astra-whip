@@ -1,0 +1,466 @@
+[
+  {
+    "id": "style_hero_neutral",
+    "total_runtime_ms": 0,
+    "mid_frame": 0,
+    "end_frame": 0,
+    "loop": false
+  },
+  {
+    "id": "hero_idle",
+    "total_runtime_ms": 1000,
+    "mid_frame": 4,
+    "end_frame": 0,
+    "loop": true
+  },
+  {
+    "id": "hero_walk",
+    "total_runtime_ms": 400,
+    "mid_frame": 5,
+    "end_frame": 6,
+    "loop": true
+  },
+  {
+    "id": "hero_start_move",
+    "total_runtime_ms": 150,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "hero_stop_move",
+    "total_runtime_ms": 150,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "hero_turn",
+    "total_runtime_ms": 150,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "hero_crouch_enter",
+    "total_runtime_ms": 200,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_crouch_idle",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 2,
+    "loop": true
+  },
+  {
+    "id": "hero_crouch_exit",
+    "total_runtime_ms": 200,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_jump_takeoff",
+    "total_runtime_ms": 120,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "hero_jump_rise",
+    "total_runtime_ms": 240,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_jump_apex",
+    "total_runtime_ms": 150,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "hero_fall",
+    "total_runtime_ms": 400,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": true
+  },
+  {
+    "id": "hero_land",
+    "total_runtime_ms": 160,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_attack_ground",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "hero_attack_air",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "hero_attack_crouch",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "hero_hurt_recoil",
+    "total_runtime_ms": 200,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_knockback",
+    "total_runtime_ms": 300,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "hero_knockdown",
+    "total_runtime_ms": 360,
+    "mid_frame": 2,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "hero_get_up",
+    "total_runtime_ms": 450,
+    "mid_frame": 2,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "hero_death",
+    "total_runtime_ms": 800,
+    "mid_frame": 5,
+    "end_frame": 9,
+    "loop": false
+  },
+  {
+    "id": "whip_attack_ground",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "whip_attack_air",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "whip_attack_crouch",
+    "total_runtime_ms": 500,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "pursuer_idle",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 4,
+    "loop": true
+  },
+  {
+    "id": "pursuer_patrol_walk",
+    "total_runtime_ms": 720,
+    "mid_frame": 4,
+    "end_frame": 1,
+    "loop": true
+  },
+  {
+    "id": "pursuer_alert",
+    "total_runtime_ms": 300,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "pursuer_approach_walk",
+    "total_runtime_ms": 432,
+    "mid_frame": 4,
+    "end_frame": 5,
+    "loop": true
+  },
+  {
+    "id": "pursuer_lunge_windup",
+    "total_runtime_ms": 350,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "pursuer_lunge",
+    "total_runtime_ms": 240,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "pursuer_recovery",
+    "total_runtime_ms": 600,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "pursuer_hurt",
+    "total_runtime_ms": 180,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "pursuer_death",
+    "total_runtime_ms": 480,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "swooper_perch_idle",
+    "total_runtime_ms": 900,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": true
+  },
+  {
+    "id": "swooper_cruise",
+    "total_runtime_ms": 720,
+    "mid_frame": 4,
+    "end_frame": 2,
+    "loop": true
+  },
+  {
+    "id": "swooper_dive_telegraph",
+    "total_runtime_ms": 600,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "swooper_dive",
+    "total_runtime_ms": 240,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "swooper_recovery_climb",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "swooper_hurt",
+    "total_runtime_ms": 180,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "swooper_death_fall",
+    "total_runtime_ms": 350,
+    "mid_frame": 2,
+    "end_frame": 4,
+    "loop": false
+  },
+  {
+    "id": "ranged_idle",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 1,
+    "loop": true
+  },
+  {
+    "id": "ranged_aim",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "ranged_fire",
+    "total_runtime_ms": 200,
+    "mid_frame": 2,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "ranged_recover",
+    "total_runtime_ms": 700,
+    "mid_frame": 3,
+    "end_frame": 6,
+    "loop": false
+  },
+  {
+    "id": "ranged_hurt",
+    "total_runtime_ms": 180,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "ranged_death",
+    "total_runtime_ms": 480,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "boss_idle",
+    "total_runtime_ms": 1000,
+    "mid_frame": 3,
+    "end_frame": 2,
+    "loop": true
+  },
+  {
+    "id": "boss_walk",
+    "total_runtime_ms": 640,
+    "mid_frame": 4,
+    "end_frame": 6,
+    "loop": true
+  },
+  {
+    "id": "boss_turn",
+    "total_runtime_ms": 300,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "boss_strike_windup",
+    "total_runtime_ms": 700,
+    "mid_frame": 3,
+    "end_frame": 6,
+    "loop": false
+  },
+  {
+    "id": "boss_strike_execute",
+    "total_runtime_ms": 200,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "boss_strike_recover",
+    "total_runtime_ms": 1100,
+    "mid_frame": 2,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "boss_hazard_windup",
+    "total_runtime_ms": 1200,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "boss_hazard_execute",
+    "total_runtime_ms": 400,
+    "mid_frame": 1,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "boss_hazard_recover",
+    "total_runtime_ms": 900,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "boss_hurt",
+    "total_runtime_ms": 200,
+    "mid_frame": 1,
+    "end_frame": 2,
+    "loop": false
+  },
+  {
+    "id": "boss_death",
+    "total_runtime_ms": 1080,
+    "mid_frame": 6,
+    "end_frame": 11,
+    "loop": false
+  },
+  {
+    "id": "projectile_grave_shot",
+    "total_runtime_ms": 240,
+    "mid_frame": 1,
+    "end_frame": 0,
+    "loop": true
+  },
+  {
+    "id": "vfx_whip_impact",
+    "total_runtime_ms": 280,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "vfx_enemy_defeat",
+    "total_runtime_ms": 560,
+    "mid_frame": 3,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "vfx_checkpoint_activate",
+    "total_runtime_ms": 720,
+    "mid_frame": 4,
+    "end_frame": 7,
+    "loop": false
+  },
+  {
+    "id": "vfx_hazard_telegraph",
+    "total_runtime_ms": 1200,
+    "mid_frame": 2,
+    "end_frame": 3,
+    "loop": false
+  },
+  {
+    "id": "vfx_hazard_eruption",
+    "total_runtime_ms": 400,
+    "mid_frame": 3,
+    "end_frame": 5,
+    "loop": false
+  },
+  {
+    "id": "boss_hurt_stooped",
+    "excluded": "missing from current pack; no repaired/supplemental source read"
+  },
+  {
+    "id": "boss_hurt_rising",
+    "excluded": "missing from current pack; no repaired/supplemental source read"
+  },
+  {
+    "id": "boss_hurt_half_stoop",
+    "excluded": "missing from current pack; no repaired/supplemental source read"
+  },
+  {
+    "id": "boss_hurt_hazard_late",
+    "excluded": "missing from current pack; no repaired/supplemental source read"
+  }
+]

@@ -1,51 +1,27 @@
-# Implementation status — public preview
+# Implementation status
 
-The implementation is in `game/`. Upstream specification SHA: `cf717cab22b39344820c11ef9aaf3a827336ce14`.
+Implementation: `game/`. Specification: Gothic Whip Framework at `cf717cab22b39344820c11ef9aaf3a827336ce14`. Public build: https://jackbauertv24-droid.github.io/astra-whip/ . This record supersedes the early partial-art status; rejected candidates and earlier verdicts remain in Git and `art/`.
 
-| Build gate | Status | Evidence |
+| Build gate | Current result | Evidence |
 |---|---|---|
-| 1 Tools | PASS | `evidence/gate-1.md`; contract checker and negative self-tests |
-| 2 Greybox | PASS | `evidence/gate-2.md`; actual Godot T-01…T-09 plus deliberately broken mutations |
-| 3 Style calibration | PASS | `evidence/gate-3.md`; independent five-piece review and `art/style-lock.json` |
-| 4 Hero and whip | IN PROGRESS | Partial audit and motion review in `art/review-hero-partial-r01/` |
-| 5 Other production assets | NOT STARTED | Requires gate 4 |
-| 6 Integration | PREVIEW SHIPPED; full production gate incomplete | Selected painted art integrated; release notes disclose remaining debt |
-| 7 Web publication | PUBLIC PREVIEW LIVE | `evidence/deployment-verification.json`; Pages deployment succeeded |
+| 1 Tools | PASS | `node tools/contract-check.mjs`; `node tools/selftest.mjs`; latest `evidence/damage-priority-{contract,selftest}.log`, 25 deliberately broken art cases |
+| 2 Greybox/gameplay | PASS | `GODOT_BIN=godot bash tools/test-game.sh --mutations`; T-01–T-09, all nine deliberate gameplay mutations; `evidence/complete-regressions.json` and full runner log |
+| 3 Style calibration | PASS | Five-piece independent review, `evidence/gate-3.md`, `art/style-lock.json` |
+| 4 Hero and whip | PASS | All 137 runtime body/whip frames; fresh complete independent `art/review-complete-r02/review_verdict.md` |
+| 5 Remaining production art | PASS | 409 runtime frames, zero inventory errors; extended audit 68 entries, 0 DEFECT/34 FLAG; separate static audits and fresh complete review adjudicate all 35 flags |
+| 6 Art/automated integration | PASS | Fresh complete review of all clips/static assets and 70 integration images; 1,241 main assertions, 35 existing runtime regressions plus import; added continuous completion and damage-priority tests; native/phone captures |
+| 7 Web publication | PASS for public desktop build | `GODOT_BIN=godot bash tools/export-web.sh`; GitHub Pages deployment; `evidence/cold-load-final.json` verifies deployed/local PCK SHA-256 |
 
-The partial motion reviewer passed hero idle, start move, crouch entry, crouch idle and crouch exit. It rejected walk, stop move, turn, rise, apex, fall, hurt recoil and knockback. Those failures remain release blockers. Numeric acceptance alone did not approve those motions.
+The long full regression shell reported exit 143 after every expected result had been written. `complete-regressions.json` records that limitation, validates every individual result and all nine expected mutation failures, and records a separate final baseline rerun with exit 0. The added continuous stage test has its own successful run and is now in the shared runner.
 
-New isolated keys for turning, impact, rising, apex, falling and collapse passed a fresh key review (`art/review-hero-keys-r05/review_verdict.md`). Key approval does not approve clip timing or continuity. Additional attack and opposing-contact keys are being reviewed separately.
+After that baseline, the same-step damage-priority fix passed a new 64-check regression (eight retained pre-fix failures), the main 1,241 assertions, continuous completion and 12 affected actor/boss/effect regressions. These 15 source runs are indexed in `evidence/damage-priority-results.json`; the exported pack also passes the 64 checks and 2,433 GPU atlas checks. Current browser smoke has zero errors. These follow-up results are separate from the earlier full-suite record.
 
-Rejected source sheets, derived experiments, original frames, prompt records, normalization factors and prior reviews are retained. All scripted/reused/reversed clips are labeled in `art/frames/derivations.json`. The generated whole-clip idle sheet failed the size contract; approved neutral-derived breathing subsequently passed numeric and independent motion review.
+All 405 atlas frames plus four standalone backgrounds have canonical delivery files. The 67 runtime timed clips contain 367 frames; static assets add 42. The source viewer has 68 entries because it also includes the neutral calibration still. Supplemental boss reactions retain their original 12 frames and declared timing. No mandatory animation contract was weakened. Complete review r01 remains FAIL for omitted canonical supplemental frames. Fresh r02 independently passes the restored complete delivery, with all 68 reel entries played and every frame index observed. Its 35 individual flag reasons are in `art/review-complete-r02/accepted_flags.json`.
 
-The shipped preview integrates selected painted art and retains engine silhouettes for incomplete enemy assets. It is public and playable on Pages. The full hero/whip production gate, physical iPhone device tests and unfamiliar-player study remain incomplete.
+Five lossless 2048² atlas pages preserve source canvas, pivots and trim offsets. Exported GPU checks: 2,433 checks, zero failures; art allocation 127.06 MiB on desktop llvmpipe. All nine decoded texture hashes are identical across compression. Linear source/packed sampling passes the unchanged strict tolerance. These are desktop measurements, not iPhone residency/performance acceptance.
 
-Physical iPhone 17 gates V5/V8 and unfamiliar-human gate V6 stay PENDING unless actually performed. The user requested no human interaction.
+The public cold-cache Chromium/SwiftShader proxy at 20 Mbps/50 ms transfers 28.324 MiB and reaches the loading-status removal criterion in 17.474 seconds. The proposed 30 MiB payload target passes; the proposed 12-second load target fails. Physical iPhone 17/Safari touch and performance gates V5/V8, and the three-unfamiliar-player study V6, remain NOT-TESTED. Full specification acceptance requires those results. APK V9 and production audio remain explicitly deferred by the spec.
 
-## Motion revision r06
+Every scripted/reused/reversed/derived asset retains its source, method and reason in `art/frames/derivations.json`; the handoff copy is `evidence/release-derivations.json` (100 records). Scripted fallbacks and background repetition remain disclosed visual quality debt. Accepted audit flags must be read with the complete independent review rather than treated as numeric approval.
 
-The current 19-clip set reports zero numeric defects in `art/review-hero-motion-r06/audit.md`. It is not approved for production. A fresh independent reviewer is inspecting 18 non-walk clips in `art/review-secondary-motion-r06/`; the result is pending. The gait r05 review rejected F3/F4/F6 for coat/hip discontinuity, support/swing continuity and a boot fragment. New painted in-betweens are candidates, not accepted motion. Turning uses an explicitly declared compact approved neutral portrait on an approved twisting body. Braking now draws both planted boots inward, bends the knees and leans back from an approved contact pose instead of using a crouch-height frame.
-
-Tools were rechecked: contract checker PASS and self-test PASS, 25 negative cases, zero problems (`evidence/art-tools-selftest-r06.log`, 41.5 seconds). No later build gate or publication is approved or complete.
-
-## Published preview priority override
-
-On 2026-10-14 the user explicitly instructed the builder to round up and push the product, relaxing the former gate order. The resulting public preview integrates selected painted art and working gameplay without claiming the strict gates 4–7 passed. The non-walk r06 reviewer passed 15 clips and failed braking, turning and get-up; gait r07 failed F3/F4/F6. Later candidates were not granted a final full production approval. A fresh isolated-key reviewer encountered an account usage limit; no approval was inferred.
-
-See `docs/RELEASE_PREVIEW.md` for the actual shipped scope. The current gameplay verification passed all T-01 through T-09: 1,213 assertions, zero failures, with 229 reachable standing samples (`evidence/release-preview-tests.log`). Prior mutation proofs remain in `evidence/`. Physical iPhone and unfamiliar-player tests remain unperformed.
-
-## Follow-up fix 1: get-up
-
-Supported get-up motion passed fresh independent review r04. The original reverse-fall clip and rejected revisions are retained. Only get-up frames/metadata changed; six-frame/450 ms timing remains authoritative. Gameplay T-01…T-09 and the tools checker/self-test passed. Actual desktop and phone-sized Godot frame captures are recorded, without claiming physical-device validation. See `evidence/getup-fix.md` and `docs/FIX_QUEUE.md`.
-
-## Follow-up fix 2: turning
-
-The repaired turn artwork passed fresh independent review (`art/review-turn-r01/`). Real-controller captures checked every turn phase and the 75 ms facing event at desktop and phone-sized resolutions. The scoped audit has no defects or flags; runtime textures match the reviewed frames. See `evidence/turn-fix.md`.
-
-## Follow-up fix 3: braking
-
-Grounded braking compression passed fresh independent review r03. Only the middle frame changed; endpoints and timing remain intact. Gameplay, art tools, engine captures and browser smoke checks passed. See `evidence/brake-fix.md`.
-
-## Follow-up fix 4: walking
-
-Alternating walk motion, coat continuity and the distinct seam passed fresh independent review r19. Hero playback is tuned to travel speed; actual right-input captures verify all ten frames over 400 ms and 96 units of travel. Gameplay and art-tool checks passed. See `evidence/walk-fix.md`. Remaining production/device gaps are still tracked in `docs/FIX_QUEUE.md`.
+Historical details remain in `docs/FIX_QUEUE.md`, `docs/REVIEW_RECORD.md`, individual `evidence/*-fix.md` records and retained failed review packs.

@@ -1,0 +1,22 @@
+{
+  "assets": [
+    "ui_rotate_prompt"
+  ],
+  "canvas": [
+    192,
+    128
+  ],
+  "frames_each": 1,
+  "ui_space": true,
+  "render_css": {
+    "maximum": [
+      96,
+      64
+    ],
+    "short_content_uniform_shrink": true
+  },
+  "original_animation_contract": "unchanged",
+  "style_lock": "art/style-lock.json",
+  "engine_captures": "evidence/ui-rotate-captures/capture.json",
+  "visual_approval": false
+}

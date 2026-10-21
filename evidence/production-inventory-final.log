@@ -1,0 +1,17 @@
+{
+  "production_frames": 409,
+  "packed_frames": 405,
+  "counts": {
+    "hero": 137,
+    "pursuer": 46,
+    "swooper": 36,
+    "ranged": 31,
+    "boss": 82,
+    "vfx": 35,
+    "props": 5,
+    "terrain": 14,
+    "ui": 19,
+    "background": 4
+  },
+  "errors": []
+}

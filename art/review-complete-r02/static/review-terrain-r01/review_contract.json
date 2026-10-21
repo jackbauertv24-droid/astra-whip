@@ -1,0 +1,226 @@
+{
+  "original_contract": "contract/art_contract.json",
+  "brief": "ASSET_BRIEFS §8",
+  "static_assets": {
+    "terrain_cap_left": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_cap_mid": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_cap_right": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_side_left": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_side_right": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_fill_center": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_bottom_left": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_bottom_mid": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_bottom_right": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_inner_left": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_inner_right": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_plat_end_left": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_plat_mid": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    },
+    "terrain_plat_end_right": {
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": [
+        0,
+        0
+      ],
+      "frames": 1,
+      "opaque": true,
+      "collision": "level-data-owned",
+      "brief": "ASSET_BRIEFS §8"
+    }
+  },
+  "requirements": [
+    "128×128",
+    "opaque",
+    "origin top-left",
+    "collision level-data-owned",
+    "readable continuous walking edges",
+    "3×3 repeat and multiple silhouettes",
+    "original blind-arch/thorn-knot vocabulary"
+  ],
+  "visual_approval": false
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "six static UI controls; original animation contract unchanged",
+  "canvas": [
+    128,
+    128
+  ],
+  "frames_per_asset": 2,
+  "requirements": [
+    "transparent exterior and safe margin",
+    "distinct normal and pressed",
+    "64 CSS pixel targets with readable live 16 CSS text",
+    "consistent style and scale",
+    "input, release, cancellation, pause and portrait match runtime"
+  ]
+}

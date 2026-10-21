@@ -1,0 +1,13 @@
+{
+  "kind": "generated_background",
+  "source": [
+    "art/production-candidates/background-r01/bg_sky/raw.png",
+    "art/production-candidates/background-r01/bg_sky/prompt.txt",
+    "art/production-candidates/background-r01/bg_sky/canvas.png.provenance.json",
+    "art/production-candidates/background-r01/bg_sky/raw-r02.png",
+    "art/production-candidates/background-r01/bg_sky/edit-prompt-r02.txt"
+  ],
+  "method": "Uniform whole-canvas resolution conversion only.",
+  "corrective_normalization": 1,
+  "visual_approval": false
+}

@@ -1,0 +1,273 @@
+{
+  "runner_reported_exit": 143,
+  "runner_log_complete": true,
+  "note": "Long runner reported143 despite all expected records; individual complete result lines validated; final baseline rerun recorded separately. Result scanner supports legacy named headings as well as RESULT headings; initial format-only scanner report retained.",
+  "normal": [
+    {
+      "name": "import",
+      "results": []
+    },
+    {
+      "name": "gameplay",
+      "results": [
+        "RESULT 1241 assertions, 0 failures; mutation="
+      ]
+    },
+    {
+      "name": "playfield_clearance",
+      "results": [
+        "RESULT playfield clearance: 356 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "background_art",
+      "results": [
+        "RESULT background art: 42 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "health_hud",
+      "results": [
+        "RESULT health HUD: 486 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "control_art",
+      "results": [
+        "RESULT painted controls: 306 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "checkpoint_hud",
+      "results": [
+        "RESULT checkpoint HUD: 232 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "completion_ui",
+      "results": [
+        "RESULT completion UI: 75 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "rotate_art",
+      "results": [
+        "RESULT rotate art: 91 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "painted_sampling",
+      "results": [
+        "RESULT painted sampling: 124 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "actor_pivot",
+      "results": [
+        "ACTOR PIVOT: 0 failures"
+      ]
+    },
+    {
+      "name": "swooper_collision",
+      "results": [
+        "SWOOPER COLLISION: 32 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "swooper_recovery_entry",
+      "results": [
+        "SWOOPER RECOVERY ENTRY: 17 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "ranged_projectile",
+      "results": [
+        "RANGED PROJECTILE: 22 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "ranged_projectile_art",
+      "results": [
+        "RANGED PROJECTILE ART: 28 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_wait_animation",
+      "results": [
+        "RESULT boss waiting animation: 26 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_recovery_window",
+      "results": [
+        "RESULT boss recovery window: 40 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_strike_contact",
+      "results": [
+        "RESULT boss strike contact: 18 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_hurt_context",
+      "results": [
+        "RESULT boss hurt context: 97 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_hazard",
+      "results": [
+        "RESULT boss hazard: 236 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_death_visibility",
+      "results": [
+        "RESULT boss death visibility: 136 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_death_entry",
+      "results": [
+        "RESULT boss death entry: 378 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "whip_impact",
+      "results": [
+        "RESULT whip impact: 100 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "enemy_defeat",
+      "results": [
+        "RESULT enemy defeat: 125 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "checkpoint_art",
+      "results": [
+        "RESULT checkpoint art: 51 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "boss_gate",
+      "results": [
+        "RESULT boss gate: 20 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "exit_art",
+      "results": [
+        "RESULT exit art: 13 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "pause_touch_target",
+      "results": [
+        "RESULT pause touch target: 16 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "portrait_pause",
+      "results": [
+        "RESULT portrait pause: 18 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "portrait_prompt_layout",
+      "results": [
+        "RESULT portrait prompt layout: 9 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "menu_touch_targets",
+      "results": [
+        "RESULT menu touch targets: 60 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "safe_area_ui",
+      "results": [
+        "RESULT safe area UI: 150 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "action_touch_targets",
+      "results": [
+        "RESULT action touch targets: 190 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "touch_cancellation",
+      "results": [
+        "RESULT touch cancellation: 11 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "touch_feedback",
+      "results": [
+        "RESULT touch feedback: 25 checks, 0 failures"
+      ]
+    },
+    {
+      "name": "atlas_runtime",
+      "results": [
+        "RESULT atlas runtime: 2026 checks, 0 failures"
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "id": "T-01",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 3 failures; mutation=T-01"
+    },
+    {
+      "id": "T-02",
+      "detected": true,
+      "result": "RESULT 1231 assertions, 2 failures; mutation=T-02"
+    },
+    {
+      "id": "T-03",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 228 failures; mutation=T-03"
+    },
+    {
+      "id": "T-04",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 3 failures; mutation=T-04"
+    },
+    {
+      "id": "T-05",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 2 failures; mutation=T-05"
+    },
+    {
+      "id": "T-06",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 4 failures; mutation=T-06"
+    },
+    {
+      "id": "T-07",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 5 failures; mutation=T-07"
+    },
+    {
+      "id": "T-08",
+      "detected": true,
+      "result": "RESULT 1241 assertions, 1 failures; mutation=T-08"
+    },
+    {
+      "id": "T-09",
+      "detected": true,
+      "result": "RESULT 1234 assertions, 2 failures; mutation=T-09"
+    }
+  ],
+  "errors": [],
+  "final_baseline": {
+    "exit": 0,
+    "result": "RESULT 1241 assertions, 0 failures; mutation="
+  }
+}

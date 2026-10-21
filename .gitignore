@@ -1,4 +1,4 @@
-# This repository is a specification handoff.
+# Local operating-system files, secrets and generated editor caches.
 .DS_Store
 __pycache__/
 .env

@@ -1,0 +1,72 @@
+{
+  "spec_commit": "cf717cab22b39344820c11ef9aaf3a827336ce14",
+  "production_inventory": {
+    "frames": 409,
+    "packed": 405,
+    "backgrounds": 4,
+    "errors": 0,
+    "evidence": "evidence/production-inventory.json"
+  },
+  "full_regressions": {
+    "existing_runtime_scripts": 35,
+    "editor_import": true,
+    "mutation_cases": 9,
+    "main_assertions": 1241,
+    "failures": 0,
+    "evidence": "evidence/complete-regressions.json",
+    "runner_exit_caveat": 143,
+    "final_baseline_exit": 0
+  },
+  "continuous_stage": {
+    "passed": true,
+    "evidence": "evidence/damage-priority-stage.json"
+  },
+  "complete_art_review": {
+    "status": "PASS",
+    "reviewer": "/root/complete_review_r02",
+    "pack": "art/review-complete-r02",
+    "main_entries": 68,
+    "static_rows": 36,
+    "integration_images": 70,
+    "accepted_flags": 35,
+    "all_playback_frame_indices_observed": true,
+    "record_sha256": {
+      "review_verdict.md": "b0bf2990aaad0b2ee1f10b29afbe638bf061575c253ece126737ee3ae02ab8ad",
+      "accepted_flags.json": "38ec420c05060ef2af28d43a67c0415214c9badbf193162740d9c51d21222681",
+      "blind_notes.md": "1895d900b6e0bf48fb5eb0b1368532c150eca3b89baf3472566f7cde70d22863",
+      "playback_observations.json": "41a20048ebd1b62dc41cb3d1fc0512b6f5be10c2e5d648fef7425492542e1229"
+    }
+  },
+  "exported_atlas": {
+    "checks": 2433,
+    "failures": 0,
+    "art_bytes": 133227856,
+    "evidence": "evidence/damage-priority-atlas-exported.log"
+  },
+  "deployed_pck_sha256": "e56b41ddc43086856604d5fb7c7206a881ced995454780ea5fd15d6481e397bc",
+  "cold_desktop_proxy": {
+    "transferred_mib": 28.32395362854004,
+    "ready_ms": 17474,
+    "payload_target_pass": true,
+    "ready_target_pass": false,
+    "evidence": "evidence/cold-load-final.json",
+    "physical_device": false
+  },
+  "not_tested": [
+    "V5 physical iPhone 17/iOS Safari touch",
+    "V6 three unfamiliar players",
+    "V8 physical device cold/warm performance and frame samples"
+  ],
+  "deferred_by_spec": [
+    "V9 Android APK",
+    "production music/SFX"
+  ],
+  "full_spec_acceptance": false,
+  "damage_priority": {
+    "checks": 64,
+    "baseline_failures": 8,
+    "failures": 0,
+    "source_runs": 15,
+    "evidence": "evidence/damage-priority-results.json"
+  }
+}

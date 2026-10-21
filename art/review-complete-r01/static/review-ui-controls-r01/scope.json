@@ -1,0 +1,28 @@
+{
+  "assets": [
+    "ui_btn_left",
+    "ui_btn_right",
+    "ui_btn_jump",
+    "ui_btn_whip",
+    "ui_btn_crouch",
+    "ui_btn_pause"
+  ],
+  "frames": [
+    "normal",
+    "pressed"
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "ui_space": true,
+  "css_target_minimum": [
+    64,
+    64
+  ],
+  "live_label_css_minimum": 16,
+  "original_animation_contract": "unchanged",
+  "style_lock": "art/style-lock.json",
+  "engine_captures": "evidence/ui-controls-captures/capture.json",
+  "visual_approval": false
+}

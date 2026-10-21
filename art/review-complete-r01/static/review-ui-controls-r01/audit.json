@@ -1,0 +1,26 @@
+{
+  "defects": 0,
+  "flags": 0,
+  "findings": [],
+  "metrics": {
+    "ui_btn_left": {
+      "changed_fraction": 0.2252197265625
+    },
+    "ui_btn_right": {
+      "changed_fraction": 0.286376953125
+    },
+    "ui_btn_jump": {
+      "changed_fraction": 0.2230224609375
+    },
+    "ui_btn_whip": {
+      "changed_fraction": 0.28057861328125
+    },
+    "ui_btn_crouch": {
+      "changed_fraction": 0.29290771484375
+    },
+    "ui_btn_pause": {
+      "changed_fraction": 0.19635009765625
+    }
+  },
+  "visual_approval": false
+}

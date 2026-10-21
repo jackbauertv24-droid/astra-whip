@@ -1,0 +1,526 @@
+[
+  {
+    "id": "style_hero_neutral",
+    "ms": [
+      0
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0
+    ],
+    "samples": 14,
+    "wall_ms": 383.69999999995343
+  },
+  {
+    "id": "hero_idle",
+    "ms": [
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125,
+      125
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 16,
+    "wall_ms": 1034.5999999999767
+  },
+  {
+    "id": "hero_walk",
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": true,
+    "rate": 2,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "samples": 16,
+    "wall_ms": 474.79999999998836
+  },
+  {
+    "id": "hero_start_move",
+    "ms": [
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 17,
+    "wall_ms": 396.3999999999651
+  },
+  {
+    "id": "hero_stop_move",
+    "ms": [
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 16,
+    "wall_ms": 375.79999999998836
+  },
+  {
+    "id": "hero_turn",
+    "ms": [
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 16,
+    "wall_ms": 395.0999999999767
+  },
+  {
+    "id": "hero_crouch_enter",
+    "ms": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 16,
+    "wall_ms": 392.3999999999651
+  },
+  {
+    "id": "hero_crouch_idle",
+    "ms": [
+      150,
+      150,
+      150,
+      150,
+      150,
+      150
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 16,
+    "wall_ms": 964.0999999999767
+  },
+  {
+    "id": "hero_crouch_exit",
+    "ms": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 16,
+    "wall_ms": 388.6000000000349
+  },
+  {
+    "id": "hero_jump_takeoff",
+    "ms": [
+      40,
+      40,
+      40
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 16,
+    "wall_ms": 382.79999999998836
+  },
+  {
+    "id": "hero_jump_rise",
+    "ms": [
+      60,
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 17,
+    "wall_ms": 398.4000000000233
+  },
+  {
+    "id": "hero_jump_apex",
+    "ms": [
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2
+    ],
+    "samples": 17,
+    "wall_ms": 398.5
+  },
+  {
+    "id": "hero_fall",
+    "ms": [
+      100,
+      100,
+      100,
+      100
+    ],
+    "loop": true,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 13,
+    "wall_ms": 485
+  },
+  {
+    "id": "hero_land",
+    "ms": [
+      40,
+      40,
+      40,
+      40
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 12,
+    "wall_ms": 387.6000000000349
+  },
+  {
+    "id": "hero_attack_ground",
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 16,
+    "wall_ms": 592
+  },
+  {
+    "id": "hero_attack_air",
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 16,
+    "wall_ms": 596.2000000000116
+  },
+  {
+    "id": "hero_attack_crouch",
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 17,
+    "wall_ms": 596.3000000000466
+  },
+  {
+    "id": "hero_hurt_recoil",
+    "ms": [
+      50,
+      50,
+      50,
+      50
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 17,
+    "wall_ms": 378
+  },
+  {
+    "id": "hero_knockback",
+    "ms": [
+      75,
+      75,
+      75,
+      75
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "samples": 17,
+    "wall_ms": 390.20000000001164
+  },
+  {
+    "id": "hero_knockdown",
+    "ms": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 16,
+    "wall_ms": 449
+  },
+  {
+    "id": "hero_get_up",
+    "ms": [
+      75,
+      75,
+      75,
+      75,
+      75,
+      75
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples": 17,
+    "wall_ms": 536.4000000000233
+  },
+  {
+    "id": "hero_death",
+    "ms": [
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "samples": 16,
+    "wall_ms": 866.8999999999651
+  },
+  {
+    "id": "whip_attack_ground",
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 17,
+    "wall_ms": 596.5
+  },
+  {
+    "id": "whip_attack_air",
+    "ms": [
+      75,
+      75,
+      50,
+      50,
+      62.5,
+      62.5,
+      62.5,
+      62.5
+    ],
+    "loop": false,
+    "rate": 1,
+    "observed_frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "samples": 17,
+    "wall_ms": 577
+  }
+]

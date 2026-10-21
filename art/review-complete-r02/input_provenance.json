@@ -1,0 +1,290 @@
+{
+  "canonical_repair_commit": "94ad7cf",
+  "rendering_code_commit": "f64f8f85ff503bbe89978c8336e1f3fd3aea5a26",
+  "lossless_encoding_commit": "c1ddd68e6a8b53010e7d4d3a08813ff89e746eca",
+  "decoded_texture_equality_evidence": "evidence/lossless-payload.json",
+  "pack_sha256": "36f7ed4479c279783c0cc2eabf5c8d16936c03f665c0797c90d10103ee83806a",
+  "note": "The 12 complete input/AI fixtures were refreshed after lossless import; prior source/packed integration images retain identical decoded textures and rendering code. Frame PNGs unchanged.",
+  "images": [
+    {
+      "path": "evidence/complete-captures/native-boss.png",
+      "sha256": "4ed5dd0074c4571bfa9d854e88c7bf1c6600b1baabca1bc3c5b92df81d2f8fc4"
+    },
+    {
+      "path": "evidence/complete-captures/native-crouching.png",
+      "sha256": "6f605e7bc7baf68606bdda5e4b2c2c27c066919f8ed4c89c06a66ce7d4add4c7"
+    },
+    {
+      "path": "evidence/complete-captures/native-mid-air.png",
+      "sha256": "252b4ef64bba60af7120dd4dd13053dcbbb985dcbcaab3c6a984db714c1f6dde"
+    },
+    {
+      "path": "evidence/complete-captures/native-mid-strike.png",
+      "sha256": "1874eeb4a0a60d34b2d5fbeb3a1bdcafc8ae12998b7a7fe45fb8f4975dac7d1c"
+    },
+    {
+      "path": "evidence/complete-captures/native-standing.png",
+      "sha256": "5b6a83493829d3e84f004e68ad3d77de03f77814420408f0d23e3490723147cd"
+    },
+    {
+      "path": "evidence/complete-captures/native-walking.png",
+      "sha256": "d89cec10992376183ab35fdff5a6047da0ffddf0b6d43322d924cc73767a27c6"
+    },
+    {
+      "path": "evidence/complete-captures/phone-boss.png",
+      "sha256": "61e4b1d98c399db3b8c19dd8a4233981fbb97e35f672d00e27bf7ff1f92ff0db"
+    },
+    {
+      "path": "evidence/complete-captures/phone-crouching.png",
+      "sha256": "c947fc89b85b6c96a32cf1c7cd4168dd62838ac7d8cf725496766e3e0ca798d8"
+    },
+    {
+      "path": "evidence/complete-captures/phone-mid-air.png",
+      "sha256": "536f1513952aa12dd5ce5eca26b3acd6111b2ef6355f2735685b63e727d7d72b"
+    },
+    {
+      "path": "evidence/complete-captures/phone-mid-strike.png",
+      "sha256": "94b3297612ac941844afaab65de75ad06d3a978bf2c7bf0ee8eb24c3c8c9f40d"
+    },
+    {
+      "path": "evidence/complete-captures/phone-standing.png",
+      "sha256": "6ebcdf5d5962887b5068ab56177937dd2f0aabd95f71ae017cc0814d3ad633b5"
+    },
+    {
+      "path": "evidence/complete-captures/phone-walking.png",
+      "sha256": "86d05073f65f0e1dcacacee11aa81309839cf529839e06cfdc0dbc08d927e8ca"
+    },
+    {
+      "path": "evidence/complete-stage-native/air-whip.png",
+      "sha256": "c9b59c39cf5f1f8a472d667506ffc1faa51b2c1d3be1097af77ef9a755f683c7"
+    },
+    {
+      "path": "evidence/complete-stage-native/arena.png",
+      "sha256": "09b0cc108a8e208f4f0800148312ab00fc35bc0e8b1f093d0c61c60ef68fcf4b"
+    },
+    {
+      "path": "evidence/complete-stage-native/bridge.png",
+      "sha256": "ca6831f725c1c8df8ce4de0de7816e58917fd16d55e63c6bd15d92dc0ce7b9bd"
+    },
+    {
+      "path": "evidence/complete-stage-native/checkpoint.png",
+      "sha256": "d2565dddda627d227120c71ae9fe9135fbe14c60a0812afc2d0de548d87a60b6"
+    },
+    {
+      "path": "evidence/complete-stage-native/court.png",
+      "sha256": "7ae2882ebc4f048d543b35d09bc3b6764bfa1b7565d92e01957e76206a777f6b"
+    },
+    {
+      "path": "evidence/complete-stage-native/fallback.png",
+      "sha256": "2295d247e6708bbbe0f242173b1ce578071fa34cb34abc6c4f5696c1f47b5c0c"
+    },
+    {
+      "path": "evidence/complete-stage-native/ground-whip.png",
+      "sha256": "6fe0012a1a78970d64584f5d63f3ef989e322fea527e3911698597d79fcb89fa"
+    },
+    {
+      "path": "evidence/complete-stage-native/hazard_execute.png",
+      "sha256": "2114f8cd8f35ebb151c360124395460298864215aab7eb9a3e2a2387adce17ec"
+    },
+    {
+      "path": "evidence/complete-stage-native/hazard_windup.png",
+      "sha256": "df50f7cf49a0e6d0c8a5fdb1afba0ee139e3300e5666a186cc28fbe8f3c8fb8a"
+    },
+    {
+      "path": "evidence/complete-stage-native/lower-return.png",
+      "sha256": "994613a58f4c86c97236dbf12f89d038240ba3429d01312beed825b8bc48c015"
+    },
+    {
+      "path": "evidence/complete-stage-native/mixed.png",
+      "sha256": "f78d583219a3dbcba9a5570b818672ddcff444c6b10e1e0367d6c5f94cb6ce02"
+    },
+    {
+      "path": "evidence/complete-stage-native/stairs.png",
+      "sha256": "7019c1cc2d20244a2a1fec41a73e1034bfe502b725f183d652b3c3f845aa7ff6"
+    },
+    {
+      "path": "evidence/complete-stage-native/strike_windup.png",
+      "sha256": "c69b0d0f3a81052007c72ee1dde6759ee8aabea737919955141bdd488718d96c"
+    },
+    {
+      "path": "evidence/complete-stage-native/threshold.png",
+      "sha256": "9b4371b3c5e8f885e9a2b5e4b7b654c4246e0f6f11c04fdbbee0d503bc52993f"
+    },
+    {
+      "path": "evidence/complete-stage-native/upper-platforms.png",
+      "sha256": "7c75a54bc9eb061154f9e421b9975f88703633a0e7a2af6bbafaf76b6eee5af2"
+    },
+    {
+      "path": "evidence/complete-stage-phone/air-whip.png",
+      "sha256": "1db5da82f6c693ef7b269529ab7bf247d997565cbc7045b6cc00748ba4fecdc7"
+    },
+    {
+      "path": "evidence/complete-stage-phone/arena.png",
+      "sha256": "61684d64d21792703ced2efff5f7a0f9fe9157b16c51e514ffdb1385814e932d"
+    },
+    {
+      "path": "evidence/complete-stage-phone/bridge.png",
+      "sha256": "7fcb496b071f3fca75b31a199b8c3b446dfec3c839662bdfebcd9f766699d960"
+    },
+    {
+      "path": "evidence/complete-stage-phone/checkpoint.png",
+      "sha256": "9bd46a768419ab7d60e3c4669a9bfe9287c0fc7fc6beff70c5d155736e45969d"
+    },
+    {
+      "path": "evidence/complete-stage-phone/court.png",
+      "sha256": "7903c784aeed060f9a0f7c704c1975040ed2b15c4c5d3d3bce1fdc846fb94196"
+    },
+    {
+      "path": "evidence/complete-stage-phone/fallback.png",
+      "sha256": "e2347c8c6f175fadd8a21474ea4d1f1397d1a7da3800968dd7a52e3985a50d65"
+    },
+    {
+      "path": "evidence/complete-stage-phone/ground-whip.png",
+      "sha256": "172f21c8847e455f6a328f80c48c4fde310176c0f86b164fc9fa9cb4005f0462"
+    },
+    {
+      "path": "evidence/complete-stage-phone/hazard_execute.png",
+      "sha256": "bc5d413affeaa68fd3b08152c327a2e2d603b6fbb36da0f369ef02f3e1e43fea"
+    },
+    {
+      "path": "evidence/complete-stage-phone/hazard_windup.png",
+      "sha256": "a427aad1a275fb0691ab50368df609d39d1cd819e0fea1d27e877b84ebfa6fee"
+    },
+    {
+      "path": "evidence/complete-stage-phone/lower-return.png",
+      "sha256": "406bafc2a8e6b3a22424b433c24e971c2652e3965503e9cdc3420e67995ddb95"
+    },
+    {
+      "path": "evidence/complete-stage-phone/mixed.png",
+      "sha256": "bf15615d5283f951e44d077700d2317eceb83cd3e672adaaed8f5e3f91e30f1f"
+    },
+    {
+      "path": "evidence/complete-stage-phone/stairs.png",
+      "sha256": "28c1673c38ccfeb8caf4bb682aee7167837188ff1fb63999384aa758af2fe70c"
+    },
+    {
+      "path": "evidence/complete-stage-phone/strike_windup.png",
+      "sha256": "6739399f1ac403f393671cf349757d33660712f42ae6c4a26b72edd8182177fc"
+    },
+    {
+      "path": "evidence/complete-stage-phone/threshold.png",
+      "sha256": "9dae0c823850ca4b26fb5d978215651bdda9e76754414eb138943ce697962b9a"
+    },
+    {
+      "path": "evidence/complete-stage-phone/upper-platforms.png",
+      "sha256": "79941def711fac9089282c67c86bbc484cd4b3955e8da19055a829b9c8768dae"
+    },
+    {
+      "path": "evidence/linear-sampling-browser-2-gameplay.png",
+      "sha256": "2bf9db0525d958f20c17dd68362901ff9fd254733f9ff69659980e5282e6389b"
+    },
+    {
+      "path": "evidence/linear-sampling-browser-2-held.png",
+      "sha256": "01089f14b90d3271d7df56c9f58cb867dc037e5fb07b0adbff0d555562ec038d"
+    },
+    {
+      "path": "evidence/linear-sampling-browser-2-menu-retry.png",
+      "sha256": "9c2f4940c9218eb924809068e4247da09256509afa0fd8a85a61aada492e8ee7"
+    },
+    {
+      "path": "evidence/linear-sampling-browser-2-menu.png",
+      "sha256": "b962c7a799e4d6e1896b220115e50793ef874d3fd49ab488e52639961fbc6d60"
+    },
+    {
+      "path": "evidence/linear-sampling-browser-2-whip.png",
+      "sha256": "4b01808691138133dd05d245a84cf34da3a2175403ddf62362eb28a7168b61e7"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-checkpoint-health2.png",
+      "sha256": "b49b7eed614962520e838aebdb77dc75363b1d72fe36779e8afc6fdd165b6a33"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-enemy-defeat.png",
+      "sha256": "1deeae8b2e905fffd87f9aa245853fe52929e373bf413de107f599026e279b50"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-held-controls.png",
+      "sha256": "6992447c9f97ab42d27672c8e326b9391284604c91ca6810fbb1ae7953b1a237"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-opening.png",
+      "sha256": "5b6a83493829d3e84f004e68ad3d77de03f77814420408f0d23e3490723147cd"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-pause-retry.png",
+      "sha256": "6cba09c3c393147ffd92d9a62bd608ebb7161344cd35908b9a35afea63bff020"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-victory-retry.png",
+      "sha256": "154ec2b95a56d24150aeaef66d45ab8037a06de537cd77b217d589e473571133"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-victory-top.png",
+      "sha256": "154ec2b95a56d24150aeaef66d45ab8037a06de537cd77b217d589e473571133"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/native-whip-impact.png",
+      "sha256": "0bad43cb8edc1147fee473d78fd586ecbb8e9e6cf7a962638d9095c9485702c7"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-checkpoint-health2.png",
+      "sha256": "8c53ed788481c3312ea0fa05958b18b29803202fbabc81a55800d47e0521d527"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-enemy-defeat.png",
+      "sha256": "c01175eff83a82974989f6cc3babedfde0322114785195be8459c77b9b15eb99"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-held-controls.png",
+      "sha256": "7bc8de5b274d01d986c3f9d3434de11696ef76211f7e4d8f5ea95d4e99f816d1"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-opening.png",
+      "sha256": "c365d51e513cf0a8b6cffa7a6be231c38190ed9741aa391e99221f4ba50b43b8"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-pause-retry.png",
+      "sha256": "fb28be09dbdead78cccead8e206e4f31ade8ab99e0a45599784d35699a4e4ea9"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-victory-retry.png",
+      "sha256": "615931d70e7b54b3b61274570175c19df0f892fefb48479dad59fbca77ef9a75"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-victory-top.png",
+      "sha256": "568367fbd9ab23b50bca79735a63f96a617b342115d64716e0d5f399ea37ed5b"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/phone-whip-impact.png",
+      "sha256": "e714328fb6c90b0cea704e3f2d4f143ed456b47dac5731fdfe7e23faada92251"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/portrait-density3.png",
+      "sha256": "10b8913656ce53c18af57fe47fc997195db4064b33b3df95c3f27c3506866e45"
+    },
+    {
+      "path": "evidence/linear-sampling-captures/portrait.png",
+      "sha256": "899e33d10e620212ae10c6657cd7b9aaf2d9dfe384a3b867a2948f07bb96a893"
+    },
+    {
+      "path": "evidence/linear-sampling-exit-packed/locked.png",
+      "sha256": "8f8cc7173c96fa5ee96d2e9dd0ee7110e155a4a49b19f0663b2f326351482103"
+    },
+    {
+      "path": "evidence/linear-sampling-exit-packed/unlocked.png",
+      "sha256": "0e6f86c47d98920f53b79341e87f6cd3f10caba8be0eced1c03cb63b3c7711d5"
+    },
+    {
+      "path": "evidence/linear-sampling-rotate-browser-3-landscape-menu.png",
+      "sha256": "4cf0e369a35fbf7ec771561efdf933a51f7810c4bc8611085e966899a7b74fc9"
+    },
+    {
+      "path": "evidence/linear-sampling-rotate-browser-3-portrait.png",
+      "sha256": "7b8f0878ca0e2e882baa5bf22e869fcc15b451c5397b71d00128ce3517cfdda7"
+    },
+    {
+      "path": "evidence/linear-sampling-rotate-browser-3-resumed.png",
+      "sha256": "e956847eb625ec8796c6cd013b7f25dd60a31c8d44bc354402dff81b1a6f30f9"
+    }
+  ]
+}

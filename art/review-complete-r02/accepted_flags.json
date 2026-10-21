@@ -1,0 +1,322 @@
+{
+  "reviewer": "/root/complete_review_r02",
+  "main_flags": 34,
+  "static_flags": 1,
+  "accepted": [
+    {
+      "rule": "A-08",
+      "severity": "FLAG",
+      "clip": "hero_walk",
+      "frame": 4,
+      "msg": "head width 1.051 × standing reference (±0.05): single frame, reviewer adjudicates",
+      "decision": "ACCEPT",
+      "reason": "F4 preserves the same facial silhouette and hair mass; the tiny excess belongs to the hair/upper-head envelope, with no visible skull or whole-body enlargement."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_walk",
+      "frame": 3,
+      "msg": "jump from frame 2: size 6.3%, height 0.0%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 advances the swinging boot toward the next contact while the coat opens; the head and torso retain their scale. The area change follows separated limbs and cloth, not a resized body."
+    },
+    {
+      "rule": "A-08",
+      "severity": "FLAG",
+      "clip": "hero_crouch_enter",
+      "frame": 2,
+      "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates",
+      "decision": "ACCEPT",
+      "reason": "F2 shows the same head tilted over bent hips; hair and upper-body overlap widen the top-band proxy. The face is not a smaller or larger replacement."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_crouch_enter",
+      "frame": 2,
+      "msg": "jump from frame 1: size 8.8%, height 17.9%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 folds knees and lowers hips while the boots stay grounded; coat pooling and limb overlap change visible area. It reads as bending."
+    },
+    {
+      "rule": "A-08",
+      "severity": "FLAG",
+      "clip": "hero_crouch_exit",
+      "frame": 1,
+      "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates",
+      "decision": "ACCEPT",
+      "reason": "F1 is the same intermediate folded pose as entry F2. Hair/pose overlap accounts for the top-band excess; actual head identity and size persist."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_crouch_exit",
+      "frame": 2,
+      "msg": "jump from frame 1: size 9.6%, height 21.8%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 unfolds the loaded knees and lifts the torso above grounded boots. The changed area follows unfolding coat and legs, with no global scaling."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_crouch_exit",
+      "frame": 3,
+      "msg": "jump from frame 2: size 6.3%, height 17.9%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 completes extension to neutral with the same head and boot dimensions. The short height step is an intentional standing transition."
+    },
+    {
+      "rule": "A-08",
+      "severity": "FLAG",
+      "clip": "hero_land",
+      "frame": 0,
+      "msg": "head width 1.103 × standing reference (±0.05): single frame, reviewer adjudicates",
+      "decision": "ACCEPT",
+      "reason": "F0 has an airborne head tilt and shoulder/raised-arm silhouette intruding into the top-height band. The recognizable face/head remains comparable to the other jump keys."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_attack_ground",
+      "frame": 1,
+      "msg": "jump from frame 0: size 6.2%, height 3.1%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 opens the stance and draws the striking arm back. Increased exposed arm/coat area is coherent anticipation; boots remain grounded and body scale is stable."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_attack_crouch",
+      "frame": 4,
+      "msg": "jump from frame 3: size 7.6%, height 1.4%",
+      "decision": "ACCEPT",
+      "reason": "F3→F4 retracts the same fist to the low waist and overlaps it with the torso. The visible-area decrease follows that overlap, with squat depth and head size retained."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_knockdown",
+      "frame": 1,
+      "msg": "jump from frame 0: size 6.3%, height 25.9%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 progresses from recoil into backward loss of balance, extending the legs and reaching a bracing hand toward the floor. Body parts remain consistent in size."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_get_up",
+      "frame": 1,
+      "msg": "jump from frame 0: size 15.2%, height 9.5%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 rolls the torso toward the supporting palm and draws a leg in, increasing overlap of coat and thighs. The shoulder and knee path stays supported; no shrinking actor is seen."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_get_up",
+      "frame": 3,
+      "msg": "jump from frame 2: size 6.1%, height 7.7%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 brings the body over a planted palm and foot into a half-kneel. The changed coat/leg overlap follows the support transfer."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_death",
+      "frame": 1,
+      "msg": "jump from frame 0: size 6.3%, height 25.9%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 is the same coherent backward-collapse progression as knockdown: legs extend while one palm reaches down. The head and boots retain their physical dimensions."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "hero_death",
+      "frame": 5,
+      "msg": "jump from frame 4: size 6.6%, height 32.4%",
+      "decision": "ACCEPT",
+      "reason": "F4→F5 releases the supported seated torso onto the back. Lower height and changed visible area follow rotation into a complete resting body, not a smaller drawing."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "pursuer_alert",
+      "frame": 1,
+      "msg": "jump from frame 0: size 3.1%, height 24.6%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 raises head/shoulders and lifts the forelimbs from the low four-limb stance. This is the intended rear-up tell; the torso and long limbs do not grow."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "pursuer_alert",
+      "frame": 2,
+      "msg": "jump from frame 1: size 2.3%, height 13.2%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 lowers the raised forequarters partway while the hind feet support the creature. The height change is articulated settling."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "pursuer_alert",
+      "frame": 3,
+      "msg": "jump from frame 2: size 0.5%, height 15.2%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 completes the return from the rear-up with forehands lowering toward the ground. Same draped head and limb proportions remain."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "pursuer_death",
+      "frame": 1,
+      "msg": "jump from frame 0: size 6.3%, height 2.9%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 buckles the forelimbs and lowers the back while the cloth spreads. Same creature mass is redistributed into a collapsed posture."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "pursuer_death",
+      "frame": 5,
+      "msg": "jump from frame 4: size 93.5%, height 95.9%",
+      "decision": "ACCEPT",
+      "reason": "F4→F5 completes an already visible transparency/dust dissolve. Residual particles replace the fading flattened body; it does not switch to an unrelated intact pose."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_dive",
+      "frame": 1,
+      "msg": "jump from frame 0: size 1.6%, height 28.1%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 pitches the folded wing/body bundle toward horizontal; height changes by rotation around its center, with stable hood and wing anatomy."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_dive",
+      "frame": 2,
+      "msg": "jump from frame 1: size 0.6%, height 21.9%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 completes the headfirst pitch; the narrow folded silhouette becomes horizontal. This is direction change, not body scaling."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_recovery_climb",
+      "frame": 2,
+      "msg": "jump from frame 1: size 12.7%, height 2.9%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 raises the wings into the recovery stroke; projected membrane area changes while the hood/body scale stays fixed."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_recovery_climb",
+      "frame": 3,
+      "msg": "jump from frame 2: size 10.4%, height 3.4%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 lowers and opens the same membrane wings. The area change belongs to a wing stroke around attached shoulders."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_recovery_climb",
+      "frame": 4,
+      "msg": "jump from frame 3: size 10.1%, height 3.6%",
+      "decision": "ACCEPT",
+      "reason": "F3→F4 raises the wings again as part of the laboring recovery rhythm. No size jump of the hood or trailing body is visible."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_recovery_climb",
+      "frame": 5,
+      "msg": "jump from frame 4: size 11.2%, height 3.4%",
+      "decision": "ACCEPT",
+      "reason": "F4→F5 opens the wings to the final broad stance. Membrane projection increases while the small hood and tail remain consistent."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_hurt",
+      "frame": 2,
+      "msg": "jump from frame 1: size 8.0%, height 7.6%",
+      "decision": "ACCEPT",
+      "reason": "F1→F2 adds roll and wing cant to the same recoiling wraith. The asymmetrical wing projection explains the area change without identity drift."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_death_fall",
+      "frame": 1,
+      "msg": "jump from frame 0: size 12.6%, height 6.4%",
+      "decision": "ACCEPT",
+      "reason": "F0→F1 folds the two wings alongside the body as the wraith loses lift. The attached wing roots and hood remain coherent."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "swooper_death_fall",
+      "frame": 4,
+      "msg": "jump from frame 3: size 70.8%, height 79.4%",
+      "decision": "ACCEPT",
+      "reason": "F3→F4 finishes the transparent wing-body dissolve into a small dust remnant. The visible reduction is deliberate disappearance rather than scale drift."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "ranged_death",
+      "frame": 5,
+      "msg": "jump from frame 4: size 67.9%, height 74.3%",
+      "decision": "ACCEPT",
+      "reason": "F4→F5 replaces an already faded rooted robe with its ash pile. The previous silhouette is translucent and the endpoint reads as dissolution."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "boss_death",
+      "frame": 3,
+      "msg": "jump from frame 2: size 9.0%, height 10.4%",
+      "decision": "ACCEPT",
+      "reason": "F2→F3 transfers the armored body onto a bent knee; cloth pools and plate overlaps increase. Both gauntlets and helmet retain their size."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "boss_death",
+      "frame": 6,
+      "msg": "jump from frame 5: size 6.3%, height 7.8%",
+      "decision": "ACCEPT",
+      "reason": "F5→F6 lowers the helmet/chest toward the gauntlet support. Changed plate and cloth overlap follows collapse without a body rescale."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "boss_death",
+      "frame": 10,
+      "msg": "jump from frame 9: size 9.0%, height 8.3%",
+      "decision": "ACCEPT",
+      "reason": "F9→F10 advances the transparent armor heap into ash, retaining the grounded anchor. Area loss is dissolution."
+    },
+    {
+      "rule": "A-11",
+      "severity": "FLAG",
+      "clip": "boss_death",
+      "frame": 11,
+      "msg": "jump from frame 10: size 44.8%, height 38.3%",
+      "decision": "ACCEPT",
+      "reason": "F10→F11 removes the last translucent armor shape and leaves the ash heap. It completes an established fade, not an unexplained pose pop."
+    },
+    {
+      "rule": "TILE-SEAM",
+      "severity": "FLAG",
+      "id": "side_left→side_left:y",
+      "message": "edge RGB mean 55.27 exceeds reference-calibrated diagnostic 41.85",
+      "scope": "static/review-terrain-r01",
+      "decision": "ACCEPT",
+      "reason": "Inspected repeat_sides.png, patch_3x3.png and stage native/phone views. The left vertical corner course contains a brighter horizontal block joint, which reads as ordinary worn masonry within the same material. It introduces no gap, discontinuous silhouette, false walkable lip or broken top-edge line. This diagnostic excess is visible texture contrast, not a material seam."
+    }
+  ]
+}

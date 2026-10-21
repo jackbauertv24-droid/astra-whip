@@ -1,0 +1,11 @@
+{
+  "scope": "two static completion UI assets",
+  "requirements": [
+    "transparent safe margins",
+    "clear return arrow and crown/laurel victory trophy",
+    "legible32/48CSS",
+    "all wording live",
+    "completion only victory row",
+    "retry remains usable in scrolled phone menu"
+  ]
+}

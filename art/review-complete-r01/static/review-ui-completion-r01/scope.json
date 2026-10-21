@@ -1,0 +1,26 @@
+{
+  "assets": [
+    "ui_retry",
+    "ui_victory"
+  ],
+  "canvas": [
+    128,
+    128
+  ],
+  "frames_each": 1,
+  "ui_space": true,
+  "render_css": {
+    "ui_retry": [
+      32,
+      32
+    ],
+    "ui_victory": [
+      48,
+      48
+    ]
+  },
+  "original_animation_contract": "unchanged",
+  "style_lock": "art/style-lock.json",
+  "engine_captures": "evidence/ui-completion-captures/capture.json",
+  "visual_approval": false
+}

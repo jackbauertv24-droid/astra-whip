@@ -1,0 +1,23 @@
+{
+  "mandatory_contract": "game/data/art_contract.json",
+  "review_only_extended_contract": "art/review-complete-r01/review_contract.json",
+  "supplemental_contexts": "game/data/boss_hurt_contexts.json",
+  "static_packs": [
+    "static/review-ui-health-r01",
+    "static/review-ui-controls-r01",
+    "static/review-ui-checkpoint-r01",
+    "static/review-ui-completion-r01",
+    "static/review-ui-rotate-r01",
+    "static/review-terrain-r01",
+    "static/review-background-r02",
+    "static/review-checkpoint-r01",
+    "static/review-effigy-r01",
+    "static/review-boss-gate-r02",
+    "static/review-exit-r02"
+  ],
+  "style_lock": "art/style-lock.json",
+  "reels": "art/reels/index.html",
+  "integration": "integration.md",
+  "physical_device": false,
+  "visual_approval": false
+}

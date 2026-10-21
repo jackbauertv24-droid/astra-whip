@@ -16,4 +16,4 @@ FAIL T-07: pit bypasses immunity and restarts at checkpoint with 5 HP
 T-07: FAIL
 T-08: PASS
 T-09: PASS
-RESULT 1213 assertions, 5 failures; mutation=T-07
+RESULT 1241 assertions, 5 failures; mutation=T-07

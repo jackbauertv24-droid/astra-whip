@@ -1,0 +1,1490 @@
+{
+  "reviewer": "/root/complete_review_r02",
+  "method": "Real requestAnimationFrame source-reel playback in Chromium through Node Playwright. Gameplay cadence, complete clip duration plus endpoint margin, samples from live canvas. Source strips/onions separately inspected at full detail. Eight timed contact samples per entry visually inspected.",
+  "entries": [
+    {
+      "id": "style_hero_neutral",
+      "ms": [
+        0
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0
+      ],
+      "samples": 14,
+      "wall_ms": 383.69999999995343
+    },
+    {
+      "id": "hero_idle",
+      "ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 1034.5999999999767
+    },
+    {
+      "id": "hero_walk",
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "rate": 2,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "samples": 16,
+      "wall_ms": 474.79999999998836
+    },
+    {
+      "id": "hero_start_move",
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 17,
+      "wall_ms": 396.3999999999651
+    },
+    {
+      "id": "hero_stop_move",
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 375.79999999998836
+    },
+    {
+      "id": "hero_turn",
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 395.0999999999767
+    },
+    {
+      "id": "hero_crouch_enter",
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 16,
+      "wall_ms": 392.3999999999651
+    },
+    {
+      "id": "hero_crouch_idle",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 964.0999999999767
+    },
+    {
+      "id": "hero_crouch_exit",
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 16,
+      "wall_ms": 388.6000000000349
+    },
+    {
+      "id": "hero_jump_takeoff",
+      "ms": [
+        40,
+        40,
+        40
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 382.79999999998836
+    },
+    {
+      "id": "hero_jump_rise",
+      "ms": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 17,
+      "wall_ms": 398.4000000000233
+    },
+    {
+      "id": "hero_jump_apex",
+      "ms": [
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 17,
+      "wall_ms": 398.5
+    },
+    {
+      "id": "hero_fall",
+      "ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 13,
+      "wall_ms": 485
+    },
+    {
+      "id": "hero_land",
+      "ms": [
+        40,
+        40,
+        40,
+        40
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 12,
+      "wall_ms": 387.6000000000349
+    },
+    {
+      "id": "hero_attack_ground",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 592
+    },
+    {
+      "id": "hero_attack_air",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 596.2000000000116
+    },
+    {
+      "id": "hero_attack_crouch",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 17,
+      "wall_ms": 596.3000000000466
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 17,
+      "wall_ms": 378
+    },
+    {
+      "id": "hero_knockback",
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 17,
+      "wall_ms": 390.20000000001164
+    },
+    {
+      "id": "hero_knockdown",
+      "ms": [
+        60,
+        60,
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 449
+    },
+    {
+      "id": "hero_get_up",
+      "ms": [
+        75,
+        75,
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 17,
+      "wall_ms": 536.4000000000233
+    },
+    {
+      "id": "hero_death",
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "samples": 16,
+      "wall_ms": 866.8999999999651
+    },
+    {
+      "id": "whip_attack_ground",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 17,
+      "wall_ms": 596.5
+    },
+    {
+      "id": "whip_attack_air",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 17,
+      "wall_ms": 577
+    },
+    {
+      "id": "whip_attack_crouch",
+      "ms": [
+        75,
+        75,
+        50,
+        50,
+        62.5,
+        62.5,
+        62.5,
+        62.5
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 14,
+      "wall_ms": 597.7000000000116
+    },
+    {
+      "id": "pursuer_idle",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 13,
+      "wall_ms": 938.8999999999651
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 11,
+      "wall_ms": 749.2000000000116
+    },
+    {
+      "id": "pursuer_alert",
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 11,
+      "wall_ms": 386.5999999999767
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": true,
+      "rate": 1.2962962962962963,
+      "observed_frames": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        0
+      ],
+      "samples": 11,
+      "wall_ms": 498.19999999995343
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "ms": [
+        100,
+        100,
+        75,
+        75
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 11,
+      "wall_ms": 406.20000000001164
+    },
+    {
+      "id": "pursuer_lunge",
+      "ms": [
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 11,
+      "wall_ms": 386.5
+    },
+    {
+      "id": "pursuer_recovery",
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 11,
+      "wall_ms": 662.2000000000116
+    },
+    {
+      "id": "pursuer_hurt",
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 12,
+      "wall_ms": 399.20000000001164
+    },
+    {
+      "id": "pursuer_death",
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 13,
+      "wall_ms": 557.8999999999651
+    },
+    {
+      "id": "swooper_perch_idle",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 15,
+      "wall_ms": 934.1999999999534
+    },
+    {
+      "id": "swooper_cruise",
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 15,
+      "wall_ms": 772.5
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "ms": [
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 17,
+      "wall_ms": 692.6000000000349
+    },
+    {
+      "id": "swooper_dive",
+      "ms": [
+        60,
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 17,
+      "wall_ms": 379.4000000000233
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 17,
+      "wall_ms": 997.2000000000116
+    },
+    {
+      "id": "swooper_hurt",
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 17,
+      "wall_ms": 384.29999999998836
+    },
+    {
+      "id": "swooper_death_fall",
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "samples": 17,
+      "wall_ms": 432.19999999995343
+    },
+    {
+      "id": "ranged_idle",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 946
+    },
+    {
+      "id": "ranged_aim",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 946.0999999999767
+    },
+    {
+      "id": "ranged_fire",
+      "ms": [
+        50,
+        50,
+        100
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 14,
+      "wall_ms": 388.80000000004657
+    },
+    {
+      "id": "ranged_recover",
+      "ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "samples": 16,
+      "wall_ms": 782.4000000000233
+    },
+    {
+      "id": "ranged_hurt",
+      "ms": [
+        60,
+        60,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 392.69999999995343
+    },
+    {
+      "id": "ranged_death",
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 15,
+      "wall_ms": 557
+    },
+    {
+      "id": "boss_idle",
+      "ms": [
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125,
+        125
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 15,
+      "wall_ms": 1052.4000000000233
+    },
+    {
+      "id": "boss_walk",
+      "ms": [
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 729.7000000000116
+    },
+    {
+      "id": "boss_turn",
+      "ms": [
+        75,
+        75,
+        75,
+        75
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 16,
+      "wall_ms": 388.20000000001164
+    },
+    {
+      "id": "boss_strike_windup",
+      "ms": [
+        100,
+        100,
+        100,
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "samples": 16,
+      "wall_ms": 767.6999999999534
+    },
+    {
+      "id": "boss_strike_execute",
+      "ms": [
+        50,
+        50,
+        50,
+        50
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 16,
+      "wall_ms": 395.5
+    },
+    {
+      "id": "boss_strike_recover",
+      "ms": [
+        200,
+        200,
+        200,
+        200,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 1147.7999999999302
+    },
+    {
+      "id": "boss_hazard_windup",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 1282.1999999999534
+    },
+    {
+      "id": "boss_hazard_execute",
+      "ms": [
+        100,
+        100,
+        100,
+        100
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 14,
+      "wall_ms": 483.80000000004657
+    },
+    {
+      "id": "boss_hazard_recover",
+      "ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        150
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 15,
+      "wall_ms": 948.6000000000931
+    },
+    {
+      "id": "boss_hurt",
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 14,
+      "wall_ms": 385.29999999993015
+    },
+    {
+      "id": "boss_death",
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "samples": 16,
+      "wall_ms": 1156.7000000000698
+    },
+    {
+      "id": "projectile_grave_shot",
+      "ms": [
+        80,
+        80,
+        80
+      ],
+      "loop": true,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 15,
+      "wall_ms": 392.5
+    },
+    {
+      "id": "vfx_whip_impact",
+      "ms": [
+        40,
+        40,
+        40,
+        50,
+        50,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 15,
+      "wall_ms": 375.30000000004657
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "ms": [
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 15,
+      "wall_ms": 636.1999999999534
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "ms": [
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90,
+        90
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "samples": 16,
+      "wall_ms": 781.6000000000931
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "ms": [
+        300,
+        300,
+        300,
+        300
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "samples": 16,
+      "wall_ms": 1251.8999999999069
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "ms": [
+        60,
+        60,
+        70,
+        70,
+        70,
+        70
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "samples": 16,
+      "wall_ms": 495.4000000000233
+    },
+    {
+      "id": "boss_hurt_stooped",
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 15,
+      "wall_ms": 376.70000000006985
+    },
+    {
+      "id": "boss_hurt_rising",
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 397.19999999995343
+    },
+    {
+      "id": "boss_hurt_half_stoop",
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 16,
+      "wall_ms": 388.0999999999767
+    },
+    {
+      "id": "boss_hurt_hazard_late",
+      "ms": [
+        70,
+        70,
+        60
+      ],
+      "loop": false,
+      "rate": 1,
+      "observed_frames": [
+        0,
+        1,
+        2
+      ],
+      "samples": 15,
+      "wall_ms": 381.9000000000233
+    }
+  ]
+}

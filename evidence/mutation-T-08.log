@@ -12,4 +12,4 @@ T-07: PASS
 FAIL T-08: opposing inputs neutral
 T-08: FAIL
 T-09: PASS
-RESULT 1213 assertions, 1 failures; mutation=T-08
+RESULT 1241 assertions, 1 failures; mutation=T-08

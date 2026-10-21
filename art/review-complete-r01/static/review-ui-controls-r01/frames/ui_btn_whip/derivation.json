@@ -1,0 +1,54 @@
+{
+  "kind": "generated_ui_glyph_edit",
+  "source": [
+    "art/production-candidates/ui-controls-r01/ui_btn_whip/raw.png",
+    "art/production-candidates/ui-controls-r01/ui_btn_whip/prompt.txt",
+    "art/production-candidates/ui-controls-r01/ui_btn_whip/sheet.png.provenance.json",
+    "art/production-candidates/ui-controls-r01/ui_btn_left/raw.png"
+  ],
+  "method": "Uniform whole-sheet resolution conversion; exact128px cells; integer translation registers each stone plate to canvas centre. No per-state scaling, stretching or repaint; any clipped extraction residue is alpha<=8 and counted. Visible alpha>8 is preserved.",
+  "registrations": [
+    {
+      "frame": 0,
+      "source_cell": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "alpha_bounds": [
+        20,
+        15,
+        121,
+        112
+      ],
+      "integer_translation": [
+        -7,
+        0
+      ],
+      "clipped_extraction_pixels_alpha_le_8": 0
+    },
+    {
+      "frame": 1,
+      "source_cell": [
+        128,
+        0,
+        128,
+        128
+      ],
+      "alpha_bounds": [
+        6,
+        15,
+        106,
+        112
+      ],
+      "integer_translation": [
+        8,
+        0
+      ],
+      "clipped_extraction_pixels_alpha_le_8": 0
+    }
+  ],
+  "corrective_normalization": 1,
+  "visual_approval": false
+}

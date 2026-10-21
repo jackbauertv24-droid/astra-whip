@@ -1,0 +1,317 @@
+[
+  {
+    "rule": "A-08",
+    "severity": "FLAG",
+    "clip": "hero_walk",
+    "frame": 4,
+    "msg": "head width 1.051 × standing reference (±0.05): single frame, reviewer adjudicates",
+    "adjudication": "ACCEPT",
+    "reason": "Hair contour/coat overlap varies with the alternating gait; head is the same compact portrait and boots articulate through contact/swing. No global scale pop in onion pairs."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_walk",
+    "frame": 3,
+    "msg": "jump from frame 2: size 6.3%, height 0.0%",
+    "adjudication": "ACCEPT",
+    "reason": "Hair contour/coat overlap varies with the alternating gait; head is the same compact portrait and boots articulate through contact/swing. No global scale pop in onion pairs."
+  },
+  {
+    "rule": "A-08",
+    "severity": "FLAG",
+    "clip": "hero_crouch_enter",
+    "frame": 2,
+    "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates",
+    "adjudication": "ACCEPT",
+    "reason": "Head turns/leans while hips and knees fold; visible head mass stays comparable. The area loss is limb/coat occlusion in a real squat, not whole-body shrinking."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_crouch_enter",
+    "frame": 2,
+    "msg": "jump from frame 1: size 8.8%, height 17.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Head turns/leans while hips and knees fold; visible head mass stays comparable. The area loss is limb/coat occlusion in a real squat, not whole-body shrinking."
+  },
+  {
+    "rule": "A-08",
+    "severity": "FLAG",
+    "clip": "hero_crouch_exit",
+    "frame": 1,
+    "msg": "head width 1.077 × standing reference (±0.05): single frame, reviewer adjudicates",
+    "adjudication": "ACCEPT",
+    "reason": "Reverse squat unfolds knees and hips over planted boots; head contour and visible coat area change with the turn/occlusion, not actor scale."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_crouch_exit",
+    "frame": 2,
+    "msg": "jump from frame 1: size 9.6%, height 21.8%",
+    "adjudication": "ACCEPT",
+    "reason": "Reverse squat unfolds knees and hips over planted boots; head contour and visible coat area change with the turn/occlusion, not actor scale."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_crouch_exit",
+    "frame": 3,
+    "msg": "jump from frame 2: size 6.3%, height 17.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Reverse squat unfolds knees and hips over planted boots; head contour and visible coat area change with the turn/occlusion, not actor scale."
+  },
+  {
+    "rule": "A-08",
+    "severity": "FLAG",
+    "clip": "hero_land",
+    "frame": 0,
+    "msg": "head width 1.103 × standing reference (±0.05): single frame, reviewer adjudicates",
+    "adjudication": "ACCEPT",
+    "reason": "Tucked airborne head angle/hair outline is wider, but the face, skull and body are consistent with the rise pose and grounded compression."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_attack_ground",
+    "frame": 1,
+    "msg": "jump from frame 0: size 6.2%, height 3.1%",
+    "adjudication": "ACCEPT",
+    "reason": "The windup opens the stance and raises the sleeve/coat, adding visible ink. Head/limb proportions remain stable and both feet support the gesture."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_attack_crouch",
+    "frame": 4,
+    "msg": "jump from frame 3: size 7.6%, height 1.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Extended arm retracts into torso/coat overlap while the folded legs remain fixed; loss of exposed arm area explains measured size drop."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_knockdown",
+    "frame": 1,
+    "msg": "jump from frame 0: size 6.3%, height 25.9%",
+    "adjudication": "ACCEPT",
+    "reason": "The chest falls into a seated position with trailing legs; area/height change comes from projected pose and coat overlap. No missing body part."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_get_up",
+    "frame": 1,
+    "msg": "jump from frame 0: size 15.2%, height 9.5%",
+    "adjudication": "ACCEPT",
+    "reason": "The first roll reveals torso/thigh paint previously occluded in the floor sit, then hands/feet support the rising knee. All flagged steps follow a supported progression."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_get_up",
+    "frame": 3,
+    "msg": "jump from frame 2: size 6.1%, height 7.7%",
+    "adjudication": "ACCEPT",
+    "reason": "The first roll reveals torso/thigh paint previously occluded in the floor sit, then hands/feet support the rising knee. All flagged steps follow a supported progression."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_death",
+    "frame": 1,
+    "msg": "jump from frame 0: size 6.3%, height 25.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Chest-to-seat-to-supine projection changes account for measured area/height; the whole body settles on ground without anatomy/identity loss."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "hero_death",
+    "frame": 5,
+    "msg": "jump from frame 4: size 6.6%, height 32.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Chest-to-seat-to-supine projection changes account for measured area/height; the whole body settles on ground without anatomy/identity loss."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "pursuer_alert",
+    "frame": 1,
+    "msg": "jump from frame 0: size 3.1%, height 24.6%",
+    "adjudication": "ACCEPT",
+    "reason": "The neck/skull and forearms rear above the stable hind support, then settle. Vertical silhouette spike is the tell, not a scale change."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "pursuer_alert",
+    "frame": 2,
+    "msg": "jump from frame 1: size 2.3%, height 13.2%",
+    "adjudication": "ACCEPT",
+    "reason": "The neck/skull and forearms rear above the stable hind support, then settle. Vertical silhouette spike is the tell, not a scale change."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "pursuer_alert",
+    "frame": 3,
+    "msg": "jump from frame 2: size 0.5%, height 15.2%",
+    "adjudication": "ACCEPT",
+    "reason": "The neck/skull and forearms rear above the stable hind support, then settle. Vertical silhouette spike is the tell, not a scale change."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "pursuer_death",
+    "frame": 1,
+    "msg": "jump from frame 0: size 6.3%, height 2.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Initial lowered elbows/head enlarge the projected body slightly; final flagged near-disappearance is deliberate erosion after grounded prone settle."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "pursuer_death",
+    "frame": 5,
+    "msg": "jump from frame 4: size 93.5%, height 95.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Initial lowered elbows/head enlarge the projected body slightly; final flagged near-disappearance is deliberate erosion after grounded prone settle."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_dive",
+    "frame": 1,
+    "msg": "jump from frame 0: size 1.6%, height 28.1%",
+    "adjudication": "ACCEPT",
+    "reason": "Folded wing body rotates from upright to horizontal dart; envelope height changes because of rotation, with connected wings and cloth retained."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_dive",
+    "frame": 2,
+    "msg": "jump from frame 1: size 0.6%, height 21.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Folded wing body rotates from upright to horizontal dart; envelope height changes because of rotation, with connected wings and cloth retained."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_recovery_climb",
+    "frame": 2,
+    "msg": "jump from frame 1: size 12.7%, height 2.9%",
+    "adjudication": "ACCEPT",
+    "reason": "Power strokes change exposed wing membrane area by articulation at wing roots; body/hood remain fixed-size. Alternating lift frames read as effortful recovery."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_recovery_climb",
+    "frame": 3,
+    "msg": "jump from frame 2: size 10.4%, height 3.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Power strokes change exposed wing membrane area by articulation at wing roots; body/hood remain fixed-size. Alternating lift frames read as effortful recovery."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_recovery_climb",
+    "frame": 4,
+    "msg": "jump from frame 3: size 10.1%, height 3.6%",
+    "adjudication": "ACCEPT",
+    "reason": "Power strokes change exposed wing membrane area by articulation at wing roots; body/hood remain fixed-size. Alternating lift frames read as effortful recovery."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_recovery_climb",
+    "frame": 5,
+    "msg": "jump from frame 4: size 11.2%, height 3.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Power strokes change exposed wing membrane area by articulation at wing roots; body/hood remain fixed-size. Alternating lift frames read as effortful recovery."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_hurt",
+    "frame": 2,
+    "msg": "jump from frame 1: size 8.0%, height 7.6%",
+    "adjudication": "ACCEPT",
+    "reason": "Banked cloth/wings expose different projected area while the hood and paired wing roots stay connected; this is recoil rotation."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_death_fall",
+    "frame": 1,
+    "msg": "jump from frame 0: size 12.6%, height 6.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Open bank folds into limp paired membranes, then deliberate erosion leaves small ash. The area reductions are collapse and dissolve, not normalization."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "swooper_death_fall",
+    "frame": 4,
+    "msg": "jump from frame 3: size 70.8%, height 79.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Open bank folds into limp paired membranes, then deliberate erosion leaves small ash. The area reductions are collapse and dissolve, not normalization."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "ranged_death",
+    "frame": 5,
+    "msg": "jump from frame 4: size 67.9%, height 74.3%",
+    "adjudication": "ACCEPT",
+    "reason": "The post-bound hooded body erodes into the separate grounded ash mound after the slump. Final area loss is intended dissolve."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "boss_death",
+    "frame": 3,
+    "msg": "jump from frame 2: size 9.0%, height 10.4%",
+    "adjudication": "ACCEPT",
+    "reason": "Knee/hip flexion and side settlement alter exposed armor area; late losses are soft erosion into ash after full supported collapse."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "boss_death",
+    "frame": 6,
+    "msg": "jump from frame 5: size 6.3%, height 7.8%",
+    "adjudication": "ACCEPT",
+    "reason": "Knee/hip flexion and side settlement alter exposed armor area; late losses are soft erosion into ash after full supported collapse."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "boss_death",
+    "frame": 10,
+    "msg": "jump from frame 9: size 9.0%, height 8.3%",
+    "adjudication": "ACCEPT",
+    "reason": "Knee/hip flexion and side settlement alter exposed armor area; late losses are soft erosion into ash after full supported collapse."
+  },
+  {
+    "rule": "A-11",
+    "severity": "FLAG",
+    "clip": "boss_death",
+    "frame": 11,
+    "msg": "jump from frame 10: size 44.8%, height 38.3%",
+    "adjudication": "ACCEPT",
+    "reason": "Knee/hip flexion and side settlement alter exposed armor area; late losses are soft erosion into ash after full supported collapse."
+  },
+  {
+    "pack": "static/review-terrain-r01",
+    "rule": "TILE-SEAM",
+    "clip": "terrain_side_left",
+    "frame": 0,
+    "pair": "side_left→side_left:y",
+    "adjudication": "ACCEPT",
+    "reason": "Viewed repeat_sides.png, patch_3x3.png and native/phone stage walls: the dark horizontal junction reads as ordinary masonry mortar at the left edge, in the same grid vocabulary as the locked terrain reference. No light top edge is interrupted and no crack implies false collision."
+  }
+]

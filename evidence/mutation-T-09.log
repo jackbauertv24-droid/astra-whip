@@ -13,4 +13,4 @@ T-08: PASS
 FAIL T-09: mapped clip exists hero_crouch_enter
 FAIL T-09: state selects clip hero_crouch_enter
 T-09: FAIL
-RESULT 1206 assertions, 2 failures; mutation=T-09
+RESULT 1234 assertions, 2 failures; mutation=T-09

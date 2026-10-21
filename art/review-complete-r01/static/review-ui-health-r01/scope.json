@@ -1,0 +1,21 @@
+{
+  "mandatory": [
+    "ui_health_full",
+    "ui_health_empty"
+  ],
+  "brief": "ASSET_BRIEFS §10",
+  "canvas": [
+    64,
+    64
+  ],
+  "frames": 1,
+  "ui_space": true,
+  "engine_size_css": [
+    24,
+    24
+  ],
+  "original_animation_contract": "unchanged",
+  "style_lock": "art/style-lock.json",
+  "engine_captures": "evidence/ui-health-captures/capture.json",
+  "visual_approval": false
+}
