@@ -57,3 +57,5 @@ Checkpoint HUD follow-up: off/on icons independently approved at32x24CSS;232sour
 Completion UI follow-up: shared completion menu visibility fixed, gameplay controls hidden during menu to prevent overlap; retry/victory icons independently approved.75source/export checks,21engine +5browser views;404RGBA roundtrips/760renderer samples exact. See evidence/ui-completion-fix.md.
 
 Rotate UI follow-up: final briefed UI asset independently approved.91source/export checks,9engine +6browser views, density1/3actual browser orientation and explicit resume;405RGBA roundtrips/762renderer samples exact. All13UIassets/19frames now approved. See evidence/ui-rotate-fix.md.
+
+Painted sampling follow-up: all explicit background/effect/UI/exit nearest overrides corrected to linear, viewport default linear without mip sampling, exit tint no longer snaps texels.124source/export checks,762source/packed samples within unchanged one-pixel/one-channel-value tolerance, exit2states exact, fresh18engine/8browser scoped review PASS. Final whole-product complete-pack review remains pending. See evidence/linear-sampling-fix.md.

@@ -1,0 +1,3 @@
+# Linear sampling integration review
+
+FIRST open all18blind-NN images and save/read observations before this scope/metadata, audit or intent. Then inspect the mapping, all actual18engine images,8browser PNGs, both packed exit states and five style references. Source art bytes, authored transforms/timings/collision and atlas placement are unchanged. Review the changed sampling: readable small UI glyphs/words and pressed states; transparent edges/halos or bleed; parallax/seam and foreground clarity; impact/defeat/checkpoint effects; exit cool/ember; portrait/live text and no competing menu controls. Static sampling fixtures do not approve combat animation/traversal or device performance. Full mandatory-source audit and final whole-product gate are separate.

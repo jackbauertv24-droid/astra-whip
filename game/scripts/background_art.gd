@@ -7,7 +7,7 @@ var framing:Sprite2D
 var world
 func configure(owner_world:Node2D):
  world=owner_world
- texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  spec=JSON.parse_string(FileAccess.get_file_as_string("res://data/background_art.json"))
  z_index=-20
  sky=Sprite2D.new()
@@ -29,7 +29,7 @@ func configure(owner_world:Node2D):
    add_child(sprite)
    repeats.append({"sprite":sprite,"copy":i,"entry":entry})
  framing=Sprite2D.new()
- framing.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ framing.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  framing.centered=false
  framing.texture=load(spec.assets.bg_foreground_frame.path)
  framing.scale=Vector2(.625,.625)

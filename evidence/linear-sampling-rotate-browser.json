@@ -1,0 +1,22 @@
+{
+  "physical_device": false,
+  "records": [
+    {
+      "density": 3,
+      "portrait_css": [
+        393,
+        852
+      ],
+      "landscape_css": [
+        852,
+        393
+      ],
+      "explicit_resume_touch_css": [
+        724,
+        70
+      ],
+      "physical_device": false,
+      "errors": []
+    }
+  ]
+}

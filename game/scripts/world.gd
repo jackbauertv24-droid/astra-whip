@@ -87,7 +87,7 @@ func _ready() -> void:
  health_empty=PackedArt.texture("res://assets/ui/ui_health_empty/f000.png")
  var exit_spec:Dictionary=static_art.prop_exit
  exit_marker=Sprite2D.new()
- exit_marker.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ exit_marker.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  exit_marker.texture=PackedArt.texture("res://assets/props/prop_exit/f000.png")
  exit_marker.scale=Vector2(.5,.5)
  exit_marker.position=Vector2(6612,Rules.GROUND)
@@ -328,14 +328,14 @@ func build_ui() -> void:
   pip.texture=health_full
   pip.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
   pip.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
-  pip.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+  pip.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
   pip.mouse_filter=Control.MOUSE_FILTER_IGNORE
   hud.add_child(pip)
   health_pips.append(pip)
  checkpoint_icon=TextureRect.new()
  checkpoint_icon.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
  checkpoint_icon.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
- checkpoint_icon.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ checkpoint_icon.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  checkpoint_icon.mouse_filter=Control.MOUSE_FILTER_IGNORE
  for state in ["off","on"]:checkpoint_ui_frames.append(PackedArt.texture("res://assets/ui/ui_checkpoint_"+state+"/f000.png"))
  checkpoint_icon.texture=checkpoint_ui_frames[0]
@@ -360,7 +360,7 @@ func build_ui() -> void:
  victory_icon.texture=PackedArt.texture("res://assets/ui/ui_victory/f000.png")
  victory_icon.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
  victory_icon.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
- victory_icon.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ victory_icon.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  victory_icon.mouse_filter=Control.MOUSE_FILTER_IGNORE
  victory_row.add_child(victory_icon)
  victory_caption=Label.new()
@@ -390,7 +390,7 @@ func build_ui() -> void:
  retry_button.text = "RETRY FROM CHECKPOINT"
  retry_button.icon=PackedArt.texture("res://assets/ui/ui_retry/f000.png")
  retry_button.expand_icon=true
- retry_button.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ retry_button.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  retry_button.custom_minimum_size.y = 48
  retry_button.pressed.connect(restart)
  menu.add_child(retry_button)
@@ -438,7 +438,7 @@ func build_ui() -> void:
  rotate_graphic.texture=PackedArt.texture("res://assets/ui/ui_rotate_prompt/f000.png")
  rotate_graphic.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
  rotate_graphic.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
- rotate_graphic.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ rotate_graphic.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  rotate_graphic.mouse_filter=Control.MOUSE_FILTER_IGNORE
  hud.add_child(rotate_graphic)
  hud.move_child(pause_button,hud.get_child_count()-1)

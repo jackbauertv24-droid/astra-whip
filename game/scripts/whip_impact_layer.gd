@@ -9,7 +9,7 @@ var bursts: Array = []
 var reduced=false
 func _ready():
  z_index=10
- texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
  var contract: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
  var spec: Dictionary=contract.clips[clip_id]
  durations=spec.ms

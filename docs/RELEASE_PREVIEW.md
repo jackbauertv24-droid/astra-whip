@@ -179,3 +179,7 @@ Completion now reveals its scroll container through shared menu visibility, maki
 ## Follow-up fix: portrait rotate graphic
 
 The final UI asset now accompanies live20CSS portrait wording, uniformly shrinking above text in short viewports. Fresh review passes9engine and6browser views, including320CSS width and densities1/3orientation/resume.91source/export checks,1241gameplay assertions and focused regressions pass.405packed+4standalone background frames, five pages; exactRGBA/762renderer samples and127.06MiB measured art allocation. All13UIassets/19frames approved; final specification audit and external gates remain. See evidence/ui-rotate-fix.md.
+
+## Follow-up fix: consistent linear painted sampling
+
+Backgrounds, effects, UI and exit now use linear filtering, matching ASSET_SPEC; viewport avoids mip sampling and exit tint no longer snaps to texel centers. Sources/atlas placement and gameplay unchanged.124source/export checks,1241gameplay assertions, focused UI regressions and fresh18engine/8browser review pass.762source/packed samples differ in only one pixel by one channel value, within unchanged strict tolerance; both exit states exact. Art memory127.06MiB. Final complete-pack review and external gates remain pending. See evidence/linear-sampling-fix.md.

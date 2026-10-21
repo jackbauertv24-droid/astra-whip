@@ -1,0 +1,233 @@
+{
+  "scope": "rendering integration after linear sampling correction; no source PNG changes",
+  "samples": [
+    {
+      "blind": "blind-01.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "native-opening.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-02.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "native-held-controls.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-03.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "native-whip-impact.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-04.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "native-enemy-defeat.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-05.png",
+      "checkpoint": true,
+      "complete": false,
+      "file": "native-checkpoint-health2.png",
+      "health": 2,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-06.png",
+      "checkpoint": true,
+      "complete": false,
+      "file": "native-pause-retry.png",
+      "health": 2,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-07.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "native-victory-top.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-08.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "native-victory-retry.png",
+      "health": 5,
+      "image_size": [
+        1280,
+        720
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-09.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "phone-opening.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-10.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "phone-held-controls.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-11.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "phone-whip-impact.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-12.png",
+      "checkpoint": false,
+      "complete": false,
+      "file": "phone-enemy-defeat.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-13.png",
+      "checkpoint": true,
+      "complete": false,
+      "file": "phone-checkpoint-health2.png",
+      "health": 2,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-14.png",
+      "checkpoint": true,
+      "complete": false,
+      "file": "phone-pause-retry.png",
+      "health": 2,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-15.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "phone-victory-top.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-16.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "phone-victory-retry.png",
+      "health": 5,
+      "image_size": [
+        698,
+        393
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-17.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "portrait.png",
+      "health": 5,
+      "image_size": [
+        393,
+        221
+      ],
+      "physical_device": false
+    },
+    {
+      "blind": "blind-18.png",
+      "checkpoint": true,
+      "complete": true,
+      "file": "portrait-density3.png",
+      "health": 5,
+      "image_size": [
+        1179,
+        663
+      ],
+      "physical_device": false
+    }
+  ],
+  "style_lock": "art/style-lock.json",
+  "browser_globs": [
+    "evidence/linear-sampling-browser-2-*.png",
+    "evidence/linear-sampling-rotate-browser-3-*.png"
+  ],
+  "exit_states": [
+    "evidence/linear-sampling-exit-packed/locked.png",
+    "evidence/linear-sampling-exit-packed/unlocked.png"
+  ],
+  "original_animation_contract": "unchanged",
+  "physical_device": false,
+  "visual_approval": false
+}

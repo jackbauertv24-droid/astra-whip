@@ -1,0 +1,4 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+FAIL painted sampling: painted node inherits or uses linear /root/AstraWhip/@CanvasLayer@71/@TextureRect@104
+RESULT painted sampling: 124 checks, 1 failures

@@ -13,7 +13,7 @@ func configure(world:Node):
   plate.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
   plate.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
   plate.mouse_filter=Control.MOUSE_FILTER_IGNORE
-  plate.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+  plate.texture_filter=CanvasItem.TEXTURE_FILTER_LINEAR
   plate.show_behind_parent=true
   control.add_child(plate)
   plate.set_anchors_and_offsets_preset(Control.PRESET_FULL_RECT)

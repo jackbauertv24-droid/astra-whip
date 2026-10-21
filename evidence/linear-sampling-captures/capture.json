@@ -1,0 +1,204 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "native-opening.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "native-held-controls.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "native-whip-impact.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "native-enemy-defeat.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "file": "native-checkpoint-health2.png",
+   "health": 2,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "file": "native-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "native-victory-top.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "native-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    1280,
+    720
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "phone-opening.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "phone-held-controls.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "phone-whip-impact.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": false,
+   "complete": false,
+   "file": "phone-enemy-defeat.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "file": "phone-checkpoint-health2.png",
+   "health": 2,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": false,
+   "file": "phone-pause-retry.png",
+   "health": 2,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "phone-victory-top.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "phone-victory-retry.png",
+   "health": 5,
+   "image_size": [
+    698,
+    393
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "portrait.png",
+   "health": 5,
+   "image_size": [
+    393,
+    221
+   ],
+   "physical_device": false
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "file": "portrait-density3.png",
+   "health": 5,
+   "image_size": [
+    1179,
+    663
+   ],
+   "physical_device": false
+  }
+ ],
+ "scope": "sampling integration still fixtures, not combat animation/traversal"
+}

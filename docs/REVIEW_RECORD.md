@@ -428,3 +428,7 @@ Fresh `/root/ui_completion_review_r01`: REVIEW: PASS for retry/victory and suppl
 ## Rotate UI r01
 
 Fresh `/root/ui_rotate_review_r01`: REVIEW: PASS after raw/delivered art,5references,9engine and6browser PNGs individually inspected after blind saved/read observations. Device silhouettes and clockwise arrow read at320CSS phone size;20CSS live wording, safe placement, portrait-only visibility and explicit landscape resume pass. No blockers or unresolved flags. Full verdict: art/review-ui-rotate-r01/review_verdict.md.
+
+## Linear sampling integration r01
+
+Fresh `/root/linear_sampling_review_r01`: REVIEW: PASS for supplied rendering integration after all18blind and18mapped actual views,8browser PNGs, both packed exit states and5references inspected. Small UI/held states, alpha edges, depth/effects, menus and orientation pass. Neutral-surround exit fixture accepted for sampling/state contrast only; complete scenes provide context. Whole-product/source-animation/device gates separate. Full verdict: art/review-linear-sampling-r01/review_verdict.md.
