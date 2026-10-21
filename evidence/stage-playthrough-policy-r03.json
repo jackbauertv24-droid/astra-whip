@@ -1,0 +1,134 @@
+{
+ "events": [
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 0.0,
+   "state": "land",
+   "x": 160.04167175293,
+   "y": 559.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 1.0,
+   "state": "walk",
+   "x": 400.041656494141,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 2.0,
+   "state": "start_move",
+   "x": 640.053649902344,
+   "y": 687.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 3.0,
+   "state": "jump_rise",
+   "x": 880.066162109375,
+   "y": 590.707214355469
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 4.0,
+   "state": "jump_rise",
+   "x": 951.424682617188,
+   "y": 504.703063964844
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 5.0,
+   "state": "walk",
+   "x": 1178.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 6.0,
+   "state": "attack_ground",
+   "x": 1300.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 7.0,
+   "state": "walk",
+   "x": 1454.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 8.0,
+   "state": "walk",
+   "x": 1694.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 9.0,
+   "state": "attack_ground",
+   "x": 1820.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 10.0,
+   "state": "walk",
+   "x": 2054.92456054688,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 4,
+   "seconds": 10.825,
+   "state": "knockback",
+   "x": 2244.978515625,
+   "y": 508.596069335938
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 4,
+   "seconds": 11.0,
+   "state": "knockback",
+   "x": 2216.97998046875,
+   "y": 560.295471191406
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 0,
+   "seconds": 11.558,
+   "state": "death",
+   "x": 2209.814453125,
+   "y": 820.628784179688
+  }
+ ],
+ "message": "policy died or fell; inspect trace",
+ "method": "automated production input policy; not unfamiliar-player or touch acceptance",
+ "passed": false,
+ "physical_device": false
+}

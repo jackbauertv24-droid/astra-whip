@@ -1,0 +1,1808 @@
+{
+ "events": [
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 0.0,
+   "state": "land",
+   "x": 160.04167175293,
+   "y": 559.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 1.0,
+   "state": "walk",
+   "x": 400.041656494141,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 2.0,
+   "state": "start_move",
+   "x": 640.053649902344,
+   "y": 687.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 3.0,
+   "state": "jump_rise",
+   "x": 880.066162109375,
+   "y": 590.707214355469
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 4.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 5.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 6.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 7.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 8.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 9.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 10.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 11.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 12.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 13.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 14.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 15.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 16.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 17.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 18.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 19.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 20.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 21.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 22.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 23.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 24.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 25.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 26.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 27.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 28.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 29.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 30.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 31.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 32.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 33.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 34.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 35.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 36.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 37.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 38.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 39.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 40.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 41.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 42.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 43.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 44.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 45.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 46.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 47.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 48.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 49.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 50.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 51.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 52.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 53.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 54.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 55.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 56.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 57.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 58.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 59.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 60.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 61.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 62.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 63.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 64.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 65.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 66.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 67.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 68.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 69.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 70.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 71.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 72.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 73.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 74.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 75.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 76.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 77.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 78.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 79.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 80.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 81.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 82.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 83.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 84.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 85.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 86.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 87.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 88.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 89.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 90.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 91.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 92.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 93.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 94.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 95.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 96.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 97.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 98.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 99.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 100.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 101.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 102.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 103.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 104.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 105.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 106.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 107.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 108.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 109.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 110.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 111.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 112.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 113.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 114.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 115.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 116.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 117.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 118.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 119.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 120.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 121.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 122.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 123.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 124.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 125.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 126.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 127.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 128.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 129.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 130.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 131.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 132.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 133.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 134.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 135.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 136.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 137.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 138.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 139.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 140.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 141.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 142.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 143.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 144.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 145.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 146.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 147.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 148.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 149.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 150.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 151.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 152.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 153.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 154.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 155.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 156.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 157.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 158.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 159.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 160.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 161.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 162.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 163.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 164.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 165.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 166.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 167.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 168.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 169.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 170.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 171.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 172.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 173.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 174.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 175.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 176.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 177.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 178.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 179.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 180.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 181.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 182.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 183.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 184.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 185.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 186.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 187.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 188.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 189.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 190.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 191.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 192.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 193.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 194.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 195.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 196.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 197.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 198.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 199.0,
+   "state": "walk",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  }
+ ],
+ "message": "policy timed out",
+ "method": "automated production input policy; not unfamiliar-player or touch acceptance",
+ "passed": false,
+ "physical_device": false
+}

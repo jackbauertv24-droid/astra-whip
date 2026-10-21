@@ -26,6 +26,8 @@ cat evidence/completion_ui.log
 cat evidence/rotate_art.log
 "$GODOT_BIN" --headless --path game --script res://tests/painted_sampling.gd > evidence/painted_sampling.log 2>&1
 cat evidence/painted_sampling.log
+"$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/stage_playthrough.gd -- "$PWD/evidence/stage-playthrough.json" > evidence/stage-playthrough.log 2>&1
+cat evidence/stage-playthrough.log
 if [[ "${1:-}" == "--mutations" ]]; then
  for id in T-01 T-02 T-03 T-04 T-05 T-06 T-07 T-08 T-09; do
   if ASTRA_MUTATION="$id" "$GODOT_BIN" --headless --path game --fixed-fps 120 --script res://tests/run.gd > "evidence/mutation-$id.log" 2>&1; then
