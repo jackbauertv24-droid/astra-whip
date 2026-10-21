@@ -432,3 +432,7 @@ Fresh `/root/ui_rotate_review_r01`: REVIEW: PASS after raw/delivered art,5refere
 ## Linear sampling integration r01
 
 Fresh `/root/linear_sampling_review_r01`: REVIEW: PASS for supplied rendering integration after all18blind and18mapped actual views,8browser PNGs, both packed exit states and5references inspected. Small UI/held states, alpha edges, depth/effects, menus and orientation pass. Neutral-surround exit fixture accepted for sampling/state contrast only; complete scenes provide context. Whole-product/source-animation/device gates separate. Full verdict: art/review-linear-sampling-r01/review_verdict.md.
+
+## Canonical supplemental delivery repair
+
+Twelve restored canonical files match both art/review-boss-hazard-r02/frames and game/assets/boss byte-for-byte. No art/runtime/build bytes changed.409frame inventory and expanded68clip audit pass numeric checks;34flags remain for fresh complete review. Complete r01 pack omitted the four contexts and cannot receive acceptance.

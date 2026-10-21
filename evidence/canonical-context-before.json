@@ -1,0 +1,5230 @@
+{
+  "spec_commit": "cf717cab22b39344820c11ef9aaf3a827336ce14",
+  "mandatory_contract_sha256": "5d90522a0a908ac5b2c853c93e71e9ba1af2ad64704021cf4c53b504ef3235ec",
+  "production_frames": 397,
+  "packed_frames": 405,
+  "standalone_background_frames": 4,
+  "counts": {
+    "hero": 137,
+    "pursuer": 46,
+    "swooper": 36,
+    "ranged": 31,
+    "boss": 70,
+    "vfx": 35,
+    "props": 5,
+    "terrain": 14,
+    "ui": 19,
+    "background": 4
+  },
+  "atlas_pages": [
+    {
+      "path": "res://assets/atlas/page-00.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216,
+      "sha256": "11e8dce2691ced0361282df5f3bc9c1cc6ab2e4488a950dc41b285bc18a1b7a0"
+    },
+    {
+      "path": "res://assets/atlas/page-01.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216,
+      "sha256": "2e1665c3779214a84539a13367f7917cd586603710ffbc08765c30a87964a506"
+    },
+    {
+      "path": "res://assets/atlas/page-02.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216,
+      "sha256": "1af43440fb6f5c46dfde7a2419b00ad74d6329104817b6ba7c9955795b9215d7"
+    },
+    {
+      "path": "res://assets/atlas/page-03.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216,
+      "sha256": "94e5ce4d688630b07875822e01f50faad84f193e0ba37d65081253b89554dcb1"
+    },
+    {
+      "path": "res://assets/atlas/page-04.png",
+      "width": 2048,
+      "height": 2048,
+      "rgba_bytes": 16777216,
+      "sha256": "639708cf60f7126bba195a16b59389d61950f2d6b1935a973c6449682acccd08"
+    }
+  ],
+  "frames": [
+    {
+      "id": "hero_idle",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_idle/f000.png",
+      "sha256": "216fe02fa37d7373613c9fe742ed7075777d214e74c19f39b284b7d483bd05ff",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_idle/f001.png",
+      "sha256": "83b61ac0fc034b4782b33d3adcc1878285a9c464082c310f2ebfc2d49b35602e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_idle/f002.png",
+      "sha256": "d776cc26c4d78e02447e933f8db136f8b8d916e498d05a73391afa552e9a6189",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_idle/f003.png",
+      "sha256": "5b9f7dfad6a52b72d18f9c2313c387b87f4c21a35d685280b4d36314df9cd1dd",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_idle/f004.png",
+      "sha256": "5b9f7dfad6a52b72d18f9c2313c387b87f4c21a35d685280b4d36314df9cd1dd",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_idle/f005.png",
+      "sha256": "d776cc26c4d78e02447e933f8db136f8b8d916e498d05a73391afa552e9a6189",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_idle/f006.png",
+      "sha256": "83b61ac0fc034b4782b33d3adcc1878285a9c464082c310f2ebfc2d49b35602e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_idle",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_idle/f007.png",
+      "sha256": "216fe02fa37d7373613c9fe742ed7075777d214e74c19f39b284b7d483bd05ff",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_walk/f000.png",
+      "sha256": "952de031e0d7066982e6a4f422ab1a3bc593f4cceaf0ab6f58b2f7f182a16aa5",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_walk/f001.png",
+      "sha256": "5d5920511e6af5707a91d0471b4f7554ce93b569696068ab75d9550c0ab3fd06",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_walk/f002.png",
+      "sha256": "63abd64c47bd8d75215160fade9ce608d0dd2449a3be6b20ae9cb9aa908671a2",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_walk/f003.png",
+      "sha256": "aada1bba26a66b360cb3c2ec7aab01d74bd04666abd358f217a489604531d863",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_walk/f004.png",
+      "sha256": "e961f47ea33ae49007c5caf5af568f6a33ef85e2ea2987f70a98b4ca36a020f8",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_walk/f005.png",
+      "sha256": "1885e4b85ee931bc8c8b77d25cf97674fc013c64616e999b585483a20b571097",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_walk/f006.png",
+      "sha256": "c90a4dacb1a45e27a3995e55941eaebcce4d7a4a754f43a5ffbdfc33dd3c8f49",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_walk/f007.png",
+      "sha256": "2df5ff9604d319dd076c44bec3161c131f742f1b21be0237a49f05731560375c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 8,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f008.png",
+      "path": "res://assets/hero/hero_walk/f008.png",
+      "sha256": "ba3c9a878ae6ccbe4697ba081be5386784b29378ee4c130483f5b1c01d16e0fb",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_walk",
+      "frame": 9,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f009.png",
+      "path": "res://assets/hero/hero_walk/f009.png",
+      "sha256": "b2802135bafaa30850459e9b7c7967c2550e4145f59e100ef016080b365e9bbb",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_start_move",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_start_move/f000.png",
+      "sha256": "216fe02fa37d7373613c9fe742ed7075777d214e74c19f39b284b7d483bd05ff",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_start_move",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_start_move/f001.png",
+      "sha256": "7822120c93bda76d926d1896485ffa364709ae2985439ade2fd6c72283883ff2",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_start_move",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_start_move/f002.png",
+      "sha256": "f81aa0de3769f36ab7dacbe145001afc965c34ed8881cbbfe709af47c760ad4a",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_stop_move",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_stop_move/f000.png",
+      "sha256": "4e5231e8065079063fbcd3182ff8dac8e15c57e41d72063aef620d1035df0526",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_stop_move",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_stop_move/f001.png",
+      "sha256": "8384116e675ea0edb39502b85dba5e6a7555737590abcc35866ec7ad95da9035",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_stop_move",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_stop_move/f002.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_turn",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_turn/f000.png",
+      "sha256": "4f4eb522d07e59752c7930c7d87037eaae12e82387a846c77a7884da0561c3a8",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_turn",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_turn/f001.png",
+      "sha256": "03b54b57be42e0e9c3461f3bf16c82d68db660537d2c034ebc9e76daab45d00d",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_turn",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_turn/f002.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_enter",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_crouch_enter/f000.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_enter",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_crouch_enter/f001.png",
+      "sha256": "00808e9c54f400f1f21d60ca2bd23086b00290f24ca3a61238b0c34955b5bc93",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_enter",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_crouch_enter/f002.png",
+      "sha256": "cbe02a4b3a5edc53aef875bb31021cafeb52839dea204fa0551fbbe56146f3d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_enter",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_crouch_enter/f003.png",
+      "sha256": "2b1739e8323a9dd0b921818397eff8d4b37f10d913906f375b16a7667d49cb3e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_crouch_idle/f000.png",
+      "sha256": "2b1739e8323a9dd0b921818397eff8d4b37f10d913906f375b16a7667d49cb3e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_crouch_idle/f001.png",
+      "sha256": "8c861da569c6dadd7f6e32ad69e9fbc5e006c0f329c8b7ef04a5c172b93db889",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_crouch_idle/f002.png",
+      "sha256": "0f7a57c7d2ff288a85dd139269c7de23423eb0cae4efb063520dda71e2cfde70",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_crouch_idle/f003.png",
+      "sha256": "0f7a57c7d2ff288a85dd139269c7de23423eb0cae4efb063520dda71e2cfde70",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_crouch_idle/f004.png",
+      "sha256": "8c861da569c6dadd7f6e32ad69e9fbc5e006c0f329c8b7ef04a5c172b93db889",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_idle",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_crouch_idle/f005.png",
+      "sha256": "2b1739e8323a9dd0b921818397eff8d4b37f10d913906f375b16a7667d49cb3e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_exit",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_crouch_exit/f000.png",
+      "sha256": "2b1739e8323a9dd0b921818397eff8d4b37f10d913906f375b16a7667d49cb3e",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_exit",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_crouch_exit/f001.png",
+      "sha256": "cbe02a4b3a5edc53aef875bb31021cafeb52839dea204fa0551fbbe56146f3d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_exit",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_crouch_exit/f002.png",
+      "sha256": "00808e9c54f400f1f21d60ca2bd23086b00290f24ca3a61238b0c34955b5bc93",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_crouch_exit",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_crouch_exit/f003.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_takeoff",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_jump_takeoff/f000.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_takeoff",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_jump_takeoff/f001.png",
+      "sha256": "00808e9c54f400f1f21d60ca2bd23086b00290f24ca3a61238b0c34955b5bc93",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_takeoff",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_jump_takeoff/f002.png",
+      "sha256": "0e5e0d72e40b568dbf1dc7595ee4d2670ab52ba94eebfe71cf607a2aaf6d03d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_rise",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_jump_rise/f000.png",
+      "sha256": "0e5e0d72e40b568dbf1dc7595ee4d2670ab52ba94eebfe71cf607a2aaf6d03d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_rise",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_jump_rise/f001.png",
+      "sha256": "c106f7e195aea5ccd76c925c5755dd9dde05cf4e9fa016c4b7f8865b1b43f9f3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_rise",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_jump_rise/f002.png",
+      "sha256": "02231998406f432ca098a85e9b8a1a9b3d433f16fc6bc2a06eac5bc213a6bb86",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_rise",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_jump_rise/f003.png",
+      "sha256": "1ed89ed158a39f5a6103f473bfdd98a49f9e9e8b2e8a7f7832b963204032bc64",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_apex",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_jump_apex/f000.png",
+      "sha256": "1ed89ed158a39f5a6103f473bfdd98a49f9e9e8b2e8a7f7832b963204032bc64",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_apex",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_jump_apex/f001.png",
+      "sha256": "0e5e0d72e40b568dbf1dc7595ee4d2670ab52ba94eebfe71cf607a2aaf6d03d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_jump_apex",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_jump_apex/f002.png",
+      "sha256": "884b0343f29ab36fc7f3ee9b8df72afa8c1792cb93a83d13e4d3703cd080b8e2",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_fall",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_fall/f000.png",
+      "sha256": "884b0343f29ab36fc7f3ee9b8df72afa8c1792cb93a83d13e4d3703cd080b8e2",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_fall",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_fall/f001.png",
+      "sha256": "dbc0703d60d25af9682afef9c83646daf33b2d5e7b8c017a8019101e95cd4755",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_fall",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_fall/f002.png",
+      "sha256": "c66fec0b916817e0bc4d7288ebeb27c90cb136fa7312ecba71561fbf4060eb13",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_fall",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_fall/f003.png",
+      "sha256": "98729f2cb2437c56957260dd946aadaa0e560745cff7fb5e22cdcc7ec4c164f7",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_land",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_land/f000.png",
+      "sha256": "0e5e0d72e40b568dbf1dc7595ee4d2670ab52ba94eebfe71cf607a2aaf6d03d1",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_land",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_land/f001.png",
+      "sha256": "00808e9c54f400f1f21d60ca2bd23086b00290f24ca3a61238b0c34955b5bc93",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_land",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_land/f002.png",
+      "sha256": "8378814b3138fe236357de54d75b15e6bd0b96c7c1982f5da9f0de4f52137928",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_land",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_land/f003.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_attack_ground/f000.png",
+      "sha256": "5fab85508a7b06354d910b66e64b4842d2d21b7831010b092b0250a9fe4afe1b",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_attack_ground/f001.png",
+      "sha256": "83e81bf7ec44953e5c4151b4774428a387b1e04624b9f698dde1ed7fd208b8ee",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_attack_ground/f002.png",
+      "sha256": "f416509457c00f0602917f25446abbe6bceb5edc7c64d8fd4e35aac939d27611",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_attack_ground/f003.png",
+      "sha256": "62d55906cb10ffb611bda939e69929dc3248d0efeb07bdbec4fbb78683a398fd",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_attack_ground/f004.png",
+      "sha256": "dae67d82df02dcd8494761357af41d725051eafa67574736f43cbf0af80bcab9",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_attack_ground/f005.png",
+      "sha256": "bbcaab3a821cd6534fe98ff997e9e67da769549cf13e4a80dc42772cc3b08817",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_attack_ground/f006.png",
+      "sha256": "48882551ec2f1d73b4ff7f54d81fa52d17e1c6fbb0b84e935a7e4e8fa835d8d4",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_ground",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_attack_ground/f007.png",
+      "sha256": "d916cc0ce2ba087cbaed77f463b64bee6256bbe52814167a90563ade279d5d02",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_attack_air/f000.png",
+      "sha256": "558cf1c375eef03232ea6d7cd4ec9f92f4a6b3251c12917a833d4df9f0ea33df",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_attack_air/f001.png",
+      "sha256": "c57b8dc9c0c25e901f60fe8cd22b56e716149a569f56fbddf66eead0814b3570",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_attack_air/f002.png",
+      "sha256": "8f9ed85c04804abd84bea5ee1bdf2bedee01043c08fa8b4b151c80b23ce3ad71",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_attack_air/f003.png",
+      "sha256": "2108b3e474c3ef173c9cf5100c9600213e98ec4f44fda0426c2aa21adf0e79b7",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_attack_air/f004.png",
+      "sha256": "7441deb200d1ceec02090a07a1b2ab8af9b726a7321c93a43ca68e4b29f07569",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_attack_air/f005.png",
+      "sha256": "ddaf84bf5103dd88fc30bb6506f342316c73a758d5380c2d3c5ef366b019bf31",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_attack_air/f006.png",
+      "sha256": "bf4cb0a57cbe7e05b1a6301554f6853cd93ef4219540cbdb29c187d542d79247",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_air",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_attack_air/f007.png",
+      "sha256": "558cf1c375eef03232ea6d7cd4ec9f92f4a6b3251c12917a833d4df9f0ea33df",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_attack_crouch/f000.png",
+      "sha256": "83bf92f299322d721a2975095c025c01f43e1619070b3ce4f76a763e655f4143",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_attack_crouch/f001.png",
+      "sha256": "c2659c8272909fe379a6ddba9f866fa8cc9d02f16f915f9c8d861f4bb959e25d",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_attack_crouch/f002.png",
+      "sha256": "f463de131380f5ec17ddcac263eae6b81406ff03777995bdb0b35d753e2f98a9",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_attack_crouch/f003.png",
+      "sha256": "d3fdae125d81b10b953c898de37278c91c6846fc3c2f94097780451c68af1d80",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_attack_crouch/f004.png",
+      "sha256": "fc33a28fe4c6a11963e276445ce7164ee455d91c351a9fada67c993857269c29",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_attack_crouch/f005.png",
+      "sha256": "a20d2cc62b0f5429c11ee73d77372b55437db4388cac61d695928e01d1e5c7f0",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_attack_crouch/f006.png",
+      "sha256": "a28af04d4852161475c17b03ef844799ba8a98193fc9b36c373deae743ce9a97",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_attack_crouch",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_attack_crouch/f007.png",
+      "sha256": "83bf92f299322d721a2975095c025c01f43e1619070b3ce4f76a763e655f4143",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_hurt_recoil/f000.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_hurt_recoil/f001.png",
+      "sha256": "7bf1edc67d2cfa8dd8bc33f89e726af32bcd59cb2ffc437376104c14bca2212c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_hurt_recoil/f002.png",
+      "sha256": "20c42e3839ef1940c1e8faece7c99ec510a2118cb436c4df6272a12fd68e0af3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_hurt_recoil",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_hurt_recoil/f003.png",
+      "sha256": "ebb5d20682096e99f01ebf7cdf77db98b6e189c8c0e284ac63d7bc1e017d7289",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockback",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_knockback/f000.png",
+      "sha256": "02733307cfaba2c013f99aa3d20ad845e2d63d6f20879cf0ad347cc67f742c68",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockback",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_knockback/f001.png",
+      "sha256": "7bf1edc67d2cfa8dd8bc33f89e726af32bcd59cb2ffc437376104c14bca2212c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockback",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_knockback/f002.png",
+      "sha256": "a08db45af7dd36ebe1659917413c4ba295bfb8f145830eb41363793485d62a98",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockback",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_knockback/f003.png",
+      "sha256": "23ef4a1432a51f3185e78efd94f5102ea61d072960efe8a3ac478a84dc37471d",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_knockdown/f000.png",
+      "sha256": "7bf1edc67d2cfa8dd8bc33f89e726af32bcd59cb2ffc437376104c14bca2212c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_knockdown/f001.png",
+      "sha256": "f1dd884477674ff3b89ad8022ba9212905d2e14df1716c14b0da03a30eb4f838",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_knockdown/f002.png",
+      "sha256": "cc4868b0c9e2540fedd8ca3bb0b8007969406a92d4e99c36e66e324989303e5b",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_knockdown/f003.png",
+      "sha256": "51972a337ebf2d229e4cf318056415002a45bf0ce07b1fd49f26a0673c29ce72",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_knockdown/f004.png",
+      "sha256": "fa55daab135251b043fd5f61d956e237d48aa08c5ad07da26b6b6fe21289a2e5",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_knockdown",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_knockdown/f005.png",
+      "sha256": "92a7fe86c84a47ebe29062f990626ebc70ab7f5d76cd3d400c7be683df3468e4",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_get_up/f000.png",
+      "sha256": "92a7fe86c84a47ebe29062f990626ebc70ab7f5d76cd3d400c7be683df3468e4",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_get_up/f001.png",
+      "sha256": "bca69c3ffaa76c6b4c45189669d0f6c831bc618d35652540e95e27b0ddc5c04f",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_get_up/f002.png",
+      "sha256": "d7ed8a2333d81c01bbe402e1d200919058f6a6817d9290594d3db22495a754bf",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_get_up/f003.png",
+      "sha256": "67838e99689012a88013dfe92e33ec5df020809f1404de72bb2bd526e384f7d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_get_up/f004.png",
+      "sha256": "9237277274ac5a995f45d02648664c97cb69f5f42e2b4b03bb859c43df6af4f8",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_get_up",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_get_up/f005.png",
+      "sha256": "253d5cd47b5cb0594b461f970f2303320713b0b7924cd3282a7d7be1010064d3",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/hero_death/f000.png",
+      "sha256": "7bf1edc67d2cfa8dd8bc33f89e726af32bcd59cb2ffc437376104c14bca2212c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/hero_death/f001.png",
+      "sha256": "f1dd884477674ff3b89ad8022ba9212905d2e14df1716c14b0da03a30eb4f838",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/hero_death/f002.png",
+      "sha256": "cc4868b0c9e2540fedd8ca3bb0b8007969406a92d4e99c36e66e324989303e5b",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/hero_death/f003.png",
+      "sha256": "51972a337ebf2d229e4cf318056415002a45bf0ce07b1fd49f26a0673c29ce72",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/hero_death/f004.png",
+      "sha256": "92a7fe86c84a47ebe29062f990626ebc70ab7f5d76cd3d400c7be683df3468e4",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/hero_death/f005.png",
+      "sha256": "32e31c42634b68a743ab03d5ed02e8ba6bb7e6840a16b54fb05e635d0198ca7a",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/hero_death/f006.png",
+      "sha256": "6e6d847f6ba9b434cd59ca817ee614752d4145804209c49f48a47ae6ecaa590c",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/hero_death/f007.png",
+      "sha256": "9f1521c5fdfb8dc6fc1adef0ca31206c671507a7db58a7bd2f0a40ca7fb066c8",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 8,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f008.png",
+      "path": "res://assets/hero/hero_death/f008.png",
+      "sha256": "04596a9b687cc6c65aed4725f26a3323f0c1685bd205b473c0e42d6ad152f4eb",
+      "storage": "atlas"
+    },
+    {
+      "id": "hero_death",
+      "frame": 9,
+      "category": "hero",
+      "canvas": [
+        512,
+        512
+      ],
+      "name": "f009.png",
+      "path": "res://assets/hero/hero_death/f009.png",
+      "sha256": "32e31c42634b68a743ab03d5ed02e8ba6bb7e6840a16b54fb05e635d0198ca7a",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/whip_attack_ground/f000.png",
+      "sha256": "0629f87f956c5cb4e12d7163048c15a6be6213c33f65060cd8aa2846907ceb27",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/whip_attack_ground/f001.png",
+      "sha256": "842e1c695f94d838b82fb2a0758fcbe6a9303b34ad3bed0ab4f48a6cb8705a3a",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/whip_attack_ground/f002.png",
+      "sha256": "4ef4382489478bb18b93e3dee195a6a565b0bf829be0769f179a1309c1cfcf1f",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/whip_attack_ground/f003.png",
+      "sha256": "3d8fe1e78d2498d4683ec13fac6874bad4b3fbcbdd9d974d18386b1319124b5a",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/whip_attack_ground/f004.png",
+      "sha256": "b9868f4c09c621b4307a4ccc5f3a1e78f18cbacd0ee457f00541b6ef6ea6f3ca",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/whip_attack_ground/f005.png",
+      "sha256": "27b40358c167e29a1858f1e2af76c93de7000ed18e261c45f90e45e38e4e0663",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/whip_attack_ground/f006.png",
+      "sha256": "46bcc8e6034f8468c5441f6bed300575490b801483795bab771ef21389ba84de",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_ground",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/whip_attack_ground/f007.png",
+      "sha256": "7c7bb3e9633d0d9601b5fedac7eedd4f94a1ba7098c0d8bc9d79367f2ee8985c",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/whip_attack_air/f000.png",
+      "sha256": "12255b0b9da30454a394b3c801024014009486d6eb7a8a7c6104e72a6e32adc0",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/whip_attack_air/f001.png",
+      "sha256": "3130aecf9d79bd80e33393d1630b4cf8efa5ea410647315ca2220555b7eba9d7",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/whip_attack_air/f002.png",
+      "sha256": "3bea76e9165e94cfc18a1741a8bd418531f706216d5af3044df8ca128757976f",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/whip_attack_air/f003.png",
+      "sha256": "18306f37fffcc1d648a1ddc67ffb8d8af783079e69851b1638de552ef6e4d404",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/whip_attack_air/f004.png",
+      "sha256": "2da15759b6f2b3465aaac4860ddbf60a34ac07f40c288f4a22131850740c799e",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/whip_attack_air/f005.png",
+      "sha256": "1893d2e98f1eabb6228011c3caefaaa0f2f771e4717a27233d865d2459ebc988",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/whip_attack_air/f006.png",
+      "sha256": "f8f9a86dcd4d21da991a58a5a9f6227454849b8fd5e871917d9e9e541ecbf6a3",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_air",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/whip_attack_air/f007.png",
+      "sha256": "12255b0b9da30454a394b3c801024014009486d6eb7a8a7c6104e72a6e32adc0",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 0,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f000.png",
+      "path": "res://assets/hero/whip_attack_crouch/f000.png",
+      "sha256": "a5d5a2ec4a76f8d47843851507bc4d34deb60bf099dbc150ef8f58eba9615f38",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 1,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f001.png",
+      "path": "res://assets/hero/whip_attack_crouch/f001.png",
+      "sha256": "8cfe8e2fdf050fa6885f1310222e030565c88d9adda54e14a34d59fa8603ef12",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 2,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f002.png",
+      "path": "res://assets/hero/whip_attack_crouch/f002.png",
+      "sha256": "3dbeeeb110fdd98b3012d7e30741f38dd014cb5b797f958e33bfb59bd2d24d9c",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 3,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f003.png",
+      "path": "res://assets/hero/whip_attack_crouch/f003.png",
+      "sha256": "3f5fe219c7995d5cba30eafbca64f042077e1d7970357c71edee4f6a5fe72c6a",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 4,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f004.png",
+      "path": "res://assets/hero/whip_attack_crouch/f004.png",
+      "sha256": "21b5d16f6c97bba4fdfb445bf76ecfadafa2a84d746c5cbe7e3902fcbe32c131",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 5,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f005.png",
+      "path": "res://assets/hero/whip_attack_crouch/f005.png",
+      "sha256": "15381ddc3c4a7ff5e7f6f80a06d8a17bab80c09f4dbec5b5c8c48e1293e8d9b2",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 6,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f006.png",
+      "path": "res://assets/hero/whip_attack_crouch/f006.png",
+      "sha256": "9fe88845d8083a7b11ec101aef902ecf91834260c61cad5a843bb37b56aafa35",
+      "storage": "atlas"
+    },
+    {
+      "id": "whip_attack_crouch",
+      "frame": 7,
+      "category": "hero",
+      "canvas": [
+        768,
+        512
+      ],
+      "name": "f007.png",
+      "path": "res://assets/hero/whip_attack_crouch/f007.png",
+      "sha256": "a5d5a2ec4a76f8d47843851507bc4d34deb60bf099dbc150ef8f58eba9615f38",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_idle/f000.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_idle/f001.png",
+      "sha256": "a5b62c4a647bfb7d8db356ce893e91f045b361388a85eb21183258caef308245",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_idle/f002.png",
+      "sha256": "07e8a3853d65093e631eedebdaadc3d09c218cad6175eb00e6503cbb9bf1fc7b",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_idle/f003.png",
+      "sha256": "7b7405f17c8097137b3fb941dbf297de016765a103f769ac420adbc0f7ef0bd8",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 4,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/pursuer/pursuer_idle/f004.png",
+      "sha256": "d6735ff1cd433509d19cfcbd54db55047b3320b05b8a7b34af58e983ac041c21",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_idle",
+      "frame": 5,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/pursuer/pursuer_idle/f005.png",
+      "sha256": "c3ad40db9bc36f842f3928dc2a4a89b32db575e55f45bfbef2681d889974b9a8",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f000.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f001.png",
+      "sha256": "93eff0a95792e0160b89dd6ab22077d6004e6b48ca43321b87d8786301fadd8d",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f002.png",
+      "sha256": "c4e7c5bd97258c40138f0e15b2cd9242607cdaf6a91539e9658ea893bcb33870",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f003.png",
+      "sha256": "d16ec20e812579f29090ef52206b486f07a8ccbd0e270f9c745f8f230fba7be1",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 4,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f004.png",
+      "sha256": "cd311f5c55591fec855ddcb6cb9066d3e1d9c509c0e1cdac8c36f1cd1aed76c0",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 5,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f005.png",
+      "sha256": "431fe67b3f8c2c57db9eb977d86324331e08c15dedfaa44eddba7173e1fd839e",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 6,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f006.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f006.png",
+      "sha256": "62f2358e0d6fb278724508dfeac411efc2e859c1cc40fc1d48428ada47391430",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_patrol_walk",
+      "frame": 7,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f007.png",
+      "path": "res://assets/pursuer/pursuer_patrol_walk/f007.png",
+      "sha256": "8312ffd152cea385ab087dceb38cb2c40249cb11a8c8aef8c2a1755cfdf44c8b",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_alert",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_alert/f000.png",
+      "sha256": "e7c613b362c88e3289353b387eca0715707b75ab0b55b01dba83e4e9b014ca5a",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_alert",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_alert/f001.png",
+      "sha256": "92d686baaa0884878b74041fb8392fd4cad671c1b8305d7d2e9e8c0a6fb975b9",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_alert",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_alert/f002.png",
+      "sha256": "37cc3c276893b0804b5a6d63c7f51c5de2e44cebb415ff86a49ff07efaa37f39",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_alert",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_alert/f003.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f000.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f001.png",
+      "sha256": "93eff0a95792e0160b89dd6ab22077d6004e6b48ca43321b87d8786301fadd8d",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f002.png",
+      "sha256": "c4e7c5bd97258c40138f0e15b2cd9242607cdaf6a91539e9658ea893bcb33870",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f003.png",
+      "sha256": "d16ec20e812579f29090ef52206b486f07a8ccbd0e270f9c745f8f230fba7be1",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 4,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f004.png",
+      "sha256": "cd311f5c55591fec855ddcb6cb9066d3e1d9c509c0e1cdac8c36f1cd1aed76c0",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 5,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f005.png",
+      "sha256": "431fe67b3f8c2c57db9eb977d86324331e08c15dedfaa44eddba7173e1fd839e",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 6,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f006.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f006.png",
+      "sha256": "62f2358e0d6fb278724508dfeac411efc2e859c1cc40fc1d48428ada47391430",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_approach_walk",
+      "frame": 7,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f007.png",
+      "path": "res://assets/pursuer/pursuer_approach_walk/f007.png",
+      "sha256": "8312ffd152cea385ab087dceb38cb2c40249cb11a8c8aef8c2a1755cfdf44c8b",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_lunge_windup/f000.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_lunge_windup/f001.png",
+      "sha256": "624c862bada1e59ef560267a55c22a66fbf13a48ddecb8e515d7931f344a97da",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_lunge_windup/f002.png",
+      "sha256": "9f24e6ce5fa8965e03dc05a2cbdfb8a57ea1700e8d076fd0ac8085cc534cecb6",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge_windup",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_lunge_windup/f003.png",
+      "sha256": "66a6e5ea2a1e6e5829dc8e3cb17007b43ce8faab1dd0b6cf637408559ac0e4f8",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_lunge/f000.png",
+      "sha256": "b1c310fc43e40596d778b43a0fbdb123312e462bda5bcd59077a8fffe881a7c5",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_lunge/f001.png",
+      "sha256": "8530441eda2a98f819f9c9db2830b7a0f6931bb6bbda561034519f0bf9295ecd",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_lunge",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_lunge/f002.png",
+      "sha256": "2dd95e983ee3144e6d66d8ecd190efd2768c094ea84e1f097ea8c546ed7467c4",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_recovery",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_recovery/f000.png",
+      "sha256": "2eb832fdaa37dc2d262087f2f8fb67b297f41cfd0ed1218c61e17db489c00f9d",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_recovery",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_recovery/f001.png",
+      "sha256": "859035cddc3e89a1af2fa0c6d64a824b58617283b9513899914c3ba37a9241e9",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_recovery",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_recovery/f002.png",
+      "sha256": "331a86c610fa0210af899f7ecd8016e9f3a7afb3c9e025be14d43f1d9dd2c270",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_recovery",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_recovery/f003.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_hurt",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_hurt/f000.png",
+      "sha256": "4b381aa57b089fa28e9ccf232246445e6324c4dd1af8b646522325a148c406c1",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_hurt",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_hurt/f001.png",
+      "sha256": "249087ead20b4ac2cbe8338bda392fbec187c0b7001dc0849ae82b9344ac8184",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_hurt",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_hurt/f002.png",
+      "sha256": "9409f803b630701e6b7a7a9fee9f968390e1c749282ee63b07921b6eb88d8f80",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 0,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/pursuer/pursuer_death/f000.png",
+      "sha256": "624c862bada1e59ef560267a55c22a66fbf13a48ddecb8e515d7931f344a97da",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 1,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/pursuer/pursuer_death/f001.png",
+      "sha256": "6d8c46e5870f1d5f37d6b8f1f71c132d10e09ee415ad322320d68ec65a6f5963",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 2,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/pursuer/pursuer_death/f002.png",
+      "sha256": "b962304da765305c9c2095b277f585a05fe8f6167d52fc9dce4c484b1121edfe",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 3,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/pursuer/pursuer_death/f003.png",
+      "sha256": "32cac19871deed7c1846dc71d24d182e6c88b64c9cfc5d58fd3558ebc6126381",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 4,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/pursuer/pursuer_death/f004.png",
+      "sha256": "f19cadcd53211f9d5ef30714cf24b770f99e03ddba3d419a9bbcd578cc928cf4",
+      "storage": "atlas"
+    },
+    {
+      "id": "pursuer_death",
+      "frame": 5,
+      "category": "pursuer",
+      "canvas": [
+        320,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/pursuer/pursuer_death/f005.png",
+      "sha256": "01f080c47f1f29b96202edc74fbb344d254255d39421f0fa7b555183939916c7",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f000.png",
+      "sha256": "56ad3b042b3d7847ff9598b8f504199fdc47bcf3ed76e76c280222744d6f5dab",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f001.png",
+      "sha256": "7b597a499dd86468abaf818de11f268d30da37977ce2a2bc70a153ee517273e9",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f002.png",
+      "sha256": "fc9f24057cf8a7e9dd3ab527259705efc38d023242a0637da810e02eefc26650",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f003.png",
+      "sha256": "c749f205a774bc90034ba1391e58e3e61560197dc19ec02c39f7926df7c4ca00",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 4,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f004.png",
+      "sha256": "76d359fe0a35c896c94a8de8c421dd219c29f8662a2afec6ff8cb81d453b9bc8",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_perch_idle",
+      "frame": 5,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/swooper/swooper_perch_idle/f005.png",
+      "sha256": "92f5fdd102ec233d7da28618215a0eab918e177b4a3fd6d0e07fb09a583d557d",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_cruise/f000.png",
+      "sha256": "56ad3b042b3d7847ff9598b8f504199fdc47bcf3ed76e76c280222744d6f5dab",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_cruise/f001.png",
+      "sha256": "7b597a499dd86468abaf818de11f268d30da37977ce2a2bc70a153ee517273e9",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_cruise/f002.png",
+      "sha256": "fc9f24057cf8a7e9dd3ab527259705efc38d023242a0637da810e02eefc26650",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_cruise/f003.png",
+      "sha256": "c749f205a774bc90034ba1391e58e3e61560197dc19ec02c39f7926df7c4ca00",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 4,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/swooper/swooper_cruise/f004.png",
+      "sha256": "2ee0b61bdadddff26043c9be5a5ed901f4036e60c87b7060a460b872eca45e48",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 5,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/swooper/swooper_cruise/f005.png",
+      "sha256": "483270f77ec254160bdc33384ee05f5f9f1f3062247b839573898721f26baf95",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 6,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f006.png",
+      "path": "res://assets/swooper/swooper_cruise/f006.png",
+      "sha256": "76d359fe0a35c896c94a8de8c421dd219c29f8662a2afec6ff8cb81d453b9bc8",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_cruise",
+      "frame": 7,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f007.png",
+      "path": "res://assets/swooper/swooper_cruise/f007.png",
+      "sha256": "92f5fdd102ec233d7da28618215a0eab918e177b4a3fd6d0e07fb09a583d557d",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_dive_telegraph/f000.png",
+      "sha256": "ff22373e63b73143865bc5e5d83c63cd4ed1a87be572d302f508c6af93bed98d",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_dive_telegraph/f001.png",
+      "sha256": "9f9754381b47b93d2c5a3e4a3a3ed2ebd618c42a31fd9af93a32549e1df134a0",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_dive_telegraph/f002.png",
+      "sha256": "0993738ddd79f6c1d4e4de171ab7a80067b36bad8a05680209310fce72786775",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive_telegraph",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_dive_telegraph/f003.png",
+      "sha256": "6f73ead7651bf67ce5017c3dd5accb9fd5b597d87e6fd3d2dcab5d8cf8f449a2",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_dive/f000.png",
+      "sha256": "aa0d0b34889f0db021d22987683af92a1c6591ea87c748f12c6127dca998fb96",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_dive/f001.png",
+      "sha256": "00ab3799a4b04b628b614167a602e2bf9f9c52f2b71cf2dbb5d320d0036ebcc6",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_dive/f002.png",
+      "sha256": "5974797f5cbc3c5b0f54d3a49f472f0f00cb7f343274543dc351ec5280553cc7",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_dive",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_dive/f003.png",
+      "sha256": "a1bc461fc2d59ae6e4e739c9ca0922b7cf7114a0367a9a037185ada0d1e4f31d",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f000.png",
+      "sha256": "8003b7db12532466aeb1d0a64edbf8cf8b614a71f7ee5fea400349db6243a817",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f001.png",
+      "sha256": "48ddba7eda909bf7ad2f21f9ccf501201b9ee035d3256f523614e18566ec449a",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f002.png",
+      "sha256": "e48d47f44e36d93f7e08e8268c970fb5596ccb65950bf1d1090d5a9e58b11a8f",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f003.png",
+      "sha256": "56ad3b042b3d7847ff9598b8f504199fdc47bcf3ed76e76c280222744d6f5dab",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 4,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f004.png",
+      "sha256": "9b19427e4ebdd40c6589bbe1fa5c46bb730a514ffaf8fbb2ee1d2321e12a9994",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_recovery_climb",
+      "frame": 5,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/swooper/swooper_recovery_climb/f005.png",
+      "sha256": "56ad3b042b3d7847ff9598b8f504199fdc47bcf3ed76e76c280222744d6f5dab",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_hurt",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_hurt/f000.png",
+      "sha256": "05b6ab385a300bfa522deeaf48bd4231349efd8f4e7266e0dc2c8016616ff57f",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_hurt",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_hurt/f001.png",
+      "sha256": "3c4a5abf446229aa06b71b0780476b00afc9fce2ae03cadd70e432a90174a694",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_hurt",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_hurt/f002.png",
+      "sha256": "8003b7db12532466aeb1d0a64edbf8cf8b614a71f7ee5fea400349db6243a817",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_death_fall",
+      "frame": 0,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/swooper/swooper_death_fall/f000.png",
+      "sha256": "3c4a5abf446229aa06b71b0780476b00afc9fce2ae03cadd70e432a90174a694",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_death_fall",
+      "frame": 1,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/swooper/swooper_death_fall/f001.png",
+      "sha256": "997adbd384e1b16251a08e77125ed880ad390ade6dc06f29891c00a95322b286",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_death_fall",
+      "frame": 2,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/swooper/swooper_death_fall/f002.png",
+      "sha256": "1b09f13cffda2fd071edd593ff88fac7771cb4a540f131df1f51dc4b25d35a64",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_death_fall",
+      "frame": 3,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/swooper/swooper_death_fall/f003.png",
+      "sha256": "3facb205ae728fd7e25380081951f76e76affc17648cc4a73e6b5760cc29e9b0",
+      "storage": "atlas"
+    },
+    {
+      "id": "swooper_death_fall",
+      "frame": 4,
+      "category": "swooper",
+      "canvas": [
+        384,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/swooper/swooper_death_fall/f004.png",
+      "sha256": "4f0964e51c59efd2f286352ceb8bd3a94e17be016d18d090fdda482ba8d2d5b5",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_idle/f000.png",
+      "sha256": "d05e972d712088dbeb4db6cca541fb582ce458197bbb6461bd8341d4c49f7ee0",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_idle/f001.png",
+      "sha256": "f9b41c0b6cda08636f4246de6e5a650118519f57959d9cf5908725fe5bc16a57",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_idle/f002.png",
+      "sha256": "65ff8f31aa53b6a8dc4939b8146d125d4ee75c9cf109278724ed9c145eee82f8",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 3,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f003.png",
+      "path": "res://assets/ranged/ranged_idle/f003.png",
+      "sha256": "c157f7c6e04065c55a3059e35e63e942df47a2e76da4bdc37f77eff25b0bea58",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 4,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f004.png",
+      "path": "res://assets/ranged/ranged_idle/f004.png",
+      "sha256": "850671c3c38c13db5df5eec0569d87c10f59bafb56a8a96b30d6091eba4e38d7",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_idle",
+      "frame": 5,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f005.png",
+      "path": "res://assets/ranged/ranged_idle/f005.png",
+      "sha256": "0758ba0d7fc8d18a620e4b7d0ee2a015d43f12772d8864e751e9347634927ccb",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_aim/f000.png",
+      "sha256": "500305749920638a53281a83adebd4c88ef5710907eeb3fcb02537c2233dc04c",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_aim/f001.png",
+      "sha256": "973437f9129498a8654d4265a9faba50a76465cc579d94efcc61d84b5b730393",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_aim/f002.png",
+      "sha256": "0409c7f04512843fb59a3f42b4ac89e5c9f103930314d2f1c4963adbfbc8a6bd",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 3,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f003.png",
+      "path": "res://assets/ranged/ranged_aim/f003.png",
+      "sha256": "f0225926341a53dc8f3a5ee21b01aef52d10b606a9000f26d052f6ae93e7ec28",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 4,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f004.png",
+      "path": "res://assets/ranged/ranged_aim/f004.png",
+      "sha256": "8e23699ad49e0d1812b1baa93ab935aaa1009204522a99030324f13d26d6b704",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_aim",
+      "frame": 5,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f005.png",
+      "path": "res://assets/ranged/ranged_aim/f005.png",
+      "sha256": "728f90145772b96701e770091e3b2fa2d182e178f075e9577a14539ac8f35c8f",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_fire",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_fire/f000.png",
+      "sha256": "728f90145772b96701e770091e3b2fa2d182e178f075e9577a14539ac8f35c8f",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_fire",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_fire/f001.png",
+      "sha256": "6731f55a42d75e5ada669605dcfcf60069465cd61730a5e745de2e270ac14547",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_fire",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_fire/f002.png",
+      "sha256": "0d90b82012869fa54a217a3c9c194e0ad44d2dc3093d04eb533fe4c0e9abdd4c",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_recover/f000.png",
+      "sha256": "0d90b82012869fa54a217a3c9c194e0ad44d2dc3093d04eb533fe4c0e9abdd4c",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_recover/f001.png",
+      "sha256": "acfcefdd7ad94442ad86a5e0b30847a9e33ce7e2254fce4d5a1c8c6f744dac0f",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_recover/f002.png",
+      "sha256": "3cc82047bd1900e5e5f50cfc92e921b91660eeeb3aff834e9f90994286a4bd36",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 3,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f003.png",
+      "path": "res://assets/ranged/ranged_recover/f003.png",
+      "sha256": "ac4dc626857a2ea018978b65fb2ee684d76f1599221866e79d3d1912f6955cec",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 4,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f004.png",
+      "path": "res://assets/ranged/ranged_recover/f004.png",
+      "sha256": "fa315d1aec1d9277ec6215687af45198b75224b8b627d347f2a523e228c4164a",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 5,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f005.png",
+      "path": "res://assets/ranged/ranged_recover/f005.png",
+      "sha256": "1d3c6c2ee782ea1104d2d8c93edd31b0382145c954db3ef40bb24f7294cf1de9",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_recover",
+      "frame": 6,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f006.png",
+      "path": "res://assets/ranged/ranged_recover/f006.png",
+      "sha256": "d05e972d712088dbeb4db6cca541fb582ce458197bbb6461bd8341d4c49f7ee0",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_hurt",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_hurt/f000.png",
+      "sha256": "05f23e823aee814584fafc50fc7db61c3ea461615557f2a93f6e071d942d2e70",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_hurt",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_hurt/f001.png",
+      "sha256": "a5fce5872cb9fcd2a04da93c12c220be48a292775161cab5d795960528229522",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_hurt",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_hurt/f002.png",
+      "sha256": "d05e972d712088dbeb4db6cca541fb582ce458197bbb6461bd8341d4c49f7ee0",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 0,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ranged/ranged_death/f000.png",
+      "sha256": "a5fce5872cb9fcd2a04da93c12c220be48a292775161cab5d795960528229522",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 1,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ranged/ranged_death/f001.png",
+      "sha256": "dd51a07d1dcb3208012b6ecf7ae036a6dc1f9c7e2dedc7f493b32e15c4f7feb3",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 2,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f002.png",
+      "path": "res://assets/ranged/ranged_death/f002.png",
+      "sha256": "89c2bd3ce48ebfa08f07b373472e45eca6562e8fd95710849143ca065fb4a9b6",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 3,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f003.png",
+      "path": "res://assets/ranged/ranged_death/f003.png",
+      "sha256": "0a5c18d4480943d2eec71a86d4b50dc4b74b8b465ff37dec9943370d31ec6771",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 4,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f004.png",
+      "path": "res://assets/ranged/ranged_death/f004.png",
+      "sha256": "32d04eb70261d568b0d0f86f985ae73b816e6224c81c24b4b6a9880833a767c1",
+      "storage": "atlas"
+    },
+    {
+      "id": "ranged_death",
+      "frame": 5,
+      "category": "ranged",
+      "canvas": [
+        256,
+        352
+      ],
+      "name": "f005.png",
+      "path": "res://assets/ranged/ranged_death/f005.png",
+      "sha256": "2007621db4215c1cbc57d89a91360976da6344000fbfc6e9184d82f4e094aadb",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_idle/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_idle/f001.png",
+      "sha256": "33ae102882e46c1554c09277d9d50bc3a96109f58d818beef3d0e32602e1e5b0",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_idle/f002.png",
+      "sha256": "108c2ba6259bcdcfaff0377d246ad1271ea0ca00f273ea7ed146a870cb86c196",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_idle/f003.png",
+      "sha256": "c7558eb0c96c8533862d9e866a4f4e8970c644c3bbfda4553f131e2bbb767387",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_idle/f004.png",
+      "sha256": "567459d71c1249a2b070b41aeba5c0b2a5cad73d5e5cbe12f6f293c677077ddd",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_idle/f005.png",
+      "sha256": "5c84def3115fcf5b500ad926721bcee677da1e21525529e8d0eab88901e0f240",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 6,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f006.png",
+      "path": "res://assets/boss/boss_idle/f006.png",
+      "sha256": "d1f385c2fe21550a59c5f37c08280a32c5d8a08990fd1704f40987d59d01eec3",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_idle",
+      "frame": 7,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f007.png",
+      "path": "res://assets/boss/boss_idle/f007.png",
+      "sha256": "4da635100653c03ec058991a15cc3fd95cc1467de9989d8b5178e3f211d0fd7f",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_walk/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_walk/f001.png",
+      "sha256": "daef73d7482d269682fcc9dbeb41cb1f7af001573be38d13d8158a593b7dc125",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_walk/f002.png",
+      "sha256": "d63b77edae56032d382db2d10c639d5a76e01366fa87602fb051f28bdc5cc308",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_walk/f003.png",
+      "sha256": "30c4cbdb48178b83519449881643158c4f39941d8baef2713c6da4658a3a2f32",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_walk/f004.png",
+      "sha256": "7d34d8df7e74ae1f48101a8628b76f337c5a0b99e7dc07a289269781067746f4",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_walk/f005.png",
+      "sha256": "4c96634d321d2b42d5afa2337954917ecc55359eaac029dc2c4138dbb79c1e30",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 6,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f006.png",
+      "path": "res://assets/boss/boss_walk/f006.png",
+      "sha256": "fb5d499a5b371bf3d06bfcd6b2286d2ff882eb3ca2741902545682b7d72b66bc",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_walk",
+      "frame": 7,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f007.png",
+      "path": "res://assets/boss/boss_walk/f007.png",
+      "sha256": "67025b908d2e68e7bd3baf5a9ebe2ab5bf5f2b9263fb07de4a0a8efd7a47a5b9",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_turn",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_turn/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_turn",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_turn/f001.png",
+      "sha256": "41651401c50f7efcf853980a7a7613db1a1060bfbcfae3fe4fb0e08e700235ec",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_turn",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_turn/f002.png",
+      "sha256": "41651401c50f7efcf853980a7a7613db1a1060bfbcfae3fe4fb0e08e700235ec",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_turn",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_turn/f003.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_strike_windup/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_strike_windup/f001.png",
+      "sha256": "09fcf9dc17eb2b4b61f89ab0641d859d2717751131ffecbed083f9dd4e3d80d6",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_strike_windup/f002.png",
+      "sha256": "3411ebb871e6fe474eebe8d9ac6c8b6490dc8be7b2618e0dbfdd6acedd70d19c",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_strike_windup/f003.png",
+      "sha256": "53a501a8c3aba6a0c4774e235b1024274d76e395873ca83d55fe135005cd0d87",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_strike_windup/f004.png",
+      "sha256": "a8cd8db185344184b34f0ba5a72061f9d4463a7a8e56059649b918840febdd50",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_strike_windup/f005.png",
+      "sha256": "a8cd8db185344184b34f0ba5a72061f9d4463a7a8e56059649b918840febdd50",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_windup",
+      "frame": 6,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f006.png",
+      "path": "res://assets/boss/boss_strike_windup/f006.png",
+      "sha256": "a8cd8db185344184b34f0ba5a72061f9d4463a7a8e56059649b918840febdd50",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_execute",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_strike_execute/f000.png",
+      "sha256": "d0f0ef4635e829a982660d21b9834d65984e16300b317807783e9f7bdd3077f5",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_execute",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_strike_execute/f001.png",
+      "sha256": "c595c675d6570f67e293ed99e83a7d9d596462f6b6d15013d0a1aef46c7faae2",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_execute",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_strike_execute/f002.png",
+      "sha256": "1bfe10e51017f45058dcfd4410e34e737a014fd23010b40f06ed9fbaf2e2223a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_execute",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_strike_execute/f003.png",
+      "sha256": "69463472ba5c803f0aec6d42ce365307f6c2be591444569178cbcb451a1c7b1a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_strike_recover/f000.png",
+      "sha256": "69463472ba5c803f0aec6d42ce365307f6c2be591444569178cbcb451a1c7b1a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_strike_recover/f001.png",
+      "sha256": "6aa3256ad20fca88e60f24f1f131c8b0dfb3e56104dc180b815d36768a599ff2",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_strike_recover/f002.png",
+      "sha256": "73f858b0881f38a71fabe4e189142ad3418b7aa6ad0ba2c682158e11338ec1d6",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_strike_recover/f003.png",
+      "sha256": "20fdc9a89a7bbaf4d0fcacc26273709096cc90eeb83cbff916070165d08b81e7",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_strike_recover/f004.png",
+      "sha256": "5691fdd222406a4876442cb6aceac80c4f342532e0da53a8ac8fa69874627cc1",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_strike_recover",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_strike_recover/f005.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_hazard_windup/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_hazard_windup/f001.png",
+      "sha256": "3e249754136ed074554cb2521f08741623c87a66c0fb912d15619965fff557e6",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_hazard_windup/f002.png",
+      "sha256": "52d9b3325e8863fef5f010867fee8a79f72d559d19113ebb128680f1bd705fd6",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_hazard_windup/f003.png",
+      "sha256": "44bebd81c7bc47a65f031dd6a8e2bf1bbe6308949b5e5e6dad3111c5f7e851ab",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_hazard_windup/f004.png",
+      "sha256": "b1ca53fe759a5cbe2c8185dc9490679c724e9dfa4442ee492b9615764498d666",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_hazard_windup/f005.png",
+      "sha256": "5a48db97b86d9b80aaeb734034c06b9db6ff7d670fde46e0b3754c5b00b0bfbb",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 6,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f006.png",
+      "path": "res://assets/boss/boss_hazard_windup/f006.png",
+      "sha256": "13c5f4fbfca3583b53167bad6fa9202c21b33ce10ba3e88692c5c326c7d9406c",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_windup",
+      "frame": 7,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f007.png",
+      "path": "res://assets/boss/boss_hazard_windup/f007.png",
+      "sha256": "13c5f4fbfca3583b53167bad6fa9202c21b33ce10ba3e88692c5c326c7d9406c",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_execute",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_hazard_execute/f000.png",
+      "sha256": "392e34950954386f7cc68c067abb900e3c689ea85af8dc7dde56b6c564291733",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_execute",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_hazard_execute/f001.png",
+      "sha256": "f4768807f3bf234861cac11d4538ba338c78ef157b92ac8be1339ff507b8c09c",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_execute",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_hazard_execute/f002.png",
+      "sha256": "e5505bdfeb61c7f4e20cd438d0b3d852232f1e680c98a9d6ac177bcd9c18ba18",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_execute",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_hazard_execute/f003.png",
+      "sha256": "69463472ba5c803f0aec6d42ce365307f6c2be591444569178cbcb451a1c7b1a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_hazard_recover/f000.png",
+      "sha256": "69463472ba5c803f0aec6d42ce365307f6c2be591444569178cbcb451a1c7b1a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_hazard_recover/f001.png",
+      "sha256": "6aa3256ad20fca88e60f24f1f131c8b0dfb3e56104dc180b815d36768a599ff2",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_hazard_recover/f002.png",
+      "sha256": "73f858b0881f38a71fabe4e189142ad3418b7aa6ad0ba2c682158e11338ec1d6",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_hazard_recover/f003.png",
+      "sha256": "20fdc9a89a7bbaf4d0fcacc26273709096cc90eeb83cbff916070165d08b81e7",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_hazard_recover/f004.png",
+      "sha256": "5691fdd222406a4876442cb6aceac80c4f342532e0da53a8ac8fa69874627cc1",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hazard_recover",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_hazard_recover/f005.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hurt",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_hurt/f000.png",
+      "sha256": "3358b4abf6812d41d35d10a8a2a914b63bf9fdaa30c2cc19652824c0bf2e58ee",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hurt",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_hurt/f001.png",
+      "sha256": "f132bfca5bf65f1cb1ef9f19a1511f618cb7e8a4bc9636acb819cac58eddd1af",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_hurt",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_hurt/f002.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 0,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f000.png",
+      "path": "res://assets/boss/boss_death/f000.png",
+      "sha256": "f2a679398f642508512e2d8809ad70855c68f1473800adffd2ec92660a1858db",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 1,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f001.png",
+      "path": "res://assets/boss/boss_death/f001.png",
+      "sha256": "83114caf77398249b6a3aa526bd7ad2febb90fb9fa60a49714265d7c9364b651",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 2,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f002.png",
+      "path": "res://assets/boss/boss_death/f002.png",
+      "sha256": "e3d6573d130c7321590d4d3cfffad6623784559300174e73fab41fbc104e49b1",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 3,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f003.png",
+      "path": "res://assets/boss/boss_death/f003.png",
+      "sha256": "7cb89277e420634f87eea6256cafb5c74351fc29fcae56f66901960a624a015d",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 4,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f004.png",
+      "path": "res://assets/boss/boss_death/f004.png",
+      "sha256": "b275a7b2ae6a41c69fed441a14855d12b670ebb9ac8686a1fea323c3d6955a6a",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 5,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f005.png",
+      "path": "res://assets/boss/boss_death/f005.png",
+      "sha256": "a8610ac9e806bc33b4afd405b14347742f2b59ca144f996d400427e009c15ca0",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 6,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f006.png",
+      "path": "res://assets/boss/boss_death/f006.png",
+      "sha256": "92eba67a09b7af528ffca185ec8e8380f9eaae1dca2c79112df874823f0c2320",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 7,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f007.png",
+      "path": "res://assets/boss/boss_death/f007.png",
+      "sha256": "891d06734125dfe750fae68b4fd4d09ca0e8e6bb1b937d25abd5df402a7fe696",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 8,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f008.png",
+      "path": "res://assets/boss/boss_death/f008.png",
+      "sha256": "891d06734125dfe750fae68b4fd4d09ca0e8e6bb1b937d25abd5df402a7fe696",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 9,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f009.png",
+      "path": "res://assets/boss/boss_death/f009.png",
+      "sha256": "7486028efdfd388c4c22678e7eb209b2ee243149d248ee62dd3ce202e4c02c59",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 10,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f010.png",
+      "path": "res://assets/boss/boss_death/f010.png",
+      "sha256": "722d0c141e636d5207de57903e479120ddfa8e6df0d31c650287b197537c1c52",
+      "storage": "atlas"
+    },
+    {
+      "id": "boss_death",
+      "frame": 11,
+      "category": "boss",
+      "canvas": [
+        512,
+        576
+      ],
+      "name": "f011.png",
+      "path": "res://assets/boss/boss_death/f011.png",
+      "sha256": "f00b3c15cfd59504ef416edf687b19a861af751f512efa4609c30555412e8f3d",
+      "storage": "atlas"
+    },
+    {
+      "id": "projectile_grave_shot",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        64,
+        64
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/projectile_grave_shot/f000.png",
+      "sha256": "5e7983c69a92b480881b5728ba1cfbd59d459c0caf47ab3007912a5b7671bab0",
+      "storage": "atlas"
+    },
+    {
+      "id": "projectile_grave_shot",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        64,
+        64
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/projectile_grave_shot/f001.png",
+      "sha256": "24133c66ba5e42108313b5095f081ad3ac58e753318201a26cfd0c97bea165b1",
+      "storage": "atlas"
+    },
+    {
+      "id": "projectile_grave_shot",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        64,
+        64
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/projectile_grave_shot/f002.png",
+      "sha256": "b8e993de66b56143130e65a30e97b1759ac1ad5d67b4ddbfa655d0981a9d80f3",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f000.png",
+      "sha256": "4f94f3b00c212f48c13bb36a2fffbfc208ed9f57bd64f9091551df35bd681258",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f001.png",
+      "sha256": "3f017fd8937903f993c3db03dfba030ac21f929eabcc2f23f7ffe4ec4ae17427",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f002.png",
+      "sha256": "be4558971dfcb97ae14722f528169d599989c276b383d93a9e53e09db4e95186",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 3,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f003.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f003.png",
+      "sha256": "93c734b370d6cac1dcc19a7a124bf531fbd12b3e3e26e31a6ea6224ec2bdfc97",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 4,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f004.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f004.png",
+      "sha256": "e7fb284bfa5cf1cf7f3293f192f3f8d8417012c77f527c185b5c908bcd9db908",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_whip_impact",
+      "frame": 5,
+      "category": "vfx",
+      "canvas": [
+        192,
+        192
+      ],
+      "name": "f005.png",
+      "path": "res://assets/vfx/vfx_whip_impact/f005.png",
+      "sha256": "66a79d00c31c470416a91501c779c0d640201679859b8053214e8100fb51b78c",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f000.png",
+      "sha256": "ffef22e816fe61344475d0830ae63f43ec2d35210a1e63875bd852c22b89a955",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f001.png",
+      "sha256": "9727a11e4631c6b73ac1542ba1e1b70d24056ed7eb5f6f50c15de1dec92e5f2f",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f002.png",
+      "sha256": "70d54d5f8921a0d8322d40b66cfbe15dcd3c2a67be0b7b0dcd55fa9a1954d50c",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 3,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f003.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f003.png",
+      "sha256": "19f8d8df1d52ef421c50423b8aff2d34a2225b361d298b14c28e9d72ca9b016c",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 4,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f004.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f004.png",
+      "sha256": "ac2aecae307ebbfeee605f71608ad6771a26ea3b65b958609cf013c39bade320",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 5,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f005.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f005.png",
+      "sha256": "d3f47aad7c409ffaeb66f386e68ba5648cc6e8af4ba6b10ac94098f09dbf5083",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 6,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f006.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f006.png",
+      "sha256": "8504a1a12b6e258c931eb4805ca5f0f8b51b914540d8a7fada4695442ec86d14",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_enemy_defeat",
+      "frame": 7,
+      "category": "vfx",
+      "canvas": [
+        256,
+        256
+      ],
+      "name": "f007.png",
+      "path": "res://assets/vfx/vfx_enemy_defeat/f007.png",
+      "sha256": "cc1cad6e6ffae6220c249d27b94b945450503b884490d4f116ac0710315bf3f9",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f000.png",
+      "sha256": "9d16376380307302355ec7c26f849aef2a0672615fa87e32d3dc814d99247e91",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f001.png",
+      "sha256": "ad9dcc771c97030f8b90ff8460bc5e8e387e21bccc6711a58dcc66f97c37c432",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f002.png",
+      "sha256": "f2e5ffe50d086ec2a7e33146008211a1b536e4f098fa500f75755edb208291c4",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 3,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f003.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f003.png",
+      "sha256": "4bd67d60ea95ef271e3ac85fe24cef3cb5fa60702ca319dff7bfbe3e26d2a4ee",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 4,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f004.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f004.png",
+      "sha256": "868dd6bf8a6c4f3e2c482b731f3edbe81888daca0aedfd9ac4a7b6004236fb3d",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 5,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f005.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f005.png",
+      "sha256": "aa12049fca72ed8bef45061503f8b8928f6184de0f31ca3c555c2a59d8f9eb79",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 6,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f006.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f006.png",
+      "sha256": "c40c265179dce617773282dea9257f3fd8a89fddf24bddf0be3497d78c71ded9",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_checkpoint_activate",
+      "frame": 7,
+      "category": "vfx",
+      "canvas": [
+        256,
+        384
+      ],
+      "name": "f007.png",
+      "path": "res://assets/vfx/vfx_checkpoint_activate/f007.png",
+      "sha256": "ef093643a532444e23a360b5d69313639d4092979b1437919b4fe4f670a99b7c",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        320,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/vfx_hazard_telegraph/f000.png",
+      "sha256": "4679161a99329c759f7dc018f252ef4e2b7b563f4e71ba994aa0b31b024fe44d",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        320,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/vfx_hazard_telegraph/f001.png",
+      "sha256": "0358445f2f851dc0ca61baad17e6eea8469b2e3572df1b2be8e395db64e264b8",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        320,
+        128
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/vfx_hazard_telegraph/f002.png",
+      "sha256": "3fe14142efb74adc0faaec3e381cee71018814efe58e186a4b9578bb488330ab",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_telegraph",
+      "frame": 3,
+      "category": "vfx",
+      "canvas": [
+        320,
+        128
+      ],
+      "name": "f003.png",
+      "path": "res://assets/vfx/vfx_hazard_telegraph/f003.png",
+      "sha256": "67b2f819c622b750b67dcf1acfd5096a4eabccb5f0b52f3517cb05be0bc54b03",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 0,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f000.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f000.png",
+      "sha256": "36b9e0a4471feab5e8f9db2a60f720b9aa0b087cabab7596f75cdc18631f27f0",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 1,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f001.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f001.png",
+      "sha256": "d1a3c0433e78e5eb42c2629f77d68701dab3f62eb44dcb5204812de6a5c9d84f",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 2,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f002.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f002.png",
+      "sha256": "0f6e58796b8de1fae3895329021c1ad82ac57f99a18b99ed6dad769972a4d591",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 3,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f003.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f003.png",
+      "sha256": "0df24fc03957e49d260c5fa9f9868636b5f9e16fc2ed40f1efa4ab57bf258e4d",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 4,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f004.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f004.png",
+      "sha256": "ce527373473d2522f957c071e48db0a5866bc6f9d2c12eeeb64b94142d4705a1",
+      "storage": "atlas"
+    },
+    {
+      "id": "vfx_hazard_eruption",
+      "frame": 5,
+      "category": "vfx",
+      "canvas": [
+        320,
+        192
+      ],
+      "name": "f005.png",
+      "path": "res://assets/vfx/vfx_hazard_eruption/f005.png",
+      "sha256": "d7d4f17b416a38f7ce05832a8a5fdc468d38138db3f01a7e867fc0be7e99aee6",
+      "storage": "atlas"
+    },
+    {
+      "id": "prop_checkpoint",
+      "frame": 0,
+      "category": "props",
+      "canvas": [
+        192,
+        320
+      ],
+      "name": "f000.png",
+      "path": "res://assets/props/prop_checkpoint/f000.png",
+      "sha256": "9c0641f6223cbce29450f98fecd2424d61cc2791ef538ca14b8437c37a6e9737",
+      "storage": "atlas"
+    },
+    {
+      "id": "prop_checkpoint",
+      "frame": 1,
+      "category": "props",
+      "canvas": [
+        192,
+        320
+      ],
+      "name": "f001.png",
+      "path": "res://assets/props/prop_checkpoint/f001.png",
+      "sha256": "eecfd43b94b73de5766fc78201f9eb45ac303e96d9f9203e80cc8d90c0cf2e70",
+      "storage": "atlas"
+    },
+    {
+      "id": "prop_effigy",
+      "frame": 0,
+      "category": "props",
+      "canvas": [
+        128,
+        256
+      ],
+      "name": "f000.png",
+      "path": "res://assets/props/prop_effigy/f000.png",
+      "sha256": "69b56ba756cba213e17b4e2cf54c76fb84d7bb194784114f0d931442ac562c74",
+      "storage": "atlas"
+    },
+    {
+      "id": "prop_boss_gate",
+      "frame": 0,
+      "category": "props",
+      "canvas": [
+        128,
+        320
+      ],
+      "name": "f000.png",
+      "path": "res://assets/props/prop_boss_gate/f000.png",
+      "sha256": "70ddfb1b3131608871ba77f1d2940509811a73f26ab344826bbe2128a69b0a7a",
+      "storage": "atlas"
+    },
+    {
+      "id": "prop_exit",
+      "frame": 0,
+      "category": "props",
+      "canvas": [
+        192,
+        320
+      ],
+      "name": "f000.png",
+      "path": "res://assets/props/prop_exit/f000.png",
+      "sha256": "b84cf760e34a0327ea0078d72d220503b474ef052cac1b98be8c05b0a8735900",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_cap_left",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_cap_left/f000.png",
+      "sha256": "70ad6ce6ab784836a71348ecf218dab49ad0f2887903fb3fbb88dc97a830ffad",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_cap_mid",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_cap_mid/f000.png",
+      "sha256": "a28337b14ecd6ccc3f478961fa16124c83a52985ea28c9e1fee055ffa6ecffcb",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_cap_right",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_cap_right/f000.png",
+      "sha256": "42e9e66ede9e4b55c152e4c2196499f1b015ee84eeb1dca69c02667914a13c22",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_side_left",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_side_left/f000.png",
+      "sha256": "9c916ec6b43e1ceb1bc31424dd12552695763c4c90027047e332a33c4bfe3bbd",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_side_right",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_side_right/f000.png",
+      "sha256": "7ec1f7f2ae604357f3be6ecb647c3afea40605715d1d0802c1691513c01301f2",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_fill_center",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_fill_center/f000.png",
+      "sha256": "cb3e432317a5750397ffa1a6b2c71686a116147ac9d8e3f622a3f04272d492e5",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_bottom_left",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_bottom_left/f000.png",
+      "sha256": "0fa92047cf6bca92d366f4bb48c9a1e92af192c108329e89810ead1d4aa4774f",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_bottom_mid",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_bottom_mid/f000.png",
+      "sha256": "5b59be6d44c13ea64c72b175696c319b2eb764c383cc5219f60ab22e39428b02",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_bottom_right",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_bottom_right/f000.png",
+      "sha256": "cb0a5909f4824f5568593657a28c50788ea60d0267c22e79579b83116d17a757",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_inner_left",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_inner_left/f000.png",
+      "sha256": "9adaad6b19f4ba35ced02b52d3b5bf2df8729bb31debfd32bdfaee3b7e50bdd9",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_inner_right",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_inner_right/f000.png",
+      "sha256": "b2fce3a164402c5e26e6e92c57d88e43819978eb7292c9563a3aea4113d3874a",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_plat_end_left",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_plat_end_left/f000.png",
+      "sha256": "465407aa824f33a34b8ff3b82610ef4490cd56bf98d82ffa8cca42a73131a8b5",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_plat_mid",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_plat_mid/f000.png",
+      "sha256": "4bffef20e0be7da4e14072f34c661109dcc630ea5d37228ffb82f6d9565ac7d6",
+      "storage": "atlas"
+    },
+    {
+      "id": "terrain_plat_end_right",
+      "frame": 0,
+      "category": "terrain",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/terrain/terrain_plat_end_right/f000.png",
+      "sha256": "9b7ed474811f7e478cf82734580cce6e9d5b2bad6a85c6f459d0c018299e7297",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_health_full",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        64,
+        64
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_health_full/f000.png",
+      "sha256": "376fcd3fae574d4fff7d21ce67bf69039dcf09e0b55f5a277666a1dcb099e539",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_health_empty",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        64,
+        64
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_health_empty/f000.png",
+      "sha256": "84e4577efe2630c570610b26755c1c28ac3578db105a36cc7ee7170f24292428",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_left",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_left/f000.png",
+      "sha256": "fb8ec3285d8468a581cb4d9cbd8e20e4a46aaf0b7c4dd79a2cd17649de71dc23",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_left",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_left/f001.png",
+      "sha256": "64df723dff067a9e0c73257d5a51a0c54e1d205ff2098c7ac3c7c77a714cac7b",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_right",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_right/f000.png",
+      "sha256": "3bfbeeed6687fd82ff5c65735901fbb839509241e741753c761f12e87a13ff89",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_right",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_right/f001.png",
+      "sha256": "3b11050987f5622cb9823a8e850facc3429f4563f1f8a1b79e925333b00e62ec",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_jump",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_jump/f000.png",
+      "sha256": "0b498266e45e46ce570b0888200356e4dc736d04891f1131b0a7cb9939977160",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_jump",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_jump/f001.png",
+      "sha256": "dbcc36fc6b2d406b93697d1c8d65efa9b6aad2134df950e7b813d8e80cdb2b5c",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_whip",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_whip/f000.png",
+      "sha256": "377cdd04b7f29d0131a1e2bcb24b738994b5dd64d2237ec364845da8bec50bba",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_whip",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_whip/f001.png",
+      "sha256": "95ada064159b58ea1ffe7e171e5fd11f32c61e2b6b7505ea9e48fa71d5c05fbd",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_crouch",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_crouch/f000.png",
+      "sha256": "55d9845439311219445115f9ad568997dfd80656300064bc7e940bed5fb346e0",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_crouch",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_crouch/f001.png",
+      "sha256": "2b57a519bb34832830b5481e35c5257e763d2ea168d6b8a42b845d173a40012a",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_pause",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_btn_pause/f000.png",
+      "sha256": "39b8bb29b190427b63a2f6bbc9cae3a2a36fd10e2f14a0f51cecd62e3024a775",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_btn_pause",
+      "frame": 1,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f001.png",
+      "path": "res://assets/ui/ui_btn_pause/f001.png",
+      "sha256": "530431ea2b13d9224ed065ee2bb24dda2c31f4a306325ae386f7e9343241fa49",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_checkpoint_off",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        96
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_checkpoint_off/f000.png",
+      "sha256": "815b487cc0fed4dd5ce126e5e3c57c40860466a7d2fd21a8be0e9cb1caa1adb5",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_checkpoint_on",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        96
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_checkpoint_on/f000.png",
+      "sha256": "c132309988bd4a154eb0110375e63297e07e851c455533d534bf45761a4b25e7",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_retry",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_retry/f000.png",
+      "sha256": "684efcfad7b15eca85b0e49b94682ff3f9efe5ea7af613145819c15e97b4348b",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_victory",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        128,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_victory/f000.png",
+      "sha256": "25a8e093fe864387dd9ae4a631c602c8c49267581f31f009ba8221cd36e587d4",
+      "storage": "atlas"
+    },
+    {
+      "id": "ui_rotate_prompt",
+      "frame": 0,
+      "category": "ui",
+      "canvas": [
+        192,
+        128
+      ],
+      "name": "f000.png",
+      "path": "res://assets/ui/ui_rotate_prompt/f000.png",
+      "sha256": "fb7a0117ed75f6812f631d1cbfca4c6aef9bd262ae9e73be647bf85a0b3bfc0f",
+      "storage": "atlas"
+    },
+    {
+      "id": "bg_sky",
+      "frame": 0,
+      "category": "background",
+      "canvas": [
+        1024,
+        1024
+      ],
+      "path": "res://assets/background/bg_sky/panel.png",
+      "sha256": "b3b438bb63e9f16597ad55c351cb4d3863d7625812696c60e5542d86c5573965",
+      "storage": "standalone"
+    },
+    {
+      "id": "bg_distant_silhouette",
+      "frame": 0,
+      "category": "background",
+      "canvas": [
+        2048,
+        384
+      ],
+      "path": "res://assets/background/bg_distant_silhouette/panel.png",
+      "sha256": "dfa36e91b18c67f2f27af3403ab488a496090e0547de27194a27a1b2465cb78f",
+      "storage": "standalone"
+    },
+    {
+      "id": "bg_midground_arch",
+      "frame": 0,
+      "category": "background",
+      "canvas": [
+        2048,
+        768
+      ],
+      "path": "res://assets/background/bg_midground_arch/panel.png",
+      "sha256": "c7acc5439d858a0fff1987810777be2323d9ebe14c3ed119a07d06c69f355352",
+      "storage": "standalone"
+    },
+    {
+      "id": "bg_foreground_frame",
+      "frame": 0,
+      "category": "background",
+      "canvas": [
+        2048,
+        256
+      ],
+      "path": "res://assets/background/bg_foreground_frame/panel.png",
+      "sha256": "616c5e1b3daeb5077b866c3ee2809218633aa3c9694b41a3e8a10ab4d14cc590",
+      "storage": "standalone"
+    }
+  ],
+  "errors": [
+    "canonical exists art/frames/boss_hurt_stooped/f000.png",
+    "canonical exists art/frames/boss_hurt_stooped/f001.png",
+    "canonical exists art/frames/boss_hurt_stooped/f002.png",
+    "canonical exists art/frames/boss_hurt_rising/f000.png",
+    "canonical exists art/frames/boss_hurt_rising/f001.png",
+    "canonical exists art/frames/boss_hurt_rising/f002.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f000.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f001.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f002.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f000.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f001.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f002.png",
+    "complete405packed+4background inventory"
+  ]
+}

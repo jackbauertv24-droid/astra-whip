@@ -1,0 +1,31 @@
+{
+  "production_frames": 397,
+  "packed_frames": 405,
+  "counts": {
+    "hero": 137,
+    "pursuer": 46,
+    "swooper": 36,
+    "ranged": 31,
+    "boss": 70,
+    "vfx": 35,
+    "props": 5,
+    "terrain": 14,
+    "ui": 19,
+    "background": 4
+  },
+  "errors": [
+    "canonical exists art/frames/boss_hurt_stooped/f000.png",
+    "canonical exists art/frames/boss_hurt_stooped/f001.png",
+    "canonical exists art/frames/boss_hurt_stooped/f002.png",
+    "canonical exists art/frames/boss_hurt_rising/f000.png",
+    "canonical exists art/frames/boss_hurt_rising/f001.png",
+    "canonical exists art/frames/boss_hurt_rising/f002.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f000.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f001.png",
+    "canonical exists art/frames/boss_hurt_half_stoop/f002.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f000.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f001.png",
+    "canonical exists art/frames/boss_hurt_hazard_late/f002.png",
+    "complete405packed+4background inventory"
+  ]
+}

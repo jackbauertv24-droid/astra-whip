@@ -2172,5 +2172,37 @@
       0
     ],
     "loop": false
+  },
+  "boss_hurt_stooped": {
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  },
+  "boss_hurt_rising": {
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  },
+  "boss_hurt_half_stoop": {
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
+  },
+  "boss_hurt_hazard_late": {
+    "ms": [
+      70,
+      70,
+      60
+    ],
+    "loop": false
   }
 }
