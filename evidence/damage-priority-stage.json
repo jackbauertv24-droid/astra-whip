@@ -1,0 +1,471 @@
+{
+ "encounters": [
+  {
+   "history": [
+    "idle",
+    "patrol_walk",
+    "alert",
+    "approach_walk",
+    "lunge_windup",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "pursuer",
+   "state": "death"
+  },
+  {
+   "history": [
+    "idle",
+    "patrol_walk",
+    "alert",
+    "approach_walk",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "pursuer",
+   "state": "death"
+  },
+  {
+   "history": [
+    "idle",
+    "patrol_walk",
+    "alert",
+    "approach_walk",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "pursuer",
+   "state": "death"
+  },
+  {
+   "history": [
+    "idle",
+    "patrol_walk",
+    "alert",
+    "approach_walk",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "pursuer",
+   "state": "death"
+  },
+  {
+   "history": [
+    "perch_idle",
+    "cruise",
+    "dive_telegraph",
+    "dive",
+    "recovery_climb"
+   ],
+   "hp": 1,
+   "kind": "swooper",
+   "state": "cruise"
+  },
+  {
+   "history": [
+    "idle",
+    "patrol_walk",
+    "alert",
+    "approach_walk",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "pursuer",
+   "state": "death"
+  },
+  {
+   "history": [
+    "idle",
+    "aim",
+    "fire",
+    "recover"
+   ],
+   "hp": 2,
+   "kind": "ranged",
+   "state": "idle"
+  },
+  {
+   "history": [
+    "perch_idle",
+    "cruise",
+    "dive_telegraph",
+    "dive",
+    "recovery_climb",
+    "death_fall"
+   ],
+   "hp": 0,
+   "kind": "swooper",
+   "state": "death_fall"
+  },
+  {
+   "history": [
+    "idle",
+    "walk",
+    "hurt",
+    "strike_windup",
+    "death"
+   ],
+   "hp": 0,
+   "kind": "boss",
+   "state": "death"
+  }
+ ],
+ "events": [
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 0.0,
+   "state": "land",
+   "x": 160.04167175293,
+   "y": 559.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 1.0,
+   "state": "attack_ground",
+   "x": 280.041656494141,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 2.0,
+   "state": "walk",
+   "x": 514.041625976562,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 3.0,
+   "state": "walk",
+   "x": 754.053649902344,
+   "y": 687.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 4.0,
+   "state": "attack_ground",
+   "x": 939.933776855469,
+   "y": 623.925231933594
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 5.0,
+   "state": "start_move",
+   "x": 1050.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 6.0,
+   "state": "walk",
+   "x": 1290.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 7.0,
+   "state": "start_move",
+   "x": 1368.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 8.0,
+   "state": "walk",
+   "x": 1608.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 9.0,
+   "state": "walk",
+   "x": 1848.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 10.0,
+   "state": "walk",
+   "x": 1968.92468261719,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 11.0,
+   "state": "attack_ground",
+   "x": 2126.92456054688,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 12.0,
+   "state": "fall",
+   "x": 2328.93701171875,
+   "y": 549.596069335938
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 13.0,
+   "state": "jump_takeoff",
+   "x": 2568.94946289062,
+   "y": 500.707214355469
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 14.0,
+   "state": "jump_apex",
+   "x": 2758.17553710938,
+   "y": 370.707183837891
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 15.0,
+   "state": "walk",
+   "x": 2994.92553710938,
+   "y": 431.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 16.0,
+   "state": "walk",
+   "x": 3234.92358398438,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 17.0,
+   "state": "walk",
+   "x": 3474.92358398438,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 18.0,
+   "state": "walk",
+   "x": 3714.92358398438,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": false,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 19.0,
+   "state": "walk",
+   "x": 3954.92358398438,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 19.575,
+   "state": "walk",
+   "x": 4092.92358398438,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 20.0,
+   "state": "walk",
+   "x": 4194.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 21.0,
+   "state": "walk",
+   "x": 4280.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 22.0,
+   "state": "walk",
+   "x": 4520.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 23.0,
+   "state": "attack_ground",
+   "x": 4672.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 24.0,
+   "state": "walk",
+   "x": 4810.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 25.0,
+   "state": "walk",
+   "x": 5050.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 26.0,
+   "state": "walk",
+   "x": 5290.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 27.0,
+   "state": "walk",
+   "x": 5530.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 28.0,
+   "state": "walk",
+   "x": 5770.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 29.0,
+   "state": "attack_ground",
+   "x": 5960.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 30.0,
+   "state": "attack_ground",
+   "x": 5958.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 31.0,
+   "state": "attack_ground",
+   "x": 5954.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 32.0,
+   "state": "attack_ground",
+   "x": 5950.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": false,
+   "hp": 5,
+   "seconds": 33.0,
+   "state": "attack_ground",
+   "x": 5948.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": true,
+   "hp": 5,
+   "seconds": 33.767,
+   "state": "walk",
+   "x": 6126.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": true,
+   "hp": 5,
+   "seconds": 34.0,
+   "state": "walk",
+   "x": 6182.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "exit_unlocked": true,
+   "hp": 5,
+   "seconds": 35.0,
+   "state": "walk",
+   "x": 6422.92333984375,
+   "y": 559.962036132812
+  },
+  {
+   "checkpoint": true,
+   "complete": true,
+   "effigy_remaining": false,
+   "exit_unlocked": true,
+   "final": true,
+   "hp": 5,
+   "x": 6600.93603515625,
+   "y": 496.929443359375
+  }
+ ],
+ "message": "completed production stage",
+ "method": "automated production input policy; not unfamiliar-player or touch acceptance",
+ "passed": true,
+ "physical_device": false
+}

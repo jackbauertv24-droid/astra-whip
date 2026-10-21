@@ -72,7 +72,7 @@ func take_hit() -> void:
     hurt_resume_state = ""
     hurt_resume_elapsed = 0.0
   enter("hurt")
-func simulate(dt: float) -> void:
+func simulate(dt: float, defer_whip: bool = false) -> void:
  elapsed += dt
  var h: Hunter = world.hero
  var dx = h.position.x - position.x
@@ -209,14 +209,20 @@ func simulate(dt: float) -> void:
    position.x = clampf(position.x, 5700, 6460)
  if overlaps_rect(h.body_rect()):
   h.damage("contact", position.x)
+ if not defer_whip: resolve_whip_hit()
+ visual.follow(state,elapsed)
+ queue_redraw()
+func resolve_whip_hit() -> void:
+ if hp<=0:return
+ var h:Hunter=world.hero
  if h.active() and overlaps_rect(h.whip_rect()) and h.hit_target(get_instance_id()):
   var whip=h.whip_rect()
   var contact=contact_rect().intersection(whip).get_center()
   if kind=="swooper": contact=Vector2(clampf(position.x,whip.position.x,whip.end.x),clampf(position.y,whip.position.y,whip.end.y))
   world.impact_layer.spawn_at(contact)
   take_hit()
- visual.follow(state,elapsed)
- queue_redraw()
+  visual.follow(state,elapsed)
+  queue_redraw()
 func load_hazard_art() -> void:
  var contract: Dictionary=JSON.parse_string(FileAccess.get_file_as_string("res://data/art_contract.json"))
  for id in ["vfx_hazard_telegraph","vfx_hazard_eruption"]:

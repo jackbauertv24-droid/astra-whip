@@ -1,0 +1,66 @@
+{
+  "baseline_failures": 8,
+  "new_regression_checks": 64,
+  "results": [
+    {
+      "name": "damage-priority",
+      "result": "RESULT damage priority: 64 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-gameplay",
+      "result": "RESULT 1241 assertions, 0 failures; mutation="
+    },
+    {
+      "name": "damage-priority-stage",
+      "result": "RESULT stage playthrough: PASS completed production stage; trace=/config/codex-workspace/astra-whip/evidence/damage-priority-stage.json"
+    },
+    {
+      "name": "damage-priority-boss_death_entry",
+      "result": "RESULT boss death entry: 378 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-boss_death_visibility",
+      "result": "RESULT boss death visibility: 136 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-boss_recovery_window",
+      "result": "RESULT boss recovery window: 40 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-boss_hurt_context",
+      "result": "RESULT boss hurt context: 97 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-boss_hazard",
+      "result": "RESULT boss hazard: 236 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-boss_strike_contact",
+      "result": "RESULT boss strike contact: 18 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-whip_impact",
+      "result": "RESULT whip impact: 100 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-enemy_defeat",
+      "result": "RESULT enemy defeat: 125 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-swooper_collision",
+      "result": "SWOOPER COLLISION: 32 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-swooper_recovery_entry",
+      "result": "SWOOPER RECOVERY ENTRY: 17 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-ranged_projectile",
+      "result": "RANGED PROJECTILE: 22 checks, 0 failures"
+    },
+    {
+      "name": "damage-priority-ranged_projectile_art",
+      "result": "RANGED PROJECTILE ART: 28 checks, 0 failures"
+    }
+  ]
+}

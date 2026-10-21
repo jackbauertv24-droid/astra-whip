@@ -257,7 +257,7 @@ func step(dt: float) -> void:
   return
  hero.simulate(dt)
  if simulate_enemies:
-  for foe in foes: foe.simulate(dt)
+  for foe in foes: foe.simulate(dt,true)
  for index in range(projectiles.size()-1,-1,-1):
   var shot: Dictionary = projectiles[index]
   shot.pos.x += shot.dir * 280 * dt
@@ -266,6 +266,10 @@ func step(dt: float) -> void:
    hero.damage("projectile",shot.pos.x)
    projectiles.remove_at(index)
   elif absf(shot.pos.x-shot.start) >= 640: projectiles.remove_at(index)
+ # All incoming damage has priority over outgoing damage in the same step.
+ # Deferring across every foe also prevents encounter-list order deciding it.
+ if simulate_enemies:
+  for foe in foes:foe.resolve_whip_hit()
  if not checkpoint and absf(hero.position.x-4128) < 36 and absf(hero.position.y-Rules.GROUND) < 30: capture_checkpoint()
  if hero.position.x > 5655 and not exit_unlocked:
   arena_active = true
