@@ -2166,5 +2166,11 @@
       0
     ],
     "loop": false
+  },
+  "ui_rotate_prompt": {
+    "ms": [
+      0
+    ],
+    "loop": false
   }
 }

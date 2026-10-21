@@ -33,6 +33,7 @@ var status: Label
 var menu_scroll: ScrollContainer
 var menu: VBoxContainer
 var menu_back: Panel
+var rotate_graphic:TextureRect
 var rotate_prompt: Label
 var rotate_back: Panel
 var pause_button: Button
@@ -212,6 +213,7 @@ func update_orientation_ui() -> void:
  menu_back.visible=menu.visible
  menu_scroll.visible=menu.visible
  rotate_prompt.visible=portrait
+ rotate_graphic.visible=portrait
  rotate_back.visible=portrait
  status.visible=not portrait
  for pip in health_pips:pip.visible=not portrait
@@ -432,6 +434,13 @@ func build_ui() -> void:
  rotate_prompt.autowrap_mode=TextServer.AUTOWRAP_OFF
  rotate_prompt.mouse_filter=Control.MOUSE_FILTER_IGNORE
  hud.add_child(rotate_prompt)
+ rotate_graphic=TextureRect.new()
+ rotate_graphic.texture=PackedArt.texture("res://assets/ui/ui_rotate_prompt/f000.png")
+ rotate_graphic.expand_mode=TextureRect.EXPAND_IGNORE_SIZE
+ rotate_graphic.stretch_mode=TextureRect.STRETCH_KEEP_ASPECT_CENTERED
+ rotate_graphic.texture_filter=CanvasItem.TEXTURE_FILTER_NEAREST
+ rotate_graphic.mouse_filter=Control.MOUSE_FILTER_IGNORE
+ hud.add_child(rotate_graphic)
  hud.move_child(pause_button,hud.get_child_count()-1)
  painted_controls.configure(self)
  get_viewport().size_changed.connect(update_ui_layout)
@@ -473,6 +482,11 @@ func layout_ui_for_insets(insets: Vector4,density: float) -> void:
  rotate_prompt.add_theme_font_size_override("font_size",maxi(28,ceili(20/maxf(scale.y,.001))))
  rotate_prompt.position=ui_safe_rect.position+Vector2(80,0)
  rotate_prompt.size=Vector2(ui_safe_rect.size.x-160,ui_safe_rect.size.y)
+ var centre=rotate_prompt.get_rect().get_center()
+ var text_half_height=rotate_prompt.get_theme_font_size("font_size")*1.25
+ var graphic_height=maxf(0,minf(64/scale.y,centre.y-text_half_height-12/scale.y-ui_safe_rect.position.y))
+ rotate_graphic.size=Vector2(graphic_height*1.5,graphic_height)
+ rotate_graphic.position=Vector2(centre.x-rotate_graphic.size.x*.5,centre.y-text_half_height-8/scale.y-graphic_height)
  update_orientation_ui()
 func button_label_width(control: Button,font_size: int,text: String) -> float:
  return control.get_theme_font("font").get_string_size(text,HORIZONTAL_ALIGNMENT_LEFT,-1,font_size).x+control.get_theme_stylebox("normal").get_minimum_size().x

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "opaque",
+    "rule": "UI-ALPHA",
+    "exit": 1,
+    "detected": true
+  },
+  {
+    "name": "empty",
+    "rule": "UI-EMPTY",
+    "exit": 1,
+    "detected": true
+  },
+  {
+    "name": "canvas",
+    "rule": "UI-CANVAS",
+    "exit": 1,
+    "detected": true
+  }
+]

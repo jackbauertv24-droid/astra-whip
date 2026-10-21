@@ -1,0 +1,113 @@
+{
+ "physical_device": false,
+ "samples": [
+  {
+   "density": 1.0,
+   "file": "portrait393.png",
+   "graphic_visible": true,
+   "image_size": [
+    393,
+    221
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 1.0,
+   "file": "portrait375.png",
+   "graphic_visible": true,
+   "image_size": [
+    375,
+    210
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 1.0,
+   "file": "portrait320.png",
+   "graphic_visible": true,
+   "image_size": [
+    320,
+    180
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 2.0,
+   "file": "portrait-density2.png",
+   "graphic_visible": true,
+   "image_size": [
+    786,
+    442
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 3.0,
+   "file": "portrait-density3.png",
+   "graphic_visible": true,
+   "image_size": [
+    1179,
+    663
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 2.0,
+   "file": "portrait375-density2.png",
+   "graphic_visible": true,
+   "image_size": [
+    750,
+    421
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": true
+  },
+  {
+   "density": 1.0,
+   "file": "landscape.png",
+   "graphic_visible": false,
+   "image_size": [
+    1280,
+    720
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": false
+  },
+  {
+   "density": 2.0,
+   "file": "landscape-density2.png",
+   "graphic_visible": false,
+   "image_size": [
+    1136,
+    639
+   ],
+   "paused": true,
+   "physical_device": false,
+   "portrait": false
+  },
+  {
+   "density": 1.0,
+   "file": "landscape-return-resumed.png",
+   "graphic_visible": false,
+   "image_size": [
+    698,
+    393
+   ],
+   "paused": false,
+   "physical_device": false,
+   "portrait": false
+  }
+ ]
+}

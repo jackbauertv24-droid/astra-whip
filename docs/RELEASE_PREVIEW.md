@@ -175,3 +175,7 @@ Painted hollow/filled checkpoint indicator now follows activation, death/retry a
 ## Follow-up fix: completion menu and icons
 
 Completion now reveals its scroll container through shared menu visibility, making retry clickable. Gameplay controls hide during menus and return on resume. Painted retry/victory icons with live wording pass fresh review across21engine and5browser views.75source/export checks,1241gameplay assertions and menu/input/portrait/health/exit regressions pass.404packed frames, exactRGBA/760renderer comparisons and127.06MiB measured art allocation. Only rotate graphic remains in UI inventory; external gates pending. See evidence/ui-completion-fix.md.
+
+## Follow-up fix: portrait rotate graphic
+
+The final UI asset now accompanies live20CSS portrait wording, uniformly shrinking above text in short viewports. Fresh review passes9engine and6browser views, including320CSS width and densities1/3orientation/resume.91source/export checks,1241gameplay assertions and focused regressions pass.405packed+4standalone background frames, five pages; exactRGBA/762renderer samples and127.06MiB measured art allocation. All13UIassets/19frames approved; final specification audit and external gates remain. See evidence/ui-rotate-fix.md.

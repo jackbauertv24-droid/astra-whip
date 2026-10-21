@@ -6661,6 +6661,24 @@
       ],
       "rgba_sha256": "b3a2581cf4703dad1b13717adc20c38a8ca39fa2986ac820839b61ad4d07c9b7"
     },
+    "res://assets/ui/ui_rotate_prompt/f000.png": {
+      "page": 4,
+      "region": [
+        407,
+        1236,
+        174,
+        125
+      ],
+      "trim": [
+        5,
+        0
+      ],
+      "canvas": [
+        192,
+        128
+      ],
+      "rgba_sha256": "881bd2bccc33030c4541474e15d3d87887aafae59d4aae86b435dd33965dc143"
+    },
     "res://assets/ui/ui_victory/f000.png": {
       "page": 4,
       "region": [

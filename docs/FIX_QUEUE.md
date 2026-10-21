@@ -15,9 +15,9 @@ Each completed fix gets its own validated commit and push, as requested by the u
 | 9 | Swooper supported action clips | DONE: all7clips/36frames, fresh scoped reviews PASS and exact runtime/capture inventory verified; normal1HP death has visible falling/settling ash, hurt remains conditional |
 | 10 | Ranged enemy supported action clips | DONE: all6body clips/31frames +3projectile frames independent PASS; exact runtime, full both-facing native/phone coverage, actual2HP hurt/death path, shot loop/flight/standing/crouch verified |
 | 11 | Boss supported action clips | DONE: all11clips/70mandatory frames independent PASS, plus12supplemental recovery-hurt frames; death12frames includes pose-preserving lethal entry, supported kneel/fold and ash; actual8HP both-facing native/phone captures verified |
-| 12 | Full effects, props, terrain and UI inventory | All briefed effects and4stage props/5frames approved; terrain14tiles approved;all4background panels approved;12UIassets/18frames approved;rotate prompt1asset/1frame pending |
-| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current404packed +4standalone background frames: lossless five-page atlas,114.94MiB conservative inventory;127.06MiB measured art allocation; future inventory/device profiling remain |
-| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; opening lower-return/ground-fallback framing and retry validated356checks +fresh r02review PASS; remaining painted inventory/device validation pending |
+| 12 | Full effects, props, terrain and UI inventory | All briefed effects and4stage props/5frames approved; terrain14tiles approved;all4background panels approved;all13UIassets/19frames approved |
+| 13 | Texture atlas packing, exact pixel round trip, memory budget | DONE for current405packed +4standalone background frames: lossless five-page atlas,114.94MiB conservative inventory;127.06MiB measured art allocation; physical-device profiling remains |
+| 14 | Phone-sized runtime captures, portrait/safe-area/input checks and timed clip reels | Pause/menu CSS targets,portrait and browser safe areas checked; timed source reels available; opening lower-return/ground-fallback framing and retry validated356checks +fresh r02review PASS; complete painted inventory validated; physical-device validation pending |
 | 15 | Physical iPhone performance and unfamiliar-player study | Not performed; requires external device/person access |
 
 Production music/SFX remain explicitly deferred by the specification.
@@ -55,3 +55,5 @@ Painted controls follow-up: six normal/pressed controls independently approved,3
 Checkpoint HUD follow-up: off/on icons independently approved at32x24CSS;232source/export checks, actual capture/pit retry/completion reset and21engine +4browser views.402RGBA roundtrips and756renderer samples exact. See evidence/ui-checkpoint-fix.md.
 
 Completion UI follow-up: shared completion menu visibility fixed, gameplay controls hidden during menu to prevent overlap; retry/victory icons independently approved.75source/export checks,21engine +5browser views;404RGBA roundtrips/760renderer samples exact. See evidence/ui-completion-fix.md.
+
+Rotate UI follow-up: final briefed UI asset independently approved.91source/export checks,9engine +6browser views, density1/3actual browser orientation and explicit resume;405RGBA roundtrips/762renderer samples exact. All13UIassets/19frames now approved. See evidence/ui-rotate-fix.md.

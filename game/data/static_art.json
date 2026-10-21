@@ -479,5 +479,20 @@
     "opaque": false,
     "collision": "none",
     "coordinate_space": "UI;retry32CSS/victory48CSS"
+  },
+  "ui_rotate_prompt": {
+    "category": "ui",
+    "canvas": [
+      192,
+      128
+    ],
+    "anchor": [
+      0,
+      0
+    ],
+    "frames": 1,
+    "opaque": false,
+    "collision": "none",
+    "coordinate_space": "UI;up to96x64CSS, uniform shrink for short content area"
   }
 }
