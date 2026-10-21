@@ -15,6 +15,7 @@ renderer/rendering_method="gl_compatibility"
 renderer/rendering_method.mobile="gl_compatibility"
 textures/default_filters/use_nearest_mipmap_filter=false
 textures/canvas_textures/default_texture_filter=1
+textures/webp_compression/lossless_compression_factor=100
 [physics]
 common/physics_ticks_per_second=120
 [input_devices]

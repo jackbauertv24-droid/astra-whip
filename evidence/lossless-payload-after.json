@@ -1,0 +1,67 @@
+{
+ "textures": [
+  {
+   "height": 2048,
+   "path": "res://assets/atlas/page-00.png",
+   "rgba_bytes": 16777216,
+   "sha256": "ce7da923c46386b42cd83408326be87028190d192af2083a2f511144a083f9e5",
+   "width": 2048
+  },
+  {
+   "height": 2048,
+   "path": "res://assets/atlas/page-01.png",
+   "rgba_bytes": 16777216,
+   "sha256": "8f702e586655c7db19fce5528cd99892c7c17cf09734a652bc9a898536bb091f",
+   "width": 2048
+  },
+  {
+   "height": 2048,
+   "path": "res://assets/atlas/page-02.png",
+   "rgba_bytes": 16777216,
+   "sha256": "7aea864b1328c00d9587e07f486cc3fc4e1f283684c35e9ce49da21a47cd90cf",
+   "width": 2048
+  },
+  {
+   "height": 2048,
+   "path": "res://assets/atlas/page-03.png",
+   "rgba_bytes": 16777216,
+   "sha256": "fdf1d47472a27d99cce1b7f8d3dbedfcd14e0f98ce47a706cdfe19c147707b91",
+   "width": 2048
+  },
+  {
+   "height": 2048,
+   "path": "res://assets/atlas/page-04.png",
+   "rgba_bytes": 16777216,
+   "sha256": "975916c09239d0898dc41440f93aa5e5d298fbc4687015ee5509eceef94f5921",
+   "width": 2048
+  },
+  {
+   "height": 1024,
+   "path": "res://assets/background/bg_sky/panel.png",
+   "rgba_bytes": 4194304,
+   "sha256": "69d79914818b8dbdc90b88cbb84b2d574223cb24d39a0a2d3c368062bedd6181",
+   "width": 1024
+  },
+  {
+   "height": 384,
+   "path": "res://assets/background/bg_distant_silhouette/panel.png",
+   "rgba_bytes": 3145728,
+   "sha256": "dc8050ccfa11063647f639352d83d6de43a19dd402c3b33a7f514fb879382b58",
+   "width": 2048
+  },
+  {
+   "height": 768,
+   "path": "res://assets/background/bg_midground_arch/panel.png",
+   "rgba_bytes": 6291456,
+   "sha256": "1f83493845229289e973f6722d715b0d1483242b62a38a1840ecc7a7de2b72d6",
+   "width": 2048
+  },
+  {
+   "height": 256,
+   "path": "res://assets/background/bg_foreground_frame/panel.png",
+   "rgba_bytes": 2097152,
+   "sha256": "48c821f50717c296e75ed159e9f611871cd6f1a66627cde79e2bd4476159fe65",
+   "width": 2048
+  }
+ ]
+}

@@ -32,9 +32,9 @@ node tools/selftest.mjs
 GODOT_BIN=godot bash tools/test-game.sh
 # Optional deliberate gameplay mutation proofs:
 GODOT_BIN=godot bash tools/test-game.sh --mutations
-godot --headless --path game --export-release Web ../build/web/index.html
+GODOT_BIN=godot bash tools/export-web.sh
 ```
 
-Install the matching Godot web export templates before exporting. GitHub Actions publishes the checked-in web build to Pages.
+Install the matching Godot web export templates before exporting. The export helper rebuilds the nine shipped textures with maximum lossless compression effort, including when an older editor cache exists. GitHub Actions publishes the checked-in web build to Pages.
 
 The `art/` directory retains candidate frames, prompts, normalization records and independent reviews. Copied upstream specification documents retain historical status statements; the release notes describe the actual shipped preview.

@@ -1,0 +1,33 @@
+{
+  "source_textures": [
+    "res://assets/atlas/page-00.png",
+    "res://assets/atlas/page-01.png",
+    "res://assets/atlas/page-02.png",
+    "res://assets/atlas/page-03.png",
+    "res://assets/atlas/page-04.png",
+    "res://assets/background/bg_sky/panel.png",
+    "res://assets/background/bg_distant_silhouette/panel.png",
+    "res://assets/background/bg_midground_arch/panel.png",
+    "res://assets/background/bg_foreground_frame/panel.png"
+  ],
+  "removed_generated_cache_files": [
+    "game/.godot/imported/page-00.png-6fcaa0140644162b1e54ed062b8765af.ctex",
+    "game/.godot/imported/page-00.png-6fcaa0140644162b1e54ed062b8765af.md5",
+    "game/.godot/imported/page-01.png-12d6fd37ef03b0459c452f96b71c1354.ctex",
+    "game/.godot/imported/page-01.png-12d6fd37ef03b0459c452f96b71c1354.md5",
+    "game/.godot/imported/page-02.png-6722f8ba30fcc285f7ea8fec75594791.ctex",
+    "game/.godot/imported/page-02.png-6722f8ba30fcc285f7ea8fec75594791.md5",
+    "game/.godot/imported/page-03.png-1df6454952a845eda8d68b50f4dbb180.ctex",
+    "game/.godot/imported/page-03.png-1df6454952a845eda8d68b50f4dbb180.md5",
+    "game/.godot/imported/page-04.png-a37162fa35bfe16e628e082f26d7777f.ctex",
+    "game/.godot/imported/page-04.png-a37162fa35bfe16e628e082f26d7777f.md5",
+    "game/.godot/imported/panel.png-0a4a0b6c1cab5cc998e099fe86baf8d0.ctex",
+    "game/.godot/imported/panel.png-0a4a0b6c1cab5cc998e099fe86baf8d0.md5",
+    "game/.godot/imported/panel.png-c660e61e1bea1ce49caa169129a84ab3.ctex",
+    "game/.godot/imported/panel.png-c660e61e1bea1ce49caa169129a84ab3.md5",
+    "game/.godot/imported/panel.png-622ae17b3b1b30bef2e6e36161cdc0b6.ctex",
+    "game/.godot/imported/panel.png-622ae17b3b1b30bef2e6e36161cdc0b6.md5",
+    "game/.godot/imported/panel.png-9951dab3c15581b8967a3f2a7c29013d.ctex",
+    "game/.godot/imported/panel.png-9951dab3c15581b8967a3f2a7c29013d.md5"
+  ]
+}
